@@ -1,4 +1,4 @@
-# Contract Sentinel 0.16 — setup and operating guide
+# Contract Sentinel 0.17 — setup and operating guide
 
 Product promise: Follow government-contract developments affecting companies you research, understand what changed, and verify the evidence quickly.
 
@@ -94,3 +94,9 @@ Review a pair as related or distinct and record a reason. Decisions persist priv
 Matcher version 2 adds reworded headlines with a shared exact research-company tag or reported contract ID, compatible non-unclear provisional event types, equal extracted amount/currency, identical numeric token sets and at least 65% subject-token overlap. Three shared subject terms are required with an extracted amount, four without one. Research tags and extracted identifiers do not establish verified ownership or award identity. Stopwords and generic award/amount phrases are excluded from overlap. Candidates remain review leads; displayed overlap is a text metric, not a probability or measured matching precision.
 
 Publication dates, URLs, source content hashes and matcher version now bind review IDs. Older decisions remain readable in the historical-review panel when evidence or matcher criteria change. Matching is bounded to 500 candidate pairs; only the first 50 historical decisions appear in the panel. No evidence is merged or alert automatically suppressed. Coverage/recall and real-world match accuracy have not been measured.
+
+## Reviewed-repeat alert visibility
+
+The inbox offers KEEP THIS ALERT / HIDE REVIEWED RELATED MATCH only for a current related-announcement decision and two initial-match alerts from the same rule. Both detection-time event snapshots must agree on classifier version, provisional event type, reported contract identifier, extracted amount/currency, obligations and allocation; source hashes must still match the review. Legacy alerts without content hashes/snapshots, evidence updates, funding/document changes and loaded-award matches are ineligible.
+
+Hiding is a manual visibility preference, not deletion or event merging. Hidden history remains available through Include manually hidden related repeats, with a restore action. Visible-unread and total-unread counts are distinct, and read states do not change. Revoked/stale reviews or changed evidence automatically invalidate the hide preference. A hidden alert cannot become the kept alert in another hide chain. Visibility decisions and action history persist privately in alert-visibility.json. Automatic duplicate suppression and verified-event merge/split remain pending.
