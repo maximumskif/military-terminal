@@ -1,0 +1,520 @@
+{
+  "benchmarkVersion": 1,
+  "fixtureHash": "059e55dee3c03568db866078da26c83e9136c55e50191c4dc39609a29abb9e0f",
+  "classifierVersion": 5,
+  "generatedAt": "2026-09-30T21:47:30.878Z",
+  "scope": "Small development benchmark: headline-stage interpretation, conservative candidate selection, and entity abstention. Not independent human review or production accuracy.",
+  "classification": {
+    "sampleSize": 31,
+    "accuracy": 0.9032258064516129,
+    "perClass": [
+      {
+        "label": "CANCELLATION_OR_TERMINATION",
+        "support": 2,
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1,
+        "recall": 1
+      },
+      {
+        "label": "CONTRACT_MODIFICATION",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1,
+        "recall": 1
+      },
+      {
+        "label": "CONTRACT_VEHICLE_AWARD",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1,
+        "recall": 1
+      },
+      {
+        "label": "DEFINITIVE_CONTRACT_AWARD",
+        "support": 6,
+        "tp": 5,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1,
+        "recall": 0.8333333333333334
+      },
+      {
+        "label": "DOWN_SELECTION",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1,
+        "recall": 1
+      },
+      {
+        "label": "DRAFT_SOLICITATION",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1,
+        "recall": 1
+      },
+      {
+        "label": "ENACTED_FUNDING",
+        "support": 1,
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": null,
+        "recall": 0
+      },
+      {
+        "label": "FINAL_SOLICITATION",
+        "support": 1,
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": null,
+        "recall": 0
+      },
+      {
+        "label": "FUNDED_TASK_OR_DELIVERY_ORDER",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1,
+        "recall": 1
+      },
+      {
+        "label": "GRANT",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1,
+        "recall": 1
+      },
+      {
+        "label": "INDUSTRIAL_EXPANSION",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1,
+        "recall": 1
+      },
+      {
+        "label": "LOAN_OR_GUARANTEE",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1,
+        "recall": 1
+      },
+      {
+        "label": "OPTION_EXERCISE",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1,
+        "recall": 1
+      },
+      {
+        "label": "OTHER_OR_UNCLEAR",
+        "support": 6,
+        "tp": 6,
+        "fp": 3,
+        "fn": 0,
+        "precision": 0.6666666666666666,
+        "recall": 1
+      },
+      {
+        "label": "PROCUREMENT_FORECAST",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1,
+        "recall": 1
+      },
+      {
+        "label": "PRODUCTION_TRANSITION",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1,
+        "recall": 1
+      },
+      {
+        "label": "PROPOSED_FUNDING",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1,
+        "recall": 1
+      },
+      {
+        "label": "PROTEST_OR_CORRECTIVE_ACTION",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1,
+        "recall": 1
+      },
+      {
+        "label": "PROTOTYPE_AWARD",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1,
+        "recall": 1
+      },
+      {
+        "label": "SOURCES_SOUGHT_RFI",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1,
+        "recall": 1
+      }
+    ],
+    "failures": [
+      {
+        "id": "constructed-03",
+        "origin": "constructed_control",
+        "expected": "DEFINITIVE_CONTRACT_AWARD",
+        "actual": "OTHER_OR_UNCLEAR",
+        "rationale": "Colloquial award verb; expected recall challenge.",
+        "title": "Company nabs $50 million contract for naval radar",
+        "provisional": true,
+        "fundingUnknown": true
+      },
+      {
+        "id": "constructed-13",
+        "origin": "constructed_control",
+        "expected": "FINAL_SOLICITATION",
+        "actual": "OTHER_OR_UNCLEAR",
+        "rationale": "Final solicitation wording.",
+        "title": "Agency issued a request for proposals for radar",
+        "provisional": true,
+        "fundingUnknown": true
+      },
+      {
+        "id": "constructed-17",
+        "origin": "constructed_control",
+        "expected": "ENACTED_FUNDING",
+        "actual": "OTHER_OR_UNCLEAR",
+        "rationale": "Enactment is not recipient allocation.",
+        "title": "Appropriations enacted for radar programs",
+        "provisional": true,
+        "fundingUnknown": true
+      }
+    ]
+  },
+  "classificationByOrigin": {
+    "constructed_control": {
+      "sampleSize": 27,
+      "accuracy": 0.8888888888888888,
+      "perClass": [
+        {
+          "label": "CANCELLATION_OR_TERMINATION",
+          "support": 2,
+          "tp": 2,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1,
+          "recall": 1
+        },
+        {
+          "label": "CONTRACT_MODIFICATION",
+          "support": 1,
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1,
+          "recall": 1
+        },
+        {
+          "label": "CONTRACT_VEHICLE_AWARD",
+          "support": 1,
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1,
+          "recall": 1
+        },
+        {
+          "label": "DEFINITIVE_CONTRACT_AWARD",
+          "support": 4,
+          "tp": 3,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1,
+          "recall": 0.75
+        },
+        {
+          "label": "DOWN_SELECTION",
+          "support": 1,
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1,
+          "recall": 1
+        },
+        {
+          "label": "DRAFT_SOLICITATION",
+          "support": 1,
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1,
+          "recall": 1
+        },
+        {
+          "label": "ENACTED_FUNDING",
+          "support": 1,
+          "tp": 0,
+          "fp": 0,
+          "fn": 1,
+          "precision": null,
+          "recall": 0
+        },
+        {
+          "label": "FINAL_SOLICITATION",
+          "support": 1,
+          "tp": 0,
+          "fp": 0,
+          "fn": 1,
+          "precision": null,
+          "recall": 0
+        },
+        {
+          "label": "FUNDED_TASK_OR_DELIVERY_ORDER",
+          "support": 1,
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1,
+          "recall": 1
+        },
+        {
+          "label": "GRANT",
+          "support": 1,
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1,
+          "recall": 1
+        },
+        {
+          "label": "INDUSTRIAL_EXPANSION",
+          "support": 1,
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1,
+          "recall": 1
+        },
+        {
+          "label": "LOAN_OR_GUARANTEE",
+          "support": 1,
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1,
+          "recall": 1
+        },
+        {
+          "label": "OPTION_EXERCISE",
+          "support": 1,
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1,
+          "recall": 1
+        },
+        {
+          "label": "OTHER_OR_UNCLEAR",
+          "support": 4,
+          "tp": 4,
+          "fp": 3,
+          "fn": 0,
+          "precision": 0.5714285714285714,
+          "recall": 1
+        },
+        {
+          "label": "PROCUREMENT_FORECAST",
+          "support": 1,
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1,
+          "recall": 1
+        },
+        {
+          "label": "PRODUCTION_TRANSITION",
+          "support": 1,
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1,
+          "recall": 1
+        },
+        {
+          "label": "PROPOSED_FUNDING",
+          "support": 1,
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1,
+          "recall": 1
+        },
+        {
+          "label": "PROTEST_OR_CORRECTIVE_ACTION",
+          "support": 1,
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1,
+          "recall": 1
+        },
+        {
+          "label": "PROTOTYPE_AWARD",
+          "support": 1,
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1,
+          "recall": 1
+        },
+        {
+          "label": "SOURCES_SOUGHT_RFI",
+          "support": 1,
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1,
+          "recall": 1
+        }
+      ],
+      "failures": [
+        {
+          "id": "constructed-03",
+          "origin": "constructed_control",
+          "expected": "DEFINITIVE_CONTRACT_AWARD",
+          "actual": "OTHER_OR_UNCLEAR",
+          "rationale": "Colloquial award verb; expected recall challenge.",
+          "title": "Company nabs $50 million contract for naval radar",
+          "provisional": true,
+          "fundingUnknown": true
+        },
+        {
+          "id": "constructed-13",
+          "origin": "constructed_control",
+          "expected": "FINAL_SOLICITATION",
+          "actual": "OTHER_OR_UNCLEAR",
+          "rationale": "Final solicitation wording.",
+          "title": "Agency issued a request for proposals for radar",
+          "provisional": true,
+          "fundingUnknown": true
+        },
+        {
+          "id": "constructed-17",
+          "origin": "constructed_control",
+          "expected": "ENACTED_FUNDING",
+          "actual": "OTHER_OR_UNCLEAR",
+          "rationale": "Enactment is not recipient allocation.",
+          "title": "Appropriations enacted for radar programs",
+          "provisional": true,
+          "fundingUnknown": true
+        }
+      ]
+    },
+    "collected_headline": {
+      "sampleSize": 4,
+      "accuracy": 1,
+      "perClass": [
+        {
+          "label": "DEFINITIVE_CONTRACT_AWARD",
+          "support": 2,
+          "tp": 2,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1,
+          "recall": 1
+        },
+        {
+          "label": "OTHER_OR_UNCLEAR",
+          "support": 2,
+          "tp": 2,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1,
+          "recall": 1
+        }
+      ],
+      "failures": []
+    }
+  },
+  "entityResolution": {
+    "sampleSize": 6,
+    "accuracy": 1,
+    "perClass": [
+      {
+        "label": "unresolved",
+        "support": 6,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1,
+        "recall": 1
+      }
+    ],
+    "failures": [],
+    "unresolved": 6,
+    "verifiedPositiveExamples": 0,
+    "limitation": "Only abstention controls; verified recipient-binding accuracy remains unmeasured."
+  },
+  "duplicateCandidateSelection": {
+    "sampleSize": 10,
+    "accuracy": 1,
+    "perClass": [
+      {
+        "label": "candidate",
+        "support": 2,
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1,
+        "recall": 1
+      },
+      {
+        "label": "excluded",
+        "support": 8,
+        "tp": 8,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1,
+        "recall": 1
+      }
+    ],
+    "failures": []
+  },
+  "safety": {
+    "provisionalOnly": true,
+    "noHeadlineObligationPromotion": true
+  },
+  "confirmedClassificationPrecision": null,
+  "targetConfirmedPrecision": 0.95
+}

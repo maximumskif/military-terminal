@@ -1,0 +1,745 @@
+{
+  "version": 1,
+  "labeledAt": "2026-09-30",
+  "labeler": "Codex",
+  "scope": "Small development benchmark: headline-stage interpretation, conservative candidate selection, and entity abstention. Not independent human review or production accuracy.",
+  "events": [
+    {
+      "id": "constructed-01",
+      "origin": "constructed_control",
+      "input": {
+        "title": "Company awarded a $200 million contract for naval radar",
+        "sourceClass": "company_statement",
+        "publishedAt": "2026-09-29",
+        "firstSeen": "2026-09-30T12:00:00Z"
+      },
+      "expected": "DEFINITIVE_CONTRACT_AWARD",
+      "rationale": "Explicit award wording; amount is not an obligation."
+    },
+    {
+      "id": "constructed-02",
+      "origin": "constructed_control",
+      "input": {
+        "title": "Company receives a $50 million contract for support",
+        "sourceClass": "company_statement",
+        "publishedAt": "2026-09-29",
+        "firstSeen": "2026-09-30T12:00:00Z"
+      },
+      "expected": "DEFINITIVE_CONTRACT_AWARD",
+      "rationale": "Explicit receipt of contract."
+    },
+    {
+      "id": "constructed-03",
+      "origin": "constructed_control",
+      "input": {
+        "title": "Company nabs $50 million contract for naval radar",
+        "sourceClass": "company_statement",
+        "publishedAt": "2026-09-29",
+        "firstSeen": "2026-09-30T12:00:00Z"
+      },
+      "expected": "DEFINITIVE_CONTRACT_AWARD",
+      "rationale": "Colloquial award verb; expected recall challenge."
+    },
+    {
+      "id": "constructed-04",
+      "origin": "constructed_control",
+      "input": {
+        "title": "Company may win a $200 million contract",
+        "sourceClass": "company_statement",
+        "publishedAt": "2026-09-29",
+        "firstSeen": "2026-09-30T12:00:00Z"
+      },
+      "expected": "OTHER_OR_UNCLEAR",
+      "rationale": "Speculation does not establish an award."
+    },
+    {
+      "id": "constructed-05",
+      "origin": "constructed_control",
+      "input": {
+        "title": "Company was not awarded a radar contract",
+        "sourceClass": "company_statement",
+        "publishedAt": "2026-09-29",
+        "firstSeen": "2026-09-30T12:00:00Z"
+      },
+      "expected": "OTHER_OR_UNCLEAR",
+      "rationale": "Negated award."
+    },
+    {
+      "id": "constructed-06",
+      "origin": "constructed_control",
+      "input": {
+        "title": "Company awarded a $20 million IDIQ contract",
+        "sourceClass": "company_statement",
+        "publishedAt": "2026-09-29",
+        "firstSeen": "2026-09-30T12:00:00Z"
+      },
+      "expected": "CONTRACT_VEHICLE_AWARD",
+      "rationale": "Vehicle ceiling is not guaranteed funding."
+    },
+    {
+      "id": "constructed-07",
+      "origin": "constructed_control",
+      "input": {
+        "title": "IDIQ contract for upcoming procurement",
+        "sourceClass": "company_statement",
+        "publishedAt": "2026-09-29",
+        "firstSeen": "2026-09-30T12:00:00Z"
+      },
+      "expected": "OTHER_OR_UNCLEAR",
+      "rationale": "Vehicle terminology without award action."
+    },
+    {
+      "id": "constructed-08",
+      "origin": "constructed_control",
+      "input": {
+        "title": "Company awarded a prototype contract for testing",
+        "sourceClass": "company_statement",
+        "publishedAt": "2026-09-29",
+        "firstSeen": "2026-09-30T12:00:00Z"
+      },
+      "expected": "PROTOTYPE_AWARD",
+      "rationale": "Prototype stage stated."
+    },
+    {
+      "id": "constructed-09",
+      "origin": "constructed_control",
+      "input": {
+        "title": "Navy issued a funded task order for radar support",
+        "sourceClass": "company_statement",
+        "publishedAt": "2026-09-29",
+        "firstSeen": "2026-09-30T12:00:00Z"
+      },
+      "expected": "FUNDED_TASK_OR_DELIVERY_ORDER",
+      "rationale": "Explicit funded order."
+    },
+    {
+      "id": "constructed-10",
+      "origin": "constructed_control",
+      "input": {
+        "title": "Navy exercised an option on the sustainment contract",
+        "sourceClass": "company_statement",
+        "publishedAt": "2026-09-29",
+        "firstSeen": "2026-09-30T12:00:00Z"
+      },
+      "expected": "OPTION_EXERCISE",
+      "rationale": "Exercise action explicit."
+    },
+    {
+      "id": "constructed-11",
+      "origin": "constructed_control",
+      "input": {
+        "title": "Company awarded a $30 million modification to a contract",
+        "sourceClass": "company_statement",
+        "publishedAt": "2026-09-29",
+        "firstSeen": "2026-09-30T12:00:00Z"
+      },
+      "expected": "CONTRACT_MODIFICATION",
+      "rationale": "Existing-contract modification."
+    },
+    {
+      "id": "constructed-12",
+      "origin": "constructed_control",
+      "input": {
+        "title": "Agency issued a draft solicitation for radar",
+        "sourceClass": "company_statement",
+        "publishedAt": "2026-09-29",
+        "firstSeen": "2026-09-30T12:00:00Z"
+      },
+      "expected": "DRAFT_SOLICITATION",
+      "rationale": "Draft is not final procurement."
+    },
+    {
+      "id": "constructed-13",
+      "origin": "constructed_control",
+      "input": {
+        "title": "Agency issued a request for proposals for radar",
+        "sourceClass": "company_statement",
+        "publishedAt": "2026-09-29",
+        "firstSeen": "2026-09-30T12:00:00Z"
+      },
+      "expected": "FINAL_SOLICITATION",
+      "rationale": "Final solicitation wording."
+    },
+    {
+      "id": "constructed-14",
+      "origin": "constructed_control",
+      "input": {
+        "title": "Agency published sources sought for radar",
+        "sourceClass": "company_statement",
+        "publishedAt": "2026-09-29",
+        "firstSeen": "2026-09-30T12:00:00Z"
+      },
+      "expected": "SOURCES_SOUGHT_RFI",
+      "rationale": "Market research stage."
+    },
+    {
+      "id": "constructed-15",
+      "origin": "constructed_control",
+      "input": {
+        "title": "Agency publishes procurement forecast for 2027",
+        "sourceClass": "company_statement",
+        "publishedAt": "2026-09-29",
+        "firstSeen": "2026-09-30T12:00:00Z"
+      },
+      "expected": "PROCUREMENT_FORECAST",
+      "rationale": "Forecast, not an award."
+    },
+    {
+      "id": "constructed-16",
+      "origin": "constructed_control",
+      "input": {
+        "title": "Budget request includes proposed funding for radar",
+        "sourceClass": "company_statement",
+        "publishedAt": "2026-09-29",
+        "firstSeen": "2026-09-30T12:00:00Z"
+      },
+      "expected": "PROPOSED_FUNDING",
+      "rationale": "Proposal is not enacted or awarded."
+    },
+    {
+      "id": "constructed-17",
+      "origin": "constructed_control",
+      "input": {
+        "title": "Appropriations enacted for radar programs",
+        "sourceClass": "company_statement",
+        "publishedAt": "2026-09-29",
+        "firstSeen": "2026-09-30T12:00:00Z"
+      },
+      "expected": "ENACTED_FUNDING",
+      "rationale": "Enactment is not recipient allocation."
+    },
+    {
+      "id": "constructed-18",
+      "origin": "constructed_control",
+      "input": {
+        "title": "Company selected for negotiations on a radar contract",
+        "sourceClass": "company_statement",
+        "publishedAt": "2026-09-29",
+        "firstSeen": "2026-09-30T12:00:00Z"
+      },
+      "expected": "DOWN_SELECTION",
+      "rationale": "Selection does not prove signed award."
+    },
+    {
+      "id": "constructed-19",
+      "origin": "constructed_control",
+      "input": {
+        "title": "Agency announced full-rate production for radar",
+        "sourceClass": "company_statement",
+        "publishedAt": "2026-09-29",
+        "firstSeen": "2026-09-30T12:00:00Z"
+      },
+      "expected": "PRODUCTION_TRANSITION",
+      "rationale": "Production milestone without new award."
+    },
+    {
+      "id": "constructed-20",
+      "origin": "constructed_control",
+      "input": {
+        "title": "Company awarded a grant for laboratory equipment",
+        "sourceClass": "company_statement",
+        "publishedAt": "2026-09-29",
+        "firstSeen": "2026-09-30T12:00:00Z"
+      },
+      "expected": "GRANT",
+      "rationale": "Grant is not procurement contract."
+    },
+    {
+      "id": "constructed-21",
+      "origin": "constructed_control",
+      "input": {
+        "title": "Agency announces federal loan for manufacturing",
+        "sourceClass": "company_statement",
+        "publishedAt": "2026-09-29",
+        "firstSeen": "2026-09-30T12:00:00Z"
+      },
+      "expected": "LOAN_OR_GUARANTEE",
+      "rationale": "Loan wording."
+    },
+    {
+      "id": "constructed-22",
+      "origin": "constructed_control",
+      "input": {
+        "title": "Company opens a new manufacturing facility",
+        "sourceClass": "company_statement",
+        "publishedAt": "2026-09-29",
+        "firstSeen": "2026-09-30T12:00:00Z"
+      },
+      "expected": "INDUSTRIAL_EXPANSION",
+      "rationale": "Capacity expansion, not awarded dollars."
+    },
+    {
+      "id": "constructed-23",
+      "origin": "constructed_control",
+      "input": {
+        "title": "Radar contract terminated for convenience",
+        "sourceClass": "company_statement",
+        "publishedAt": "2026-09-29",
+        "firstSeen": "2026-09-30T12:00:00Z"
+      },
+      "expected": "CANCELLATION_OR_TERMINATION",
+      "rationale": "Explicit adverse action."
+    },
+    {
+      "id": "constructed-24",
+      "origin": "constructed_control",
+      "input": {
+        "title": "Radar option not exercised",
+        "sourceClass": "company_statement",
+        "publishedAt": "2026-09-29",
+        "firstSeen": "2026-09-30T12:00:00Z"
+      },
+      "expected": "CANCELLATION_OR_TERMINATION",
+      "rationale": "Explicit non-exercise."
+    },
+    {
+      "id": "constructed-25",
+      "origin": "constructed_control",
+      "input": {
+        "title": "Agency announces corrective action after bid protest",
+        "sourceClass": "company_statement",
+        "publishedAt": "2026-09-29",
+        "firstSeen": "2026-09-30T12:00:00Z"
+      },
+      "expected": "PROTEST_OR_CORRECTIVE_ACTION",
+      "rationale": "Protest stage."
+    },
+    {
+      "id": "constructed-26",
+      "origin": "constructed_control",
+      "input": {
+        "title": "Company previously awarded contract last year",
+        "sourceClass": "company_statement",
+        "publishedAt": "2026-09-29",
+        "firstSeen": "2026-09-30T12:00:00Z"
+      },
+      "expected": "DEFINITIVE_CONTRACT_AWARD",
+      "rationale": "Historical wording keeps stage but cannot establish novelty."
+    },
+    {
+      "id": "constructed-27",
+      "origin": "constructed_control",
+      "input": {
+        "title": "Company announces quarterly earnings date",
+        "sourceClass": "company_statement",
+        "publishedAt": "2026-09-29",
+        "firstSeen": "2026-09-30T12:00:00Z"
+      },
+      "expected": "OTHER_OR_UNCLEAR",
+      "rationale": "Unrelated corporate announcement."
+    },
+    {
+      "id": "collected-27",
+      "origin": "collected_headline",
+      "input": {
+        "title": "RTX's Raytheon awarded $20.7 billion multi-year contract for AMRAAM under landmark production agreement",
+        "url": "https://www.rtx.com/news/news-center/2026/09/28/rtxs-raytheon-awarded-20-7-billion-multi-year-contract-for-amraam-under-landmar",
+        "publishedAt": "Mon, 28 Sep 2026 21:10:00 Z",
+        "firstSeen": "2026-09-30T03:06:24.803Z",
+        "sourceClass": "company_statement"
+      },
+      "expected": "DEFINITIVE_CONTRACT_AWARD",
+      "rationale": "Award wording; headline value type unverified.",
+      "reviewScope": "headline wording only; original linked document not re-reviewed"
+    },
+    {
+      "id": "collected-28",
+      "origin": "collected_headline",
+      "input": {
+        "title": "RTX's Pratt & Whitney Canada awarded $1 billion JPATS sustainment contract",
+        "url": "https://www.rtx.com/news/news-center/2026/07/20/rtxs-pratt-whitney-canada-awarded-1-billion-jpats-sustainment-contract",
+        "publishedAt": "Mon, 20 Jul 2026 12:30:00 Z",
+        "firstSeen": "2026-09-30T03:06:24.803Z",
+        "sourceClass": "company_statement"
+      },
+      "expected": "DEFINITIVE_CONTRACT_AWARD",
+      "rationale": "Award wording; no obligation allocation verified.",
+      "reviewScope": "headline wording only; original linked document not re-reviewed"
+    },
+    {
+      "id": "collected-29",
+      "origin": "collected_headline",
+      "input": {
+        "title": "RTX to release third quarter earnings results on October 20, 2026",
+        "url": "https://www.rtx.com/news/news-center/2026/09/29/rtx-to-release-third-quarter-earnings-results-on-october-20-2026",
+        "publishedAt": "Tue, 29 Sep 2026 12:00:00 Z",
+        "firstSeen": "2026-09-30T03:06:24.803Z",
+        "sourceClass": "company_statement"
+      },
+      "expected": "OTHER_OR_UNCLEAR",
+      "rationale": "Earnings schedule is not procurement.",
+      "reviewScope": "headline wording only; original linked document not re-reviewed"
+    },
+    {
+      "id": "collected-30",
+      "origin": "collected_headline",
+      "input": {
+        "title": "Inside the GTF Advantage engine",
+        "url": "https://www.rtx.com/news/2026/09/24/inside-the-gtf-advantage-engine",
+        "publishedAt": "Thu, 24 Sep 2026 00:00:00 Z",
+        "firstSeen": "2026-09-30T03:06:24.803Z",
+        "sourceClass": "company_statement"
+      },
+      "expected": "OTHER_OR_UNCLEAR",
+      "rationale": "Product feature headline has no procurement action.",
+      "reviewScope": "headline wording only; original linked document not re-reviewed"
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity-name-0",
+      "input": {
+        "name": "Raytheon"
+      },
+      "asOf": "2026-09-29",
+      "expected": "unresolved",
+      "rationale": "Name alone cannot establish recipient identifier or dated parent."
+    },
+    {
+      "id": "entity-name-1",
+      "input": {
+        "name": "Raytheon Company"
+      },
+      "asOf": "2026-09-29",
+      "expected": "unresolved",
+      "rationale": "Name alone cannot establish recipient identifier or dated parent."
+    },
+    {
+      "id": "entity-name-2",
+      "input": {
+        "name": "RTX"
+      },
+      "asOf": "2026-09-29",
+      "expected": "unresolved",
+      "rationale": "Name alone cannot establish recipient identifier or dated parent."
+    },
+    {
+      "id": "entity-name-3",
+      "input": {
+        "name": "Boeing"
+      },
+      "asOf": "2026-09-29",
+      "expected": "unresolved",
+      "rationale": "Name alone cannot establish recipient identifier or dated parent."
+    },
+    {
+      "id": "entity-name-4",
+      "input": {
+        "name": "General Dynamics"
+      },
+      "asOf": "2026-09-29",
+      "expected": "unresolved",
+      "rationale": "Name alone cannot establish recipient identifier or dated parent."
+    },
+    {
+      "id": "entity-unknown-uei",
+      "input": {
+        "name": "Raytheon Company",
+        "uei": "UNKNOWN"
+      },
+      "asOf": "2026-09-29",
+      "expected": "unresolved",
+      "rationale": "Unverified identifier must not assign RTX ticker."
+    }
+  ],
+  "pairs": [
+    {
+      "id": "pair-exact",
+      "origin": "constructed_control",
+      "rows": [
+        {
+          "id": "a",
+          "title": "RTX awarded a $200 million contract for advanced naval radar production systems",
+          "url": "https://prime.example/award",
+          "publishedAt": "2026-09-01",
+          "sourceClass": "company_statement",
+          "sourceId": "prime",
+          "companyMentions": [
+            "RTX"
+          ]
+        },
+        {
+          "id": "b",
+          "title": "RTX awarded a $200 million contract for advanced naval radar production systems",
+          "url": "https://reporter.example/award",
+          "publishedAt": "2026-09-01",
+          "sourceClass": "independent_reporting",
+          "sourceId": "reporter",
+          "companyMentions": [
+            "RTX"
+          ]
+        }
+      ],
+      "expected": true,
+      "rationale": "Exact compatible headline across hosts."
+    },
+    {
+      "id": "pair-reworded",
+      "origin": "constructed_control",
+      "rows": [
+        {
+          "id": "a",
+          "title": "RTX awarded a $200 million contract for advanced naval radar production systems",
+          "url": "https://prime.example/award",
+          "publishedAt": "2026-09-01",
+          "sourceClass": "company_statement",
+          "sourceId": "prime",
+          "companyMentions": [
+            "RTX"
+          ]
+        },
+        {
+          "id": "b",
+          "title": "RTX wins $200 million advanced naval radar systems production contract",
+          "url": "https://reporter.example/award",
+          "publishedAt": "2026-09-01",
+          "sourceClass": "independent_reporting",
+          "sourceId": "reporter",
+          "companyMentions": [
+            "RTX"
+          ]
+        }
+      ],
+      "expected": true,
+      "rationale": "Compatible anchored rewording."
+    },
+    {
+      "id": "pair-unknown-date",
+      "origin": "constructed_control",
+      "rows": [
+        {
+          "id": "a",
+          "title": "RTX awarded a $200 million contract for advanced naval radar production systems",
+          "url": "https://prime.example/award",
+          "publishedAt": "2026-09-01",
+          "sourceClass": "company_statement",
+          "sourceId": "prime",
+          "companyMentions": [
+            "RTX"
+          ]
+        },
+        {
+          "id": "b",
+          "title": "RTX wins $200 million advanced naval radar systems production contract",
+          "url": "https://reporter.example/award",
+          "publishedAt": null,
+          "sourceClass": "independent_reporting",
+          "sourceId": "reporter",
+          "companyMentions": [
+            "RTX"
+          ]
+        }
+      ],
+      "expected": false,
+      "rationale": "Unknown date prevents temporal comparison."
+    },
+    {
+      "id": "pair-late",
+      "origin": "constructed_control",
+      "rows": [
+        {
+          "id": "a",
+          "title": "RTX awarded a $200 million contract for advanced naval radar production systems",
+          "url": "https://prime.example/award",
+          "publishedAt": "2026-09-01",
+          "sourceClass": "company_statement",
+          "sourceId": "prime",
+          "companyMentions": [
+            "RTX"
+          ]
+        },
+        {
+          "id": "b",
+          "title": "RTX wins $200 million advanced naval radar systems production contract",
+          "url": "https://reporter.example/award",
+          "publishedAt": "2026-09-20",
+          "sourceClass": "independent_reporting",
+          "sourceId": "reporter",
+          "companyMentions": [
+            "RTX"
+          ]
+        }
+      ],
+      "expected": false,
+      "rationale": "Outside seven-day window."
+    },
+    {
+      "id": "pair-same-host",
+      "origin": "constructed_control",
+      "rows": [
+        {
+          "id": "a",
+          "title": "RTX awarded a $200 million contract for advanced naval radar production systems",
+          "url": "https://prime.example/award",
+          "publishedAt": "2026-09-01",
+          "sourceClass": "company_statement",
+          "sourceId": "prime",
+          "companyMentions": [
+            "RTX"
+          ]
+        },
+        {
+          "id": "b",
+          "title": "RTX wins $200 million advanced naval radar systems production contract",
+          "url": "https://prime.example/award",
+          "publishedAt": "2026-09-01",
+          "sourceClass": "independent_reporting",
+          "sourceId": "reporter",
+          "companyMentions": [
+            "RTX"
+          ]
+        }
+      ],
+      "expected": false,
+      "rationale": "Same publisher host excluded."
+    },
+    {
+      "id": "pair-amount-conflict",
+      "origin": "constructed_control",
+      "rows": [
+        {
+          "id": "a",
+          "title": "RTX awarded a $200 million contract for advanced naval radar production systems",
+          "url": "https://prime.example/award",
+          "publishedAt": "2026-09-01",
+          "sourceClass": "company_statement",
+          "sourceId": "prime",
+          "companyMentions": [
+            "RTX"
+          ]
+        },
+        {
+          "id": "b",
+          "title": "RTX wins $300 million advanced naval radar systems production contract",
+          "url": "https://reporter.example/award",
+          "publishedAt": "2026-09-01",
+          "sourceClass": "independent_reporting",
+          "sourceId": "reporter",
+          "companyMentions": [
+            "RTX"
+          ]
+        }
+      ],
+      "expected": false,
+      "rationale": "Reported values conflict."
+    },
+    {
+      "id": "pair-number-conflict",
+      "origin": "constructed_control",
+      "rows": [
+        {
+          "id": "a",
+          "title": "RTX awarded a $200 million contract for advanced naval radar production systems",
+          "url": "https://prime.example/award",
+          "publishedAt": "2026-09-01",
+          "sourceClass": "company_statement",
+          "sourceId": "prime",
+          "companyMentions": [
+            "RTX"
+          ]
+        },
+        {
+          "id": "b",
+          "title": "RTX wins $200 million advanced naval radar systems production contract for 5 years",
+          "url": "https://reporter.example/award",
+          "publishedAt": "2026-09-01",
+          "sourceClass": "independent_reporting",
+          "sourceId": "reporter",
+          "companyMentions": [
+            "RTX"
+          ]
+        }
+      ],
+      "expected": false,
+      "rationale": "Additional numeric term conflicts."
+    },
+    {
+      "id": "pair-no-anchor",
+      "origin": "constructed_control",
+      "rows": [
+        {
+          "id": "a",
+          "title": "RTX awarded a $200 million contract for advanced naval radar production systems",
+          "url": "https://prime.example/award",
+          "publishedAt": "2026-09-01",
+          "sourceClass": "company_statement",
+          "sourceId": "prime",
+          "companyMentions": [
+            "RTX"
+          ]
+        },
+        {
+          "id": "b",
+          "title": "RTX wins $200 million advanced naval radar systems production contract",
+          "url": "https://reporter.example/award",
+          "publishedAt": "2026-09-01",
+          "sourceClass": "independent_reporting",
+          "sourceId": "reporter",
+          "companyMentions": []
+        }
+      ],
+      "expected": false,
+      "rationale": "No shared company or contract anchor."
+    },
+    {
+      "id": "pair-speculative",
+      "origin": "constructed_control",
+      "rows": [
+        {
+          "id": "a",
+          "title": "RTX awarded a $200 million contract for advanced naval radar production systems",
+          "url": "https://prime.example/award",
+          "publishedAt": "2026-09-01",
+          "sourceClass": "company_statement",
+          "sourceId": "prime",
+          "companyMentions": [
+            "RTX"
+          ]
+        },
+        {
+          "id": "b",
+          "title": "RTX might win $200 million advanced naval radar systems production contract",
+          "url": "https://reporter.example/award",
+          "publishedAt": "2026-09-01",
+          "sourceClass": "independent_reporting",
+          "sourceId": "reporter",
+          "companyMentions": [
+            "RTX"
+          ]
+        }
+      ],
+      "expected": false,
+      "rationale": "Speculative stage differs."
+    },
+    {
+      "id": "pair-different-program",
+      "origin": "constructed_control",
+      "rows": [
+        {
+          "id": "a",
+          "title": "RTX awarded a $200 million contract for advanced naval radar production systems",
+          "url": "https://prime.example/award",
+          "publishedAt": "2026-09-01",
+          "sourceClass": "company_statement",
+          "sourceId": "prime",
+          "companyMentions": [
+            "RTX"
+          ]
+        },
+        {
+          "id": "b",
+          "title": "RTX wins $200 million space communications payload integration contract",
+          "url": "https://reporter.example/award",
+          "publishedAt": "2026-09-01",
+          "sourceClass": "independent_reporting",
+          "sourceId": "reporter",
+          "companyMentions": [
+            "RTX"
+          ]
+        }
+      ],
+      "expected": false,
+      "rationale": "Same amount and company do not establish same subject."
+    }
+  ]
+}
