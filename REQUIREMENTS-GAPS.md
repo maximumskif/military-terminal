@@ -1,3 +1,5 @@
+> Historical plan/milestone. See README.md and IMPLEMENTATION-CHECKLIST.md for current behavior.
+
 # Requirements adoption and implementation sequence
 
 The supplied MONITOR-REQUIREMENTS.md governs the monitor. Alerts support research; they do not imply a buy/sell recommendation, causal stock-price effect, or probability of profit. The public-market focus does not remove coverage of all U.S. agencies or the earlier interest in public-listing evidence.
@@ -30,3 +32,4 @@ Existing headline matches remain unverified research leads. A SEC ticker match a
 7. **Market context and paper evaluation.** Freeze available evidence and quotes at detection. Add session-aware returns, benchmarks, volume, spread and liquidity only with supported data. Evaluate positive and negative cases out of sample with realistic costs. Acceptance: pre-detection price moves never appear as achievable strategy returns, and no automatic trades are generated.
 
 Account handles, political offices, ownership, listings and source URLs must be verified when their adapters are implemented. Saving the user-provided watchlist is not that verification. Market data access and X access remain unconfigured. These parameters introduce implementation requirements, not evidence of a proven trading edge.
+

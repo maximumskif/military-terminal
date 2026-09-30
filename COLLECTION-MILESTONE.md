@@ -1,3 +1,5 @@
+> Historical plan/milestone. See README.md and IMPLEMENTATION-CHECKLIST.md for current behavior.
+
 # Collection milestone and remaining implementation
 
 The governing expansion specification is IMPLEMENTATION-IMPROVEMENTS.md. Its priority order is collection reliability, document evidence and verified events, company research workspace, economic/market context, and measurement.
@@ -24,3 +26,4 @@ Run node worker.cjs with SENTINEL_DATA_DIR set to the desired data directory. A 
 The first manual underlying-document review is DOCUMENT-REVIEW-TOMAHAWK.md. Full document versioning, PDF extraction, automated passage review and program timelines remain pending.
 
 Validation: all six existing test suites pass, including persistent SAM quota/restart/failure/backoff cases and the exclusive writer check. Production credential-backed collection after restarting this milestone has not yet been validated.
+

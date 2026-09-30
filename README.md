@@ -1,26 +1,52 @@
-# Running Contract Sentinel
+# Contract Sentinel 0.9 — setup and operating guide
 
-Start `server.cjs` with Node.js 24 or newer, then open http://127.0.0.1:4175/.
+Product promise: Follow government-contract developments affecting companies you research, understand what changed, and verify the evidence quickly.
 
-No additional packages are required. The collector scans at startup and hourly while the process remains running. Closing the server stops collection. Evidence persists in `work/sentinel-data/evidence.json` in this workspace; do not delete it if you want to retain collection history.
+This README is the authoritative operating guide. DEVELOPMENT-INSTRUCTIONS.md is the current development specification; IMPLEMENTATION-CHECKLIST.md records implementation and acceptance status. Earlier phase plans and milestone reports describe historical states.
 
-The Sources panel shows seven configured public headline collectors and the SEC issuer directory, pending integrations, source health, evidence links and search cues. USAspending award searches are separate live requests. Company mentions are research matches, not verified ownership relationships. Cross-publisher event clustering is future work. Research alert rules, versioned evidence matches and read history are stored in the local alerts.json file alongside evidence.
+## Local startup
 
-SAM and X access require your own account credentials. Do not put credentials in chat or source files. Paid access needs a chosen spending cap before integration. This local build has no hosted deployment.
+Requires Node.js 24+. No additional packages are required. From this project directory, run `node server.cjs`, then open http://127.0.0.1:4175/.
 
-## Funding history
-Inspect a scanner award and choose Funding history. A subaward opens the linked prime history. Saved histories are available under Funding history after reload. Collection is on demand; Refresh checks USAspending again. The funding.json store contains transaction snapshots.
+Set SENTINEL_DATA_DIR to an absolute private data directory before starting. The workspace default is ../../work/sentinel-data relative to the project. The server checks due jobs every minute; normal feeds are scheduled hourly and the SEC issuer directory daily. Failed jobs back off. Closing the collection process stops ingestion.
 
-30/90/365-day comparisons use equal adjacent calendar windows ending on the New York date. Amounts are net obligations, not contract ceilings or company revenue. Percentage change is unavailable for a nonpositive prior baseline. Collection is capped at 2,000 transactions; incomplete histories or invalid/missing values suppress affected totals. Source reporting delays still apply. Company-wide growth rankings are not implemented.
+To separate ingestion from the dashboard, start `node worker.cjs` with the same SENTINEL_DATA_DIR. Start the dashboard with SENTINEL_READ_ONLY=1 and `node server.cjs`. That setting means ingestion is managed by the worker: server alert rules and read states remain editable, and funding/document retrieval remain available. Existing browser watchlists are device-local and remain editable. They are not yet unified with server watchlists.
 
-## SAM notice collection
-SAM access is configured under Source intelligence using the local password field. The key is sent to the loopback server and api.sam.gov only, held in server memory, and cleared when that process stops. It is not retained in this project or evidence exports. A server environment variable SAM_API_KEY is also supported. Rotate any key shared in chat before long-term use.
+Exactly one collector may own the evidence directory. The PID lock and per-store mutation locks apply to processes on one local machine; they are not distributed locks or a hosted multiuser database. Concurrent store writes reload the latest state before committing. A busy store rejects the operation for retry instead of overwriting another writer. Transactional shared storage and account isolation are required before multiuser deployment.
 
-The verified connector collected 300 notices from a seven-day posted-date window that contained 6,188 notices at the first successful scan. This is partial coverage. It follows SAM's documented page-index offsets 0, 1, 2, retains notice metadata and award details when supplied, and marks opportunities separately from award notices. Full descriptions, attachments, all notice versions and historical backfill are not collected.
+## Credentials and optional sources
 
-Collection is capped at three requests per scan and 25 requests per New York day per server process. The local request counter resets on process restart; SAM's own account limits still apply. HTTP errors and diagnostics omit credentials, and cross-host redirects are rejected.
+Use SAM_API_KEY in the collector process environment, or the local SAM form when the dashboard owns ingestion. Form credentials stay in process memory and disappear on restart. A worker-connected dashboard displays the saved collector configuration and disables its key form. The configuration is last reported state, not a guarantee that the worker is alive.
 
-## Structured events
-Source intelligence includes an event-type filter and expandable research records. Classifications are provisional headline/notice-metadata interpretations, with separate evidence dimensions and UNKNOWN financial/identity fields. New alerts freeze their classification at creation; older alerts have no retroactively invented detection-time snapshot. No HIGH priorities or automatic trades arise from headline rules. Linked-document review, event-family deduplication, identity verification and materiality analysis remain pending.
+SAM_DAILY_REQUEST_LIMIT defaults to a conservative local budget of 25, SAM_REQUESTS_PER_SCAN to 3, and SAM_BACKFILL_DAYS to 7. Confirm your actual account allowance before raising limits. Daily accounting persists across restarts, is charged before requests, and cannot count other applications or earlier unrecorded usage. Recent windows refresh while daily backfill resumes with overlap. Mutable pagination and notice history are not represented as exhaustive coverage.
 
-For timestamped sources, publication more than seven days before first detection triggers a conservative stale-publication flag and LOW review priority. This is a review heuristic, not proof of event novelty or the earliest public disclosure.
+X, Reddit, SBIR and SEC filing ingestion remain unconfigured/planned; the SEC ticker directory is operational but does not verify award-recipient ownership. Paid sources are optional and have not been activated.
+
+## Evidence and source health
+
+The evidence endpoint pages and filters on the server, with a maximum 100 records per response (50 by default). The dashboard exposes evidence pages, source class, query and provisional event type filters. No-result searches do not establish absence of activity.
+
+Publication value/precision, first observation, last successful fetch, attempted check and processing time are separate. Cached SAM reprocessing preserves its original successful-fetch time. A 304 response is a successful upstream check; it does not rewrite the evidence's observation time. Legacy records retain known timestamps; missing historical fetch information is not invented.
+
+Health states: healthy, delayed, quota-limited, failing, disabled, and never successfully collected. Panels show successful/attempted checks, next scheduled attempt, failures, quota details where available and historical limits. Freshness is based on successful upstream checks, not the next scheduled attempt.
+
+## Documents and events
+
+RETRIEVE / REVIEW DOCUMENT preserves approved HTML sources and version hashes, extracted passages and comparisons. Prior snapshots remain accessible when a new retrieval fails, with a visible stale-snapshot notice. Extraction and classification versions are recorded. Formatting changes and extraction-version changes are distinguished from source text changes. Fixed approved hosts, HTTPS, pinned public IPv4, no redirects, a 20-second deadline and 5MB limit bound retrieval. PDF and OCR support are pending.
+
+EVENT TIMELINE displays stable provisional source-event IDs, stages and correction history. A source event is distinct from a real-world event verified across publishers. Similar headlines, awards and modifications are never automatically merged. Document passages can contain multiple event candidates; ambiguity is retained. Public-parent identity, ticker assignment, allocation and economics remain unresolved unless supported. Headline currency mentions are extracted amounts, not obligations or revenue. Written amount phrases can support classification while their numeric value stays unknown.
+
+Classifications are cached by evidence hash and classifier version. Existing alert snapshots are retained; reclassification does not rewrite what an old alert said. Server alerts deduplicate by rule, source evidence and content hash. Cross-publisher deduplication, material-change alerts and unified browser/server alerts remain pending.
+
+## Funding
+
+Funding history loads selected prime transactions from USAspending; subawards link to their prime. Saved histories persist. Refresh is on demand, capped at 2,000 transactions. Missing or invalid values and incomplete collection suppress affected totals. Signed net obligations, positive funding and deobligations remain separate from ceilings and revenue. 30/90/365-day windows compare equal adjacent New York calendar periods; percentage change requires a positive prior net. Reporting delays still apply.
+
+## Validation and backups
+
+`npm test` runs the regression suites. They cover status polling during SAM collection, killed jobs and recovery, realistic event wording, timestamps, source health, independent-dashboard writes, shared funding commits, document failures and event corrections. These tests do not establish measured production classification precision or provider uptime.
+
+Source and documentation are backed up to the public GitHub repository. Credentials, collected documents, runtime evidence, notes and alert state must remain private and are excluded. This workspace also maintains a separate private runtime archive. Hosted authentication, subscriptions, email delivery and production deployment are not enabled.
+
+## Reviewed identity evidence
+The first corporate relationship ledger is visible in Source Intelligence. Each link retains primary filing passages, effective/observed dates and limitations. The Raytheon Company/RTX entry is dated corporate evidence; it does not create a government recipient binding. See ENTITY-REVIEW-RTX.md.

@@ -1,6 +1,7 @@
 const fs = require('node:fs');
 const path = require('node:path');
 const { easternToday } = require('./funding-analysis.cjs');
+const {atomicJson}=require('./storage.cjs');
 const ENDPOINT = 'https://api.sam.gov/opportunities/v2/search';
 
 function integer(value, fallback, max) {
@@ -24,6 +25,7 @@ function createCheckpointCollector(dataDir, normalizeNotice, options = {}) {
     state = JSON.parse(fs.readFileSync(file));
     if (state.version !== 1 || !state.windows || !state.usage || !Array.isArray(state.history)) throw new Error('Invalid SAM checkpoints; preserved for recovery');
   }
+  if(!options.readOnly)for(const attempt of state.history)if(attempt.status==='started'){attempt.status='interrupted_unknown_outcome';attempt.recoveredAt=new Date().toISOString();}
   const dailyLimit = integer(options.dailyLimit ?? process.env.SAM_DAILY_REQUEST_LIMIT, 25, 10000);
   const requestsPerScan = integer(options.requestsPerScan ?? process.env.SAM_REQUESTS_PER_SCAN, 3, 20);
   const backfillDays = integer(options.backfillDays ?? process.env.SAM_BACKFILL_DAYS, 7, 365);
@@ -32,8 +34,7 @@ function createCheckpointCollector(dataDir, normalizeNotice, options = {}) {
   let busy = false;
 
   function save() {
-    fs.writeFileSync(file + '.tmp', JSON.stringify(state, null, 2));
-    fs.renameSync(file + '.tmp', file);
+    atomicJson(file,state);
   }
   function initializeWindows(day) {
     for (let i = 0; i < backfillDays; i++) {
@@ -47,19 +48,19 @@ function createCheckpointCollector(dataDir, normalizeNotice, options = {}) {
     save();
   }
   function status() {
-    if(fs.existsSync(file)) state=JSON.parse(fs.readFileSync(file));
+    const snapshot = options.readOnly && fs.existsSync(file) ? JSON.parse(fs.readFileSync(file)) : state;
     const day = today();
-    const used = state.usage[day] || 0;
-    const windows = Object.values(state.windows).sort((a, b) => a.date.localeCompare(b.date)).map(w => ({
+    const used = snapshot.usage[day] || 0;
+    const windows = Object.values(snapshot.windows).sort((a, b) => a.date.localeCompare(b.date)).map(w => ({
       date: w.date, nextPage: w.nextPage, pagesRead: w.pagesRead,
       collected: Object.keys(w.notices).length, reportedTotal: w.reportedTotal,
       passExhaustedAt: w.passExhaustedAt, lastSuccess: w.lastSuccess, retryAt: w.retryAt,
       status: !w.passExhaustedAt ? 'incomplete' : Object.keys(w.notices).length < (w.reportedTotal || 0) ? 'gaps_after_pass' : 'pass_exhausted_not_snapshot'
     }));
-    const backoff = state.backoffUntil && Date.parse(state.backoffUntil) > clock().getTime() ? state.backoffUntil : null;
+    const backoff = snapshot.backoffUntil && Date.parse(snapshot.backoffUntil) > clock().getTime() ? snapshot.backoffUntil : null;
     return { day, used, dailyLimit, remaining: Math.max(0, dailyLimit - used), requestsPerScan,
       nextEligibleAt: backoff || (used >= dailyLimit ? `After the next ${'America/New_York'} calendar-day quota window` : 'Eligible now'),
-      quotaTimezone: 'America/New_York', windows, requestHistory: state.history.slice(-25) };
+      quotaTimezone: 'America/New_York', windows, requestHistory: structuredClone(snapshot.history.slice(-25)) };
   }
   async function readPage(key, window, page, kind, signal) {
     const day = today();
@@ -99,7 +100,7 @@ function createCheckpointCollector(dataDir, normalizeNotice, options = {}) {
       if (!Array.isArray(data.opportunitiesData) || !Number.isInteger(data.totalRecords) || data.totalRecords < 0 || data.opportunitiesData.length > 100) throw new Error('Invalid SAM response shape');
       const records = data.opportunitiesData.map(normalizeNotice);
       if (!records.length && page * 100 < data.totalRecords) throw new Error("SAM pagination gap; checkpoint preserved");
-      for (const record of records) window.notices[record.noticeId] = record;
+      for (const record of records) window.notices[record.noticeId] = {...record,last_successful_fetch_at:clock().toISOString(),last_attempted_check_at:clock().toISOString()};
       window.reportedTotal = data.totalRecords;
       if (kind === "priority_refresh" && window.nextPage * 100 < data.totalRecords) window.passExhaustedAt = null;
       window.pagesRead++;
@@ -121,6 +122,7 @@ function createCheckpointCollector(dataDir, normalizeNotice, options = {}) {
     }
   }
   async function collect(key) {
+    if (options.readOnly) throw new Error("Read-only SAM adapter");
     if (busy) throw new Error('SAM collection already running');
     busy = true;
     const errors = []; let successfulRequests = 0; const touched = new Set();

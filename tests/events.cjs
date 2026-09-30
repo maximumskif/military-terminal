@@ -13,3 +13,5 @@ assert.equal(classify(row('Budget request for satellites')).priority,'LOW');
 assert.equal(classify({...row('Company awarded a contract'),publishedAt:'2026-08-01T12:00:00Z'}).priority,'LOW');
 assert.equal(timestamp('2026-02-30').precision,'invalid_date');
 for(const [text,type] of [['Prototype agreement awarded','PROTOTYPE_AWARD'],['Procurement forecast published','PROCUREMENT_FORECAST'],['Request for proposals for satellite program','FINAL_SOLICITATION'],['Full-rate production transition','PRODUCTION_TRANSITION']])assert.equal(classify(row(text)).eventType,type);
+
+assert.equal(timestamp('Tue, 13 Jan 2026 12:00:17 EDT').value,'2026-01-13T16:00:17.000Z');assert.equal(classify({...row('GSA awards leasing support contract'),publishedAt:'Tue, 13 Jan 2026 12:00:17 EDT'}).priority,'LOW');

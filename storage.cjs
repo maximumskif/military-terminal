@@ -1,0 +1,4 @@
+const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');
+function atomicJson(file,value){const temporary=file+'.'+crypto.randomUUID()+'.tmp';let fd;try{fd=fs.openSync(temporary,'wx');fs.writeFileSync(fd,JSON.stringify(value,null,2));fs.fsyncSync(fd);fs.closeSync(fd);fd=null;fs.renameSync(temporary,file);}finally{if(fd!=null)fs.closeSync(fd);if(fs.existsSync(temporary))fs.unlinkSync(temporary);}}
+function fileLock(file){const lock=file+'.lock',token=crypto.randomUUID();if(fs.existsSync(lock)){const existing=JSON.parse(fs.readFileSync(lock));let alive=true;try{process.kill(existing.pid,0)}catch(e){if(e.code==='ESRCH')alive=false;else throw e}if(alive)throw new Error('Shared store busy; retry shortly');fs.unlinkSync(lock);}fs.writeFileSync(lock,JSON.stringify({pid:process.pid,token}),{flag:'wx'});return()=>{if(fs.existsSync(lock)&&JSON.parse(fs.readFileSync(lock)).token===token)fs.unlinkSync(lock)};}
+module.exports={atomicJson,fileLock};

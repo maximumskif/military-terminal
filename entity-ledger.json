@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-09-30",
+  "entities": [
+    {"id":"sec:0000101829","legalName":"RTX Corporation","cik":"0000101829","uei":null,"cage":null,"publicListing":{"ticker":"RTX","exchange":"NYSE","evidenceAsOf":"2026-06-30","sourceUrl":"https://www.sec.gov/Archives/edgar/data/101829/000010182926000027/rtx-20260630.htm","sourceSection":"Cover page, registered securities table","supportingPassage":"Common Stock ($1 par value) | RTX | New York Stock Exchange"}},
+    {"id":"legal:raytheon-company","legalName":"Raytheon Company","cik":null,"uei":null,"cage":null}
+  ],
+  "relationships": [
+    {"id":"relationship:raytheon-rtx","childId":"legal:raytheon-company","parentId":"sec:0000101829","type":"subsidiary","reviewStatus":"reviewed_primary_filing","effectiveFrom":"2020-04-03","effectiveUntil":null,"evidenceAsOf":"2025-12-31","ownershipPercentage":null,"observedAt":"2026-09-30","sources":[{"url":"https://www.sec.gov/Archives/edgar/data/101829/000010182925000032/rtx-20250630.htm","section":"Note 1, Basis of Presentation","supportingPassage":"became a wholly owned subsidiary of RTX on April 3, 2020","scope":"Supports acquisition date and wholly owned status in this filing; does not bind a SAM recipient identifier"},{"url":"https://www.sec.gov/Archives/edgar/data/101829/000010182926000006/exhibit212025-12x3110xk.htm","section":"Exhibit 21, December 31, 2025 listing","supportingPassage":"Raytheon Company | Delaware","scope":"Lists the legal entity; does not establish government recipient UEI or ownership after the stated date"}],"limitations":["Latest reviewed relationship evidence is dated 2025-12-31","Raytheon brand mentions are not a legal-recipient match","No recipient UEI/CAGE binding has been verified","Unknown percentage in this relationship snapshot; earlier filing separately states wholly owned","Historical name and listing changes are not fully modeled"]}
+  ]
+}

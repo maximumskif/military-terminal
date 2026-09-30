@@ -1,3 +1,5 @@
+> Historical plan/milestone. See README.md and IMPLEMENTATION-CHECKLIST.md for current behavior.
+
 # Contract Sentinel — implementation plan
 
 ## Current build: v0.7
@@ -117,4 +119,5 @@ Example research queries: `"company legal name" "task order"`; `"prime name" "se
 - Agency announcements and prime/supplier releases — initial NASA, RTX and Lockheed Martin headline collectors active, each with explicit source coverage.
 
 No system can guarantee visibility into all subcontracting, classified activity, confidential IPO plans or private social content. Coverage must be inspectable rather than claimed as complete.
+
 
