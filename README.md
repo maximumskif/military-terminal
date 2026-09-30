@@ -19,3 +19,8 @@ SAM access is configured under Source intelligence using the local password fiel
 The verified connector collected 300 notices from a seven-day posted-date window that contained 6,188 notices at the first successful scan. This is partial coverage. It follows SAM's documented page-index offsets 0, 1, 2, retains notice metadata and award details when supplied, and marks opportunities separately from award notices. Full descriptions, attachments, all notice versions and historical backfill are not collected.
 
 Collection is capped at three requests per scan and 25 requests per New York day per server process. The local request counter resets on process restart; SAM's own account limits still apply. HTTP errors and diagnostics omit credentials, and cross-host redirects are rejected.
+
+## Structured events
+Source intelligence includes an event-type filter and expandable research records. Classifications are provisional headline/notice-metadata interpretations, with separate evidence dimensions and UNKNOWN financial/identity fields. New alerts freeze their classification at creation; older alerts have no retroactively invented detection-time snapshot. No HIGH priorities or automatic trades arise from headline rules. Linked-document review, event-family deduplication, identity verification and materiality analysis remain pending.
+
+For timestamped sources, publication more than seven days before first detection triggers a conservative stale-publication flag and LOW review priority. This is a review heuristic, not proof of event novelty or the earliest public disclosure.

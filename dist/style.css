@@ -4,3 +4,5 @@
 
 nav{flex-wrap:wrap}#fundingSummary>.panel{padding:18px;margin-bottom:20px}#fundingSummary h3{overflow-wrap:anywhere}#fundingSummary .metrics{grid-template-columns:repeat(3,minmax(0,1fr));margin-top:20px}#fundingSummary .metrics strong{font-size:clamp(18px,2.3vw,29px);overflow-wrap:anywhere}#funding .evidence-controls label{min-width:0}#funding select{min-width:0}#funding td{min-width:140px}@media(max-width:600px){#fundingSummary .metrics{grid-template-columns:1fr}#fundingSummary .metrics article{border-right:0;border-bottom:1px solid var(--line)}}
 @media(max-width:800px){#fundingSummary .metrics{grid-template-columns:1fr}#fundingSummary .metrics article{border-right:0;border-bottom:1px solid var(--line)}}
+
+.event-details{margin-top:16px;border:1px solid var(--line);padding:14px}.event-details summary{cursor:pointer;color:var(--bright);font-size:13px}.event-details dl{font-size:13px;overflow-wrap:anywhere}.event-details dt{margin-top:12px}.event-details dd{margin-left:0}.event-details p{font-size:13px}
