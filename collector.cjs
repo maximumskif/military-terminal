@@ -66,7 +66,7 @@ function createCollector(dataDir, options = {}) {
       if (source.kind === 'sam') {
         const result = await sam.collect(); records = result.records; coverage = result.coverage;
       } else {
-        const headers = { 'User-Agent': 'ContractSentinel/0.11 public-feed-research', Accept: 'application/rss+xml, application/atom+xml, text/html;q=0.8' };
+        const headers = { 'User-Agent': 'ContractSentinel/0.12 public-feed-research', Accept: 'application/rss+xml, application/atom+xml, text/html;q=0.8' };
         if (previous?.etag) headers['If-None-Match'] = previous.etag;
         const response = await fetch(source.url, { headers, signal: AbortSignal.timeout(20000) });
         if (response.status === 304) { store.health[source.id] = { ...previous, status:'healthy',checkedAt:now,lastSuccess:new Date().toISOString(),last_successful_fetch_at:new Date().toISOString(),last_attempted_check_at:now, error: null, reason: null }; store.jobs[source.id].failures=0; return 0; }
@@ -147,7 +147,7 @@ function createCollector(dataDir, options = {}) {
   }
   function getEvidence(id){if(readOnly)reload();return store.evidence.find(r=>r.id===id)||null;}
   return {
-    scan,snapshot,getEvidence,queryEvents:events.query,close:release,
+    scan,snapshot,getEvidence,evaluateAwards:alerts.evaluateAwards,queryEvents:events.query,close:release,
     setSamKey(value) { writable(); sam.setKey(value);store.collectorConfiguration={samConfigured:sam.configured(),checkedAt:new Date().toISOString()}; store.health['sam-opportunities'] = {...store.health['sam-opportunities'],status: sam.configured() ? 'configured_not_scanned' : 'needs_access_or_adapter', reason: sam.configured() ? 'Key held in server memory; scan to verify access' : 'Configure a SAM API key locally' }; save(); },
     addRule(input) { if(readOnly)reload();const rule = alerts.addRule(input); alerts.evaluate(store.evidence); return rule; },
     removeRule(id) { return alerts.removeRule(id); }, markAlertRead(id) { return alerts.markRead(id); }

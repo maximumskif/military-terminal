@@ -1,4 +1,4 @@
-# Contract Sentinel 0.11 — setup and operating guide
+# Contract Sentinel 0.12 — setup and operating guide
 
 Product promise: Follow government-contract developments affecting companies you research, understand what changed, and verify the evidence quickly.
 
@@ -36,7 +36,7 @@ RETRIEVE / REVIEW DOCUMENT preserves approved HTML sources and version hashes, e
 
 EVENT TIMELINE displays stable provisional source-event IDs, stages and correction history. A source event is distinct from a real-world event verified across publishers. Similar headlines, awards and modifications are never automatically merged. Document passages can contain multiple event candidates; ambiguity is retained. Public-parent identity, ticker assignment, allocation and economics remain unresolved unless supported. Headline currency mentions are extracted amounts, not obligations or revenue. Written amount phrases can support classification while their numeric value stays unknown.
 
-Classifications are cached by evidence hash and classifier version. Existing alert snapshots are retained; reclassification does not rewrite what an old alert said. Server alerts deduplicate by rule, source evidence and content hash. The Alerts view presents the persistent inbox alongside browser-local loaded-award matches. These stores are still separate. Cross-publisher deduplication and full alert-store unification remain pending.
+Classifications are cached by evidence hash and classifier version. Existing alert snapshots are retained; reclassification does not rewrite what an old alert said. Server alerts deduplicate by rule, source evidence and content hash. The Alerts view presents the persistent inbox alongside browser-local loaded-award matches. Both rule types and their history/read states now use the same private server alert store. Their matching scopes remain different. Cross-publisher deduplication remains pending.
 
 ## Funding
 
@@ -63,4 +63,10 @@ The initial list contains 22 research names, not a verified public-contractor un
 
 Saved headline/notice rules persist source observations between scans and restarts. Alerts distinguish existing-evidence matches, newly observed source evidence and evidence updates. Updates retain previous/current values and the detection-time event snapshot. Fields include normalized headlines, provisional event types, announced amounts, recipients/UEIs, award/solicitation IDs, agencies, response deadlines and active-notice status. Changes to previously matched evidence remain visible even if the current headline no longer matches its cue, such as a cancellation. These are source changes requiring review, not assessed financial materiality.
 
-Repeated content, whitespace-only changes and classifier upgrades alone do not create new alerts. Old alerts remain frozen. Legacy alerts lacking comparison baselines establish their first baseline without retroactive change claims; historical before/after values cannot be reconstructed. Syndicated stories from different publishers remain separate. Funding-history changes, document-only changes, scope/options comparisons, alert-store migration and shared hosted accounts are pending.
+Repeated content, whitespace-only changes and classifier upgrades alone do not create new alerts. Old alerts remain frozen. Legacy alerts lacking comparison baselines establish their first baseline without retroactive change claims; historical before/after values cannot be reconstructed. Syndicated stories from different publishers remain separate. Funding-history changes, document-only changes, scope/options comparisons, shared hosted accounts are pending.
+
+## Unified award-page alerts
+
+Keyword/minimum award rules now persist in alerts.json alongside headline rules. Existing browser rules are copied on page startup, with per-rule migration markers preventing deleted imports from returning. Browser originals remain a backup. The inbox combines both histories, filters by alert kind/unread state, and preserves detection-time snapshots.
+
+Award-page rules run only after successful loaded USAspending pages; they are not background searches or comprehensive award monitoring. Each observation distinguishes prime/subaward identities. Changed saved records show previous/current values even when they fall below a rule threshold. Repeated records are suppressed across scans/restarts. The server validates browser-submitted records and constructs source links; it does not independently re-fetch them. These records require source verification and amounts are not established obligations or revenue. If alert saving fails, award results remain visible with a separate persistence error. Saved recipient watchlists still require unification.
