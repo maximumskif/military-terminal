@@ -1,4 +1,4 @@
-# Contract Sentinel 0.13 — setup and operating guide
+# Contract Sentinel 0.14 — setup and operating guide
 
 Product promise: Follow government-contract developments affecting companies you research, understand what changed, and verify the evidence quickly.
 
@@ -73,6 +73,12 @@ Award-page rules run only after successful loaded USAspending pages; they are no
 
 ## Saved funding and document watches
 
-FOLLOW SAVED FUNDING CHANGES and FOLLOW SAVED DOCUMENT CHANGES add explicit record-specific rules to the unified inbox. The dashboard checks saved stores each minute while running, including with a standalone collector worker. These rules do not schedule upstream retrieval: refresh funding histories or retrieve documents to obtain new versions. First snapshots establish baselines; unchanged refreshes and document extraction/classification upgrades are suppressed.
+FOLLOW SAVED FUNDING CHANGES and FOLLOW SAVED DOCUMENT CHANGES add explicit record-specific rules to the unified inbox. The dashboard checks saved stores each minute while running, including with a standalone collector worker. The active collector now schedules followed funding histories every six hours and approved HTML documents every 24 hours. Manual retrieval remains available. First snapshots establish baselines; unchanged refreshes and document extraction/classification upgrades are suppressed.
 
 Funding alerts compare signed source transaction amounts, dates, modification numbers, descriptions, added/removed records and collection completeness. Collection changes may reflect reporting corrections or coverage, not new funding. Document alerts retain added/removed passages and version hashes. Up to 20 changed fields are displayed per alert with total change count; original saved source versions retain the underlying evidence. Financial materiality, revenue, public-parent ownership and changes across publishers remain unassessed.
+
+## Scheduled saved-record refreshes
+
+The ingestion owner schedules only explicit funding/document change rules. It runs in the standalone worker or ingestion-enabled dashboard; an ingestion-readonly dashboard does not duplicate upstream jobs. Two jobs may start per minute, with a persistent local budget of 20 jobs per UTC day. A funding job can use up to four transaction requests, so this is not an upstream request quota. Provider/account limits are not established by this budget.
+
+Attempts are recorded before retrieval. Successful funding refreshes wait six hours; approved HTML waits 24 hours. Failed jobs back off from 15 minutes to a daily cap. Interrupted jobs wait 30 minutes after recovery, retaining charged budget. Removed rules disable their scheduled target; manual refreshes do not count toward the scheduler budget. The Alerts panel shows saved success/next-attempt/error information. Closing the ingestion process stops retrieval. PDF/OCR and cross-publisher deduplication remain pending.
