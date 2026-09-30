@@ -1,0 +1,8 @@
+.env
+.env.*
+!.env.example
+.openai/
+work/
+data/
+node_modules/
+*.tmp
