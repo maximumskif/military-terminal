@@ -9,7 +9,7 @@ Current specification: DEVELOPMENT-INSTRUCTIONS.md. Older plans and milestone re
 - [x] 0.4: Six health states, successful/attempted/scheduled checks, failure counts, quotas and coverage information. Successful 304s clear stale errors.
 - [x] 0.5: Alert rules/read states can be changed from an ingestion-readonly dashboard. Local shared-store locks protect alerts, funding commits and document-index commits. Device-local watchlists remain separate.
 - [x] 0.6: Server-side evidence pagination/filtering/sorting, explicit private data directory, classification caching and atomic JSON writes. Hosted transactional storage is deferred until before multiple users.
-- [x] 0.7: README is the single current setup guide; runtime/package/UI use 0.9. Older plans are labelled historical.
+- [x] 0.7: README is the single current setup guide; runtime/package/UI use 0.10. Older plans are labelled historical.
 
 Phase 0 local acceptance: regression suites pass. Production load, network failure campaigns, power-loss durability and hosted multiuser acceptance have not been established. Local locks are not distributed locks.
 
@@ -19,11 +19,12 @@ Phase 0 local acceptance: regression suites pass. Production load, network failu
 - [x] Paginated source-event timeline and stage filters.
 - [ ] Evidence-supported cross-publisher links and audited merge/split workflow.
 - [ ] Approximately 30–50 verified public contractors and historical subsidiary/parent mappings.
-- [ ] Company research pages, persistent unified watchlists and research notes.
+- [x] Company research pages with exact mention timelines, issuer context, dated relationships, original-source links and saved-document inspection. Persistent local-server watches and evidence-linked notes verified across worker/dashboard processes.
+- [ ] Unify legacy browser watchlists with server watches; hosted accounts and shared research notes remain pending.
 - [ ] Unified alerts and material-change detection.
 - [ ] Manually reviewed benchmark with measured precision, recall and entity accuracy. 95% confirmed precision is a proposed target, not an achieved result.
 
-Next implementation priority: verified entity relationships with effective dates, then company pages connecting those relationships to event timelines and supporting evidence. PDF/document attachment support remains pending.
+Next implementation priority: unified alerts and material-change detection, while continuing verified government-recipient identifier bindings and dated ownership review. PDF/document attachment support remains pending.
 
 ## Later phases — pending
 Research differentiation, incremental SEC/agency/social integrations, authentication/user isolation, invited beta, production database and backups, billing/provider-rights review, and point-in-time market evaluation remain future work. No paid integration or hosted deployment has been activated.

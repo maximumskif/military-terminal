@@ -1,4 +1,4 @@
-# Contract Sentinel 0.9 — setup and operating guide
+# Contract Sentinel 0.10 — setup and operating guide
 
 Product promise: Follow government-contract developments affecting companies you research, understand what changed, and verify the evidence quickly.
 
@@ -50,3 +50,11 @@ Source and documentation are backed up to the public GitHub repository. Credenti
 
 ## Reviewed identity evidence
 The first corporate relationship ledger is visible in Source Intelligence. Each link retains primary filing passages, effective/observed dates and limitations. The Raytheon Company/RTX entry is dated corporate evidence; it does not create a government recipient binding. See ENTITY-REVIEW-RTX.md.
+
+## Company research workspace
+
+The Companies view combines exact research-name mentions, paginated source events, issuer-directory data and reviewed dated corporate relationships. Open original sources or inspect previously saved HTML documents. Ten events are shown per company page. These mentions do not verify legal award recipients, current public-parent ownership or company-wide funding exposure.
+
+WATCH COMPANY saves a private server-side research preference. ALERT ON CONTRACT MENTIONS creates a separate persistent alert rule; collection must remain running. Save private notes with selected evidence references; references are checked against stored evidence on the server. Watches and notes survive process restarts and are editable from the worker-connected dashboard. Unsaved note text is kept separately for each company while this browser page remains open. Source attachments apply to the displayed timeline page.
+
+The initial list contains 22 research names, not a verified public-contractor universe. Legacy browser watchlists remain separate. Company notes are for one local operator; authentication, account isolation, team sharing, unified alerts and material-change alerts remain pending. Private state is stored in research.json under SENTINEL_DATA_DIR and excluded from public source backups.

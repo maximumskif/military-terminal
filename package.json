@@ -1,10 +1,10 @@
 {
   "name": "contract-sentinel",
-  "version": "0.9.0",
+  "version": "0.10.0",
   "private": true,
   "scripts": {
     "start": "node server.cjs",
-    "test": "node tests/scanner.cjs && node tests/collector.cjs && node tests/funding.cjs && node tests/alerts.cjs && node tests/sam.cjs && node tests/sam-polling.cjs && node tests/events.cjs && node tests/realistic-events.cjs && node tests/documents.cjs && node tests/reliability.cjs && node tests/event-store.cjs && node tests/sam-interruption.cjs && node tests/worker-dashboard.cjs && node tests/entities.cjs"
+    "test": "node tests/scanner.cjs && node tests/collector.cjs && node tests/funding.cjs && node tests/alerts.cjs && node tests/sam.cjs && node tests/sam-polling.cjs && node tests/events.cjs && node tests/realistic-events.cjs && node tests/documents.cjs && node tests/reliability.cjs && node tests/event-store.cjs && node tests/sam-interruption.cjs && node tests/worker-dashboard.cjs && node tests/entities.cjs && node tests/research.cjs"
   },
   "engines": {
     "node": ">=24"
