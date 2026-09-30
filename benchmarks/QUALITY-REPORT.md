@@ -1,33 +1,33 @@
 # Contract Sentinel quality benchmark
 
-Generated: 2026-09-30T21:47:30.878Z
+Generated: 2026-09-30T22:32:01.522Z
 
 Small development benchmark: headline-stage interpretation, conservative candidate selection, and entity abstention. Not independent human review or production accuracy.
 
 Fixture SHA-256: 059e55dee3c03568db866078da26c83e9136c55e50191c4dc39609a29abb9e0f
 
-Classifier version: 5
+Classifier version: 6
 
 ## Event classification
 
-Sample: 31; exact agreement: 90.3%.
+Sample: 31; exact agreement: 100.0%.
 
 | Label | Support | Precision | Recall |
 |---|---:|---:|---:|
 | CANCELLATION_OR_TERMINATION | 2 | 100.0% | 100.0% |
 | CONTRACT_MODIFICATION | 1 | 100.0% | 100.0% |
 | CONTRACT_VEHICLE_AWARD | 1 | 100.0% | 100.0% |
-| DEFINITIVE_CONTRACT_AWARD | 6 | 100.0% | 83.3% |
+| DEFINITIVE_CONTRACT_AWARD | 6 | 100.0% | 100.0% |
 | DOWN_SELECTION | 1 | 100.0% | 100.0% |
 | DRAFT_SOLICITATION | 1 | 100.0% | 100.0% |
-| ENACTED_FUNDING | 1 | not measured | 0.0% |
-| FINAL_SOLICITATION | 1 | not measured | 0.0% |
+| ENACTED_FUNDING | 1 | 100.0% | 100.0% |
+| FINAL_SOLICITATION | 1 | 100.0% | 100.0% |
 | FUNDED_TASK_OR_DELIVERY_ORDER | 1 | 100.0% | 100.0% |
 | GRANT | 1 | 100.0% | 100.0% |
 | INDUSTRIAL_EXPANSION | 1 | 100.0% | 100.0% |
 | LOAN_OR_GUARANTEE | 1 | 100.0% | 100.0% |
 | OPTION_EXERCISE | 1 | 100.0% | 100.0% |
-| OTHER_OR_UNCLEAR | 6 | 66.7% | 100.0% |
+| OTHER_OR_UNCLEAR | 6 | 100.0% | 100.0% |
 | PROCUREMENT_FORECAST | 1 | 100.0% | 100.0% |
 | PRODUCTION_TRANSITION | 1 | 100.0% | 100.0% |
 | PROPOSED_FUNDING | 1 | 100.0% | 100.0% |
@@ -37,9 +37,7 @@ Sample: 31; exact agreement: 90.3%.
 
 Failures:
 
-- constructed-03: expected DEFINITIVE_CONTRACT_AWARD; observed OTHER_OR_UNCLEAR. Colloquial award verb; expected recall challenge.
-- constructed-13: expected FINAL_SOLICITATION; observed OTHER_OR_UNCLEAR. Final solicitation wording.
-- constructed-17: expected ENACTED_FUNDING; observed OTHER_OR_UNCLEAR. Enactment is not recipient allocation.
+None in this sample.
 
 ## Entity abstention controls
 

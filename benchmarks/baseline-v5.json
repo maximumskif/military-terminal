@@ -1,12 +1,12 @@
 {
   "benchmarkVersion": 1,
   "fixtureHash": "059e55dee3c03568db866078da26c83e9136c55e50191c4dc39609a29abb9e0f",
-  "classifierVersion": 6,
-  "generatedAt": "2026-09-30T22:32:01.522Z",
+  "classifierVersion": 5,
+  "generatedAt": "2026-09-30T21:47:30.878Z",
   "scope": "Small development benchmark: headline-stage interpretation, conservative candidate selection, and entity abstention. Not independent human review or production accuracy.",
   "classification": {
     "sampleSize": 31,
-    "accuracy": 1,
+    "accuracy": 0.9032258064516129,
     "perClass": [
       {
         "label": "CANCELLATION_OR_TERMINATION",
@@ -38,11 +38,11 @@
       {
         "label": "DEFINITIVE_CONTRACT_AWARD",
         "support": 6,
-        "tp": 6,
+        "tp": 5,
         "fp": 0,
-        "fn": 0,
+        "fn": 1,
         "precision": 1,
-        "recall": 1
+        "recall": 0.8333333333333334
       },
       {
         "label": "DOWN_SELECTION",
@@ -65,20 +65,20 @@
       {
         "label": "ENACTED_FUNDING",
         "support": 1,
-        "tp": 1,
+        "tp": 0,
         "fp": 0,
-        "fn": 0,
-        "precision": 1,
-        "recall": 1
+        "fn": 1,
+        "precision": null,
+        "recall": 0
       },
       {
         "label": "FINAL_SOLICITATION",
         "support": 1,
-        "tp": 1,
+        "tp": 0,
         "fp": 0,
-        "fn": 0,
-        "precision": 1,
-        "recall": 1
+        "fn": 1,
+        "precision": null,
+        "recall": 0
       },
       {
         "label": "FUNDED_TASK_OR_DELIVERY_ORDER",
@@ -129,9 +129,9 @@
         "label": "OTHER_OR_UNCLEAR",
         "support": 6,
         "tp": 6,
-        "fp": 0,
+        "fp": 3,
         "fn": 0,
-        "precision": 1,
+        "precision": 0.6666666666666666,
         "recall": 1
       },
       {
@@ -189,12 +189,43 @@
         "recall": 1
       }
     ],
-    "failures": []
+    "failures": [
+      {
+        "id": "constructed-03",
+        "origin": "constructed_control",
+        "expected": "DEFINITIVE_CONTRACT_AWARD",
+        "actual": "OTHER_OR_UNCLEAR",
+        "rationale": "Colloquial award verb; expected recall challenge.",
+        "title": "Company nabs $50 million contract for naval radar",
+        "provisional": true,
+        "fundingUnknown": true
+      },
+      {
+        "id": "constructed-13",
+        "origin": "constructed_control",
+        "expected": "FINAL_SOLICITATION",
+        "actual": "OTHER_OR_UNCLEAR",
+        "rationale": "Final solicitation wording.",
+        "title": "Agency issued a request for proposals for radar",
+        "provisional": true,
+        "fundingUnknown": true
+      },
+      {
+        "id": "constructed-17",
+        "origin": "constructed_control",
+        "expected": "ENACTED_FUNDING",
+        "actual": "OTHER_OR_UNCLEAR",
+        "rationale": "Enactment is not recipient allocation.",
+        "title": "Appropriations enacted for radar programs",
+        "provisional": true,
+        "fundingUnknown": true
+      }
+    ]
   },
   "classificationByOrigin": {
     "constructed_control": {
       "sampleSize": 27,
-      "accuracy": 1,
+      "accuracy": 0.8888888888888888,
       "perClass": [
         {
           "label": "CANCELLATION_OR_TERMINATION",
@@ -226,11 +257,11 @@
         {
           "label": "DEFINITIVE_CONTRACT_AWARD",
           "support": 4,
-          "tp": 4,
+          "tp": 3,
           "fp": 0,
-          "fn": 0,
+          "fn": 1,
           "precision": 1,
-          "recall": 1
+          "recall": 0.75
         },
         {
           "label": "DOWN_SELECTION",
@@ -253,20 +284,20 @@
         {
           "label": "ENACTED_FUNDING",
           "support": 1,
-          "tp": 1,
+          "tp": 0,
           "fp": 0,
-          "fn": 0,
-          "precision": 1,
-          "recall": 1
+          "fn": 1,
+          "precision": null,
+          "recall": 0
         },
         {
           "label": "FINAL_SOLICITATION",
           "support": 1,
-          "tp": 1,
+          "tp": 0,
           "fp": 0,
-          "fn": 0,
-          "precision": 1,
-          "recall": 1
+          "fn": 1,
+          "precision": null,
+          "recall": 0
         },
         {
           "label": "FUNDED_TASK_OR_DELIVERY_ORDER",
@@ -317,9 +348,9 @@
           "label": "OTHER_OR_UNCLEAR",
           "support": 4,
           "tp": 4,
-          "fp": 0,
+          "fp": 3,
           "fn": 0,
-          "precision": 1,
+          "precision": 0.5714285714285714,
           "recall": 1
         },
         {
@@ -377,7 +408,38 @@
           "recall": 1
         }
       ],
-      "failures": []
+      "failures": [
+        {
+          "id": "constructed-03",
+          "origin": "constructed_control",
+          "expected": "DEFINITIVE_CONTRACT_AWARD",
+          "actual": "OTHER_OR_UNCLEAR",
+          "rationale": "Colloquial award verb; expected recall challenge.",
+          "title": "Company nabs $50 million contract for naval radar",
+          "provisional": true,
+          "fundingUnknown": true
+        },
+        {
+          "id": "constructed-13",
+          "origin": "constructed_control",
+          "expected": "FINAL_SOLICITATION",
+          "actual": "OTHER_OR_UNCLEAR",
+          "rationale": "Final solicitation wording.",
+          "title": "Agency issued a request for proposals for radar",
+          "provisional": true,
+          "fundingUnknown": true
+        },
+        {
+          "id": "constructed-17",
+          "origin": "constructed_control",
+          "expected": "ENACTED_FUNDING",
+          "actual": "OTHER_OR_UNCLEAR",
+          "rationale": "Enactment is not recipient allocation.",
+          "title": "Appropriations enacted for radar programs",
+          "provisional": true,
+          "fundingUnknown": true
+        }
+      ]
     },
     "collected_headline": {
       "sampleSize": 4,
