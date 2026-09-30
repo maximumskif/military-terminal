@@ -1,4 +1,4 @@
-# Contract Sentinel 0.14 — setup and operating guide
+# Contract Sentinel 0.15 — setup and operating guide
 
 Product promise: Follow government-contract developments affecting companies you research, understand what changed, and verify the evidence quickly.
 
@@ -82,3 +82,9 @@ Funding alerts compare signed source transaction amounts, dates, modification nu
 The ingestion owner schedules only explicit funding/document change rules. It runs in the standalone worker or ingestion-enabled dashboard; an ingestion-readonly dashboard does not duplicate upstream jobs. Two jobs may start per minute, with a persistent local budget of 20 jobs per UTC day. A funding job can use up to four transaction requests, so this is not an upstream request quota. Provider/account limits are not established by this budget.
 
 Attempts are recorded before retrieval. Successful funding refreshes wait six hours; approved HTML waits 24 hours. Failed jobs back off from 15 minutes to a daily cap. Interrupted jobs wait 30 minutes after recovery, retaining charged budget. Removed rules disable their scheduled target; manual refreshes do not count toward the scheduler budget. The Alerts panel shows saved success/next-attempt/error information. Closing the ingestion process stops retrieval. PDF/OCR and cross-publisher deduplication remain pending.
+
+## Announcement relationship review
+
+Source Intelligence now proposes up to 500 strict candidate pairs: exact normalized headlines of at least 40 characters, different source hosts, publication dates within seven days, matching provisional event type and announced amount/currency, and no conflicting known contract identifier. Unknown publication dates, same-host reports and changed wording are excluded. Host differences do not establish editorial independence. Candidate absence is not evidence of uniqueness.
+
+Review a pair as related or distinct and record a reason. Decisions persist privately, keep earlier decisions and bind to source content hashes. Revised source content requires a new review; earlier decisions remain saved as stale. Evidence records stay separate. This workflow does not merge verified events, confirm ownership/economics or suppress duplicate alerts. Broad paraphrase matching, syndicated provenance and audited event merge/split remain pending.
