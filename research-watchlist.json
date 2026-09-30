@@ -1,0 +1,154 @@
+[
+  {
+    "name": "RTX",
+    "aliases": [
+      "Raytheon",
+      "Collins Aerospace",
+      "Pratt & Whitney"
+    ],
+    "identityStatus": "unresolved",
+    "researchTicker": "RTX"
+  },
+  {
+    "name": "Lockheed Martin",
+    "aliases": [
+      "Sikorsky"
+    ],
+    "identityStatus": "unresolved",
+    "researchTicker": "LMT"
+  },
+  {
+    "name": "Northrop Grumman",
+    "aliases": [],
+    "identityStatus": "unresolved",
+    "researchTicker": "NOC"
+  },
+  {
+    "name": "Boeing",
+    "aliases": [
+      "Insitu"
+    ],
+    "identityStatus": "unresolved",
+    "researchTicker": "BA"
+  },
+  {
+    "name": "General Dynamics",
+    "aliases": [
+      "GDIT",
+      "Electric Boat"
+    ],
+    "identityStatus": "unresolved",
+    "researchTicker": "GD"
+  },
+  {
+    "name": "L3Harris",
+    "aliases": [
+      "Aerojet Rocketdyne"
+    ],
+    "identityStatus": "unresolved",
+    "researchTicker": "LHX"
+  },
+  {
+    "name": "Leidos",
+    "aliases": [],
+    "identityStatus": "unresolved",
+    "researchTicker": "LDOS"
+  },
+  {
+    "name": "SAIC",
+    "aliases": [],
+    "identityStatus": "unresolved",
+    "researchTicker": "SAIC"
+  },
+  {
+    "name": "Booz Allen Hamilton",
+    "aliases": [
+      "Booz Allen"
+    ],
+    "identityStatus": "unresolved",
+    "researchTicker": "BAH"
+  },
+  {
+    "name": "KBR",
+    "aliases": [
+      "KBRwyle"
+    ],
+    "identityStatus": "unresolved",
+    "researchTicker": "KBR"
+  },
+  {
+    "name": "AeroVironment",
+    "aliases": [
+      "BlueHalo"
+    ],
+    "identityStatus": "unresolved",
+    "researchTicker": "AVAV"
+  },
+  {
+    "name": "Kratos",
+    "aliases": [
+      "Kratos Defense"
+    ],
+    "identityStatus": "unresolved",
+    "researchTicker": "KTOS"
+  },
+  {
+    "name": "Rocket Lab",
+    "aliases": [],
+    "identityStatus": "unresolved",
+    "researchTicker": "RKLB"
+  },
+  {
+    "name": "Red Cat",
+    "aliases": [
+      "Teal Drones"
+    ],
+    "identityStatus": "unresolved",
+    "researchTicker": "RCAT"
+  },
+  {
+    "name": "Palantir",
+    "aliases": [],
+    "identityStatus": "unresolved",
+    "researchTicker": "PLTR"
+  },
+  {
+    "name": "Anduril",
+    "aliases": [],
+    "identityStatus": "unresolved"
+  },
+  {
+    "name": "Shield AI",
+    "aliases": [],
+    "identityStatus": "unresolved"
+  },
+  {
+    "name": "SpaceX",
+    "aliases": [],
+    "identityStatus": "unresolved"
+  },
+  {
+    "name": "General Atomics",
+    "aliases": [],
+    "identityStatus": "unresolved"
+  },
+  {
+    "name": "Sierra Nevada Corporation",
+    "aliases": [
+      "SNC"
+    ],
+    "identityStatus": "unresolved"
+  },
+  {
+    "name": "Redwire",
+    "aliases": [],
+    "identityStatus": "unresolved",
+    "researchTicker": "RDW"
+  },
+  {
+    "name": "BlackSky",
+    "aliases": [],
+    "identityStatus": "unresolved",
+    "researchTicker": "BKSY"
+  }
+]

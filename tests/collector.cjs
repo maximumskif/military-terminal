@@ -1,0 +1,12 @@
+const {parseFeed,parseIndex,annotate,safeUrl,createCollector}=require('../collector.cjs');
+const assert=require('node:assert/strict'),fs=require('fs'),path=require('path');
+const source={url:'https://example.com/feed',articlePattern:'/2026-'};
+const xml='<rss><channel><item><title><![CDATA[Acme awarded contract &amp; expansion]]></title><link>https://example.com/a</link><pubDate>Tue, 29 Sep 2026 12:00:00 GMT</pubDate></item></channel></rss>';
+assert.equal(parseFeed(xml,source)[0].title,'Acme awarded contract & expansion');
+assert.equal(parseFeed('<feed><entry><title>IPO</title><link href="https://example.com/b"/><updated>2026-09-29</updated></entry></feed>',source)[0].url,'https://example.com/b');
+assert.throws(()=>parseFeed('<html>login</html>',source));assert.equal(safeUrl('javascript:alert(1)',source.url),null);
+assert.equal(parseIndex('<a href="/2026-01-01-article">A significant supplier announcement</a>',source).length,1);
+const tags=annotate('Acme awarded contract and IPO',{length:0,filter:()=>[]});assert.ok(tags.cues.includes('contract'));assert.ok(tags.cues.includes('ipo'));
+const data=path.resolve('work/collector-test-data');fs.mkdirSync(data,{recursive:true});const saved=path.join(data,'evidence.json');if(fs.existsSync(saved))fs.unlinkSync(saved);
+global.fetch=async()=>({ok:true,status:200,headers:new Headers(),body:new ReadableStream({start(c){c.enqueue(new TextEncoder().encode(xml));c.close()}})});
+(async()=>{const c=createCollector(data);await c.scan();const before=c.snapshot().evidence.length;await c.scan();assert.equal(c.snapshot().evidence.length,before);assert.equal(createCollector(data).snapshot().evidence.length,before);global.fetch=async()=>({ok:false,status:503});await c.scan();assert.equal(c.snapshot().evidence.length,before);assert.ok(c.snapshot().sources.some(s=>s.health.status==='failed'));console.log('PASS: feed/index parsing, unsafe links, cues, deduplication, restart persistence and retained evidence on source failure.');})();

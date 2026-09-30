@@ -1,0 +1,113 @@
+# Contract Sentinel — implementation plan
+
+## Current build: v0.6
+Local dashboard implements prime award search, reported subaward search, exact-ID and recipient/UEI search controls, minimum-amount filtering, source inspection, paginated prime-to-subaward tracing, UEI-grouped company profiles, device-local watchlists and device-local alert rules.
+
+Verified: live reported-subaward results in the browser; linked prime identifiers; readable NAICS/PSC records; watchlist persistence after reload; desktop and mobile layouts; structured read tool and rejection of invalid inputs. Automated checks passed for company grouping, missing amount handling, source text escaping, prime alert matching, empty results and failed scans. API tests also returned live per-prime subaward rows and recipient-UEI filtered subawards.
+
+Open issues: the upstream prime search returned HTTP 503 during exact-ID testing, so that live flow is not confirmed in v0.2. Hosted publication remains blocked by automatic approval review rejecting credential input to the publishing process. The site is registered privately but has no confirmed deployed version. The current local dashboard runs at http://127.0.0.1:4175 while its local server is running.
+
+Next implementation milestone: durable company/award/alert storage and source health, followed by historical net-obligation comparisons and SEC identity/filing integration. Five public-source collectors now run at startup and hourly while the local server remains running, with durable headline evidence, source health and research cue filtering. No social integration, cloud scheduling, verified public-parent mapping, IPO detection or growth ranking is active yet.
+
+## SAM integration milestone delivered
+- Official Opportunities v2 API connector verified with live access. Local secret-entry form uses server memory; no key is written to source files, evidence or export bundles. Reconfigure after restart.
+- Seven-day posted-date window, page-index pagination, up to 300 notices per scan. First successful scan returned 300 of 6,188 notices: partial coverage is shown explicitly. Daily request guard is per running process.
+- Stores notice type, notice ID, solicitation, agency, NAICS, response deadline and optional awardee UEI/name, award number/date/amount. These notice amounts are not transaction obligations.
+- Company/cue matching includes reported awardees; notice metadata changes create new versions for persistent research alerts.
+- Tests passed for pagination, caps, missing fields, safe source links and credential omission in returned records and diagnostics.
+
+## Funding history milestone delivered
+- On-demand USAspending transaction collection for a selected prime award, including the linked prime of a subaward. No supplier funding is inferred from the prime history.
+- Durable funding.json snapshots, source links, retrieval timestamps, action descriptions and modification numbers. Failed refreshes retain and explicitly label the prior snapshot.
+- Net obligations, positive funding and deobligations; current versus previous equal 30/90/365-day calendar windows through the New York date. Future-dated rows are excluded. Percent changes require a positive prior-period net.
+- Bounded collection: up to four pages of 500 transactions, with a 60-second request deadline. Partial collections and missing/invalid values suppress affected totals. All pages collected means all pages the endpoint returned, not guaranteed reporting completeness.
+- Tested signed funding, date boundaries, missing data, cents precision, pagination caps, conflicting duplicate IDs, durable reload and failed-refresh retention. A live contract returned three transactions and a net obligation total of $160,850,559.
+- Company-wide funding aggregation, historical transaction revisions and funding-based background rules remain pending. Next: supplier evidence and SEC filing research.
+
+## Priority milestone delivered
+- Added GSA and HHS announcement collectors; feed collection is capped at 100 entries per source per scan and is not historical backfill. GSA recovered on retry after an intermittent connection reset.
+- Added SEC issuer-directory ingestion and 15 sourced ticker/CIK matches using explicit configured research tickers. These do not establish ownership links to award recipients or search aliases.
+- Added server-stored research rules, alert history and read status. Rules evaluate existing headlines at creation and new/changed headline versions on subsequent scans. Same-source/URL/title repeats are suppressed; cross-publisher event clustering remains pending.
+- Saved one starting RTX contract-cue rule. Rules do not classify headlines as verified awards.
+- Next priority: durable award transaction histories and net-obligation comparisons, then documented supplier relationships and SEC filing evidence.
+
+## Governing requirements
+MONITOR-REQUIREMENTS.md contains the user-supplied specification and takes precedence over earlier planning assumptions. REQUIREMENTS-GAPS.md records implemented coverage and pending acceptance criteria. social-watchlist.json contains disabled, unverified candidates; signal-schema.json defines the requested event, identity, financial and evidence dimensions.
+
+## Objective and scope
+Broaden collection beyond official award data to company announcements, independent news, hiring/expansion signals, public forums and authorized social sources. See SOURCE-COVERAGE.md for source classes, provenance rules, search patterns, access gaps and manual setup. NASA news/technology, RTX, Lockheed Martin and Breaking Defense headline collection is connected; additional adapters remain planned.
+
+Find companies whose federal contract activity warrants early investigation of business growth or a possible public listing. Cover all U.S. agencies, including defense. Deliver a green-on-black terminal workspace with evidence-backed, in-app alerts. A signal prioritizes research; it is not a forecast of stock returns.
+
+## Phase 1 — award scanner (initial implementation)
+- Live USAspending prime contract award search, keyword and date controls, paging and source inspection.
+- Show the recipient UEI, award ID, agency, description, source URL and retrieval time.
+- Show totals and rule matches for the loaded page only. Do not imply a census of government contracts.
+- Device-local keyword and minimum-amount rules. Evaluate when a results page loads; background monitoring is not active.
+- Acceptance: successful real API request, accessible controls, empty/error states, escaped source text, source links and no fabricated award data.
+
+## Phase 2 — company identity and durable records
+Implemented foundation: exact-UEI grouping within the loaded results, isolated records when UEI is missing, browser-saved company watchlists, recipient/UEI searches, exact prime-award searches and NAICS/PSC evidence. Durable headline evidence storage is implemented. Cross-source identity, ownership, award history and durable alert storage remain to be implemented.
+
+Store canonical companies, aliases, identifiers, ownership relationships, awards, award transactions, evidence documents, scans and alert events. Keep source snapshots, first-seen time, source publication time and event time separately. Add durable storage before background scanning.
+
+Identifiers:
+| Object | Matching keys | Notes |
+|---|---|---|
+| Recipient | UEI; CAGE when available | Legal entities may differ from the investable parent |
+| Public issuer | SEC CIK; ticker + exchange | Tickers change; preserve effective dates |
+| Contract | Agency + PIID; parent IDV PIID; source award key | Contract IDs alone may not be globally unique |
+| Opportunity | SAM notice ID; solicitation number | An opportunity is not an award |
+| Industry | NAICS; PSC | Keep code version and source |
+| Evidence | Canonical URL; source ID; content hash | Deduplicate reposts and syndicated releases |
+| Relationship | Parent + child + type + effective dates | Preserve confidence and supporting evidence |
+
+Resolve exact identifiers first; normalized name/domain/address second. Do not silently merge name-only matches. Maintain public/private/unknown status and a separately verified investable parent. Historical identifiers remain searchable.
+
+## Phase 3 — prime and subcontractor network
+Implemented foundation: live reported contract subaward search showing prime and subcontractor identities, linked prime award evidence, and paginated reported-subaward tracing from a selected prime. The UI explicitly warns against summing overlapping prime/subaward amounts. Announcements and supplier history remain to be implemented.
+
+Ingest reported subawards and connect them with prime award IDs where available. Add documented supplier links from company releases, agency releases and program documents. Label each edge as reported subaward, confirmed supplier relationship, or unverified lead. A partnership alone does not prove subcontracting or its dollar value. Allow users to follow a prime such as RTX into its subsidiaries and reported suppliers without double-counting money.
+
+## Phase 4 — growth and IPO research
+Use net transaction obligations, including deobligations, for 30/90/365-day comparisons. Distinguish a new award, modification, exercised option and task order. Separate obligated dollars, maximum potential ceiling, outlays and company-recognized revenue.
+
+Candidate signals: funding acceleration versus the company's own history; first material federal win; repeated task orders; new agency customers; funded production transition; supplier wins; capacity expansion corroborated by awards. Award/revenue ratio uses same-period, sourced revenue and is marked unavailable when revenue is unknown.
+
+IPO evidence: S-1/F-1 registration and amendments, public company announcements, and corroborated listing plans. Form D, hiring a CFO, fundraising, rumors and confidential filings are not proof of an imminent IPO. Withdrawals and amendments must update status.
+
+Keep separate, explainable measures for contract momentum, economic materiality, evidence confidence and IPO evidence. Show contributing facts and missing data. Calibrate thresholds on historical observations before calling any measure predictive.
+
+## Phase 5 — social sources and unattended alerts
+Add authorized X access and accessible company/news/social feeds. Check source access, cost and limitations before integration. Search social sources for discovery, then corroborate against official records where possible. Display unverified leads separately. Deduplicate posts referring to the same underlying event.
+
+Deploy scheduled ingestion with checkpoints, retries, rate limits, backfills, source health and coverage status. Save rules and alert history centrally; evaluate only new or materially changed evidence. Keep quiet on unchanged results. Initial configurable defaults: daily scan, digest for ordinary matches, immediate in-app highlighting for verified high-priority changes. Scheduling is not configured in Phase 1.
+
+## Search cues
+| Theme | Phrases and identifiers | Required follow-up |
+|---|---|---|
+| Award | "awarded", "task order", "delivery order", "contract modification", PIID | Verify recipient and committed amount |
+| Funding | "funded", "incremental funding", "option exercised", "ceiling increased" | Distinguish obligations from ceiling |
+| Suppliers | "selected supplier", "subcontract", "supplier agreement", "teaming agreement" + prime/program | Confirm actual work and relationship |
+| Scale-up | "production ramp", "capacity expansion", "new facility", "backlog", "SBIR Phase III" | Verify funding, timing and company scale |
+| IPO | "S-1", "F-1", "initial public offering", "registration statement", "proposed listing" | Verify SEC filing or company statement |
+| Technologies | radar, unmanned, semiconductor, cybersecurity, space, propulsion, critical minerals | Combine with agency, NAICS/PSC and company IDs |
+
+Example research queries: `"company legal name" "task order"`; `"prime name" "selected supplier" "program name"`; `"company name" "S-1"`; `"award PIID" subcontract`. Quote names/IDs in web research; the initial dashboard's keyword search uses USAspending's own search semantics.
+
+## Suggested improvements
+1. Prioritize size-adjusted funding changes rather than biggest headline awards.
+2. Add negative signals: terminations, deobligations, award protests, IPO withdrawals and customer concentration.
+3. Make the funding trail drillable, with original evidence and correction history.
+4. Alert when a source fails or coverage becomes stale; never show a stale scanner as current.
+5. Add saved watchlists and historical baseline comparison after identity resolution is reliable.
+6. Backtest discovery lag and signal precision against a time-stamped historical dataset without future information.
+
+## Sources and coverage
+- USAspending API: https://api.usaspending.gov/docs/endpoints — initial live source; public award and subaward endpoints.
+- SAM opportunity API: https://open.gsa.gov/api/opportunities-api/ — planned; API access setup required.
+- SEC developer resources: https://www.sec.gov/about/developer-resources — planned company submissions/XBRL integration.
+- Agency announcements and prime/supplier releases — initial NASA, RTX and Lockheed Martin headline collectors active, each with explicit source coverage.
+
+No system can guarantee visibility into all subcontracting, classified activity, confidential IPO plans or private social content. Coverage must be inspectable rather than claimed as complete.
+

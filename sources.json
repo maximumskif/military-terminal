@@ -1,0 +1,99 @@
+[
+  {
+    "id": "nasa-news",
+    "name": "NASA news releases",
+    "kind": "rss",
+    "class": "official_announcement",
+    "url": "https://www.nasa.gov/news-release/feed/"
+  },
+  {
+    "id": "nasa-tech",
+    "name": "NASA technology",
+    "kind": "rss",
+    "class": "official_announcement",
+    "url": "https://www.nasa.gov/technology/feed/"
+  },
+  {
+    "id": "breaking-defense",
+    "name": "Breaking Defense",
+    "kind": "rss",
+    "class": "independent_reporting",
+    "url": "https://breakingdefense.com/feed/"
+  },
+  {
+    "id": "lockheed-news",
+    "name": "Lockheed Martin newsroom",
+    "kind": "index",
+    "class": "company_statement",
+    "url": "https://news.lockheedmartin.com/",
+    "articlePattern": "/20[0-9]{2}-[0-9]{2}-[0-9]{2}-"
+  },
+  {
+    "id": "rtx-news",
+    "name": "RTX newsroom",
+    "kind": "rss",
+    "class": "company_statement",
+    "url": "https://www.rtx.com/rss-feeds/news"
+  },
+  {
+    "id": "gsa-news",
+    "name": "GSA news releases",
+    "kind": "rss",
+    "class": "official_announcement",
+    "url": "https://www.gsa.gov/_rssfeed/hq_newsReleases.xml"
+  },
+  {
+    "id": "hhs-news",
+    "name": "HHS news releases",
+    "kind": "rss",
+    "class": "official_announcement",
+    "url": "https://www.hhs.gov/rss/news.xml"
+  },
+  {
+    "id": "sec-issuers",
+    "name": "SEC issuer directory",
+    "kind": "issuers",
+    "class": "official_record",
+    "url": "https://www.sec.gov/files/company_tickers.json"
+  },
+  {
+    "id": "sam-opportunities",
+    "name": "SAM.gov opportunities",
+    "kind": "sam",
+    "class": "official_record",
+    "url": "https://open.gsa.gov/api/get-opportunities-public-api/",
+    "reason": "Configure a SAM API key locally"
+  },
+  {
+    "id": "sec-filings",
+    "name": "SEC company filings",
+    "kind": "pending",
+    "class": "official_record",
+    "url": "https://www.sec.gov/about/developer-resources",
+    "reason": "Needs identified SEC client and filing adapter"
+  },
+  {
+    "id": "sbir-awards",
+    "name": "SBIR/STTR awards",
+    "kind": "pending",
+    "class": "official_record",
+    "url": "https://www.sbir.gov/data-resources",
+    "reason": "Bulk award reconciliation adapter planned"
+  },
+  {
+    "id": "x-search",
+    "name": "X search",
+    "kind": "pending",
+    "class": "social_lead",
+    "url": "https://docs.x.com/x-api/posts/search/introduction",
+    "reason": "Needs developer access, credentials and spending limit"
+  },
+  {
+    "id": "reddit",
+    "name": "Reddit and forums",
+    "kind": "pending",
+    "class": "social_lead",
+    "url": "https://www.reddit.com/r/GovernmentContracting/",
+    "reason": "Authorized collection adapter not configured"
+  }
+]

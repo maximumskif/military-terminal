@@ -1,0 +1,12 @@
+{
+  "name": "contract-sentinel",
+  "version": "0.6.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.cjs",
+    "test": "node tests/scanner.cjs && node tests/collector.cjs && node tests/funding.cjs && node tests/alerts.cjs && node tests/sam.cjs"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}
