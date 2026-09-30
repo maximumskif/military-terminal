@@ -66,7 +66,7 @@ function createCollector(dataDir, options = {}) {
       if (source.kind === 'sam') {
         const result = await sam.collect(); records = result.records; coverage = result.coverage;
       } else {
-        const headers = { 'User-Agent': 'ContractSentinel/0.10 public-feed-research', Accept: 'application/rss+xml, application/atom+xml, text/html;q=0.8' };
+        const headers = { 'User-Agent': 'ContractSentinel/0.11 public-feed-research', Accept: 'application/rss+xml, application/atom+xml, text/html;q=0.8' };
         if (previous?.etag) headers['If-None-Match'] = previous.etag;
         const response = await fetch(source.url, { headers, signal: AbortSignal.timeout(20000) });
         if (response.status === 304) { store.health[source.id] = { ...previous, status:'healthy',checkedAt:now,lastSuccess:new Date().toISOString(),last_successful_fetch_at:new Date().toISOString(),last_attempted_check_at:now, error: null, reason: null }; store.jobs[source.id].failures=0; return 0; }

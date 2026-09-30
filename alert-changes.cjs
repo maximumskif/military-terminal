@@ -1,0 +1,6 @@
+const {classify}=require('./event-classifier.cjs');
+const normalized=value=>String(value||'').normalize('NFKC').replace(/\s+/g,' ').trim();
+function observation(row){return {titleHash:row.titleHash,raw:{title:row.title,sourceClass:row.sourceClass,noticeType:row.noticeType,solicitationNumber:row.solicitationNumber,agency:row.agency,responseDeadline:row.responseDeadline,active:row.active,award:row.award},matches:{cues:row.cues||[],companies:row.companyMentions||[]}};}
+function fields(raw){const event=classify(raw);return {headline:normalized(raw.title),event_type:event.eventType,announced_amount:event.financial.headlineAmount,recipient:raw.award?.recipientName||event.identity.legalRecipient||null,recipient_uei:raw.award?.recipientUei||null,contract_id:event.contractId,solicitation_id:raw.solicitationNumber||event.solicitationId||null,agency:raw.agency||event.governmentBuyer||null,response_deadline:raw.responseDeadline||null,active_notice:raw.active??null};}
+function changes(before,after){const a=fields(before.raw),b=fields(after.raw);return Object.keys(b).filter(key=>JSON.stringify(a[key])!==JSON.stringify(b[key])).map(field=>({field,previous:a[field],current:b[field]}));}
+module.exports={observation,changes};

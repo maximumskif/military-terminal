@@ -1,0 +1,13 @@
+const assert=require('node:assert/strict'),fs=require('node:fs'),os=require('node:os'),path=require('node:path');
+const {createAlerts}=require('../persistent-alerts.cjs');
+const dir=fs.mkdtempSync(path.join(os.tmpdir(),'sentinel-change-alerts-')),names=[{name:'RTX'}];let alerts=createAlerts(dir,names);
+alerts.addRule({company:'RTX',cue:'contract'});
+const row={id:'one',title:'RTX awarded a $200 million contract',titleHash:'1',firstSeen:'2026-01-01',url:'https://example.gov/award',cues:['contract'],companyMentions:['RTX'],sourceClass:'official_record',responseDeadline:'2026-10-01'};
+alerts.evaluate([row]);const first=alerts.snapshot().events[0];
+alerts.evaluate([{...row,title:' RTX  awarded a $200 million contract ',titleHash:'2'}]);assert.equal(alerts.snapshot().events.length,1);
+alerts=createAlerts(dir,names);alerts.evaluate([{...row,titleHash:'3',responseDeadline:'2026-10-15'}]);let event=alerts.snapshot().events[0];assert.equal(event.kind,'evidence_update');assert.deepEqual(event.changes.find(c=>c.field==='response_deadline'),{field:'response_deadline',previous:'2026-10-01',current:'2026-10-15'});
+alerts.evaluate([{...row,titleHash:'3',responseDeadline:'2026-10-15',event:{version:99}}]);assert.equal(alerts.snapshot().events.length,2);
+alerts.evaluate([{...row,title:'RTX contract cancelled',titleHash:'4',responseDeadline:'2026-10-15',cues:['negative']}]);event=alerts.snapshot().events[0];assert.ok(event.changes.find(c=>c.field==='event_type'));assert.equal(event.financialMateriality,'not_assessed');assert.equal(alerts.snapshot().events.length,3);
+assert.deepEqual(alerts.snapshot().events.find(e=>e.id===first.id),first);
+const legacyDir=fs.mkdtempSync(path.join(os.tmpdir(),'sentinel-legacy-alerts-'));fs.copyFileSync(path.join(dir,'alerts.json'),path.join(legacyDir,'alerts.json'));const legacy=JSON.parse(fs.readFileSync(path.join(legacyDir,'alerts.json')));delete legacy.observations;for(const e of legacy.events)delete e.contentHash;fs.writeFileSync(path.join(legacyDir,'alerts.json'),JSON.stringify(legacy));const migrated=createAlerts(legacyDir,names);migrated.evaluate([row]);assert.equal(migrated.snapshot().events.length,3);
+console.log('PASS source-change reasons, deadline before/after, cancellation after cue loss, formatting/version suppression, restart baselines, legacy migration and frozen old alerts');

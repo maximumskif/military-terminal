@@ -1,4 +1,4 @@
-# Contract Sentinel 0.10 — setup and operating guide
+# Contract Sentinel 0.11 — setup and operating guide
 
 Product promise: Follow government-contract developments affecting companies you research, understand what changed, and verify the evidence quickly.
 
@@ -36,7 +36,7 @@ RETRIEVE / REVIEW DOCUMENT preserves approved HTML sources and version hashes, e
 
 EVENT TIMELINE displays stable provisional source-event IDs, stages and correction history. A source event is distinct from a real-world event verified across publishers. Similar headlines, awards and modifications are never automatically merged. Document passages can contain multiple event candidates; ambiguity is retained. Public-parent identity, ticker assignment, allocation and economics remain unresolved unless supported. Headline currency mentions are extracted amounts, not obligations or revenue. Written amount phrases can support classification while their numeric value stays unknown.
 
-Classifications are cached by evidence hash and classifier version. Existing alert snapshots are retained; reclassification does not rewrite what an old alert said. Server alerts deduplicate by rule, source evidence and content hash. Cross-publisher deduplication, material-change alerts and unified browser/server alerts remain pending.
+Classifications are cached by evidence hash and classifier version. Existing alert snapshots are retained; reclassification does not rewrite what an old alert said. Server alerts deduplicate by rule, source evidence and content hash. The Alerts view presents the persistent inbox alongside browser-local loaded-award matches. These stores are still separate. Cross-publisher deduplication and full alert-store unification remain pending.
 
 ## Funding
 
@@ -58,3 +58,9 @@ The Companies view combines exact research-name mentions, paginated source event
 WATCH COMPANY saves a private server-side research preference. ALERT ON CONTRACT MENTIONS creates a separate persistent alert rule; collection must remain running. Save private notes with selected evidence references; references are checked against stored evidence on the server. Watches and notes survive process restarts and are editable from the worker-connected dashboard. Unsaved note text is kept separately for each company while this browser page remains open. Source attachments apply to the displayed timeline page.
 
 The initial list contains 22 research names, not a verified public-contractor universe. Legacy browser watchlists remain separate. Company notes are for one local operator; authentication, account isolation, team sharing, unified alerts and material-change alerts remain pending. Private state is stored in research.json under SENTINEL_DATA_DIR and excluded from public source backups.
+
+## Change alerts
+
+Saved headline/notice rules persist source observations between scans and restarts. Alerts distinguish existing-evidence matches, newly observed source evidence and evidence updates. Updates retain previous/current values and the detection-time event snapshot. Fields include normalized headlines, provisional event types, announced amounts, recipients/UEIs, award/solicitation IDs, agencies, response deadlines and active-notice status. Changes to previously matched evidence remain visible even if the current headline no longer matches its cue, such as a cancellation. These are source changes requiring review, not assessed financial materiality.
+
+Repeated content, whitespace-only changes and classifier upgrades alone do not create new alerts. Old alerts remain frozen. Legacy alerts lacking comparison baselines establish their first baseline without retroactive change claims; historical before/after values cannot be reconstructed. Syndicated stories from different publishers remain separate. Funding-history changes, document-only changes, scope/options comparisons, alert-store migration and shared hosted accounts are pending.
