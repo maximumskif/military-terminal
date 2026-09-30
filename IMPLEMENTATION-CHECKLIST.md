@@ -9,7 +9,7 @@ Current specification: DEVELOPMENT-INSTRUCTIONS.md. Older plans and milestone re
 - [x] 0.4: Six health states, successful/attempted/scheduled checks, failure counts, quotas and coverage information. Successful 304s clear stale errors.
 - [x] 0.5: Alert rules/read states can be changed from an ingestion-readonly dashboard. Local shared-store locks protect alerts, funding commits and document-index commits. Device-local watchlists remain separate.
 - [x] 0.6: Server-side evidence pagination/filtering/sorting, explicit private data directory, classification caching and atomic JSON writes. Hosted transactional storage is deferred until before multiple users.
-- [x] 0.7: README is the single current setup guide; runtime/package/UI use 0.15. Older plans are labelled historical.
+- [x] 0.7: README is the single current setup guide; runtime/package/UI use 0.16. Older plans are labelled historical.
 
 Phase 0 local acceptance: regression suites pass. Production load, network failure campaigns, power-loss durability and hosted multiuser acceptance have not been established. Local locks are not distributed locks.
 
@@ -18,7 +18,8 @@ Phase 0 local acceptance: regression suites pass. Production load, network failu
 - [x] Source-document versions, passage IDs, unverified candidates and cached-snapshot review.
 - [x] Paginated source-event timeline and stage filters.
 - [x] Strict cross-host headline candidate review with primary links, dated evidence, persistent related/distinct decisions and changed-evidence invalidation. Host differences are not verified publisher independence.
-- [ ] Audited verified-event merge/split, broad paraphrase/syndication linking and safe duplicate-alert suppression.
+- [x] Conservative anchored rewording candidates, numeric/stage/amount guards, explanatory subject overlap, publication-bound review IDs and readable historical decisions.
+- [ ] Audited verified-event merge/split, broad paraphrase/syndication linking, measured match quality and safe duplicate-alert suppression.
 - [ ] Approximately 30–50 verified public contractors and historical subsidiary/parent mappings.
 - [x] Company research pages with exact mention timelines, issuer context, dated relationships, original-source links and saved-document inspection. Persistent local-server watches and evidence-linked notes verified across worker/dashboard processes.
 - [ ] Unify legacy browser watchlists with server watches; hosted accounts and shared research notes remain pending.

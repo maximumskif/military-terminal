@@ -1,4 +1,4 @@
-# Contract Sentinel 0.15 — setup and operating guide
+# Contract Sentinel 0.16 — setup and operating guide
 
 Product promise: Follow government-contract developments affecting companies you research, understand what changed, and verify the evidence quickly.
 
@@ -87,4 +87,10 @@ Attempts are recorded before retrieval. Successful funding refreshes wait six ho
 
 Source Intelligence now proposes up to 500 strict candidate pairs: exact normalized headlines of at least 40 characters, different source hosts, publication dates within seven days, matching provisional event type and announced amount/currency, and no conflicting known contract identifier. Unknown publication dates, same-host reports and changed wording are excluded. Host differences do not establish editorial independence. Candidate absence is not evidence of uniqueness.
 
-Review a pair as related or distinct and record a reason. Decisions persist privately, keep earlier decisions and bind to source content hashes. Revised source content requires a new review; earlier decisions remain saved as stale. Evidence records stay separate. This workflow does not merge verified events, confirm ownership/economics or suppress duplicate alerts. Broad paraphrase matching, syndicated provenance and audited event merge/split remain pending.
+Review a pair as related or distinct and record a reason. Decisions persist privately, keep earlier decisions and bind to source content hashes. Revised source content requires a new review; earlier decisions remain saved as stale. Evidence records stay separate. This workflow does not merge verified events, confirm ownership/economics or suppress duplicate alerts. Conservative anchored rewordings are now available below; broad paraphrase matching, syndicated provenance and audited event merge/split remain pending.
+
+## Rewritten announcement candidates
+
+Matcher version 2 adds reworded headlines with a shared exact research-company tag or reported contract ID, compatible non-unclear provisional event types, equal extracted amount/currency, identical numeric token sets and at least 65% subject-token overlap. Three shared subject terms are required with an extracted amount, four without one. Research tags and extracted identifiers do not establish verified ownership or award identity. Stopwords and generic award/amount phrases are excluded from overlap. Candidates remain review leads; displayed overlap is a text metric, not a probability or measured matching precision.
+
+Publication dates, URLs, source content hashes and matcher version now bind review IDs. Older decisions remain readable in the historical-review panel when evidence or matcher criteria change. Matching is bounded to 500 candidate pairs; only the first 50 historical decisions appear in the panel. No evidence is merged or alert automatically suppressed. Coverage/recall and real-world match accuracy have not been measured.

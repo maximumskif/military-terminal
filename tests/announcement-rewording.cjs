@@ -1,0 +1,12 @@
+const assert=require('node:assert/strict');const {candidates}=require('../announcement-review.cjs');
+const a={id:'a',title:'RTX awarded a $200 million contract for advanced naval radar production systems',url:'https://www.rtx.com/award',publishedAt:'2026-09-01',sourceClass:'company_statement',sourceId:'rtx',companyMentions:['RTX']};
+const b={...a,id:'b',title:'RTX wins $200 million advanced naval radar systems production contract',url:'https://reporter.example/award',sourceId:'reporter',sourceClass:'independent_reporting'};
+let result=candidates([a,b]);assert.equal(result.length,1);assert.equal(result[0].matchKind,'anchored_rewording');assert.ok(result[0].similarity>=65);assert.ok(result[0].sharedTerms.includes('radar'));
+assert.equal(candidates([a,{...b,companyMentions:[]}]).length,0);
+assert.equal(candidates([a,{...b,title:b.title.replace('200','300')}]).length,0);
+assert.equal(candidates([a,{...b,title:b.title+' for 5 years'}]).length,0);
+assert.equal(candidates([a,{...b,title:'RTX contract modification for advanced naval radar systems production worth $200 million'}]).length,0);
+assert.equal(candidates([a,{...b,title:'RTX might win $200 million advanced naval radar systems production contract'}]).length,0);
+assert.equal(candidates([a,{...b,title:'RTX wins $200 million space communications payload integration contract'}]).length,0);
+const changedDate=candidates([a,{...b,publishedAt:'2026-09-02'}])[0];assert.notEqual(changedDate.id,result[0].id);
+console.log('PASS anchored rewording, explanatory overlap, missing anchors, conflicting numbers/amounts/stages, speculation, unrelated programs and date-bound review invalidation');
