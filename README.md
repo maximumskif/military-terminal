@@ -1,4 +1,4 @@
-# Contract Sentinel 0.12 — setup and operating guide
+# Contract Sentinel 0.13 — setup and operating guide
 
 Product promise: Follow government-contract developments affecting companies you research, understand what changed, and verify the evidence quickly.
 
@@ -63,10 +63,16 @@ The initial list contains 22 research names, not a verified public-contractor un
 
 Saved headline/notice rules persist source observations between scans and restarts. Alerts distinguish existing-evidence matches, newly observed source evidence and evidence updates. Updates retain previous/current values and the detection-time event snapshot. Fields include normalized headlines, provisional event types, announced amounts, recipients/UEIs, award/solicitation IDs, agencies, response deadlines and active-notice status. Changes to previously matched evidence remain visible even if the current headline no longer matches its cue, such as a cancellation. These are source changes requiring review, not assessed financial materiality.
 
-Repeated content, whitespace-only changes and classifier upgrades alone do not create new alerts. Old alerts remain frozen. Legacy alerts lacking comparison baselines establish their first baseline without retroactive change claims; historical before/after values cannot be reconstructed. Syndicated stories from different publishers remain separate. Funding-history changes, document-only changes, scope/options comparisons, shared hosted accounts are pending.
+Repeated content, whitespace-only changes and classifier upgrades alone do not create new alerts. Old alerts remain frozen. Legacy alerts lacking comparison baselines establish their first baseline without retroactive change claims; historical before/after values cannot be reconstructed. Syndicated stories from different publishers remain separate. Explicit saved funding/document watches are available below; scope/options extraction and shared hosted accounts remain pending.
 
 ## Unified award-page alerts
 
 Keyword/minimum award rules now persist in alerts.json alongside headline rules. Existing browser rules are copied on page startup, with per-rule migration markers preventing deleted imports from returning. Browser originals remain a backup. The inbox combines both histories, filters by alert kind/unread state, and preserves detection-time snapshots.
 
 Award-page rules run only after successful loaded USAspending pages; they are not background searches or comprehensive award monitoring. Each observation distinguishes prime/subaward identities. Changed saved records show previous/current values even when they fall below a rule threshold. Repeated records are suppressed across scans/restarts. The server validates browser-submitted records and constructs source links; it does not independently re-fetch them. These records require source verification and amounts are not established obligations or revenue. If alert saving fails, award results remain visible with a separate persistence error. Saved recipient watchlists still require unification.
+
+## Saved funding and document watches
+
+FOLLOW SAVED FUNDING CHANGES and FOLLOW SAVED DOCUMENT CHANGES add explicit record-specific rules to the unified inbox. The dashboard checks saved stores each minute while running, including with a standalone collector worker. These rules do not schedule upstream retrieval: refresh funding histories or retrieve documents to obtain new versions. First snapshots establish baselines; unchanged refreshes and document extraction/classification upgrades are suppressed.
+
+Funding alerts compare signed source transaction amounts, dates, modification numbers, descriptions, added/removed records and collection completeness. Collection changes may reflect reporting corrections or coverage, not new funding. Document alerts retain added/removed passages and version hashes. Up to 20 changed fields are displayed per alert with total change count; original saved source versions retain the underlying evidence. Financial materiality, revenue, public-parent ownership and changes across publishers remain unassessed.

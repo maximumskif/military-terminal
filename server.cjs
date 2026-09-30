@@ -13,3 +13,5 @@ const server=http.createServer(async(req,res)=>{const url=new URL(req.url,'http:
 server.listen(port,'127.0.0.1',()=>{console.log(`Local URL: http://127.0.0.1:${port}`);(process.env.SENTINEL_READ_ONLY==='1'?Promise.resolve({readOnly:true}):collector.scan({force:false})).then(result=>console.log(JSON.stringify({initialScan:result}))).catch(e=>console.error('Initial collection failed'));});
 const timer=setInterval(()=>process.env.SENTINEL_READ_ONLY!=='1'&&collector.scan({force:false}).catch(()=>{}),60000);timer.unref();
 process.on('SIGINT',()=>{clearInterval(timer);server.close(()=>process.exit(0))});
+
+function checkSavedChanges(){try{collector.evaluateSavedChanges()}catch{console.error('Saved evidence alert check failed; prior alert state retained')}}checkSavedChanges();setInterval(checkSavedChanges,60000).unref();
