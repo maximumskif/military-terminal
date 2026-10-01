@@ -1,0 +1,154 @@
+{
+  "version": 1,
+  "labeledAt": "2026-10-01",
+  "labeler": "Codex",
+  "scope": "Separate post-tuning challenge sample of constructed headlines. No classifier changes made against these labels in this milestone. Not independent human ground truth or representative production evaluation.",
+  "events": [
+    {
+      "id": "challenge-1",
+      "origin": "constructed_challenge",
+      "input": {
+        "title": "Agency requests proposals for satellite ground terminals",
+        "sourceClass": "official_announcement",
+        "publishedAt": "2026-09-29",
+        "firstSeen": "2026-09-30T12:00:00Z"
+      },
+      "expected": "FINAL_SOLICITATION",
+      "rationale": "Solicitation paraphrase not used for tuning."
+    },
+    {
+      "id": "challenge-2",
+      "origin": "constructed_challenge",
+      "input": {
+        "title": "Congress enacted appropriations for naval shipbuilding",
+        "sourceClass": "official_announcement",
+        "publishedAt": "2026-09-29",
+        "firstSeen": "2026-09-30T12:00:00Z"
+      },
+      "expected": "ENACTED_FUNDING",
+      "rationale": "Enactment paraphrase."
+    },
+    {
+      "id": "challenge-3",
+      "origin": "constructed_challenge",
+      "input": {
+        "title": "Company clinches a $90 million radar contract",
+        "sourceClass": "official_announcement",
+        "publishedAt": "2026-09-29",
+        "firstSeen": "2026-09-30T12:00:00Z"
+      },
+      "expected": "DEFINITIVE_CONTRACT_AWARD",
+      "rationale": "Another colloquial award verb."
+    },
+    {
+      "id": "challenge-4",
+      "origin": "constructed_challenge",
+      "input": {
+        "title": "Company might receive a $90 million radar contract",
+        "sourceClass": "official_announcement",
+        "publishedAt": "2026-09-29",
+        "firstSeen": "2026-09-30T12:00:00Z"
+      },
+      "expected": "OTHER_OR_UNCLEAR",
+      "rationale": "Uncertain award."
+    },
+    {
+      "id": "challenge-5",
+      "origin": "constructed_challenge",
+      "input": {
+        "title": "Agency posts draft request for proposals for equipment",
+        "sourceClass": "official_announcement",
+        "publishedAt": "2026-09-29",
+        "firstSeen": "2026-09-30T12:00:00Z"
+      },
+      "expected": "DRAFT_SOLICITATION",
+      "rationale": "Draft before final."
+    },
+    {
+      "id": "challenge-6",
+      "origin": "constructed_challenge",
+      "input": {
+        "title": "Company wins an industry innovation award for aircraft",
+        "sourceClass": "official_announcement",
+        "publishedAt": "2026-09-29",
+        "firstSeen": "2026-09-30T12:00:00Z"
+      },
+      "expected": "OTHER_OR_UNCLEAR",
+      "rationale": "Industry recognition is not government procurement."
+    },
+    {
+      "id": "challenge-7",
+      "origin": "constructed_challenge",
+      "input": {
+        "title": "Navy exercises the option for radar maintenance",
+        "sourceClass": "official_announcement",
+        "publishedAt": "2026-09-29",
+        "firstSeen": "2026-09-30T12:00:00Z"
+      },
+      "expected": "OPTION_EXERCISE",
+      "rationale": "Different exercise wording."
+    },
+    {
+      "id": "challenge-8",
+      "origin": "constructed_challenge",
+      "input": {
+        "title": "Radar solicitation canceled following review",
+        "sourceClass": "official_announcement",
+        "publishedAt": "2026-09-29",
+        "firstSeen": "2026-09-30T12:00:00Z"
+      },
+      "expected": "CANCELLATION_OR_TERMINATION",
+      "rationale": "Adverse solicitation action."
+    },
+    {
+      "id": "challenge-9",
+      "origin": "constructed_challenge",
+      "input": {
+        "title": "Company selected as preferred bidder for radar procurement",
+        "sourceClass": "official_announcement",
+        "publishedAt": "2026-09-29",
+        "firstSeen": "2026-09-30T12:00:00Z"
+      },
+      "expected": "DOWN_SELECTION",
+      "rationale": "Preferred bidder is not final award."
+    },
+    {
+      "id": "challenge-10",
+      "origin": "constructed_challenge",
+      "input": {
+        "title": "Agency signs an appropriations act for laboratories",
+        "sourceClass": "official_announcement",
+        "publishedAt": "2026-09-29",
+        "firstSeen": "2026-09-30T12:00:00Z"
+      },
+      "expected": "ENACTED_FUNDING",
+      "rationale": "Signing paraphrase."
+    },
+    {
+      "id": "challenge-11",
+      "origin": "constructed_challenge",
+      "input": {
+        "title": "Company previously won a contract for radar",
+        "sourceClass": "official_announcement",
+        "publishedAt": "2026-09-29",
+        "firstSeen": "2026-09-30T12:00:00Z"
+      },
+      "expected": "DEFINITIVE_CONTRACT_AWARD",
+      "rationale": "Historical stage retained, novelty unestablished."
+    },
+    {
+      "id": "challenge-12",
+      "origin": "constructed_challenge",
+      "input": {
+        "title": "Agency announces sources sought for satellite support",
+        "sourceClass": "official_announcement",
+        "publishedAt": "2026-09-29",
+        "firstSeen": "2026-09-30T12:00:00Z"
+      },
+      "expected": "SOURCES_SOUGHT_RFI",
+      "rationale": "Market research action."
+    }
+  ],
+  "entities": [],
+  "pairs": []
+}

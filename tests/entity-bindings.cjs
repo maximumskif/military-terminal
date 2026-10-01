@@ -1,0 +1,11 @@
+const assert=require('node:assert/strict');const {resolveWithLedger}=require('../recipient-bindings.cjs');
+// Synthetic evidence and identifiers; never added to the operational ledger.
+const ledger={entities:[{id:'child',legalName:'Synthetic Subsidiary'},{id:'parent',legalName:'Synthetic Parent',publicListing:{ticker:'TEST',evidenceAsOf:'2026-09-29',sourceUrl:'https://filing.example/listing',supportingPassage:'Synthetic listed securities'}}],identifierBindings:[{id:'binding-a',kind:'uei',value:'SYNTHETIC-UEI',entityId:'child',reviewStatus:'reviewed_official_record',effectiveFrom:'2026-01-01',evidenceAsOf:'2026-09-29',sourceUrl:'https://record.example/recipient',supportingPassage:'Synthetic recipient identifier'}],relationships:[{id:'ownership',childId:'child',parentId:'parent',reviewStatus:'reviewed_primary_filing',effectiveFrom:'2026-01-01',evidenceAsOf:'2026-09-29',sources:[{url:'https://filing.example/subsidiaries',supportingPassage:'Synthetic ownership'}]}]};
+const resolve=(input={uei:'SYNTHETIC-UEI'},date='2026-09-29',data=ledger)=>resolveWithLedger(input,date,data);
+assert.equal(resolve().ticker,'TEST');assert.equal(resolve().publicParent,'Synthetic Parent');assert.equal(resolve(undefined,'2026-09-28').ticker,null);
+for(const date of ['2026-02-30','2026-10-01','2025-12-31',null])assert.equal(resolve(undefined,date).status,'unresolved');
+assert.equal(resolve({name:'Synthetic Subsidiary'}).status,'unresolved');assert.equal(resolve({uei:'SYNTHETIC-UEI',cage:'UNREVIEWED'}).status,'unresolved');
+function modified(fn){const data=structuredClone(ledger);fn(data);return data;}
+for(const change of [d=>d.identifierBindings=[],d=>d.identifierBindings[0].reviewStatus='unreviewed',d=>delete d.identifierBindings[0].supportingPassage,d=>d.relationships[0].effectiveUntil='2026-09-29',d=>d.entities.pop(),d=>d.relationships[0].sources=[]])assert.equal(resolve(undefined,undefined,modified(change)).status,'unresolved');
+const conflict=modified(d=>d.identifierBindings.push({...d.identifierBindings[0],id:'binding-b',kind:'cage',value:'CONFLICT',entityId:'different'}));assert.equal(resolve({uei:'SYNTHETIC-UEI',cage:'CONFLICT'},undefined,conflict).status,'ambiguous');
+console.log('PASS synthetic reviewed bindings, identifier conflicts, invalid/out-of-range dates, missing provenance/parent, ended ownership and dated ticker abstention');

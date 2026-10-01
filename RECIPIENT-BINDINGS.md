@@ -1,0 +1,7 @@
+# Reviewed recipient identifier bindings
+
+Recipient resolution now requires dated, reviewed identifier evidence in `entity-ledger.json.identifierBindings`. An entity name or an unreviewed `uei`/`cage` attribute cannot assign a public parent. Every supplied identifier must have a reviewed binding covering the requested date, and the bindings must agree on one legal entity. A missing identifier binding, conflicting identifiers, invalid date, ambiguous parent, or ownership outside the reviewed interval prevents resolution.
+
+Each binding records `id`, `kind` (`uei` or `cage`), `value`, `entityId`, `reviewStatus` (`reviewed_official_record`), `effectiveFrom`, `evidenceAsOf`, optional exclusive `effectiveUntil`, `sourceUrl`, and `supportingPassage`. Review status is a local research assertion; this module does not authenticate the source or independently verify a passage. Adding an operational binding requires checking the official record first. A relationship must separately have reviewed filing evidence covering the date. Tickers still require listing evidence for the exact requested date.
+
+There are **zero operational recipient bindings** today. Tests use explicitly synthetic entities and example-domain evidence, isolated from the operational ledger. These exercise positive and adverse resolution paths, not real-company accuracy. Real recipient/parent mappings remain pending official-record review.

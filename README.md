@@ -103,4 +103,6 @@ Hiding is a manual visibility preference, not deletion or event merging. Hidden 
 
 ## Quality benchmark
 
+A separate post-tuning challenge sample and dated identifier-binding checks are now available. See benchmarks/CHALLENGE-REPORT.md and RECIPIENT-BINDINGS.md. No real company recipient identifiers have been newly verified; synthetic positive examples remain isolated in tests.
+
 Run npm run benchmark for a reproducible development baseline with separate precision/recall, unresolved identity counts, candidate-selection metrics, and visible failures. See benchmarks/README.md and benchmarks/QUALITY-REPORT.md. These selected Codex-labeled examples are not independent human ground truth or production accuracy. No confirmed precision or verified recipient-link accuracy is claimed.

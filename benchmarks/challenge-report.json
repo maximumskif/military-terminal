@@ -1,0 +1,288 @@
+{
+  "benchmarkVersion": 1,
+  "fixtureHash": "5d88d6105a4d1df7ed13495b8e1ebb20338dbad1be87882f995eebb1fbdcfabd",
+  "classifierVersion": 6,
+  "generatedAt": "2026-10-01T19:12:21.676Z",
+  "scope": "Separate post-tuning challenge sample of constructed headlines. No classifier changes made against these labels in this milestone. Not independent human ground truth or representative production evaluation.",
+  "classification": {
+    "sampleSize": 12,
+    "accuracy": 0.6666666666666666,
+    "perClass": [
+      {
+        "label": "CANCELLATION_OR_TERMINATION",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1,
+        "recall": 1
+      },
+      {
+        "label": "DEFINITIVE_CONTRACT_AWARD",
+        "support": 2,
+        "tp": 1,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1,
+        "recall": 0.5
+      },
+      {
+        "label": "DOWN_SELECTION",
+        "support": 1,
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": null,
+        "recall": 0
+      },
+      {
+        "label": "DRAFT_SOLICITATION",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1,
+        "recall": 1
+      },
+      {
+        "label": "ENACTED_FUNDING",
+        "support": 2,
+        "tp": 1,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1,
+        "recall": 0.5
+      },
+      {
+        "label": "FINAL_SOLICITATION",
+        "support": 1,
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": null,
+        "recall": 0
+      },
+      {
+        "label": "OPTION_EXERCISE",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1,
+        "recall": 1
+      },
+      {
+        "label": "OTHER_OR_UNCLEAR",
+        "support": 2,
+        "tp": 2,
+        "fp": 4,
+        "fn": 0,
+        "precision": 0.3333333333333333,
+        "recall": 1
+      },
+      {
+        "label": "SOURCES_SOUGHT_RFI",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1,
+        "recall": 1
+      }
+    ],
+    "failures": [
+      {
+        "id": "challenge-1",
+        "origin": "constructed_challenge",
+        "expected": "FINAL_SOLICITATION",
+        "actual": "OTHER_OR_UNCLEAR",
+        "rationale": "Solicitation paraphrase not used for tuning.",
+        "title": "Agency requests proposals for satellite ground terminals",
+        "provisional": true,
+        "fundingUnknown": true
+      },
+      {
+        "id": "challenge-3",
+        "origin": "constructed_challenge",
+        "expected": "DEFINITIVE_CONTRACT_AWARD",
+        "actual": "OTHER_OR_UNCLEAR",
+        "rationale": "Another colloquial award verb.",
+        "title": "Company clinches a $90 million radar contract",
+        "provisional": true,
+        "fundingUnknown": true
+      },
+      {
+        "id": "challenge-9",
+        "origin": "constructed_challenge",
+        "expected": "DOWN_SELECTION",
+        "actual": "OTHER_OR_UNCLEAR",
+        "rationale": "Preferred bidder is not final award.",
+        "title": "Company selected as preferred bidder for radar procurement",
+        "provisional": true,
+        "fundingUnknown": true
+      },
+      {
+        "id": "challenge-10",
+        "origin": "constructed_challenge",
+        "expected": "ENACTED_FUNDING",
+        "actual": "OTHER_OR_UNCLEAR",
+        "rationale": "Signing paraphrase.",
+        "title": "Agency signs an appropriations act for laboratories",
+        "provisional": true,
+        "fundingUnknown": true
+      }
+    ]
+  },
+  "classificationByOrigin": {
+    "constructed_challenge": {
+      "sampleSize": 12,
+      "accuracy": 0.6666666666666666,
+      "perClass": [
+        {
+          "label": "CANCELLATION_OR_TERMINATION",
+          "support": 1,
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1,
+          "recall": 1
+        },
+        {
+          "label": "DEFINITIVE_CONTRACT_AWARD",
+          "support": 2,
+          "tp": 1,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1,
+          "recall": 0.5
+        },
+        {
+          "label": "DOWN_SELECTION",
+          "support": 1,
+          "tp": 0,
+          "fp": 0,
+          "fn": 1,
+          "precision": null,
+          "recall": 0
+        },
+        {
+          "label": "DRAFT_SOLICITATION",
+          "support": 1,
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1,
+          "recall": 1
+        },
+        {
+          "label": "ENACTED_FUNDING",
+          "support": 2,
+          "tp": 1,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1,
+          "recall": 0.5
+        },
+        {
+          "label": "FINAL_SOLICITATION",
+          "support": 1,
+          "tp": 0,
+          "fp": 0,
+          "fn": 1,
+          "precision": null,
+          "recall": 0
+        },
+        {
+          "label": "OPTION_EXERCISE",
+          "support": 1,
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1,
+          "recall": 1
+        },
+        {
+          "label": "OTHER_OR_UNCLEAR",
+          "support": 2,
+          "tp": 2,
+          "fp": 4,
+          "fn": 0,
+          "precision": 0.3333333333333333,
+          "recall": 1
+        },
+        {
+          "label": "SOURCES_SOUGHT_RFI",
+          "support": 1,
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1,
+          "recall": 1
+        }
+      ],
+      "failures": [
+        {
+          "id": "challenge-1",
+          "origin": "constructed_challenge",
+          "expected": "FINAL_SOLICITATION",
+          "actual": "OTHER_OR_UNCLEAR",
+          "rationale": "Solicitation paraphrase not used for tuning.",
+          "title": "Agency requests proposals for satellite ground terminals",
+          "provisional": true,
+          "fundingUnknown": true
+        },
+        {
+          "id": "challenge-3",
+          "origin": "constructed_challenge",
+          "expected": "DEFINITIVE_CONTRACT_AWARD",
+          "actual": "OTHER_OR_UNCLEAR",
+          "rationale": "Another colloquial award verb.",
+          "title": "Company clinches a $90 million radar contract",
+          "provisional": true,
+          "fundingUnknown": true
+        },
+        {
+          "id": "challenge-9",
+          "origin": "constructed_challenge",
+          "expected": "DOWN_SELECTION",
+          "actual": "OTHER_OR_UNCLEAR",
+          "rationale": "Preferred bidder is not final award.",
+          "title": "Company selected as preferred bidder for radar procurement",
+          "provisional": true,
+          "fundingUnknown": true
+        },
+        {
+          "id": "challenge-10",
+          "origin": "constructed_challenge",
+          "expected": "ENACTED_FUNDING",
+          "actual": "OTHER_OR_UNCLEAR",
+          "rationale": "Signing paraphrase.",
+          "title": "Agency signs an appropriations act for laboratories",
+          "provisional": true,
+          "fundingUnknown": true
+        }
+      ]
+    }
+  },
+  "entityResolution": {
+    "sampleSize": 0,
+    "accuracy": null,
+    "perClass": [],
+    "failures": [],
+    "unresolved": 0,
+    "verifiedPositiveExamples": 0,
+    "limitation": "Only abstention controls; verified recipient-binding accuracy remains unmeasured."
+  },
+  "duplicateCandidateSelection": {
+    "sampleSize": 0,
+    "accuracy": null,
+    "perClass": [],
+    "failures": []
+  },
+  "safety": {
+    "provisionalOnly": true,
+    "noHeadlineObligationPromotion": true
+  },
+  "confirmedClassificationPrecision": null,
+  "targetConfirmedPrecision": 0.95
+}

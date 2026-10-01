@@ -5,7 +5,8 @@
   "scripts": {
     "benchmark": "node quality-benchmark.cjs benchmarks",
     "start": "node server.cjs",
-    "test": "node tests/scanner.cjs && node tests/collector.cjs && node tests/funding.cjs && node tests/alerts.cjs && node tests/sam.cjs && node tests/sam-polling.cjs && node tests/events.cjs && node tests/realistic-events.cjs && node tests/documents.cjs && node tests/reliability.cjs && node tests/event-store.cjs && node tests/sam-interruption.cjs && node tests/worker-dashboard.cjs && node tests/entities.cjs && node tests/research.cjs && node tests/alert-changes.cjs && node tests/award-alerts.cjs && node tests/alert-migration.cjs && node tests/saved-change-alerts.cjs && node tests/saved-refresh.cjs && node tests/announcement-review.cjs && node tests/announcement-rewording.cjs && node tests/alert-visibility.cjs && node tests/quality-benchmark.cjs && node tests/classifier-recall.cjs"
+    "test": "node tests/scanner.cjs && node tests/collector.cjs && node tests/funding.cjs && node tests/alerts.cjs && node tests/sam.cjs && node tests/sam-polling.cjs && node tests/events.cjs && node tests/realistic-events.cjs && node tests/documents.cjs && node tests/reliability.cjs && node tests/event-store.cjs && node tests/sam-interruption.cjs && node tests/worker-dashboard.cjs && node tests/entities.cjs && node tests/research.cjs && node tests/alert-changes.cjs && node tests/award-alerts.cjs && node tests/alert-migration.cjs && node tests/saved-change-alerts.cjs && node tests/saved-refresh.cjs && node tests/announcement-review.cjs && node tests/announcement-rewording.cjs && node tests/alert-visibility.cjs && node tests/quality-benchmark.cjs && node tests/classifier-recall.cjs && node tests/entity-bindings.cjs",
+    "benchmark:challenge": "node challenge-benchmark.cjs"
   },
   "engines": {
     "node": ">=24"
