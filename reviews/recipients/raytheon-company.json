@@ -1,9 +1,10 @@
 {
-  "generatedAt": "2026-10-15T17:57:27.594Z",
+  "generatedAt": "2026-10-15T18:21:15.368Z",
   "query": {
     "name": "Raytheon Company",
     "parentUei": "PPLZG8J3N9D4",
-    "entityId": "legal:raytheon-company"
+    "entityId": "legal:raytheon-company",
+    "formerNames": []
   },
   "searched": 46,
   "candidates": [
@@ -31,7 +32,15 @@
         "latestTransaction": {
           "date": "2026-07-15",
           "award": "CONT_AWD_N0002423C5408_9700_-NONE-_-NONE-"
-        }
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N0002423C5408_9700_-NONE-_-NONE-",
+          "parentName": "RTX CORP",
+          "parentUei": "PPLZG8J3N9D4",
+          "recipientUei": "VTEWM5QSE598",
+          "responseSha256": "4c9ca8ac6e8f672150892dcb99af4213b6d341711b74709c44d6e4f7c2f2e098"
+        },
+        "warnings": []
       },
       "binding": {
         "id": "binding:uei:VTEWM5QSE598",
@@ -43,8 +52,8 @@
         "evidenceAsOf": "2026-10-15",
         "sourceUrl": "https://www.usaspending.gov/recipient/01c4a3a3-b4c5-ce4e-822b-d17f09985001-C/latest",
         "apiUrl": "https://api.usaspending.gov/api/v2/recipient/01c4a3a3-b4c5-ce4e-822b-d17f09985001-C/",
-        "supportingPassage": "RAYTHEON COMPANY | UEI VTEWM5QSE598 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | TUCSON, AZ, USA",
-        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name (search floor 2007-10-01), not a registration date."
+        "supportingPassage": "RAYTHEON COMPANY | UEI VTEWM5QSE598 | TUCSON, AZ, USA | Latest award CONT_AWD_N0002423C5408_9700_-NONE-_-NONE- (2026-07-15) parent: RTX CORP (UEI PPLZG8J3N9D4)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
       }
     },
     {
@@ -71,7 +80,15 @@
         "latestTransaction": {
           "date": "2026-07-15",
           "award": "CONT_AWD_SPE7M125P4340_9700_-NONE-_-NONE-"
-        }
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_SPE7M125P4340_9700_-NONE-_-NONE-",
+          "parentName": "RTX CORP",
+          "parentUei": "PPLZG8J3N9D4",
+          "recipientUei": "XSV6AZJ6SDJ7",
+          "responseSha256": "a282f72f4687fecaa5f1e1857f2e6438beed250e12e76f04dfe0a6eb2075e87b"
+        },
+        "warnings": []
       },
       "binding": {
         "id": "binding:uei:XSV6AZJ6SDJ7",
@@ -83,8 +100,8 @@
         "evidenceAsOf": "2026-10-15",
         "sourceUrl": "https://www.usaspending.gov/recipient/cce9df51-3950-87f4-0b34-4353d5a08f32-C/latest",
         "apiUrl": "https://api.usaspending.gov/api/v2/recipient/cce9df51-3950-87f4-0b34-4353d5a08f32-C/",
-        "supportingPassage": "RAYTHEON COMPANY | UEI XSV6AZJ6SDJ7 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | ANDOVER, MA, USA",
-        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name (search floor 2007-10-01), not a registration date."
+        "supportingPassage": "RAYTHEON COMPANY | UEI XSV6AZJ6SDJ7 | ANDOVER, MA, USA | Latest award CONT_AWD_SPE7M125P4340_9700_-NONE-_-NONE- (2026-07-15) parent: RTX CORP (UEI PPLZG8J3N9D4)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
       }
     },
     {
@@ -111,7 +128,15 @@
         "latestTransaction": {
           "date": "2026-09-23",
           "award": "CONT_AWD_697DCK26C00183_6920_-NONE-_-NONE-"
-        }
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_697DCK26C00183_6920_-NONE-_-NONE-",
+          "parentName": "RTX CORP",
+          "parentUei": "PPLZG8J3N9D4",
+          "recipientUei": "YD6LTFVUZNG1",
+          "responseSha256": "418b3b52a4e07f22c0481ebd404721bf99fd35037a98b227cb0a716664e72292"
+        },
+        "warnings": []
       },
       "binding": {
         "id": "binding:uei:YD6LTFVUZNG1",
@@ -123,8 +148,8 @@
         "evidenceAsOf": "2026-10-15",
         "sourceUrl": "https://www.usaspending.gov/recipient/b91e6418-aa27-f6c2-90a9-1545753a6d15-C/latest",
         "apiUrl": "https://api.usaspending.gov/api/v2/recipient/b91e6418-aa27-f6c2-90a9-1545753a6d15-C/",
-        "supportingPassage": "RAYTHEON COMPANY | UEI YD6LTFVUZNG1 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | MARLBOROUGH, MA, USA",
-        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name (search floor 2007-10-01), not a registration date."
+        "supportingPassage": "RAYTHEON COMPANY | UEI YD6LTFVUZNG1 | MARLBOROUGH, MA, USA | Latest award CONT_AWD_697DCK26C00183_6920_-NONE-_-NONE- (2026-09-23) parent: RTX CORP (UEI PPLZG8J3N9D4)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
       }
     },
     {
@@ -151,7 +176,15 @@
         "latestTransaction": {
           "date": "2026-07-15",
           "award": "CONT_AWD_N0038324FVW03_9700_N0038320GVW01_9700"
-        }
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N0038324FVW03_9700_N0038320GVW01_9700",
+          "parentName": "RTX CORP",
+          "parentUei": "PPLZG8J3N9D4",
+          "recipientUei": "HEBCLD22EJD1",
+          "responseSha256": "65c1723c5a1514d1532183edd036235c64697910074527c51dc5a3dceb91f236"
+        },
+        "warnings": []
       },
       "binding": {
         "id": "binding:uei:HEBCLD22EJD1",
@@ -163,8 +196,8 @@
         "evidenceAsOf": "2026-10-15",
         "sourceUrl": "https://www.usaspending.gov/recipient/f5a16ae3-dea9-9665-e3ae-4580e21e57fc-C/latest",
         "apiUrl": "https://api.usaspending.gov/api/v2/recipient/f5a16ae3-dea9-9665-e3ae-4580e21e57fc-C/",
-        "supportingPassage": "RAYTHEON COMPANY | UEI HEBCLD22EJD1 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | MCKINNEY, TX, USA",
-        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name (search floor 2007-10-01), not a registration date."
+        "supportingPassage": "RAYTHEON COMPANY | UEI HEBCLD22EJD1 | MCKINNEY, TX, USA | Latest award CONT_AWD_N0038324FVW03_9700_N0038320GVW01_9700 (2026-07-15) parent: RTX CORP (UEI PPLZG8J3N9D4)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
       }
     },
     {
@@ -191,7 +224,15 @@
         "latestTransaction": {
           "date": "2026-09-18",
           "award": "CONT_AWD_1333ND26PNB030515_1341_-NONE-_-NONE-"
-        }
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_1333ND26PNB030515_1341_-NONE-_-NONE-",
+          "parentName": "RTX CORP",
+          "parentUei": "PPLZG8J3N9D4",
+          "recipientUei": "LWF3QUSCDNG1",
+          "responseSha256": "6ff757d4b6d9ca07d8068f956036ff2f977ec9b53bc7b593d694603fa8141a0f"
+        },
+        "warnings": []
       },
       "binding": {
         "id": "binding:uei:LWF3QUSCDNG1",
@@ -203,8 +244,8 @@
         "evidenceAsOf": "2026-10-15",
         "sourceUrl": "https://www.usaspending.gov/recipient/b20b122a-596c-14ad-0033-6e5bc41f4768-C/latest",
         "apiUrl": "https://api.usaspending.gov/api/v2/recipient/b20b122a-596c-14ad-0033-6e5bc41f4768-C/",
-        "supportingPassage": "RAYTHEON COMPANY | UEI LWF3QUSCDNG1 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | TEWKSBURY, MA, USA",
-        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name (search floor 2007-10-01), not a registration date."
+        "supportingPassage": "RAYTHEON COMPANY | UEI LWF3QUSCDNG1 | TEWKSBURY, MA, USA | Latest award CONT_AWD_1333ND26PNB030515_1341_-NONE-_-NONE- (2026-09-18) parent: RTX CORP (UEI PPLZG8J3N9D4)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
       }
     },
     {
@@ -231,7 +272,15 @@
         "latestTransaction": {
           "date": "2026-09-10",
           "award": "CONT_AWD_NNG10XA05C_8000_-NONE-_-NONE-"
-        }
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_NNG10XA05C_8000_-NONE-_-NONE-",
+          "parentName": "RTX CORP",
+          "parentUei": "PPLZG8J3N9D4",
+          "recipientUei": "NBSLHP77ZJQ1",
+          "responseSha256": "b03562ff4b658f3f1dc92c138c3a682c674236a02431b6e77a330239b50e611e"
+        },
+        "warnings": []
       },
       "binding": {
         "id": "binding:uei:NBSLHP77ZJQ1",
@@ -243,8 +292,8 @@
         "evidenceAsOf": "2026-10-15",
         "sourceUrl": "https://www.usaspending.gov/recipient/b6b091bb-570b-bf26-3e7a-b4a1a7c2d61a-C/latest",
         "apiUrl": "https://api.usaspending.gov/api/v2/recipient/b6b091bb-570b-bf26-3e7a-b4a1a7c2d61a-C/",
-        "supportingPassage": "RAYTHEON COMPANY | UEI NBSLHP77ZJQ1 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | EL SEGUNDO, CA, USA",
-        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name (search floor 2007-10-01), not a registration date."
+        "supportingPassage": "RAYTHEON COMPANY | UEI NBSLHP77ZJQ1 | EL SEGUNDO, CA, USA | Latest award CONT_AWD_NNG10XA05C_8000_-NONE-_-NONE- (2026-09-10) parent: RTX CORP (UEI PPLZG8J3N9D4)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
       }
     },
     {
@@ -272,7 +321,15 @@
         "latestTransaction": {
           "date": "2026-07-15",
           "award": "CONT_AWD_N0018926FB063_9700_N0018923DZ021_9700"
-        }
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N0018926FB063_9700_N0018923DZ021_9700",
+          "parentName": "RTX CORP",
+          "parentUei": "PPLZG8J3N9D4",
+          "recipientUei": "MZK8TCNF24G2",
+          "responseSha256": "f2dc65f16e4b74eb64f227175f25351dbaf6707d25d5fb8f027135b51883d4fc"
+        },
+        "warnings": []
       },
       "binding": {
         "id": "binding:uei:MZK8TCNF24G2",
@@ -284,8 +341,8 @@
         "evidenceAsOf": "2026-10-15",
         "sourceUrl": "https://www.usaspending.gov/recipient/f321e226-c4b2-f29f-443b-86843ff28e53-C/latest",
         "apiUrl": "https://api.usaspending.gov/api/v2/recipient/f321e226-c4b2-f29f-443b-86843ff28e53-C/",
-        "supportingPassage": "RAYTHEON COMPANY | UEI MZK8TCNF24G2 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | WOBURN, MA, USA",
-        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name (search floor 2007-10-01), not a registration date."
+        "supportingPassage": "RAYTHEON COMPANY | UEI MZK8TCNF24G2 | WOBURN, MA, USA | Latest award CONT_AWD_N0018926FB063_9700_N0018923DZ021_9700 (2026-07-15) parent: RTX CORP (UEI PPLZG8J3N9D4)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
       }
     },
     {
@@ -312,7 +369,15 @@
         "latestTransaction": {
           "date": "2026-07-15",
           "award": "CONT_AWD_HQ072726FE030_9700_HQ072716D0006_9700"
-        }
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_HQ072726FE030_9700_HQ072716D0006_9700",
+          "parentName": "RTX CORP",
+          "parentUei": "PPLZG8J3N9D4",
+          "recipientUei": "QF4VA87ST9F7",
+          "responseSha256": "1b374a671e80a00b2fe111902aa1e2531aa68928d2662b0c51da9acaff76b176"
+        },
+        "warnings": []
       },
       "binding": {
         "id": "binding:uei:QF4VA87ST9F7",
@@ -324,8 +389,8 @@
         "evidenceAsOf": "2026-10-15",
         "sourceUrl": "https://www.usaspending.gov/recipient/ac0b9590-0ad8-0854-a7ed-8474dc0b203b-C/latest",
         "apiUrl": "https://api.usaspending.gov/api/v2/recipient/ac0b9590-0ad8-0854-a7ed-8474dc0b203b-C/",
-        "supportingPassage": "RAYTHEON COMPANY | UEI QF4VA87ST9F7 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | EL SEGUNDO, CA, USA",
-        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name (search floor 2007-10-01), not a registration date."
+        "supportingPassage": "RAYTHEON COMPANY | UEI QF4VA87ST9F7 | EL SEGUNDO, CA, USA | Latest award CONT_AWD_HQ072726FE030_9700_HQ072716D0006_9700 (2026-07-15) parent: RTX CORP (UEI PPLZG8J3N9D4)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
       }
     },
     {
@@ -352,7 +417,15 @@
         "latestTransaction": {
           "date": "2026-09-28",
           "award": "CONT_AWD_47QFCA20F0071_4732_GS00Q14OADU129_4732"
-        }
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_47QFCA20F0071_4732_GS00Q14OADU129_4732",
+          "parentName": "RTX CORP",
+          "parentUei": "PPLZG8J3N9D4",
+          "recipientUei": "Y5ZZFR2AQC63",
+          "responseSha256": "576a7dc3c314683efb588c25e529a19d43ce714c86281fbc61ae7fa608dce23f"
+        },
+        "warnings": []
       },
       "binding": {
         "id": "binding:uei:Y5ZZFR2AQC63",
@@ -364,8 +437,59 @@
         "evidenceAsOf": "2026-10-15",
         "sourceUrl": "https://www.usaspending.gov/recipient/4a228748-a256-002e-de46-4dd145e98dfe-C/latest",
         "apiUrl": "https://api.usaspending.gov/api/v2/recipient/4a228748-a256-002e-de46-4dd145e98dfe-C/",
-        "supportingPassage": "RAYTHEON COMPANY | UEI Y5ZZFR2AQC63 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | STERLING, VA, USA",
-        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name (search floor 2007-10-01), not a registration date."
+        "supportingPassage": "RAYTHEON COMPANY | UEI Y5ZZFR2AQC63 | STERLING, VA, USA | Latest award CONT_AWD_47QFCA20F0071_4732_GS00Q14OADU129_4732 (2026-09-28) parent: RTX CORP (UEI PPLZG8J3N9D4)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "GMBYU6KAN9J3",
+        "cage": null,
+        "recipientId": "48b5678a-6704-3414-09de-c3abf9e7556e-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/48b5678a-6704-3414-09de-c3abf9e7556e-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/48b5678a-6704-3414-09de-c3abf9e7556e-C/",
+        "responseSha256": "cd85d9a3cdbda7f6f163c7a4a94556cd954cbfd88c61363d45780f5c1ef95f14",
+        "name": "RAYTHEON COMPANY",
+        "parentName": "RAYTHEON COMPANY",
+        "parentUei": "GMBYU6KAN9J3",
+        "otherReportedParents": [
+          "RTX CORP / PPLZG8J3N9D4",
+          "RAYTHEON COMPANY / KLW3ZYL15493",
+          "ROCKWELL COLLINS AUSTRALIA PTY LIMITED / EGAVSJTA2D81"
+        ],
+        "location": "LARGO, FL, USA",
+        "contractAmount": 143731132.26,
+        "earliestTransaction": {
+          "date": "2007-10-01",
+          "award": "CONT_AWD_1107_9700_F4260001D0020_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-07-13",
+          "award": "CONT_AWD_N0002425C5239_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N0002425C5239_9700_-NONE-_-NONE-",
+          "parentName": "RTX CORP",
+          "parentUei": "PPLZG8J3N9D4",
+          "recipientUei": "GMBYU6KAN9J3",
+          "responseSha256": "ba0d9e91dc76f25111643a2a15b540a0b7f4d9e0a27807441f2ce36fd67ed99d"
+        },
+        "warnings": [
+          "profile parent UEI GMBYU6KAN9J3 (RAYTHEON COMPANY) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:GMBYU6KAN9J3",
+        "kind": "uei",
+        "value": "GMBYU6KAN9J3",
+        "entityId": "legal:raytheon-company",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-01",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/48b5678a-6704-3414-09de-c3abf9e7556e-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/48b5678a-6704-3414-09de-c3abf9e7556e-C/",
+        "supportingPassage": "RAYTHEON COMPANY | UEI GMBYU6KAN9J3 | LARGO, FL, USA | Latest award CONT_AWD_N0002425C5239_9700_-NONE-_-NONE- (2026-07-13) parent: RTX CORP (UEI PPLZG8J3N9D4)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
       }
     },
     {
@@ -393,7 +517,15 @@
         "latestTransaction": {
           "date": "2026-07-09",
           "award": "CONT_AWD_FA880721C0002_9700_-NONE-_-NONE-"
-        }
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_FA880721C0002_9700_-NONE-_-NONE-",
+          "parentName": "RTX CORP",
+          "parentUei": "PPLZG8J3N9D4",
+          "recipientUei": "JLWLJXQ3M995",
+          "responseSha256": "a390484720b6d0e4ae624b376940a948a631b4f37496763c36f816925c291a8e"
+        },
+        "warnings": []
       },
       "binding": {
         "id": "binding:uei:JLWLJXQ3M995",
@@ -405,8 +537,8 @@
         "evidenceAsOf": "2026-10-15",
         "sourceUrl": "https://www.usaspending.gov/recipient/988be7bc-cdfb-c4c1-87ad-3f6d251f7392-C/latest",
         "apiUrl": "https://api.usaspending.gov/api/v2/recipient/988be7bc-cdfb-c4c1-87ad-3f6d251f7392-C/",
-        "supportingPassage": "RAYTHEON COMPANY | UEI JLWLJXQ3M995 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | AURORA, CO, USA",
-        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name (search floor 2007-10-01), not a registration date."
+        "supportingPassage": "RAYTHEON COMPANY | UEI JLWLJXQ3M995 | AURORA, CO, USA | Latest award CONT_AWD_FA880721C0002_9700_-NONE-_-NONE- (2026-07-09) parent: RTX CORP (UEI PPLZG8J3N9D4)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
       }
     },
     {
@@ -433,7 +565,15 @@
         "latestTransaction": {
           "date": "2026-07-15",
           "award": "CONT_AWD_N0010425CXA07_9700_-NONE-_-NONE-"
-        }
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N0010425CXA07_9700_-NONE-_-NONE-",
+          "parentName": "RTX CORP",
+          "parentUei": "PPLZG8J3N9D4",
+          "recipientUei": "M1BVCGDKJ1L7",
+          "responseSha256": "86ce1894d40ac545caab6ed7fe780f74598811faa9223d1a0a0163baae61b6dc"
+        },
+        "warnings": []
       },
       "binding": {
         "id": "binding:uei:M1BVCGDKJ1L7",
@@ -445,8 +585,8 @@
         "evidenceAsOf": "2026-10-15",
         "sourceUrl": "https://www.usaspending.gov/recipient/bf412300-1408-a20d-7901-3816669a2ed1-C/latest",
         "apiUrl": "https://api.usaspending.gov/api/v2/recipient/bf412300-1408-a20d-7901-3816669a2ed1-C/",
-        "supportingPassage": "RAYTHEON COMPANY | UEI M1BVCGDKJ1L7 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | PORTSMOUTH, RI, USA",
-        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name (search floor 2007-10-01), not a registration date."
+        "supportingPassage": "RAYTHEON COMPANY | UEI M1BVCGDKJ1L7 | PORTSMOUTH, RI, USA | Latest award CONT_AWD_N0010425CXA07_9700_-NONE-_-NONE- (2026-07-15) parent: RTX CORP (UEI PPLZG8J3N9D4)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
       }
     },
     {
@@ -473,7 +613,15 @@
         "latestTransaction": {
           "date": "2026-09-21",
           "award": "CONT_AWD_693KA822F00335_6920_693KA822D00035_6920"
-        }
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_693KA822F00335_6920_693KA822D00035_6920",
+          "parentName": "RTX CORP",
+          "parentUei": "PPLZG8J3N9D4",
+          "recipientUei": "FBTTZQ8ZLK26",
+          "responseSha256": "24dd2e7173734c64a58e9c03f3c38ffd1389df4b7886b4f643e6a5418ebd29f6"
+        },
+        "warnings": []
       },
       "binding": {
         "id": "binding:uei:FBTTZQ8ZLK26",
@@ -485,8 +633,8 @@
         "evidenceAsOf": "2026-10-15",
         "sourceUrl": "https://www.usaspending.gov/recipient/0937c7a9-37f0-28fd-5706-d1450484463b-C/latest",
         "apiUrl": "https://api.usaspending.gov/api/v2/recipient/0937c7a9-37f0-28fd-5706-d1450484463b-C/",
-        "supportingPassage": "RAYTHEON COMPANY | UEI FBTTZQ8ZLK26 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | FULLERTON, CA, USA",
-        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name (search floor 2007-10-01), not a registration date."
+        "supportingPassage": "RAYTHEON COMPANY | UEI FBTTZQ8ZLK26 | FULLERTON, CA, USA | Latest award CONT_AWD_693KA822F00335_6920_693KA822D00035_6920 (2026-09-21) parent: RTX CORP (UEI PPLZG8J3N9D4)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
       }
     },
     {
@@ -513,7 +661,15 @@
         "latestTransaction": {
           "date": "2026-07-15",
           "award": "CONT_AWD_W31P4Q22F0051_9700_W31P4Q19D0030_9700"
-        }
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_W31P4Q22F0051_9700_W31P4Q19D0030_9700",
+          "parentName": "RTX CORP",
+          "parentUei": "PPLZG8J3N9D4",
+          "recipientUei": "GT1XPHXLRRQ1",
+          "responseSha256": "3a9b793d17036bfc967d39b6b423b3692cf0d33dc5460d7e7cf3ecc8d5135ed6"
+        },
+        "warnings": []
       },
       "binding": {
         "id": "binding:uei:GT1XPHXLRRQ1",
@@ -525,8 +681,8 @@
         "evidenceAsOf": "2026-10-15",
         "sourceUrl": "https://www.usaspending.gov/recipient/fd6c0b5b-39dc-0e68-64e3-aa4534c5d07f-C/latest",
         "apiUrl": "https://api.usaspending.gov/api/v2/recipient/fd6c0b5b-39dc-0e68-64e3-aa4534c5d07f-C/",
-        "supportingPassage": "RAYTHEON COMPANY | UEI GT1XPHXLRRQ1 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | FULLERTON, CA, USA",
-        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name (search floor 2007-10-01), not a registration date."
+        "supportingPassage": "RAYTHEON COMPANY | UEI GT1XPHXLRRQ1 | FULLERTON, CA, USA | Latest award CONT_AWD_W31P4Q22F0051_9700_W31P4Q19D0030_9700 (2026-07-15) parent: RTX CORP (UEI PPLZG8J3N9D4)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
       }
     },
     {
@@ -553,7 +709,15 @@
         "latestTransaction": {
           "date": "2026-09-30",
           "award": "CONT_AWD_80GSFC21CA001_8000_-NONE-_-NONE-"
-        }
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_80GSFC21CA001_8000_-NONE-_-NONE-",
+          "parentName": "RTX CORP",
+          "parentUei": "PPLZG8J3N9D4",
+          "recipientUei": "S7NEKPHEMP26",
+          "responseSha256": "c656de3eb5fd4e0380342f5ddf44694448712b3ba5a4314f89b0de0135b6a054"
+        },
+        "warnings": []
       },
       "binding": {
         "id": "binding:uei:S7NEKPHEMP26",
@@ -565,8 +729,8 @@
         "evidenceAsOf": "2026-10-15",
         "sourceUrl": "https://www.usaspending.gov/recipient/5c4dbc54-585f-19b5-0b02-a87b7b9981db-C/latest",
         "apiUrl": "https://api.usaspending.gov/api/v2/recipient/5c4dbc54-585f-19b5-0b02-a87b7b9981db-C/",
-        "supportingPassage": "RAYTHEON COMPANY | UEI S7NEKPHEMP26 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | RIVERDALE, MD, USA",
-        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name (search floor 2007-10-01), not a registration date."
+        "supportingPassage": "RAYTHEON COMPANY | UEI S7NEKPHEMP26 | RIVERDALE, MD, USA | Latest award CONT_AWD_80GSFC21CA001_8000_-NONE-_-NONE- (2026-09-30) parent: RTX CORP (UEI PPLZG8J3N9D4)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
       }
     },
     {
@@ -593,7 +757,15 @@
         "latestTransaction": {
           "date": "2026-07-15",
           "award": "CONT_AWD_N0001918C1055_9700_-NONE-_-NONE-"
-        }
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N0001918C1055_9700_-NONE-_-NONE-",
+          "parentName": "RTX CORP",
+          "parentUei": "PPLZG8J3N9D4",
+          "recipientUei": "JVT2KW1LE2S3",
+          "responseSha256": "f19efbd4e1f70c736316c38959789eb664655d95f45dd05aa7e5bc0f226292a1"
+        },
+        "warnings": []
       },
       "binding": {
         "id": "binding:uei:JVT2KW1LE2S3",
@@ -605,8 +777,8 @@
         "evidenceAsOf": "2026-10-15",
         "sourceUrl": "https://www.usaspending.gov/recipient/1fbbbecd-2f1a-6d4d-6b1c-5fa1ef63ebc6-C/latest",
         "apiUrl": "https://api.usaspending.gov/api/v2/recipient/1fbbbecd-2f1a-6d4d-6b1c-5fa1ef63ebc6-C/",
-        "supportingPassage": "RAYTHEON COMPANY | UEI JVT2KW1LE2S3 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | GOLETA, CA, USA",
-        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name (search floor 2007-10-01), not a registration date."
+        "supportingPassage": "RAYTHEON COMPANY | UEI JVT2KW1LE2S3 | GOLETA, CA, USA | Latest award CONT_AWD_N0001918C1055_9700_-NONE-_-NONE- (2026-07-15) parent: RTX CORP (UEI PPLZG8J3N9D4)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
       }
     },
     {
@@ -634,7 +806,15 @@
         "latestTransaction": {
           "date": "2026-07-08",
           "award": "CONT_AWD_HQ086025FE003_9700_HQ086025DE001_9700"
-        }
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_HQ086025FE003_9700_HQ086025DE001_9700",
+          "parentName": "RTX CORP",
+          "parentUei": "PPLZG8J3N9D4",
+          "recipientUei": "C6Z6WQKFN7M6",
+          "responseSha256": "1ff677043934d3a1fe3a29cd5c4624b0af483f599bdc451c19f447773eab5105"
+        },
+        "warnings": []
       },
       "binding": {
         "id": "binding:uei:C6Z6WQKFN7M6",
@@ -646,8 +826,8 @@
         "evidenceAsOf": "2026-10-15",
         "sourceUrl": "https://www.usaspending.gov/recipient/17296d12-dcf2-41f7-d285-c595591b6a77-C/latest",
         "apiUrl": "https://api.usaspending.gov/api/v2/recipient/17296d12-dcf2-41f7-d285-c595591b6a77-C/",
-        "supportingPassage": "RAYTHEON COMPANY | UEI C6Z6WQKFN7M6 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | SAN DIEGO, CA, USA",
-        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name (search floor 2007-10-01), not a registration date."
+        "supportingPassage": "RAYTHEON COMPANY | UEI C6Z6WQKFN7M6 | SAN DIEGO, CA, USA | Latest award CONT_AWD_HQ086025FE003_9700_HQ086025DE001_9700 (2026-07-08) parent: RTX CORP (UEI PPLZG8J3N9D4)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
       }
     },
     {
@@ -674,7 +854,15 @@
         "latestTransaction": {
           "date": "2026-07-15",
           "award": "CONT_AWD_SPE7MX26FZ210_9700_SPE7MX21D0057_9700"
-        }
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_SPE7MX26FZ210_9700_SPE7MX21D0057_9700",
+          "parentName": "RTX CORP",
+          "parentUei": "PPLZG8J3N9D4",
+          "recipientUei": "CCGBEVKUU2F3",
+          "responseSha256": "9319df1d42bc6aef662a90f30beeae631299ba195167c70a121d1a9b06e58470"
+        },
+        "warnings": []
       },
       "binding": {
         "id": "binding:uei:CCGBEVKUU2F3",
@@ -686,8 +874,8 @@
         "evidenceAsOf": "2026-10-15",
         "sourceUrl": "https://www.usaspending.gov/recipient/39b683f0-8f7b-3dfa-cca9-7c63bb0f3ea1-C/latest",
         "apiUrl": "https://api.usaspending.gov/api/v2/recipient/39b683f0-8f7b-3dfa-cca9-7c63bb0f3ea1-C/",
-        "supportingPassage": "RAYTHEON COMPANY | UEI CCGBEVKUU2F3 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | FAIRDALE, KY, USA",
-        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name (search floor 2007-10-01), not a registration date."
+        "supportingPassage": "RAYTHEON COMPANY | UEI CCGBEVKUU2F3 | FAIRDALE, KY, USA | Latest award CONT_AWD_SPE7MX26FZ210_9700_SPE7MX21D0057_9700 (2026-07-15) parent: RTX CORP (UEI PPLZG8J3N9D4)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
       }
     },
     {
@@ -714,7 +902,15 @@
         "latestTransaction": {
           "date": "2026-07-02",
           "award": "CONT_AWD_W31P4Q20F0150_9700_W31P4Q20D0019_9700"
-        }
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_W31P4Q20F0150_9700_W31P4Q20D0019_9700",
+          "parentName": "RTX CORP",
+          "parentUei": "PPLZG8J3N9D4",
+          "recipientUei": "HTMUK1RW2GY3",
+          "responseSha256": "e81639756ab9cf33b56395a94d4f9879e2fb9702f477d738439bb432b8214359"
+        },
+        "warnings": []
       },
       "binding": {
         "id": "binding:uei:HTMUK1RW2GY3",
@@ -726,8 +922,8 @@
         "evidenceAsOf": "2026-10-15",
         "sourceUrl": "https://www.usaspending.gov/recipient/7f9e7103-3142-a723-e31a-2dc167d29391-C/latest",
         "apiUrl": "https://api.usaspending.gov/api/v2/recipient/7f9e7103-3142-a723-e31a-2dc167d29391-C/",
-        "supportingPassage": "RAYTHEON COMPANY | UEI HTMUK1RW2GY3 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | HUNTSVILLE, AL, USA",
-        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name (search floor 2007-10-01), not a registration date."
+        "supportingPassage": "RAYTHEON COMPANY | UEI HTMUK1RW2GY3 | HUNTSVILLE, AL, USA | Latest award CONT_AWD_W31P4Q20F0150_9700_W31P4Q20D0019_9700 (2026-07-02) parent: RTX CORP (UEI PPLZG8J3N9D4)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
       }
     },
     {
@@ -754,7 +950,15 @@
         "latestTransaction": {
           "date": "2026-06-16",
           "award": "CONT_AWD_W91CRB24C5037_9700_-NONE-_-NONE-"
-        }
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_W91CRB24C5037_9700_-NONE-_-NONE-",
+          "parentName": "RTX CORP",
+          "parentUei": "PPLZG8J3N9D4",
+          "recipientUei": "G2JHA6V6KPV3",
+          "responseSha256": "fa22c3ddecc5da2f26a0145168d71446ece8e023b55817fcfcf6a4cf2bea26e9"
+        },
+        "warnings": []
       },
       "binding": {
         "id": "binding:uei:G2JHA6V6KPV3",
@@ -766,8 +970,8 @@
         "evidenceAsOf": "2026-10-15",
         "sourceUrl": "https://www.usaspending.gov/recipient/3976d875-3e99-546c-540a-eec1a1255544-C/latest",
         "apiUrl": "https://api.usaspending.gov/api/v2/recipient/3976d875-3e99-546c-540a-eec1a1255544-C/",
-        "supportingPassage": "RAYTHEON COMPANY | UEI G2JHA6V6KPV3 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | FORT WAYNE, IN, USA",
-        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name (search floor 2007-10-01), not a registration date."
+        "supportingPassage": "RAYTHEON COMPANY | UEI G2JHA6V6KPV3 | FORT WAYNE, IN, USA | Latest award CONT_AWD_W91CRB24C5037_9700_-NONE-_-NONE- (2026-06-16) parent: RTX CORP (UEI PPLZG8J3N9D4)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
       }
     },
     {
@@ -794,7 +998,15 @@
         "latestTransaction": {
           "date": "2026-09-16",
           "award": "CONT_AWD_70B02C26P00000319_7014_-NONE-_-NONE-"
-        }
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_70B02C26P00000319_7014_-NONE-_-NONE-",
+          "parentName": "RTX CORP",
+          "parentUei": "PPLZG8J3N9D4",
+          "recipientUei": "NM28F17E1ZY7",
+          "responseSha256": "516094d089f963dc7a02934d6906895dac1140faac56dbf461e568019c41286d"
+        },
+        "warnings": []
       },
       "binding": {
         "id": "binding:uei:NM28F17E1ZY7",
@@ -806,8 +1018,8 @@
         "evidenceAsOf": "2026-10-15",
         "sourceUrl": "https://www.usaspending.gov/recipient/ca61aee4-a9fa-e89a-05de-71f0c8d4be23-C/latest",
         "apiUrl": "https://api.usaspending.gov/api/v2/recipient/ca61aee4-a9fa-e89a-05de-71f0c8d4be23-C/",
-        "supportingPassage": "RAYTHEON COMPANY | UEI NM28F17E1ZY7 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | ABERDEEN PROVING GROUND, MD, USA",
-        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name (search floor 2007-10-01), not a registration date."
+        "supportingPassage": "RAYTHEON COMPANY | UEI NM28F17E1ZY7 | ABERDEEN PROVING GROUND, MD, USA | Latest award CONT_AWD_70B02C26P00000319_7014_-NONE-_-NONE- (2026-09-16) parent: RTX CORP (UEI PPLZG8J3N9D4)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
       }
     },
     {
@@ -835,7 +1047,15 @@
         "latestTransaction": {
           "date": "2026-06-30",
           "award": "CONT_AWD_N0003923F1061_9700_N0003916D0075_9700"
-        }
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N0003923F1061_9700_N0003916D0075_9700",
+          "parentName": "RTX CORP",
+          "parentUei": "PPLZG8J3N9D4",
+          "recipientUei": "D9DKLKAJ48M9",
+          "responseSha256": "25a2c6927b6b504460fc3a6c970826adcc74c97125c4ef9b58f08bc5cf412866"
+        },
+        "warnings": []
       },
       "binding": {
         "id": "binding:uei:D9DKLKAJ48M9",
@@ -847,8 +1067,8 @@
         "evidenceAsOf": "2026-10-15",
         "sourceUrl": "https://www.usaspending.gov/recipient/48ccf047-0c52-058e-11d3-3e71de2671de-C/latest",
         "apiUrl": "https://api.usaspending.gov/api/v2/recipient/48ccf047-0c52-058e-11d3-3e71de2671de-C/",
-        "supportingPassage": "RAYTHEON COMPANY | UEI D9DKLKAJ48M9 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | EL SEGUNDO, CA, USA",
-        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name (search floor 2007-10-01), not a registration date."
+        "supportingPassage": "RAYTHEON COMPANY | UEI D9DKLKAJ48M9 | EL SEGUNDO, CA, USA | Latest award CONT_AWD_N0003923F1061_9700_N0003916D0075_9700 (2026-06-30) parent: RTX CORP (UEI PPLZG8J3N9D4)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
       }
     },
     {
@@ -875,7 +1095,15 @@
         "latestTransaction": {
           "date": "2026-04-30",
           "award": "CONT_AWD_HC104724F4027_9700_HC104723D0001_9700"
-        }
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_HC104724F4027_9700_HC104723D0001_9700",
+          "parentName": "RTX CORP",
+          "parentUei": "PPLZG8J3N9D4",
+          "recipientUei": "VS2BUYHM9PM4",
+          "responseSha256": "4657bc2499c1a05c9c5c078c8a170881aa2fa5f928ea14413b131690d1ec59de"
+        },
+        "warnings": []
       },
       "binding": {
         "id": "binding:uei:VS2BUYHM9PM4",
@@ -887,8 +1115,8 @@
         "evidenceAsOf": "2026-10-15",
         "sourceUrl": "https://www.usaspending.gov/recipient/1fd9c5d7-99f5-9f2b-29ce-2333453eb637-C/latest",
         "apiUrl": "https://api.usaspending.gov/api/v2/recipient/1fd9c5d7-99f5-9f2b-29ce-2333453eb637-C/",
-        "supportingPassage": "RAYTHEON COMPANY | UEI VS2BUYHM9PM4 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | ARLINGTON, VA, USA",
-        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name (search floor 2007-10-01), not a registration date."
+        "supportingPassage": "RAYTHEON COMPANY | UEI VS2BUYHM9PM4 | ARLINGTON, VA, USA | Latest award CONT_AWD_HC104724F4027_9700_HC104723D0001_9700 (2026-04-30) parent: RTX CORP (UEI PPLZG8J3N9D4)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
       }
     },
     {
@@ -915,7 +1143,15 @@
         "latestTransaction": {
           "date": "2026-07-02",
           "award": "CONT_AWD_FA945324CX010_9700_-NONE-_-NONE-"
-        }
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_FA945324CX010_9700_-NONE-_-NONE-",
+          "parentName": "RTX CORP",
+          "parentUei": "PPLZG8J3N9D4",
+          "recipientUei": "FCMXL6ZRDKQ2",
+          "responseSha256": "828c56cd32600688410de6e4205522e5e4414a78bb9aa962fe6dd466409b8f3d"
+        },
+        "warnings": []
       },
       "binding": {
         "id": "binding:uei:FCMXL6ZRDKQ2",
@@ -927,8 +1163,8 @@
         "evidenceAsOf": "2026-10-15",
         "sourceUrl": "https://www.usaspending.gov/recipient/548157f4-de8c-420a-d3d0-0243f65aa83d-C/latest",
         "apiUrl": "https://api.usaspending.gov/api/v2/recipient/548157f4-de8c-420a-d3d0-0243f65aa83d-C/",
-        "supportingPassage": "RAYTHEON COMPANY | UEI FCMXL6ZRDKQ2 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | GOLETA, CA, USA",
-        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name (search floor 2007-10-01), not a registration date."
+        "supportingPassage": "RAYTHEON COMPANY | UEI FCMXL6ZRDKQ2 | GOLETA, CA, USA | Latest award CONT_AWD_FA945324CX010_9700_-NONE-_-NONE- (2026-07-02) parent: RTX CORP (UEI PPLZG8J3N9D4)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
       }
     },
     {
@@ -955,7 +1191,15 @@
         "latestTransaction": {
           "date": "2026-07-08",
           "award": "CONT_AWD_W31P4Q23C0009_9700_-NONE-_-NONE-"
-        }
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_W31P4Q23C0009_9700_-NONE-_-NONE-",
+          "parentName": "RTX CORP",
+          "parentUei": "PPLZG8J3N9D4",
+          "recipientUei": "GWK5QDNNF6U4",
+          "responseSha256": "d6e35eaad5da0d2d6208222007b3d30057e53e66fa8c1c97fc9232286339aa65"
+        },
+        "warnings": []
       },
       "binding": {
         "id": "binding:uei:GWK5QDNNF6U4",
@@ -967,8 +1211,8 @@
         "evidenceAsOf": "2026-10-15",
         "sourceUrl": "https://www.usaspending.gov/recipient/4ea45350-aef5-2fcc-81d4-aecde7cb5fc4-C/latest",
         "apiUrl": "https://api.usaspending.gov/api/v2/recipient/4ea45350-aef5-2fcc-81d4-aecde7cb5fc4-C/",
-        "supportingPassage": "RAYTHEON COMPANY | UEI GWK5QDNNF6U4 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | EL SEGUNDO, CA, USA",
-        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name (search floor 2007-10-01), not a registration date."
+        "supportingPassage": "RAYTHEON COMPANY | UEI GWK5QDNNF6U4 | EL SEGUNDO, CA, USA | Latest award CONT_AWD_W31P4Q23C0009_9700_-NONE-_-NONE- (2026-07-08) parent: RTX CORP (UEI PPLZG8J3N9D4)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
       }
     },
     {
@@ -995,7 +1239,15 @@
         "latestTransaction": {
           "date": "2026-06-10",
           "award": "CONT_AWD_W31P4Q25F0133_9700_FA865620D0004_9700"
-        }
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_W31P4Q25F0133_9700_FA865620D0004_9700",
+          "parentName": "RTX CORP",
+          "parentUei": "PPLZG8J3N9D4",
+          "recipientUei": "GYRELAMWFSR9",
+          "responseSha256": "ff3409c157ba1bf46019e4e5d5f6153cab29b92c4e6aae4807e2822f5e9069ac"
+        },
+        "warnings": []
       },
       "binding": {
         "id": "binding:uei:GYRELAMWFSR9",
@@ -1007,8 +1259,8 @@
         "evidenceAsOf": "2026-10-15",
         "sourceUrl": "https://www.usaspending.gov/recipient/92b52aea-7ba4-47ae-8dc9-49543a5f50b8-C/latest",
         "apiUrl": "https://api.usaspending.gov/api/v2/recipient/92b52aea-7ba4-47ae-8dc9-49543a5f50b8-C/",
-        "supportingPassage": "RAYTHEON COMPANY | UEI GYRELAMWFSR9 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | FULLERTON, CA, USA",
-        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name (search floor 2007-10-01), not a registration date."
+        "supportingPassage": "RAYTHEON COMPANY | UEI GYRELAMWFSR9 | FULLERTON, CA, USA | Latest award CONT_AWD_W31P4Q25F0133_9700_FA865620D0004_9700 (2026-06-10) parent: RTX CORP (UEI PPLZG8J3N9D4)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
       }
     },
     {
@@ -1035,7 +1287,15 @@
         "latestTransaction": {
           "date": "2026-04-20",
           "award": "CONT_AWD_N0001424C1314_9700_-NONE-_-NONE-"
-        }
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N0001424C1314_9700_-NONE-_-NONE-",
+          "parentName": "RTX CORP",
+          "parentUei": "PPLZG8J3N9D4",
+          "recipientUei": "RKDNDETJMQZ2",
+          "responseSha256": "d314af8d231dad502a33e174e0de505dd05fc95fce3367e8217f3e52ffa32309"
+        },
+        "warnings": []
       },
       "binding": {
         "id": "binding:uei:RKDNDETJMQZ2",
@@ -1047,8 +1307,8 @@
         "evidenceAsOf": "2026-10-15",
         "sourceUrl": "https://www.usaspending.gov/recipient/f3ba51b1-1058-7e74-3c8a-453416cea82a-C/latest",
         "apiUrl": "https://api.usaspending.gov/api/v2/recipient/f3ba51b1-1058-7e74-3c8a-453416cea82a-C/",
-        "supportingPassage": "RAYTHEON COMPANY | UEI RKDNDETJMQZ2 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | MYSTIC, CT, USA",
-        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name (search floor 2007-10-01), not a registration date."
+        "supportingPassage": "RAYTHEON COMPANY | UEI RKDNDETJMQZ2 | MYSTIC, CT, USA | Latest award CONT_AWD_N0001424C1314_9700_-NONE-_-NONE- (2026-04-20) parent: RTX CORP (UEI PPLZG8J3N9D4)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
       }
     },
     {
@@ -1076,7 +1336,15 @@
         "latestTransaction": {
           "date": "2026-06-16",
           "award": "CONT_AWD_W56KGY24F0005_9700_W56KGY23D0005_9700"
-        }
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_W56KGY24F0005_9700_W56KGY23D0005_9700",
+          "parentName": "RTX CORP",
+          "parentUei": "PPLZG8J3N9D4",
+          "recipientUei": "SKL8FMKDWKJ9",
+          "responseSha256": "c0b321cf47c65f99301889704a973c7be197f238beabcb64b6e21fa3c81e17a5"
+        },
+        "warnings": []
       },
       "binding": {
         "id": "binding:uei:SKL8FMKDWKJ9",
@@ -1088,48 +1356,8 @@
         "evidenceAsOf": "2026-10-15",
         "sourceUrl": "https://www.usaspending.gov/recipient/a65493b5-119f-5621-51ba-21aca5723fa2-C/latest",
         "apiUrl": "https://api.usaspending.gov/api/v2/recipient/a65493b5-119f-5621-51ba-21aca5723fa2-C/",
-        "supportingPassage": "RAYTHEON COMPANY | UEI SKL8FMKDWKJ9 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | RICHARDSON, TX, USA",
-        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name (search floor 2007-10-01), not a registration date."
-      }
-    },
-    {
-      "evidence": {
-        "uei": "K1H5GGQPBLV5",
-        "cage": null,
-        "recipientId": "c7207b2b-80c4-7b9b-2c0a-265e93256685-C",
-        "profileUrl": "https://www.usaspending.gov/recipient/c7207b2b-80c4-7b9b-2c0a-265e93256685-C/latest",
-        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/c7207b2b-80c4-7b9b-2c0a-265e93256685-C/",
-        "responseSha256": "526b1780db29801f71b85d3248b116242367ccf0c1fe9c5d933fbf55fffbcc10",
-        "name": "RAYTHEON COMPANY",
-        "parentName": "RTX CORP",
-        "parentUei": "PPLZG8J3N9D4",
-        "otherReportedParents": [
-          "RAYTHEON COMPANY / KLW3ZYL15493",
-          "ROCKWELL COLLINS AUSTRALIA PTY LIMITED / EGAVSJTA2D81"
-        ],
-        "location": "INDIANAPOLIS, IN, USA",
-        "contractAmount": 2062021.23,
-        "earliestTransaction": {
-          "date": "2007-10-01",
-          "award": "CONT_AWD_5239_9700_N0038304G018F_9700"
-        },
-        "latestTransaction": {
-          "date": "2026-06-30",
-          "award": "CONT_AWD_47QFWA20C0003_4732_-NONE-_-NONE-"
-        }
-      },
-      "binding": {
-        "id": "binding:uei:K1H5GGQPBLV5",
-        "kind": "uei",
-        "value": "K1H5GGQPBLV5",
-        "entityId": "legal:raytheon-company",
-        "reviewStatus": "candidate_requires_review",
-        "effectiveFrom": "2007-10-01",
-        "evidenceAsOf": "2026-10-15",
-        "sourceUrl": "https://www.usaspending.gov/recipient/c7207b2b-80c4-7b9b-2c0a-265e93256685-C/latest",
-        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/c7207b2b-80c4-7b9b-2c0a-265e93256685-C/",
-        "supportingPassage": "RAYTHEON COMPANY | UEI K1H5GGQPBLV5 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | INDIANAPOLIS, IN, USA",
-        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name (search floor 2007-10-01), not a registration date."
+        "supportingPassage": "RAYTHEON COMPANY | UEI SKL8FMKDWKJ9 | RICHARDSON, TX, USA | Latest award CONT_AWD_W56KGY24F0005_9700_W56KGY23D0005_9700 (2026-06-16) parent: RTX CORP (UEI PPLZG8J3N9D4)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
       }
     },
     {
@@ -1156,7 +1384,15 @@
         "latestTransaction": {
           "date": "2026-03-18",
           "award": "CONT_AWD_FA862026CB007_9700_-NONE-_-NONE-"
-        }
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_FA862026CB007_9700_-NONE-_-NONE-",
+          "parentName": "RTX CORP",
+          "parentUei": "PPLZG8J3N9D4",
+          "recipientUei": "MNQWKJKDKBE7",
+          "responseSha256": "9280f33af4371dd47d6b5dd68abb9f22dbe401c64aacb8cf6ceff9aec7590ce5"
+        },
+        "warnings": []
       },
       "binding": {
         "id": "binding:uei:MNQWKJKDKBE7",
@@ -1168,8 +1404,8 @@
         "evidenceAsOf": "2026-10-15",
         "sourceUrl": "https://www.usaspending.gov/recipient/05aebc52-e9ce-779b-f8f2-e1dd377e537e-C/latest",
         "apiUrl": "https://api.usaspending.gov/api/v2/recipient/05aebc52-e9ce-779b-f8f2-e1dd377e537e-C/",
-        "supportingPassage": "RAYTHEON COMPANY | UEI MNQWKJKDKBE7 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | RICHARDSON, TX, USA",
-        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name (search floor 2007-10-01), not a registration date."
+        "supportingPassage": "RAYTHEON COMPANY | UEI MNQWKJKDKBE7 | RICHARDSON, TX, USA | Latest award CONT_AWD_FA862026CB007_9700_-NONE-_-NONE- (2026-03-18) parent: RTX CORP (UEI PPLZG8J3N9D4)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
       }
     },
     {
@@ -1195,7 +1431,15 @@
         "latestTransaction": {
           "date": "2026-02-12",
           "award": "CONT_AWD_N0018923CR006_9700_-NONE-_-NONE-"
-        }
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N0018923CR006_9700_-NONE-_-NONE-",
+          "parentName": "RTX CORP",
+          "parentUei": "PPLZG8J3N9D4",
+          "recipientUei": "PNJQW4RRXYW9",
+          "responseSha256": "455ccc48c61dfa34d37594af3d0d6996cf4fdd927af61ab3a2184b51108a4ccf"
+        },
+        "warnings": []
       },
       "binding": {
         "id": "binding:uei:PNJQW4RRXYW9",
@@ -1207,8 +1451,8 @@
         "evidenceAsOf": "2026-10-15",
         "sourceUrl": "https://www.usaspending.gov/recipient/4cae6b4e-1ccc-101c-c2bc-368bcd4e5340-C/latest",
         "apiUrl": "https://api.usaspending.gov/api/v2/recipient/4cae6b4e-1ccc-101c-c2bc-368bcd4e5340-C/",
-        "supportingPassage": "RAYTHEON COMPANY | UEI PNJQW4RRXYW9 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | ARLINGTON, VA, USA",
-        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name (search floor 2007-10-01), not a registration date."
+        "supportingPassage": "RAYTHEON COMPANY | UEI PNJQW4RRXYW9 | ARLINGTON, VA, USA | Latest award CONT_AWD_N0018923CR006_9700_-NONE-_-NONE- (2026-02-12) parent: RTX CORP (UEI PPLZG8J3N9D4)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
       }
     },
     {
@@ -1235,7 +1479,15 @@
         "latestTransaction": {
           "date": "2026-07-09",
           "award": "CONT_AWD_N6893626F5286_9700_N6893618D0029_9700"
-        }
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N6893626F5286_9700_N6893618D0029_9700",
+          "parentName": "RTX CORP",
+          "parentUei": "PPLZG8J3N9D4",
+          "recipientUei": "GJJCW7W8HCF5",
+          "responseSha256": "acd5635d5ee767a6eea1e0c306f9c36824a2bde3022ba986adb5473cd9e3c4ce"
+        },
+        "warnings": []
       },
       "binding": {
         "id": "binding:uei:GJJCW7W8HCF5",
@@ -1247,8 +1499,8 @@
         "evidenceAsOf": "2026-10-15",
         "sourceUrl": "https://www.usaspending.gov/recipient/abff8490-4c98-cf03-992a-b4b94fb35149-C/latest",
         "apiUrl": "https://api.usaspending.gov/api/v2/recipient/abff8490-4c98-cf03-992a-b4b94fb35149-C/",
-        "supportingPassage": "RAYTHEON COMPANY | UEI GJJCW7W8HCF5 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | FORT WAYNE, IN, USA",
-        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name (search floor 2007-10-01), not a registration date."
+        "supportingPassage": "RAYTHEON COMPANY | UEI GJJCW7W8HCF5 | FORT WAYNE, IN, USA | Latest award CONT_AWD_N6893626F5286_9700_N6893618D0029_9700 (2026-07-09) parent: RTX CORP (UEI PPLZG8J3N9D4)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
       }
     },
     {
@@ -1275,7 +1527,15 @@
         "latestTransaction": {
           "date": "2026-06-22",
           "award": "CONT_AWD_FA872324F6015_9700_FA872318D0003_9700"
-        }
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_FA872324F6015_9700_FA872318D0003_9700",
+          "parentName": "RTX CORP",
+          "parentUei": "PPLZG8J3N9D4",
+          "recipientUei": "HSLPBHN3E7Q3",
+          "responseSha256": "2b6b7420c06d144050d9a89e241c273358dc976ee38affb27b7973f271ce88b3"
+        },
+        "warnings": []
       },
       "binding": {
         "id": "binding:uei:HSLPBHN3E7Q3",
@@ -1287,8 +1547,8 @@
         "evidenceAsOf": "2026-10-15",
         "sourceUrl": "https://www.usaspending.gov/recipient/58a3ffac-2d66-4d0d-f187-7df56e821eaa-C/latest",
         "apiUrl": "https://api.usaspending.gov/api/v2/recipient/58a3ffac-2d66-4d0d-f187-7df56e821eaa-C/",
-        "supportingPassage": "RAYTHEON COMPANY | UEI HSLPBHN3E7Q3 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | COLORADO SPRINGS, CO, USA",
-        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name (search floor 2007-10-01), not a registration date."
+        "supportingPassage": "RAYTHEON COMPANY | UEI HSLPBHN3E7Q3 | COLORADO SPRINGS, CO, USA | Latest award CONT_AWD_FA872324F6015_9700_FA872318D0003_9700 (2026-06-22) parent: RTX CORP (UEI PPLZG8J3N9D4)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
       }
     },
     {
@@ -1314,7 +1574,15 @@
         "latestTransaction": {
           "date": "2026-04-07",
           "award": "CONT_AWD_N6852026P1015_9700_-NONE-_-NONE-"
-        }
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N6852026P1015_9700_-NONE-_-NONE-",
+          "parentName": "RTX CORP",
+          "parentUei": "PPLZG8J3N9D4",
+          "recipientUei": "ZLW5UKDCY9L1",
+          "responseSha256": "761f6a4cd4cc59458bd81048ff33f38268471ce4be0480895acc688345b48446"
+        },
+        "warnings": []
       },
       "binding": {
         "id": "binding:uei:ZLW5UKDCY9L1",
@@ -1326,8 +1594,8 @@
         "evidenceAsOf": "2026-10-15",
         "sourceUrl": "https://www.usaspending.gov/recipient/d1f2ff03-8420-4b97-952e-d9e250bfb5f6-C/latest",
         "apiUrl": "https://api.usaspending.gov/api/v2/recipient/d1f2ff03-8420-4b97-952e-d9e250bfb5f6-C/",
-        "supportingPassage": "RAYTHEON COMPANY | UEI ZLW5UKDCY9L1 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | INDIANAPOLIS, IN, USA",
-        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name (search floor 2007-10-01), not a registration date."
+        "supportingPassage": "RAYTHEON COMPANY | UEI ZLW5UKDCY9L1 | INDIANAPOLIS, IN, USA | Latest award CONT_AWD_N6852026P1015_9700_-NONE-_-NONE- (2026-04-07) parent: RTX CORP (UEI PPLZG8J3N9D4)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
       }
     },
     {
@@ -1354,7 +1622,15 @@
         "latestTransaction": {
           "date": "2026-05-18",
           "award": "CONT_AWD_N6133125F0120_9700_N6133122D0004_9700"
-        }
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N6133125F0120_9700_N6133122D0004_9700",
+          "parentName": "RTX CORP",
+          "parentUei": "PPLZG8J3N9D4",
+          "recipientUei": "MYA7PT4VMGS8",
+          "responseSha256": "6065efff34fd76fcc4f73bec72e93c5a0af3ea9add2fe5147361614db6145e3b"
+        },
+        "warnings": []
       },
       "binding": {
         "id": "binding:uei:MYA7PT4VMGS8",
@@ -1366,8 +1642,8 @@
         "evidenceAsOf": "2026-10-15",
         "sourceUrl": "https://www.usaspending.gov/recipient/4fd15a1b-8768-5f9f-9aa6-1bedc76617a9-C/latest",
         "apiUrl": "https://api.usaspending.gov/api/v2/recipient/4fd15a1b-8768-5f9f-9aa6-1bedc76617a9-C/",
-        "supportingPassage": "RAYTHEON COMPANY | UEI MYA7PT4VMGS8 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | POULSBO, WA, USA",
-        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name (search floor 2007-10-01), not a registration date."
+        "supportingPassage": "RAYTHEON COMPANY | UEI MYA7PT4VMGS8 | POULSBO, WA, USA | Latest award CONT_AWD_N6133125F0120_9700_N6133122D0004_9700 (2026-05-18) parent: RTX CORP (UEI PPLZG8J3N9D4)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
       }
     },
     {
@@ -1394,7 +1670,15 @@
         "latestTransaction": {
           "date": "2023-06-05",
           "award": "CONT_AWD_NNJ10HD35C_8000_-NONE-_-NONE-"
-        }
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_NNJ10HD35C_8000_-NONE-_-NONE-",
+          "parentName": "RTX CORP",
+          "parentUei": "PPLZG8J3N9D4",
+          "recipientUei": "MBMJHTJAV953",
+          "responseSha256": "e5941d9c22b2de539cc27e981b9dd35e890c8880556758fc8f2cd00364bb9ced"
+        },
+        "warnings": []
       },
       "binding": {
         "id": "binding:uei:MBMJHTJAV953",
@@ -1406,8 +1690,8 @@
         "evidenceAsOf": "2026-10-15",
         "sourceUrl": "https://www.usaspending.gov/recipient/7a75b760-3fe6-21ea-3ada-514084ce1025-C/latest",
         "apiUrl": "https://api.usaspending.gov/api/v2/recipient/7a75b760-3fe6-21ea-3ada-514084ce1025-C/",
-        "supportingPassage": "RAYTHEON COMPANY | UEI MBMJHTJAV953 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | HOUSTON, TX, USA",
-        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name (search floor 2007-10-01), not a registration date."
+        "supportingPassage": "RAYTHEON COMPANY | UEI MBMJHTJAV953 | HOUSTON, TX, USA | Latest award CONT_AWD_NNJ10HD35C_8000_-NONE-_-NONE- (2023-06-05) parent: RTX CORP (UEI PPLZG8J3N9D4)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
       }
     },
     {
@@ -1434,7 +1718,15 @@
         "latestTransaction": {
           "date": "2026-08-25",
           "award": "CONT_AWD_6973GH26P02701_6920_-NONE-_-NONE-"
-        }
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_6973GH26P02701_6920_-NONE-_-NONE-",
+          "parentName": "RTX CORP",
+          "parentUei": "PPLZG8J3N9D4",
+          "recipientUei": "F1ZBMFDJMGL3",
+          "responseSha256": "6400dc840d26c63422743c9d466d2253d79fe418fbc4d351c300f16eb1941c4c"
+        },
+        "warnings": []
       },
       "binding": {
         "id": "binding:uei:F1ZBMFDJMGL3",
@@ -1446,8 +1738,8 @@
         "evidenceAsOf": "2026-10-15",
         "sourceUrl": "https://www.usaspending.gov/recipient/e70f738f-ffd5-f7bb-d1ae-2d9cc1e5e5d8-C/latest",
         "apiUrl": "https://api.usaspending.gov/api/v2/recipient/e70f738f-ffd5-f7bb-d1ae-2d9cc1e5e5d8-C/",
-        "supportingPassage": "RAYTHEON COMPANY | UEI F1ZBMFDJMGL3 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | MARLBOROUGH, MA, USA",
-        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name (search floor 2007-10-01), not a registration date."
+        "supportingPassage": "RAYTHEON COMPANY | UEI F1ZBMFDJMGL3 | MARLBOROUGH, MA, USA | Latest award CONT_AWD_6973GH26P02701_6920_-NONE-_-NONE- (2026-08-25) parent: RTX CORP (UEI PPLZG8J3N9D4)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
       }
     },
     {
@@ -1474,7 +1766,15 @@
         "latestTransaction": {
           "date": "2026-05-06",
           "award": "CONT_AWD_W15P7T08CK405_9700_-NONE-_-NONE-"
-        }
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_W15P7T08CK405_9700_-NONE-_-NONE-",
+          "parentName": "RTX CORP",
+          "parentUei": "PPLZG8J3N9D4",
+          "recipientUei": "KKMUHNUQ3MP5",
+          "responseSha256": "20283a2460abac4cde318b6bc36d7b2ecfeba4620cb24dcc629bf781305f0d0e"
+        },
+        "warnings": []
       },
       "binding": {
         "id": "binding:uei:KKMUHNUQ3MP5",
@@ -1486,8 +1786,8 @@
         "evidenceAsOf": "2026-10-15",
         "sourceUrl": "https://www.usaspending.gov/recipient/2aabfdfc-96d3-a6ac-3dbb-6f0e5b66c380-C/latest",
         "apiUrl": "https://api.usaspending.gov/api/v2/recipient/2aabfdfc-96d3-a6ac-3dbb-6f0e5b66c380-C/",
-        "supportingPassage": "RAYTHEON COMPANY | UEI KKMUHNUQ3MP5 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | DULLES, VA, USA",
-        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name (search floor 2007-10-01), not a registration date."
+        "supportingPassage": "RAYTHEON COMPANY | UEI KKMUHNUQ3MP5 | DULLES, VA, USA | Latest award CONT_AWD_W15P7T08CK405_9700_-NONE-_-NONE- (2026-05-06) parent: RTX CORP (UEI PPLZG8J3N9D4)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
       }
     },
     {
@@ -1513,7 +1813,15 @@
         "latestTransaction": {
           "date": "2026-07-06",
           "award": "CONT_AWD_W91CRB24C5034_9700_-NONE-_-NONE-"
-        }
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_W91CRB24C5034_9700_-NONE-_-NONE-",
+          "parentName": "RTX CORP",
+          "parentUei": "PPLZG8J3N9D4",
+          "recipientUei": "F1L6ZXS2MQG3",
+          "responseSha256": "18eb829b5ae3b36a494cef281803d4b67faed666c8a806b61d82189e627219be"
+        },
+        "warnings": []
       },
       "binding": {
         "id": "binding:uei:F1L6ZXS2MQG3",
@@ -1525,8 +1833,8 @@
         "evidenceAsOf": "2026-10-15",
         "sourceUrl": "https://www.usaspending.gov/recipient/e8d84c21-d011-8694-ae85-681a2d61efe6-C/latest",
         "apiUrl": "https://api.usaspending.gov/api/v2/recipient/e8d84c21-d011-8694-ae85-681a2d61efe6-C/",
-        "supportingPassage": "RAYTHEON COMPANY | UEI F1L6ZXS2MQG3 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | MERRIMACK, NH, USA",
-        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name (search floor 2007-10-01), not a registration date."
+        "supportingPassage": "RAYTHEON COMPANY | UEI F1L6ZXS2MQG3 | MERRIMACK, NH, USA | Latest award CONT_AWD_W91CRB24C5034_9700_-NONE-_-NONE- (2026-07-06) parent: RTX CORP (UEI PPLZG8J3N9D4)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
       }
     },
     {
@@ -1553,7 +1861,15 @@
         "latestTransaction": {
           "date": "2026-05-29",
           "award": "CONT_AWD_N0002414C5315_9700_-NONE-_-NONE-"
-        }
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N0002414C5315_9700_-NONE-_-NONE-",
+          "parentName": "RTX CORP",
+          "parentUei": "PPLZG8J3N9D4",
+          "recipientUei": "ENC9Y8JGL3E9",
+          "responseSha256": "4585e1f0fd30d02a9b9252845faa1fcc4076b28fd7e52a893054191d1640deef"
+        },
+        "warnings": []
       },
       "binding": {
         "id": "binding:uei:ENC9Y8JGL3E9",
@@ -1565,8 +1881,8 @@
         "evidenceAsOf": "2026-10-15",
         "sourceUrl": "https://www.usaspending.gov/recipient/7df8886e-3a6d-4f37-1333-530fa05227ae-C/latest",
         "apiUrl": "https://api.usaspending.gov/api/v2/recipient/7df8886e-3a6d-4f37-1333-530fa05227ae-C/",
-        "supportingPassage": "RAYTHEON COMPANY | UEI ENC9Y8JGL3E9 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | MARLBOROUGH, MA, USA",
-        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name (search floor 2007-10-01), not a registration date."
+        "supportingPassage": "RAYTHEON COMPANY | UEI ENC9Y8JGL3E9 | MARLBOROUGH, MA, USA | Latest award CONT_AWD_N0002414C5315_9700_-NONE-_-NONE- (2026-05-29) parent: RTX CORP (UEI PPLZG8J3N9D4)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
       }
     },
     {
@@ -1593,7 +1909,15 @@
         "latestTransaction": {
           "date": "2026-06-11",
           "award": "CONT_AWD_FA853817F0061_9700_FA853813D0014_9700"
-        }
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_FA853817F0061_9700_FA853813D0014_9700",
+          "parentName": "RTX CORP",
+          "parentUei": "PPLZG8J3N9D4",
+          "recipientUei": "DK77NFABWLX7",
+          "responseSha256": "7bb4036f5a574f5ae3bbf516e4b38b9d39ef4b081d81d2f7028e17a7b4cd8867"
+        },
+        "warnings": []
       },
       "binding": {
         "id": "binding:uei:DK77NFABWLX7",
@@ -1605,8 +1929,8 @@
         "evidenceAsOf": "2026-10-15",
         "sourceUrl": "https://www.usaspending.gov/recipient/41b09d83-f515-7079-f67c-178c3301955e-C/latest",
         "apiUrl": "https://api.usaspending.gov/api/v2/recipient/41b09d83-f515-7079-f67c-178c3301955e-C/",
-        "supportingPassage": "RAYTHEON COMPANY | UEI DK77NFABWLX7 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | EL SEGUNDO, CA, USA",
-        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name (search floor 2007-10-01), not a registration date."
+        "supportingPassage": "RAYTHEON COMPANY | UEI DK77NFABWLX7 | EL SEGUNDO, CA, USA | Latest award CONT_AWD_FA853817F0061_9700_FA853813D0014_9700 (2026-06-11) parent: RTX CORP (UEI PPLZG8J3N9D4)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
       }
     },
     {
@@ -1633,7 +1957,15 @@
         "latestTransaction": {
           "date": "2026-04-10",
           "award": "CONT_AWD_N0010425CSA18_9700_-NONE-_-NONE-"
-        }
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N0010425CSA18_9700_-NONE-_-NONE-",
+          "parentName": "RTX CORP",
+          "parentUei": "PPLZG8J3N9D4",
+          "recipientUei": "GVH5NK36P911",
+          "responseSha256": "4c9b19eed766006a4b202a74ffb5803c4a1c6677f5e08f1939f4443ddb714b46"
+        },
+        "warnings": []
       },
       "binding": {
         "id": "binding:uei:GVH5NK36P911",
@@ -1645,33 +1977,46 @@
         "evidenceAsOf": "2026-10-15",
         "sourceUrl": "https://www.usaspending.gov/recipient/db3ca08d-93b3-2e45-a763-095628278a04-C/latest",
         "apiUrl": "https://api.usaspending.gov/api/v2/recipient/db3ca08d-93b3-2e45-a763-095628278a04-C/",
-        "supportingPassage": "RAYTHEON COMPANY | UEI GVH5NK36P911 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | LARGO, FL, USA",
-        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name (search floor 2007-10-01), not a registration date."
+        "supportingPassage": "RAYTHEON COMPANY | UEI GVH5NK36P911 | LARGO, FL, USA | Latest award CONT_AWD_N0010425CSA18_9700_-NONE-_-NONE- (2026-04-10) parent: RTX CORP (UEI PPLZG8J3N9D4)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
       }
     }
   ],
   "excluded": [
     {
-      "uei": "GMBYU6KAN9J3",
+      "uei": "K1H5GGQPBLV5",
       "cage": null,
-      "recipientId": "48b5678a-6704-3414-09de-c3abf9e7556e-C",
-      "profileUrl": "https://www.usaspending.gov/recipient/48b5678a-6704-3414-09de-c3abf9e7556e-C/latest",
-      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/48b5678a-6704-3414-09de-c3abf9e7556e-C/",
-      "responseSha256": "cd85d9a3cdbda7f6f163c7a4a94556cd954cbfd88c61363d45780f5c1ef95f14",
+      "recipientId": "c7207b2b-80c4-7b9b-2c0a-265e93256685-C",
+      "profileUrl": "https://www.usaspending.gov/recipient/c7207b2b-80c4-7b9b-2c0a-265e93256685-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/c7207b2b-80c4-7b9b-2c0a-265e93256685-C/",
+      "responseSha256": "526b1780db29801f71b85d3248b116242367ccf0c1fe9c5d933fbf55fffbcc10",
       "name": "RAYTHEON COMPANY",
-      "parentName": "RAYTHEON COMPANY",
-      "parentUei": "GMBYU6KAN9J3",
+      "parentName": "RTX CORP",
+      "parentUei": "PPLZG8J3N9D4",
       "otherReportedParents": [
-        "RTX CORP / PPLZG8J3N9D4",
         "RAYTHEON COMPANY / KLW3ZYL15493",
         "ROCKWELL COLLINS AUSTRALIA PTY LIMITED / EGAVSJTA2D81"
       ],
-      "location": "LARGO, FL, USA",
-      "contractAmount": 143731132.26,
-      "earliestTransaction": null,
-      "latestTransaction": null,
+      "location": "INDIANAPOLIS, IN, USA",
+      "contractAmount": 2062021.23,
+      "earliestTransaction": {
+        "date": "2007-10-01",
+        "award": "CONT_AWD_5239_9700_N0038304G018F_9700"
+      },
+      "latestTransaction": {
+        "date": "2026-06-30",
+        "award": "CONT_AWD_47QFWA20C0003_4732_-NONE-_-NONE-"
+      },
+      "latestAwardParent": {
+        "id": "CONT_AWD_47QFWA20C0003_4732_-NONE-_-NONE-",
+        "parentName": "ROCKWELL COLLINS AUSTRALIA PTY LIMITED",
+        "parentUei": "EGAVSJTA2D81",
+        "recipientUei": "K1H5GGQPBLV5",
+        "responseSha256": "afd206621611c842fb16515669a84689379f55c972807a99b34ba48abf77cd90"
+      },
+      "warnings": [],
       "reasons": [
-        "reported parent UEI GMBYU6KAN9J3 (RAYTHEON COMPANY) differs from expected"
+        "latest award parent UEI EGAVSJTA2D81 (ROCKWELL COLLINS AUSTRALIA PTY LIMITED) differs from expected"
       ]
     },
     {
@@ -1695,28 +2040,16 @@
         "date": "2026-07-10",
         "award": "CONT_AWD_1305M323FNWWY0103_1330_GS35F204GA_4732"
       },
+      "latestAwardParent": {
+        "id": "CONT_AWD_1305M323FNWWY0103_1330_GS35F204GA_4732",
+        "parentName": "RTX CORP",
+        "parentUei": "PPLZG8J3N9D4",
+        "recipientUei": "KLW3ZYL15493",
+        "responseSha256": "49f1dd46d9e23a6045c9443dd7a975e0c6a98fb10267da36b07c427ef45048d3"
+      },
+      "warnings": [],
       "reasons": [
         "no contract transactions found under this UEI"
-      ]
-    },
-    {
-      "uei": "C6Z6WQKFN7M6",
-      "cage": null,
-      "recipientId": "17296d12-dcf2-41f7-d285-c595591b6a77-P",
-      "profileUrl": "https://www.usaspending.gov/recipient/17296d12-dcf2-41f7-d285-c595591b6a77-P/latest",
-      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/17296d12-dcf2-41f7-d285-c595591b6a77-P/",
-      "responseSha256": "036f5b8eaf4f4f40d82f4fdb6da9bec95d8f13bc62b8e549633c10496bcd5d28",
-      "name": "RAYTHEON COMPANY",
-      "parentName": "RAYTHEON COMPANY",
-      "parentUei": "C6Z6WQKFN7M6",
-      "otherReportedParents": [],
-      "location": "SAN DIEGO, CA, USA",
-      "contractAmount": 100000,
-      "earliestTransaction": null,
-      "latestTransaction": null,
-      "reasons": [
-        "not a child-level recipient record",
-        "reported parent UEI C6Z6WQKFN7M6 (RAYTHEON COMPANY) differs from expected"
       ]
     },
     {
@@ -1736,37 +2069,33 @@
       ],
       "location": "SAN DIEGO, CA, USA",
       "contractAmount": 0,
-      "earliestTransaction": null,
-      "latestTransaction": null,
+      "earliestTransaction": {
+        "date": "2019-01-11",
+        "award": "CONT_AWD_HQ014719F0035_9700_HQ014719D0013_9700"
+      },
+      "latestTransaction": {
+        "date": "2025-05-22",
+        "award": "CONT_AWD_HQ014719F0035_9700_HQ014719D0013_9700"
+      },
+      "latestAwardParent": {
+        "id": "CONT_AWD_HQ014719F0035_9700_HQ014719D0013_9700",
+        "parentName": "RAYTHEON COMPANY",
+        "parentUei": "HBC9C3NCH3J1",
+        "recipientUei": "HBC9C3NCH3J1",
+        "responseSha256": "fe4a4ab7e27cefa06c5623afa63be1a98936f0b1043f79d859d3fd2230d1a0a4"
+      },
+      "warnings": [
+        "profile parent UEI HBC9C3NCH3J1 (RAYTHEON COMPANY) differs from expected; not relied on"
+      ],
       "reasons": [
-        "reported parent UEI HBC9C3NCH3J1 (RAYTHEON COMPANY) differs from expected"
-      ]
-    },
-    {
-      "uei": "KLW3ZYL15493",
-      "cage": null,
-      "recipientId": "51bc164d-0975-136d-3fb5-d67ade0957a7-P",
-      "profileUrl": "https://www.usaspending.gov/recipient/51bc164d-0975-136d-3fb5-d67ade0957a7-P/latest",
-      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/51bc164d-0975-136d-3fb5-d67ade0957a7-P/",
-      "responseSha256": "8fe10d9b302628dd4f6e57f1274103cb3cc5a900416457d1483a9e6f5b1bab86",
-      "name": "RAYTHEON COMPANY",
-      "parentName": "RAYTHEON COMPANY",
-      "parentUei": "KLW3ZYL15493",
-      "otherReportedParents": [],
-      "location": "ARLINGTON, VA, USA",
-      "contractAmount": -107753.86,
-      "earliestTransaction": null,
-      "latestTransaction": null,
-      "reasons": [
-        "not a child-level recipient record",
-        "reported parent UEI KLW3ZYL15493 (RAYTHEON COMPANY) differs from expected"
+        "latest award parent UEI HBC9C3NCH3J1 (RAYTHEON COMPANY) differs from expected"
       ]
     }
   ],
   "limitations": [
     "USAspending reflects SAM data as reported; it is not SAM.gov itself",
     "Recipient search is keyword-based and capped at 500 records",
-    "Parent history in USAspending is undated; only the current parent field is checked",
+    "Profile parent fields can be stale; corroboration uses the parent on the latest award record",
     "Name and parent agreement do not prove the SEC-listed legal entity; review state of incorporation separately where available"
   ]
 }

@@ -1,0 +1,1684 @@
+{
+  "generatedAt": "2026-10-15T18:26:29.628Z",
+  "query": {
+    "name": "Lockheed Martin Corporation",
+    "parentUei": "ZFN2JJXBLZT3",
+    "entityId": "sec:0000936468",
+    "formerNames": [
+      "LOCKHEED MARTIN CORP"
+    ]
+  },
+  "searched": 47,
+  "candidates": [
+    {
+      "evidence": {
+        "uei": "G4KDGE4JFFK7",
+        "cage": null,
+        "recipientId": "6cf5fb1b-4988-d087-5dc1-70939d8fc6c4-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/6cf5fb1b-4988-d087-5dc1-70939d8fc6c4-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/6cf5fb1b-4988-d087-5dc1-70939d8fc6c4-C/",
+        "responseSha256": "048b03c235e004a897171f2c220f555d2d5d0abdf2717d2b75f1e2e25237ad31",
+        "name": "LOCKHEED MARTIN CORPORATION",
+        "parentName": "LOCKHEED MARTIN CORPORATION",
+        "parentUei": "JSQTW5L2SSM1",
+        "otherReportedParents": [
+          "SIKORSKY SUPPORT SERVICES INC / WXTSNW5E97R6",
+          "LOCKHEED MARTIN CORP / ZFN2JJXBLZT3"
+        ],
+        "location": "FORT WORTH, TX, USA",
+        "contractAmount": 15181731633.31,
+        "earliestTransaction": {
+          "date": "2007-10-01",
+          "award": "CONT_AWD_0023_9700_F3360001D0014_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-09-28",
+          "award": "CONT_AWD_80GRC026C0007_8000_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_80GRC026C0007_8000_-NONE-_-NONE-",
+          "parentName": "LOCKHEED MARTIN CORP",
+          "parentUei": "ZFN2JJXBLZT3",
+          "recipientUei": "G4KDGE4JFFK7",
+          "responseSha256": "bda8d942391accd3ae9b599b2f6b88f4325060f206e30d78df38754ed4cd3189"
+        },
+        "warnings": [
+          "profile parent UEI JSQTW5L2SSM1 (LOCKHEED MARTIN CORPORATION) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:G4KDGE4JFFK7",
+        "kind": "uei",
+        "value": "G4KDGE4JFFK7",
+        "entityId": "sec:0000936468",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-01",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/6cf5fb1b-4988-d087-5dc1-70939d8fc6c4-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/6cf5fb1b-4988-d087-5dc1-70939d8fc6c4-C/",
+        "supportingPassage": "LOCKHEED MARTIN CORPORATION | UEI G4KDGE4JFFK7 | FORT WORTH, TX, USA | Latest award CONT_AWD_80GRC026C0007_8000_-NONE-_-NONE- (2026-09-28) parent: LOCKHEED MARTIN CORP (UEI ZFN2JJXBLZT3)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "XFJMYSYFJEK4",
+        "cage": null,
+        "recipientId": "779b3e3e-364f-7cbc-28a4-a2b4484b86f4-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/779b3e3e-364f-7cbc-28a4-a2b4484b86f4-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/779b3e3e-364f-7cbc-28a4-a2b4484b86f4-C/",
+        "responseSha256": "1d943155e103bc0fbf785db00f850e402769287213f82489c85f1977a0ade246",
+        "name": "LOCKHEED MARTIN CORPORATION",
+        "parentName": "LOCKHEED MARTIN CORPORATION",
+        "parentUei": "XFJMYSYFJEK4",
+        "otherReportedParents": [
+          "LOCKHEED MARTIN CORPORATION / JSQTW5L2SSM1",
+          "LOCKHEED MARTIN CORP / ZFN2JJXBLZT3"
+        ],
+        "location": "GRAND PRAIRIE, TX, USA",
+        "contractAmount": 14416351472.66,
+        "earliestTransaction": {
+          "date": "2007-10-02",
+          "award": "CONT_AWD_W31P4Q07C0205_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-07-15",
+          "award": "CONT_AWD_W31P4Q21C0042_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_W31P4Q21C0042_9700_-NONE-_-NONE-",
+          "parentName": "LOCKHEED MARTIN CORP",
+          "parentUei": "ZFN2JJXBLZT3",
+          "recipientUei": "XFJMYSYFJEK4",
+          "responseSha256": "d33ff2d9c82cdb462b330af795b0c2036ca4df007084b7e4ef2a99e37980d02d"
+        },
+        "warnings": [
+          "profile parent UEI XFJMYSYFJEK4 (LOCKHEED MARTIN CORPORATION) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:XFJMYSYFJEK4",
+        "kind": "uei",
+        "value": "XFJMYSYFJEK4",
+        "entityId": "sec:0000936468",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-02",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/779b3e3e-364f-7cbc-28a4-a2b4484b86f4-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/779b3e3e-364f-7cbc-28a4-a2b4484b86f4-C/",
+        "supportingPassage": "LOCKHEED MARTIN CORPORATION | UEI XFJMYSYFJEK4 | GRAND PRAIRIE, TX, USA | Latest award CONT_AWD_W31P4Q21C0042_9700_-NONE-_-NONE- (2026-07-15) parent: LOCKHEED MARTIN CORP (UEI ZFN2JJXBLZT3)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "CWM4UN76ZQW8",
+        "cage": null,
+        "recipientId": "d7df489c-5a15-3e1b-e7fa-0e93eb94a166-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/d7df489c-5a15-3e1b-e7fa-0e93eb94a166-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/d7df489c-5a15-3e1b-e7fa-0e93eb94a166-C/",
+        "responseSha256": "cdffb49f85bbb87f81e99d7b5271fea58687ad4293bca7c4ed256eb7b3ccad42",
+        "name": "LOCKHEED MARTIN CORPORATION",
+        "parentName": "LOCKHEED MARTIN CORPORATION",
+        "parentUei": "CWM4UN76ZQW8",
+        "otherReportedParents": [
+          "LOCKHEED MARTIN CORPORATION / JSQTW5L2SSM1",
+          "LOCKHEED MARTIN CORP / ZFN2JJXBLZT3"
+        ],
+        "location": "MOORESTOWN, NJ, USA",
+        "contractAmount": 3085339381.49,
+        "earliestTransaction": {
+          "date": "2007-10-03",
+          "award": "CONT_AWD_N0002400C5147_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-07-15",
+          "award": "CONT_AWD_N0002421C5119_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N0002421C5119_9700_-NONE-_-NONE-",
+          "parentName": "LOCKHEED MARTIN CORP",
+          "parentUei": "ZFN2JJXBLZT3",
+          "recipientUei": "CWM4UN76ZQW8",
+          "responseSha256": "3bd5d9dc67b70392f97d213fd82f69c06ddfb63cc5ef9acb41eadaf42a857836"
+        },
+        "warnings": [
+          "profile parent UEI CWM4UN76ZQW8 (LOCKHEED MARTIN CORPORATION) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:CWM4UN76ZQW8",
+        "kind": "uei",
+        "value": "CWM4UN76ZQW8",
+        "entityId": "sec:0000936468",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-03",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/d7df489c-5a15-3e1b-e7fa-0e93eb94a166-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/d7df489c-5a15-3e1b-e7fa-0e93eb94a166-C/",
+        "supportingPassage": "LOCKHEED MARTIN CORPORATION | UEI CWM4UN76ZQW8 | MOORESTOWN, NJ, USA | Latest award CONT_AWD_N0002421C5119_9700_-NONE-_-NONE- (2026-07-15) parent: LOCKHEED MARTIN CORP (UEI ZFN2JJXBLZT3)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "H7PNSVNN5827",
+        "cage": null,
+        "recipientId": "695d5739-ecc3-8484-ba2b-f9c8b4652a4a-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/695d5739-ecc3-8484-ba2b-f9c8b4652a4a-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/695d5739-ecc3-8484-ba2b-f9c8b4652a4a-C/",
+        "responseSha256": "c0f3eec2b0c257e8d797b7280687d1d0b5afc912e8577250de7d0e13b77e23e1",
+        "name": "LOCKHEED MARTIN CORPORATION",
+        "parentName": "LOCKHEED MARTIN CORP",
+        "parentUei": "ZFN2JJXBLZT3",
+        "otherReportedParents": [],
+        "location": "ORLANDO, FL, USA",
+        "contractAmount": 2780114857.49,
+        "earliestTransaction": {
+          "date": "2007-10-01",
+          "award": "CONT_AWD_5028_9700_N0038306G001H_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-07-21",
+          "award": "CONT_AWD_140D0423C0085_1406_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_140D0423C0085_1406_-NONE-_-NONE-",
+          "parentName": "LOCKHEED MARTIN CORP",
+          "parentUei": "ZFN2JJXBLZT3",
+          "recipientUei": "H7PNSVNN5827",
+          "responseSha256": "4e9c91c2a42a9b14e2480016196a2600b4181c90e2b6c39d3d8cc0f5a03ed8e5"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:H7PNSVNN5827",
+        "kind": "uei",
+        "value": "H7PNSVNN5827",
+        "entityId": "sec:0000936468",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-01",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/695d5739-ecc3-8484-ba2b-f9c8b4652a4a-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/695d5739-ecc3-8484-ba2b-f9c8b4652a4a-C/",
+        "supportingPassage": "LOCKHEED MARTIN CORPORATION | UEI H7PNSVNN5827 | ORLANDO, FL, USA | Latest award CONT_AWD_140D0423C0085_1406_-NONE-_-NONE- (2026-07-21) parent: LOCKHEED MARTIN CORP (UEI ZFN2JJXBLZT3)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "KMEVRAKJVBD3",
+        "cage": null,
+        "recipientId": "8a7abf83-bb31-a229-bb3a-31eb356988eb-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/8a7abf83-bb31-a229-bb3a-31eb356988eb-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/8a7abf83-bb31-a229-bb3a-31eb356988eb-C/",
+        "responseSha256": "b7e5abca0524f4df7533398a90236a5b5b14fcd84e021a5d31b72e1acce81241",
+        "name": "LOCKHEED MARTIN CORPORATION",
+        "parentName": "LOCKHEED MARTIN CORPORATION",
+        "parentUei": "KMEVRAKJVBD3",
+        "otherReportedParents": [
+          "LOCKHEED MARTIN CORP / ZFN2JJXBLZT3"
+        ],
+        "location": "TITUSVILLE, FL, USA",
+        "contractAmount": 2341993265.86,
+        "earliestTransaction": {
+          "date": "2019-08-30",
+          "award": "CONT_AWD_N0003019C0100_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-07-15",
+          "award": "CONT_AWD_N0003025C0100_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N0003025C0100_9700_-NONE-_-NONE-",
+          "parentName": "LOCKHEED MARTIN CORP",
+          "parentUei": "ZFN2JJXBLZT3",
+          "recipientUei": "KMEVRAKJVBD3",
+          "responseSha256": "b521b363b50622ea437fa75fc739ab41282194adf03ba6af6261019c9945d8bf"
+        },
+        "warnings": [
+          "profile parent UEI KMEVRAKJVBD3 (LOCKHEED MARTIN CORPORATION) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:KMEVRAKJVBD3",
+        "kind": "uei",
+        "value": "KMEVRAKJVBD3",
+        "entityId": "sec:0000936468",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2019-08-30",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/8a7abf83-bb31-a229-bb3a-31eb356988eb-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/8a7abf83-bb31-a229-bb3a-31eb356988eb-C/",
+        "supportingPassage": "LOCKHEED MARTIN CORPORATION | UEI KMEVRAKJVBD3 | TITUSVILLE, FL, USA | Latest award CONT_AWD_N0003025C0100_9700_-NONE-_-NONE- (2026-07-15) parent: LOCKHEED MARTIN CORP (UEI ZFN2JJXBLZT3)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "NGBVY5X32XZ5",
+        "cage": null,
+        "recipientId": "894dbedb-aca8-9b52-0a82-3b0fd8713b6d-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/894dbedb-aca8-9b52-0a82-3b0fd8713b6d-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/894dbedb-aca8-9b52-0a82-3b0fd8713b6d-C/",
+        "responseSha256": "cc0a9704302a91fff6f10ae803122ca8ef44f661f556f48e3c158c928f94c7c4",
+        "name": "LOCKHEED MARTIN CORPORATION",
+        "parentName": "LOCKHEED MARTIN CORPORATION",
+        "parentUei": "NGBVY5X32XZ5",
+        "otherReportedParents": [
+          "LOCKHEED MARTIN CORP / ZFN2JJXBLZT3"
+        ],
+        "location": "HUNTSVILLE, AL, USA",
+        "contractAmount": 1491476141.66,
+        "earliestTransaction": {
+          "date": "2008-07-10",
+          "award": "CONT_AWD_0012_9700_DASG6098D0002_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-07-14",
+          "award": "CONT_AWD_HQ014718C0007_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_HQ014718C0007_9700_-NONE-_-NONE-",
+          "parentName": "LOCKHEED MARTIN CORP",
+          "parentUei": "ZFN2JJXBLZT3",
+          "recipientUei": "NGBVY5X32XZ5",
+          "responseSha256": "e5dc986534c2125d2c886d3d93749c5fd5dd4d39a6a0834671bc1b9684f74efe"
+        },
+        "warnings": [
+          "profile parent UEI NGBVY5X32XZ5 (LOCKHEED MARTIN CORPORATION) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:NGBVY5X32XZ5",
+        "kind": "uei",
+        "value": "NGBVY5X32XZ5",
+        "entityId": "sec:0000936468",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2008-07-10",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/894dbedb-aca8-9b52-0a82-3b0fd8713b6d-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/894dbedb-aca8-9b52-0a82-3b0fd8713b6d-C/",
+        "supportingPassage": "LOCKHEED MARTIN CORPORATION | UEI NGBVY5X32XZ5 | HUNTSVILLE, AL, USA | Latest award CONT_AWD_HQ014718C0007_9700_-NONE-_-NONE- (2026-07-14) parent: LOCKHEED MARTIN CORP (UEI ZFN2JJXBLZT3)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "H11HD5VHGHN3",
+        "cage": null,
+        "recipientId": "687c4cc7-53f1-d028-875d-2fc73de19122-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/687c4cc7-53f1-d028-875d-2fc73de19122-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/687c4cc7-53f1-d028-875d-2fc73de19122-C/",
+        "responseSha256": "aabb3bfb255f00d43e4c5f6777021390dc6e959810045c4b6910ab1f9b9796f3",
+        "name": "LOCKHEED MARTIN CORPORATION",
+        "parentName": "LOCKHEED MARTIN CORPORATION",
+        "parentUei": "H11HD5VHGHN3",
+        "otherReportedParents": [
+          "LOCKHEED MARTIN CORP / ZFN2JJXBLZT3"
+        ],
+        "location": "LIVERPOOL, NY, USA",
+        "contractAmount": 753211485.47,
+        "earliestTransaction": {
+          "date": "2007-10-02",
+          "award": "CONT_AWD_SPM7A208M0010_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-09-10",
+          "award": "CONT_AWD_1305M226F0451_1330_1305M326D0002_1330"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_1305M226F0451_1330_1305M326D0002_1330",
+          "parentName": "LOCKHEED MARTIN CORP",
+          "parentUei": "ZFN2JJXBLZT3",
+          "recipientUei": "H11HD5VHGHN3",
+          "responseSha256": "a37f328452546812006edb4fcb68aec454bd1a556e013ec85544efd07730f125"
+        },
+        "warnings": [
+          "profile parent UEI H11HD5VHGHN3 (LOCKHEED MARTIN CORPORATION) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:H11HD5VHGHN3",
+        "kind": "uei",
+        "value": "H11HD5VHGHN3",
+        "entityId": "sec:0000936468",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-02",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/687c4cc7-53f1-d028-875d-2fc73de19122-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/687c4cc7-53f1-d028-875d-2fc73de19122-C/",
+        "supportingPassage": "LOCKHEED MARTIN CORPORATION | UEI H11HD5VHGHN3 | LIVERPOOL, NY, USA | Latest award CONT_AWD_1305M226F0451_1330_1305M326D0002_1330 (2026-09-10) parent: LOCKHEED MARTIN CORP (UEI ZFN2JJXBLZT3)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "JKVWEPKJRR65",
+        "cage": null,
+        "recipientId": "622f0580-7b5e-83b3-fedc-ebc6a2dee446-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/622f0580-7b5e-83b3-fedc-ebc6a2dee446-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/622f0580-7b5e-83b3-fedc-ebc6a2dee446-C/",
+        "responseSha256": "b6a791ca420da31b51454a9894e35367748faf7ff9a7a137e50eab9aa00e409c",
+        "name": "LOCKHEED MARTIN CORPORATION",
+        "parentName": "LOCKHEED MARTIN CORPORATION",
+        "parentUei": "JKVWEPKJRR65",
+        "otherReportedParents": [
+          "LOCKHEED MARTIN CORP / ZFN2JJXBLZT3"
+        ],
+        "location": "LEXINGTON, KY, USA",
+        "contractAmount": 694551579.32,
+        "earliestTransaction": {
+          "date": "2010-08-04",
+          "award": "CONT_AWD_0004_9700_H9225409D0001_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-07-15",
+          "award": "CONT_AWD_H9225426FE098_9700_H9225417D0001_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_H9225426FE098_9700_H9225417D0001_9700",
+          "parentName": "LOCKHEED MARTIN CORP",
+          "parentUei": "ZFN2JJXBLZT3",
+          "recipientUei": "JKVWEPKJRR65",
+          "responseSha256": "52bed891dd1ba42929b1e1b2d7df25d9b08390b0e41af593d8ab5dcb967e78b2"
+        },
+        "warnings": [
+          "profile parent UEI JKVWEPKJRR65 (LOCKHEED MARTIN CORPORATION) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:JKVWEPKJRR65",
+        "kind": "uei",
+        "value": "JKVWEPKJRR65",
+        "entityId": "sec:0000936468",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2010-08-04",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/622f0580-7b5e-83b3-fedc-ebc6a2dee446-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/622f0580-7b5e-83b3-fedc-ebc6a2dee446-C/",
+        "supportingPassage": "LOCKHEED MARTIN CORPORATION | UEI JKVWEPKJRR65 | LEXINGTON, KY, USA | Latest award CONT_AWD_H9225426FE098_9700_H9225417D0001_9700 (2026-07-15) parent: LOCKHEED MARTIN CORP (UEI ZFN2JJXBLZT3)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "HJP4JZG1FUL9",
+        "cage": null,
+        "recipientId": "5ad7895c-192b-21cd-8baf-92c6dce0b593-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/5ad7895c-192b-21cd-8baf-92c6dce0b593-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/5ad7895c-192b-21cd-8baf-92c6dce0b593-C/",
+        "responseSha256": "7706288644c3cf6a51e37d4e0e027214d637fd77b4c9e4e678603151fea7b6e7",
+        "name": "LOCKHEED MARTIN CORPORATION",
+        "parentName": "LOCKHEED MARTIN CORPORATION",
+        "parentUei": "HJP4JZG1FUL9",
+        "otherReportedParents": [
+          "LOCKHEED MARTIN CORPORATION / JSQTW5L2SSM1",
+          "SIKORSKY SUPPORT SERVICES INC / WXTSNW5E97R6",
+          "LOCKHEED MARTIN CORP / ZFN2JJXBLZT3"
+        ],
+        "location": "OWEGO, NY, USA",
+        "contractAmount": 493240675.24,
+        "earliestTransaction": {
+          "date": "2007-10-01",
+          "award": "CONT_AWD_SC07_9700_FA820206D0001_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-07-15",
+          "award": "CONT_AWD_N0038326F0215_9700_N0038326GAB01_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N0038326F0215_9700_N0038326GAB01_9700",
+          "parentName": "LOCKHEED MARTIN CORP",
+          "parentUei": "ZFN2JJXBLZT3",
+          "recipientUei": "HJP4JZG1FUL9",
+          "responseSha256": "404c19f90fffe31812b5303b935893a6e2d1e3e15b95ed25d7747a089f6bc2a3"
+        },
+        "warnings": [
+          "profile parent UEI HJP4JZG1FUL9 (LOCKHEED MARTIN CORPORATION) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:HJP4JZG1FUL9",
+        "kind": "uei",
+        "value": "HJP4JZG1FUL9",
+        "entityId": "sec:0000936468",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-01",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/5ad7895c-192b-21cd-8baf-92c6dce0b593-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/5ad7895c-192b-21cd-8baf-92c6dce0b593-C/",
+        "supportingPassage": "LOCKHEED MARTIN CORPORATION | UEI HJP4JZG1FUL9 | OWEGO, NY, USA | Latest award CONT_AWD_N0038326F0215_9700_N0038326GAB01_9700 (2026-07-15) parent: LOCKHEED MARTIN CORP (UEI ZFN2JJXBLZT3)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "KDT2YLB34NT6",
+        "cage": null,
+        "recipientId": "ea75ddee-2d00-ac7f-5e72-6f42d7c88c8c-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/ea75ddee-2d00-ac7f-5e72-6f42d7c88c8c-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/ea75ddee-2d00-ac7f-5e72-6f42d7c88c8c-C/",
+        "responseSha256": "cd617a24e3a4d53da16d0b340b02ff25e33d3165cf162daec52596202574cfad",
+        "name": "LOCKHEED MARTIN CORPORATION",
+        "parentName": "LOCKHEED MARTIN CORP",
+        "parentUei": "ZFN2JJXBLZT3",
+        "otherReportedParents": [
+          "LOCKHEED MARTIN CORPORATION / KDT2YLB34NT6"
+        ],
+        "location": "ORLANDO, FL, USA",
+        "contractAmount": 409640357.15,
+        "earliestTransaction": {
+          "date": "2007-10-01",
+          "award": "CONT_AWD_GSP0107NG0040HUDCCOPC22810_4740_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-07-31",
+          "award": "CONT_AWD_1305M226P0195_1330_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_1305M226P0195_1330_-NONE-_-NONE-",
+          "parentName": "LOCKHEED MARTIN CORP",
+          "parentUei": "ZFN2JJXBLZT3",
+          "recipientUei": "KDT2YLB34NT6",
+          "responseSha256": "58c78a35d54b129c63f3e3b5e81bee307f064e2b6730ac371db228c174c0fb8d"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:KDT2YLB34NT6",
+        "kind": "uei",
+        "value": "KDT2YLB34NT6",
+        "entityId": "sec:0000936468",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-01",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/ea75ddee-2d00-ac7f-5e72-6f42d7c88c8c-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/ea75ddee-2d00-ac7f-5e72-6f42d7c88c8c-C/",
+        "supportingPassage": "LOCKHEED MARTIN CORPORATION | UEI KDT2YLB34NT6 | ORLANDO, FL, USA | Latest award CONT_AWD_1305M226P0195_1330_-NONE-_-NONE- (2026-07-31) parent: LOCKHEED MARTIN CORP (UEI ZFN2JJXBLZT3)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "NMHFLDYJJ4C5",
+        "cage": null,
+        "recipientId": "b302814a-8713-3c2f-8b0a-d0b8fc09976f-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/b302814a-8713-3c2f-8b0a-d0b8fc09976f-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/b302814a-8713-3c2f-8b0a-d0b8fc09976f-C/",
+        "responseSha256": "3d432da15a19002f1c903784629b608bd18d6afe2e753d91be08618b66412510",
+        "name": "LOCKHEED MARTIN CORPORATION",
+        "parentName": "LOCKHEED MARTIN CORPORATION",
+        "parentUei": "NMHFLDYJJ4C5",
+        "otherReportedParents": [
+          "LOCKHEED MARTIN CORP / ZFN2JJXBLZT3"
+        ],
+        "location": "MANASSAS, VA, USA",
+        "contractAmount": 369951337.7,
+        "earliestTransaction": {
+          "date": "2007-10-01",
+          "award": "CONT_AWD_5141_9700_N0010404GA765_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-09-29",
+          "award": "CONT_AWD_80GSFC24FA046_8000_GS00Q14OADU323_4732"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_80GSFC24FA046_8000_GS00Q14OADU323_4732",
+          "parentName": "LOCKHEED MARTIN CORP",
+          "parentUei": "ZFN2JJXBLZT3",
+          "recipientUei": "NMHFLDYJJ4C5",
+          "responseSha256": "cfa4e3169c8e6013c49e630734d1381390e80091f5f5535139a8216d0c1f20c8"
+        },
+        "warnings": [
+          "profile parent UEI NMHFLDYJJ4C5 (LOCKHEED MARTIN CORPORATION) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:NMHFLDYJJ4C5",
+        "kind": "uei",
+        "value": "NMHFLDYJJ4C5",
+        "entityId": "sec:0000936468",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-01",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/b302814a-8713-3c2f-8b0a-d0b8fc09976f-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/b302814a-8713-3c2f-8b0a-d0b8fc09976f-C/",
+        "supportingPassage": "LOCKHEED MARTIN CORPORATION | UEI NMHFLDYJJ4C5 | MANASSAS, VA, USA | Latest award CONT_AWD_80GSFC24FA046_8000_GS00Q14OADU323_4732 (2026-09-29) parent: LOCKHEED MARTIN CORP (UEI ZFN2JJXBLZT3)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "LXKGXB75YKY6",
+        "cage": null,
+        "recipientId": "c798c2aa-022b-9a6f-21c5-8060af622f14-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/c798c2aa-022b-9a6f-21c5-8060af622f14-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/c798c2aa-022b-9a6f-21c5-8060af622f14-C/",
+        "responseSha256": "385fbeeaf82da9c9eacc3f42775583e40ab510a73afb952cbfb64b256bda94f4",
+        "name": "LOCKHEED MARTIN CORPORATION",
+        "parentName": "LOCKHEED MARTIN CORPORATION",
+        "parentUei": "JSQTW5L2SSM1",
+        "otherReportedParents": [
+          "LOCKHEED MARTIN CORP / ZFN2JJXBLZT3"
+        ],
+        "location": "PALMDALE, CA, USA",
+        "contractAmount": 353007227.08,
+        "earliestTransaction": {
+          "date": "2007-10-01",
+          "award": "CONT_AWD_0008_9700_FA852807D0015_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-10-09",
+          "award": "CONT_AWD_80AFRC18C0018_8000_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_80AFRC18C0018_8000_-NONE-_-NONE-",
+          "parentName": "LOCKHEED MARTIN CORP",
+          "parentUei": "ZFN2JJXBLZT3",
+          "recipientUei": "LXKGXB75YKY6",
+          "responseSha256": "8ba07416df262b0a9888b3ff76d582b1d91661244766be6f9c435f33d5419fa0"
+        },
+        "warnings": [
+          "profile parent UEI JSQTW5L2SSM1 (LOCKHEED MARTIN CORPORATION) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:LXKGXB75YKY6",
+        "kind": "uei",
+        "value": "LXKGXB75YKY6",
+        "entityId": "sec:0000936468",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-01",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/c798c2aa-022b-9a6f-21c5-8060af622f14-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/c798c2aa-022b-9a6f-21c5-8060af622f14-C/",
+        "supportingPassage": "LOCKHEED MARTIN CORPORATION | UEI LXKGXB75YKY6 | PALMDALE, CA, USA | Latest award CONT_AWD_80AFRC18C0018_8000_-NONE-_-NONE- (2026-10-09) parent: LOCKHEED MARTIN CORP (UEI ZFN2JJXBLZT3)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "XYUMJHQ1LJV5",
+        "cage": null,
+        "recipientId": "0d5744ec-afe5-eea8-0593-f35c6a784084-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/0d5744ec-afe5-eea8-0593-f35c6a784084-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/0d5744ec-afe5-eea8-0593-f35c6a784084-C/",
+        "responseSha256": "8827fb414d80879f067a3fad96b02a17bccc9d69ae42b4a06fbde39c0b7f94c8",
+        "name": "LOCKHEED MARTIN CORPORATION",
+        "parentName": "LOCKHEED MARTIN CORPORATION",
+        "parentUei": "JSQTW5L2SSM1",
+        "otherReportedParents": [
+          "LOCKHEED MARTIN CORP / ZFN2JJXBLZT3"
+        ],
+        "location": "COLORADO SPRINGS, CO, USA",
+        "contractAmount": 292322524.16,
+        "earliestTransaction": {
+          "date": "2016-08-31",
+          "award": "CONT_AWD_FA862016C4004_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-07-15",
+          "award": "CONT_AWD_FA869121C3110_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_FA869121C3110_9700_-NONE-_-NONE-",
+          "parentName": "LOCKHEED MARTIN CORP",
+          "parentUei": "ZFN2JJXBLZT3",
+          "recipientUei": "XYUMJHQ1LJV5",
+          "responseSha256": "562b491ec4301575741e546e6b53e47bd1d0135388ee7ad266bc62c0948d53a9"
+        },
+        "warnings": [
+          "profile parent UEI JSQTW5L2SSM1 (LOCKHEED MARTIN CORPORATION) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:XYUMJHQ1LJV5",
+        "kind": "uei",
+        "value": "XYUMJHQ1LJV5",
+        "entityId": "sec:0000936468",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2016-08-31",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/0d5744ec-afe5-eea8-0593-f35c6a784084-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/0d5744ec-afe5-eea8-0593-f35c6a784084-C/",
+        "supportingPassage": "LOCKHEED MARTIN CORPORATION | UEI XYUMJHQ1LJV5 | COLORADO SPRINGS, CO, USA | Latest award CONT_AWD_FA869121C3110_9700_-NONE-_-NONE- (2026-07-15) parent: LOCKHEED MARTIN CORP (UEI ZFN2JJXBLZT3)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "HDHVQ4EF8A89",
+        "cage": null,
+        "recipientId": "4de935fd-7eb9-654c-bd76-c9bd3a6943db-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/4de935fd-7eb9-654c-bd76-c9bd3a6943db-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/4de935fd-7eb9-654c-bd76-c9bd3a6943db-C/",
+        "responseSha256": "0916fc36426a0daff4ef581afc2cf5e500c9ddc7a7a8ea3dc5d68bbe2d67783d",
+        "name": "LOCKHEED MARTIN CORPORATION",
+        "parentName": "LOCKHEED MARTIN CORPORATION",
+        "parentUei": "HDHVQ4EF8A89",
+        "otherReportedParents": [
+          "LOCKHEED MARTIN CORP / ZFN2JJXBLZT3"
+        ],
+        "location": "PALO ALTO, CA, USA",
+        "contractAmount": 198762444.81,
+        "earliestTransaction": {
+          "date": "2007-10-25",
+          "award": "CONT_AWD_NNG04EA00C_8000_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-10-06",
+          "award": "CONT_AWD_80ARC027P0001_8000_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_80ARC027P0001_8000_-NONE-_-NONE-",
+          "parentName": "LOCKHEED MARTIN CORP",
+          "parentUei": "ZFN2JJXBLZT3",
+          "recipientUei": "HDHVQ4EF8A89",
+          "responseSha256": "076e95b27de6b70c899b6978a973310f5a6c28831c5cea2dd3b85f022b615eec"
+        },
+        "warnings": [
+          "profile parent UEI HDHVQ4EF8A89 (LOCKHEED MARTIN CORPORATION) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:HDHVQ4EF8A89",
+        "kind": "uei",
+        "value": "HDHVQ4EF8A89",
+        "entityId": "sec:0000936468",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-25",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/4de935fd-7eb9-654c-bd76-c9bd3a6943db-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/4de935fd-7eb9-654c-bd76-c9bd3a6943db-C/",
+        "supportingPassage": "LOCKHEED MARTIN CORPORATION | UEI HDHVQ4EF8A89 | PALO ALTO, CA, USA | Latest award CONT_AWD_80ARC027P0001_8000_-NONE-_-NONE- (2026-10-06) parent: LOCKHEED MARTIN CORP (UEI ZFN2JJXBLZT3)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "Z9B5HQ9HSTM5",
+        "cage": null,
+        "recipientId": "0701db1f-8045-4e60-83f7-5fd066cdf38d-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/0701db1f-8045-4e60-83f7-5fd066cdf38d-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/0701db1f-8045-4e60-83f7-5fd066cdf38d-C/",
+        "responseSha256": "8ab5526b8241523244f54398a7977656e05d4d9076c7d3dbd740720a0799852e",
+        "name": "LOCKHEED MARTIN CORPORATION",
+        "parentName": "LOCKHEED MARTIN CORPORATION",
+        "parentUei": "Z9B5HQ9HSTM5",
+        "otherReportedParents": [
+          "LOCKHEED MARTIN CORPORATION / JSQTW5L2SSM1",
+          "SIKORSKY SUPPORT SERVICES INC / WXTSNW5E97R6",
+          "LOCKHEED MARTIN CORP / ZFN2JJXBLZT3"
+        ],
+        "location": "UNIONDALE, NY, USA",
+        "contractAmount": 138661257.17,
+        "earliestTransaction": {
+          "date": "2007-10-24",
+          "award": "CONT_AWD_N0003008C0002_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-07-14",
+          "award": "CONT_AWD_N0003021F6100_9700_N0003019G0053_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N0003021F6100_9700_N0003019G0053_9700",
+          "parentName": "LOCKHEED MARTIN CORP",
+          "parentUei": "ZFN2JJXBLZT3",
+          "recipientUei": "Z9B5HQ9HSTM5",
+          "responseSha256": "98bfc645eb60d3fc8b9af8e5c5cfff1c1b97a647896c755c72e2f740e22b7162"
+        },
+        "warnings": [
+          "profile parent UEI Z9B5HQ9HSTM5 (LOCKHEED MARTIN CORPORATION) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:Z9B5HQ9HSTM5",
+        "kind": "uei",
+        "value": "Z9B5HQ9HSTM5",
+        "entityId": "sec:0000936468",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-24",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/0701db1f-8045-4e60-83f7-5fd066cdf38d-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/0701db1f-8045-4e60-83f7-5fd066cdf38d-C/",
+        "supportingPassage": "LOCKHEED MARTIN CORPORATION | UEI Z9B5HQ9HSTM5 | UNIONDALE, NY, USA | Latest award CONT_AWD_N0003021F6100_9700_N0003019G0053_9700 (2026-07-14) parent: LOCKHEED MARTIN CORP (UEI ZFN2JJXBLZT3)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "LJDGB6CXKRK5",
+        "cage": null,
+        "recipientId": "95b69f1c-85e3-2053-a88c-84dad8edd667-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/95b69f1c-85e3-2053-a88c-84dad8edd667-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/95b69f1c-85e3-2053-a88c-84dad8edd667-C/",
+        "responseSha256": "838f5a7d4200e2f2e159bb77bfff83d0d56dc9ec98c926d4adfc20997726347e",
+        "name": "LOCKHEED MARTIN CORPORATION",
+        "parentName": "LOCKHEED MARTIN CORPORATION",
+        "parentUei": "LJDGB6CXKRK5",
+        "otherReportedParents": [
+          "LOCKHEED MARTIN CORP / ZFN2JJXBLZT3"
+        ],
+        "location": "KING OF PRUSSIA, PA, USA",
+        "contractAmount": 70873671.3,
+        "earliestTransaction": {
+          "date": "2017-10-19",
+          "award": "CONT_AWD_0001_9700_N0001915G0057_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-07-15",
+          "award": "CONT_AWD_N0001921F0143_9700_N0001920D0017_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N0001921F0143_9700_N0001920D0017_9700",
+          "parentName": "LOCKHEED MARTIN CORP",
+          "parentUei": "ZFN2JJXBLZT3",
+          "recipientUei": "LJDGB6CXKRK5",
+          "responseSha256": "42c41097be589e58f306143d29535cef2f0953ac560c03035a146181815f76ba"
+        },
+        "warnings": [
+          "profile parent UEI LJDGB6CXKRK5 (LOCKHEED MARTIN CORPORATION) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:LJDGB6CXKRK5",
+        "kind": "uei",
+        "value": "LJDGB6CXKRK5",
+        "entityId": "sec:0000936468",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2017-10-19",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/95b69f1c-85e3-2053-a88c-84dad8edd667-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/95b69f1c-85e3-2053-a88c-84dad8edd667-C/",
+        "supportingPassage": "LOCKHEED MARTIN CORPORATION | UEI LJDGB6CXKRK5 | KING OF PRUSSIA, PA, USA | Latest award CONT_AWD_N0001921F0143_9700_N0001920D0017_9700 (2026-07-15) parent: LOCKHEED MARTIN CORP (UEI ZFN2JJXBLZT3)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "PAMVUBYPXF48",
+        "cage": null,
+        "recipientId": "1b870f9e-28fd-fecf-a5bd-abb4bd04e550-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/1b870f9e-28fd-fecf-a5bd-abb4bd04e550-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/1b870f9e-28fd-fecf-a5bd-abb4bd04e550-C/",
+        "responseSha256": "63e4af5e25677ebc95209a2578a2a6b69d2407dd46c10f2a04ab65e868ec7fbf",
+        "name": "LOCKHEED MARTIN CORPORATION",
+        "parentName": "LOCKHEED MARTIN CORPORATION",
+        "parentUei": "PAMVUBYPXF48",
+        "otherReportedParents": [
+          "LOCKHEED MARTIN CORP / ZFN2JJXBLZT3"
+        ],
+        "location": "LITTLETON, CO, USA",
+        "contractAmount": 48223583.13,
+        "earliestTransaction": {
+          "date": "2007-10-15",
+          "award": "CONT_AWD_0006_9700_FA862004G4019_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-07-13",
+          "award": "CONT_AWD_N6600126F9011_9700_N0003919D0006_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N6600126F9011_9700_N0003919D0006_9700",
+          "parentName": "LOCKHEED MARTIN CORP",
+          "parentUei": "ZFN2JJXBLZT3",
+          "recipientUei": "PAMVUBYPXF48",
+          "responseSha256": "684e130304718f3c8e4da906e687f9cef4b7d4b357f255dd6a32f3a114ce48f8"
+        },
+        "warnings": [
+          "profile parent UEI PAMVUBYPXF48 (LOCKHEED MARTIN CORPORATION) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:PAMVUBYPXF48",
+        "kind": "uei",
+        "value": "PAMVUBYPXF48",
+        "entityId": "sec:0000936468",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-15",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/1b870f9e-28fd-fecf-a5bd-abb4bd04e550-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/1b870f9e-28fd-fecf-a5bd-abb4bd04e550-C/",
+        "supportingPassage": "LOCKHEED MARTIN CORPORATION | UEI PAMVUBYPXF48 | LITTLETON, CO, USA | Latest award CONT_AWD_N6600126F9011_9700_N0003919D0006_9700 (2026-07-13) parent: LOCKHEED MARTIN CORP (UEI ZFN2JJXBLZT3)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "HNXKWMN1HJL6",
+        "cage": null,
+        "recipientId": "5630d744-6d7b-3bff-9a76-fe728ed0174d-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/5630d744-6d7b-3bff-9a76-fe728ed0174d-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/5630d744-6d7b-3bff-9a76-fe728ed0174d-C/",
+        "responseSha256": "6938f9424caafec17a5c4eccfad005764193dcad3e96ce57994ea19b5445e8b2",
+        "name": "LOCKHEED MARTIN CORPORATION",
+        "parentName": "LOCKHEED MARTIN CORP",
+        "parentUei": "ZFN2JJXBLZT3",
+        "otherReportedParents": [],
+        "location": "CHERRY HILL, NJ, USA",
+        "contractAmount": 25250529.82,
+        "earliestTransaction": {
+          "date": "2007-10-04",
+          "award": "CONT_AWD_FA865006C7605_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-07-15",
+          "award": "CONT_AWD_FA875024CB038_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_FA875024CB038_9700_-NONE-_-NONE-",
+          "parentName": "LOCKHEED MARTIN CORP",
+          "parentUei": "ZFN2JJXBLZT3",
+          "recipientUei": "HNXKWMN1HJL6",
+          "responseSha256": "90f9cbd5ade46f30f017e7e4e8c2928dd0dc8f0c671517d805ca1eeccabefa7e"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:HNXKWMN1HJL6",
+        "kind": "uei",
+        "value": "HNXKWMN1HJL6",
+        "entityId": "sec:0000936468",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-04",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/5630d744-6d7b-3bff-9a76-fe728ed0174d-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/5630d744-6d7b-3bff-9a76-fe728ed0174d-C/",
+        "supportingPassage": "LOCKHEED MARTIN CORPORATION | UEI HNXKWMN1HJL6 | CHERRY HILL, NJ, USA | Latest award CONT_AWD_FA875024CB038_9700_-NONE-_-NONE- (2026-07-15) parent: LOCKHEED MARTIN CORP (UEI ZFN2JJXBLZT3)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "NPTBVK49FNB3",
+        "cage": null,
+        "recipientId": "cfdb99d6-7cee-3d75-33a3-219241d6fc30-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/cfdb99d6-7cee-3d75-33a3-219241d6fc30-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/cfdb99d6-7cee-3d75-33a3-219241d6fc30-C/",
+        "responseSha256": "175b3cbbf6e9ce6fa135d11961eb150758ca9677e194ddd4435184b6c9ecc934",
+        "name": "LOCKHEED MARTIN CORPORATION",
+        "parentName": "LOCKHEED MARTIN CORP",
+        "parentUei": "ZFN2JJXBLZT3",
+        "otherReportedParents": [],
+        "location": "GAITHERSBURG, MD, USA",
+        "contractAmount": 24335912.02,
+        "earliestTransaction": {
+          "date": "2008-02-01",
+          "award": "CONT_AWD_0001_9700_W15P7T08DN402_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-07-01",
+          "award": "CONT_AWD_HQ085221F0006_9700_HQ014712D0003_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_HQ085221F0006_9700_HQ014712D0003_9700",
+          "parentName": "LOCKHEED MARTIN CORP",
+          "parentUei": "ZFN2JJXBLZT3",
+          "recipientUei": "NPTBVK49FNB3",
+          "responseSha256": "38f40667c77eb140aeaf7fd633d5b520c5ee801ed9b73dbaabd081c16f029eab"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:NPTBVK49FNB3",
+        "kind": "uei",
+        "value": "NPTBVK49FNB3",
+        "entityId": "sec:0000936468",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2008-02-01",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/cfdb99d6-7cee-3d75-33a3-219241d6fc30-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/cfdb99d6-7cee-3d75-33a3-219241d6fc30-C/",
+        "supportingPassage": "LOCKHEED MARTIN CORPORATION | UEI NPTBVK49FNB3 | GAITHERSBURG, MD, USA | Latest award CONT_AWD_HQ085221F0006_9700_HQ014712D0003_9700 (2026-07-01) parent: LOCKHEED MARTIN CORP (UEI ZFN2JJXBLZT3)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "KC5NMK7R6TN5",
+        "cage": null,
+        "recipientId": "7f757335-f837-34de-9cdc-a72cb22b6906-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/7f757335-f837-34de-9cdc-a72cb22b6906-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/7f757335-f837-34de-9cdc-a72cb22b6906-C/",
+        "responseSha256": "499862015c9f9b104def59fdcbedaa4b399549122aebcb4b8250f96b3621ff56",
+        "name": "LOCKHEED MARTIN CORPORATION",
+        "parentName": "LOCKHEED MARTIN CORP",
+        "parentUei": "ZFN2JJXBLZT3",
+        "otherReportedParents": [],
+        "location": "ORLANDO, FL, USA",
+        "contractAmount": 11209468,
+        "earliestTransaction": {
+          "date": "2007-10-04",
+          "award": "CONT_AWD_0005_9700_FA822307D0001_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-06-25",
+          "award": "CONT_AWD_FA862122C0020_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_FA862122C0020_9700_-NONE-_-NONE-",
+          "parentName": "LOCKHEED MARTIN CORP",
+          "parentUei": "ZFN2JJXBLZT3",
+          "recipientUei": "KC5NMK7R6TN5",
+          "responseSha256": "ad99c9e990261c901b63ee100874294454e4902f7fa50805ea963be27a32a064"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:KC5NMK7R6TN5",
+        "kind": "uei",
+        "value": "KC5NMK7R6TN5",
+        "entityId": "sec:0000936468",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-04",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/7f757335-f837-34de-9cdc-a72cb22b6906-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/7f757335-f837-34de-9cdc-a72cb22b6906-C/",
+        "supportingPassage": "LOCKHEED MARTIN CORPORATION | UEI KC5NMK7R6TN5 | ORLANDO, FL, USA | Latest award CONT_AWD_FA862122C0020_9700_-NONE-_-NONE- (2026-06-25) parent: LOCKHEED MARTIN CORP (UEI ZFN2JJXBLZT3)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "JHLMULLPJ2V5",
+        "cage": null,
+        "recipientId": "33e33272-d9b8-a96b-8257-c06431b40826-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/33e33272-d9b8-a96b-8257-c06431b40826-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/33e33272-d9b8-a96b-8257-c06431b40826-C/",
+        "responseSha256": "6a4f5278a4d068f99372fbe0b545c8d8cab7da829ba6cb5bd17b03b5a180c7c9",
+        "name": "LOCKHEED MARTIN CORPORATION",
+        "parentName": "LOCKHEED MARTIN CORPORATION",
+        "parentUei": "JHLMULLPJ2V5",
+        "otherReportedParents": [
+          "LOCKHEED MARTIN CORP / ZFN2JJXBLZT3"
+        ],
+        "location": "CHELMSFORD, MA, USA",
+        "contractAmount": 10202627.12,
+        "earliestTransaction": {
+          "date": "2007-11-30",
+          "award": "CONT_AWD_N0016406P0973_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-04-27",
+          "award": "CONT_AWD_N0038326F0110_9700_N0038326G0017_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N0038326F0110_9700_N0038326G0017_9700",
+          "parentName": "LOCKHEED MARTIN CORP",
+          "parentUei": "ZFN2JJXBLZT3",
+          "recipientUei": "JHLMULLPJ2V5",
+          "responseSha256": "fe7545335d136124ebfcd7b095e215837178cc29ecd98d52b3c9d822340e4ac8"
+        },
+        "warnings": [
+          "profile parent UEI JHLMULLPJ2V5 (LOCKHEED MARTIN CORPORATION) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:JHLMULLPJ2V5",
+        "kind": "uei",
+        "value": "JHLMULLPJ2V5",
+        "entityId": "sec:0000936468",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-11-30",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/33e33272-d9b8-a96b-8257-c06431b40826-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/33e33272-d9b8-a96b-8257-c06431b40826-C/",
+        "supportingPassage": "LOCKHEED MARTIN CORPORATION | UEI JHLMULLPJ2V5 | CHELMSFORD, MA, USA | Latest award CONT_AWD_N0038326F0110_9700_N0038326G0017_9700 (2026-04-27) parent: LOCKHEED MARTIN CORP (UEI ZFN2JJXBLZT3)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "TL1MRK244M47",
+        "cage": null,
+        "recipientId": "3ed3dff5-2c28-c0eb-b15d-7271c2841327-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/3ed3dff5-2c28-c0eb-b15d-7271c2841327-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/3ed3dff5-2c28-c0eb-b15d-7271c2841327-C/",
+        "responseSha256": "1c1df7a6ae646a0a7f4f6213ed7a44503a7a01e11925792a5fba864de9648d2e",
+        "name": "LOCKHEED MARTIN CORPORATION",
+        "parentName": "LOCKHEED MARTIN CORPORATION",
+        "parentUei": "JSQTW5L2SSM1",
+        "otherReportedParents": [
+          "LOCKHEED MARTIN CORP / ZFN2JJXBLZT3"
+        ],
+        "location": "HERNDON, VA, USA",
+        "contractAmount": 8020144.01,
+        "earliestTransaction": {
+          "date": "2009-09-08",
+          "award": "CONT_AWD_H9222209C0018_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-07-10",
+          "award": "CONT_AWD_FA239825CB001_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_FA239825CB001_9700_-NONE-_-NONE-",
+          "parentName": "LOCKHEED MARTIN CORP",
+          "parentUei": "ZFN2JJXBLZT3",
+          "recipientUei": "TL1MRK244M47",
+          "responseSha256": "e3531c510b3750b7ebf09f1785b7fb2cb6a286fc86412a9afd9f7ad0331dfaeb"
+        },
+        "warnings": [
+          "profile parent UEI JSQTW5L2SSM1 (LOCKHEED MARTIN CORPORATION) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:TL1MRK244M47",
+        "kind": "uei",
+        "value": "TL1MRK244M47",
+        "entityId": "sec:0000936468",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2009-09-08",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/3ed3dff5-2c28-c0eb-b15d-7271c2841327-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/3ed3dff5-2c28-c0eb-b15d-7271c2841327-C/",
+        "supportingPassage": "LOCKHEED MARTIN CORPORATION | UEI TL1MRK244M47 | HERNDON, VA, USA | Latest award CONT_AWD_FA239825CB001_9700_-NONE-_-NONE- (2026-07-10) parent: LOCKHEED MARTIN CORP (UEI ZFN2JJXBLZT3)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "C2NBXMHLSMS3",
+        "cage": null,
+        "recipientId": "c54f1ab3-c245-e082-b521-4b2de51e4914-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/c54f1ab3-c245-e082-b521-4b2de51e4914-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/c54f1ab3-c245-e082-b521-4b2de51e4914-C/",
+        "responseSha256": "52c7bccdf4eb37c42cf7a0a47e1a61837b76c52b06c18f1036bca2d853daab5e",
+        "name": "LOCKHEED MARTIN CORPORATION",
+        "parentName": "LOCKHEED MARTIN CORP",
+        "parentUei": "ZFN2JJXBLZT3",
+        "otherReportedParents": [],
+        "location": "HERNDON, VA, USA",
+        "contractAmount": 4912139.57,
+        "earliestTransaction": {
+          "date": "2012-07-11",
+          "award": "CONT_AWD_DJFA2N201581_1549_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-01-13",
+          "award": "CONT_AWD_FA882322C0001_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_FA882322C0001_9700_-NONE-_-NONE-",
+          "parentName": "LOCKHEED MARTIN CORP",
+          "parentUei": "ZFN2JJXBLZT3",
+          "recipientUei": "C2NBXMHLSMS3",
+          "responseSha256": "4c27d5316c1ae623da82e56e7ae21a3c59940fed5661772788ac4a4ea1304094"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:C2NBXMHLSMS3",
+        "kind": "uei",
+        "value": "C2NBXMHLSMS3",
+        "entityId": "sec:0000936468",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2012-07-11",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/c54f1ab3-c245-e082-b521-4b2de51e4914-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/c54f1ab3-c245-e082-b521-4b2de51e4914-C/",
+        "supportingPassage": "LOCKHEED MARTIN CORPORATION | UEI C2NBXMHLSMS3 | HERNDON, VA, USA | Latest award CONT_AWD_FA882322C0001_9700_-NONE-_-NONE- (2026-01-13) parent: LOCKHEED MARTIN CORP (UEI ZFN2JJXBLZT3)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "P8RKVLSH4RL3",
+        "cage": null,
+        "recipientId": "709d84bb-d7e3-2b97-6b75-efb601a7c8df-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/709d84bb-d7e3-2b97-6b75-efb601a7c8df-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/709d84bb-d7e3-2b97-6b75-efb601a7c8df-C/",
+        "responseSha256": "fd9b8e7bd6d851397fc325b9a75095d3125d7f4a5a28da34cd305e8ba559edcf",
+        "name": "LOCKHEED MARTIN CORPORATION",
+        "parentName": "LOCKHEED MARTIN CORPORATION",
+        "parentUei": "HJP4JZG1FUL9",
+        "otherReportedParents": [
+          "LOCKHEED MARTIN CORPORATION / JSQTW5L2SSM1",
+          "LOCKHEED MARTIN CORP / ZFN2JJXBLZT3"
+        ],
+        "location": "NIAGARA FALLS, NY, USA",
+        "contractAmount": 4567345,
+        "earliestTransaction": {
+          "date": "2007-10-03",
+          "award": "CONT_AWD_FA871805C0080_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-05-28",
+          "award": "CONT_AWD_N0001424C1102_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N0001424C1102_9700_-NONE-_-NONE-",
+          "parentName": "LOCKHEED MARTIN CORP",
+          "parentUei": "ZFN2JJXBLZT3",
+          "recipientUei": "P8RKVLSH4RL3",
+          "responseSha256": "5b436eb44b207bec7b340947a4ba1afb07860002dac4ff297a761ea4e88da19a"
+        },
+        "warnings": [
+          "profile parent UEI HJP4JZG1FUL9 (LOCKHEED MARTIN CORPORATION) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:P8RKVLSH4RL3",
+        "kind": "uei",
+        "value": "P8RKVLSH4RL3",
+        "entityId": "sec:0000936468",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-03",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/709d84bb-d7e3-2b97-6b75-efb601a7c8df-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/709d84bb-d7e3-2b97-6b75-efb601a7c8df-C/",
+        "supportingPassage": "LOCKHEED MARTIN CORPORATION | UEI P8RKVLSH4RL3 | NIAGARA FALLS, NY, USA | Latest award CONT_AWD_N0001424C1102_9700_-NONE-_-NONE- (2026-05-28) parent: LOCKHEED MARTIN CORP (UEI ZFN2JJXBLZT3)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "GESMUL9PADB9",
+        "cage": null,
+        "recipientId": "aec6af69-06ac-9ea8-5eab-b8c163d576bb-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/aec6af69-06ac-9ea8-5eab-b8c163d576bb-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/aec6af69-06ac-9ea8-5eab-b8c163d576bb-C/",
+        "responseSha256": "1bb67d5118fed3b805223a5268a1f51ea7c3a4b9c4861a3ddf42f22e1f367504",
+        "name": "LOCKHEED MARTIN CORPORATION",
+        "parentName": "LOCKHEED MARTIN CORPORATION",
+        "parentUei": "JSQTW5L2SSM1",
+        "otherReportedParents": [
+          "LOCKHEED MARTIN CORP / ZFN2JJXBLZT3"
+        ],
+        "location": "RIVIERA BEACH, FL, USA",
+        "contractAmount": 3871231,
+        "earliestTransaction": {
+          "date": "2007-12-21",
+          "award": "CONT_AWD_0004_9700_N6133106D0007_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-01-26",
+          "award": "CONT_AWD_H9222216C0096_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_H9222216C0096_9700_-NONE-_-NONE-",
+          "parentName": "LOCKHEED MARTIN CORP",
+          "parentUei": "ZFN2JJXBLZT3",
+          "recipientUei": "GESMUL9PADB9",
+          "responseSha256": "41bdfe37a4990dab42bf65a965062ba926e230159dff7511c2f4a544c1e9f42f"
+        },
+        "warnings": [
+          "profile parent UEI JSQTW5L2SSM1 (LOCKHEED MARTIN CORPORATION) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:GESMUL9PADB9",
+        "kind": "uei",
+        "value": "GESMUL9PADB9",
+        "entityId": "sec:0000936468",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-12-21",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/aec6af69-06ac-9ea8-5eab-b8c163d576bb-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/aec6af69-06ac-9ea8-5eab-b8c163d576bb-C/",
+        "supportingPassage": "LOCKHEED MARTIN CORPORATION | UEI GESMUL9PADB9 | RIVIERA BEACH, FL, USA | Latest award CONT_AWD_H9222216C0096_9700_-NONE-_-NONE- (2026-01-26) parent: LOCKHEED MARTIN CORP (UEI ZFN2JJXBLZT3)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "PEJFHJDNAB21",
+        "cage": null,
+        "recipientId": "c4f80a7a-5a36-7ec9-e43f-e75abad5eaa7-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/c4f80a7a-5a36-7ec9-e43f-e75abad5eaa7-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/c4f80a7a-5a36-7ec9-e43f-e75abad5eaa7-C/",
+        "responseSha256": "912ff41f9dc5ed5878e5b5d7938723fc65a3e959181343690626cb397b5677b5",
+        "name": "LOCKHEED MARTIN CORPORATION",
+        "parentName": "LOCKHEED MARTIN CORP",
+        "parentUei": "ZFN2JJXBLZT3",
+        "otherReportedParents": [],
+        "location": "KING OF PRUSSIA, PA, USA",
+        "contractAmount": 1230000,
+        "earliestTransaction": {
+          "date": "2007-10-01",
+          "award": "CONT_AWD_FA880704C0001_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-05-05",
+          "award": "CONT_AWD_FA872622F0136_9700_FA872618D0007_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_FA872622F0136_9700_FA872618D0007_9700",
+          "parentName": "LOCKHEED MARTIN CORP",
+          "parentUei": "ZFN2JJXBLZT3",
+          "recipientUei": "PEJFHJDNAB21",
+          "responseSha256": "9b64519d85c23ee3486f6ca03b262ce4ad40077fc5ed310bf09f37b5eef60614"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:PEJFHJDNAB21",
+        "kind": "uei",
+        "value": "PEJFHJDNAB21",
+        "entityId": "sec:0000936468",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-01",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/c4f80a7a-5a36-7ec9-e43f-e75abad5eaa7-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/c4f80a7a-5a36-7ec9-e43f-e75abad5eaa7-C/",
+        "supportingPassage": "LOCKHEED MARTIN CORPORATION | UEI PEJFHJDNAB21 | KING OF PRUSSIA, PA, USA | Latest award CONT_AWD_FA872622F0136_9700_FA872618D0007_9700 (2026-05-05) parent: LOCKHEED MARTIN CORP (UEI ZFN2JJXBLZT3)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "NARDZKFS4NJ7",
+        "cage": null,
+        "recipientId": "a339c4d8-3d43-014a-6d5d-6cc83df5dd98-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/a339c4d8-3d43-014a-6d5d-6cc83df5dd98-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/a339c4d8-3d43-014a-6d5d-6cc83df5dd98-C/",
+        "responseSha256": "4be0438dbd3695c5d5fc2b2ea8077f9536a077e3e98a3e6708f39b3daa35cb3f",
+        "name": "LOCKHEED MARTIN CORPORATION",
+        "parentName": "LOCKHEED MARTIN CORP",
+        "parentUei": "ZFN2JJXBLZT3",
+        "otherReportedParents": [],
+        "location": "ORLANDO, FL, USA",
+        "contractAmount": 46412.32,
+        "earliestTransaction": {
+          "date": "2011-07-21",
+          "award": "CONT_AWD_FA855311M0004_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-07-09",
+          "award": "CONT_AWD_W58RGZ13C0043_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_W58RGZ13C0043_9700_-NONE-_-NONE-",
+          "parentName": "LOCKHEED MARTIN CORP",
+          "parentUei": "ZFN2JJXBLZT3",
+          "recipientUei": "NARDZKFS4NJ7",
+          "responseSha256": "8520d38489b5e22835ee4e96448566318fe419c899fae0a7b57fb06b26e4b9ba"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:NARDZKFS4NJ7",
+        "kind": "uei",
+        "value": "NARDZKFS4NJ7",
+        "entityId": "sec:0000936468",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2011-07-21",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/a339c4d8-3d43-014a-6d5d-6cc83df5dd98-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/a339c4d8-3d43-014a-6d5d-6cc83df5dd98-C/",
+        "supportingPassage": "LOCKHEED MARTIN CORPORATION | UEI NARDZKFS4NJ7 | ORLANDO, FL, USA | Latest award CONT_AWD_W58RGZ13C0043_9700_-NONE-_-NONE- (2026-07-09) parent: LOCKHEED MARTIN CORP (UEI ZFN2JJXBLZT3)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "HLKNNPYN5CQ4",
+        "cage": null,
+        "recipientId": "1c900490-88f7-8dd4-6ef3-af0672962d06-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/1c900490-88f7-8dd4-6ef3-af0672962d06-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/1c900490-88f7-8dd4-6ef3-af0672962d06-C/",
+        "responseSha256": "c1609af041d0d62597a8840aa70bcb6c593def871c74d27d38e79a32af4ca480",
+        "name": "LOCKHEED MARTIN CORPORATION",
+        "parentName": "LOCKHEED MARTIN CORP",
+        "parentUei": "ZFN2JJXBLZT3",
+        "otherReportedParents": [],
+        "location": "AKRON, OH, USA",
+        "contractAmount": 24000,
+        "earliestTransaction": {
+          "date": "2007-10-18",
+          "award": "CONT_AWD_N0017807C1009_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-06-02",
+          "award": "CONT_AWD_70B02C20P00000136_7014_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_70B02C20P00000136_7014_-NONE-_-NONE-",
+          "parentName": "LOCKHEED MARTIN CORP",
+          "parentUei": "ZFN2JJXBLZT3",
+          "recipientUei": "HLKNNPYN5CQ4",
+          "responseSha256": "427492f53bd4f5835ff9a1425a8726fc391bf4b2d16768f3e947bdb9a08f06ac"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:HLKNNPYN5CQ4",
+        "kind": "uei",
+        "value": "HLKNNPYN5CQ4",
+        "entityId": "sec:0000936468",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-18",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/1c900490-88f7-8dd4-6ef3-af0672962d06-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/1c900490-88f7-8dd4-6ef3-af0672962d06-C/",
+        "supportingPassage": "LOCKHEED MARTIN CORPORATION | UEI HLKNNPYN5CQ4 | AKRON, OH, USA | Latest award CONT_AWD_70B02C20P00000136_7014_-NONE-_-NONE- (2026-06-02) parent: LOCKHEED MARTIN CORP (UEI ZFN2JJXBLZT3)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "JW9XB2Q9AJF1",
+        "cage": null,
+        "recipientId": "0f9f28a7-4774-84ee-c43f-e7ec3bda881a-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/0f9f28a7-4774-84ee-c43f-e7ec3bda881a-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/0f9f28a7-4774-84ee-c43f-e7ec3bda881a-C/",
+        "responseSha256": "ad9516e6932cc228179d7c76820695bb529e150677626020be83e47eb6b38860",
+        "name": "LOCKHEED MARTIN CORPORATION",
+        "parentName": "LOCKHEED MARTIN CORPORATION",
+        "parentUei": "JW9XB2Q9AJF1",
+        "otherReportedParents": [
+          "LOCKHEED MARTIN CORP / ZFN2JJXBLZT3"
+        ],
+        "location": "SANTA MARIA, CA, USA",
+        "contractAmount": 0,
+        "earliestTransaction": {
+          "date": "2014-09-03",
+          "award": "CONT_AWD_F0470195C0029_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-02-25",
+          "award": "CONT_AWD_FA881817F0013_9700_FA881817D0001_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_FA881817F0013_9700_FA881817D0001_9700",
+          "parentName": "LOCKHEED MARTIN CORP",
+          "parentUei": "ZFN2JJXBLZT3",
+          "recipientUei": "JW9XB2Q9AJF1",
+          "responseSha256": "3b01043de37f2fe36cf49519f9f08a6ffbcfef6a65f66b00efea19e8117c1ad4"
+        },
+        "warnings": [
+          "profile parent UEI JW9XB2Q9AJF1 (LOCKHEED MARTIN CORPORATION) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:JW9XB2Q9AJF1",
+        "kind": "uei",
+        "value": "JW9XB2Q9AJF1",
+        "entityId": "sec:0000936468",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2014-09-03",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/0f9f28a7-4774-84ee-c43f-e7ec3bda881a-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/0f9f28a7-4774-84ee-c43f-e7ec3bda881a-C/",
+        "supportingPassage": "LOCKHEED MARTIN CORPORATION | UEI JW9XB2Q9AJF1 | SANTA MARIA, CA, USA | Latest award CONT_AWD_FA881817F0013_9700_FA881817D0001_9700 (2026-02-25) parent: LOCKHEED MARTIN CORP (UEI ZFN2JJXBLZT3)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "WUVWJLHRU5A5",
+        "cage": null,
+        "recipientId": "873a932e-3f41-6fbc-1f80-427d18b96795-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/873a932e-3f41-6fbc-1f80-427d18b96795-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/873a932e-3f41-6fbc-1f80-427d18b96795-C/",
+        "responseSha256": "922bb5ee6db1659095b0b98e28a738a5a08f1894e794c223b836d4f327941e7d",
+        "name": "LOCKHEED MARTIN CORPORATION",
+        "parentName": "LOCKHEED MARTIN CORPORATION",
+        "parentUei": "WUVWJLHRU5A5",
+        "otherReportedParents": [
+          "LOCKHEED MARTIN CORP / ZFN2JJXBLZT3"
+        ],
+        "location": "SEVERN, MD, USA",
+        "contractAmount": 0,
+        "earliestTransaction": {
+          "date": "2025-09-19",
+          "award": "CONT_AWD_70CMSD25P00000125_7012_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-08-27",
+          "award": "CONT_AWD_70CMSD25P00000125_7012_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_70CMSD25P00000125_7012_-NONE-_-NONE-",
+          "parentName": "LOCKHEED MARTIN CORP",
+          "parentUei": "ZFN2JJXBLZT3",
+          "recipientUei": "WUVWJLHRU5A5",
+          "responseSha256": "7076a476b0364cc8cab094455746bcfcfd9d5becce083f7822ba59d8e7ddce6f"
+        },
+        "warnings": [
+          "profile parent UEI WUVWJLHRU5A5 (LOCKHEED MARTIN CORPORATION) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:WUVWJLHRU5A5",
+        "kind": "uei",
+        "value": "WUVWJLHRU5A5",
+        "entityId": "sec:0000936468",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2025-09-19",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/873a932e-3f41-6fbc-1f80-427d18b96795-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/873a932e-3f41-6fbc-1f80-427d18b96795-C/",
+        "supportingPassage": "LOCKHEED MARTIN CORPORATION | UEI WUVWJLHRU5A5 | SEVERN, MD, USA | Latest award CONT_AWD_70CMSD25P00000125_7012_-NONE-_-NONE- (2026-08-27) parent: LOCKHEED MARTIN CORP (UEI ZFN2JJXBLZT3)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "KY8HWEZ7A5S6",
+        "cage": null,
+        "recipientId": "612556e1-f620-6f86-d8db-0dd2d6e37038-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/612556e1-f620-6f86-d8db-0dd2d6e37038-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/612556e1-f620-6f86-d8db-0dd2d6e37038-C/",
+        "responseSha256": "c8721ddbf977ed851d424b5c23a27db85773944f8bea5531afdd0350c0cd7c5e",
+        "name": "LOCKHEED MARTIN CORPORATION",
+        "parentName": "LOCKHEED MARTIN CORP",
+        "parentUei": "ZFN2JJXBLZT3",
+        "otherReportedParents": [],
+        "location": "AKRON, OH, USA",
+        "contractAmount": -0.47,
+        "earliestTransaction": {
+          "date": "2011-08-01",
+          "award": "CONT_AWD_FA862111C6250_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-03-30",
+          "award": "CONT_AWD_FA862113C6256_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_FA862113C6256_9700_-NONE-_-NONE-",
+          "parentName": "LOCKHEED MARTIN CORP",
+          "parentUei": "ZFN2JJXBLZT3",
+          "recipientUei": "KY8HWEZ7A5S6",
+          "responseSha256": "9531353155baad6944873dac06a9ae719b46343c953d86bba78ffeb6922c6cea"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:KY8HWEZ7A5S6",
+        "kind": "uei",
+        "value": "KY8HWEZ7A5S6",
+        "entityId": "sec:0000936468",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2011-08-01",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/612556e1-f620-6f86-d8db-0dd2d6e37038-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/612556e1-f620-6f86-d8db-0dd2d6e37038-C/",
+        "supportingPassage": "LOCKHEED MARTIN CORPORATION | UEI KY8HWEZ7A5S6 | AKRON, OH, USA | Latest award CONT_AWD_FA862113C6256_9700_-NONE-_-NONE- (2026-03-30) parent: LOCKHEED MARTIN CORP (UEI ZFN2JJXBLZT3)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "L2Y1QCAQHRH5",
+        "cage": null,
+        "recipientId": "fdd413b6-1bf7-ad06-7ddf-4a3fb13aba51-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/fdd413b6-1bf7-ad06-7ddf-4a3fb13aba51-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/fdd413b6-1bf7-ad06-7ddf-4a3fb13aba51-C/",
+        "responseSha256": "e14aa9ff0166dcdb4633bc03bf415e41d1c89eab7ff0f2fedc1392142c8ebb5e",
+        "name": "LOCKHEED MARTIN CORPORATION",
+        "parentName": "LOCKHEED MARTIN CORP",
+        "parentUei": "ZFN2JJXBLZT3",
+        "otherReportedParents": [],
+        "location": "BALTIMORE, MD, USA",
+        "contractAmount": -35931.03,
+        "earliestTransaction": {
+          "date": "2009-02-27",
+          "award": "CONT_AWD_SPM4A509M4826_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-07-07",
+          "award": "CONT_AWD_SPE4A521F210T_9700_SPE4A118G0017_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_SPE4A521F210T_9700_SPE4A118G0017_9700",
+          "parentName": "LOCKHEED MARTIN CORP",
+          "parentUei": "ZFN2JJXBLZT3",
+          "recipientUei": "L2Y1QCAQHRH5",
+          "responseSha256": "6c40e63144dee1e95360916c2c22f304a937cdef0a8f193ca7d6d0c1d331f331"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:L2Y1QCAQHRH5",
+        "kind": "uei",
+        "value": "L2Y1QCAQHRH5",
+        "entityId": "sec:0000936468",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2009-02-27",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/fdd413b6-1bf7-ad06-7ddf-4a3fb13aba51-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/fdd413b6-1bf7-ad06-7ddf-4a3fb13aba51-C/",
+        "supportingPassage": "LOCKHEED MARTIN CORPORATION | UEI L2Y1QCAQHRH5 | BALTIMORE, MD, USA | Latest award CONT_AWD_SPE4A521F210T_9700_SPE4A118G0017_9700 (2026-07-07) parent: LOCKHEED MARTIN CORP (UEI ZFN2JJXBLZT3)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "CH5WNENNFHX5",
+        "cage": null,
+        "recipientId": "049e4db2-32d6-ddb7-4f33-94e833a1fbd9-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/049e4db2-32d6-ddb7-4f33-94e833a1fbd9-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/049e4db2-32d6-ddb7-4f33-94e833a1fbd9-C/",
+        "responseSha256": "f48e118193c5c3aa22d78ab4e8ab72e37079782322b798eaaf39833637fbb188",
+        "name": "LOCKHEED MARTIN CORPORATION",
+        "parentName": "LOCKHEED MARTIN CORP",
+        "parentUei": "ZFN2JJXBLZT3",
+        "otherReportedParents": [],
+        "location": "GOODYEAR, AZ, USA",
+        "contractAmount": -110572.79,
+        "earliestTransaction": {
+          "date": "2007-10-29",
+          "award": "CONT_AWD_W15P7T07CP038_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-06-02",
+          "award": "CONT_AWD_FA862014C4022_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_FA862014C4022_9700_-NONE-_-NONE-",
+          "parentName": "LOCKHEED MARTIN CORP",
+          "parentUei": "ZFN2JJXBLZT3",
+          "recipientUei": "CH5WNENNFHX5",
+          "responseSha256": "bda0f69d27428be5d44cb5ef60daaa417eea1dbd16cacb3d6f51eadddae574f8"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:CH5WNENNFHX5",
+        "kind": "uei",
+        "value": "CH5WNENNFHX5",
+        "entityId": "sec:0000936468",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-29",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/049e4db2-32d6-ddb7-4f33-94e833a1fbd9-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/049e4db2-32d6-ddb7-4f33-94e833a1fbd9-C/",
+        "supportingPassage": "LOCKHEED MARTIN CORPORATION | UEI CH5WNENNFHX5 | GOODYEAR, AZ, USA | Latest award CONT_AWD_FA862014C4022_9700_-NONE-_-NONE- (2026-06-02) parent: LOCKHEED MARTIN CORP (UEI ZFN2JJXBLZT3)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "QLY9AA8Y3DC1",
+        "cage": null,
+        "recipientId": "6412e9d1-8c86-ae35-e4ec-5897db3f4cc9-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/6412e9d1-8c86-ae35-e4ec-5897db3f4cc9-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/6412e9d1-8c86-ae35-e4ec-5897db3f4cc9-C/",
+        "responseSha256": "f4c53349fc3434c7d578a1a6472fba28a8339fdde6a72577944ec44eb6da9c13",
+        "name": "LOCKHEED MARTIN CORPORATION",
+        "parentName": "LOCKHEED MARTIN CORP",
+        "parentUei": "ZFN2JJXBLZT3",
+        "otherReportedParents": [],
+        "location": "GAITHERSBURG, MD, USA",
+        "contractAmount": -192174.91,
+        "earliestTransaction": {
+          "date": "2013-05-06",
+          "award": "CONT_AWD_DJF131200P0000527_1549_DJFJFBI08041_1549"
+        },
+        "latestTransaction": {
+          "date": "2026-06-24",
+          "award": "CONT_AWD_HHSP233201400011C_7555_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_HHSP233201400011C_7555_-NONE-_-NONE-",
+          "parentName": "LOCKHEED MARTIN CORP",
+          "parentUei": "ZFN2JJXBLZT3",
+          "recipientUei": "QLY9AA8Y3DC1",
+          "responseSha256": "795264ea4215738c93d0eb5486133408d0a5bfa66b8f1579ba6dc4e493e60f3c"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:QLY9AA8Y3DC1",
+        "kind": "uei",
+        "value": "QLY9AA8Y3DC1",
+        "entityId": "sec:0000936468",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2013-05-06",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/6412e9d1-8c86-ae35-e4ec-5897db3f4cc9-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/6412e9d1-8c86-ae35-e4ec-5897db3f4cc9-C/",
+        "supportingPassage": "LOCKHEED MARTIN CORPORATION | UEI QLY9AA8Y3DC1 | GAITHERSBURG, MD, USA | Latest award CONT_AWD_HHSP233201400011C_7555_-NONE-_-NONE- (2026-06-24) parent: LOCKHEED MARTIN CORP (UEI ZFN2JJXBLZT3)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "uei": "MJENSFHZJP11",
+      "cage": null,
+      "recipientId": "49ba01f3-56b6-92fd-1814-1a521f21fe7e-C",
+      "profileUrl": "https://www.usaspending.gov/recipient/49ba01f3-56b6-92fd-1814-1a521f21fe7e-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/49ba01f3-56b6-92fd-1814-1a521f21fe7e-C/",
+      "responseSha256": "7e2372f89c2d956dcc79ab0eed1427d9ecb98f12e712cf5211a418b2ed988eb2",
+      "name": "LOCKHEED MARTIN CORPORATION",
+      "parentName": "LOCKHEED MARTIN CORPORATION",
+      "parentUei": "MJENSFHZJP11",
+      "otherReportedParents": [
+        "LOCKHEED MARTIN CORPORATION / JSQTW5L2SSM1",
+        "LOCKHEED MARTIN CORP / ZFN2JJXBLZT3"
+      ],
+      "location": "MIDDLE RIVER, MD, USA",
+      "contractAmount": 256313523.59,
+      "earliestTransaction": {
+        "date": "2007-10-01",
+        "award": "CONT_AWD_1165_9700_N0010401DZD52_9700"
+      },
+      "latestTransaction": {
+        "date": "2026-07-15",
+        "award": "CONT_AWD_N0002418C4208_9700_-NONE-_-NONE-"
+      },
+      "latestAwardParent": {
+        "id": "CONT_AWD_N0002418C4208_9700_-NONE-_-NONE-",
+        "parentName": "LOCKHEED MARTIN CORPORATION",
+        "parentUei": "MJENSFHZJP11",
+        "recipientUei": "MJENSFHZJP11",
+        "responseSha256": "6330e262573d5bc58b17b8b76f47cd9a6313c6fa9dcf1df5604a23a1ff6c5268"
+      },
+      "warnings": [
+        "profile parent UEI MJENSFHZJP11 (LOCKHEED MARTIN CORPORATION) differs from expected; not relied on"
+      ],
+      "reasons": [
+        "latest award parent UEI MJENSFHZJP11 (LOCKHEED MARTIN CORPORATION) differs from expected"
+      ]
+    }
+  ],
+  "limitations": [
+    "USAspending reflects SAM data as reported; it is not SAM.gov itself",
+    "Recipient search is keyword-based and capped at 500 records",
+    "Profile parent fields can be stale; corroboration uses the parent on the latest award record",
+    "Name and parent agreement do not prove the SEC-listed legal entity; review state of incorporation separately where available"
+  ]
+}

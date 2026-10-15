@@ -1,0 +1,109 @@
+{
+  "generatedAt": "2026-10-15T18:26:31.996Z",
+  "query": {
+    "name": "Sikorsky Aircraft Corporation",
+    "parentUei": "ZFN2JJXBLZT3",
+    "entityId": "legal:sikorsky-aircraft-corporation",
+    "formerNames": []
+  },
+  "searched": 3,
+  "candidates": [
+    {
+      "evidence": {
+        "uei": "UTJWTSLMFNG4",
+        "cage": null,
+        "recipientId": "d64537c9-5482-dd40-cdd4-5cf07b66329d-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/d64537c9-5482-dd40-cdd4-5cf07b66329d-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/d64537c9-5482-dd40-cdd4-5cf07b66329d-C/",
+        "responseSha256": "ac80a0c2e6c8d035b3f70e89c179232c396128ba4ad609911e2da5fb5a10b49d",
+        "name": "SIKORSKY AIRCRAFT CORPORATION",
+        "parentName": "RTX CORP",
+        "parentUei": "PPLZG8J3N9D4",
+        "otherReportedParents": [
+          "LOCKHEED MARTIN CORPORATION / JSQTW5L2SSM1",
+          "LOCKHEED MARTIN CORP / ZFN2JJXBLZT3"
+        ],
+        "location": "STRATFORD, CT, USA",
+        "contractAmount": 2899969533.2,
+        "earliestTransaction": {
+          "date": "2007-10-01",
+          "award": "CONT_AWD_38MP_9700_SPM40005D9413_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-09-25",
+          "award": "CONT_AWD_70Z02321FAMH00100_7008_70Z02321DAMH00400_7008"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_70Z02321FAMH00100_7008_70Z02321DAMH00400_7008",
+          "parentName": "LOCKHEED MARTIN CORP",
+          "parentUei": "ZFN2JJXBLZT3",
+          "recipientUei": "UTJWTSLMFNG4",
+          "responseSha256": "26addd19b1c10a5bf41930c11dd166acabd978ac52a6785b4689866413a11084"
+        },
+        "warnings": [
+          "profile parent UEI PPLZG8J3N9D4 (RTX CORP) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:UTJWTSLMFNG4",
+        "kind": "uei",
+        "value": "UTJWTSLMFNG4",
+        "entityId": "legal:sikorsky-aircraft-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-01",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/d64537c9-5482-dd40-cdd4-5cf07b66329d-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/d64537c9-5482-dd40-cdd4-5cf07b66329d-C/",
+        "supportingPassage": "SIKORSKY AIRCRAFT CORPORATION | UEI UTJWTSLMFNG4 | STRATFORD, CT, USA | Latest award CONT_AWD_70Z02321FAMH00100_7008_70Z02321DAMH00400_7008 (2026-09-25) parent: LOCKHEED MARTIN CORP (UEI ZFN2JJXBLZT3)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "uei": "UT9HCKX9F6Q4",
+      "cage": null,
+      "recipientId": "7a954f30-eada-36b9-2b45-2db412908b7a-C",
+      "profileUrl": "https://www.usaspending.gov/recipient/7a954f30-eada-36b9-2b45-2db412908b7a-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/7a954f30-eada-36b9-2b45-2db412908b7a-C/",
+      "responseSha256": "34cc63ebf729c366739a9f73c933ed49193bf27f28ebcd1d15ccc79c3c502e96",
+      "name": "SIKORSKY AIRCRAFT CORPORATION",
+      "parentName": "RTX CORP",
+      "parentUei": "PPLZG8J3N9D4",
+      "otherReportedParents": [
+        "SIKORSKY AIRCRAFT CORPORATION / UT9HCKX9F6Q4",
+        "LOCKHEED MARTIN CORPORATION / JSQTW5L2SSM1",
+        "LOCKHEED MARTIN CORP / ZFN2JJXBLZT3"
+      ],
+      "location": "MAIN SHELTON, CT, USA",
+      "contractAmount": -105201,
+      "earliestTransaction": {
+        "date": "2008-03-18",
+        "award": "CONT_AWD_HSCG3807P700119_7008_-NONE-_-NONE-"
+      },
+      "latestTransaction": {
+        "date": "2026-06-24",
+        "award": "CONT_AWD_W58RGZ20F0614_9700_W58RGZ17D0093_9700"
+      },
+      "latestAwardParent": {
+        "id": "CONT_AWD_W58RGZ20F0614_9700_W58RGZ17D0093_9700",
+        "parentName": "SIKORSKY AIRCRAFT CORPORATION",
+        "parentUei": "UT9HCKX9F6Q4",
+        "recipientUei": "UT9HCKX9F6Q4",
+        "responseSha256": "771be8f000dd6d3d567cf67cf5c5fdba34bce1fd67186adc4614c5343fe87e73"
+      },
+      "warnings": [
+        "profile parent UEI PPLZG8J3N9D4 (RTX CORP) differs from expected; not relied on"
+      ],
+      "reasons": [
+        "latest award parent UEI UT9HCKX9F6Q4 (SIKORSKY AIRCRAFT CORPORATION) differs from expected"
+      ]
+    }
+  ],
+  "limitations": [
+    "USAspending reflects SAM data as reported; it is not SAM.gov itself",
+    "Recipient search is keyword-based and capped at 500 records",
+    "Profile parent fields can be stale; corroboration uses the parent on the latest award record",
+    "Name and parent agreement do not prove the SEC-listed legal entity; review state of incorporation separately where available"
+  ]
+}

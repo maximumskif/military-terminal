@@ -13,6 +13,16 @@ Each binding records `id`, `kind` (`uei` or `cage`), `value`, `entityId`, `revie
 | Goodrich Corporation (Collins Aerospace) | RTX Corporation | 7 | reviews/recipients/goodrich-corporation.json | 2012-07-26 – 2025-12-31 |
 | Hamilton Sundstrand Corporation (Collins Aerospace) | RTX Corporation | 3 | reviews/recipients/hamilton-sundstrand-corporation.json | 2007-10-01 – 2025-12-31 (relationship from 1999-06-10) |
 | RTX Corporation itself (Pratt & Whitney division, East Hartford) | — (registrant) | 2 | reviews/recipients/rtx-corporation.json | 2007-10-01 – 2026-10-15 |
+| Lockheed Martin Corporation itself (Aeronautics, MFC, RMS, Space sites) | — (registrant) | 41 | reviews/recipients/lockheed-martin-corporation.json, lockheed-martin-corp.json | 2007-10-01 – 2026-10-15 |
+| Sikorsky Aircraft Corporation | Lockheed Martin Corporation | 1 | reviews/recipients/sikorsky-aircraft-corporation.json | 2015-11-06 – 2025-12-31 |
+
+Counts in this table predate the latest-award re-verification below; `entity-ledger.json` is authoritative.
+
+### Parent corroboration (revised 2026-10-15)
+
+USAspending recipient-profile parent fields can be stale: Sikorsky's profile still reports RTX CORP as its parent a decade after Lockheed acquired it, while its latest award record reports Lockheed Martin (ZFN2JJXBLZT3). The candidate tool therefore requires the parent on each UEI's latest award record to match, records profile-parent disagreement as a warning, and the promotion tool retires existing bindings that a newer review excludes (kept in `retiredBindings` with reasons). Re-verifying the RTX family under this rule recovered seven UEIs (including Rockwell Collins J4Q3HP6NHK47, Goodrich JZNWHLVKADJ9, Hamilton Sundstrand NFZTKCLHXAB7, Raytheon GMBYU6KAN9J3 and Pratt & Whitney Jupiter NHXNJALUN738) and retired two (Raytheon K1H5GGQPBLV5 and Goodrich QPHKSN6NVFB8) whose latest award names an implausible parent, ROCKWELL COLLINS AUSTRALIA PTY LIMITED (EGAVSJTA2D81), apparently a USAspending data error.
+
+Lockheed: Exhibit 21 is a subsidiaries-only listing. Revenue uses the consolidated "Sales" line (FY2020–2025). Excluded: Archbald, PA (MAENKG4UJLK8) because its profile parent is Sikorsky Support Services, Inc., suggesting a different legal entity; MJENSFHZJP11 and a second Sikorsky record (UT9HCKX9F6Q4) whose latest awards are self-parented. Sikorsky's pre-2015 UTC ownership is not modeled.
 
 Collins Aerospace and Pratt & Whitney are segment/brand names. Collins contracts are bound to its Exhibit 21 legal entities; ownership dates come from the 2018 (Rockwell Collins), 2012 (Goodrich) and 1999 (Hamilton Sundstrand) Form 10-K acquisition passages, continued by the 2025 Exhibit 21 listing. Pratt & Whitney's U.S. engine contracts are awarded to UEI QN1BCFY7JDJ5, legal name RTX CORPORATION (alternate names include "UNITED TECHNOLOGIES CORPORATION PRATT AND WHITNEY DIVISION"). Bindings to an entity with a CIK resolve to that registrant directly (`identifier_verified_public_registrant`) without a relationship, so they cover current dates. Former names (United Technologies Corp until 2020-04-06; Raytheon Technologies Corp until 2023-06-29, from SEC formerNames) were accepted on transactions via `--former`; resolutions report the current registrant name.
 
