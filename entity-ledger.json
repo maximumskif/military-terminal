@@ -645,6 +645,506 @@
       "uei": null,
       "cage": null,
       "stateOfIncorporation": "Delaware"
+    },
+    {
+      "id": "sec:0001336920",
+      "legalName": "Leidos Holdings, Inc.",
+      "cik": "0001336920",
+      "uei": null,
+      "cage": null,
+      "publicListing": {
+        "ticker": "LDOS",
+        "exchange": "NYSE",
+        "evidenceAsOf": "2026-01-02",
+        "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1336920/000133692026000030/ldos-20260102.htm",
+        "sourceSection": "Cover page, registered securities table",
+        "supportingPassage": "Common stock, par value $.0001 per share LDOS New York Stock Exchange"
+      },
+      "formerNames": [
+        {
+          "name": "SAIC, Inc.",
+          "from": "2005-09-01",
+          "to": "2013-09-27"
+        }
+      ],
+      "formerNamesSource": "https://data.sec.gov/submissions/CIK0001336920.json (formerNames), reviewed 2026-10-15",
+      "revenueEvidence": [
+        {
+          "fiscalYearEnd": "2026-01-02",
+          "value": 17174000000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1336920/000133692026000030/ldos-20260102.htm",
+          "sourceSection": "Consolidated statements of income (in millions)",
+          "supportingPassage": "Year Ended January 2, 2026 January 3, 2025 December 29, 2023 Revenues $ 17,174 $ 16,662 $ 15,438",
+          "xbrlCrossCheck": "Matches us-gaap annual revenue fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-15"
+        },
+        {
+          "fiscalYearEnd": "2025-01-03",
+          "value": 16662000000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1336920/000133692026000030/ldos-20260102.htm",
+          "sourceSection": "Consolidated statements of income (in millions)",
+          "supportingPassage": "Year Ended January 2, 2026 January 3, 2025 December 29, 2023 Revenues $ 17,174 $ 16,662 $ 15,438",
+          "xbrlCrossCheck": "Matches us-gaap annual revenue fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-15"
+        },
+        {
+          "fiscalYearEnd": "2023-12-29",
+          "value": 15438000000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1336920/000133692026000030/ldos-20260102.htm",
+          "sourceSection": "Consolidated statements of income (in millions)",
+          "supportingPassage": "Year Ended January 2, 2026 January 3, 2025 December 29, 2023 Revenues $ 17,174 $ 16,662 $ 15,438",
+          "xbrlCrossCheck": "Matches us-gaap annual revenue fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-15"
+        },
+        {
+          "fiscalYearEnd": "2022-12-30",
+          "value": 14396000000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1336920/000133692023000015/ldos-20221230.htm",
+          "sourceSection": "Consolidated statements of income (in millions)",
+          "supportingPassage": "Year Ended December 30, 2022 December 31, 2021 January 1, 2021 Revenues $ 14,396 $ 13,737 $ 12,297",
+          "xbrlCrossCheck": "Matches us-gaap annual revenue fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-15"
+        },
+        {
+          "fiscalYearEnd": "2021-12-31",
+          "value": 13737000000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1336920/000133692023000015/ldos-20221230.htm",
+          "sourceSection": "Consolidated statements of income (in millions)",
+          "supportingPassage": "Year Ended December 30, 2022 December 31, 2021 January 1, 2021 Revenues $ 14,396 $ 13,737 $ 12,297",
+          "xbrlCrossCheck": "Matches us-gaap annual revenue fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-15"
+        },
+        {
+          "fiscalYearEnd": "2021-01-01",
+          "value": 12297000000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1336920/000133692023000015/ldos-20221230.htm",
+          "sourceSection": "Consolidated statements of income (in millions)",
+          "supportingPassage": "Year Ended December 30, 2022 December 31, 2021 January 1, 2021 Revenues $ 14,396 $ 13,737 $ 12,297",
+          "xbrlCrossCheck": "Matches us-gaap annual revenue fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "id": "legal:leidos-inc",
+      "legalName": "Leidos, Inc.",
+      "cik": null,
+      "uei": null,
+      "cage": null,
+      "stateOfIncorporation": "Delaware"
+    },
+    {
+      "id": "sec:0001571123",
+      "legalName": "Science Applications International Corporation",
+      "cik": "0001571123",
+      "uei": null,
+      "cage": null,
+      "publicListing": {
+        "ticker": "SAIC",
+        "exchange": "Nasdaq",
+        "evidenceAsOf": "2026-01-30",
+        "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1571123/000157112326000029/saic-20260130.htm",
+        "sourceSection": "Cover page, registered securities table",
+        "supportingPassage": "Common Stock, Par Value $.0001 Per Share SAIC The Nasdaq Stock Market LLC"
+      },
+      "formerNames": [
+        {
+          "name": "SAIC Gemini, Inc.",
+          "from": "2013-03-07",
+          "to": "2013-09-27"
+        }
+      ],
+      "formerNamesSource": "https://data.sec.gov/submissions/CIK0001571123.json (formerNames), reviewed 2026-10-15",
+      "revenueEvidence": [
+        {
+          "fiscalYearEnd": "2026-01-30",
+          "value": 7262000000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1571123/000157112326000029/saic-20260130.htm",
+          "sourceSection": "Results of operations (in millions)",
+          "supportingPassage": "Year Ended January 30, 2026 January 31, 2025 February 2, 2024 Revenues $ 7,262 $ 7,479 $ 7,444",
+          "xbrlCrossCheck": "Matches us-gaap annual revenue fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-15"
+        },
+        {
+          "fiscalYearEnd": "2025-01-31",
+          "value": 7479000000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1571123/000157112326000029/saic-20260130.htm",
+          "sourceSection": "Results of operations (in millions)",
+          "supportingPassage": "Year Ended January 30, 2026 January 31, 2025 February 2, 2024 Revenues $ 7,262 $ 7,479 $ 7,444",
+          "xbrlCrossCheck": "Matches us-gaap annual revenue fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-15"
+        },
+        {
+          "fiscalYearEnd": "2024-02-02",
+          "value": 7444000000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1571123/000157112326000029/saic-20260130.htm",
+          "sourceSection": "Results of operations (in millions)",
+          "supportingPassage": "Year Ended January 30, 2026 January 31, 2025 February 2, 2024 Revenues $ 7,262 $ 7,479 $ 7,444",
+          "xbrlCrossCheck": "Matches us-gaap annual revenue fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-15"
+        },
+        {
+          "fiscalYearEnd": "2023-02-03",
+          "value": 7704000000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1571123/000157112323000031/saic-20230203.htm",
+          "sourceSection": "Results of operations (in millions)",
+          "supportingPassage": "Year Ended February 3, 2023 January 28, 2022 January 29, 2021 Revenues $ 7,704 $ 7,394 $ 7,056",
+          "xbrlCrossCheck": "Matches us-gaap annual revenue fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-15"
+        },
+        {
+          "fiscalYearEnd": "2022-01-28",
+          "value": 7394000000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1571123/000157112323000031/saic-20230203.htm",
+          "sourceSection": "Results of operations (in millions)",
+          "supportingPassage": "Year Ended February 3, 2023 January 28, 2022 January 29, 2021 Revenues $ 7,704 $ 7,394 $ 7,056",
+          "xbrlCrossCheck": "Matches us-gaap annual revenue fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-15"
+        },
+        {
+          "fiscalYearEnd": "2021-01-29",
+          "value": 7056000000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1571123/000157112323000031/saic-20230203.htm",
+          "sourceSection": "Results of operations (in millions)",
+          "supportingPassage": "Year Ended February 3, 2023 January 28, 2022 January 29, 2021 Revenues $ 7,704 $ 7,394 $ 7,056",
+          "xbrlCrossCheck": "Matches us-gaap annual revenue fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "id": "sec:0001443646",
+      "legalName": "Booz Allen Hamilton Holding Corporation",
+      "cik": "0001443646",
+      "uei": null,
+      "cage": null,
+      "publicListing": {
+        "ticker": "BAH",
+        "exchange": "NYSE",
+        "evidenceAsOf": "2026-03-31",
+        "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1443646/000162828026037521/bah-20260331.htm",
+        "sourceSection": "Cover page, registered securities table",
+        "supportingPassage": "Class A Common Stock BAH New York Stock Exchange"
+      },
+      "formerNames": [
+        {
+          "name": "EXPLORER HOLDING CORP",
+          "from": "2008-08-19",
+          "to": "2009-07-27"
+        }
+      ],
+      "formerNamesSource": "https://data.sec.gov/submissions/CIK0001443646.json (formerNames), reviewed 2026-10-15",
+      "revenueEvidence": [
+        {
+          "fiscalYearEnd": "2026-03-31",
+          "value": 11217000000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1443646/000162828026037521/bah-20260331.htm",
+          "sourceSection": "Results of operations",
+          "supportingPassage": "Fiscal Year Ended March 31, 2026 2025 2024 (In millions) Revenue $ 11,217 $ 11,980 $ 10,662",
+          "xbrlCrossCheck": "Matches us-gaap annual revenue fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-15"
+        },
+        {
+          "fiscalYearEnd": "2025-03-31",
+          "value": 11980000000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1443646/000162828026037521/bah-20260331.htm",
+          "sourceSection": "Results of operations",
+          "supportingPassage": "Fiscal Year Ended March 31, 2026 2025 2024 (In millions) Revenue $ 11,217 $ 11,980 $ 10,662",
+          "xbrlCrossCheck": "Matches us-gaap annual revenue fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-15"
+        },
+        {
+          "fiscalYearEnd": "2024-03-31",
+          "value": 10662000000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1443646/000162828026037521/bah-20260331.htm",
+          "sourceSection": "Results of operations",
+          "supportingPassage": "Fiscal Year Ended March 31, 2026 2025 2024 (In millions) Revenue $ 11,217 $ 11,980 $ 10,662",
+          "xbrlCrossCheck": "Matches us-gaap annual revenue fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-15"
+        },
+        {
+          "fiscalYearEnd": "2023-03-31",
+          "value": 9258911000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1443646/000144364623000089/bah-20230331.htm",
+          "sourceSection": "Results of operations",
+          "supportingPassage": "Fiscal Year Ended March 31, 2023 2022 2021 (In thousands) Revenue $ 9,258,911 $ 8,363,700 $ 7,858,938",
+          "xbrlCrossCheck": "Matches us-gaap annual revenue fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-15"
+        },
+        {
+          "fiscalYearEnd": "2022-03-31",
+          "value": 8363700000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1443646/000144364623000089/bah-20230331.htm",
+          "sourceSection": "Results of operations",
+          "supportingPassage": "Fiscal Year Ended March 31, 2023 2022 2021 (In thousands) Revenue $ 9,258,911 $ 8,363,700 $ 7,858,938",
+          "xbrlCrossCheck": "Matches us-gaap annual revenue fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-15"
+        },
+        {
+          "fiscalYearEnd": "2021-03-31",
+          "value": 7858938000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1443646/000144364623000089/bah-20230331.htm",
+          "sourceSection": "Results of operations",
+          "supportingPassage": "Fiscal Year Ended March 31, 2023 2022 2021 (In thousands) Revenue $ 9,258,911 $ 8,363,700 $ 7,858,938",
+          "xbrlCrossCheck": "Matches us-gaap annual revenue fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-15"
+        },
+        {
+          "fiscalYearEnd": "2020-03-31",
+          "value": 7463841000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1443646/000144364620000086/bah-20200331x10k.htm",
+          "sourceSection": "Results of operations",
+          "supportingPassage": "Fiscal Year Ended March 31, 2020 (In thousands) Revenue $ 7,463,841",
+          "xbrlCrossCheck": "Matches us-gaap annual revenue fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "id": "legal:booz-allen-hamilton-inc",
+      "legalName": "Booz Allen Hamilton Inc.",
+      "cik": null,
+      "uei": null,
+      "cage": null,
+      "stateOfIncorporation": "Delaware"
+    },
+    {
+      "id": "sec:0001357615",
+      "legalName": "KBR, Inc.",
+      "cik": "0001357615",
+      "uei": null,
+      "cage": null,
+      "publicListing": {
+        "ticker": "KBR",
+        "exchange": "NYSE",
+        "evidenceAsOf": "2026-01-02",
+        "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1357615/000135761526000051/kbr-20260102.htm",
+        "sourceSection": "Cover page, registered securities table",
+        "supportingPassage": "Common Stock par value $0.001 per share KBR New York Stock Exchange"
+      },
+      "formerNames": [],
+      "formerNamesSource": "https://data.sec.gov/submissions/CIK0001357615.json (formerNames), reviewed 2026-10-15",
+      "revenueEvidence": [
+        {
+          "fiscalYearEnd": "2026-01-02",
+          "value": 7786000000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1357615/000135761526000051/kbr-20260102.htm",
+          "sourceSection": "Consolidated statements of operations (in millions)",
+          "supportingPassage": "Year ended January 2, 2026 January 3, 2025 December 29, 2023 Revenues $ 7,786 $ 7,710 $ 6,956",
+          "xbrlCrossCheck": "Matches us-gaap annual revenue fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-15"
+        },
+        {
+          "fiscalYearEnd": "2025-01-03",
+          "value": 7710000000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1357615/000135761526000051/kbr-20260102.htm",
+          "sourceSection": "Consolidated statements of operations (in millions)",
+          "supportingPassage": "Year ended January 2, 2026 January 3, 2025 December 29, 2023 Revenues $ 7,786 $ 7,710 $ 6,956",
+          "xbrlCrossCheck": "Matches us-gaap annual revenue fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-15"
+        },
+        {
+          "fiscalYearEnd": "2023-12-29",
+          "value": 6956000000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1357615/000135761526000051/kbr-20260102.htm",
+          "sourceSection": "Consolidated statements of operations (in millions)",
+          "supportingPassage": "Year ended January 2, 2026 January 3, 2025 December 29, 2023 Revenues $ 7,786 $ 7,710 $ 6,956",
+          "xbrlCrossCheck": "Matches us-gaap annual revenue fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-15"
+        },
+        {
+          "fiscalYearEnd": "2022-12-31",
+          "value": 6564000000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1357615/000135761523000030/kbr-20221231.htm",
+          "sourceSection": "Consolidated statements of operations (in millions)",
+          "supportingPassage": "Years ended December 31, 2022 2021 2020 Revenues $ 6,564 $ 7,339 $ 5,767",
+          "xbrlCrossCheck": "Matches us-gaap annual revenue fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-15"
+        },
+        {
+          "fiscalYearEnd": "2021-12-31",
+          "value": 7339000000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1357615/000135761523000030/kbr-20221231.htm",
+          "sourceSection": "Consolidated statements of operations (in millions)",
+          "supportingPassage": "Years ended December 31, 2022 2021 2020 Revenues $ 6,564 $ 7,339 $ 5,767",
+          "xbrlCrossCheck": "Matches us-gaap annual revenue fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-15"
+        },
+        {
+          "fiscalYearEnd": "2020-12-31",
+          "value": 5767000000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1357615/000135761523000030/kbr-20221231.htm",
+          "sourceSection": "Consolidated statements of operations (in millions)",
+          "supportingPassage": "Years ended December 31, 2022 2021 2020 Revenues $ 6,564 $ 7,339 $ 5,767",
+          "xbrlCrossCheck": "Matches us-gaap annual revenue fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "id": "legal:kbr-wyle-services-llc",
+      "legalName": "KBR Wyle Services, LLC",
+      "cik": null,
+      "uei": null,
+      "cage": null,
+      "stateOfIncorporation": "United States (state not listed)"
+    },
+    {
+      "id": "legal:kbr-services-llc",
+      "legalName": "KBR Services, LLC",
+      "cik": null,
+      "uei": null,
+      "cage": null,
+      "stateOfIncorporation": "United States (state not listed)"
+    },
+    {
+      "id": "sec:0001501585",
+      "legalName": "Huntington Ingalls Industries, Inc.",
+      "cik": "0001501585",
+      "uei": null,
+      "cage": null,
+      "publicListing": {
+        "ticker": "HII",
+        "exchange": "NYSE",
+        "evidenceAsOf": "2025-12-31",
+        "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1501585/000150158526000006/hii-20251231.htm",
+        "sourceSection": "Cover page, registered securities table",
+        "supportingPassage": "Common Stock HII New York Stock Exchange"
+      },
+      "formerNames": [
+        {
+          "name": "New Ships, Inc.",
+          "from": "2010-10-15",
+          "to": "2010-11-24"
+        }
+      ],
+      "formerNamesSource": "https://data.sec.gov/submissions/CIK0001501585.json (formerNames), reviewed 2026-10-15",
+      "revenueEvidence": [
+        {
+          "fiscalYearEnd": "2025-12-31",
+          "value": 12484000000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1501585/000150158526000006/hii-20251231.htm",
+          "sourceSection": "Consolidated operating results ($ in millions)",
+          "supportingPassage": "($ in millions) 2025 2024 2023 Sales and service revenues $ 12,484 $ 11,535 $ 11,454",
+          "xbrlCrossCheck": "Matches us-gaap annual revenue fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-15"
+        },
+        {
+          "fiscalYearEnd": "2024-12-31",
+          "value": 11535000000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1501585/000150158526000006/hii-20251231.htm",
+          "sourceSection": "Consolidated operating results ($ in millions)",
+          "supportingPassage": "($ in millions) 2025 2024 2023 Sales and service revenues $ 12,484 $ 11,535 $ 11,454",
+          "xbrlCrossCheck": "Matches us-gaap annual revenue fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-15"
+        },
+        {
+          "fiscalYearEnd": "2023-12-31",
+          "value": 11454000000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1501585/000150158526000006/hii-20251231.htm",
+          "sourceSection": "Consolidated operating results ($ in millions)",
+          "supportingPassage": "($ in millions) 2025 2024 2023 Sales and service revenues $ 12,484 $ 11,535 $ 11,454",
+          "xbrlCrossCheck": "Matches us-gaap annual revenue fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-15"
+        },
+        {
+          "fiscalYearEnd": "2022-12-31",
+          "value": 10676000000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1501585/000150158523000010/hii-20221231.htm",
+          "sourceSection": "Consolidated operating results ($ in millions)",
+          "supportingPassage": "($ in millions) 2022 2021 2020 Sales and service revenues $ 10,676 $ 9,524 $ 9,361",
+          "xbrlCrossCheck": "Matches us-gaap annual revenue fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-15"
+        },
+        {
+          "fiscalYearEnd": "2021-12-31",
+          "value": 9524000000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1501585/000150158523000010/hii-20221231.htm",
+          "sourceSection": "Consolidated operating results ($ in millions)",
+          "supportingPassage": "($ in millions) 2022 2021 2020 Sales and service revenues $ 10,676 $ 9,524 $ 9,361",
+          "xbrlCrossCheck": "Matches us-gaap annual revenue fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-15"
+        },
+        {
+          "fiscalYearEnd": "2020-12-31",
+          "value": 9361000000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1501585/000150158523000010/hii-20221231.htm",
+          "sourceSection": "Consolidated operating results ($ in millions)",
+          "supportingPassage": "($ in millions) 2022 2021 2020 Sales and service revenues $ 10,676 $ 9,524 $ 9,361",
+          "xbrlCrossCheck": "Matches us-gaap annual revenue fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "id": "legal:huntington-ingalls-incorporated",
+      "legalName": "Huntington Ingalls Incorporated",
+      "cik": null,
+      "uei": null,
+      "cage": null,
+      "stateOfIncorporation": "Virginia"
     }
   ],
   "relationships": [
@@ -1080,6 +1580,168 @@
       "limitations": [
         "Latest reviewed relationship evidence is dated 2026-01-02",
         "Continuity between reviewed annual subsidiary listings is assumed, not restated"
+      ]
+    },
+    {
+      "id": "relationship:leidos-inc-0001336920",
+      "childId": "legal:leidos-inc",
+      "parentId": "sec:0001336920",
+      "type": "subsidiary",
+      "reviewStatus": "reviewed_primary_filing",
+      "effectiveFrom": "2021-01-01",
+      "effectiveUntil": null,
+      "evidenceAsOf": "2026-01-02",
+      "ownershipPercentage": 100,
+      "observedAt": "2026-10-15",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1336920/000133692021000010/ldos-20210101.htm",
+          "section": "Item 1, Our Company (FY2020 Form 10-K)",
+          "supportingPassage": "Leidos Holdings, Inc. (\"Leidos\"), a Delaware corporation, is a holding company whose direct 100%-owned subsidiary and principal operating company is Leidos, Inc.",
+          "scope": "Ownership at fiscal 2020 year-end"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1336920/000133692026000030/ldos-20260102.htm",
+          "section": "Item 1, Our Company (FY2025 Form 10-K)",
+          "supportingPassage": "Leidos Holdings, Inc. (\"Leidos\"), a Delaware corporation, is a holding company whose direct 100%-owned subsidiary and principal operating company is Leidos, Inc.",
+          "scope": "Ownership at fiscal 2025 year-end (2026-01-02)"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1336920/000133692026000030/ldos1022026ex21.htm",
+          "section": "Exhibit 21",
+          "supportingPassage": "Leidos, Inc. | Delaware",
+          "scope": "Subsidiary listing"
+        }
+      ],
+      "limitations": [
+        "Latest reviewed relationship evidence is dated 2026-01-02",
+        "Effective-from is the earliest reviewed filing, not the formation or acquisition date; continuity between filings is assumed",
+        "Leidos, Inc. was formerly named Science Applications International Corporation (pre-2013-09-27); bindings for the current SAIC registrant are capped at that date"
+      ]
+    },
+    {
+      "id": "relationship:booz-allen-hamilton-inc-0001443646",
+      "childId": "legal:booz-allen-hamilton-inc",
+      "parentId": "sec:0001443646",
+      "type": "subsidiary",
+      "reviewStatus": "reviewed_primary_filing",
+      "effectiveFrom": "2020-03-31",
+      "effectiveUntil": null,
+      "evidenceAsOf": "2026-03-31",
+      "ownershipPercentage": 100,
+      "observedAt": "2026-10-15",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1443646/000144364620000086/bah-20200331xex21.htm",
+          "section": "Exhibit 21, List of Subsidiaries (FY2020)",
+          "supportingPassage": "Booz Allen Hamilton Inc. | Delaware",
+          "scope": "Subsidiary listing at fiscal 2020 year-end; no percentage"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1443646/000162828026037521/bah-20260331.htm",
+          "section": "Notes to financial statements, Debt (FY2026 Form 10-K)",
+          "supportingPassage": "Booz Allen Hamilton Inc., a wholly owned subsidiary of Booz Allen Hamilton Holding Corporation, as borrower",
+          "scope": "Wholly owned status at 2026-03-31"
+        }
+      ],
+      "limitations": [
+        "Latest reviewed relationship evidence is dated 2026-03-31",
+        "Effective-from is the earliest reviewed filing, not the formation or acquisition date; continuity between filings is assumed"
+      ]
+    },
+    {
+      "id": "relationship:kbr-wyle-services-llc-0001357615",
+      "childId": "legal:kbr-wyle-services-llc",
+      "parentId": "sec:0001357615",
+      "type": "subsidiary",
+      "reviewStatus": "reviewed_primary_filing",
+      "effectiveFrom": "2023-12-29",
+      "effectiveUntil": null,
+      "evidenceAsOf": "2026-01-02",
+      "ownershipPercentage": null,
+      "observedAt": "2026-10-15",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1357615/000135761524000016/kbr-ex211x12292023.htm",
+          "section": "Exhibit 21.1, Subsidiaries of Registrant as of December 29, 2023",
+          "supportingPassage": "KBR Wyle Services, LLC | United States",
+          "scope": "Subsidiary listing; no ownership percentage"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1357615/000135761526000051/kbr-ex211x01022026.htm",
+          "section": "Exhibit 21.1, Subsidiaries of Registrant as of January 2, 2026",
+          "supportingPassage": "KBR Wyle Services, LLC | United States",
+          "scope": "Subsidiary listing; no ownership percentage"
+        }
+      ],
+      "limitations": [
+        "Latest reviewed relationship evidence is dated 2026-01-02",
+        "Effective-from is the earliest reviewed filing, not the formation or acquisition date; continuity between filings is assumed",
+        "Exhibit 21.1 lists subsidiaries of the registrant without ownership percentages; no filing passage states wholly owned status",
+        "Earlier names (e.g. Wyle Inc., Kellogg Brown & Root Services) are not mapped"
+      ]
+    },
+    {
+      "id": "relationship:kbr-services-llc-0001357615",
+      "childId": "legal:kbr-services-llc",
+      "parentId": "sec:0001357615",
+      "type": "subsidiary",
+      "reviewStatus": "reviewed_primary_filing",
+      "effectiveFrom": "2023-12-29",
+      "effectiveUntil": null,
+      "evidenceAsOf": "2026-01-02",
+      "ownershipPercentage": null,
+      "observedAt": "2026-10-15",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1357615/000135761524000016/kbr-ex211x12292023.htm",
+          "section": "Exhibit 21.1, Subsidiaries of Registrant as of December 29, 2023",
+          "supportingPassage": "KBR Services, LLC | United States",
+          "scope": "Subsidiary listing; no ownership percentage"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1357615/000135761526000051/kbr-ex211x01022026.htm",
+          "section": "Exhibit 21.1, Subsidiaries of Registrant as of January 2, 2026",
+          "supportingPassage": "KBR Services, LLC | United States",
+          "scope": "Subsidiary listing; no ownership percentage"
+        }
+      ],
+      "limitations": [
+        "Latest reviewed relationship evidence is dated 2026-01-02",
+        "Effective-from is the earliest reviewed filing, not the formation or acquisition date; continuity between filings is assumed",
+        "Exhibit 21.1 lists subsidiaries of the registrant without ownership percentages; no filing passage states wholly owned status",
+        "Earlier names (e.g. Wyle Inc., Kellogg Brown & Root Services) are not mapped"
+      ]
+    },
+    {
+      "id": "relationship:huntington-ingalls-incorporated-0001501585",
+      "childId": "legal:huntington-ingalls-incorporated",
+      "parentId": "sec:0001501585",
+      "type": "subsidiary",
+      "reviewStatus": "reviewed_primary_filing",
+      "effectiveFrom": "2021-12-31",
+      "effectiveUntil": null,
+      "evidenceAsOf": "2025-12-31",
+      "ownershipPercentage": 100,
+      "observedAt": "2026-10-15",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1501585/000150158522000007/hii-ex211202110xk.htm",
+          "section": "Exhibit 21.1, Subsidiaries (FY2021)",
+          "supportingPassage": "Huntington Ingalls Incorporated | Virginia | 100%",
+          "scope": "Ownership percentage at 2021-12-31"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1501585/000150158526000006/hii-ex211202510xk.htm",
+          "section": "Exhibit 21.1, Subsidiaries (FY2025)",
+          "supportingPassage": "Huntington Ingalls Incorporated | Virginia",
+          "scope": "Subsidiary listing at 2025-12-31; no percentage"
+        }
+      ],
+      "limitations": [
+        "Latest reviewed relationship evidence is dated 2025-12-31",
+        "Effective-from is the earliest reviewed filing, not the formation or acquisition date; continuity between filings is assumed",
+        "Operates the Newport News Shipbuilding and Ingalls Shipbuilding divisions"
       ]
     }
   ],
@@ -4939,6 +5601,390 @@
       "reviewedBy": "Claude (automated-assisted review, 2026-10-15)",
       "reviewedAt": "2026-10-15",
       "reviewFile": "reviews/recipients/general-dynamics-mission-systems-inc.json"
+    },
+    {
+      "id": "binding:uei:UE9QJD4KK1L6",
+      "kind": "uei",
+      "value": "UE9QJD4KK1L6",
+      "entityId": "legal:leidos-inc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2008-05-08",
+      "evidenceAsOf": "2026-10-15",
+      "sourceUrl": "https://www.usaspending.gov/recipient/5ddb264f-234b-872c-2571-4731fde123c6-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/5ddb264f-234b-872c-2571-4731fde123c6-C/",
+      "supportingPassage": "LEIDOS, INC. | UEI UE9QJD4KK1L6 | RESTON, VA, USA | Latest award CONT_AWD_75N97025F00001_7529_HHSN316201200044W_7529 (2026-10-13) parent: LEIDOS, INC. (UEI MDSWM6MB1BH7)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-15)",
+      "reviewedAt": "2026-10-15",
+      "reviewFile": "reviews/recipients/leidos-inc.json"
+    },
+    {
+      "id": "binding:uei:MDSWM6MB1BH7",
+      "kind": "uei",
+      "value": "MDSWM6MB1BH7",
+      "entityId": "legal:leidos-inc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-01",
+      "evidenceAsOf": "2026-10-15",
+      "sourceUrl": "https://www.usaspending.gov/recipient/e77c753b-6638-3d5b-442e-c1225ca669d6-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/e77c753b-6638-3d5b-442e-c1225ca669d6-C/",
+      "supportingPassage": "LEIDOS, INC. | UEI MDSWM6MB1BH7 | RESTON, VA, USA | Latest award CONT_AWD_47QFCA22F0051_4732_GS00Q14OADU122_4732 (2026-09-30) parent: LEIDOS HOLDINGS, INC. (UEI ZL41ERXMPAR3)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-15)",
+      "reviewedAt": "2026-10-15",
+      "reviewFile": "reviews/recipients/leidos-inc.json"
+    },
+    {
+      "id": "binding:uei:QLNMVC12KWY3",
+      "kind": "uei",
+      "value": "QLNMVC12KWY3",
+      "entityId": "legal:leidos-inc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-01",
+      "evidenceAsOf": "2026-10-15",
+      "sourceUrl": "https://www.usaspending.gov/recipient/b37ddcf2-0924-f6e0-0fee-c40823f5789b-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/b37ddcf2-0924-f6e0-0fee-c40823f5789b-C/",
+      "supportingPassage": "LEIDOS, INC. | UEI QLNMVC12KWY3 | RESTON, VA, USA | Latest award CONT_AWD_693JJ322F00275N_6925_693JJ321D000010_6925 (2026-10-13) parent: LEIDOS HOLDINGS, INC. (UEI ZL41ERXMPAR3)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-15)",
+      "reviewedAt": "2026-10-15",
+      "reviewFile": "reviews/recipients/leidos-inc.json"
+    },
+    {
+      "id": "binding:uei:MYKLJHTX3MM7",
+      "kind": "uei",
+      "value": "MYKLJHTX3MM7",
+      "entityId": "legal:leidos-inc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2016-02-05",
+      "evidenceAsOf": "2026-10-15",
+      "sourceUrl": "https://www.usaspending.gov/recipient/32109085-1976-8da6-d5cd-7c8077389b75-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/32109085-1976-8da6-d5cd-7c8077389b75-C/",
+      "supportingPassage": "LEIDOS, INC. | UEI MYKLJHTX3MM7 | GAITHERSBURG, MD, USA | Latest award CONT_AWD_31310020F0054_3100_NRCHQ1017A0007_3100 (2026-10-07) parent: LEIDOS, INC. (UEI MDSWM6MB1BH7)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-15)",
+      "reviewedAt": "2026-10-15",
+      "reviewFile": "reviews/recipients/leidos-inc.json"
+    },
+    {
+      "id": "binding:uei:KTMAJCY6JXM3",
+      "kind": "uei",
+      "value": "KTMAJCY6JXM3",
+      "entityId": "legal:leidos-inc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-11-20",
+      "evidenceAsOf": "2026-10-15",
+      "sourceUrl": "https://www.usaspending.gov/recipient/876f1621-8b69-d47c-7fa6-933c63b9da44-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/876f1621-8b69-d47c-7fa6-933c63b9da44-C/",
+      "supportingPassage": "LEIDOS, INC. | UEI KTMAJCY6JXM3 | RESTON, VA, USA | Latest award CONT_AWD_HSTS0417JCT4063_7013_HSTS0415DCT4056_7013 (2026-10-13) parent: LEIDOS, INC. (UEI MDSWM6MB1BH7)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-15)",
+      "reviewedAt": "2026-10-15",
+      "reviewFile": "reviews/recipients/leidos-inc.json"
+    },
+    {
+      "id": "binding:uei:X38JVP4R72E1",
+      "kind": "uei",
+      "value": "X38JVP4R72E1",
+      "entityId": "legal:leidos-inc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2016-01-08",
+      "evidenceAsOf": "2026-10-15",
+      "sourceUrl": "https://www.usaspending.gov/recipient/15534848-08a8-1966-50fd-042be5191faa-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/15534848-08a8-1966-50fd-042be5191faa-C/",
+      "supportingPassage": "LEIDOS, INC. | UEI X38JVP4R72E1 | GAITHERSBURG, MD, USA | Latest award CONT_AWD_NSFDACS1219442_4900_-NONE-_-NONE- (2026-09-23) parent: LEIDOS, INC. (UEI MDSWM6MB1BH7)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-15)",
+      "reviewedAt": "2026-10-15",
+      "reviewFile": "reviews/recipients/leidos-inc.json"
+    },
+    {
+      "id": "binding:uei:XGNZDXFUESH2",
+      "kind": "uei",
+      "value": "XGNZDXFUESH2",
+      "entityId": "legal:leidos-inc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2022-02-15",
+      "evidenceAsOf": "2026-10-15",
+      "sourceUrl": "https://www.usaspending.gov/recipient/eea9bd02-2026-1d04-465e-168819b70dd9-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/eea9bd02-2026-1d04-465e-168819b70dd9-C/",
+      "supportingPassage": "LEIDOS, INC. | UEI XGNZDXFUESH2 | RIDGECREST, CA, USA | Latest award CONT_AWD_N6893624F0025_9700_N6893622D0021_9700 (2026-07-15) parent: LEIDOS HOLDINGS, INC. (UEI ZL41ERXMPAR3)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-15)",
+      "reviewedAt": "2026-10-15",
+      "reviewFile": "reviews/recipients/leidos-inc.json"
+    },
+    {
+      "id": "binding:uei:FNQDFB8Z8QA8",
+      "kind": "uei",
+      "value": "FNQDFB8Z8QA8",
+      "entityId": "legal:leidos-inc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2017-05-16",
+      "evidenceAsOf": "2026-10-15",
+      "sourceUrl": "https://www.usaspending.gov/recipient/e8da638c-0811-f6d0-44e8-ab20fae551ac-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/e8da638c-0811-f6d0-44e8-ab20fae551ac-C/",
+      "supportingPassage": "LEIDOS, INC. | UEI FNQDFB8Z8QA8 | MARLTON, NJ, USA | Latest award CONT_AWD_0060_9700_W15P7T06DE405_9700 (2026-07-07) parent: LEIDOS HOLDINGS, INC. (UEI ZL41ERXMPAR3)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-15)",
+      "reviewedAt": "2026-10-15",
+      "reviewFile": "reviews/recipients/leidos-inc.json"
+    },
+    {
+      "id": "binding:uei:M1P5F2JW46K5",
+      "kind": "uei",
+      "value": "M1P5F2JW46K5",
+      "entityId": "legal:leidos-inc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-01",
+      "evidenceAsOf": "2026-10-15",
+      "sourceUrl": "https://www.usaspending.gov/recipient/b9a34a8b-35f0-00bb-6284-e4e1a777ccb6-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/b9a34a8b-35f0-00bb-6284-e4e1a777ccb6-C/",
+      "supportingPassage": "LEIDOS, INC. | UEI M1P5F2JW46K5 | VIRGINIA BEACH, VA, USA | Latest award CONT_AWD_0013_9700_N6523605D7862_9700 (2026-04-06) parent: LEIDOS HOLDINGS, INC. (UEI ZL41ERXMPAR3)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-15)",
+      "reviewedAt": "2026-10-15",
+      "reviewFile": "reviews/recipients/leidos-inc.json"
+    },
+    {
+      "id": "binding:uei:JQDMQAFGLLV6",
+      "kind": "uei",
+      "value": "JQDMQAFGLLV6",
+      "entityId": "legal:leidos-inc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2017-06-22",
+      "evidenceAsOf": "2026-10-15",
+      "sourceUrl": "https://www.usaspending.gov/recipient/b4db0ee8-5f5f-8306-43c3-4356f30f146a-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/b4db0ee8-5f5f-8306-43c3-4356f30f146a-C/",
+      "supportingPassage": "LEIDOS, INC. | UEI JQDMQAFGLLV6 | ROCKVILLE, MD, USA | Latest award CONT_AWD_70SBUR18F00000703_7003_HSHQDC14DE2042_7001 (2021-12-17) parent: LEIDOS HOLDINGS, INC. (UEI ZL41ERXMPAR3)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-15)",
+      "reviewedAt": "2026-10-15",
+      "reviewFile": "reviews/recipients/leidos-inc.json"
+    },
+    {
+      "id": "binding:uei:NRCCMBKQ6FD7",
+      "kind": "uei",
+      "value": "NRCCMBKQ6FD7",
+      "entityId": "legal:leidos-inc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2011-04-29",
+      "evidenceAsOf": "2026-10-15",
+      "sourceUrl": "https://www.usaspending.gov/recipient/1bf1c37a-6a0c-819e-e290-a770cf1ad06d-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/1bf1c37a-6a0c-819e-e290-a770cf1ad06d-C/",
+      "supportingPassage": "LEIDOS, INC. | UEI NRCCMBKQ6FD7 | GAITHERSBURG, MD, USA | Latest award CONT_AWD_W58RGZ17C0058_9700_-NONE-_-NONE- (2026-05-22) parent: LEIDOS HOLDINGS, INC. (UEI ZL41ERXMPAR3)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-15)",
+      "reviewedAt": "2026-10-15",
+      "reviewFile": "reviews/recipients/leidos-inc.json"
+    },
+    {
+      "id": "binding:uei:P1DHVE8PH2Q3",
+      "kind": "uei",
+      "value": "P1DHVE8PH2Q3",
+      "entityId": "legal:leidos-inc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-01",
+      "evidenceAsOf": "2026-10-15",
+      "sourceUrl": "https://www.usaspending.gov/recipient/a804b7bb-9497-3b7e-e172-9bc63781892e-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/a804b7bb-9497-3b7e-e172-9bc63781892e-C/",
+      "supportingPassage": "LEIDOS, INC. | UEI P1DHVE8PH2Q3 | SAN DIEGO, CA, USA | Latest award CONT_AWD_HHSD2002010372190004_7523_HHSD200201037219I_7523 (2026-04-06) parent: LEIDOS HOLDINGS, INC. (UEI ZL41ERXMPAR3)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-15)",
+      "reviewedAt": "2026-10-15",
+      "reviewFile": "reviews/recipients/leidos-inc.json"
+    },
+    {
+      "id": "binding:uei:WEFTSLL9UN87",
+      "kind": "uei",
+      "value": "WEFTSLL9UN87",
+      "entityId": "legal:leidos-inc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-02",
+      "evidenceAsOf": "2026-10-15",
+      "sourceUrl": "https://www.usaspending.gov/recipient/1a41bba8-1f82-5271-0da9-a713f592dc8b-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/1a41bba8-1f82-5271-0da9-a713f592dc8b-C/",
+      "supportingPassage": "LEIDOS, INC. | UEI WEFTSLL9UN87 | MCLEAN, VA, USA | Latest award CONT_AWD_693KA720C00013_6920_-NONE-_-NONE- (2026-09-16) parent: LEIDOS HOLDINGS, INC. (UEI ZL41ERXMPAR3)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-15)",
+      "reviewedAt": "2026-10-15",
+      "reviewFile": "reviews/recipients/leidos-inc.json"
+    },
+    {
+      "id": "binding:uei:MMLKPW9JLX64",
+      "kind": "uei",
+      "value": "MMLKPW9JLX64",
+      "entityId": "sec:0001571123",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2013-09-27",
+      "evidenceAsOf": "2026-10-15",
+      "sourceUrl": "https://www.usaspending.gov/recipient/20af0683-f17d-1f8f-38ee-2f11bd124559-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/20af0683-f17d-1f8f-38ee-2f11bd124559-C/",
+      "supportingPassage": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION | UEI MMLKPW9JLX64 | RESTON, VA, USA | Latest award CONT_AWD_2033H624F00070_2036_GS35F486BA_4732 (2026-10-08) parent: SCIENCE APPLICATIONS INTERNATIONAL CORPORATION (UEI MMLKPW9JLX64)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-15)",
+      "reviewedAt": "2026-10-15",
+      "reviewFile": "reviews/recipients/science-applications-international-corporation.json"
+    },
+    {
+      "id": "binding:uei:L7EUZR8R5RZ3",
+      "kind": "uei",
+      "value": "L7EUZR8R5RZ3",
+      "entityId": "sec:0001571123",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2019-10-28",
+      "evidenceAsOf": "2026-10-15",
+      "sourceUrl": "https://www.usaspending.gov/recipient/900dcfe5-fb04-162f-2149-75b51d42021a-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/900dcfe5-fb04-162f-2149-75b51d42021a-C/",
+      "supportingPassage": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION | UEI L7EUZR8R5RZ3 | SAN DIEGO, CA, USA | Latest award CONT_AWD_693JJ324F00481N_6925_693JK420D500002_6901 (2026-10-13) parent: SCIENCE APPLICATIONS INTERNATIONAL CORPORATION (UEI MMLKPW9JLX64)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-15)",
+      "reviewedAt": "2026-10-15",
+      "reviewFile": "reviews/recipients/science-applications-international-corporation.json"
+    },
+    {
+      "id": "binding:uei:HYBLSJAMM2F4",
+      "kind": "uei",
+      "value": "HYBLSJAMM2F4",
+      "entityId": "legal:kbr-wyle-services-llc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-02",
+      "evidenceAsOf": "2026-10-15",
+      "sourceUrl": "https://www.usaspending.gov/recipient/eb13e842-2068-e3ee-0453-d02b9582e5cd-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/eb13e842-2068-e3ee-0453-d02b9582e5cd-C/",
+      "supportingPassage": "KBR WYLE SERVICES, LLC | UEI HYBLSJAMM2F4 | LANHAM, MD, USA | Latest award CONT_AWD_80GSFC19C0013_8000_-NONE-_-NONE- (2026-10-06) parent: KBR, INC. (UEI VJ3XVZC76HT9)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-15)",
+      "reviewedAt": "2026-10-15",
+      "reviewFile": "reviews/recipients/kbr-wyle-services-llc.json"
+    },
+    {
+      "id": "binding:uei:VM45UTL9JTH1",
+      "kind": "uei",
+      "value": "VM45UTL9JTH1",
+      "entityId": "legal:kbr-wyle-services-llc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-01",
+      "evidenceAsOf": "2026-10-15",
+      "sourceUrl": "https://www.usaspending.gov/recipient/43d3e6c3-0908-78aa-9f11-3c96054a37d2-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/43d3e6c3-0908-78aa-9f11-3c96054a37d2-C/",
+      "supportingPassage": "KBR WYLE SERVICES, LLC | UEI VM45UTL9JTH1 | CHANTILLY, VA, USA | Latest award CONT_AWD_47QFLA25F0057_4732_47QFLA21D0018_4732 (2026-09-30) parent: KBR, INC. (UEI VJ3XVZC76HT9)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-15)",
+      "reviewedAt": "2026-10-15",
+      "reviewFile": "reviews/recipients/kbr-wyle-services-llc.json"
+    },
+    {
+      "id": "binding:uei:JU9GLKSCUXE3",
+      "kind": "uei",
+      "value": "JU9GLKSCUXE3",
+      "entityId": "legal:kbr-wyle-services-llc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-01",
+      "evidenceAsOf": "2026-10-15",
+      "sourceUrl": "https://www.usaspending.gov/recipient/14c92d76-9870-ace3-dbf2-431863daf0bd-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/14c92d76-9870-ace3-dbf2-431863daf0bd-C/",
+      "supportingPassage": "KBR WYLE SERVICES, LLC | UEI JU9GLKSCUXE3 | COLUMBIA, MD, USA | Latest award CONT_AWD_NNG17HP02C_8000_-NONE-_-NONE- (2026-09-23) parent: KBR, INC. (UEI VJ3XVZC76HT9)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-15)",
+      "reviewedAt": "2026-10-15",
+      "reviewFile": "reviews/recipients/kbr-wyle-services-llc.json"
+    },
+    {
+      "id": "binding:uei:UF7GLXU2DEH5",
+      "kind": "uei",
+      "value": "UF7GLXU2DEH5",
+      "entityId": "legal:kbr-wyle-services-llc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2017-05-04",
+      "evidenceAsOf": "2026-10-15",
+      "sourceUrl": "https://www.usaspending.gov/recipient/77d0c9ec-6694-9f73-28ee-0be3a2489303-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/77d0c9ec-6694-9f73-28ee-0be3a2489303-C/",
+      "supportingPassage": "KBR WYLE SERVICES, LLC | UEI UF7GLXU2DEH5 | LANHAM, MD, USA | Latest award CONT_AWD_DTFAWA17C00040_6920_-NONE-_-NONE- (2026-07-30) parent: KBR, INC. (UEI VJ3XVZC76HT9)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-15)",
+      "reviewedAt": "2026-10-15",
+      "reviewFile": "reviews/recipients/kbr-wyle-services-llc.json"
+    },
+    {
+      "id": "binding:uei:SCAHJH4FK963",
+      "kind": "uei",
+      "value": "SCAHJH4FK963",
+      "entityId": "legal:kbr-wyle-services-llc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-10",
+      "evidenceAsOf": "2026-10-15",
+      "sourceUrl": "https://www.usaspending.gov/recipient/b64b25d0-9da4-7452-c6b9-2366de8df9d3-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/b64b25d0-9da4-7452-c6b9-2366de8df9d3-C/",
+      "supportingPassage": "KBR WYLE SERVICES, LLC | UEI SCAHJH4FK963 | HOUSTON, TX, USA | Latest award CONT_AWD_NNA14AB82C_8000_-NONE-_-NONE- (2026-07-01) parent: KBR, INC. (UEI VJ3XVZC76HT9)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-15)",
+      "reviewedAt": "2026-10-15",
+      "reviewFile": "reviews/recipients/kbr-wyle-services-llc.json"
+    },
+    {
+      "id": "binding:uei:YSQMHRS4HSC5",
+      "kind": "uei",
+      "value": "YSQMHRS4HSC5",
+      "entityId": "legal:kbr-services-llc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-03",
+      "evidenceAsOf": "2026-10-15",
+      "sourceUrl": "https://www.usaspending.gov/recipient/77b600af-8a01-de99-cfcc-06558d83a984-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/77b600af-8a01-de99-cfcc-06558d83a984-C/",
+      "supportingPassage": "KBR SERVICES, LLC | UEI YSQMHRS4HSC5 | HOUSTON, TX, USA | Latest award CONT_AWD_49100426F0068_4900_49100426D0002_4900 (2026-10-05) parent: KBR, INC. (UEI VJ3XVZC76HT9)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-15)",
+      "reviewedAt": "2026-10-15",
+      "reviewFile": "reviews/recipients/kbr-services-llc.json"
+    },
+    {
+      "id": "binding:uei:JWK8UZM4WL51",
+      "kind": "uei",
+      "value": "JWK8UZM4WL51",
+      "entityId": "legal:kbr-services-llc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2009-05-29",
+      "evidenceAsOf": "2026-10-15",
+      "sourceUrl": "https://www.usaspending.gov/recipient/740d4c21-b343-ba93-d03f-9f44c91d8f63-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/740d4c21-b343-ba93-d03f-9f44c91d8f63-C/",
+      "supportingPassage": "KBR SERVICES, LLC | UEI JWK8UZM4WL51 | JACKSONVILLE, FL, USA | Latest award CONT_AWD_191Z1026F0018_1900_191Z1026D0001_1900 (2026-09-17) parent: KBR, INC. (UEI VJ3XVZC76HT9)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-15)",
+      "reviewedAt": "2026-10-15",
+      "reviewFile": "reviews/recipients/kbr-services-llc.json"
+    },
+    {
+      "id": "binding:uei:KLW3ZYL15493",
+      "kind": "uei",
+      "value": "KLW3ZYL15493",
+      "entityId": "legal:raytheon-company",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-09",
+      "evidenceAsOf": "2026-10-15",
+      "sourceUrl": "https://www.usaspending.gov/recipient/51bc164d-0975-136d-3fb5-d67ade0957a7-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/51bc164d-0975-136d-3fb5-d67ade0957a7-C/",
+      "supportingPassage": "RAYTHEON COMPANY | UEI KLW3ZYL15493 | ARLINGTON, VA, USA | Latest award CONT_AWD_1305M323FNWWY0103_1330_GS35F204GA_4732 (2026-07-10) parent: RTX CORP (UEI PPLZG8J3N9D4)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-15)",
+      "reviewedAt": "2026-10-15",
+      "reviewFile": "reviews/recipients/raytheon-company.json"
+    },
+    {
+      "id": "binding:uei:QJ58YL55YKF3",
+      "kind": "uei",
+      "value": "QJ58YL55YKF3",
+      "entityId": "legal:rockwell-collins-inc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-05",
+      "evidenceAsOf": "2026-10-15",
+      "sourceUrl": "https://www.usaspending.gov/recipient/0041c4b2-6cbb-bf73-2416-b2097bbe16df-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/0041c4b2-6cbb-bf73-2416-b2097bbe16df-C/",
+      "supportingPassage": "ROCKWELL COLLINS, INC. | UEI QJ58YL55YKF3 | CEDAR RAPIDS, IA, USA | Latest award CONT_AWD_1333MK26P0114_1330_-NONE-_-NONE- (2026-08-05) parent: RTX CORP (UEI PPLZG8J3N9D4)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-15)",
+      "reviewedAt": "2026-10-15",
+      "reviewFile": "reviews/recipients/rockwell-collins-inc.json"
     }
   ],
   "retiredBindings": [

@@ -1,0 +1,440 @@
+{
+  "generatedAt": "2026-10-15T18:51:14.941Z",
+  "query": {
+    "name": "KBR Wyle Services, LLC",
+    "parentUei": "VJ3XVZC76HT9",
+    "entityId": "legal:kbr-wyle-services-llc",
+    "formerNames": [],
+    "notBefore": null
+  },
+  "searched": 12,
+  "candidates": [
+    {
+      "evidence": {
+        "uei": "HYBLSJAMM2F4",
+        "cage": null,
+        "recipientId": "eb13e842-2068-e3ee-0453-d02b9582e5cd-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/eb13e842-2068-e3ee-0453-d02b9582e5cd-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/eb13e842-2068-e3ee-0453-d02b9582e5cd-C/",
+        "responseSha256": "8657ac3b13d58700c9815c5b0beba5e477fec091bb3fb0b8caba022ff41902f5",
+        "name": "KBR WYLE SERVICES, LLC",
+        "parentName": "KBR WYLE SERVICES, LLC",
+        "parentUei": "HYBLSJAMM2F4",
+        "otherReportedParents": [
+          "KBR, INC. / VJ3XVZC76HT9",
+          "KBR WYLE SERVICES, LLC / TGPKTMN8YL31"
+        ],
+        "location": "LANHAM, MD, USA",
+        "contractAmount": 779786707.7,
+        "earliestTransaction": {
+          "date": "2007-10-02",
+          "award": "CONT_AWD_N0003908F0002_9700_GS23F0381K_4730"
+        },
+        "latestTransaction": {
+          "date": "2026-10-06",
+          "award": "CONT_AWD_80GSFC19C0013_8000_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_80GSFC19C0013_8000_-NONE-_-NONE-",
+          "parentName": "KBR, INC.",
+          "parentUei": "VJ3XVZC76HT9",
+          "recipientUei": "HYBLSJAMM2F4",
+          "responseSha256": "8dd3f182354bc8eac05b5ff085b5048ec8dd9d5f9ae6c10d1ed6d57e5ec8e20d"
+        },
+        "warnings": [
+          "profile parent UEI HYBLSJAMM2F4 (KBR WYLE SERVICES, LLC) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:HYBLSJAMM2F4",
+        "kind": "uei",
+        "value": "HYBLSJAMM2F4",
+        "entityId": "legal:kbr-wyle-services-llc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-02",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/eb13e842-2068-e3ee-0453-d02b9582e5cd-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/eb13e842-2068-e3ee-0453-d02b9582e5cd-C/",
+        "supportingPassage": "KBR WYLE SERVICES, LLC | UEI HYBLSJAMM2F4 | LANHAM, MD, USA | Latest award CONT_AWD_80GSFC19C0013_8000_-NONE-_-NONE- (2026-10-06) parent: KBR, INC. (UEI VJ3XVZC76HT9)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "VM45UTL9JTH1",
+        "cage": null,
+        "recipientId": "43d3e6c3-0908-78aa-9f11-3c96054a37d2-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/43d3e6c3-0908-78aa-9f11-3c96054a37d2-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/43d3e6c3-0908-78aa-9f11-3c96054a37d2-C/",
+        "responseSha256": "8b9fa92f3d020d4d8b46fc055f9b0973dfb845dddee3fac78e9b94e2a0734aa6",
+        "name": "KBR WYLE SERVICES, LLC",
+        "parentName": "KBR WYLE SERVICES, LLC",
+        "parentUei": "VM45UTL9JTH1",
+        "otherReportedParents": [
+          "KBR, INC. / VJ3XVZC76HT9",
+          "KBR WYLE SERVICES, LLC / TGPKTMN8YL31"
+        ],
+        "location": "CHANTILLY, VA, USA",
+        "contractAmount": 109094999.54,
+        "earliestTransaction": {
+          "date": "2007-10-01",
+          "award": "CONT_AWD_FA882005C0003_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-09-30",
+          "award": "CONT_AWD_47QFLA25F0057_4732_47QFLA21D0018_4732"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_47QFLA25F0057_4732_47QFLA21D0018_4732",
+          "parentName": "KBR, INC.",
+          "parentUei": "VJ3XVZC76HT9",
+          "recipientUei": "VM45UTL9JTH1",
+          "responseSha256": "e5876dc4b146e3903f4124bb35969f02ed0c4156a767ac0024c16a7df2192d29"
+        },
+        "warnings": [
+          "profile parent UEI VM45UTL9JTH1 (KBR WYLE SERVICES, LLC) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:VM45UTL9JTH1",
+        "kind": "uei",
+        "value": "VM45UTL9JTH1",
+        "entityId": "legal:kbr-wyle-services-llc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-01",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/43d3e6c3-0908-78aa-9f11-3c96054a37d2-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/43d3e6c3-0908-78aa-9f11-3c96054a37d2-C/",
+        "supportingPassage": "KBR WYLE SERVICES, LLC | UEI VM45UTL9JTH1 | CHANTILLY, VA, USA | Latest award CONT_AWD_47QFLA25F0057_4732_47QFLA21D0018_4732 (2026-09-30) parent: KBR, INC. (UEI VJ3XVZC76HT9)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "JU9GLKSCUXE3",
+        "cage": null,
+        "recipientId": "14c92d76-9870-ace3-dbf2-431863daf0bd-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/14c92d76-9870-ace3-dbf2-431863daf0bd-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/14c92d76-9870-ace3-dbf2-431863daf0bd-C/",
+        "responseSha256": "29ea4af6fb4f0e58ab07ad95272ad136cbc8f54757e3908ab6856942b93d039d",
+        "name": "KBR WYLE SERVICES, LLC",
+        "parentName": "HONEYWELL INTERNATIONAL INC",
+        "parentUei": "YBVGQEYENNM6",
+        "otherReportedParents": [
+          "KBR, INC. / VJ3XVZC76HT9",
+          "KBR WYLE SERVICES, LLC / JU9GLKSCUXE3"
+        ],
+        "location": "COLUMBIA, MD, USA",
+        "contractAmount": 37391369.87,
+        "earliestTransaction": {
+          "date": "2007-10-01",
+          "award": "CONT_AWD_DABK3103C0001_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-09-23",
+          "award": "CONT_AWD_NNG17HP02C_8000_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_NNG17HP02C_8000_-NONE-_-NONE-",
+          "parentName": "KBR, INC.",
+          "parentUei": "VJ3XVZC76HT9",
+          "recipientUei": "JU9GLKSCUXE3",
+          "responseSha256": "707a2535b16cb372114fd0bb2158b91ec153f83505d2762f548434a42cdc5c87"
+        },
+        "warnings": [
+          "profile parent UEI YBVGQEYENNM6 (HONEYWELL INTERNATIONAL INC) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:JU9GLKSCUXE3",
+        "kind": "uei",
+        "value": "JU9GLKSCUXE3",
+        "entityId": "legal:kbr-wyle-services-llc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-01",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/14c92d76-9870-ace3-dbf2-431863daf0bd-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/14c92d76-9870-ace3-dbf2-431863daf0bd-C/",
+        "supportingPassage": "KBR WYLE SERVICES, LLC | UEI JU9GLKSCUXE3 | COLUMBIA, MD, USA | Latest award CONT_AWD_NNG17HP02C_8000_-NONE-_-NONE- (2026-09-23) parent: KBR, INC. (UEI VJ3XVZC76HT9)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "UF7GLXU2DEH5",
+        "cage": null,
+        "recipientId": "77d0c9ec-6694-9f73-28ee-0be3a2489303-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/77d0c9ec-6694-9f73-28ee-0be3a2489303-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/77d0c9ec-6694-9f73-28ee-0be3a2489303-C/",
+        "responseSha256": "3417ffd7e1ba6dfbb9b7501e37024f1669832688262bcb1633f807d4e023ff03",
+        "name": "KBR WYLE SERVICES, LLC",
+        "parentName": "KBR, INC.",
+        "parentUei": "VJ3XVZC76HT9",
+        "otherReportedParents": [
+          "KBR WYLE SERVICES, LLC / TGPKTMN8YL31"
+        ],
+        "location": "LANHAM, MD, USA",
+        "contractAmount": 2856295.08,
+        "earliestTransaction": {
+          "date": "2017-05-04",
+          "award": "CONT_AWD_N0017317P6404_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-07-30",
+          "award": "CONT_AWD_DTFAWA17C00040_6920_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_DTFAWA17C00040_6920_-NONE-_-NONE-",
+          "parentName": "KBR, INC.",
+          "parentUei": "VJ3XVZC76HT9",
+          "recipientUei": "UF7GLXU2DEH5",
+          "responseSha256": "92dff9c272945881a09c4c977d73a333b5942916b8e0a50cc7755360763f406a"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:UF7GLXU2DEH5",
+        "kind": "uei",
+        "value": "UF7GLXU2DEH5",
+        "entityId": "legal:kbr-wyle-services-llc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2017-05-04",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/77d0c9ec-6694-9f73-28ee-0be3a2489303-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/77d0c9ec-6694-9f73-28ee-0be3a2489303-C/",
+        "supportingPassage": "KBR WYLE SERVICES, LLC | UEI UF7GLXU2DEH5 | LANHAM, MD, USA | Latest award CONT_AWD_DTFAWA17C00040_6920_-NONE-_-NONE- (2026-07-30) parent: KBR, INC. (UEI VJ3XVZC76HT9)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "SCAHJH4FK963",
+        "cage": null,
+        "recipientId": "b64b25d0-9da4-7452-c6b9-2366de8df9d3-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/b64b25d0-9da4-7452-c6b9-2366de8df9d3-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/b64b25d0-9da4-7452-c6b9-2366de8df9d3-C/",
+        "responseSha256": "858455e69b14da740b979f61f15c90caeda8b26c580523df703fcaafeaa96314",
+        "name": "KBR WYLE SERVICES, LLC",
+        "parentName": "KBR WYLE SERVICES, LLC",
+        "parentUei": "FYDWBRMLRJM7",
+        "otherReportedParents": [
+          "COURT SQUARE CAPITAL PARTNERS, L.P. / CFEWH2PLNLB9",
+          "KBR, INC. / VJ3XVZC76HT9",
+          "WYLE SERVICES CORPORATION / C4F4EWNSMYD8",
+          "KBR WYLE SERVICES, LLC / TGPKTMN8YL31"
+        ],
+        "location": "HOUSTON, TX, USA",
+        "contractAmount": -156441.54,
+        "earliestTransaction": {
+          "date": "2007-10-10",
+          "award": "CONT_AWD_NNJ06HB47C_8000_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-07-01",
+          "award": "CONT_AWD_NNA14AB82C_8000_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_NNA14AB82C_8000_-NONE-_-NONE-",
+          "parentName": "KBR, INC.",
+          "parentUei": "VJ3XVZC76HT9",
+          "recipientUei": "SCAHJH4FK963",
+          "responseSha256": "44d32506396278164743bd3427419675702fc633ae759a5847a4f70a3aef68db"
+        },
+        "warnings": [
+          "profile parent UEI FYDWBRMLRJM7 (KBR WYLE SERVICES, LLC) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:SCAHJH4FK963",
+        "kind": "uei",
+        "value": "SCAHJH4FK963",
+        "entityId": "legal:kbr-wyle-services-llc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-10",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/b64b25d0-9da4-7452-c6b9-2366de8df9d3-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/b64b25d0-9da4-7452-c6b9-2366de8df9d3-C/",
+        "supportingPassage": "KBR WYLE SERVICES, LLC | UEI SCAHJH4FK963 | HOUSTON, TX, USA | Latest award CONT_AWD_NNA14AB82C_8000_-NONE-_-NONE- (2026-07-01) parent: KBR, INC. (UEI VJ3XVZC76HT9)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "uei": "TGPKTMN8YL31",
+      "name": "KBR WYLE SERVICES, LLC",
+      "contractAmount": 1283525293.11,
+      "reasons": [
+        "only a parent-level rollup record; no child-level recipient record"
+      ]
+    },
+    {
+      "uei": "L693MQDFLKD1",
+      "cage": null,
+      "recipientId": "a0a87c1c-b46f-7c1f-9eb0-a389f77904a8-C",
+      "profileUrl": "https://www.usaspending.gov/recipient/a0a87c1c-b46f-7c1f-9eb0-a389f77904a8-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/a0a87c1c-b46f-7c1f-9eb0-a389f77904a8-C/",
+      "responseSha256": "624044154cc18be8c572f0db6402cfcbc51650965a0c88d0f2ffdac4db6aa5ae",
+      "name": "KBR WYLE SERVICES, LLC",
+      "parentName": "KBR WYLE SERVICES, LLC",
+      "parentUei": "FYDWBRMLRJM7",
+      "otherReportedParents": [
+        "COURT SQUARE CAPITAL PARTNERS, L.P. / CFEWH2PLNLB9",
+        "KBR, INC. / VJ3XVZC76HT9",
+        "WYLE SERVICES CORPORATION / C4F4EWNSMYD8",
+        "KBR WYLE SERVICES, LLC / TGPKTMN8YL31"
+      ],
+      "location": "LEXINGTON PARK, MD, USA",
+      "contractAmount": 635543688.3,
+      "earliestTransaction": {
+        "date": "2009-08-19",
+        "award": "CONT_AWD_0001_9700_N0042108A0014_9700"
+      },
+      "latestTransaction": {
+        "date": "2026-10-13",
+        "award": "CONT_AWD_6913G626F60041N_6901_6913G626A900002_6901"
+      },
+      "latestAwardParent": {
+        "id": "CONT_AWD_6913G626F60041N_6901_6913G626A900002_6901",
+        "parentName": "KBR WYLE SERVICES, LLC",
+        "parentUei": "TGPKTMN8YL31",
+        "recipientUei": "L693MQDFLKD1",
+        "responseSha256": "69dba83076dc986b66e21d5e259077579f173a1b767bc4a4a1415a920a235e46"
+      },
+      "warnings": [
+        "profile parent UEI FYDWBRMLRJM7 (KBR WYLE SERVICES, LLC) differs from expected; not relied on"
+      ],
+      "reasons": [
+        "latest award parent UEI TGPKTMN8YL31 (KBR WYLE SERVICES, LLC) differs from expected"
+      ]
+    },
+    {
+      "uei": "NHMQSLZ6DFB9",
+      "cage": null,
+      "recipientId": "712778d1-dff4-835c-f482-b3eabdf4a366-C",
+      "profileUrl": "https://www.usaspending.gov/recipient/712778d1-dff4-835c-f482-b3eabdf4a366-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/712778d1-dff4-835c-f482-b3eabdf4a366-C/",
+      "responseSha256": "9af0faa3dc7d9bf4a19218d757abe2b8a22b269451abaea0a43353cbd01e9e38",
+      "name": "KBR WYLE SERVICES, LLC",
+      "parentName": "KBR WYLE SERVICES, LLC",
+      "parentUei": "FYDWBRMLRJM7",
+      "otherReportedParents": [
+        "COURT SQUARE CAPITAL PARTNERS, L.P. / CFEWH2PLNLB9",
+        "KBR, INC. / VJ3XVZC76HT9",
+        "KBR WYLE SERVICES, LLC / NHMQSLZ6DFB9",
+        "WYLE SERVICES CORPORATION / C4F4EWNSMYD8",
+        "KBR WYLE SERVICES, LLC / TGPKTMN8YL31"
+      ],
+      "location": "DAYTON, OH, USA",
+      "contractAmount": 2082677,
+      "earliestTransaction": {
+        "date": "2007-10-15",
+        "award": "CONT_AWD_SPM4A008M0088_9700_-NONE-_-NONE-"
+      },
+      "latestTransaction": {
+        "date": "2026-07-13",
+        "award": "CONT_AWD_SPE7M826C0002_9700_-NONE-_-NONE-"
+      },
+      "latestAwardParent": {
+        "id": "CONT_AWD_SPE7M826C0002_9700_-NONE-_-NONE-",
+        "parentName": "KBR WYLE SERVICES, LLC",
+        "parentUei": "TGPKTMN8YL31",
+        "recipientUei": "NHMQSLZ6DFB9",
+        "responseSha256": "b1b3303cb19aa188c7afe06585224f13e32fadd0c654576c8475434e38ba6ac9"
+      },
+      "warnings": [
+        "profile parent UEI FYDWBRMLRJM7 (KBR WYLE SERVICES, LLC) differs from expected; not relied on"
+      ],
+      "reasons": [
+        "latest award parent UEI TGPKTMN8YL31 (KBR WYLE SERVICES, LLC) differs from expected"
+      ]
+    },
+    {
+      "uei": "PMRAPK4NLQC1",
+      "cage": null,
+      "recipientId": "43f70a15-26d2-9af5-bdf0-39c0df43c037-C",
+      "profileUrl": "https://www.usaspending.gov/recipient/43f70a15-26d2-9af5-bdf0-39c0df43c037-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/43f70a15-26d2-9af5-bdf0-39c0df43c037-C/",
+      "responseSha256": "6db14a3001766216c388ae0640143b5768cb5ec8679fc0dcfda7094c655d3811",
+      "name": "KBR WYLE SERVICES, LLC",
+      "parentName": "KBR  INC.",
+      "parentUei": "V4GTM5QLALW7",
+      "otherReportedParents": [
+        "KBR WYLE SERVICES, LLC / FYDWBRMLRJM7",
+        "COURT SQUARE CAPITAL PARTNERS, L.P. / CFEWH2PLNLB9",
+        "KBR, INC. / VJ3XVZC76HT9",
+        "WYLE SERVICES CORPORATION / C4F4EWNSMYD8",
+        "KBR WYLE SERVICES, LLC / TGPKTMN8YL31"
+      ],
+      "location": "HUNTSVILLE, AL, USA",
+      "contractAmount": -21012.38,
+      "earliestTransaction": {
+        "date": "2007-10-02",
+        "award": "CONT_AWD_0005_9700_N0016404D6629_9700"
+      },
+      "latestTransaction": {
+        "date": "2026-07-15",
+        "award": "CONT_AWD_0041_9700_W31P4Q05A0024_9700"
+      },
+      "latestAwardParent": {
+        "id": "CONT_AWD_0041_9700_W31P4Q05A0024_9700",
+        "parentName": "KBR WYLE SERVICES, LLC",
+        "parentUei": "TGPKTMN8YL31",
+        "recipientUei": "PMRAPK4NLQC1",
+        "responseSha256": "0e2004e428cbe0182497fb031e6db5868aefdf09e7d04307121e4b0b822253b1"
+      },
+      "warnings": [
+        "profile parent UEI V4GTM5QLALW7 (KBR  INC.) differs from expected; not relied on"
+      ],
+      "reasons": [
+        "latest award parent UEI TGPKTMN8YL31 (KBR WYLE SERVICES, LLC) differs from expected"
+      ]
+    },
+    {
+      "uei": "KNV8E5VRLHT9",
+      "cage": null,
+      "recipientId": "c1555398-ca16-7024-230c-c902d4f1a351-C",
+      "profileUrl": "https://www.usaspending.gov/recipient/c1555398-ca16-7024-230c-c902d4f1a351-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/c1555398-ca16-7024-230c-c902d4f1a351-C/",
+      "responseSha256": "e398b23c2b677ed7be56db740f9c121691bfd23da81870800e246b34998ce700",
+      "name": "KBR WYLE SERVICES, LLC",
+      "parentName": "KBR WYLE SERVICES, LLC",
+      "parentUei": "FYDWBRMLRJM7",
+      "otherReportedParents": [
+        "KBR WYLE SERVICES, LLC / KNV8E5VRLHT9",
+        "COURT SQUARE CAPITAL PARTNERS, L.P. / CFEWH2PLNLB9",
+        "KBR, INC. / VJ3XVZC76HT9",
+        "WYLE SERVICES CORPORATION / C4F4EWNSMYD8"
+      ],
+      "location": "HUNTSVILLE, AL, USA",
+      "contractAmount": -1284591.67,
+      "earliestTransaction": {
+        "date": "2007-10-01",
+        "award": "CONT_AWD_0170_9700_N6893602D0027_9700"
+      },
+      "latestTransaction": {
+        "date": "2026-06-29",
+        "award": "CONT_AWD_FA807518F1690_9700_FA807516D0010_9700"
+      },
+      "latestAwardParent": {
+        "id": "CONT_AWD_FA807518F1690_9700_FA807516D0010_9700",
+        "parentName": "KBR WYLE SERVICES, LLC",
+        "parentUei": "KNV8E5VRLHT9",
+        "recipientUei": "KNV8E5VRLHT9",
+        "responseSha256": "329f7888eb8b6dfec8a3bc0cc5e9205bc8fbcee1df98439dc6ba97abda20f956"
+      },
+      "warnings": [
+        "profile parent UEI FYDWBRMLRJM7 (KBR WYLE SERVICES, LLC) differs from expected; not relied on"
+      ],
+      "reasons": [
+        "latest award parent UEI KNV8E5VRLHT9 (KBR WYLE SERVICES, LLC) differs from expected"
+      ]
+    }
+  ],
+  "limitations": [
+    "USAspending reflects SAM data as reported; it is not SAM.gov itself",
+    "Recipient search is keyword-based and capped at 500 records",
+    "Profile parent fields can be stale; corroboration uses the parent on the latest award record",
+    "Name and parent agreement do not prove the SEC-listed legal entity; review state of incorporation separately where available"
+  ]
+}

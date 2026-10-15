@@ -1,0 +1,745 @@
+{
+  "generatedAt": "2026-10-15T18:51:48.739Z",
+  "query": {
+    "name": "Leidos, Inc.",
+    "parentUei": "ZL41ERXMPAR3,MDSWM6MB1BH7",
+    "entityId": "legal:leidos-inc",
+    "formerNames": [
+      "LEIDOS INC"
+    ],
+    "notBefore": null
+  },
+  "searched": 21,
+  "candidates": [
+    {
+      "evidence": {
+        "uei": "UE9QJD4KK1L6",
+        "cage": null,
+        "recipientId": "5ddb264f-234b-872c-2571-4731fde123c6-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/5ddb264f-234b-872c-2571-4731fde123c6-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/5ddb264f-234b-872c-2571-4731fde123c6-C/",
+        "responseSha256": "37acab223d3f0d17d978da26e6fe98a95e0b844fe6d379de7355607de0c35201",
+        "name": "LEIDOS, INC.",
+        "parentName": "LEIDOS, INC.",
+        "parentUei": "MDSWM6MB1BH7",
+        "otherReportedParents": [
+          "LEIDOS HOLDINGS, INC. / ZL41ERXMPAR3"
+        ],
+        "location": "RESTON, VA, USA",
+        "contractAmount": 2504157038.6,
+        "earliestTransaction": {
+          "date": "2008-05-08",
+          "award": "CONT_AWD_0002_9700_N0017806D3001_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-10-13",
+          "award": "CONT_AWD_75N97025F00001_7529_HHSN316201200044W_7529"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_75N97025F00001_7529_HHSN316201200044W_7529",
+          "parentName": "LEIDOS, INC.",
+          "parentUei": "MDSWM6MB1BH7",
+          "recipientUei": "UE9QJD4KK1L6",
+          "responseSha256": "8b494248ee3661d0e0abf0ef81c73bf3a7a1412182b70643c81490d5ffb6ae36"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:UE9QJD4KK1L6",
+        "kind": "uei",
+        "value": "UE9QJD4KK1L6",
+        "entityId": "legal:leidos-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2008-05-08",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/5ddb264f-234b-872c-2571-4731fde123c6-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/5ddb264f-234b-872c-2571-4731fde123c6-C/",
+        "supportingPassage": "LEIDOS, INC. | UEI UE9QJD4KK1L6 | RESTON, VA, USA | Latest award CONT_AWD_75N97025F00001_7529_HHSN316201200044W_7529 (2026-10-13) parent: LEIDOS, INC. (UEI MDSWM6MB1BH7)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "MDSWM6MB1BH7",
+        "cage": null,
+        "recipientId": "e77c753b-6638-3d5b-442e-c1225ca669d6-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/e77c753b-6638-3d5b-442e-c1225ca669d6-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/e77c753b-6638-3d5b-442e-c1225ca669d6-C/",
+        "responseSha256": "9e8770fa2d7a2d250ef6a2307349ef8c9849ab6d6c03d11dc6d3ca9e895c8ab9",
+        "name": "LEIDOS, INC.",
+        "parentName": "LEIDOS, INC.",
+        "parentUei": "MDSWM6MB1BH7",
+        "otherReportedParents": [
+          "LEIDOS HOLDINGS, INC. / ZL41ERXMPAR3"
+        ],
+        "location": "RESTON, VA, USA",
+        "contractAmount": 1312926687.54,
+        "earliestTransaction": {
+          "date": "2007-10-01",
+          "award": "CONT_AWD_0002_9700_W912P906D0534_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-09-30",
+          "award": "CONT_AWD_47QFCA22F0051_4732_GS00Q14OADU122_4732"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_47QFCA22F0051_4732_GS00Q14OADU122_4732",
+          "parentName": "LEIDOS HOLDINGS, INC.",
+          "parentUei": "ZL41ERXMPAR3",
+          "recipientUei": "MDSWM6MB1BH7",
+          "responseSha256": "5c4191c5ec691817b17a2456f0dea56ca43e1cdd2b9390e173b5821a31edb5d4"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:MDSWM6MB1BH7",
+        "kind": "uei",
+        "value": "MDSWM6MB1BH7",
+        "entityId": "legal:leidos-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-01",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/e77c753b-6638-3d5b-442e-c1225ca669d6-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/e77c753b-6638-3d5b-442e-c1225ca669d6-C/",
+        "supportingPassage": "LEIDOS, INC. | UEI MDSWM6MB1BH7 | RESTON, VA, USA | Latest award CONT_AWD_47QFCA22F0051_4732_GS00Q14OADU122_4732 (2026-09-30) parent: LEIDOS HOLDINGS, INC. (UEI ZL41ERXMPAR3)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "QLNMVC12KWY3",
+        "cage": null,
+        "recipientId": "b37ddcf2-0924-f6e0-0fee-c40823f5789b-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/b37ddcf2-0924-f6e0-0fee-c40823f5789b-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/b37ddcf2-0924-f6e0-0fee-c40823f5789b-C/",
+        "responseSha256": "e8406f22645ba8c76585ae18ac730787f266ea021f7a062188639329cbb30410",
+        "name": "LEIDOS, INC.",
+        "parentName": "LEIDOS, INC.",
+        "parentUei": "MDSWM6MB1BH7",
+        "otherReportedParents": [
+          "LEIDOS HOLDINGS, INC. / ZL41ERXMPAR3"
+        ],
+        "location": "RESTON, VA, USA",
+        "contractAmount": 959560402.11,
+        "earliestTransaction": {
+          "date": "2007-10-01",
+          "award": "CONT_AWD_0022_9700_FA704605D0010_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-10-13",
+          "award": "CONT_AWD_693JJ322F00275N_6925_693JJ321D000010_6925"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_693JJ322F00275N_6925_693JJ321D000010_6925",
+          "parentName": "LEIDOS HOLDINGS, INC.",
+          "parentUei": "ZL41ERXMPAR3",
+          "recipientUei": "QLNMVC12KWY3",
+          "responseSha256": "ef9ab3c2eb5a6d3c80b7a3aba2ae8cf296631a188f32244f6529f61613bab6bb"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:QLNMVC12KWY3",
+        "kind": "uei",
+        "value": "QLNMVC12KWY3",
+        "entityId": "legal:leidos-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-01",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/b37ddcf2-0924-f6e0-0fee-c40823f5789b-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/b37ddcf2-0924-f6e0-0fee-c40823f5789b-C/",
+        "supportingPassage": "LEIDOS, INC. | UEI QLNMVC12KWY3 | RESTON, VA, USA | Latest award CONT_AWD_693JJ322F00275N_6925_693JJ321D000010_6925 (2026-10-13) parent: LEIDOS HOLDINGS, INC. (UEI ZL41ERXMPAR3)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "MYKLJHTX3MM7",
+        "cage": null,
+        "recipientId": "32109085-1976-8da6-d5cd-7c8077389b75-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/32109085-1976-8da6-d5cd-7c8077389b75-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/32109085-1976-8da6-d5cd-7c8077389b75-C/",
+        "responseSha256": "2a62670219f3f75607430ba8e738c08cdd8cbfaa6a9ee4d9674b602180b90baa",
+        "name": "LEIDOS, INC.",
+        "parentName": "LEIDOS, INC.",
+        "parentUei": "MDSWM6MB1BH7",
+        "otherReportedParents": [
+          "LEIDOS HOLDINGS, INC. / ZL41ERXMPAR3",
+          "LOCKHEED MARTIN CORP / ZFN2JJXBLZT3"
+        ],
+        "location": "GAITHERSBURG, MD, USA",
+        "contractAmount": 952183089.71,
+        "earliestTransaction": {
+          "date": "2016-02-05",
+          "award": "CONT_AWD_GST0013AJ0036_4732_GST0012AJ0036_4732"
+        },
+        "latestTransaction": {
+          "date": "2026-10-07",
+          "award": "CONT_AWD_31310020F0054_3100_NRCHQ1017A0007_3100"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_31310020F0054_3100_NRCHQ1017A0007_3100",
+          "parentName": "LEIDOS, INC.",
+          "parentUei": "MDSWM6MB1BH7",
+          "recipientUei": "MYKLJHTX3MM7",
+          "responseSha256": "9f99288c536e54f65659c53052050ba99c7432bee6926032cd604e03a7384adc"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:MYKLJHTX3MM7",
+        "kind": "uei",
+        "value": "MYKLJHTX3MM7",
+        "entityId": "legal:leidos-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2016-02-05",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/32109085-1976-8da6-d5cd-7c8077389b75-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/32109085-1976-8da6-d5cd-7c8077389b75-C/",
+        "supportingPassage": "LEIDOS, INC. | UEI MYKLJHTX3MM7 | GAITHERSBURG, MD, USA | Latest award CONT_AWD_31310020F0054_3100_NRCHQ1017A0007_3100 (2026-10-07) parent: LEIDOS, INC. (UEI MDSWM6MB1BH7)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "KTMAJCY6JXM3",
+        "cage": null,
+        "recipientId": "876f1621-8b69-d47c-7fa6-933c63b9da44-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/876f1621-8b69-d47c-7fa6-933c63b9da44-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/876f1621-8b69-d47c-7fa6-933c63b9da44-C/",
+        "responseSha256": "493d7657218230162d322f2b99cbf56687c6e447eb72f417b7507961e5de461b",
+        "name": "LEIDOS, INC.",
+        "parentName": "LEIDOS, INC.",
+        "parentUei": "MDSWM6MB1BH7",
+        "otherReportedParents": [
+          "LEIDOS HOLDINGS, INC. / ZL41ERXMPAR3"
+        ],
+        "location": "RESTON, VA, USA",
+        "contractAmount": 653071032.7,
+        "earliestTransaction": {
+          "date": "2007-11-20",
+          "award": "CONT_AWD_0003_9700_W911SR07D0006_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-10-13",
+          "award": "CONT_AWD_HSTS0417JCT4063_7013_HSTS0415DCT4056_7013"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_HSTS0417JCT4063_7013_HSTS0415DCT4056_7013",
+          "parentName": "LEIDOS, INC.",
+          "parentUei": "MDSWM6MB1BH7",
+          "recipientUei": "KTMAJCY6JXM3",
+          "responseSha256": "515789c50316033e73388a856af2507a3f4987e5076ea8cb7ed7bab925ba8682"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:KTMAJCY6JXM3",
+        "kind": "uei",
+        "value": "KTMAJCY6JXM3",
+        "entityId": "legal:leidos-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-11-20",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/876f1621-8b69-d47c-7fa6-933c63b9da44-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/876f1621-8b69-d47c-7fa6-933c63b9da44-C/",
+        "supportingPassage": "LEIDOS, INC. | UEI KTMAJCY6JXM3 | RESTON, VA, USA | Latest award CONT_AWD_HSTS0417JCT4063_7013_HSTS0415DCT4056_7013 (2026-10-13) parent: LEIDOS, INC. (UEI MDSWM6MB1BH7)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "X38JVP4R72E1",
+        "cage": null,
+        "recipientId": "15534848-08a8-1966-50fd-042be5191faa-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/15534848-08a8-1966-50fd-042be5191faa-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/15534848-08a8-1966-50fd-042be5191faa-C/",
+        "responseSha256": "434426404a54b18b5ce351648c388b1c928e8f5106d8185129657a1986eb5dbb",
+        "name": "LEIDOS, INC.",
+        "parentName": "LEIDOS, INC.",
+        "parentUei": "MDSWM6MB1BH7",
+        "otherReportedParents": [
+          "LEIDOS, INC. / X38JVP4R72E1",
+          "LEIDOS HOLDINGS, INC. / ZL41ERXMPAR3"
+        ],
+        "location": "GAITHERSBURG, MD, USA",
+        "contractAmount": 302233767.4,
+        "earliestTransaction": {
+          "date": "2016-01-08",
+          "award": "CONT_AWD_0010_9700_W91QUZ06D0017_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-09-23",
+          "award": "CONT_AWD_NSFDACS1219442_4900_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_NSFDACS1219442_4900_-NONE-_-NONE-",
+          "parentName": "LEIDOS, INC.",
+          "parentUei": "MDSWM6MB1BH7",
+          "recipientUei": "X38JVP4R72E1",
+          "responseSha256": "c8974e0383a784f38761340b34e41b3ea9cd696203e835b81952d3b941bfcda7"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:X38JVP4R72E1",
+        "kind": "uei",
+        "value": "X38JVP4R72E1",
+        "entityId": "legal:leidos-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2016-01-08",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/15534848-08a8-1966-50fd-042be5191faa-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/15534848-08a8-1966-50fd-042be5191faa-C/",
+        "supportingPassage": "LEIDOS, INC. | UEI X38JVP4R72E1 | GAITHERSBURG, MD, USA | Latest award CONT_AWD_NSFDACS1219442_4900_-NONE-_-NONE- (2026-09-23) parent: LEIDOS, INC. (UEI MDSWM6MB1BH7)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "XGNZDXFUESH2",
+        "cage": null,
+        "recipientId": "eea9bd02-2026-1d04-465e-168819b70dd9-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/eea9bd02-2026-1d04-465e-168819b70dd9-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/eea9bd02-2026-1d04-465e-168819b70dd9-C/",
+        "responseSha256": "b2148b813205305f990e2ad98720c40c5e6eedcea787305c81c6dee70b4af9b9",
+        "name": "LEIDOS, INC.",
+        "parentName": "LEIDOS, INC.",
+        "parentUei": "XGNZDXFUESH2",
+        "otherReportedParents": [
+          "LEIDOS HOLDINGS, INC. / ZL41ERXMPAR3"
+        ],
+        "location": "RIDGECREST, CA, USA",
+        "contractAmount": 6151138.72,
+        "earliestTransaction": {
+          "date": "2022-02-15",
+          "award": "CONT_AWD_N6893622F0193_9700_N6893622D0021_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-07-15",
+          "award": "CONT_AWD_N6893624F0025_9700_N6893622D0021_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N6893624F0025_9700_N6893622D0021_9700",
+          "parentName": "LEIDOS HOLDINGS, INC.",
+          "parentUei": "ZL41ERXMPAR3",
+          "recipientUei": "XGNZDXFUESH2",
+          "responseSha256": "adf33c238b07b60248202074cb0ec9f404c68a7a0281452fdec8d2170784c93f"
+        },
+        "warnings": [
+          "profile parent UEI XGNZDXFUESH2 (LEIDOS, INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:XGNZDXFUESH2",
+        "kind": "uei",
+        "value": "XGNZDXFUESH2",
+        "entityId": "legal:leidos-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2022-02-15",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/eea9bd02-2026-1d04-465e-168819b70dd9-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/eea9bd02-2026-1d04-465e-168819b70dd9-C/",
+        "supportingPassage": "LEIDOS, INC. | UEI XGNZDXFUESH2 | RIDGECREST, CA, USA | Latest award CONT_AWD_N6893624F0025_9700_N6893622D0021_9700 (2026-07-15) parent: LEIDOS HOLDINGS, INC. (UEI ZL41ERXMPAR3)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "FNQDFB8Z8QA8",
+        "cage": null,
+        "recipientId": "e8da638c-0811-f6d0-44e8-ab20fae551ac-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/e8da638c-0811-f6d0-44e8-ab20fae551ac-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/e8da638c-0811-f6d0-44e8-ab20fae551ac-C/",
+        "responseSha256": "4e3dfe6501888cf035a5a45c75d4f40efd93ee1c71db3becf9e06cffb6b1aaa2",
+        "name": "LEIDOS, INC.",
+        "parentName": "LEIDOS HOLDINGS, INC.",
+        "parentUei": "ZL41ERXMPAR3",
+        "otherReportedParents": [],
+        "location": "MARLTON, NJ, USA",
+        "contractAmount": 10003.06,
+        "earliestTransaction": {
+          "date": "2017-05-16",
+          "award": "CONT_AWD_0060_9700_W15P7T06DE405_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-07-07",
+          "award": "CONT_AWD_0060_9700_W15P7T06DE405_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_0060_9700_W15P7T06DE405_9700",
+          "parentName": "LEIDOS HOLDINGS, INC.",
+          "parentUei": "ZL41ERXMPAR3",
+          "recipientUei": "FNQDFB8Z8QA8",
+          "responseSha256": "d3a3ca41b0af60fd0296d07adfcd7385fb171f51f0a2fd4b96793fff5166b461"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:FNQDFB8Z8QA8",
+        "kind": "uei",
+        "value": "FNQDFB8Z8QA8",
+        "entityId": "legal:leidos-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2017-05-16",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/e8da638c-0811-f6d0-44e8-ab20fae551ac-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/e8da638c-0811-f6d0-44e8-ab20fae551ac-C/",
+        "supportingPassage": "LEIDOS, INC. | UEI FNQDFB8Z8QA8 | MARLTON, NJ, USA | Latest award CONT_AWD_0060_9700_W15P7T06DE405_9700 (2026-07-07) parent: LEIDOS HOLDINGS, INC. (UEI ZL41ERXMPAR3)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "M1P5F2JW46K5",
+        "cage": null,
+        "recipientId": "b9a34a8b-35f0-00bb-6284-e4e1a777ccb6-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/b9a34a8b-35f0-00bb-6284-e4e1a777ccb6-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/b9a34a8b-35f0-00bb-6284-e4e1a777ccb6-C/",
+        "responseSha256": "ab3a7b9d04a41635cd76e0aefa4e58d91d4cb6b73748a9283047c19f92cd900d",
+        "name": "LEIDOS, INC.",
+        "parentName": "LEIDOS HOLDINGS, INC.",
+        "parentUei": "ZL41ERXMPAR3",
+        "otherReportedParents": [],
+        "location": "VIRGINIA BEACH, VA, USA",
+        "contractAmount": 0,
+        "earliestTransaction": {
+          "date": "2007-10-01",
+          "award": "CONT_AWD_0077_9700_N6523605D7862_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-04-06",
+          "award": "CONT_AWD_0013_9700_N6523605D7862_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_0013_9700_N6523605D7862_9700",
+          "parentName": "LEIDOS HOLDINGS, INC.",
+          "parentUei": "ZL41ERXMPAR3",
+          "recipientUei": "M1P5F2JW46K5",
+          "responseSha256": "781fae27dd37f4745eec82ee1afd2adcc40173fd8dfdc78f3ca634025f19b79e"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:M1P5F2JW46K5",
+        "kind": "uei",
+        "value": "M1P5F2JW46K5",
+        "entityId": "legal:leidos-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-01",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/b9a34a8b-35f0-00bb-6284-e4e1a777ccb6-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/b9a34a8b-35f0-00bb-6284-e4e1a777ccb6-C/",
+        "supportingPassage": "LEIDOS, INC. | UEI M1P5F2JW46K5 | VIRGINIA BEACH, VA, USA | Latest award CONT_AWD_0013_9700_N6523605D7862_9700 (2026-04-06) parent: LEIDOS HOLDINGS, INC. (UEI ZL41ERXMPAR3)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "JQDMQAFGLLV6",
+        "cage": null,
+        "recipientId": "b4db0ee8-5f5f-8306-43c3-4356f30f146a-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/b4db0ee8-5f5f-8306-43c3-4356f30f146a-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/b4db0ee8-5f5f-8306-43c3-4356f30f146a-C/",
+        "responseSha256": "d380764343743c453f94a591eab4d793fabe6e59ced0326c793e90fefe6b503f",
+        "name": "LEIDOS, INC.",
+        "parentName": "LEIDOS HOLDINGS, INC.",
+        "parentUei": "ZL41ERXMPAR3",
+        "otherReportedParents": [],
+        "location": "ROCKVILLE, MD, USA",
+        "contractAmount": 0,
+        "earliestTransaction": {
+          "date": "2017-06-22",
+          "award": "CONT_AWD_HSHQDC14J00213_7001_HSHQDC14DE2042_7001"
+        },
+        "latestTransaction": {
+          "date": "2021-12-17",
+          "award": "CONT_AWD_70SBUR18F00000703_7003_HSHQDC14DE2042_7001"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_70SBUR18F00000703_7003_HSHQDC14DE2042_7001",
+          "parentName": "LEIDOS HOLDINGS, INC.",
+          "parentUei": "ZL41ERXMPAR3",
+          "recipientUei": "JQDMQAFGLLV6",
+          "responseSha256": "26ba1ec6565fcc370bcb54bd35fa0037af8ecff269efbfcab29dd44a266e6994"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:JQDMQAFGLLV6",
+        "kind": "uei",
+        "value": "JQDMQAFGLLV6",
+        "entityId": "legal:leidos-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2017-06-22",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/b4db0ee8-5f5f-8306-43c3-4356f30f146a-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/b4db0ee8-5f5f-8306-43c3-4356f30f146a-C/",
+        "supportingPassage": "LEIDOS, INC. | UEI JQDMQAFGLLV6 | ROCKVILLE, MD, USA | Latest award CONT_AWD_70SBUR18F00000703_7003_HSHQDC14DE2042_7001 (2021-12-17) parent: LEIDOS HOLDINGS, INC. (UEI ZL41ERXMPAR3)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "NRCCMBKQ6FD7",
+        "cage": null,
+        "recipientId": "1bf1c37a-6a0c-819e-e290-a770cf1ad06d-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/1bf1c37a-6a0c-819e-e290-a770cf1ad06d-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/1bf1c37a-6a0c-819e-e290-a770cf1ad06d-C/",
+        "responseSha256": "ef441ebc87ef1b7f7eb502859f87b7f8e4a1c1dd0285d2f75f8269b6c8fef06c",
+        "name": "LEIDOS, INC.",
+        "parentName": "LEIDOS HOLDINGS, INC.",
+        "parentUei": "ZL41ERXMPAR3",
+        "otherReportedParents": [
+          "LOCKHEED MARTIN CORP / ZFN2JJXBLZT3"
+        ],
+        "location": "GAITHERSBURG, MD, USA",
+        "contractAmount": 0,
+        "earliestTransaction": {
+          "date": "2011-04-29",
+          "award": "CONT_AWD_GST0711BG0063_4732_GS02F0114T_4730"
+        },
+        "latestTransaction": {
+          "date": "2026-05-22",
+          "award": "CONT_AWD_W58RGZ17C0058_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_W58RGZ17C0058_9700_-NONE-_-NONE-",
+          "parentName": "LEIDOS HOLDINGS, INC.",
+          "parentUei": "ZL41ERXMPAR3",
+          "recipientUei": "NRCCMBKQ6FD7",
+          "responseSha256": "5dbb1e365badaa64a6037fa3c823b98f4bbf6db6668bbc7167b6a1f4bd759868"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:NRCCMBKQ6FD7",
+        "kind": "uei",
+        "value": "NRCCMBKQ6FD7",
+        "entityId": "legal:leidos-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2011-04-29",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/1bf1c37a-6a0c-819e-e290-a770cf1ad06d-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/1bf1c37a-6a0c-819e-e290-a770cf1ad06d-C/",
+        "supportingPassage": "LEIDOS, INC. | UEI NRCCMBKQ6FD7 | GAITHERSBURG, MD, USA | Latest award CONT_AWD_W58RGZ17C0058_9700_-NONE-_-NONE- (2026-05-22) parent: LEIDOS HOLDINGS, INC. (UEI ZL41ERXMPAR3)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "P1DHVE8PH2Q3",
+        "cage": null,
+        "recipientId": "a804b7bb-9497-3b7e-e172-9bc63781892e-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/a804b7bb-9497-3b7e-e172-9bc63781892e-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/a804b7bb-9497-3b7e-e172-9bc63781892e-C/",
+        "responseSha256": "06e8e001d73e2c8eb85bdccc4a455f75fba606edbcbf71e2389b2fa51c96dbe6",
+        "name": "LEIDOS, INC.",
+        "parentName": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+        "parentUei": "RE7WMNV9L719",
+        "otherReportedParents": [
+          "LEIDOS HOLDINGS, INC. / ZL41ERXMPAR3"
+        ],
+        "location": "SAN DIEGO, CA, USA",
+        "contractAmount": -123121.04,
+        "earliestTransaction": {
+          "date": "2007-10-01",
+          "award": "CONT_AWD_0015_9700_N0003306D6507_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-04-06",
+          "award": "CONT_AWD_HHSD2002010372190004_7523_HHSD200201037219I_7523"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_HHSD2002010372190004_7523_HHSD200201037219I_7523",
+          "parentName": "LEIDOS HOLDINGS, INC.",
+          "parentUei": "ZL41ERXMPAR3",
+          "recipientUei": "P1DHVE8PH2Q3",
+          "responseSha256": "e5edf8e75582087e996110ace2098762d58ec1a2d27ff129c6d24ab3c928c60e"
+        },
+        "warnings": [
+          "profile parent UEI RE7WMNV9L719 (SCIENCE APPLICATIONS INTERNATIONAL CORPORATION) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:P1DHVE8PH2Q3",
+        "kind": "uei",
+        "value": "P1DHVE8PH2Q3",
+        "entityId": "legal:leidos-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-01",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/a804b7bb-9497-3b7e-e172-9bc63781892e-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/a804b7bb-9497-3b7e-e172-9bc63781892e-C/",
+        "supportingPassage": "LEIDOS, INC. | UEI P1DHVE8PH2Q3 | SAN DIEGO, CA, USA | Latest award CONT_AWD_HHSD2002010372190004_7523_HHSD200201037219I_7523 (2026-04-06) parent: LEIDOS HOLDINGS, INC. (UEI ZL41ERXMPAR3)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "WEFTSLL9UN87",
+        "cage": null,
+        "recipientId": "1a41bba8-1f82-5271-0da9-a713f592dc8b-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/1a41bba8-1f82-5271-0da9-a713f592dc8b-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/1a41bba8-1f82-5271-0da9-a713f592dc8b-C/",
+        "responseSha256": "12213e8722aa74705c4c0d6670d7d1248554e2ff4307b5f7f3cca513effa7817",
+        "name": "LEIDOS, INC.",
+        "parentName": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+        "parentUei": "RE7WMNV9L719",
+        "otherReportedParents": [
+          "LEIDOS HOLDINGS, INC. / ZL41ERXMPAR3"
+        ],
+        "location": "MCLEAN, VA, USA",
+        "contractAmount": -4730781.24,
+        "earliestTransaction": {
+          "date": "2007-10-02",
+          "award": "CONT_AWD_0013_9700_DAMD1798D0022_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-09-16",
+          "award": "CONT_AWD_693KA720C00013_6920_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_693KA720C00013_6920_-NONE-_-NONE-",
+          "parentName": "LEIDOS HOLDINGS, INC.",
+          "parentUei": "ZL41ERXMPAR3",
+          "recipientUei": "WEFTSLL9UN87",
+          "responseSha256": "c0a8b6e29533a51b1077df381e5856068a238fbcba81d796ef3ed0db118312fe"
+        },
+        "warnings": [
+          "profile parent UEI RE7WMNV9L719 (SCIENCE APPLICATIONS INTERNATIONAL CORPORATION) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:WEFTSLL9UN87",
+        "kind": "uei",
+        "value": "WEFTSLL9UN87",
+        "entityId": "legal:leidos-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-02",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/1a41bba8-1f82-5271-0da9-a713f592dc8b-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/1a41bba8-1f82-5271-0da9-a713f592dc8b-C/",
+        "supportingPassage": "LEIDOS, INC. | UEI WEFTSLL9UN87 | MCLEAN, VA, USA | Latest award CONT_AWD_693KA720C00013_6920_-NONE-_-NONE- (2026-09-16) parent: LEIDOS HOLDINGS, INC. (UEI ZL41ERXMPAR3)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "uei": "JSTDGZNFP4A3",
+      "cage": null,
+      "recipientId": "0bf701d6-8935-ff83-f538-61a988d9e121-C",
+      "profileUrl": "https://www.usaspending.gov/recipient/0bf701d6-8935-ff83-f538-61a988d9e121-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/0bf701d6-8935-ff83-f538-61a988d9e121-C/",
+      "responseSha256": "2043b938525cf65a2776e1e159742a71b8d9e5d3b9c4a4fb66bbdf08fb02a0a8",
+      "name": "LEIDOS, INC.",
+      "parentName": "LEIDOS, INC.",
+      "parentUei": "JSTDGZNFP4A3",
+      "otherReportedParents": [
+        "LEIDOS HOLDINGS, INC. / ZL41ERXMPAR3"
+      ],
+      "location": "RESTON, VA, USA",
+      "contractAmount": 305913105.35,
+      "earliestTransaction": {
+        "date": "2009-08-21",
+        "award": "CONT_AWD_V200P1809_3600_V200P1750_3600"
+      },
+      "latestTransaction": {
+        "date": "2026-09-30",
+        "award": "CONT_AWD_70B03C20F00000451_7014_70B03C20D00000012_7014"
+      },
+      "latestAwardParent": {
+        "id": "CONT_AWD_70B03C20F00000451_7014_70B03C20D00000012_7014",
+        "parentName": "LEIDOS, INC.",
+        "parentUei": "JSTDGZNFP4A3",
+        "recipientUei": "JSTDGZNFP4A3",
+        "responseSha256": "25db50642346e17366cea56a010f865040adc7791d6277a0be20b71f241305bf"
+      },
+      "warnings": [
+        "profile parent UEI JSTDGZNFP4A3 (LEIDOS, INC.) differs from expected; not relied on"
+      ],
+      "reasons": [
+        "latest award parent UEI JSTDGZNFP4A3 (LEIDOS, INC.) differs from expected"
+      ]
+    },
+    {
+      "uei": "LK5RJU5V68X6",
+      "cage": null,
+      "recipientId": "ecd408f1-c41f-2c93-2bdb-cd5a6fc0ffdf-C",
+      "profileUrl": "https://www.usaspending.gov/recipient/ecd408f1-c41f-2c93-2bdb-cd5a6fc0ffdf-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/ecd408f1-c41f-2c93-2bdb-cd5a6fc0ffdf-C/",
+      "responseSha256": "7dbbd354a53faf0e89edc1c5d8b294bbdae1b916df69fc43676c4a823625d941",
+      "name": "LEIDOS, INC.",
+      "parentName": "LEIDOS HOLDINGS, INC.",
+      "parentUei": "ZL41ERXMPAR3",
+      "otherReportedParents": [
+        "LEIDOS, INC. / LK5RJU5V68X6"
+      ],
+      "location": "SAN DIEGO, CA, USA",
+      "contractAmount": 114024179.86,
+      "earliestTransaction": {
+        "date": "2011-05-10",
+        "award": "CONT_AWD_W912LA11P0065_9700_-NONE-_-NONE-"
+      },
+      "latestTransaction": {
+        "date": "2026-09-28",
+        "award": "CONT_AWD_70B03C21F00001091_7014_70B03C21D00000036_7014"
+      },
+      "latestAwardParent": {
+        "id": "CONT_AWD_70B03C21F00001091_7014_70B03C21D00000036_7014",
+        "parentName": "LEIDOS, INC.",
+        "parentUei": "LK5RJU5V68X6",
+        "recipientUei": "LK5RJU5V68X6",
+        "responseSha256": "e6db3ba85322e8e73d4613eb86359491dddef24f970cc0cd7e8461bec5136fbc"
+      },
+      "warnings": [],
+      "reasons": [
+        "latest award parent UEI LK5RJU5V68X6 (LEIDOS, INC.) differs from expected"
+      ]
+    },
+    {
+      "uei": "E9BSACNAJ7G1",
+      "cage": null,
+      "recipientId": "dd8d8d62-0f35-303f-f188-faacc4087b3a-C",
+      "profileUrl": "https://www.usaspending.gov/recipient/dd8d8d62-0f35-303f-f188-faacc4087b3a-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/dd8d8d62-0f35-303f-f188-faacc4087b3a-C/",
+      "responseSha256": "a90884b1e8b2c18d77c2d119ab611c0d53d1d6b33a737740ee657de899d5a2aa",
+      "name": "LEIDOS, INC.",
+      "parentName": "LEIDOS, INC.",
+      "parentUei": "E9BSACNAJ7G1",
+      "otherReportedParents": [
+        "LEIDOS HOLDINGS, INC. / ZL41ERXMPAR3"
+      ],
+      "location": "RESTON, VA, USA",
+      "contractAmount": 2222075.81,
+      "earliestTransaction": {
+        "date": "2008-09-02",
+        "award": "CONT_AWD_FA460008F8317_9700_GS23F8006H_4730"
+      },
+      "latestTransaction": {
+        "date": "2026-09-28",
+        "award": "CONT_AWD_89243221FNE400069_8900_GS00F022CA_4732"
+      },
+      "latestAwardParent": {
+        "id": "CONT_AWD_89243221FNE400069_8900_GS00F022CA_4732",
+        "parentName": "LEIDOS, INC.",
+        "parentUei": "E9BSACNAJ7G1",
+        "recipientUei": "E9BSACNAJ7G1",
+        "responseSha256": "739d2c7bd168a6b817723852ebd42b3956bb516abc10f82a9f5cc279036ea41c"
+      },
+      "warnings": [
+        "profile parent UEI E9BSACNAJ7G1 (LEIDOS, INC.) differs from expected; not relied on"
+      ],
+      "reasons": [
+        "latest award parent UEI E9BSACNAJ7G1 (LEIDOS, INC.) differs from expected"
+      ]
+    }
+  ],
+  "limitations": [
+    "USAspending reflects SAM data as reported; it is not SAM.gov itself",
+    "Recipient search is keyword-based and capped at 500 records",
+    "Profile parent fields can be stale; corroboration uses the parent on the latest award record",
+    "Name and parent agreement do not prove the SEC-listed legal entity; review state of incorporation separately where available"
+  ]
+}

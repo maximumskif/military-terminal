@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T18:36:43.587Z",
+  "generatedAt": "2026-10-15T18:52:54.844Z",
   "query": {
     "name": "The Boeing Company",
     "parentUei": "NU2UC8MX6NK1",
@@ -7,7 +7,8 @@
     "formerNames": [
       "BOEING COMPANY, THE",
       "BOEING COMPANY"
-    ]
+    ],
+    "notBefore": null
   },
   "searched": 32,
   "candidates": [
@@ -617,14 +618,14 @@
         },
         "latestTransaction": {
           "date": "2026-07-09",
-          "award": "CONT_AWD_FA810721F5005_9700_FA810719D0001_9700"
+          "award": "CONT_AWD_FA810721F1005_9700_FA810719D0001_9700"
         },
         "latestAwardParent": {
-          "id": "CONT_AWD_FA810721F5005_9700_FA810719D0001_9700",
+          "id": "CONT_AWD_FA810721F1005_9700_FA810719D0001_9700",
           "parentName": "THE BOEING COMPANY",
           "parentUei": "NU2UC8MX6NK1",
           "recipientUei": "XM8ZJ6ML9CW7",
-          "responseSha256": "2e9094be3624c45c348f1b18c0df46574aab1884da467b9679ec0816d0f58bb9"
+          "responseSha256": "41d83465baccb4b3d1a32b8def56dad82d85c4ef527f1c7a15eb566d82525d22"
         },
         "warnings": [
           "profile parent UEI ZE95AC36GJ76 (THE BOEING COMPANY) differs from expected; not relied on"
@@ -640,7 +641,7 @@
         "evidenceAsOf": "2026-10-15",
         "sourceUrl": "https://www.usaspending.gov/recipient/15a7d2ee-b7aa-fe37-36ec-ff299338b908-C/latest",
         "apiUrl": "https://api.usaspending.gov/api/v2/recipient/15a7d2ee-b7aa-fe37-36ec-ff299338b908-C/",
-        "supportingPassage": "THE BOEING COMPANY | UEI XM8ZJ6ML9CW7 | OKLAHOMA CITY, OK, USA | Latest award CONT_AWD_FA810721F5005_9700_FA810719D0001_9700 (2026-07-09) parent: THE BOEING COMPANY (UEI NU2UC8MX6NK1)",
+        "supportingPassage": "THE BOEING COMPANY | UEI XM8ZJ6ML9CW7 | OKLAHOMA CITY, OK, USA | Latest award CONT_AWD_FA810721F1005_9700_FA810719D0001_9700 (2026-07-09) parent: THE BOEING COMPANY (UEI NU2UC8MX6NK1)",
         "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
       }
     },
@@ -666,14 +667,14 @@
         },
         "latestTransaction": {
           "date": "2026-07-02",
-          "award": "CONT_AWD_FA812826CB001_9700_-NONE-_-NONE-"
+          "award": "CONT_AWD_FA812818C0002_9700_-NONE-_-NONE-"
         },
         "latestAwardParent": {
-          "id": "CONT_AWD_FA812826CB001_9700_-NONE-_-NONE-",
+          "id": "CONT_AWD_FA812818C0002_9700_-NONE-_-NONE-",
           "parentName": "THE BOEING COMPANY",
           "parentUei": "NU2UC8MX6NK1",
           "recipientUei": "PHJHM5MZKMN5",
-          "responseSha256": "37005f42c9f6e69c1d757ddc580f5b1f22bc4200449ec7885d78b39aada1faf9"
+          "responseSha256": "ce96e36e4e70915aaf5b7dac00789f6ae2da2c9c488d553031b1b4be4b778369"
         },
         "warnings": [
           "profile parent UEI ZE95AC36GJ76 (THE BOEING COMPANY) differs from expected; not relied on"
@@ -689,7 +690,7 @@
         "evidenceAsOf": "2026-10-15",
         "sourceUrl": "https://www.usaspending.gov/recipient/41da8303-3af5-fe35-995a-1befcc8f5cb6-C/latest",
         "apiUrl": "https://api.usaspending.gov/api/v2/recipient/41da8303-3af5-fe35-995a-1befcc8f5cb6-C/",
-        "supportingPassage": "THE BOEING COMPANY | UEI PHJHM5MZKMN5 | HEATH, OH, USA | Latest award CONT_AWD_FA812826CB001_9700_-NONE-_-NONE- (2026-07-02) parent: THE BOEING COMPANY (UEI NU2UC8MX6NK1)",
+        "supportingPassage": "THE BOEING COMPANY | UEI PHJHM5MZKMN5 | HEATH, OH, USA | Latest award CONT_AWD_FA812818C0002_9700_-NONE-_-NONE- (2026-07-02) parent: THE BOEING COMPANY (UEI NU2UC8MX6NK1)",
         "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
       }
     },
@@ -1477,8 +1478,17 @@
       "location": "ARLINGTON, VA, USA",
       "contractAmount": 194529,
       "earliestTransaction": null,
-      "latestTransaction": null,
-      "latestAwardParent": null,
+      "latestTransaction": {
+        "date": "2026-09-17",
+        "award": "CONT_AWD_80AFRC26P0010_8000_-NONE-_-NONE-"
+      },
+      "latestAwardParent": {
+        "id": "CONT_AWD_80AFRC26P0010_8000_-NONE-_-NONE-",
+        "parentName": "THE BOEING COMPANY",
+        "parentUei": "NU2UC8MX6NK1",
+        "recipientUei": "NU2UC8MX6NK1",
+        "responseSha256": "fabff5f0e81d7946a78029d606516246f5b5e77e5daba6fab618c8c69ce252ed"
+      },
       "warnings": [],
       "reasons": [
         "no contract transactions found under this UEI"

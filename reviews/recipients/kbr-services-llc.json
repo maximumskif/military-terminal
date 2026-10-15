@@ -1,0 +1,117 @@
+{
+  "generatedAt": "2026-10-15T18:50:19.204Z",
+  "query": {
+    "name": "KBR Services, LLC",
+    "parentUei": "VJ3XVZC76HT9",
+    "entityId": "legal:kbr-services-llc",
+    "formerNames": [],
+    "notBefore": null
+  },
+  "searched": 2,
+  "candidates": [
+    {
+      "evidence": {
+        "uei": "YSQMHRS4HSC5",
+        "cage": null,
+        "recipientId": "77b600af-8a01-de99-cfcc-06558d83a984-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/77b600af-8a01-de99-cfcc-06558d83a984-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/77b600af-8a01-de99-cfcc-06558d83a984-C/",
+        "responseSha256": "c459145d61311421aad16e5194869187b4b951c7298e6c6d41ca50350c1f316e",
+        "name": "KBR SERVICES, LLC",
+        "parentName": "KBR, INC.",
+        "parentUei": "VJ3XVZC76HT9",
+        "otherReportedParents": [
+          "KBR SERVICES  LLC / HJN1FDEZYUE6",
+          "KBR WYLE SERVICES, LLC / TGPKTMN8YL31"
+        ],
+        "location": "HOUSTON, TX, USA",
+        "contractAmount": 631386124.52,
+        "earliestTransaction": {
+          "date": "2007-10-03",
+          "award": "CONT_AWD_0137_9700_DAAA0902D0007_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-10-05",
+          "award": "CONT_AWD_49100426F0068_4900_49100426D0002_4900"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_49100426F0068_4900_49100426D0002_4900",
+          "parentName": "KBR, INC.",
+          "parentUei": "VJ3XVZC76HT9",
+          "recipientUei": "YSQMHRS4HSC5",
+          "responseSha256": "06f32b3b2a264de6d194e6d7e30b3a4beb7539d7da7cb903b4559c7d3815cf7f"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:YSQMHRS4HSC5",
+        "kind": "uei",
+        "value": "YSQMHRS4HSC5",
+        "entityId": "legal:kbr-services-llc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-03",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/77b600af-8a01-de99-cfcc-06558d83a984-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/77b600af-8a01-de99-cfcc-06558d83a984-C/",
+        "supportingPassage": "KBR SERVICES, LLC | UEI YSQMHRS4HSC5 | HOUSTON, TX, USA | Latest award CONT_AWD_49100426F0068_4900_49100426D0002_4900 (2026-10-05) parent: KBR, INC. (UEI VJ3XVZC76HT9)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "JWK8UZM4WL51",
+        "cage": null,
+        "recipientId": "740d4c21-b343-ba93-d03f-9f44c91d8f63-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/740d4c21-b343-ba93-d03f-9f44c91d8f63-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/740d4c21-b343-ba93-d03f-9f44c91d8f63-C/",
+        "responseSha256": "0c0146c42ca57cfe6a6b53afe978594ccd4da38c8943f7c27c2262f55e57c934",
+        "name": "KBR SERVICES, LLC",
+        "parentName": "HONEYWELL INTERNATIONAL INC",
+        "parentUei": "YBVGQEYENNM6",
+        "otherReportedParents": [
+          "KBR, INC. / VJ3XVZC76HT9"
+        ],
+        "location": "JACKSONVILLE, FL, USA",
+        "contractAmount": 157274.4,
+        "earliestTransaction": {
+          "date": "2009-05-29",
+          "award": "CONT_AWD_0001_9700_M6700409D0020_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-09-17",
+          "award": "CONT_AWD_191Z1026F0018_1900_191Z1026D0001_1900"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_191Z1026F0018_1900_191Z1026D0001_1900",
+          "parentName": "KBR, INC.",
+          "parentUei": "VJ3XVZC76HT9",
+          "recipientUei": "JWK8UZM4WL51",
+          "responseSha256": "3d6e40a3de98a1c8285540d065c2b5cae3b30ae3c6901e9017909a78ef6b67cd"
+        },
+        "warnings": [
+          "profile parent UEI YBVGQEYENNM6 (HONEYWELL INTERNATIONAL INC) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:JWK8UZM4WL51",
+        "kind": "uei",
+        "value": "JWK8UZM4WL51",
+        "entityId": "legal:kbr-services-llc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2009-05-29",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/740d4c21-b343-ba93-d03f-9f44c91d8f63-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/740d4c21-b343-ba93-d03f-9f44c91d8f63-C/",
+        "supportingPassage": "KBR SERVICES, LLC | UEI JWK8UZM4WL51 | JACKSONVILLE, FL, USA | Latest award CONT_AWD_191Z1026F0018_1900_191Z1026D0001_1900 (2026-09-17) parent: KBR, INC. (UEI VJ3XVZC76HT9)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    }
+  ],
+  "excluded": [],
+  "limitations": [
+    "USAspending reflects SAM data as reported; it is not SAM.gov itself",
+    "Recipient search is keyword-based and capped at 500 records",
+    "Profile parent fields can be stale; corroboration uses the parent on the latest award record",
+    "Name and parent agreement do not prove the SEC-listed legal entity; review state of incorporation separately where available"
+  ]
+}

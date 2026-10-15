@@ -1,0 +1,307 @@
+{
+  "generatedAt": "2026-10-15T18:50:52.452Z",
+  "query": {
+    "name": "Science Applications International Corporation",
+    "parentUei": "MMLKPW9JLX64",
+    "entityId": "sec:0001571123",
+    "formerNames": [
+      "SCIENCE APPLICATIONS INTERNATIONAL CORP",
+      "SAIC GEMINI INC"
+    ],
+    "notBefore": "2013-09-27"
+  },
+  "searched": 13,
+  "candidates": [
+    {
+      "evidence": {
+        "uei": "MMLKPW9JLX64",
+        "cage": null,
+        "recipientId": "20af0683-f17d-1f8f-38ee-2f11bd124559-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/20af0683-f17d-1f8f-38ee-2f11bd124559-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/20af0683-f17d-1f8f-38ee-2f11bd124559-C/",
+        "responseSha256": "f7f1db75a487d9053a61049e9b8c5e05630e587ac899e88c272bb78657a74b00",
+        "name": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+        "parentName": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+        "parentUei": "RE7WMNV9L719",
+        "otherReportedParents": [
+          "LEIDOS HOLDINGS, INC. / ZL41ERXMPAR3",
+          "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION / MMLKPW9JLX64"
+        ],
+        "location": "RESTON, VA, USA",
+        "contractAmount": 4078246730.58,
+        "earliestTransaction": {
+          "date": "2007-10-02",
+          "award": "CONT_AWD_N407_9700_N0017804D4119_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-10-08",
+          "award": "CONT_AWD_2033H624F00070_2036_GS35F486BA_4732"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_2033H624F00070_2036_GS35F486BA_4732",
+          "parentName": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+          "parentUei": "MMLKPW9JLX64",
+          "recipientUei": "MMLKPW9JLX64",
+          "responseSha256": "0b2c321cbd116ab08f7cf7fc67d96a8cf1d6e507f04d4ac4902a1044ec0f5d6e"
+        },
+        "warnings": [
+          "profile parent UEI RE7WMNV9L719 (SCIENCE APPLICATIONS INTERNATIONAL CORPORATION) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:MMLKPW9JLX64",
+        "kind": "uei",
+        "value": "MMLKPW9JLX64",
+        "entityId": "sec:0001571123",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2013-09-27",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/20af0683-f17d-1f8f-38ee-2f11bd124559-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/20af0683-f17d-1f8f-38ee-2f11bd124559-C/",
+        "supportingPassage": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION | UEI MMLKPW9JLX64 | RESTON, VA, USA | Latest award CONT_AWD_2033H624F00070_2036_GS35F486BA_4732 (2026-10-08) parent: SCIENCE APPLICATIONS INTERNATIONAL CORPORATION (UEI MMLKPW9JLX64)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "L7EUZR8R5RZ3",
+        "cage": null,
+        "recipientId": "900dcfe5-fb04-162f-2149-75b51d42021a-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/900dcfe5-fb04-162f-2149-75b51d42021a-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/900dcfe5-fb04-162f-2149-75b51d42021a-C/",
+        "responseSha256": "1f1839b19ab4685d03c9cda3b51406efc761f5d9463b93b7cebc9e635d135b46",
+        "name": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+        "parentName": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+        "parentUei": "L7EUZR8R5RZ3",
+        "otherReportedParents": [
+          "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION / RE7WMNV9L719",
+          "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION / MMLKPW9JLX64"
+        ],
+        "location": "SAN DIEGO, CA, USA",
+        "contractAmount": 90551583.58,
+        "earliestTransaction": {
+          "date": "2019-10-28",
+          "award": "CONT_AWD_80LARC19C0007_8000_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-10-13",
+          "award": "CONT_AWD_693JJ324F00481N_6925_693JK420D500002_6901"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_693JJ324F00481N_6925_693JK420D500002_6901",
+          "parentName": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+          "parentUei": "MMLKPW9JLX64",
+          "recipientUei": "L7EUZR8R5RZ3",
+          "responseSha256": "a4230b251225cb29be3d1655bc45a2eaab9d0f5ee43cfbd47cbf7a56404d1028"
+        },
+        "warnings": [
+          "profile parent UEI L7EUZR8R5RZ3 (SCIENCE APPLICATIONS INTERNATIONAL CORPORATION) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:L7EUZR8R5RZ3",
+        "kind": "uei",
+        "value": "L7EUZR8R5RZ3",
+        "entityId": "sec:0001571123",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2019-10-28",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/900dcfe5-fb04-162f-2149-75b51d42021a-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/900dcfe5-fb04-162f-2149-75b51d42021a-C/",
+        "supportingPassage": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION | UEI L7EUZR8R5RZ3 | SAN DIEGO, CA, USA | Latest award CONT_AWD_693JJ324F00481N_6925_693JK420D500002_6901 (2026-10-13) parent: SCIENCE APPLICATIONS INTERNATIONAL CORPORATION (UEI MMLKPW9JLX64)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "uei": "W86MRS1GLQW5",
+      "cage": null,
+      "recipientId": "6d7248f9-fd1b-2fe9-b188-b5e95ce285bf-C",
+      "profileUrl": "https://www.usaspending.gov/recipient/6d7248f9-fd1b-2fe9-b188-b5e95ce285bf-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/6d7248f9-fd1b-2fe9-b188-b5e95ce285bf-C/",
+      "responseSha256": "ca148dd03a4a645ebf68412cf48b9001ae047694da6d3b5267600cb77cb6ff05",
+      "name": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+      "parentName": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+      "parentUei": "RE7WMNV9L719",
+      "otherReportedParents": [
+        "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION / W86MRS1GLQW5"
+      ],
+      "location": "CHANTILLY, VA, USA",
+      "contractAmount": 57482165.93,
+      "earliestTransaction": {
+        "date": "2014-08-25",
+        "award": "CONT_AWD_NNX13AA59T_8000_NNM11AA02C_8000"
+      },
+      "latestTransaction": {
+        "date": "2026-08-26",
+        "award": "CONT_AWD_80NSSC22F0354_8000_NNX16MB01C_8000"
+      },
+      "latestAwardParent": {
+        "id": "CONT_AWD_80NSSC22F0354_8000_NNX16MB01C_8000",
+        "parentName": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+        "parentUei": "W86MRS1GLQW5",
+        "recipientUei": "W86MRS1GLQW5",
+        "responseSha256": "2d05a71fab017152cdc8090d2fac78f8172e934022e11d8453e6d6cef6afca5f"
+      },
+      "warnings": [
+        "profile parent UEI RE7WMNV9L719 (SCIENCE APPLICATIONS INTERNATIONAL CORPORATION) differs from expected; not relied on"
+      ],
+      "reasons": [
+        "latest award parent UEI W86MRS1GLQW5 (SCIENCE APPLICATIONS INTERNATIONAL CORPORATION) differs from expected"
+      ]
+    },
+    {
+      "uei": "RE7WMNV9L719",
+      "cage": null,
+      "recipientId": "dfd33a5b-c61f-b4b7-1492-b74daca9a499-C",
+      "profileUrl": "https://www.usaspending.gov/recipient/dfd33a5b-c61f-b4b7-1492-b74daca9a499-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/dfd33a5b-c61f-b4b7-1492-b74daca9a499-C/",
+      "responseSha256": "db56e6121f326b782ef940fb2a7717e59ce2bbf374af7d95e9d4592b27c2a135",
+      "name": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+      "parentName": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+      "parentUei": "RE7WMNV9L719",
+      "otherReportedParents": [],
+      "location": "RESTON, VA, USA",
+      "contractAmount": 42046427.66,
+      "earliestTransaction": null,
+      "latestTransaction": {
+        "date": "2026-09-23",
+        "award": "CONT_AWD_692M1524F00051_6920_692M1520D00004_6920"
+      },
+      "latestAwardParent": {
+        "id": "CONT_AWD_692M1524F00051_6920_692M1520D00004_6920",
+        "parentName": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+        "parentUei": "RE7WMNV9L719",
+        "recipientUei": "RE7WMNV9L719",
+        "responseSha256": "eab36df8cb5941d0cf823748be54fb60873ef0809092b04db725bde4500590e2"
+      },
+      "warnings": [
+        "profile parent UEI RE7WMNV9L719 (SCIENCE APPLICATIONS INTERNATIONAL CORPORATION) differs from expected; not relied on"
+      ],
+      "reasons": [
+        "no contract transactions found under this UEI",
+        "latest award parent UEI RE7WMNV9L719 (SCIENCE APPLICATIONS INTERNATIONAL CORPORATION) differs from expected"
+      ]
+    },
+    {
+      "uei": "EMF7TKXPXKJ2",
+      "cage": null,
+      "recipientId": "c2f5f6b8-465f-7be8-2613-8ae005e2bd5e-C",
+      "profileUrl": "https://www.usaspending.gov/recipient/c2f5f6b8-465f-7be8-2613-8ae005e2bd5e-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/c2f5f6b8-465f-7be8-2613-8ae005e2bd5e-C/",
+      "responseSha256": "eafadb9383c596d397e09603f506bfb3276cf61eebf0bc1a8b971a67814cd510",
+      "name": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+      "parentName": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+      "parentUei": "EMF7TKXPXKJ2",
+      "otherReportedParents": [
+        "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION / RE7WMNV9L719"
+      ],
+      "location": "CLINTON, UT, USA",
+      "contractAmount": 17506762.46,
+      "earliestTransaction": {
+        "date": "2022-09-07",
+        "award": "CONT_AWD_W52P1J20C0010_9700_-NONE-_-NONE-"
+      },
+      "latestTransaction": {
+        "date": "2026-07-15",
+        "award": "CONT_AWD_W519TC23F0132_9700_W52P1J22D0040_9700"
+      },
+      "latestAwardParent": {
+        "id": "CONT_AWD_W519TC23F0132_9700_W52P1J22D0040_9700",
+        "parentName": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+        "parentUei": "RE7WMNV9L719",
+        "recipientUei": "EMF7TKXPXKJ2",
+        "responseSha256": "8f338e797cebb244e905be606619538668208374a61fc7bae98ea73799c0cabd"
+      },
+      "warnings": [
+        "profile parent UEI EMF7TKXPXKJ2 (SCIENCE APPLICATIONS INTERNATIONAL CORPORATION) differs from expected; not relied on"
+      ],
+      "reasons": [
+        "latest award parent UEI RE7WMNV9L719 (SCIENCE APPLICATIONS INTERNATIONAL CORPORATION) differs from expected"
+      ]
+    },
+    {
+      "uei": "Y5GWLJFV2DV5",
+      "cage": null,
+      "recipientId": "d1fe65fa-a952-bfe5-9281-ecf52cebd345-C",
+      "profileUrl": "https://www.usaspending.gov/recipient/d1fe65fa-a952-bfe5-9281-ecf52cebd345-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/d1fe65fa-a952-bfe5-9281-ecf52cebd345-C/",
+      "responseSha256": "6c694137cc947a4f6b1b38c34e1d45f9afa70a6e9620f4205f71691def93bf28",
+      "name": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+      "parentName": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+      "parentUei": "Y5GWLJFV2DV5",
+      "otherReportedParents": [
+        "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION / RE7WMNV9L719"
+      ],
+      "location": "INDIANAPOLIS, IN, USA",
+      "contractAmount": 1701152.05,
+      "earliestTransaction": {
+        "date": "2014-09-22",
+        "award": "CONT_AWD_N0038314PP595_9700_-NONE-_-NONE-"
+      },
+      "latestTransaction": {
+        "date": "2026-07-13",
+        "award": "CONT_AWD_SPE7L725P3141_9700_-NONE-_-NONE-"
+      },
+      "latestAwardParent": {
+        "id": "CONT_AWD_SPE7L725P3141_9700_-NONE-_-NONE-",
+        "parentName": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+        "parentUei": "Y5GWLJFV2DV5",
+        "recipientUei": "Y5GWLJFV2DV5",
+        "responseSha256": "435d4b73fba747acd1425f5fa3dbb35a68e15b385509304e8bbe78652a98f44f"
+      },
+      "warnings": [
+        "profile parent UEI Y5GWLJFV2DV5 (SCIENCE APPLICATIONS INTERNATIONAL CORPORATION) differs from expected; not relied on"
+      ],
+      "reasons": [
+        "latest award parent UEI Y5GWLJFV2DV5 (SCIENCE APPLICATIONS INTERNATIONAL CORPORATION) differs from expected"
+      ]
+    },
+    {
+      "uei": "P34LFNV7ZBR1",
+      "cage": null,
+      "recipientId": "74af3dae-6065-eb18-82de-477c4a147dd3-C",
+      "profileUrl": "https://www.usaspending.gov/recipient/74af3dae-6065-eb18-82de-477c4a147dd3-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/74af3dae-6065-eb18-82de-477c4a147dd3-C/",
+      "responseSha256": "d16d0aac599a2ffd1a66eaa7a82d1056260ccf5244be6b46edef431be366d65f",
+      "name": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+      "parentName": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+      "parentUei": "P34LFNV7ZBR1",
+      "otherReportedParents": [
+        "L-3 COMMUNICATIONS HOLDINGS, INC. / DTZJAQF8NZA1",
+        "ENGILITY CORPORATION / MSU5HKJF72D6",
+        "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION / RE7WMNV9L719"
+      ],
+      "location": "PANAMA CITY, FL, USA",
+      "contractAmount": -3250,
+      "earliestTransaction": {
+        "date": "2007-10-16",
+        "award": "CONT_AWD_N0010408PDA53_9700_-NONE-_-NONE-"
+      },
+      "latestTransaction": {
+        "date": "2026-06-10",
+        "award": "CONT_AWD_N0010424PJC25_9700_-NONE-_-NONE-"
+      },
+      "latestAwardParent": {
+        "id": "CONT_AWD_N0010424PJC25_9700_-NONE-_-NONE-",
+        "parentName": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+        "parentUei": "P34LFNV7ZBR1",
+        "recipientUei": "P34LFNV7ZBR1",
+        "responseSha256": "8afa7b37ccdafa0edf849a0fa883dd71b4214c0f71de09d0114971e36da9256f"
+      },
+      "warnings": [
+        "profile parent UEI P34LFNV7ZBR1 (SCIENCE APPLICATIONS INTERNATIONAL CORPORATION) differs from expected; not relied on"
+      ],
+      "reasons": [
+        "latest award parent UEI P34LFNV7ZBR1 (SCIENCE APPLICATIONS INTERNATIONAL CORPORATION) differs from expected"
+      ]
+    }
+  ],
+  "limitations": [
+    "USAspending reflects SAM data as reported; it is not SAM.gov itself",
+    "Recipient search is keyword-based and capped at 500 records",
+    "Profile parent fields can be stale; corroboration uses the parent on the latest award record",
+    "Name and parent agreement do not prove the SEC-listed legal entity; review state of incorporation separately where available"
+  ]
+}

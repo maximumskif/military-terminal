@@ -1,12 +1,13 @@
 {
-  "generatedAt": "2026-10-15T18:26:29.628Z",
+  "generatedAt": "2026-10-15T18:53:36.683Z",
   "query": {
     "name": "Lockheed Martin Corporation",
     "parentUei": "ZFN2JJXBLZT3",
     "entityId": "sec:0000936468",
     "formerNames": [
       "LOCKHEED MARTIN CORP"
-    ]
+    ],
+    "notBefore": null
   },
   "searched": 47,
   "candidates": [
@@ -425,14 +426,14 @@
         },
         "latestTransaction": {
           "date": "2026-07-15",
-          "award": "CONT_AWD_N0038326F0215_9700_N0038326GAB01_9700"
+          "award": "CONT_AWD_HQ072726FE067_9700_HQ072726DE001_9700"
         },
         "latestAwardParent": {
-          "id": "CONT_AWD_N0038326F0215_9700_N0038326GAB01_9700",
+          "id": "CONT_AWD_HQ072726FE067_9700_HQ072726DE001_9700",
           "parentName": "LOCKHEED MARTIN CORP",
           "parentUei": "ZFN2JJXBLZT3",
           "recipientUei": "HJP4JZG1FUL9",
-          "responseSha256": "404c19f90fffe31812b5303b935893a6e2d1e3e15b95ed25d7747a089f6bc2a3"
+          "responseSha256": "89443f4553f487c59af8599b05f7d1cabe6401c2e0ff22873e09801a7f9dd060"
         },
         "warnings": [
           "profile parent UEI HJP4JZG1FUL9 (LOCKHEED MARTIN CORPORATION) differs from expected; not relied on"
@@ -448,7 +449,7 @@
         "evidenceAsOf": "2026-10-15",
         "sourceUrl": "https://www.usaspending.gov/recipient/5ad7895c-192b-21cd-8baf-92c6dce0b593-C/latest",
         "apiUrl": "https://api.usaspending.gov/api/v2/recipient/5ad7895c-192b-21cd-8baf-92c6dce0b593-C/",
-        "supportingPassage": "LOCKHEED MARTIN CORPORATION | UEI HJP4JZG1FUL9 | OWEGO, NY, USA | Latest award CONT_AWD_N0038326F0215_9700_N0038326GAB01_9700 (2026-07-15) parent: LOCKHEED MARTIN CORP (UEI ZFN2JJXBLZT3)",
+        "supportingPassage": "LOCKHEED MARTIN CORPORATION | UEI HJP4JZG1FUL9 | OWEGO, NY, USA | Latest award CONT_AWD_HQ072726FE067_9700_HQ072726DE001_9700 (2026-07-15) parent: LOCKHEED MARTIN CORP (UEI ZFN2JJXBLZT3)",
         "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
       }
     },

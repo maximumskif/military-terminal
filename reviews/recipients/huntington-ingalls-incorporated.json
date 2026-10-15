@@ -1,0 +1,72 @@
+{
+  "generatedAt": "2026-10-15T18:50:20.578Z",
+  "query": {
+    "name": "Huntington Ingalls Incorporated",
+    "parentUei": "F9SDJAZFTLG6",
+    "entityId": "legal:huntington-ingalls-incorporated",
+    "formerNames": [
+      "HUNTINGTON INGALLS INC"
+    ],
+    "notBefore": null
+  },
+  "searched": 1,
+  "candidates": [
+    {
+      "evidence": {
+        "uei": "C3NLZNSMU254",
+        "cage": null,
+        "recipientId": "1eb5d9d6-aabf-3228-e6ab-79cf9729c9d7-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/1eb5d9d6-aabf-3228-e6ab-79cf9729c9d7-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/1eb5d9d6-aabf-3228-e6ab-79cf9729c9d7-C/",
+        "responseSha256": "34297cb8e3e22938e0151d64af26b519abc1df4e10b323151279efc7f91e59f3",
+        "name": "HUNTINGTON INGALLS INCORPORATED",
+        "parentName": "CONTINENTAL MARITIME OF SAN DIEGO  LLC",
+        "parentUei": "MV7LRD46KGF7",
+        "otherReportedParents": [
+          "TITAN II INC. / PZQHGH183LA1",
+          "HUNTINGTON INGALLS INDUSTRIES, INC / F9SDJAZFTLG6"
+        ],
+        "location": "PASCAGOULA, MS, USA",
+        "contractAmount": 3634334068.49,
+        "earliestTransaction": {
+          "date": "2009-09-15",
+          "award": "CONT_AWD_N6931609P0014_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-07-15",
+          "award": "CONT_AWD_N0002421C4205_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N0002421C4205_9700_-NONE-_-NONE-",
+          "parentName": "HUNTINGTON INGALLS INDUSTRIES, INC",
+          "parentUei": "F9SDJAZFTLG6",
+          "recipientUei": "C3NLZNSMU254",
+          "responseSha256": "7515a29cc673a7e15e2fa689e82679fa536f36027747e621f71f8d8020c7c089"
+        },
+        "warnings": [
+          "profile parent UEI MV7LRD46KGF7 (CONTINENTAL MARITIME OF SAN DIEGO  LLC) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:C3NLZNSMU254",
+        "kind": "uei",
+        "value": "C3NLZNSMU254",
+        "entityId": "legal:huntington-ingalls-incorporated",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2009-09-15",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/1eb5d9d6-aabf-3228-e6ab-79cf9729c9d7-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/1eb5d9d6-aabf-3228-e6ab-79cf9729c9d7-C/",
+        "supportingPassage": "HUNTINGTON INGALLS INCORPORATED | UEI C3NLZNSMU254 | PASCAGOULA, MS, USA | Latest award CONT_AWD_N0002421C4205_9700_-NONE-_-NONE- (2026-07-15) parent: HUNTINGTON INGALLS INDUSTRIES, INC (UEI F9SDJAZFTLG6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    }
+  ],
+  "excluded": [],
+  "limitations": [
+    "USAspending reflects SAM data as reported; it is not SAM.gov itself",
+    "Recipient search is keyword-based and capped at 500 records",
+    "Profile parent fields can be stale; corroboration uses the parent on the latest award record",
+    "Name and parent agreement do not prove the SEC-listed legal entity; review state of incorporation separately where available"
+  ]
+}
