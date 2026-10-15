@@ -21,7 +21,7 @@ Phase 0 local acceptance: regression suites pass. Production load, network failu
 - [x] Conservative anchored rewording candidates, numeric/stage/amount guards, explanatory subject overlap, publication-bound review IDs and readable historical decisions.
 - [x] Manual reviewed-repeat visibility with same-rule/snapshot/hash gates, explicit keep/restore, retained evidence/read states and automatic invalidation on changed reviews/evidence.
 - [ ] Audited verified-event merge/split, broad paraphrase/syndication linking, measured match quality and automatic duplicate-alert suppression.
-- [ ] Approximately 30–50 verified public contractors and historical subsidiary/parent mappings.
+- [ ] Approximately 30–50 verified public contractors and historical subsidiary/parent mappings. Started: 41 reviewed Raytheon Company UEI bindings → RTX (2020-04-03 – 2025-12-31) with RTX FY2020–2025 revenue evidence; reproducible candidate/promotion tools in tools/. Remaining: other RTX subsidiaries (Collins, Pratt & Whitney), other primes, CAGE codes, 2026 relationship evidence.
 - [x] Company research pages with exact mention timelines, issuer context, dated relationships, original-source links and saved-document inspection. Persistent local-server watches and evidence-linked notes verified across worker/dashboard processes.
 - [ ] Unify legacy browser watchlists with server watches; hosted accounts and shared research notes remain pending.
 - [x] Persistent research inbox in the main Alerts view; new/existing matches and source updates distinguished, before/after fields retained, formatting/classifier-only repeats suppressed and legacy snapshots preserved.
@@ -39,4 +39,4 @@ Next implementation priority: operational recipient bindings plus reviewed paren
 ## Later phases — pending
 Research differentiation, incremental SEC/agency/social integrations, authentication/user isolation, invited beta, production database and backups, billing/provider-rights review, and point-in-time market evaluation remain future work. No paid integration or hosted deployment has been activated.
 
-Entity work started: dated Raytheon Company → RTX corporate evidence is reviewed and displayed. Recipient UEI/CAGE binding is not verified; no award tickers are assigned. See ENTITY-REVIEW-RTX.md.
+Entity work started: dated Raytheon Company → RTX corporate evidence is reviewed and displayed. Raytheon Company UEIs are now bound (see RECIPIENT-BINDINGS.md); CAGE codes are not bound and award tickers still require same-date listing evidence. See ENTITY-REVIEW-RTX.md.
