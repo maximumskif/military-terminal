@@ -1145,6 +1145,22 @@
       "uei": null,
       "cage": null,
       "stateOfIncorporation": "Virginia"
+    },
+    {
+      "id": "legal:aerojet-rocketdyne-inc",
+      "legalName": "Aerojet Rocketdyne, Inc.",
+      "cik": null,
+      "uei": null,
+      "cage": null,
+      "stateOfIncorporation": "Ohio"
+    },
+    {
+      "id": "legal:aerojet-rocketdyne-of-de-inc",
+      "legalName": "Aerojet Rocketdyne of DE, Inc.",
+      "cik": null,
+      "uei": null,
+      "cage": null,
+      "stateOfIncorporation": "Delaware"
     }
   ],
   "relationships": [
@@ -1742,6 +1758,66 @@
         "Latest reviewed relationship evidence is dated 2025-12-31",
         "Effective-from is the earliest reviewed filing, not the formation or acquisition date; continuity between filings is assumed",
         "Operates the Newport News Shipbuilding and Ingalls Shipbuilding divisions"
+      ]
+    },
+    {
+      "id": "relationship:aerojet-rocketdyne-inc-0000202058",
+      "childId": "legal:aerojet-rocketdyne-inc",
+      "parentId": "sec:0000202058",
+      "type": "indirect_subsidiary",
+      "reviewStatus": "reviewed_primary_filing",
+      "effectiveFrom": "2023-07-28",
+      "effectiveUntil": null,
+      "evidenceAsOf": "2026-01-02",
+      "ownershipPercentage": null,
+      "observedAt": "2026-10-15",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/202058/000110465923085075/tm2322078d1_8k.htm",
+          "section": "Form 8-K, Item 2.01 Completion of Acquisition (filed 2023-07-28)",
+          "supportingPassage": "Merger Sub merged with and into Aerojet Rocketdyne (the “Merger”), and Aerojet Rocketdyne continued its existence under Delaware law as the surviving corporation in the Merger and a wholly owned subsidiary of L3Harris.",
+          "scope": "Holding company (Aerojet Rocketdyne Holdings, Inc.) became wholly owned on 2023-07-28; this entity is held beneath it"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/202058/000020205826000015/a10-kexhibit21cy25xq4.htm",
+          "section": "Exhibit 21, fiscal 2025 subsidiaries of L3Harris",
+          "supportingPassage": "Aerojet Rocketdyne, Inc. | Ohio",
+          "scope": "Listed as a subsidiary of the registrant at 2026-01-02; no percentage"
+        }
+      ],
+      "limitations": [
+        "Indirect subsidiary: ownership through Aerojet Rocketdyne Holdings, Inc. is inferred from the merger 8-K and the registrant subsidiary listing, not stated for this entity",
+        "Latest reviewed relationship evidence is dated 2026-01-02"
+      ]
+    },
+    {
+      "id": "relationship:aerojet-rocketdyne-of-de-inc-0000202058",
+      "childId": "legal:aerojet-rocketdyne-of-de-inc",
+      "parentId": "sec:0000202058",
+      "type": "indirect_subsidiary",
+      "reviewStatus": "reviewed_primary_filing",
+      "effectiveFrom": "2023-07-28",
+      "effectiveUntil": null,
+      "evidenceAsOf": "2026-01-02",
+      "ownershipPercentage": null,
+      "observedAt": "2026-10-15",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/202058/000110465923085075/tm2322078d1_8k.htm",
+          "section": "Form 8-K, Item 2.01 Completion of Acquisition (filed 2023-07-28)",
+          "supportingPassage": "Merger Sub merged with and into Aerojet Rocketdyne (the “Merger”), and Aerojet Rocketdyne continued its existence under Delaware law as the surviving corporation in the Merger and a wholly owned subsidiary of L3Harris.",
+          "scope": "Holding company (Aerojet Rocketdyne Holdings, Inc.) became wholly owned on 2023-07-28; this entity is held beneath it"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/202058/000020205826000015/a10-kexhibit21cy25xq4.htm",
+          "section": "Exhibit 21, fiscal 2025 subsidiaries of L3Harris",
+          "supportingPassage": "Aerojet Rocketdyne of DE, Inc. | Delaware",
+          "scope": "Listed as a subsidiary of the registrant at 2026-01-02; no percentage"
+        }
+      ],
+      "limitations": [
+        "Indirect subsidiary: ownership through Aerojet Rocketdyne Holdings, Inc. is inferred from the merger 8-K and the registrant subsidiary listing, not stated for this entity",
+        "Latest reviewed relationship evidence is dated 2026-01-02"
       ]
     }
   ],
@@ -5985,6 +6061,182 @@
       "reviewedBy": "Claude (automated-assisted review, 2026-10-15)",
       "reviewedAt": "2026-10-15",
       "reviewFile": "reviews/recipients/rockwell-collins-inc.json"
+    },
+    {
+      "id": "binding:uei:JCBMLGPE6Z71",
+      "kind": "uei",
+      "value": "JCBMLGPE6Z71",
+      "entityId": "legal:booz-allen-hamilton-inc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-01",
+      "evidenceAsOf": "2026-10-15",
+      "sourceUrl": "https://www.usaspending.gov/recipient/ffca72e5-fba2-798a-6969-2a6c45e9f985-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/ffca72e5-fba2-798a-6969-2a6c45e9f985-C/",
+      "supportingPassage": "BOOZ ALLEN HAMILTON INC | UEI JCBMLGPE6Z71 | MCLEAN, VA, USA | Latest award CONT_AWD_75D30121F10510_7523_75D30119A06642_7523 (2026-10-13) parent: BOOZ ALLEN HAMILTON HOLDING CORPORATION (UEI MBPHTU7Y9S65)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-15)",
+      "reviewedAt": "2026-10-15",
+      "reviewFile": "reviews/recipients/booz-allen-hamilton-inc.json"
+    },
+    {
+      "id": "binding:uei:KHK6E1JW9C15",
+      "kind": "uei",
+      "value": "KHK6E1JW9C15",
+      "entityId": "legal:booz-allen-hamilton-inc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2016-08-10",
+      "evidenceAsOf": "2026-10-15",
+      "sourceUrl": "https://www.usaspending.gov/recipient/30b32b62-ffbf-d7e6-5b9d-95a295b95a6d-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/30b32b62-ffbf-d7e6-5b9d-95a295b95a6d-C/",
+      "supportingPassage": "BOOZ ALLEN HAMILTON INC | UEI KHK6E1JW9C15 | EATONTOWN, NJ, USA | Latest award CONT_AWD_36C10B21N10150057_3600_VA11816D1015_3600 (2026-09-24) parent: BOOZ ALLEN HAMILTON HOLDING CORPORATION (UEI MBPHTU7Y9S65)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-15)",
+      "reviewedAt": "2026-10-15",
+      "reviewFile": "reviews/recipients/booz-allen-hamilton-inc.json"
+    },
+    {
+      "id": "binding:uei:VWE7ANVJJ948",
+      "kind": "uei",
+      "value": "VWE7ANVJJ948",
+      "entityId": "legal:booz-allen-hamilton-inc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2020-11-18",
+      "evidenceAsOf": "2026-10-15",
+      "sourceUrl": "https://www.usaspending.gov/recipient/708321e7-6fc7-9d1d-4e92-513ce9c43d78-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/708321e7-6fc7-9d1d-4e92-513ce9c43d78-C/",
+      "supportingPassage": "BOOZ ALLEN HAMILTON INC. | UEI VWE7ANVJJ948 | ANNAPOLIS JUNCTION, MD, USA | Latest award CONT_AWD_HB000126C0008_9700_-NONE-_-NONE- (2026-05-15) parent: BOOZ ALLEN HAMILTON HOLDING CORPORATION (UEI MBPHTU7Y9S65)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-15)",
+      "reviewedAt": "2026-10-15",
+      "reviewFile": "reviews/recipients/booz-allen-hamilton-inc.json"
+    },
+    {
+      "id": "binding:uei:VZHBEXPGE6G3",
+      "kind": "uei",
+      "value": "VZHBEXPGE6G3",
+      "entityId": "legal:booz-allen-hamilton-inc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-11-09",
+      "evidenceAsOf": "2026-10-15",
+      "sourceUrl": "https://www.usaspending.gov/recipient/02571904-5faa-d6ec-f28b-d895be103a6b-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/02571904-5faa-d6ec-f28b-d895be103a6b-C/",
+      "supportingPassage": "BOOZ ALLEN HAMILTON INC | UEI VZHBEXPGE6G3 | NORFOLK, VA, USA | Latest award CONT_AWD_75N91021F00001_7529_75N91020D00008_7529 (2026-09-22) parent: BOOZ ALLEN HAMILTON HOLDING CORPORATION (UEI MBPHTU7Y9S65)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-15)",
+      "reviewedAt": "2026-10-15",
+      "reviewFile": "reviews/recipients/booz-allen-hamilton-inc.json"
+    },
+    {
+      "id": "binding:uei:WMXDDH6HJNA5",
+      "kind": "uei",
+      "value": "WMXDDH6HJNA5",
+      "entityId": "legal:huntington-ingalls-incorporated",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-01",
+      "evidenceAsOf": "2026-10-15",
+      "sourceUrl": "https://www.usaspending.gov/recipient/dde47d6b-a165-dbed-d5bd-a6e55ca6e591-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/dde47d6b-a165-dbed-d5bd-a6e55ca6e591-C/",
+      "supportingPassage": "HUNTINGTON INGALLS INC | UEI WMXDDH6HJNA5 | NEWPORT NEWS, VA, USA | Latest award CONT_AWD_N0002416C2116_9700_-NONE-_-NONE- (2026-07-15) parent: HUNTINGTON INGALLS INDUSTRIES, INC (UEI F9SDJAZFTLG6)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-15)",
+      "reviewedAt": "2026-10-15",
+      "reviewFile": "reviews/recipients/huntington-ingalls-incorporated.json"
+    },
+    {
+      "id": "binding:uei:C3NLZNSMU254",
+      "kind": "uei",
+      "value": "C3NLZNSMU254",
+      "entityId": "legal:huntington-ingalls-incorporated",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2009-09-15",
+      "evidenceAsOf": "2026-10-15",
+      "sourceUrl": "https://www.usaspending.gov/recipient/1eb5d9d6-aabf-3228-e6ab-79cf9729c9d7-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/1eb5d9d6-aabf-3228-e6ab-79cf9729c9d7-C/",
+      "supportingPassage": "HUNTINGTON INGALLS INCORPORATED | UEI C3NLZNSMU254 | PASCAGOULA, MS, USA | Latest award CONT_AWD_N0002421C4205_9700_-NONE-_-NONE- (2026-07-15) parent: HUNTINGTON INGALLS INDUSTRIES, INC (UEI F9SDJAZFTLG6)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-15)",
+      "reviewedAt": "2026-10-15",
+      "reviewFile": "reviews/recipients/huntington-ingalls-incorporated.json"
+    },
+    {
+      "id": "binding:uei:XSEFW2JFVLW4",
+      "kind": "uei",
+      "value": "XSEFW2JFVLW4",
+      "entityId": "legal:aerojet-rocketdyne-inc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-22",
+      "evidenceAsOf": "2026-10-15",
+      "sourceUrl": "https://www.usaspending.gov/recipient/dcc79470-09a7-95dd-2480-cabd01a3eab7-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/dcc79470-09a7-95dd-2480-cabd01a3eab7-C/",
+      "supportingPassage": "AEROJET ROCKETDYNE, INC. | UEI XSEFW2JFVLW4 | REDMOND, WA, USA | Latest award CONT_AWD_NNC16CA21C_8000_-NONE-_-NONE- (2026-09-15) parent: L3HARRIS TECHNOLOGIES, INC (UEI SJULQDJ8NZU7)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-15)",
+      "reviewedAt": "2026-10-15",
+      "reviewFile": "reviews/recipients/aerojet-rocketdyne-inc.json"
+    },
+    {
+      "id": "binding:uei:MJLVU5WMX9M9",
+      "kind": "uei",
+      "value": "MJLVU5WMX9M9",
+      "entityId": "legal:aerojet-rocketdyne-inc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2014-04-17",
+      "evidenceAsOf": "2026-10-15",
+      "sourceUrl": "https://www.usaspending.gov/recipient/769b30c5-f581-2336-293e-7bcc355da737-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/769b30c5-f581-2336-293e-7bcc355da737-C/",
+      "supportingPassage": "AEROJET ROCKETDYNE, INC. | UEI MJLVU5WMX9M9 | JUPITER, FL, USA | Latest award CONT_AWD_NNM16AA12C_8000_-NONE-_-NONE- (2026-09-02) parent: L3HARRIS TECHNOLOGIES, INC (UEI SJULQDJ8NZU7)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-15)",
+      "reviewedAt": "2026-10-15",
+      "reviewFile": "reviews/recipients/aerojet-rocketdyne-inc.json"
+    },
+    {
+      "id": "binding:uei:MBSKB4QN71M1",
+      "kind": "uei",
+      "value": "MBSKB4QN71M1",
+      "entityId": "legal:aerojet-rocketdyne-inc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2010-12-15",
+      "evidenceAsOf": "2026-10-15",
+      "sourceUrl": "https://www.usaspending.gov/recipient/6fe628f5-6456-c7a3-5f39-d4c2db6e2c39-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/6fe628f5-6456-c7a3-5f39-d4c2db6e2c39-C/",
+      "supportingPassage": "AEROJET ROCKETDYNE INC | UEI MBSKB4QN71M1 | CAMDEN, AR, USA | Latest award CONT_AWD_HQ085926FF189_9700_HQ085926DE019_9700 (2026-06-04) parent: L3HARRIS TECHNOLOGIES, INC (UEI SJULQDJ8NZU7)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-15)",
+      "reviewedAt": "2026-10-15",
+      "reviewFile": "reviews/recipients/aerojet-rocketdyne-inc.json"
+    },
+    {
+      "id": "binding:uei:SELSFJKVYW61",
+      "kind": "uei",
+      "value": "SELSFJKVYW61",
+      "entityId": "legal:aerojet-rocketdyne-inc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2020-01-28",
+      "evidenceAsOf": "2026-10-15",
+      "sourceUrl": "https://www.usaspending.gov/recipient/cbe52fa5-9334-afac-71ff-f3b6ac82d9bf-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/cbe52fa5-9334-afac-71ff-f3b6ac82d9bf-C/",
+      "supportingPassage": "AEROJET ROCKETDYNE INC | UEI SELSFJKVYW61 | DAYTONA BEACH, FL, USA | Latest award CONT_AWD_80NSSC20P0526_8000_-NONE-_-NONE- (2026-08-27) parent: L3HARRIS TECHNOLOGIES, INC (UEI SJULQDJ8NZU7)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-15)",
+      "reviewedAt": "2026-10-15",
+      "reviewFile": "reviews/recipients/aerojet-rocketdyne-inc.json"
+    },
+    {
+      "id": "binding:uei:JCZYYYQ7JGF5",
+      "kind": "uei",
+      "value": "JCZYYYQ7JGF5",
+      "entityId": "legal:aerojet-rocketdyne-of-de-inc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-01",
+      "evidenceAsOf": "2026-10-15",
+      "sourceUrl": "https://www.usaspending.gov/recipient/f87ea7aa-b645-2932-36c2-e89cb4e9a016-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/f87ea7aa-b645-2932-36c2-e89cb4e9a016-C/",
+      "supportingPassage": "AEROJET ROCKETDYNE OF DE, INC | UEI JCZYYYQ7JGF5 | CANOGA PARK, CA, USA | Latest award CONT_AWD_NNM16AA02C_8000_-NONE-_-NONE- (2026-09-25) parent: L3HARRIS TECHNOLOGIES, INC (UEI SJULQDJ8NZU7)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-15)",
+      "reviewedAt": "2026-10-15",
+      "reviewFile": "reviews/recipients/aerojet-rocketdyne-of-de-inc.json"
     }
   ],
   "retiredBindings": [

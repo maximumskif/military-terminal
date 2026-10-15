@@ -1,0 +1,218 @@
+{
+  "generatedAt": "2026-10-15T18:59:16.459Z",
+  "query": {
+    "name": "Aerojet Rocketdyne, Inc.",
+    "parentUei": "SJULQDJ8NZU7",
+    "entityId": "legal:aerojet-rocketdyne-inc",
+    "formerNames": [],
+    "notBefore": null
+  },
+  "searched": 6,
+  "candidates": [
+    {
+      "evidence": {
+        "uei": "XSEFW2JFVLW4",
+        "cage": null,
+        "recipientId": "dcc79470-09a7-95dd-2480-cabd01a3eab7-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/dcc79470-09a7-95dd-2480-cabd01a3eab7-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/dcc79470-09a7-95dd-2480-cabd01a3eab7-C/",
+        "responseSha256": "457a3d9cacc1b2b4e9001a81795ce202f94305726a09d64cf1bec5b9d3c479c4",
+        "name": "AEROJET ROCKETDYNE, INC.",
+        "parentName": "AEROJET ROCKETDYNE HOLDINGS, INC.",
+        "parentUei": "F8F5V4MJ2KX2",
+        "otherReportedParents": [
+          "L3HARRIS TECHNOLOGIES, INC. / PNE9R5EJMWK8",
+          "L3HARRIS TECHNOLOGIES, INC / SJULQDJ8NZU7"
+        ],
+        "location": "REDMOND, WA, USA",
+        "contractAmount": 40936472.24,
+        "earliestTransaction": {
+          "date": "2007-10-22",
+          "award": "CONT_AWD_N0010406CK047_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-09-15",
+          "award": "CONT_AWD_NNC16CA21C_8000_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_NNC16CA21C_8000_-NONE-_-NONE-",
+          "parentName": "L3HARRIS TECHNOLOGIES, INC",
+          "parentUei": "SJULQDJ8NZU7",
+          "recipientUei": "XSEFW2JFVLW4",
+          "responseSha256": "34c92c3dd9383c99fcd2286cf9d5f7d52780e99f1ec6c73fa26a4cfd9548cc6a"
+        },
+        "warnings": [
+          "profile parent UEI F8F5V4MJ2KX2 (AEROJET ROCKETDYNE HOLDINGS, INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:XSEFW2JFVLW4",
+        "kind": "uei",
+        "value": "XSEFW2JFVLW4",
+        "entityId": "legal:aerojet-rocketdyne-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-22",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/dcc79470-09a7-95dd-2480-cabd01a3eab7-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/dcc79470-09a7-95dd-2480-cabd01a3eab7-C/",
+        "supportingPassage": "AEROJET ROCKETDYNE, INC. | UEI XSEFW2JFVLW4 | REDMOND, WA, USA | Latest award CONT_AWD_NNC16CA21C_8000_-NONE-_-NONE- (2026-09-15) parent: L3HARRIS TECHNOLOGIES, INC (UEI SJULQDJ8NZU7)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "MJLVU5WMX9M9",
+        "cage": null,
+        "recipientId": "769b30c5-f581-2336-293e-7bcc355da737-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/769b30c5-f581-2336-293e-7bcc355da737-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/769b30c5-f581-2336-293e-7bcc355da737-C/",
+        "responseSha256": "f80cfb43ce0f9ece821a1685ce6f32b5fd8bf49c4e092c403214894dca1ceaef",
+        "name": "AEROJET ROCKETDYNE, INC.",
+        "parentName": "AEROJET ROCKETDYNE, INC.",
+        "parentUei": "MJLVU5WMX9M9",
+        "otherReportedParents": [
+          "L3HARRIS TECHNOLOGIES, INC. / PNE9R5EJMWK8",
+          "L3HARRIS TECHNOLOGIES, INC / SJULQDJ8NZU7"
+        ],
+        "location": "JUPITER, FL, USA",
+        "contractAmount": 12525500,
+        "earliestTransaction": {
+          "date": "2014-04-17",
+          "award": "CONT_AWD_FA865005C5804_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-09-02",
+          "award": "CONT_AWD_NNM16AA12C_8000_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_NNM16AA12C_8000_-NONE-_-NONE-",
+          "parentName": "L3HARRIS TECHNOLOGIES, INC",
+          "parentUei": "SJULQDJ8NZU7",
+          "recipientUei": "MJLVU5WMX9M9",
+          "responseSha256": "e55e3e1956ac9da6a40f2e5ac9617abaa190d901d86b95a4ae5d047e07f7b0dd"
+        },
+        "warnings": [
+          "profile parent UEI MJLVU5WMX9M9 (AEROJET ROCKETDYNE, INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:MJLVU5WMX9M9",
+        "kind": "uei",
+        "value": "MJLVU5WMX9M9",
+        "entityId": "legal:aerojet-rocketdyne-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2014-04-17",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/769b30c5-f581-2336-293e-7bcc355da737-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/769b30c5-f581-2336-293e-7bcc355da737-C/",
+        "supportingPassage": "AEROJET ROCKETDYNE, INC. | UEI MJLVU5WMX9M9 | JUPITER, FL, USA | Latest award CONT_AWD_NNM16AA12C_8000_-NONE-_-NONE- (2026-09-02) parent: L3HARRIS TECHNOLOGIES, INC (UEI SJULQDJ8NZU7)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "MBSKB4QN71M1",
+        "cage": null,
+        "recipientId": "6fe628f5-6456-c7a3-5f39-d4c2db6e2c39-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/6fe628f5-6456-c7a3-5f39-d4c2db6e2c39-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/6fe628f5-6456-c7a3-5f39-d4c2db6e2c39-C/",
+        "responseSha256": "17e01b20dc75a60e3f4c23ce25bfd592e5bed5988a459549b10a93637d67621d",
+        "name": "AEROJET ROCKETDYNE INC",
+        "parentName": "AEROJET ROCKETDYNE HOLDINGS, INC.",
+        "parentUei": "F8F5V4MJ2KX2",
+        "otherReportedParents": [
+          "L3HARRIS TECHNOLOGIES, INC / SJULQDJ8NZU7"
+        ],
+        "location": "CAMDEN, AR, USA",
+        "contractAmount": 500,
+        "earliestTransaction": {
+          "date": "2010-12-15",
+          "award": "CONT_AWD_N6893611P0096_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-06-04",
+          "award": "CONT_AWD_HQ085926FF189_9700_HQ085926DE019_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_HQ085926FF189_9700_HQ085926DE019_9700",
+          "parentName": "L3HARRIS TECHNOLOGIES, INC",
+          "parentUei": "SJULQDJ8NZU7",
+          "recipientUei": "MBSKB4QN71M1",
+          "responseSha256": "6dbec9abfae48b640567a3f6eddd09b07edd2e8b9b26f0a00c68377340402b79"
+        },
+        "warnings": [
+          "profile parent UEI F8F5V4MJ2KX2 (AEROJET ROCKETDYNE HOLDINGS, INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:MBSKB4QN71M1",
+        "kind": "uei",
+        "value": "MBSKB4QN71M1",
+        "entityId": "legal:aerojet-rocketdyne-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2010-12-15",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/6fe628f5-6456-c7a3-5f39-d4c2db6e2c39-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/6fe628f5-6456-c7a3-5f39-d4c2db6e2c39-C/",
+        "supportingPassage": "AEROJET ROCKETDYNE INC | UEI MBSKB4QN71M1 | CAMDEN, AR, USA | Latest award CONT_AWD_HQ085926FF189_9700_HQ085926DE019_9700 (2026-06-04) parent: L3HARRIS TECHNOLOGIES, INC (UEI SJULQDJ8NZU7)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "SELSFJKVYW61",
+        "cage": null,
+        "recipientId": "cbe52fa5-9334-afac-71ff-f3b6ac82d9bf-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/cbe52fa5-9334-afac-71ff-f3b6ac82d9bf-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/cbe52fa5-9334-afac-71ff-f3b6ac82d9bf-C/",
+        "responseSha256": "66d93f43801d75866dbcb4d2b7805fa1065dd75c07a2d57bdb5047c80e0302cb",
+        "name": "AEROJET ROCKETDYNE INC",
+        "parentName": "AEROJET ROCKETDYNE INC",
+        "parentUei": "SELSFJKVYW61",
+        "otherReportedParents": [
+          "L3HARRIS TECHNOLOGIES, INC / SJULQDJ8NZU7"
+        ],
+        "location": "DAYTONA BEACH, FL, USA",
+        "contractAmount": -112949,
+        "earliestTransaction": {
+          "date": "2020-01-28",
+          "award": "CONT_AWD_80NSSC20P0526_8000_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-08-27",
+          "award": "CONT_AWD_80NSSC20P0526_8000_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_80NSSC20P0526_8000_-NONE-_-NONE-",
+          "parentName": "L3HARRIS TECHNOLOGIES, INC",
+          "parentUei": "SJULQDJ8NZU7",
+          "recipientUei": "SELSFJKVYW61",
+          "responseSha256": "17ca9f74a89a1a4d4b24276831495989cc9acf257ed8c8b6990fc73c30df9f97"
+        },
+        "warnings": [
+          "profile parent UEI SELSFJKVYW61 (AEROJET ROCKETDYNE INC) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:SELSFJKVYW61",
+        "kind": "uei",
+        "value": "SELSFJKVYW61",
+        "entityId": "legal:aerojet-rocketdyne-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2020-01-28",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/cbe52fa5-9334-afac-71ff-f3b6ac82d9bf-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/cbe52fa5-9334-afac-71ff-f3b6ac82d9bf-C/",
+        "supportingPassage": "AEROJET ROCKETDYNE INC | UEI SELSFJKVYW61 | DAYTONA BEACH, FL, USA | Latest award CONT_AWD_80NSSC20P0526_8000_-NONE-_-NONE- (2026-08-27) parent: L3HARRIS TECHNOLOGIES, INC (UEI SJULQDJ8NZU7)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    }
+  ],
+  "excluded": [],
+  "limitations": [
+    "USAspending reflects SAM data as reported; it is not SAM.gov itself",
+    "Recipient search is keyword-based and capped at 500 records",
+    "Profile parent fields can be stale; corroboration uses the parent on the latest award record",
+    "Name and parent agreement do not prove the SEC-listed legal entity; review state of incorporation separately where available"
+  ]
+}

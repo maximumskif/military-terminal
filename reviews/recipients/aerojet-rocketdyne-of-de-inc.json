@@ -1,0 +1,71 @@
+{
+  "generatedAt": "2026-10-15T18:59:19.773Z",
+  "query": {
+    "name": "Aerojet Rocketdyne of DE, Inc.",
+    "parentUei": "SJULQDJ8NZU7",
+    "entityId": "legal:aerojet-rocketdyne-of-de-inc",
+    "formerNames": [],
+    "notBefore": null
+  },
+  "searched": 6,
+  "candidates": [
+    {
+      "evidence": {
+        "uei": "JCZYYYQ7JGF5",
+        "cage": null,
+        "recipientId": "f87ea7aa-b645-2932-36c2-e89cb4e9a016-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/f87ea7aa-b645-2932-36c2-e89cb4e9a016-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/f87ea7aa-b645-2932-36c2-e89cb4e9a016-C/",
+        "responseSha256": "985f7e885b85ff7da62d19f3be59b1797124a6e39ab10f26b111afa0fb180d10",
+        "name": "AEROJET ROCKETDYNE OF DE, INC",
+        "parentName": "AEROJET ROCKETDYNE HOLDINGS, INC.",
+        "parentUei": "F8F5V4MJ2KX2",
+        "otherReportedParents": [
+          "RTX CORP / PPLZG8J3N9D4",
+          "L3HARRIS TECHNOLOGIES, INC. / PNE9R5EJMWK8",
+          "L3HARRIS TECHNOLOGIES, INC / SJULQDJ8NZU7"
+        ],
+        "location": "CANOGA PARK, CA, USA",
+        "contractAmount": 335111772.87,
+        "earliestTransaction": {
+          "date": "2007-10-01",
+          "award": "CONT_AWD_FA930008MT001_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-09-25",
+          "award": "CONT_AWD_NNM16AA02C_8000_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_NNM16AA02C_8000_-NONE-_-NONE-",
+          "parentName": "L3HARRIS TECHNOLOGIES, INC",
+          "parentUei": "SJULQDJ8NZU7",
+          "recipientUei": "JCZYYYQ7JGF5",
+          "responseSha256": "d705093486961138826c201470f8b22b60cbc8b3b653e967f7bfd2f25a6a0719"
+        },
+        "warnings": [
+          "profile parent UEI F8F5V4MJ2KX2 (AEROJET ROCKETDYNE HOLDINGS, INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:JCZYYYQ7JGF5",
+        "kind": "uei",
+        "value": "JCZYYYQ7JGF5",
+        "entityId": "legal:aerojet-rocketdyne-of-de-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-01",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/f87ea7aa-b645-2932-36c2-e89cb4e9a016-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/f87ea7aa-b645-2932-36c2-e89cb4e9a016-C/",
+        "supportingPassage": "AEROJET ROCKETDYNE OF DE, INC | UEI JCZYYYQ7JGF5 | CANOGA PARK, CA, USA | Latest award CONT_AWD_NNM16AA02C_8000_-NONE-_-NONE- (2026-09-25) parent: L3HARRIS TECHNOLOGIES, INC (UEI SJULQDJ8NZU7)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    }
+  ],
+  "excluded": [],
+  "limitations": [
+    "USAspending reflects SAM data as reported; it is not SAM.gov itself",
+    "Recipient search is keyword-based and capped at 500 records",
+    "Profile parent fields can be stale; corroboration uses the parent on the latest award record",
+    "Name and parent agreement do not prove the SEC-listed legal entity; review state of incorporation separately where available"
+  ]
+}

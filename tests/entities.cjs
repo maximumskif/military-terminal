@@ -34,3 +34,9 @@ assert.equal(r('MMLKPW9JLX64','2026-09-01').status,'identifier_verified_public_r
 assert.equal(r('HYBLSJAMM2F4','2024-06-01').publicParent,'KBR, Inc.');assert.equal(r('HYBLSJAMM2F4','2023-12-28').status,'unresolved');assert.equal(r('L693MQDFLKD1','2024-06-01').status,'unresolved');
 assert.ok(ledger.entities.find(e=>e.id==='sec:0001443646').revenueEvidence.some(x=>x.fiscalYearEnd==='2026-03-31'));
 console.log('PASS Leidos 100%-owned operating company window; SAIC registrant floored at the 2013-09-27 spin-off; KBR subsidiaries from reviewed listings; unverifiable records abstain');}
+// Booz Allen, Huntington Ingalls and Aerojet Rocketdyne (indirect L3Harris subsidiary from 2023-07-28).
+{const r=(uei,date)=>resolveRecipient({uei},date);
+assert.equal(r('JCBMLGPE6Z71','2024-06-01').publicParent,'Booz Allen Hamilton Holding Corporation');assert.equal(r('JCBMLGPE6Z71','2020-03-30').status,'unresolved');
+assert.equal(r('WMXDDH6HJNA5','2023-06-01').publicParent,'Huntington Ingalls Industries, Inc.');assert.equal(r('C3NLZNSMU254','2021-12-30').status,'unresolved');
+assert.equal(r('JCZYYYQ7JGF5','2023-07-27').status,'unresolved');assert.equal(r('JCZYYYQ7JGF5','2024-06-01').publicParent,'L3Harris Technologies, Inc.');
+console.log('PASS Booz Allen, HII and indirect Aerojet Rocketdyne bindings respect reviewed relationship windows');}

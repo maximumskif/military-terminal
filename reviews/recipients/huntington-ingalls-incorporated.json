@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T18:50:20.578Z",
+  "generatedAt": "2026-10-15T18:59:51.255Z",
   "query": {
     "name": "Huntington Ingalls Incorporated",
     "parentUei": "F9SDJAZFTLG6",
@@ -9,8 +9,58 @@
     ],
     "notBefore": null
   },
-  "searched": 1,
+  "searched": 3,
   "candidates": [
+    {
+      "evidence": {
+        "uei": "WMXDDH6HJNA5",
+        "cage": null,
+        "recipientId": "dde47d6b-a165-dbed-d5bd-a6e55ca6e591-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/dde47d6b-a165-dbed-d5bd-a6e55ca6e591-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/dde47d6b-a165-dbed-d5bd-a6e55ca6e591-C/",
+        "responseSha256": "ffd06ed3f8b4d9641a8dda422443867ca01bcd3dcf6b1cd8133e7d3d96fb999d",
+        "name": "HUNTINGTON INGALLS INC",
+        "parentName": "CONTINENTAL MARITIME OF SAN DIEGO  LLC",
+        "parentUei": "MV7LRD46KGF7",
+        "otherReportedParents": [
+          "TITAN II INC. / PZQHGH183LA1",
+          "HUNTINGTON INGALLS INDUSTRIES, INC / F9SDJAZFTLG6"
+        ],
+        "location": "NEWPORT NEWS, VA, USA",
+        "contractAmount": 3812383855.68,
+        "earliestTransaction": {
+          "date": "2007-10-01",
+          "award": "CONT_AWD_4T40_9700_N6279303G0001_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-07-15",
+          "award": "CONT_AWD_N0002416C2116_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N0002416C2116_9700_-NONE-_-NONE-",
+          "parentName": "HUNTINGTON INGALLS INDUSTRIES, INC",
+          "parentUei": "F9SDJAZFTLG6",
+          "recipientUei": "WMXDDH6HJNA5",
+          "responseSha256": "787de144440c88135f26514dfb90432ef338c74149c320b85f4fdbc7c2914de1"
+        },
+        "warnings": [
+          "profile parent UEI MV7LRD46KGF7 (CONTINENTAL MARITIME OF SAN DIEGO  LLC) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:WMXDDH6HJNA5",
+        "kind": "uei",
+        "value": "WMXDDH6HJNA5",
+        "entityId": "legal:huntington-ingalls-incorporated",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-01",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/dde47d6b-a165-dbed-d5bd-a6e55ca6e591-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/dde47d6b-a165-dbed-d5bd-a6e55ca6e591-C/",
+        "supportingPassage": "HUNTINGTON INGALLS INC | UEI WMXDDH6HJNA5 | NEWPORT NEWS, VA, USA | Latest award CONT_AWD_N0002416C2116_9700_-NONE-_-NONE- (2026-07-15) parent: HUNTINGTON INGALLS INDUSTRIES, INC (UEI F9SDJAZFTLG6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
     {
       "evidence": {
         "uei": "C3NLZNSMU254",
