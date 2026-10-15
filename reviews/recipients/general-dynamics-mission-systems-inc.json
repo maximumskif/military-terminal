@@ -1,0 +1,826 @@
+{
+  "generatedAt": "2026-10-15T18:38:56.313Z",
+  "query": {
+    "name": "General Dynamics Mission Systems, Inc.",
+    "parentUei": "VF58HFRNGEL8,FAZSFFE6CST9",
+    "entityId": "legal:general-dynamics-mission-systems-inc",
+    "formerNames": []
+  },
+  "searched": 20,
+  "candidates": [
+    {
+      "evidence": {
+        "uei": "LKMMNBMPUNH7",
+        "cage": null,
+        "recipientId": "09f25d0c-0e54-1095-0191-a9797ddbaf68-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/09f25d0c-0e54-1095-0191-a9797ddbaf68-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/09f25d0c-0e54-1095-0191-a9797ddbaf68-C/",
+        "responseSha256": "70e46b1af9f2e36a955d3b08181a5d7a58b4972aaedb741ac95ad24839814757",
+        "name": "GENERAL DYNAMICS MISSION SYSTEMS, INC.",
+        "parentName": "GENERAL DYNAMICS MISSION SYSTEMS, INC.",
+        "parentUei": "LDUJLC79HNK5",
+        "otherReportedParents": [
+          "GENERAL DYNAMICS CORP / VF58HFRNGEL8",
+          "GENERAL DYNAMICS CORP / FAZSFFE6CST9",
+          "GENERAL DYNAMICS CORPORATION / S2L2MCGC1XM3"
+        ],
+        "location": "PITTSFIELD, MA, USA",
+        "contractAmount": 594839347.26,
+        "earliestTransaction": {
+          "date": "2007-10-11",
+          "award": "CONT_AWD_SPM7M508M0160_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-07-15",
+          "award": "CONT_AWD_N0003020C0005_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N0003020C0005_9700_-NONE-_-NONE-",
+          "parentName": "GENERAL DYNAMICS CORP",
+          "parentUei": "FAZSFFE6CST9",
+          "recipientUei": "LKMMNBMPUNH7",
+          "responseSha256": "c5eaa7cb2f226209bd862eb6897761952dbe333aa1a3721f0bef387d28f0558a"
+        },
+        "warnings": [
+          "profile parent UEI LDUJLC79HNK5 (GENERAL DYNAMICS MISSION SYSTEMS, INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:LKMMNBMPUNH7",
+        "kind": "uei",
+        "value": "LKMMNBMPUNH7",
+        "entityId": "legal:general-dynamics-mission-systems-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-11",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/09f25d0c-0e54-1095-0191-a9797ddbaf68-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/09f25d0c-0e54-1095-0191-a9797ddbaf68-C/",
+        "supportingPassage": "GENERAL DYNAMICS MISSION SYSTEMS, INC. | UEI LKMMNBMPUNH7 | PITTSFIELD, MA, USA | Latest award CONT_AWD_N0003020C0005_9700_-NONE-_-NONE- (2026-07-15) parent: GENERAL DYNAMICS CORP (UEI FAZSFFE6CST9)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "MWDRZJ2ZVPV7",
+        "cage": null,
+        "recipientId": "f09ed3a7-cbd4-f4d6-046d-eb0780590412-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/f09ed3a7-cbd4-f4d6-046d-eb0780590412-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/f09ed3a7-cbd4-f4d6-046d-eb0780590412-C/",
+        "responseSha256": "f23d1999fd6023d7cc4deac12e1ff6c44b588945a34e2e457dc8bedc4eae0c41",
+        "name": "GENERAL DYNAMICS MISSION SYSTEMS, INC.",
+        "parentName": "GENERAL DYNAMICS CORP",
+        "parentUei": "VF58HFRNGEL8",
+        "otherReportedParents": [
+          "GENERAL DYNAMICS CORP / FAZSFFE6CST9",
+          "GENERAL DYNAMICS CORPORATION / S2L2MCGC1XM3"
+        ],
+        "location": "SCOTTSDALE, AZ, USA",
+        "contractAmount": 551260564.31,
+        "earliestTransaction": {
+          "date": "2008-01-10",
+          "award": "CONT_AWD_N0003904C0022_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-10-13",
+          "award": "CONT_AWD_70Z04426FCMPL0014_7008_70Z04426DCMPL0001_7008"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_70Z04426FCMPL0014_7008_70Z04426DCMPL0001_7008",
+          "parentName": "GENERAL DYNAMICS CORP",
+          "parentUei": "VF58HFRNGEL8",
+          "recipientUei": "MWDRZJ2ZVPV7",
+          "responseSha256": "0f714ed373bdb4567c3efb05309fa050cea6c76d8dd6866b1fa6ccb7307fe6b1"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:MWDRZJ2ZVPV7",
+        "kind": "uei",
+        "value": "MWDRZJ2ZVPV7",
+        "entityId": "legal:general-dynamics-mission-systems-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2008-01-10",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/f09ed3a7-cbd4-f4d6-046d-eb0780590412-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/f09ed3a7-cbd4-f4d6-046d-eb0780590412-C/",
+        "supportingPassage": "GENERAL DYNAMICS MISSION SYSTEMS, INC. | UEI MWDRZJ2ZVPV7 | SCOTTSDALE, AZ, USA | Latest award CONT_AWD_70Z04426FCMPL0014_7008_70Z04426DCMPL0001_7008 (2026-10-13) parent: GENERAL DYNAMICS CORP (UEI VF58HFRNGEL8)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "MU3CM1145E44",
+        "cage": null,
+        "recipientId": "ce3a6822-92c5-cded-c149-4a33114c7826-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/ce3a6822-92c5-cded-c149-4a33114c7826-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/ce3a6822-92c5-cded-c149-4a33114c7826-C/",
+        "responseSha256": "31e97d551338ab579e682a9dfb154eacf4811d3b8ae9d50eb9618b309ff58f28",
+        "name": "GENERAL DYNAMICS MISSION SYSTEMS, INC.",
+        "parentName": "GENERAL DYNAMICS MISSION SYSTEMS, INC.",
+        "parentUei": "MU3CM1145E44",
+        "otherReportedParents": [
+          "GENERAL DYNAMICS CORP / VF58HFRNGEL8",
+          "GENERAL DYNAMICS CORP / FAZSFFE6CST9"
+        ],
+        "location": "MANASSAS, VA, USA",
+        "contractAmount": 277774981.63,
+        "earliestTransaction": {
+          "date": "2007-10-02",
+          "award": "CONT_AWD_N0002403C6201_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-07-23",
+          "award": "CONT_AWD_1305M326F0153_1330_1305M326D0004_1330"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_1305M326F0153_1330_1305M326D0004_1330",
+          "parentName": "GENERAL DYNAMICS CORP",
+          "parentUei": "VF58HFRNGEL8",
+          "recipientUei": "MU3CM1145E44",
+          "responseSha256": "a00d8bbe496f2ca9fd67a50a681c39da4a1f92476fa90cfdf4e3e852dc3532b2"
+        },
+        "warnings": [
+          "profile parent UEI MU3CM1145E44 (GENERAL DYNAMICS MISSION SYSTEMS, INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:MU3CM1145E44",
+        "kind": "uei",
+        "value": "MU3CM1145E44",
+        "entityId": "legal:general-dynamics-mission-systems-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-02",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/ce3a6822-92c5-cded-c149-4a33114c7826-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/ce3a6822-92c5-cded-c149-4a33114c7826-C/",
+        "supportingPassage": "GENERAL DYNAMICS MISSION SYSTEMS, INC. | UEI MU3CM1145E44 | MANASSAS, VA, USA | Latest award CONT_AWD_1305M326F0153_1330_1305M326D0004_1330 (2026-07-23) parent: GENERAL DYNAMICS CORP (UEI VF58HFRNGEL8)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "LDUJLC79HNK5",
+        "cage": null,
+        "recipientId": "640f560e-9e37-a818-d662-999d2e874f91-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/640f560e-9e37-a818-d662-999d2e874f91-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/640f560e-9e37-a818-d662-999d2e874f91-C/",
+        "responseSha256": "be4d34ee2b7c308c214efb919569a92a1d160264ec3900ac1f2b72a59cd9ee14",
+        "name": "GENERAL DYNAMICS MISSION SYSTEMS, INC.",
+        "parentName": "GENERAL DYNAMICS CORP",
+        "parentUei": "VF58HFRNGEL8",
+        "otherReportedParents": [
+          "GENERAL DYNAMICS CORP / FAZSFFE6CST9",
+          "GENERAL DYNAMICS CORPORATION / S2L2MCGC1XM3"
+        ],
+        "location": "CHANTILLY, VA, USA",
+        "contractAmount": 152453642.36,
+        "earliestTransaction": {
+          "date": "2007-10-16",
+          "award": "CONT_AWD_N0010408PLA51_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-09-16",
+          "award": "CONT_AWD_HSTS0415JCT2527_7013_HSTS0414ACT2501_7013"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_HSTS0415JCT2527_7013_HSTS0414ACT2501_7013",
+          "parentName": "GENERAL DYNAMICS CORP",
+          "parentUei": "FAZSFFE6CST9",
+          "recipientUei": "LDUJLC79HNK5",
+          "responseSha256": "57e777fc2fec0ad243e87d3ac67997cda9972c85592f49e55f7f319417a997c7"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:LDUJLC79HNK5",
+        "kind": "uei",
+        "value": "LDUJLC79HNK5",
+        "entityId": "legal:general-dynamics-mission-systems-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-16",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/640f560e-9e37-a818-d662-999d2e874f91-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/640f560e-9e37-a818-d662-999d2e874f91-C/",
+        "supportingPassage": "GENERAL DYNAMICS MISSION SYSTEMS, INC. | UEI LDUJLC79HNK5 | CHANTILLY, VA, USA | Latest award CONT_AWD_HSTS0415JCT2527_7013_HSTS0414ACT2501_7013 (2026-09-16) parent: GENERAL DYNAMICS CORP (UEI FAZSFFE6CST9)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "YZNQG917LBE4",
+        "cage": null,
+        "recipientId": "3c33db3f-534f-e4bf-929a-65a8af3c5549-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/3c33db3f-534f-e4bf-929a-65a8af3c5549-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/3c33db3f-534f-e4bf-929a-65a8af3c5549-C/",
+        "responseSha256": "5bf942f3800d1871ddff318f5e4a55d1fd7010c2f3c6ffb859e0c956676e84b0",
+        "name": "GENERAL DYNAMICS MISSION SYSTEMS, INC.",
+        "parentName": "GENERAL DYNAMICS CORP",
+        "parentUei": "VF58HFRNGEL8",
+        "otherReportedParents": [
+          "GENERAL DYNAMICS CORP / FAZSFFE6CST9"
+        ],
+        "location": "ORLANDO, FL, USA",
+        "contractAmount": 67197996.8,
+        "earliestTransaction": {
+          "date": "2007-11-15",
+          "award": "CONT_AWD_0003_9700_N6133900D0709_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-06-23",
+          "award": "CONT_AWD_W900KK25FA010_9700_W900KK20D0007_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_W900KK25FA010_9700_W900KK20D0007_9700",
+          "parentName": "GENERAL DYNAMICS CORP",
+          "parentUei": "FAZSFFE6CST9",
+          "recipientUei": "YZNQG917LBE4",
+          "responseSha256": "bd27e693df7f0848e424b3755846fa61822eb99dd4868bd398a729a08b2fadd3"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:YZNQG917LBE4",
+        "kind": "uei",
+        "value": "YZNQG917LBE4",
+        "entityId": "legal:general-dynamics-mission-systems-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-11-15",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/3c33db3f-534f-e4bf-929a-65a8af3c5549-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/3c33db3f-534f-e4bf-929a-65a8af3c5549-C/",
+        "supportingPassage": "GENERAL DYNAMICS MISSION SYSTEMS, INC. | UEI YZNQG917LBE4 | ORLANDO, FL, USA | Latest award CONT_AWD_W900KK25FA010_9700_W900KK20D0007_9700 (2026-06-23) parent: GENERAL DYNAMICS CORP (UEI FAZSFFE6CST9)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "S4ZAF64LJ1G3",
+        "cage": null,
+        "recipientId": "1d88632b-81d6-b72b-652f-c183b3bf0481-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/1d88632b-81d6-b72b-652f-c183b3bf0481-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/1d88632b-81d6-b72b-652f-c183b3bf0481-C/",
+        "responseSha256": "d586fd663713f0111409a8461d94fd45ba28153c17a0df811a4efcc448caceb8",
+        "name": "GENERAL DYNAMICS MISSION SYSTEMS, INC.",
+        "parentName": "GENERAL DYNAMICS CORP",
+        "parentUei": "VF58HFRNGEL8",
+        "otherReportedParents": [
+          "GENERAL DYNAMICS CORP / FAZSFFE6CST9",
+          "GENERAL DYNAMICS CORPORATION / S2L2MCGC1XM3"
+        ],
+        "location": "DEDHAM, MA, USA",
+        "contractAmount": 56736571.39,
+        "earliestTransaction": {
+          "date": "2007-10-01",
+          "award": "CONT_AWD_N6264907P0875_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-09-24",
+          "award": "CONT_AWD_15F06726P0000877_1549_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_15F06726P0000877_1549_-NONE-_-NONE-",
+          "parentName": "GENERAL DYNAMICS CORP",
+          "parentUei": "VF58HFRNGEL8",
+          "recipientUei": "S4ZAF64LJ1G3",
+          "responseSha256": "f2c2ef4e4470fb3e2f82ff709bf34e7e3488fcf5ebe1e65097ee57cedaed1bd6"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:S4ZAF64LJ1G3",
+        "kind": "uei",
+        "value": "S4ZAF64LJ1G3",
+        "entityId": "legal:general-dynamics-mission-systems-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-01",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/1d88632b-81d6-b72b-652f-c183b3bf0481-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/1d88632b-81d6-b72b-652f-c183b3bf0481-C/",
+        "supportingPassage": "GENERAL DYNAMICS MISSION SYSTEMS, INC. | UEI S4ZAF64LJ1G3 | DEDHAM, MA, USA | Latest award CONT_AWD_15F06726P0000877_1549_-NONE-_-NONE- (2026-09-24) parent: GENERAL DYNAMICS CORP (UEI VF58HFRNGEL8)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "JHY6AZA6H191",
+        "cage": null,
+        "recipientId": "fc6c95c4-c4df-e1d8-e534-7c27ff6bbe87-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/fc6c95c4-c4df-e1d8-e534-7c27ff6bbe87-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/fc6c95c4-c4df-e1d8-e534-7c27ff6bbe87-C/",
+        "responseSha256": "f9c042cf67b37cf903808920794e55e0298f2d6ffc5243427f72ed763756f7dd",
+        "name": "GENERAL DYNAMICS MISSION SYSTEMS, INC.",
+        "parentName": "GENERAL DYNAMICS CORP",
+        "parentUei": "VF58HFRNGEL8",
+        "otherReportedParents": [
+          "GENERAL DYNAMICS CORP / FAZSFFE6CST9",
+          "GENERAL DYNAMICS CORPORATION / S2L2MCGC1XM3"
+        ],
+        "location": "TAUNTON, MA, USA",
+        "contractAmount": 28832588.28,
+        "earliestTransaction": {
+          "date": "2007-10-02",
+          "award": "CONT_AWD_BG57_9700_DAAH0103D0029_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-07-15",
+          "award": "CONT_AWD_SPE7M126P8803_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_SPE7M126P8803_9700_-NONE-_-NONE-",
+          "parentName": "GENERAL DYNAMICS CORP",
+          "parentUei": "VF58HFRNGEL8",
+          "recipientUei": "JHY6AZA6H191",
+          "responseSha256": "83f94f5f9534d8f7ac9325b2194a9473c5fe83b976269f588c1b3e3586c22b5f"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:JHY6AZA6H191",
+        "kind": "uei",
+        "value": "JHY6AZA6H191",
+        "entityId": "legal:general-dynamics-mission-systems-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-02",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/fc6c95c4-c4df-e1d8-e534-7c27ff6bbe87-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/fc6c95c4-c4df-e1d8-e534-7c27ff6bbe87-C/",
+        "supportingPassage": "GENERAL DYNAMICS MISSION SYSTEMS, INC. | UEI JHY6AZA6H191 | TAUNTON, MA, USA | Latest award CONT_AWD_SPE7M126P8803_9700_-NONE-_-NONE- (2026-07-15) parent: GENERAL DYNAMICS CORP (UEI VF58HFRNGEL8)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "D8CMPLV4GKR5",
+        "cage": null,
+        "recipientId": "2a8cd5da-b043-b5a5-18fb-8f48ab00a90b-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/2a8cd5da-b043-b5a5-18fb-8f48ab00a90b-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/2a8cd5da-b043-b5a5-18fb-8f48ab00a90b-C/",
+        "responseSha256": "363945cf14efb9c24649545d945aa01de74592cdefb62fa7ea499e347195cdd3",
+        "name": "GENERAL DYNAMICS MISSION SYSTEMS, INC.",
+        "parentName": "BATTELLE MEMORIAL INSTITUTE",
+        "parentUei": "F125YU6SWK59",
+        "otherReportedParents": [
+          "GENERAL DYNAMICS CORP / VF58HFRNGEL8",
+          "GENERAL DYNAMICS CORP / FAZSFFE6CST9",
+          "GENERAL DYNAMICS CORPORATION / S2L2MCGC1XM3"
+        ],
+        "location": "QUINCY, MA, USA",
+        "contractAmount": 18907417.99,
+        "earliestTransaction": {
+          "date": "2007-10-07",
+          "award": "CONT_AWD_N0001404C0064_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-06-23",
+          "award": "CONT_AWD_N0002424C6315_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N0002424C6315_9700_-NONE-_-NONE-",
+          "parentName": "GENERAL DYNAMICS CORP",
+          "parentUei": "VF58HFRNGEL8",
+          "recipientUei": "D8CMPLV4GKR5",
+          "responseSha256": "72a2489de22e83df34ef745742da7503586631ffea034846baf1d75f36886bc9"
+        },
+        "warnings": [
+          "profile parent UEI F125YU6SWK59 (BATTELLE MEMORIAL INSTITUTE) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:D8CMPLV4GKR5",
+        "kind": "uei",
+        "value": "D8CMPLV4GKR5",
+        "entityId": "legal:general-dynamics-mission-systems-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-07",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/2a8cd5da-b043-b5a5-18fb-8f48ab00a90b-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/2a8cd5da-b043-b5a5-18fb-8f48ab00a90b-C/",
+        "supportingPassage": "GENERAL DYNAMICS MISSION SYSTEMS, INC. | UEI D8CMPLV4GKR5 | QUINCY, MA, USA | Latest award CONT_AWD_N0002424C6315_9700_-NONE-_-NONE- (2026-06-23) parent: GENERAL DYNAMICS CORP (UEI VF58HFRNGEL8)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "JNBSGM6C8487",
+        "cage": null,
+        "recipientId": "b2d89a5f-9cb0-1d9e-ced9-0d379873ccf1-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/b2d89a5f-9cb0-1d9e-ced9-0d379873ccf1-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/b2d89a5f-9cb0-1d9e-ced9-0d379873ccf1-C/",
+        "responseSha256": "7295a587818482bd89ccd22b8a491a821204a1c0cf58c2bca57f0092d5b68ef4",
+        "name": "GENERAL DYNAMICS MISSION SYSTEMS, INC.",
+        "parentName": "GENERAL DYNAMICS CORP",
+        "parentUei": "VF58HFRNGEL8",
+        "otherReportedParents": [
+          "GENERAL DYNAMICS CORP / FAZSFFE6CST9",
+          "GENERAL DYNAMICS CORPORATION / S2L2MCGC1XM3"
+        ],
+        "location": "SAN JOSE, CA, USA",
+        "contractAmount": 6935957.25,
+        "earliestTransaction": {
+          "date": "2007-10-01",
+          "award": "CONT_AWD_FA852707C0070_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-07-01",
+          "award": "CONT_AWD_FA873021F0198_9700_FA855516D0070_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_FA873021F0198_9700_FA855516D0070_9700",
+          "parentName": "GENERAL DYNAMICS CORP",
+          "parentUei": "FAZSFFE6CST9",
+          "recipientUei": "JNBSGM6C8487",
+          "responseSha256": "77a1dbe51c98f2ab89d0034334d479e1280cc879562129ca63bd02c015186d4e"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:JNBSGM6C8487",
+        "kind": "uei",
+        "value": "JNBSGM6C8487",
+        "entityId": "legal:general-dynamics-mission-systems-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-01",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/b2d89a5f-9cb0-1d9e-ced9-0d379873ccf1-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/b2d89a5f-9cb0-1d9e-ced9-0d379873ccf1-C/",
+        "supportingPassage": "GENERAL DYNAMICS MISSION SYSTEMS, INC. | UEI JNBSGM6C8487 | SAN JOSE, CA, USA | Latest award CONT_AWD_FA873021F0198_9700_FA855516D0070_9700 (2026-07-01) parent: GENERAL DYNAMICS CORP (UEI FAZSFFE6CST9)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "NH3LQKBA1SN3",
+        "cage": null,
+        "recipientId": "e3c84d63-378b-ca9e-e591-9171cbac8cc5-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/e3c84d63-378b-ca9e-e591-9171cbac8cc5-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/e3c84d63-378b-ca9e-e591-9171cbac8cc5-C/",
+        "responseSha256": "0d06e7c5e2a5a8955701d3b98bd9c8e0dd48fb60dc0c3fba3e27b9ffe497db6e",
+        "name": "GENERAL DYNAMICS MISSION SYSTEMS, INC.",
+        "parentName": "GENERAL DYNAMICS MISSION SYSTEMS, INC.",
+        "parentUei": "LDUJLC79HNK5",
+        "otherReportedParents": [
+          "GENERAL DYNAMICS CORP / VF58HFRNGEL8",
+          "GENERAL DYNAMICS MISSION SYSTEMS, INC. / NH3LQKBA1SN3",
+          "GENERAL DYNAMICS CORP / FAZSFFE6CST9",
+          "GENERAL DYNAMICS CORPORATION / S2L2MCGC1XM3"
+        ],
+        "location": "MARION, VA, USA",
+        "contractAmount": 44770.95,
+        "earliestTransaction": {
+          "date": "2007-10-15",
+          "award": "CONT_AWD_0013_9700_DAAB0701DE201_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-06-17",
+          "award": "CONT_AWD_N0016424FW039_9700_N0016419DWP49_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N0016424FW039_9700_N0016419DWP49_9700",
+          "parentName": "GENERAL DYNAMICS CORP",
+          "parentUei": "VF58HFRNGEL8",
+          "recipientUei": "NH3LQKBA1SN3",
+          "responseSha256": "5077e9beb0342b2df51c845c864f1d7804d538e3dc61ed5c0524ffe6a5853de4"
+        },
+        "warnings": [
+          "profile parent UEI LDUJLC79HNK5 (GENERAL DYNAMICS MISSION SYSTEMS, INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:NH3LQKBA1SN3",
+        "kind": "uei",
+        "value": "NH3LQKBA1SN3",
+        "entityId": "legal:general-dynamics-mission-systems-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-15",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/e3c84d63-378b-ca9e-e591-9171cbac8cc5-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/e3c84d63-378b-ca9e-e591-9171cbac8cc5-C/",
+        "supportingPassage": "GENERAL DYNAMICS MISSION SYSTEMS, INC. | UEI NH3LQKBA1SN3 | MARION, VA, USA | Latest award CONT_AWD_N0016424FW039_9700_N0016419DWP49_9700 (2026-06-17) parent: GENERAL DYNAMICS CORP (UEI VF58HFRNGEL8)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "MVVAKQUHTTQ6",
+        "cage": null,
+        "recipientId": "fcb757d1-d5d9-1765-f4b0-9bacdd311da9-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/fcb757d1-d5d9-1765-f4b0-9bacdd311da9-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/fcb757d1-d5d9-1765-f4b0-9bacdd311da9-C/",
+        "responseSha256": "857391cda3764ca2aa89524083124e5b5ba4affb2321dcef256491902039ba61",
+        "name": "GENERAL DYNAMICS MISSION SYSTEMS, INC.",
+        "parentName": "GENERAL DYNAMICS MISSION SYSTEMS, INC.",
+        "parentUei": "MU3CM1145E44",
+        "otherReportedParents": [
+          "GENERAL DYNAMICS CORP / VF58HFRNGEL8",
+          "GENERAL DYNAMICS CORP / FAZSFFE6CST9"
+        ],
+        "location": "CHARLEROI, PA, USA",
+        "contractAmount": 26500,
+        "earliestTransaction": {
+          "date": "2013-09-30",
+          "award": "CONT_AWD_N0002413C4058_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-05-12",
+          "award": "CONT_AWD_N6660425P0216_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N6660425P0216_9700_-NONE-_-NONE-",
+          "parentName": "GENERAL DYNAMICS CORP",
+          "parentUei": "VF58HFRNGEL8",
+          "recipientUei": "MVVAKQUHTTQ6",
+          "responseSha256": "ef2fa22ed0ce1964dac0700fa58e6099b4edc707a173dd1c241abc2f03cd5e49"
+        },
+        "warnings": [
+          "profile parent UEI MU3CM1145E44 (GENERAL DYNAMICS MISSION SYSTEMS, INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:MVVAKQUHTTQ6",
+        "kind": "uei",
+        "value": "MVVAKQUHTTQ6",
+        "entityId": "legal:general-dynamics-mission-systems-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2013-09-30",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/fcb757d1-d5d9-1765-f4b0-9bacdd311da9-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/fcb757d1-d5d9-1765-f4b0-9bacdd311da9-C/",
+        "supportingPassage": "GENERAL DYNAMICS MISSION SYSTEMS, INC. | UEI MVVAKQUHTTQ6 | CHARLEROI, PA, USA | Latest award CONT_AWD_N6660425P0216_9700_-NONE-_-NONE- (2026-05-12) parent: GENERAL DYNAMICS CORP (UEI VF58HFRNGEL8)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "ECP3DVGMJ178",
+        "cage": null,
+        "recipientId": "183c9f2d-8f75-558d-60d1-f9b90bdbc0b6-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/183c9f2d-8f75-558d-60d1-f9b90bdbc0b6-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/183c9f2d-8f75-558d-60d1-f9b90bdbc0b6-C/",
+        "responseSha256": "080553984f08a694c86ec9f1e1455f3e359403627b06f18da663037968d13f6b",
+        "name": "GENERAL DYNAMICS MISSION SYSTEMS, INC.",
+        "parentName": "GENERAL DYNAMICS CORP",
+        "parentUei": "VF58HFRNGEL8",
+        "otherReportedParents": [
+          "GENERAL DYNAMICS CORP / FAZSFFE6CST9"
+        ],
+        "location": "CULLMAN, AL, USA",
+        "contractAmount": 0,
+        "earliestTransaction": {
+          "date": "2019-04-08",
+          "award": "CONT_AWD_80NSSC19P0838_8000_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-06-23",
+          "award": "CONT_AWD_80GSFC23PA008_8000_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_80GSFC23PA008_8000_-NONE-_-NONE-",
+          "parentName": "GENERAL DYNAMICS CORP",
+          "parentUei": "FAZSFFE6CST9",
+          "recipientUei": "ECP3DVGMJ178",
+          "responseSha256": "2741600fbd40028f0f70c04229c0c015a2da67d40cfea6f11437da80390c9999"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:ECP3DVGMJ178",
+        "kind": "uei",
+        "value": "ECP3DVGMJ178",
+        "entityId": "legal:general-dynamics-mission-systems-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2019-04-08",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/183c9f2d-8f75-558d-60d1-f9b90bdbc0b6-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/183c9f2d-8f75-558d-60d1-f9b90bdbc0b6-C/",
+        "supportingPassage": "GENERAL DYNAMICS MISSION SYSTEMS, INC. | UEI ECP3DVGMJ178 | CULLMAN, AL, USA | Latest award CONT_AWD_80GSFC23PA008_8000_-NONE-_-NONE- (2026-06-23) parent: GENERAL DYNAMICS CORP (UEI FAZSFFE6CST9)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "VE22NMZVNC99",
+        "cage": null,
+        "recipientId": "a0d2c738-9405-9fe8-2036-d02a6121625a-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/a0d2c738-9405-9fe8-2036-d02a6121625a-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/a0d2c738-9405-9fe8-2036-d02a6121625a-C/",
+        "responseSha256": "7c3f59fb97ab7c19ed576ef4d276c5ab01b5c68d3c1edfeee388ad701253e866",
+        "name": "GENERAL DYNAMICS MISSION SYSTEMS, INC.",
+        "parentName": "GENERAL DYNAMICS CORP",
+        "parentUei": "VF58HFRNGEL8",
+        "otherReportedParents": [
+          "GENERAL DYNAMICS CORP / FAZSFFE6CST9"
+        ],
+        "location": "MC LEANSVILLE, NC, USA",
+        "contractAmount": -141448.62,
+        "earliestTransaction": {
+          "date": "2007-12-17",
+          "award": "CONT_AWD_SPM4M108M2846_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-07-07",
+          "award": "CONT_AWD_N6133111C0017_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N6133111C0017_9700_-NONE-_-NONE-",
+          "parentName": "GENERAL DYNAMICS CORP",
+          "parentUei": "VF58HFRNGEL8",
+          "recipientUei": "VE22NMZVNC99",
+          "responseSha256": "c893d2fe836497a80c5705ba6f5a2159bafc8f03c7cb22f3ac7f55929f2c7adc"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:VE22NMZVNC99",
+        "kind": "uei",
+        "value": "VE22NMZVNC99",
+        "entityId": "legal:general-dynamics-mission-systems-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-12-17",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/a0d2c738-9405-9fe8-2036-d02a6121625a-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/a0d2c738-9405-9fe8-2036-d02a6121625a-C/",
+        "supportingPassage": "GENERAL DYNAMICS MISSION SYSTEMS, INC. | UEI VE22NMZVNC99 | MC LEANSVILLE, NC, USA | Latest award CONT_AWD_N6133111C0017_9700_-NONE-_-NONE- (2026-07-07) parent: GENERAL DYNAMICS CORP (UEI VF58HFRNGEL8)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "GTULK5DNAUB9",
+        "cage": null,
+        "recipientId": "b42d679b-c606-98f8-95c9-c84381286109-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/b42d679b-c606-98f8-95c9-c84381286109-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/b42d679b-c606-98f8-95c9-c84381286109-C/",
+        "responseSha256": "931a76330f7f3daf7523e3ca5a9c4b4bd3e980bfa338cd8e58be33457292cb99",
+        "name": "GENERAL DYNAMICS MISSION SYSTEMS, INC.",
+        "parentName": "GENERAL DYNAMICS MISSION SYSTEMS, INC.",
+        "parentUei": "LDUJLC79HNK5",
+        "otherReportedParents": [
+          "GENERAL DYNAMICS CORP / VF58HFRNGEL8",
+          "GENERAL DYNAMICS CORP / FAZSFFE6CST9",
+          "GENERAL DYNAMICS CORPORATION / S2L2MCGC1XM3"
+        ],
+        "location": "HUNTSVILLE, AL, USA",
+        "contractAmount": -268187.18,
+        "earliestTransaction": {
+          "date": "2007-10-16",
+          "award": "CONT_AWD_W31P4Q06C0274_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-05-13",
+          "award": "CONT_AWD_W58RGZ18C0043_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_W58RGZ18C0043_9700_-NONE-_-NONE-",
+          "parentName": "GENERAL DYNAMICS CORP",
+          "parentUei": "VF58HFRNGEL8",
+          "recipientUei": "GTULK5DNAUB9",
+          "responseSha256": "05ddb2d28ac6a80972d08b59162f1eb8861854a22bd51d9050f84bb55cd6e76d"
+        },
+        "warnings": [
+          "profile parent UEI LDUJLC79HNK5 (GENERAL DYNAMICS MISSION SYSTEMS, INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:GTULK5DNAUB9",
+        "kind": "uei",
+        "value": "GTULK5DNAUB9",
+        "entityId": "legal:general-dynamics-mission-systems-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-16",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/b42d679b-c606-98f8-95c9-c84381286109-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/b42d679b-c606-98f8-95c9-c84381286109-C/",
+        "supportingPassage": "GENERAL DYNAMICS MISSION SYSTEMS, INC. | UEI GTULK5DNAUB9 | HUNTSVILLE, AL, USA | Latest award CONT_AWD_W58RGZ18C0043_9700_-NONE-_-NONE- (2026-05-13) parent: GENERAL DYNAMICS CORP (UEI VF58HFRNGEL8)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "D3RLWWNS55A5",
+        "cage": null,
+        "recipientId": "af5603c5-df27-20ce-bc9a-0e3a1e7b7b19-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/af5603c5-df27-20ce-bc9a-0e3a1e7b7b19-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/af5603c5-df27-20ce-bc9a-0e3a1e7b7b19-C/",
+        "responseSha256": "6137635b865ecddc6784ad132d184ffa2cd4f3df7b453064750513eeab5f25ce",
+        "name": "GENERAL DYNAMICS MISSION SYSTEMS, INC.",
+        "parentName": "GENERAL DYNAMICS CORP",
+        "parentUei": "VF58HFRNGEL8",
+        "otherReportedParents": [
+          "GENERAL DYNAMICS CORP / FAZSFFE6CST9"
+        ],
+        "location": "SAN ANTONIO, TX, USA",
+        "contractAmount": -412482.96,
+        "earliestTransaction": {
+          "date": "2012-02-29",
+          "award": "CONT_AWD_W911NF12C0037_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-04-13",
+          "award": "CONT_AWD_HR001116C0001_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_HR001116C0001_9700_-NONE-_-NONE-",
+          "parentName": "GENERAL DYNAMICS CORP",
+          "parentUei": "VF58HFRNGEL8",
+          "recipientUei": "D3RLWWNS55A5",
+          "responseSha256": "731730c1c87e8fe5603d73f5e1092f203cf3c895eb1f70335c7aa50674c0fd66"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:D3RLWWNS55A5",
+        "kind": "uei",
+        "value": "D3RLWWNS55A5",
+        "entityId": "legal:general-dynamics-mission-systems-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2012-02-29",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/af5603c5-df27-20ce-bc9a-0e3a1e7b7b19-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/af5603c5-df27-20ce-bc9a-0e3a1e7b7b19-C/",
+        "supportingPassage": "GENERAL DYNAMICS MISSION SYSTEMS, INC. | UEI D3RLWWNS55A5 | SAN ANTONIO, TX, USA | Latest award CONT_AWD_HR001116C0001_9700_-NONE-_-NONE- (2026-04-13) parent: GENERAL DYNAMICS CORP (UEI VF58HFRNGEL8)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "uei": "E422A91WKZ57",
+      "cage": null,
+      "recipientId": "945ab3f7-3d6e-8f91-f207-81975eae1d78-C",
+      "profileUrl": "https://www.usaspending.gov/recipient/945ab3f7-3d6e-8f91-f207-81975eae1d78-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/945ab3f7-3d6e-8f91-f207-81975eae1d78-C/",
+      "responseSha256": "47e74788ce193a2fc05dffe69240424c21bb21ca602f48d090a209c6a0f85843",
+      "name": "GENERAL DYNAMICS MISSION SYSTEMS, INC.",
+      "parentName": "GENERAL DYNAMICS MISSION SYSTEMS, INC.",
+      "parentUei": "E422A91WKZ57",
+      "otherReportedParents": [
+        "GENERAL DYNAMICS CORP / VF58HFRNGEL8",
+        "GENERAL DYNAMICS CORPORATION / S2L2MCGC1XM3"
+      ],
+      "location": "BLOOMINGTON, MN, USA",
+      "contractAmount": 7803998.48,
+      "earliestTransaction": {
+        "date": "2007-10-01",
+        "award": "CONT_AWD_7019_9700_N0038306G001G_9700"
+      },
+      "latestTransaction": {
+        "date": "2026-07-15",
+        "award": "CONT_AWD_N0038326F0173_9700_N0038326D0001_9700"
+      },
+      "latestAwardParent": {
+        "id": "CONT_AWD_N0038326F0173_9700_N0038326D0001_9700",
+        "parentName": "GENERAL DYNAMICS MISSION SYSTEMS, INC.",
+        "parentUei": "E422A91WKZ57",
+        "recipientUei": "E422A91WKZ57",
+        "responseSha256": "2f9ec265794730e35734bb6a54f88d97b229b654849c350ba68355f408a60877"
+      },
+      "warnings": [
+        "profile parent UEI E422A91WKZ57 (GENERAL DYNAMICS MISSION SYSTEMS, INC.) differs from expected; not relied on"
+      ],
+      "reasons": [
+        "latest award parent UEI E422A91WKZ57 (GENERAL DYNAMICS MISSION SYSTEMS, INC.) differs from expected"
+      ]
+    },
+    {
+      "uei": "M985ECB6UPW5",
+      "cage": null,
+      "recipientId": "c7f6abfc-1ef9-fde5-3664-0017fc36230a-C",
+      "profileUrl": "https://www.usaspending.gov/recipient/c7f6abfc-1ef9-fde5-3664-0017fc36230a-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/c7f6abfc-1ef9-fde5-3664-0017fc36230a-C/",
+      "responseSha256": "c4d1ef1f55e21dc31d884d67c73c09c35a1a102df7c0806a0367b0872600234c",
+      "name": "GENERAL DYNAMICS MISSION SYSTEMS, INC.",
+      "parentName": "GENERAL DYNAMICS MISSION SYSTEMS, INC.",
+      "parentUei": "M985ECB6UPW5",
+      "otherReportedParents": [],
+      "location": "FLORHAM PARK, NJ, USA",
+      "contractAmount": 32657.01,
+      "earliestTransaction": {
+        "date": "2026-03-18",
+        "award": "CONT_AWD_SPE4A726P8297_9700_-NONE-_-NONE-"
+      },
+      "latestTransaction": {
+        "date": "2026-03-18",
+        "award": "CONT_AWD_SPE4A726P8297_9700_-NONE-_-NONE-"
+      },
+      "latestAwardParent": {
+        "id": "CONT_AWD_SPE4A726P8297_9700_-NONE-_-NONE-",
+        "parentName": "GENERAL DYNAMICS MISSION SYSTEMS, INC.",
+        "parentUei": "M985ECB6UPW5",
+        "recipientUei": "M985ECB6UPW5",
+        "responseSha256": "085901c2d62f5807ab957d3c5a2fda7984fd9665a3b0842a4ec7bb32d11dc3a4"
+      },
+      "warnings": [
+        "profile parent UEI M985ECB6UPW5 (GENERAL DYNAMICS MISSION SYSTEMS, INC.) differs from expected; not relied on"
+      ],
+      "reasons": [
+        "latest award parent UEI M985ECB6UPW5 (GENERAL DYNAMICS MISSION SYSTEMS, INC.) differs from expected"
+      ]
+    }
+  ],
+  "limitations": [
+    "USAspending reflects SAM data as reported; it is not SAM.gov itself",
+    "Recipient search is keyword-based and capped at 500 records",
+    "Profile parent fields can be stale; corroboration uses the parent on the latest award record",
+    "Name and parent agreement do not prove the SEC-listed legal entity; review state of incorporation separately where available"
+  ]
+}

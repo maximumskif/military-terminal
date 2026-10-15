@@ -1,0 +1,714 @@
+{
+  "generatedAt": "2026-10-15T18:36:54.812Z",
+  "query": {
+    "name": "L3Harris Technologies, Inc.",
+    "parentUei": "SJULQDJ8NZU7",
+    "entityId": "sec:0000202058",
+    "formerNames": [
+      "HARRIS CORPORATION",
+      "HARRIS CORP"
+    ]
+  },
+  "searched": 18,
+  "candidates": [
+    {
+      "evidence": {
+        "uei": "QM4EZDV15JL8",
+        "cage": null,
+        "recipientId": "8cdf9a30-6987-41a0-fdc4-f48e1b88b1bf-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/8cdf9a30-6987-41a0-fdc4-f48e1b88b1bf-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/8cdf9a30-6987-41a0-fdc4-f48e1b88b1bf-C/",
+        "responseSha256": "58e0ceb438b3c09278ee56e2f156a0e4ad5ae5970031ae6441d76a3caa59595b",
+        "name": "L3HARRIS TECHNOLOGIES, INC.",
+        "parentName": "L3HARRIS TECHNOLOGIES, INC",
+        "parentUei": "SJULQDJ8NZU7",
+        "otherReportedParents": [],
+        "location": "PALM BAY, FL, USA",
+        "contractAmount": 580746047.49,
+        "earliestTransaction": {
+          "date": "2007-10-02",
+          "award": "CONT_AWD_N0010407PDF37_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-09-30",
+          "award": "CONT_AWD_70US0924C70092457_7009_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_70US0924C70092457_7009_-NONE-_-NONE-",
+          "parentName": "L3HARRIS TECHNOLOGIES, INC",
+          "parentUei": "SJULQDJ8NZU7",
+          "recipientUei": "QM4EZDV15JL8",
+          "responseSha256": "757bf0292dc6713832c458b0d7d44754844df22bfe3c7f9d7fa101c86b20d9e4"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:QM4EZDV15JL8",
+        "kind": "uei",
+        "value": "QM4EZDV15JL8",
+        "entityId": "sec:0000202058",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-02",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/8cdf9a30-6987-41a0-fdc4-f48e1b88b1bf-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/8cdf9a30-6987-41a0-fdc4-f48e1b88b1bf-C/",
+        "supportingPassage": "L3HARRIS TECHNOLOGIES, INC. | UEI QM4EZDV15JL8 | PALM BAY, FL, USA | Latest award CONT_AWD_70US0924C70092457_7009_-NONE-_-NONE- (2026-09-30) parent: L3HARRIS TECHNOLOGIES, INC (UEI SJULQDJ8NZU7)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "LB5KVANFKPY7",
+        "cage": null,
+        "recipientId": "ff82f82d-0b7f-0534-6465-02811ca0e11a-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/ff82f82d-0b7f-0534-6465-02811ca0e11a-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/ff82f82d-0b7f-0534-6465-02811ca0e11a-C/",
+        "responseSha256": "42eb18346b19db33bc0c70b1e4d2ccc1dec75fe93fe6366e5e856996ed51a791",
+        "name": "L3HARRIS TECHNOLOGIES, INC.",
+        "parentName": "L3HARRIS TECHNOLOGIES, INC.",
+        "parentUei": "PNE9R5EJMWK8",
+        "otherReportedParents": [
+          "L3HARRIS TECHNOLOGIES, INC / SJULQDJ8NZU7"
+        ],
+        "location": "ROCHESTER, NY, USA",
+        "contractAmount": 377458048.57,
+        "earliestTransaction": {
+          "date": "2007-10-01",
+          "award": "CONT_AWD_SPM4L108V0005_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-09-23",
+          "award": "CONT_AWD_693KA821F00026_6920_DTFAWA11D00040_6920"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_693KA821F00026_6920_DTFAWA11D00040_6920",
+          "parentName": "L3HARRIS TECHNOLOGIES, INC",
+          "parentUei": "SJULQDJ8NZU7",
+          "recipientUei": "LB5KVANFKPY7",
+          "responseSha256": "7b12911f52945280f01a1ae56b295c312d36b3a390c6ac4e348b2120572b70bf"
+        },
+        "warnings": [
+          "profile parent UEI PNE9R5EJMWK8 (L3HARRIS TECHNOLOGIES, INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:LB5KVANFKPY7",
+        "kind": "uei",
+        "value": "LB5KVANFKPY7",
+        "entityId": "sec:0000202058",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-01",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/ff82f82d-0b7f-0534-6465-02811ca0e11a-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/ff82f82d-0b7f-0534-6465-02811ca0e11a-C/",
+        "supportingPassage": "L3HARRIS TECHNOLOGIES, INC. | UEI LB5KVANFKPY7 | ROCHESTER, NY, USA | Latest award CONT_AWD_693KA821F00026_6920_DTFAWA11D00040_6920 (2026-09-23) parent: L3HARRIS TECHNOLOGIES, INC (UEI SJULQDJ8NZU7)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "ENMFLGV87MS4",
+        "cage": null,
+        "recipientId": "8beded26-8074-58f5-93e9-67ed780b7ac4-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/8beded26-8074-58f5-93e9-67ed780b7ac4-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/8beded26-8074-58f5-93e9-67ed780b7ac4-C/",
+        "responseSha256": "4b45099b35c742cd382bbf2ded38c64abee3afa520c4b763b5ff181a13476f50",
+        "name": "L3HARRIS TECHNOLOGIES, INC.",
+        "parentName": "L3HARRIS TECHNOLOGIES, INC.",
+        "parentUei": "PNE9R5EJMWK8",
+        "otherReportedParents": [
+          "EXELIS INC. / GUR5U9ACDXB3",
+          "L3HARRIS TECHNOLOGIES, INC. / ENMFLGV87MS4",
+          "L3HARRIS TECHNOLOGIES, INC / SJULQDJ8NZU7"
+        ],
+        "location": "CLIFTON, NJ, USA",
+        "contractAmount": 169999526.51,
+        "earliestTransaction": {
+          "date": "2009-10-19",
+          "award": "CONT_AWD_0001_9700_W15P7T09DB402_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-07-09",
+          "award": "CONT_AWD_N0016426FW034_9700_N0016425GWM45_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N0016426FW034_9700_N0016425GWM45_9700",
+          "parentName": "L3HARRIS TECHNOLOGIES, INC",
+          "parentUei": "SJULQDJ8NZU7",
+          "recipientUei": "ENMFLGV87MS4",
+          "responseSha256": "f85e5bdfcc7c47f8b344d9d901e15b166d56d8ddd5a4f386eb62b892afc6bcb6"
+        },
+        "warnings": [
+          "profile parent UEI PNE9R5EJMWK8 (L3HARRIS TECHNOLOGIES, INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:ENMFLGV87MS4",
+        "kind": "uei",
+        "value": "ENMFLGV87MS4",
+        "entityId": "sec:0000202058",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2009-10-19",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/8beded26-8074-58f5-93e9-67ed780b7ac4-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/8beded26-8074-58f5-93e9-67ed780b7ac4-C/",
+        "supportingPassage": "L3HARRIS TECHNOLOGIES, INC. | UEI ENMFLGV87MS4 | CLIFTON, NJ, USA | Latest award CONT_AWD_N0016426FW034_9700_N0016425GWM45_9700 (2026-07-09) parent: L3HARRIS TECHNOLOGIES, INC (UEI SJULQDJ8NZU7)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "LHJPD6T16EV9",
+        "cage": null,
+        "recipientId": "a27d0b46-05ef-1c8c-c7b6-5cf7a5f57e7e-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/a27d0b46-05ef-1c8c-c7b6-5cf7a5f57e7e-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/a27d0b46-05ef-1c8c-c7b6-5cf7a5f57e7e-C/",
+        "responseSha256": "5078f5a79f473c98d9ef47903fa5527220c673a1ba400e3e313dc95851837312",
+        "name": "L3HARRIS TECHNOLOGIES, INC.",
+        "parentName": "ITT CORPORATION",
+        "parentUei": "KAZDWX2KMMT6",
+        "otherReportedParents": [
+          "EXELIS INC. / GUR5U9ACDXB3",
+          "L3HARRIS TECHNOLOGIES, INC. / LHJPD6T16EV9",
+          "L3HARRIS TECHNOLOGIES, INC / SJULQDJ8NZU7"
+        ],
+        "location": "COLORADO SPRINGS, CO, USA",
+        "contractAmount": 161673498.04,
+        "earliestTransaction": {
+          "date": "2007-10-09",
+          "award": "CONT_AWD_F1962802C0010_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-05-19",
+          "award": "CONT_AWD_FA882320C0004_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_FA882320C0004_9700_-NONE-_-NONE-",
+          "parentName": "L3HARRIS TECHNOLOGIES, INC",
+          "parentUei": "SJULQDJ8NZU7",
+          "recipientUei": "LHJPD6T16EV9",
+          "responseSha256": "fd9db21522ccd12f2f89c3d5a9488cb92cac82d81a4f8eb5a1c5087a03c4bb4a"
+        },
+        "warnings": [
+          "profile parent UEI KAZDWX2KMMT6 (ITT CORPORATION) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:LHJPD6T16EV9",
+        "kind": "uei",
+        "value": "LHJPD6T16EV9",
+        "entityId": "sec:0000202058",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-09",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/a27d0b46-05ef-1c8c-c7b6-5cf7a5f57e7e-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/a27d0b46-05ef-1c8c-c7b6-5cf7a5f57e7e-C/",
+        "supportingPassage": "L3HARRIS TECHNOLOGIES, INC. | UEI LHJPD6T16EV9 | COLORADO SPRINGS, CO, USA | Latest award CONT_AWD_FA882320C0004_9700_-NONE-_-NONE- (2026-05-19) parent: L3HARRIS TECHNOLOGIES, INC (UEI SJULQDJ8NZU7)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "QWQYJDNHA561",
+        "cage": null,
+        "recipientId": "43e64fda-dda9-b9c9-d190-9f4a13183e8b-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/43e64fda-dda9-b9c9-d190-9f4a13183e8b-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/43e64fda-dda9-b9c9-d190-9f4a13183e8b-C/",
+        "responseSha256": "a4208b0d8413f976f2609c213b61776063a0bf78592158b2c1220522b61aa3fb",
+        "name": "L3HARRIS TECHNOLOGIES, INC.",
+        "parentName": "L3HARRIS TECHNOLOGIES, INC",
+        "parentUei": "SJULQDJ8NZU7",
+        "otherReportedParents": [
+          "L3HARRIS TECHNOLOGIES, INC. / QWQYJDNHA561"
+        ],
+        "location": "COLORADO SPRINGS, CO, USA",
+        "contractAmount": 83346266.86,
+        "earliestTransaction": {
+          "date": "2008-05-13",
+          "award": "CONT_AWD_FA881908C0001_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-07-13",
+          "award": "CONT_AWD_W9126019C0001_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_W9126019C0001_9700_-NONE-_-NONE-",
+          "parentName": "L3HARRIS TECHNOLOGIES, INC",
+          "parentUei": "SJULQDJ8NZU7",
+          "recipientUei": "QWQYJDNHA561",
+          "responseSha256": "795bd2e7e1b38695d33d385279eaebaf503573de15af5cd5a83badacbe5663f8"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:QWQYJDNHA561",
+        "kind": "uei",
+        "value": "QWQYJDNHA561",
+        "entityId": "sec:0000202058",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2008-05-13",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/43e64fda-dda9-b9c9-d190-9f4a13183e8b-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/43e64fda-dda9-b9c9-d190-9f4a13183e8b-C/",
+        "supportingPassage": "L3HARRIS TECHNOLOGIES, INC. | UEI QWQYJDNHA561 | COLORADO SPRINGS, CO, USA | Latest award CONT_AWD_W9126019C0001_9700_-NONE-_-NONE- (2026-07-13) parent: L3HARRIS TECHNOLOGIES, INC (UEI SJULQDJ8NZU7)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "CN7PNYLZLNV3",
+        "cage": null,
+        "recipientId": "07d690c1-f669-239e-44be-4460aac547a5-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/07d690c1-f669-239e-44be-4460aac547a5-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/07d690c1-f669-239e-44be-4460aac547a5-C/",
+        "responseSha256": "667841e967dcd817ee22bc00d96ba186287d7599bbc72d5f009f3b6366b4f1ac",
+        "name": "L3HARRIS TECHNOLOGIES, INC.",
+        "parentName": "ITT CORPORATION",
+        "parentUei": "KAZDWX2KMMT6",
+        "otherReportedParents": [
+          "L3HARRIS TECHNOLOGIES, INC. / PNE9R5EJMWK8",
+          "EXELIS INC. / GUR5U9ACDXB3",
+          "L3HARRIS TECHNOLOGIES, INC / SJULQDJ8NZU7"
+        ],
+        "location": "AMITYVILLE, NY, USA",
+        "contractAmount": 43160731,
+        "earliestTransaction": {
+          "date": "2007-10-03",
+          "award": "CONT_AWD_SPM7M908V0049_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-09-11",
+          "award": "CONT_AWD_1305M226F0044_1330_1305M225D0023_1330"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_1305M226F0044_1330_1305M225D0023_1330",
+          "parentName": "L3HARRIS TECHNOLOGIES, INC",
+          "parentUei": "SJULQDJ8NZU7",
+          "recipientUei": "CN7PNYLZLNV3",
+          "responseSha256": "7efcc5e47cf94acb89217601504085b49a293e6b26e0500ac53cb5f1f9e7acc2"
+        },
+        "warnings": [
+          "profile parent UEI KAZDWX2KMMT6 (ITT CORPORATION) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:CN7PNYLZLNV3",
+        "kind": "uei",
+        "value": "CN7PNYLZLNV3",
+        "entityId": "sec:0000202058",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-03",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/07d690c1-f669-239e-44be-4460aac547a5-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/07d690c1-f669-239e-44be-4460aac547a5-C/",
+        "supportingPassage": "L3HARRIS TECHNOLOGIES, INC. | UEI CN7PNYLZLNV3 | AMITYVILLE, NY, USA | Latest award CONT_AWD_1305M226F0044_1330_1305M225D0023_1330 (2026-09-11) parent: L3HARRIS TECHNOLOGIES, INC (UEI SJULQDJ8NZU7)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "JEGFV3LWEJH7",
+        "cage": null,
+        "recipientId": "647d96fd-27e2-ab1b-5dac-8de08e6cea26-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/647d96fd-27e2-ab1b-5dac-8de08e6cea26-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/647d96fd-27e2-ab1b-5dac-8de08e6cea26-C/",
+        "responseSha256": "95bf3e6bc97f898c8946a76d34e7b0a02eb2a380c75e0fe7e83ed4a0a5fa49c3",
+        "name": "L3HARRIS TECHNOLOGIES, INC.",
+        "parentName": "L3HARRIS TECHNOLOGIES, INC.",
+        "parentUei": "PNE9R5EJMWK8",
+        "otherReportedParents": [
+          "EXELIS INC. / GUR5U9ACDXB3",
+          "L3HARRIS TECHNOLOGIES, INC / SJULQDJ8NZU7",
+          "L3HARRIS TECHNOLOGIES, INC. / JEGFV3LWEJH7"
+        ],
+        "location": "ROCHESTER, NY, USA",
+        "contractAmount": 40665279.25,
+        "earliestTransaction": {
+          "date": "2014-06-12",
+          "award": "CONT_AWD_NNG10XA06C_8000_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-09-29",
+          "award": "CONT_AWD_80GSFC26C0003_8000_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_80GSFC26C0003_8000_-NONE-_-NONE-",
+          "parentName": "L3HARRIS TECHNOLOGIES, INC",
+          "parentUei": "SJULQDJ8NZU7",
+          "recipientUei": "JEGFV3LWEJH7",
+          "responseSha256": "8e9d906ed5a0c3e238496586e98936d6277d22651175a45243fdc54422224ea0"
+        },
+        "warnings": [
+          "profile parent UEI PNE9R5EJMWK8 (L3HARRIS TECHNOLOGIES, INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:JEGFV3LWEJH7",
+        "kind": "uei",
+        "value": "JEGFV3LWEJH7",
+        "entityId": "sec:0000202058",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2014-06-12",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/647d96fd-27e2-ab1b-5dac-8de08e6cea26-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/647d96fd-27e2-ab1b-5dac-8de08e6cea26-C/",
+        "supportingPassage": "L3HARRIS TECHNOLOGIES, INC. | UEI JEGFV3LWEJH7 | ROCHESTER, NY, USA | Latest award CONT_AWD_80GSFC26C0003_8000_-NONE-_-NONE- (2026-09-29) parent: L3HARRIS TECHNOLOGIES, INC (UEI SJULQDJ8NZU7)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "TZ67YHER84V7",
+        "cage": null,
+        "recipientId": "c61f4fb9-20f5-73f5-f3fd-f82a39a2f478-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/c61f4fb9-20f5-73f5-f3fd-f82a39a2f478-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/c61f4fb9-20f5-73f5-f3fd-f82a39a2f478-C/",
+        "responseSha256": "f7f5e974339fa3b1222ebd1045c2ccf93dc5730a58bc4fba82a8693b5bf2f5f1",
+        "name": "L3HARRIS TECHNOLOGIES, INC.",
+        "parentName": "ITT CORPORATION",
+        "parentUei": "KAZDWX2KMMT6",
+        "otherReportedParents": [
+          "L3HARRIS TECHNOLOGIES, INC. / TZ67YHER84V7",
+          "EXELIS INC. / GUR5U9ACDXB3",
+          "L3HARRIS TECHNOLOGIES, INC / SJULQDJ8NZU7"
+        ],
+        "location": "FORT WAYNE, IN, USA",
+        "contractAmount": 34608417.52,
+        "earliestTransaction": {
+          "date": "2007-10-16",
+          "award": "CONT_AWD_GSFC0198809DNAS530384_8000_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-10-05",
+          "award": "CONT_AWD_80GSFC23CA044_8000_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_80GSFC23CA044_8000_-NONE-_-NONE-",
+          "parentName": "L3HARRIS TECHNOLOGIES, INC",
+          "parentUei": "SJULQDJ8NZU7",
+          "recipientUei": "TZ67YHER84V7",
+          "responseSha256": "8c2e7df5aed47ef24bbe00caaef634deb4374ebe0c69ac5ff2ae9ecaaf42e985"
+        },
+        "warnings": [
+          "profile parent UEI KAZDWX2KMMT6 (ITT CORPORATION) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:TZ67YHER84V7",
+        "kind": "uei",
+        "value": "TZ67YHER84V7",
+        "entityId": "sec:0000202058",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-16",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/c61f4fb9-20f5-73f5-f3fd-f82a39a2f478-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/c61f4fb9-20f5-73f5-f3fd-f82a39a2f478-C/",
+        "supportingPassage": "L3HARRIS TECHNOLOGIES, INC. | UEI TZ67YHER84V7 | FORT WAYNE, IN, USA | Latest award CONT_AWD_80GSFC23CA044_8000_-NONE-_-NONE- (2026-10-05) parent: L3HARRIS TECHNOLOGIES, INC (UEI SJULQDJ8NZU7)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "CXPAJ131RS23",
+        "cage": null,
+        "recipientId": "b3fdaac6-a70d-abb7-f1b8-fce717f51597-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/b3fdaac6-a70d-abb7-f1b8-fce717f51597-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/b3fdaac6-a70d-abb7-f1b8-fce717f51597-C/",
+        "responseSha256": "4d736f9f5a59dcf9a6f22b08d076a972e7b3665a919f6b5eeff8e46cb962c137",
+        "name": "L3HARRIS TECHNOLOGIES, INC.",
+        "parentName": "L3HARRIS TECHNOLOGIES, INC.",
+        "parentUei": "CXPAJ131RS23",
+        "otherReportedParents": [
+          "L3HARRIS TECHNOLOGIES, INC / SJULQDJ8NZU7"
+        ],
+        "location": "CHANTILLY, VA, USA",
+        "contractAmount": 32644775,
+        "earliestTransaction": {
+          "date": "2021-06-24",
+          "award": "CONT_AWD_FA880621F0003_9700_FA880621D0003_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-04-10",
+          "award": "CONT_AWD_FA880625FB003_9700_FA880621D0003_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_FA880625FB003_9700_FA880621D0003_9700",
+          "parentName": "L3HARRIS TECHNOLOGIES, INC",
+          "parentUei": "SJULQDJ8NZU7",
+          "recipientUei": "CXPAJ131RS23",
+          "responseSha256": "ccc5c036c359cf7bb7417ee8d96fa4e6982f6e55d2b5c8f974481e92aa8a27fc"
+        },
+        "warnings": [
+          "profile parent UEI CXPAJ131RS23 (L3HARRIS TECHNOLOGIES, INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:CXPAJ131RS23",
+        "kind": "uei",
+        "value": "CXPAJ131RS23",
+        "entityId": "sec:0000202058",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2021-06-24",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/b3fdaac6-a70d-abb7-f1b8-fce717f51597-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/b3fdaac6-a70d-abb7-f1b8-fce717f51597-C/",
+        "supportingPassage": "L3HARRIS TECHNOLOGIES, INC. | UEI CXPAJ131RS23 | CHANTILLY, VA, USA | Latest award CONT_AWD_FA880625FB003_9700_FA880621D0003_9700 (2026-04-10) parent: L3HARRIS TECHNOLOGIES, INC (UEI SJULQDJ8NZU7)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "SLVERBJAVNS4",
+        "cage": null,
+        "recipientId": "9efafb77-4599-c91f-3320-6224a094967f-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/9efafb77-4599-c91f-3320-6224a094967f-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/9efafb77-4599-c91f-3320-6224a094967f-C/",
+        "responseSha256": "5a478dd962d72ab684ef5700540bc696d77c0de25556f4cabb1bc52ff11a4501",
+        "name": "L3HARRIS TECHNOLOGIES, INC.",
+        "parentName": "L3HARRIS TECHNOLOGIES, INC.",
+        "parentUei": "PNE9R5EJMWK8",
+        "otherReportedParents": [
+          "L3HARRIS TECHNOLOGIES, INC / SJULQDJ8NZU7"
+        ],
+        "location": "LYNCHBURG, VA, USA",
+        "contractAmount": 13899567.72,
+        "earliestTransaction": {
+          "date": "2007-10-01",
+          "award": "CONT_AWD_0046_9700_DAAB0701DH805_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-09-28",
+          "award": "CONT_AWD_89243124CSC000173_8900_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_89243124CSC000173_8900_-NONE-_-NONE-",
+          "parentName": "L3HARRIS TECHNOLOGIES, INC",
+          "parentUei": "SJULQDJ8NZU7",
+          "recipientUei": "SLVERBJAVNS4",
+          "responseSha256": "ef4c5862fe9bba446fc507d4069f0c03be597a38cd417009bb88602211e98b49"
+        },
+        "warnings": [
+          "profile parent UEI PNE9R5EJMWK8 (L3HARRIS TECHNOLOGIES, INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:SLVERBJAVNS4",
+        "kind": "uei",
+        "value": "SLVERBJAVNS4",
+        "entityId": "sec:0000202058",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-01",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/9efafb77-4599-c91f-3320-6224a094967f-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/9efafb77-4599-c91f-3320-6224a094967f-C/",
+        "supportingPassage": "L3HARRIS TECHNOLOGIES, INC. | UEI SLVERBJAVNS4 | LYNCHBURG, VA, USA | Latest award CONT_AWD_89243124CSC000173_8900_-NONE-_-NONE- (2026-09-28) parent: L3HARRIS TECHNOLOGIES, INC (UEI SJULQDJ8NZU7)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "H6KFJFUTQ353",
+        "cage": null,
+        "recipientId": "2db30bac-d5b4-312f-6705-f214f3dbbb9a-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/2db30bac-d5b4-312f-6705-f214f3dbbb9a-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/2db30bac-d5b4-312f-6705-f214f3dbbb9a-C/",
+        "responseSha256": "961247227fe7e7d0645b1d90348a266a23bb3d159bbd10ce32ea500a38d971fc",
+        "name": "L3HARRIS TECHNOLOGIES, INC.",
+        "parentName": "L3HARRIS TECHNOLOGIES, INC",
+        "parentUei": "SJULQDJ8NZU7",
+        "otherReportedParents": [],
+        "location": "MELBOURNE, FL, USA",
+        "contractAmount": 7625566.31,
+        "earliestTransaction": {
+          "date": "2007-10-12",
+          "award": "CONT_AWD_DTFA0197C00070_6920_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-09-16",
+          "award": "CONT_AWD_693KA826F00127_6920_DTFAWA15D00003_6920"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_693KA826F00127_6920_DTFAWA15D00003_6920",
+          "parentName": "L3HARRIS TECHNOLOGIES, INC",
+          "parentUei": "SJULQDJ8NZU7",
+          "recipientUei": "H6KFJFUTQ353",
+          "responseSha256": "5f138f7d65180c56ebe041019aabb0370433731c03f98b59a6045108c0f79afb"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:H6KFJFUTQ353",
+        "kind": "uei",
+        "value": "H6KFJFUTQ353",
+        "entityId": "sec:0000202058",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-12",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/2db30bac-d5b4-312f-6705-f214f3dbbb9a-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/2db30bac-d5b4-312f-6705-f214f3dbbb9a-C/",
+        "supportingPassage": "L3HARRIS TECHNOLOGIES, INC. | UEI H6KFJFUTQ353 | MELBOURNE, FL, USA | Latest award CONT_AWD_693KA826F00127_6920_DTFAWA15D00003_6920 (2026-09-16) parent: L3HARRIS TECHNOLOGIES, INC (UEI SJULQDJ8NZU7)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "PMH3MAVQGE44",
+        "cage": null,
+        "recipientId": "9c3cd18d-807e-be9a-9223-d48f63f32727-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/9c3cd18d-807e-be9a-9223-d48f63f32727-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/9c3cd18d-807e-be9a-9223-d48f63f32727-C/",
+        "responseSha256": "f991bbc747c0100d28d31210e1b47238924cfd38ef7243416ed402cf9618c0b1",
+        "name": "L3HARRIS TECHNOLOGIES, INC.",
+        "parentName": "L-3 COMMUNICATIONS HOLDINGS, INC.",
+        "parentUei": "DTZJAQF8NZA1",
+        "otherReportedParents": [
+          "L3HARRIS TECHNOLOGIES, INC. / PNE9R5EJMWK8",
+          "L3 TECHNOLOGIES, INC. / XXP4PLFFFGK9",
+          "L3HARRIS TECHNOLOGIES, INC / SJULQDJ8NZU7"
+        ],
+        "location": "ALPHARETTA, GA, USA",
+        "contractAmount": 5456292.22,
+        "earliestTransaction": {
+          "date": "2007-10-04",
+          "award": "CONT_AWD_0026_9700_N0016405G8249_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-09-16",
+          "award": "CONT_AWD_70Z03826FH0000018_7008_70Z03823DH0000001_7008"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_70Z03826FH0000018_7008_70Z03823DH0000001_7008",
+          "parentName": "L3HARRIS TECHNOLOGIES, INC",
+          "parentUei": "SJULQDJ8NZU7",
+          "recipientUei": "PMH3MAVQGE44",
+          "responseSha256": "f10f10afdb829009f4adf2eaceca8845eb2f2d337799442573ac5bfa8ac41a29"
+        },
+        "warnings": [
+          "profile parent UEI DTZJAQF8NZA1 (L-3 COMMUNICATIONS HOLDINGS, INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:PMH3MAVQGE44",
+        "kind": "uei",
+        "value": "PMH3MAVQGE44",
+        "entityId": "sec:0000202058",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-04",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/9c3cd18d-807e-be9a-9223-d48f63f32727-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/9c3cd18d-807e-be9a-9223-d48f63f32727-C/",
+        "supportingPassage": "L3HARRIS TECHNOLOGIES, INC. | UEI PMH3MAVQGE44 | ALPHARETTA, GA, USA | Latest award CONT_AWD_70Z03826FH0000018_7008_70Z03823DH0000001_7008 (2026-09-16) parent: L3HARRIS TECHNOLOGIES, INC (UEI SJULQDJ8NZU7)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "TBM5NGMKWDN3",
+        "cage": null,
+        "recipientId": "09e1b1a6-3018-1460-622b-37998f7d9b3c-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/09e1b1a6-3018-1460-622b-37998f7d9b3c-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/09e1b1a6-3018-1460-622b-37998f7d9b3c-C/",
+        "responseSha256": "147514e93723cf870f9243d0f9639dbbe506c52a4d14225647ec1ded7b3b1dd9",
+        "name": "L3HARRIS TECHNOLOGIES, INC.",
+        "parentName": "L3HARRIS TECHNOLOGIES, INC.",
+        "parentUei": "PNE9R5EJMWK8",
+        "otherReportedParents": [
+          "EXELIS INC. / GUR5U9ACDXB3",
+          "L3HARRIS TECHNOLOGIES, INC / SJULQDJ8NZU7"
+        ],
+        "location": "AMITYVILLE, NY, USA",
+        "contractAmount": 48266.05,
+        "earliestTransaction": {
+          "date": "2012-11-30",
+          "award": "CONT_AWD_SPM7M513M2310_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-06-29",
+          "award": "CONT_AWD_N0038325PH003_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N0038325PH003_9700_-NONE-_-NONE-",
+          "parentName": "L3HARRIS TECHNOLOGIES, INC",
+          "parentUei": "SJULQDJ8NZU7",
+          "recipientUei": "TBM5NGMKWDN3",
+          "responseSha256": "93aa35a32975ca41f48cbe753d321bc8b1effc1aacc4baefde46d446cdef0002"
+        },
+        "warnings": [
+          "profile parent UEI PNE9R5EJMWK8 (L3HARRIS TECHNOLOGIES, INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:TBM5NGMKWDN3",
+        "kind": "uei",
+        "value": "TBM5NGMKWDN3",
+        "entityId": "sec:0000202058",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2012-11-30",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/09e1b1a6-3018-1460-622b-37998f7d9b3c-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/09e1b1a6-3018-1460-622b-37998f7d9b3c-C/",
+        "supportingPassage": "L3HARRIS TECHNOLOGIES, INC. | UEI TBM5NGMKWDN3 | AMITYVILLE, NY, USA | Latest award CONT_AWD_N0038325PH003_9700_-NONE-_-NONE- (2026-06-29) parent: L3HARRIS TECHNOLOGIES, INC (UEI SJULQDJ8NZU7)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "MG5GYUUNJ7V1",
+        "cage": null,
+        "recipientId": "14f83bc8-6d82-1199-cf84-01e9495e3b70-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/14f83bc8-6d82-1199-cf84-01e9495e3b70-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/14f83bc8-6d82-1199-cf84-01e9495e3b70-C/",
+        "responseSha256": "72d24768cfd9dc1a061c4c25d34b314d6f17c549f2f5e815dbcf2c19eb2999e9",
+        "name": "L3HARRIS TECHNOLOGIES, INC.",
+        "parentName": "L-3 COMMUNICATIONS HOLDINGS, INC.",
+        "parentUei": "DTZJAQF8NZA1",
+        "otherReportedParents": [
+          "L3HARRIS TECHNOLOGIES, INC. / PNE9R5EJMWK8",
+          "L3 TECHNOLOGIES, INC. / XXP4PLFFFGK9",
+          "L3HARRIS TECHNOLOGIES, INC. / MG5GYUUNJ7V1",
+          "L3HARRIS TECHNOLOGIES, INC / SJULQDJ8NZU7"
+        ],
+        "location": "PLANO, TX, USA",
+        "contractAmount": -18923.61,
+        "earliestTransaction": {
+          "date": "2007-10-18",
+          "award": "CONT_AWD_HR001107C0062_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-06-03",
+          "award": "CONT_AWD_HR001119C0062_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_HR001119C0062_9700_-NONE-_-NONE-",
+          "parentName": "L3HARRIS TECHNOLOGIES, INC",
+          "parentUei": "SJULQDJ8NZU7",
+          "recipientUei": "MG5GYUUNJ7V1",
+          "responseSha256": "d06dab95c5a3b960391865c10c18fbdbb41a1f6d6881e0f242b3a0bc355bd321"
+        },
+        "warnings": [
+          "profile parent UEI DTZJAQF8NZA1 (L-3 COMMUNICATIONS HOLDINGS, INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:MG5GYUUNJ7V1",
+        "kind": "uei",
+        "value": "MG5GYUUNJ7V1",
+        "entityId": "sec:0000202058",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-18",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/14f83bc8-6d82-1199-cf84-01e9495e3b70-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/14f83bc8-6d82-1199-cf84-01e9495e3b70-C/",
+        "supportingPassage": "L3HARRIS TECHNOLOGIES, INC. | UEI MG5GYUUNJ7V1 | PLANO, TX, USA | Latest award CONT_AWD_HR001119C0062_9700_-NONE-_-NONE- (2026-06-03) parent: L3HARRIS TECHNOLOGIES, INC (UEI SJULQDJ8NZU7)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    }
+  ],
+  "excluded": [],
+  "limitations": [
+    "USAspending reflects SAM data as reported; it is not SAM.gov itself",
+    "Recipient search is keyword-based and capped at 500 records",
+    "Profile parent fields can be stale; corroboration uses the parent on the latest award record",
+    "Name and parent agreement do not prove the SEC-listed legal entity; review state of incorporation separately where available"
+  ]
+}

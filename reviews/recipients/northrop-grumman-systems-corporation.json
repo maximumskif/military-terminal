@@ -1,0 +1,2598 @@
+{
+  "generatedAt": "2026-10-15T18:35:30.694Z",
+  "query": {
+    "name": "Northrop Grumman Systems Corporation",
+    "parentUei": "NKVZLJL93QT6",
+    "entityId": "legal:northrop-grumman-systems-corporation",
+    "formerNames": [
+      "NORTHROP GRUMMAN SYSTEMS CORP"
+    ]
+  },
+  "searched": 59,
+  "candidates": [
+    {
+      "evidence": {
+        "uei": "PK8PM2GNVMP8",
+        "cage": null,
+        "recipientId": "a398e5f8-3381-5983-2fb6-c60a3f701eb4-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/a398e5f8-3381-5983-2fb6-c60a3f701eb4-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/a398e5f8-3381-5983-2fb6-c60a3f701eb4-C/",
+        "responseSha256": "fb10ff22c042164188e0765612b11bb206fbf734c1a3a797b84c1985bf971086",
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentName": "TITAN II INC.",
+        "parentUei": "PZQHGH183LA1",
+        "otherReportedParents": [
+          "NORTHROP GRUMMAN CORPORATION / NKVZLJL93QT6",
+          "NORTHROP GRUMMAN SYSTEMS CORPORATION / PK8PM2GNVMP8"
+        ],
+        "location": "MELBOURNE, FL, USA",
+        "contractAmount": 1623795269.39,
+        "earliestTransaction": {
+          "date": "2007-10-02",
+          "award": "CONT_AWD_0008_9700_FA870806D0001_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-07-15",
+          "award": "CONT_AWD_N0038325FS51X_9700_N0038322GS501_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N0038325FS51X_9700_N0038322GS501_9700",
+          "parentName": "NORTHROP GRUMMAN CORPORATION",
+          "parentUei": "NKVZLJL93QT6",
+          "recipientUei": "PK8PM2GNVMP8",
+          "responseSha256": "a192b2df027fc3511a5bc96814cc41def30997a06701767c1202f2e873a9690c"
+        },
+        "warnings": [
+          "profile parent UEI PZQHGH183LA1 (TITAN II INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:PK8PM2GNVMP8",
+        "kind": "uei",
+        "value": "PK8PM2GNVMP8",
+        "entityId": "legal:northrop-grumman-systems-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-02",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/a398e5f8-3381-5983-2fb6-c60a3f701eb4-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/a398e5f8-3381-5983-2fb6-c60a3f701eb4-C/",
+        "supportingPassage": "NORTHROP GRUMMAN SYSTEMS CORPORATION | UEI PK8PM2GNVMP8 | MELBOURNE, FL, USA | Latest award CONT_AWD_N0038325FS51X_9700_N0038322GS501_9700 (2026-07-15) parent: NORTHROP GRUMMAN CORPORATION (UEI NKVZLJL93QT6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "Q11ZHUFBW741",
+        "cage": null,
+        "recipientId": "d6601efc-adc3-1030-5904-be323dc49433-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/d6601efc-adc3-1030-5904-be323dc49433-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/d6601efc-adc3-1030-5904-be323dc49433-C/",
+        "responseSha256": "b21199a6682fc4d167d93113383078440184533cc452b1a822623e675c15922c",
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentName": "NORTHROP GRUMMAN CORPORATION",
+        "parentUei": "NKVZLJL93QT6",
+        "otherReportedParents": [],
+        "location": "DULLES, VA, USA",
+        "contractAmount": 1011036078,
+        "earliestTransaction": {
+          "date": "2020-09-30",
+          "award": "CONT_AWD_80GSFC20F0135_8000_80GSFC20D0019_8000"
+        },
+        "latestTransaction": {
+          "date": "2026-10-13",
+          "award": "CONT_AWD_80GSFC24CA045_8000_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_80GSFC24CA045_8000_-NONE-_-NONE-",
+          "parentName": "NORTHROP GRUMMAN CORPORATION",
+          "parentUei": "NKVZLJL93QT6",
+          "recipientUei": "Q11ZHUFBW741",
+          "responseSha256": "a26163cfc08b7393c2cdf33346fc4a7d0cfc1b05f6fdc99b2714543f6d57fe69"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:Q11ZHUFBW741",
+        "kind": "uei",
+        "value": "Q11ZHUFBW741",
+        "entityId": "legal:northrop-grumman-systems-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2020-09-30",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/d6601efc-adc3-1030-5904-be323dc49433-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/d6601efc-adc3-1030-5904-be323dc49433-C/",
+        "supportingPassage": "NORTHROP GRUMMAN SYSTEMS CORPORATION | UEI Q11ZHUFBW741 | DULLES, VA, USA | Latest award CONT_AWD_80GSFC24CA045_8000_-NONE-_-NONE- (2026-10-13) parent: NORTHROP GRUMMAN CORPORATION (UEI NKVZLJL93QT6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "H9M6J1PND9M3",
+        "cage": null,
+        "recipientId": "714e4813-7667-ae43-50eb-73dcba4aa3d9-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/714e4813-7667-ae43-50eb-73dcba4aa3d9-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/714e4813-7667-ae43-50eb-73dcba4aa3d9-C/",
+        "responseSha256": "790c4090166ce5eb392e96ee7ff907955517abfcd1e62feeaaedb58ab9b4db2c",
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentName": "TITAN II INC.",
+        "parentUei": "PZQHGH183LA1",
+        "otherReportedParents": [
+          "NORTHROP GRUMMAN CORPORATION / NKVZLJL93QT6"
+        ],
+        "location": "LINTHICUM HEIGHTS, MD, USA",
+        "contractAmount": 849673931.74,
+        "earliestTransaction": {
+          "date": "2007-10-15",
+          "award": "CONT_AWD_F3361502C1257_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-07-15",
+          "award": "CONT_AWD_N0010426PJA07_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N0010426PJA07_9700_-NONE-_-NONE-",
+          "parentName": "NORTHROP GRUMMAN CORPORATION",
+          "parentUei": "NKVZLJL93QT6",
+          "recipientUei": "H9M6J1PND9M3",
+          "responseSha256": "9ff06e60024ff39824d713273ce2d7f056c9bee1ecd0dee2f5fd1eb278067a04"
+        },
+        "warnings": [
+          "profile parent UEI PZQHGH183LA1 (TITAN II INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:H9M6J1PND9M3",
+        "kind": "uei",
+        "value": "H9M6J1PND9M3",
+        "entityId": "legal:northrop-grumman-systems-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-15",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/714e4813-7667-ae43-50eb-73dcba4aa3d9-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/714e4813-7667-ae43-50eb-73dcba4aa3d9-C/",
+        "supportingPassage": "NORTHROP GRUMMAN SYSTEMS CORPORATION | UEI H9M6J1PND9M3 | LINTHICUM HEIGHTS, MD, USA | Latest award CONT_AWD_N0010426PJA07_9700_-NONE-_-NONE- (2026-07-15) parent: NORTHROP GRUMMAN CORPORATION (UEI NKVZLJL93QT6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "DJUCEANK2KP4",
+        "cage": null,
+        "recipientId": "20e2511b-72bb-ef09-f739-ac4bc059bafb-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/20e2511b-72bb-ef09-f739-ac4bc059bafb-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/20e2511b-72bb-ef09-f739-ac4bc059bafb-C/",
+        "responseSha256": "d2cde36858612ffb9a5bbb195496a245e977eef4ef34ec7566593c068c054e6a",
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentName": "NORTHROP GRUMMAN CORPORATION",
+        "parentUei": "NKVZLJL93QT6",
+        "otherReportedParents": [],
+        "location": "MCLEAN, VA, USA",
+        "contractAmount": 655780296.78,
+        "earliestTransaction": {
+          "date": "2014-01-15",
+          "award": "CONT_AWD_GSQ0014AJ0036_4732_GS00T13AJA0021_4732"
+        },
+        "latestTransaction": {
+          "date": "2026-09-29",
+          "award": "CONT_AWD_70B02C20C00000024_7014_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_70B02C20C00000024_7014_-NONE-_-NONE-",
+          "parentName": "NORTHROP GRUMMAN CORPORATION",
+          "parentUei": "NKVZLJL93QT6",
+          "recipientUei": "DJUCEANK2KP4",
+          "responseSha256": "87c10d0a2d530123edce8cf58e7d0cd7225d8fc1a35a5cd2aa96fd73dd5a2459"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:DJUCEANK2KP4",
+        "kind": "uei",
+        "value": "DJUCEANK2KP4",
+        "entityId": "legal:northrop-grumman-systems-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2014-01-15",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/20e2511b-72bb-ef09-f739-ac4bc059bafb-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/20e2511b-72bb-ef09-f739-ac4bc059bafb-C/",
+        "supportingPassage": "NORTHROP GRUMMAN SYSTEMS CORPORATION | UEI DJUCEANK2KP4 | MCLEAN, VA, USA | Latest award CONT_AWD_70B02C20C00000024_7014_-NONE-_-NONE- (2026-09-29) parent: NORTHROP GRUMMAN CORPORATION (UEI NKVZLJL93QT6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "E4X3BLZPPPX3",
+        "cage": null,
+        "recipientId": "75dec7b1-56eb-4770-da4b-ac736121ab61-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/75dec7b1-56eb-4770-da4b-ac736121ab61-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/75dec7b1-56eb-4770-da4b-ac736121ab61-C/",
+        "responseSha256": "c6ae7a3bd92f56777ff9caf44c349f982ec2f7904bc7fae93fc6b6a650f28ecd",
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentName": "TITAN II INC.",
+        "parentUei": "PZQHGH183LA1",
+        "otherReportedParents": [
+          "NORTHROP GRUMMAN CORPORATION / NKVZLJL93QT6",
+          "NORTHROP GRUMMAN SYSTEMS CORPORATION / E4X3BLZPPPX3"
+        ],
+        "location": "ROLLING MEADOWS, IL, USA",
+        "contractAmount": 629579533.63,
+        "earliestTransaction": {
+          "date": "2007-10-04",
+          "award": "CONT_AWD_F3365701C2093_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-07-15",
+          "award": "CONT_AWD_N6833526F0011_9700_N0038324DBK01_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N6833526F0011_9700_N0038324DBK01_9700",
+          "parentName": "NORTHROP GRUMMAN CORPORATION",
+          "parentUei": "NKVZLJL93QT6",
+          "recipientUei": "E4X3BLZPPPX3",
+          "responseSha256": "98833dfde1a0f67d588230fe36c32ea9facc00b5686b2583571a7fc7e063add2"
+        },
+        "warnings": [
+          "profile parent UEI PZQHGH183LA1 (TITAN II INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:E4X3BLZPPPX3",
+        "kind": "uei",
+        "value": "E4X3BLZPPPX3",
+        "entityId": "legal:northrop-grumman-systems-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-04",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/75dec7b1-56eb-4770-da4b-ac736121ab61-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/75dec7b1-56eb-4770-da4b-ac736121ab61-C/",
+        "supportingPassage": "NORTHROP GRUMMAN SYSTEMS CORPORATION | UEI E4X3BLZPPPX3 | ROLLING MEADOWS, IL, USA | Latest award CONT_AWD_N6833526F0011_9700_N0038324DBK01_9700 (2026-07-15) parent: NORTHROP GRUMMAN CORPORATION (UEI NKVZLJL93QT6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "VSBAFMDKTWL4",
+        "cage": null,
+        "recipientId": "c1d87c0c-1b5f-f2c8-c447-e001bb4cc08c-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/c1d87c0c-1b5f-f2c8-c447-e001bb4cc08c-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/c1d87c0c-1b5f-f2c8-c447-e001bb4cc08c-C/",
+        "responseSha256": "4a1ca0c37937c89f24501a15207b5c5f23fcc15d7db292b30dbaed11ce2b6ada",
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentName": "TITAN II INC.",
+        "parentUei": "PZQHGH183LA1",
+        "otherReportedParents": [
+          "HUNTINGTON INGALLS INDUSTRIES, INC / F9SDJAZFTLG6",
+          "NORTHROP GRUMMAN CORPORATION / NKVZLJL93QT6"
+        ],
+        "location": "REDONDO BEACH, CA, USA",
+        "contractAmount": 595368004.96,
+        "earliestTransaction": {
+          "date": "2007-10-03",
+          "award": "CONT_AWD_FA881904C0002_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-09-03",
+          "award": "CONT_AWD_80GSFC23CA021_8000_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_80GSFC23CA021_8000_-NONE-_-NONE-",
+          "parentName": "NORTHROP GRUMMAN CORPORATION",
+          "parentUei": "NKVZLJL93QT6",
+          "recipientUei": "VSBAFMDKTWL4",
+          "responseSha256": "5c4d5c619ca48cc2b87b767039ad6574b1080a2de5d5cfb501390b8f113f3222"
+        },
+        "warnings": [
+          "profile parent UEI PZQHGH183LA1 (TITAN II INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:VSBAFMDKTWL4",
+        "kind": "uei",
+        "value": "VSBAFMDKTWL4",
+        "entityId": "legal:northrop-grumman-systems-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-03",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/c1d87c0c-1b5f-f2c8-c447-e001bb4cc08c-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/c1d87c0c-1b5f-f2c8-c447-e001bb4cc08c-C/",
+        "supportingPassage": "NORTHROP GRUMMAN SYSTEMS CORPORATION | UEI VSBAFMDKTWL4 | REDONDO BEACH, CA, USA | Latest award CONT_AWD_80GSFC23CA021_8000_-NONE-_-NONE- (2026-09-03) parent: NORTHROP GRUMMAN CORPORATION (UEI NKVZLJL93QT6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "U6UKKQU345T7",
+        "cage": null,
+        "recipientId": "a4c9e27d-cd85-f35f-2202-78864868ed6e-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/a4c9e27d-cd85-f35f-2202-78864868ed6e-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/a4c9e27d-cd85-f35f-2202-78864868ed6e-C/",
+        "responseSha256": "3c457244ec9c42bcf144b84be8d670f6f523a83cb295f1a86e8b35573f1fdec9",
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentName": "NORTHROP GRUMMAN CORPORATION",
+        "parentUei": "NKVZLJL93QT6",
+        "otherReportedParents": [],
+        "location": "HUNTSVILLE, AL, USA",
+        "contractAmount": 578227566.15,
+        "earliestTransaction": {
+          "date": "2022-07-29",
+          "award": "CONT_AWD_HQ085622F0001_9700_HQ085622D0001_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-07-14",
+          "award": "CONT_AWD_HQ085625FE001_9700_HQ085622D0001_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_HQ085625FE001_9700_HQ085622D0001_9700",
+          "parentName": "NORTHROP GRUMMAN CORPORATION",
+          "parentUei": "NKVZLJL93QT6",
+          "recipientUei": "U6UKKQU345T7",
+          "responseSha256": "19aae4dd335da6c304f0222ec2ad2b577749839f695ee6b71a9ccf4e46510fb1"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:U6UKKQU345T7",
+        "kind": "uei",
+        "value": "U6UKKQU345T7",
+        "entityId": "legal:northrop-grumman-systems-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2022-07-29",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/a4c9e27d-cd85-f35f-2202-78864868ed6e-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/a4c9e27d-cd85-f35f-2202-78864868ed6e-C/",
+        "supportingPassage": "NORTHROP GRUMMAN SYSTEMS CORPORATION | UEI U6UKKQU345T7 | HUNTSVILLE, AL, USA | Latest award CONT_AWD_HQ085625FE001_9700_HQ085622D0001_9700 (2026-07-14) parent: NORTHROP GRUMMAN CORPORATION (UEI NKVZLJL93QT6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "LALWKM623MU7",
+        "cage": null,
+        "recipientId": "fe5032b4-c053-b1d1-c4c9-7d6d9e770723-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/fe5032b4-c053-b1d1-c4c9-7d6d9e770723-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/fe5032b4-c053-b1d1-c4c9-7d6d9e770723-C/",
+        "responseSha256": "59aa97380ab87235c147a410fc7e3b1898acc9e701f4db4a96fc1c661245b806",
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentName": "TITAN II INC.",
+        "parentUei": "PZQHGH183LA1",
+        "otherReportedParents": [
+          "NORTHROP GRUMMAN CORPORATION / NKVZLJL93QT6"
+        ],
+        "location": "SAN DIEGO, CA, USA",
+        "contractAmount": 550559452,
+        "earliestTransaction": {
+          "date": "2007-10-01",
+          "award": "CONT_AWD_7012_9700_N0038304G002G_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-09-23",
+          "award": "CONT_AWD_80AFRC21F0031_8000_80AFRC21D0002_8000"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_80AFRC21F0031_8000_80AFRC21D0002_8000",
+          "parentName": "NORTHROP GRUMMAN CORPORATION",
+          "parentUei": "NKVZLJL93QT6",
+          "recipientUei": "LALWKM623MU7",
+          "responseSha256": "b5a1cc5bf6636fc6df079beeb1e81da6714f82c0b5c644110c7c14245c22ff6f"
+        },
+        "warnings": [
+          "profile parent UEI PZQHGH183LA1 (TITAN II INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:LALWKM623MU7",
+        "kind": "uei",
+        "value": "LALWKM623MU7",
+        "entityId": "legal:northrop-grumman-systems-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-01",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/fe5032b4-c053-b1d1-c4c9-7d6d9e770723-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/fe5032b4-c053-b1d1-c4c9-7d6d9e770723-C/",
+        "supportingPassage": "NORTHROP GRUMMAN SYSTEMS CORPORATION | UEI LALWKM623MU7 | SAN DIEGO, CA, USA | Latest award CONT_AWD_80AFRC21F0031_8000_80AFRC21D0002_8000 (2026-09-23) parent: NORTHROP GRUMMAN CORPORATION (UEI NKVZLJL93QT6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "LRVQERN7YNH9",
+        "cage": null,
+        "recipientId": "828ad15f-2b75-eb7a-ab63-b3f56dd45597-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/828ad15f-2b75-eb7a-ab63-b3f56dd45597-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/828ad15f-2b75-eb7a-ab63-b3f56dd45597-C/",
+        "responseSha256": "7ebd784b7d496181bfcc28deacb646a67751f9f60500176a0c6a69787f642c49",
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentName": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentUei": "LRVQERN7YNH9",
+        "otherReportedParents": [
+          "NORTHROP GRUMMAN CORPORATION / NKVZLJL93QT6"
+        ],
+        "location": "CORINNE, UT, USA",
+        "contractAmount": 381364331.11,
+        "earliestTransaction": {
+          "date": "2020-08-27",
+          "award": "CONT_AWD_N6893620P0566_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-09-02",
+          "award": "CONT_AWD_NNM07AA75C_8000_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_NNM07AA75C_8000_-NONE-_-NONE-",
+          "parentName": "NORTHROP GRUMMAN CORPORATION",
+          "parentUei": "NKVZLJL93QT6",
+          "recipientUei": "LRVQERN7YNH9",
+          "responseSha256": "a2841c0cc0bfa58aebd4cf9272042446efbe1aeff6c0b6932bab8ffa027ed755"
+        },
+        "warnings": [
+          "profile parent UEI LRVQERN7YNH9 (NORTHROP GRUMMAN SYSTEMS CORPORATION) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:LRVQERN7YNH9",
+        "kind": "uei",
+        "value": "LRVQERN7YNH9",
+        "entityId": "legal:northrop-grumman-systems-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2020-08-27",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/828ad15f-2b75-eb7a-ab63-b3f56dd45597-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/828ad15f-2b75-eb7a-ab63-b3f56dd45597-C/",
+        "supportingPassage": "NORTHROP GRUMMAN SYSTEMS CORPORATION | UEI LRVQERN7YNH9 | CORINNE, UT, USA | Latest award CONT_AWD_NNM07AA75C_8000_-NONE-_-NONE- (2026-09-02) parent: NORTHROP GRUMMAN CORPORATION (UEI NKVZLJL93QT6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "F9PAEKAAXGB6",
+        "cage": null,
+        "recipientId": "3ae62382-e723-2359-a5c9-5c26f274b88c-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/3ae62382-e723-2359-a5c9-5c26f274b88c-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/3ae62382-e723-2359-a5c9-5c26f274b88c-C/",
+        "responseSha256": "3da6e9bfd8349b6b326326d83638a7889e7f0b95c80927b45cb66711f35c0322",
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentName": "NORTHROP GRUMMAN CORPORATION",
+        "parentUei": "NKVZLJL93QT6",
+        "otherReportedParents": [],
+        "location": "CHANDLER, AZ, USA",
+        "contractAmount": 367474092.59,
+        "earliestTransaction": {
+          "date": "2020-11-03",
+          "award": "CONT_AWD_N0001921C0005_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-07-14",
+          "award": "CONT_AWD_HQ014711C0006_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_HQ014711C0006_9700_-NONE-_-NONE-",
+          "parentName": "NORTHROP GRUMMAN CORPORATION",
+          "parentUei": "NKVZLJL93QT6",
+          "recipientUei": "F9PAEKAAXGB6",
+          "responseSha256": "9060f24bb8f6a7ca351cf5ad76e51a622fd4abf006d47c9a892dab88ea1f96e1"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:F9PAEKAAXGB6",
+        "kind": "uei",
+        "value": "F9PAEKAAXGB6",
+        "entityId": "legal:northrop-grumman-systems-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2020-11-03",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/3ae62382-e723-2359-a5c9-5c26f274b88c-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/3ae62382-e723-2359-a5c9-5c26f274b88c-C/",
+        "supportingPassage": "NORTHROP GRUMMAN SYSTEMS CORPORATION | UEI F9PAEKAAXGB6 | CHANDLER, AZ, USA | Latest award CONT_AWD_HQ014711C0006_9700_-NONE-_-NONE- (2026-07-14) parent: NORTHROP GRUMMAN CORPORATION (UEI NKVZLJL93QT6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "WTPJHYWAGGX7",
+        "cage": null,
+        "recipientId": "c7602c83-2868-dfdb-38a7-abfb83b5f232-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/c7602c83-2868-dfdb-38a7-abfb83b5f232-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/c7602c83-2868-dfdb-38a7-abfb83b5f232-C/",
+        "responseSha256": "57b906aa20bd932bd38332c74276d51e573c1e96a4a16ed4bf0aaa4fe5c76dd7",
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentName": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentUei": "WTPJHYWAGGX7",
+        "otherReportedParents": [
+          "NORTHROP GRUMMAN CORPORATION / NKVZLJL93QT6"
+        ],
+        "location": "OKLAHOMA CITY, OK, USA",
+        "contractAmount": 359164430.45,
+        "earliestTransaction": {
+          "date": "2016-02-27",
+          "award": "CONT_AWD_SPE7M316M2304_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-07-15",
+          "award": "CONT_AWD_FA811722C0004_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_FA811722C0004_9700_-NONE-_-NONE-",
+          "parentName": "NORTHROP GRUMMAN CORPORATION",
+          "parentUei": "NKVZLJL93QT6",
+          "recipientUei": "WTPJHYWAGGX7",
+          "responseSha256": "ad37864ce41ca1f738dc15063a3e266921ca4225e18ac50296f6149ee4a8073f"
+        },
+        "warnings": [
+          "profile parent UEI WTPJHYWAGGX7 (NORTHROP GRUMMAN SYSTEMS CORPORATION) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:WTPJHYWAGGX7",
+        "kind": "uei",
+        "value": "WTPJHYWAGGX7",
+        "entityId": "legal:northrop-grumman-systems-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2016-02-27",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/c7602c83-2868-dfdb-38a7-abfb83b5f232-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/c7602c83-2868-dfdb-38a7-abfb83b5f232-C/",
+        "supportingPassage": "NORTHROP GRUMMAN SYSTEMS CORPORATION | UEI WTPJHYWAGGX7 | OKLAHOMA CITY, OK, USA | Latest award CONT_AWD_FA811722C0004_9700_-NONE-_-NONE- (2026-07-15) parent: NORTHROP GRUMMAN CORPORATION (UEI NKVZLJL93QT6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "GUVUU89P78Q3",
+        "cage": null,
+        "recipientId": "e398bb29-99aa-01cc-549d-c40fc7d84e10-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/e398bb29-99aa-01cc-549d-c40fc7d84e10-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/e398bb29-99aa-01cc-549d-c40fc7d84e10-C/",
+        "responseSha256": "179bd9a3f2e2d6ed343043bfb127f933f2a74ab16df417bd2d44c167cfd617f9",
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentName": "TITAN II INC.",
+        "parentUei": "PZQHGH183LA1",
+        "otherReportedParents": [
+          "NORTHROP GRUMMAN CORPORATION / NKVZLJL93QT6"
+        ],
+        "location": "LINTHICUM HEIGHTS, MD, USA",
+        "contractAmount": 334751421.28,
+        "earliestTransaction": {
+          "date": "2007-10-01",
+          "award": "CONT_AWD_0010_9700_FA823207D0001_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-07-15",
+          "award": "CONT_AWD_FA823222F0081_9700_FA823218D0014_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_FA823222F0081_9700_FA823218D0014_9700",
+          "parentName": "NORTHROP GRUMMAN CORPORATION",
+          "parentUei": "NKVZLJL93QT6",
+          "recipientUei": "GUVUU89P78Q3",
+          "responseSha256": "fcf9f80cfce7d4ac904ad238cdbc05cf5f0cd5d0023adb5b1ac18019b885c481"
+        },
+        "warnings": [
+          "profile parent UEI PZQHGH183LA1 (TITAN II INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:GUVUU89P78Q3",
+        "kind": "uei",
+        "value": "GUVUU89P78Q3",
+        "entityId": "legal:northrop-grumman-systems-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-01",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/e398bb29-99aa-01cc-549d-c40fc7d84e10-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/e398bb29-99aa-01cc-549d-c40fc7d84e10-C/",
+        "supportingPassage": "NORTHROP GRUMMAN SYSTEMS CORPORATION | UEI GUVUU89P78Q3 | LINTHICUM HEIGHTS, MD, USA | Latest award CONT_AWD_FA823222F0081_9700_FA823218D0014_9700 (2026-07-15) parent: NORTHROP GRUMMAN CORPORATION (UEI NKVZLJL93QT6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "LCV2N9FVV739",
+        "cage": null,
+        "recipientId": "e5a4578f-af26-a940-ae73-aac74a0863aa-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/e5a4578f-af26-a940-ae73-aac74a0863aa-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/e5a4578f-af26-a940-ae73-aac74a0863aa-C/",
+        "responseSha256": "2ebd39eda79b1b5504c8858698afba62a8e5c394cb5e1e78eff61a1d2b1b423f",
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentName": "TITAN II INC.",
+        "parentUei": "PZQHGH183LA1",
+        "otherReportedParents": [
+          "HUNTINGTON INGALLS INDUSTRIES, INC / F9SDJAZFTLG6",
+          "NORTHROP GRUMMAN SYSTEMS CORPORATION / LCV2N9FVV739",
+          "NORTHROP GRUMMAN CORPORATION / NKVZLJL93QT6"
+        ],
+        "location": "SUNNYVALE, CA, USA",
+        "contractAmount": 310013834.04,
+        "earliestTransaction": {
+          "date": "2007-10-01",
+          "award": "CONT_AWD_N0040608P0003_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-07-13",
+          "award": "CONT_AWD_N0010424CNA11_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N0010424CNA11_9700_-NONE-_-NONE-",
+          "parentName": "NORTHROP GRUMMAN CORPORATION",
+          "parentUei": "NKVZLJL93QT6",
+          "recipientUei": "LCV2N9FVV739",
+          "responseSha256": "1eacc50dfc6614d357b7afe0c2f94179a6822c36b954acc796726b0c811c921f"
+        },
+        "warnings": [
+          "profile parent UEI PZQHGH183LA1 (TITAN II INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:LCV2N9FVV739",
+        "kind": "uei",
+        "value": "LCV2N9FVV739",
+        "entityId": "legal:northrop-grumman-systems-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-01",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/e5a4578f-af26-a940-ae73-aac74a0863aa-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/e5a4578f-af26-a940-ae73-aac74a0863aa-C/",
+        "supportingPassage": "NORTHROP GRUMMAN SYSTEMS CORPORATION | UEI LCV2N9FVV739 | SUNNYVALE, CA, USA | Latest award CONT_AWD_N0010424CNA11_9700_-NONE-_-NONE- (2026-07-13) parent: NORTHROP GRUMMAN CORPORATION (UEI NKVZLJL93QT6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "ULU9F3WMEH66",
+        "cage": null,
+        "recipientId": "a7284824-a186-1d38-f257-0fd2f2e09ff5-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/a7284824-a186-1d38-f257-0fd2f2e09ff5-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/a7284824-a186-1d38-f257-0fd2f2e09ff5-C/",
+        "responseSha256": "a882c9f5ffe40a111fcbd76ed70d43efa6014393ba00f04643b6f29fee4d066b",
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentName": "NORTHROP GRUMMAN CORPORATION",
+        "parentUei": "NKVZLJL93QT6",
+        "otherReportedParents": [],
+        "location": "MINNEAPOLIS, MN, USA",
+        "contractAmount": 273271937.19,
+        "earliestTransaction": {
+          "date": "2020-06-30",
+          "award": "CONT_AWD_W15QKN20F0495_9700_W15QKN20D0012_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-07-15",
+          "award": "CONT_AWD_W56HZV23C0055_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_W56HZV23C0055_9700_-NONE-_-NONE-",
+          "parentName": "NORTHROP GRUMMAN CORPORATION",
+          "parentUei": "NKVZLJL93QT6",
+          "recipientUei": "ULU9F3WMEH66",
+          "responseSha256": "dc920a7dccdec2221c171519592a7d4d4b7e119299b819f869cf15ca6326456a"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:ULU9F3WMEH66",
+        "kind": "uei",
+        "value": "ULU9F3WMEH66",
+        "entityId": "legal:northrop-grumman-systems-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2020-06-30",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/a7284824-a186-1d38-f257-0fd2f2e09ff5-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/a7284824-a186-1d38-f257-0fd2f2e09ff5-C/",
+        "supportingPassage": "NORTHROP GRUMMAN SYSTEMS CORPORATION | UEI ULU9F3WMEH66 | MINNEAPOLIS, MN, USA | Latest award CONT_AWD_W56HZV23C0055_9700_-NONE-_-NONE- (2026-07-15) parent: NORTHROP GRUMMAN CORPORATION (UEI NKVZLJL93QT6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "FNBAMFZ3GD53",
+        "cage": null,
+        "recipientId": "cbf8729b-05b4-083d-1dea-1bd2a60d19bd-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/cbf8729b-05b4-083d-1dea-1bd2a60d19bd-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/cbf8729b-05b4-083d-1dea-1bd2a60d19bd-C/",
+        "responseSha256": "5f505cee9e1cc56e8ca183e46eb39ca0f903f0bc5d5aef905358092a1c99066d",
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentName": "TITAN II INC.",
+        "parentUei": "PZQHGH183LA1",
+        "otherReportedParents": [
+          "NORTHROP GRUMMAN CORPORATION / NKVZLJL93QT6"
+        ],
+        "location": "HUNTSVILLE, AL, USA",
+        "contractAmount": 167592559.18,
+        "earliestTransaction": {
+          "date": "2007-10-04",
+          "award": "CONT_AWD_0005_9700_W31P4Q06D0029_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-07-15",
+          "award": "CONT_AWD_W31P4Q22F0031_9700_W31P4Q22D0004_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_W31P4Q22F0031_9700_W31P4Q22D0004_9700",
+          "parentName": "NORTHROP GRUMMAN CORPORATION",
+          "parentUei": "NKVZLJL93QT6",
+          "recipientUei": "FNBAMFZ3GD53",
+          "responseSha256": "432881083b53c5dbc2f8b0f91e946d4f035e54b720463cf5bade400a9273d268"
+        },
+        "warnings": [
+          "profile parent UEI PZQHGH183LA1 (TITAN II INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:FNBAMFZ3GD53",
+        "kind": "uei",
+        "value": "FNBAMFZ3GD53",
+        "entityId": "legal:northrop-grumman-systems-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-04",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/cbf8729b-05b4-083d-1dea-1bd2a60d19bd-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/cbf8729b-05b4-083d-1dea-1bd2a60d19bd-C/",
+        "supportingPassage": "NORTHROP GRUMMAN SYSTEMS CORPORATION | UEI FNBAMFZ3GD53 | HUNTSVILLE, AL, USA | Latest award CONT_AWD_W31P4Q22F0031_9700_W31P4Q22D0004_9700 (2026-07-15) parent: NORTHROP GRUMMAN CORPORATION (UEI NKVZLJL93QT6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "LEMLXG994AU3",
+        "cage": null,
+        "recipientId": "f7392ad3-7b3f-619d-bad4-a8a48b0ba61e-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/f7392ad3-7b3f-619d-bad4-a8a48b0ba61e-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/f7392ad3-7b3f-619d-bad4-a8a48b0ba61e-C/",
+        "responseSha256": "a767b3755d5d1c53b04202b525206fcdcb8b174f4bb7e4897019434dd279bc5a",
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentName": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentUei": "EU5DMENAGD85",
+        "otherReportedParents": [
+          "TITAN II INC. / PZQHGH183LA1",
+          "NORTHROP GRUMMAN CORPORATION / NKVZLJL93QT6",
+          "NORTHROP GRUMMAN SYSTEMS CORPORATION / LEMLXG994AU3"
+        ],
+        "location": "SAN DIEGO, CA, USA",
+        "contractAmount": 154167240.63,
+        "earliestTransaction": {
+          "date": "2007-10-05",
+          "award": "CONT_AWD_FA872504C0007_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-07-15",
+          "award": "CONT_AWD_FA865023C9313_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_FA865023C9313_9700_-NONE-_-NONE-",
+          "parentName": "NORTHROP GRUMMAN CORPORATION",
+          "parentUei": "NKVZLJL93QT6",
+          "recipientUei": "LEMLXG994AU3",
+          "responseSha256": "701485f22920b8aa1daf5465e02213efc5c98069ad16e607417f34ee22a93a4c"
+        },
+        "warnings": [
+          "profile parent UEI EU5DMENAGD85 (NORTHROP GRUMMAN SYSTEMS CORPORATION) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:LEMLXG994AU3",
+        "kind": "uei",
+        "value": "LEMLXG994AU3",
+        "entityId": "legal:northrop-grumman-systems-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-05",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/f7392ad3-7b3f-619d-bad4-a8a48b0ba61e-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/f7392ad3-7b3f-619d-bad4-a8a48b0ba61e-C/",
+        "supportingPassage": "NORTHROP GRUMMAN SYSTEMS CORPORATION | UEI LEMLXG994AU3 | SAN DIEGO, CA, USA | Latest award CONT_AWD_FA865023C9313_9700_-NONE-_-NONE- (2026-07-15) parent: NORTHROP GRUMMAN CORPORATION (UEI NKVZLJL93QT6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "EH8UKZ6TML75",
+        "cage": null,
+        "recipientId": "60266e1f-9fb3-a71f-0907-0b2b5a62c2a4-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/60266e1f-9fb3-a71f-0907-0b2b5a62c2a4-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/60266e1f-9fb3-a71f-0907-0b2b5a62c2a4-C/",
+        "responseSha256": "a14dd6fc10a6abb2854136fab8b742cd34d678f578ed9771f94b185a7b577b56",
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentName": "TITAN II INC.",
+        "parentUei": "PZQHGH183LA1",
+        "otherReportedParents": [
+          "NORTHROP GRUMMAN CORPORATION / NKVZLJL93QT6"
+        ],
+        "location": "COLORADO SPRINGS, CO, USA",
+        "contractAmount": 140927555.05,
+        "earliestTransaction": {
+          "date": "2007-10-02",
+          "award": "CONT_AWD_0043_9700_FA881805D0009_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-07-01",
+          "award": "CONT_AWD_FA882024CB001_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_FA882024CB001_9700_-NONE-_-NONE-",
+          "parentName": "NORTHROP GRUMMAN CORPORATION",
+          "parentUei": "NKVZLJL93QT6",
+          "recipientUei": "EH8UKZ6TML75",
+          "responseSha256": "297b4b37f6a318432df72bf0bc9c4d302fe9766bc5cbebded9affc64a71dd004"
+        },
+        "warnings": [
+          "profile parent UEI PZQHGH183LA1 (TITAN II INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:EH8UKZ6TML75",
+        "kind": "uei",
+        "value": "EH8UKZ6TML75",
+        "entityId": "legal:northrop-grumman-systems-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-02",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/60266e1f-9fb3-a71f-0907-0b2b5a62c2a4-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/60266e1f-9fb3-a71f-0907-0b2b5a62c2a4-C/",
+        "supportingPassage": "NORTHROP GRUMMAN SYSTEMS CORPORATION | UEI EH8UKZ6TML75 | COLORADO SPRINGS, CO, USA | Latest award CONT_AWD_FA882024CB001_9700_-NONE-_-NONE- (2026-07-01) parent: NORTHROP GRUMMAN CORPORATION (UEI NKVZLJL93QT6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "PDKLLA6Q11N4",
+        "cage": null,
+        "recipientId": "268e592a-4851-0f22-aec6-351a0a0590c9-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/268e592a-4851-0f22-aec6-351a0a0590c9-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/268e592a-4851-0f22-aec6-351a0a0590c9-C/",
+        "responseSha256": "a529d776141a785f85aac5633fb6b9203b1c3439ef664676a89777524bf188cb",
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentName": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentUei": "EU5DMENAGD85",
+        "otherReportedParents": [
+          "TITAN II INC. / PZQHGH183LA1",
+          "NORTHROP GRUMMAN CORPORATION / NKVZLJL93QT6"
+        ],
+        "location": "BETHPAGE, NY, USA",
+        "contractAmount": 90499729.75,
+        "earliestTransaction": {
+          "date": "2007-10-01",
+          "award": "CONT_AWD_5042_9700_N0038306G068B_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-07-15",
+          "award": "CONT_AWD_N6893626F0052_9700_N6893619D0007_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N6893626F0052_9700_N6893619D0007_9700",
+          "parentName": "NORTHROP GRUMMAN CORPORATION",
+          "parentUei": "NKVZLJL93QT6",
+          "recipientUei": "PDKLLA6Q11N4",
+          "responseSha256": "b8f8b24f3dadeb438af8113203104808b7ecc823ce0db0834bbb8688aefe5b9b"
+        },
+        "warnings": [
+          "profile parent UEI EU5DMENAGD85 (NORTHROP GRUMMAN SYSTEMS CORPORATION) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:PDKLLA6Q11N4",
+        "kind": "uei",
+        "value": "PDKLLA6Q11N4",
+        "entityId": "legal:northrop-grumman-systems-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-01",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/268e592a-4851-0f22-aec6-351a0a0590c9-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/268e592a-4851-0f22-aec6-351a0a0590c9-C/",
+        "supportingPassage": "NORTHROP GRUMMAN SYSTEMS CORPORATION | UEI PDKLLA6Q11N4 | BETHPAGE, NY, USA | Latest award CONT_AWD_N6893626F0052_9700_N6893619D0007_9700 (2026-07-15) parent: NORTHROP GRUMMAN CORPORATION (UEI NKVZLJL93QT6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "FVSEZFPCQ316",
+        "cage": null,
+        "recipientId": "c19bef58-16e3-f32b-b699-25b3078161f8-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/c19bef58-16e3-f32b-b699-25b3078161f8-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/c19bef58-16e3-f32b-b699-25b3078161f8-C/",
+        "responseSha256": "f0b9117170638bd8a590744bd0a9697f9f6b2dd3d224d003bc44ef9e50c75a1a",
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentName": "NORTHROP GRUMMAN CORPORATION",
+        "parentUei": "NKVZLJL93QT6",
+        "otherReportedParents": [
+          "NORTHROP GRUMMAN INTERNATIONAL TRADING, INC / LBWTKQPGC4D4"
+        ],
+        "location": "NORTHRIDGE, CA, USA",
+        "contractAmount": 89058185.34,
+        "earliestTransaction": {
+          "date": "2020-10-30",
+          "award": "CONT_AWD_FA853321F0003_9700_FA853321D0001_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-07-01",
+          "award": "CONT_AWD_SPE7M825P1842_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_SPE7M825P1842_9700_-NONE-_-NONE-",
+          "parentName": "NORTHROP GRUMMAN CORPORATION",
+          "parentUei": "NKVZLJL93QT6",
+          "recipientUei": "FVSEZFPCQ316",
+          "responseSha256": "c968966693de3e82c543ebdb94ecb7198c21211b4fa5208949f6626ada855b16"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:FVSEZFPCQ316",
+        "kind": "uei",
+        "value": "FVSEZFPCQ316",
+        "entityId": "legal:northrop-grumman-systems-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2020-10-30",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/c19bef58-16e3-f32b-b699-25b3078161f8-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/c19bef58-16e3-f32b-b699-25b3078161f8-C/",
+        "supportingPassage": "NORTHROP GRUMMAN SYSTEMS CORPORATION | UEI FVSEZFPCQ316 | NORTHRIDGE, CA, USA | Latest award CONT_AWD_SPE7M825P1842_9700_-NONE-_-NONE- (2026-07-01) parent: NORTHROP GRUMMAN CORPORATION (UEI NKVZLJL93QT6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "GWFBQY413N79",
+        "cage": null,
+        "recipientId": "0ca58ca0-62b6-202c-8fb2-08c05b07b900-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/0ca58ca0-62b6-202c-8fb2-08c05b07b900-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/0ca58ca0-62b6-202c-8fb2-08c05b07b900-C/",
+        "responseSha256": "14709c9110e3d8bc8c8b61090295ce2f889df2c3bd94e31f8337088165b06cbf",
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentName": "TITAN II INC.",
+        "parentUei": "PZQHGH183LA1",
+        "otherReportedParents": [
+          "NORTHROP GRUMMAN CORPORATION / NKVZLJL93QT6"
+        ],
+        "location": "WOODLAND HILLS, CA, USA",
+        "contractAmount": 79333610.54,
+        "earliestTransaction": {
+          "date": "2007-10-01",
+          "award": "CONT_AWD_YM09_9700_N0038301G015G_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-07-14",
+          "award": "CONT_AWD_N0038325CM008_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N0038325CM008_9700_-NONE-_-NONE-",
+          "parentName": "NORTHROP GRUMMAN CORPORATION",
+          "parentUei": "NKVZLJL93QT6",
+          "recipientUei": "GWFBQY413N79",
+          "responseSha256": "d31463f6b6c4e7148ffd7fb469e7ae9a68dc4e7f259de26b86eab480da6fa403"
+        },
+        "warnings": [
+          "profile parent UEI PZQHGH183LA1 (TITAN II INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:GWFBQY413N79",
+        "kind": "uei",
+        "value": "GWFBQY413N79",
+        "entityId": "legal:northrop-grumman-systems-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-01",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/0ca58ca0-62b6-202c-8fb2-08c05b07b900-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/0ca58ca0-62b6-202c-8fb2-08c05b07b900-C/",
+        "supportingPassage": "NORTHROP GRUMMAN SYSTEMS CORPORATION | UEI GWFBQY413N79 | WOODLAND HILLS, CA, USA | Latest award CONT_AWD_N0038325CM008_9700_-NONE-_-NONE- (2026-07-14) parent: NORTHROP GRUMMAN CORPORATION (UEI NKVZLJL93QT6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "PQGNEEY9W5M3",
+        "cage": null,
+        "recipientId": "43da16e7-8e57-291c-6288-76696bef8671-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/43da16e7-8e57-291c-6288-76696bef8671-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/43da16e7-8e57-291c-6288-76696bef8671-C/",
+        "responseSha256": "856d4c97e1bfde4e55926425c598dc3cc74d8ef97ea2ce6da46d47220db1caca",
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentName": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentUei": "PQGNEEY9W5M3",
+        "otherReportedParents": [
+          "TITAN II INC. / PZQHGH183LA1",
+          "HUNTINGTON INGALLS INDUSTRIES, INC / F9SDJAZFTLG6",
+          "NORTHROP GRUMMAN CORPORATION / NKVZLJL93QT6"
+        ],
+        "location": "CHARLOTTESVILLE, VA, USA",
+        "contractAmount": 41300649.57,
+        "earliestTransaction": {
+          "date": "2007-10-01",
+          "award": "CONT_AWD_5070_9700_N0010406GA001_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-09-10",
+          "award": "CONT_AWD_70Z04425FC2PL0011_7008_70Z04425DC2PL0001_7008"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_70Z04425FC2PL0011_7008_70Z04425DC2PL0001_7008",
+          "parentName": "NORTHROP GRUMMAN CORPORATION",
+          "parentUei": "NKVZLJL93QT6",
+          "recipientUei": "PQGNEEY9W5M3",
+          "responseSha256": "d599b33f0f7633905aad56515b3c1054ebbb4d9ae02c158ee65627971b6c56e3"
+        },
+        "warnings": [
+          "profile parent UEI PQGNEEY9W5M3 (NORTHROP GRUMMAN SYSTEMS CORPORATION) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:PQGNEEY9W5M3",
+        "kind": "uei",
+        "value": "PQGNEEY9W5M3",
+        "entityId": "legal:northrop-grumman-systems-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-01",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/43da16e7-8e57-291c-6288-76696bef8671-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/43da16e7-8e57-291c-6288-76696bef8671-C/",
+        "supportingPassage": "NORTHROP GRUMMAN SYSTEMS CORPORATION | UEI PQGNEEY9W5M3 | CHARLOTTESVILLE, VA, USA | Latest award CONT_AWD_70Z04425FC2PL0011_7008_70Z04425DC2PL0001_7008 (2026-09-10) parent: NORTHROP GRUMMAN CORPORATION (UEI NKVZLJL93QT6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "G7LEFNAN9J74",
+        "cage": null,
+        "recipientId": "c2e50188-5668-debe-d1a4-b74551af9e03-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/c2e50188-5668-debe-d1a4-b74551af9e03-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/c2e50188-5668-debe-d1a4-b74551af9e03-C/",
+        "responseSha256": "03cb84881b0d6e9541cfa38da4b557e063094815b8c50668ebbcd8e79b743baa",
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentName": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentUei": "EU5DMENAGD85",
+        "otherReportedParents": [
+          "TITAN II INC. / PZQHGH183LA1",
+          "HUNTINGTON INGALLS INDUSTRIES, INC / F9SDJAZFTLG6",
+          "NORTHROP GRUMMAN SYSTEMS CORPORATION / G7LEFNAN9J74",
+          "NORTHROP GRUMMAN CORPORATION / NKVZLJL93QT6"
+        ],
+        "location": "RIVERDALE, UT, USA",
+        "contractAmount": 39969517.95,
+        "earliestTransaction": {
+          "date": "2007-10-11",
+          "award": "CONT_AWD_F4261098C0001_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-07-14",
+          "award": "CONT_AWD_FA821421F0009_9700_FA821421D0002_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_FA821421F0009_9700_FA821421D0002_9700",
+          "parentName": "NORTHROP GRUMMAN CORPORATION",
+          "parentUei": "NKVZLJL93QT6",
+          "recipientUei": "G7LEFNAN9J74",
+          "responseSha256": "9b0a358e289e1a846893e0dd92c287b47d9fc19f11dfaf9ea5131da001777918"
+        },
+        "warnings": [
+          "profile parent UEI EU5DMENAGD85 (NORTHROP GRUMMAN SYSTEMS CORPORATION) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:G7LEFNAN9J74",
+        "kind": "uei",
+        "value": "G7LEFNAN9J74",
+        "entityId": "legal:northrop-grumman-systems-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-11",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/c2e50188-5668-debe-d1a4-b74551af9e03-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/c2e50188-5668-debe-d1a4-b74551af9e03-C/",
+        "supportingPassage": "NORTHROP GRUMMAN SYSTEMS CORPORATION | UEI G7LEFNAN9J74 | RIVERDALE, UT, USA | Latest award CONT_AWD_FA821421F0009_9700_FA821421D0002_9700 (2026-07-14) parent: NORTHROP GRUMMAN CORPORATION (UEI NKVZLJL93QT6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "EPSYXPS5MK39",
+        "cage": null,
+        "recipientId": "55c3bf60-2143-937c-78fa-b455465ffafc-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/55c3bf60-2143-937c-78fa-b455465ffafc-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/55c3bf60-2143-937c-78fa-b455465ffafc-C/",
+        "responseSha256": "727bff1e56450319832e4d60d84677a1a112d3b3f0c5b15430b158f56ba4f456",
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentName": "TITAN II INC.",
+        "parentUei": "PZQHGH183LA1",
+        "otherReportedParents": [
+          "HUNTINGTON INGALLS INDUSTRIES, INC / F9SDJAZFTLG6",
+          "NORTHROP GRUMMAN CORPORATION / NKVZLJL93QT6"
+        ],
+        "location": "ANNAPOLIS, MD, USA",
+        "contractAmount": 37759049.14,
+        "earliestTransaction": {
+          "date": "2007-10-02",
+          "award": "CONT_AWD_0090_9700_N0010202D1900_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-06-27",
+          "award": "CONT_AWD_N6133125F0169_9700_N6133122D0001_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N6133125F0169_9700_N6133122D0001_9700",
+          "parentName": "NORTHROP GRUMMAN CORPORATION",
+          "parentUei": "NKVZLJL93QT6",
+          "recipientUei": "EPSYXPS5MK39",
+          "responseSha256": "7e2ed51e33b30e249ce87967986254501c17d191297063d04919d7032aec711a"
+        },
+        "warnings": [
+          "profile parent UEI PZQHGH183LA1 (TITAN II INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:EPSYXPS5MK39",
+        "kind": "uei",
+        "value": "EPSYXPS5MK39",
+        "entityId": "legal:northrop-grumman-systems-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-02",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/55c3bf60-2143-937c-78fa-b455465ffafc-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/55c3bf60-2143-937c-78fa-b455465ffafc-C/",
+        "supportingPassage": "NORTHROP GRUMMAN SYSTEMS CORPORATION | UEI EPSYXPS5MK39 | ANNAPOLIS, MD, USA | Latest award CONT_AWD_N6133125F0169_9700_N6133122D0001_9700 (2026-06-27) parent: NORTHROP GRUMMAN CORPORATION (UEI NKVZLJL93QT6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "Z9TUHQN8QK35",
+        "cage": null,
+        "recipientId": "4d0eb92e-b708-0b0a-2d72-8a4a8477e608-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/4d0eb92e-b708-0b0a-2d72-8a4a8477e608-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/4d0eb92e-b708-0b0a-2d72-8a4a8477e608-C/",
+        "responseSha256": "23bb6ab16ab0fda94af6491f1ac7f91da34f94c22b8b61fb44cc5bfee7a8adc3",
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentName": "TITAN II INC.",
+        "parentUei": "PZQHGH183LA1",
+        "otherReportedParents": [
+          "NORTHROP GRUMMAN CORPORATION / NKVZLJL93QT6",
+          "NORTHROP GRUMMAN SYSTEMS CORPORATION / Z9TUHQN8QK35"
+        ],
+        "location": "BUFFALO, NY, USA",
+        "contractAmount": 36810679.28,
+        "earliestTransaction": {
+          "date": "2007-11-01",
+          "award": "CONT_AWD_FA854007C0019_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-07-07",
+          "award": "CONT_AWD_FA813924P0003_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_FA813924P0003_9700_-NONE-_-NONE-",
+          "parentName": "NORTHROP GRUMMAN CORPORATION",
+          "parentUei": "NKVZLJL93QT6",
+          "recipientUei": "Z9TUHQN8QK35",
+          "responseSha256": "6cafdc6fda348d61bcbe82bc77ec5dc850ae1e63596c967de7085da9fcbda846"
+        },
+        "warnings": [
+          "profile parent UEI PZQHGH183LA1 (TITAN II INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:Z9TUHQN8QK35",
+        "kind": "uei",
+        "value": "Z9TUHQN8QK35",
+        "entityId": "legal:northrop-grumman-systems-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-11-01",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/4d0eb92e-b708-0b0a-2d72-8a4a8477e608-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/4d0eb92e-b708-0b0a-2d72-8a4a8477e608-C/",
+        "supportingPassage": "NORTHROP GRUMMAN SYSTEMS CORPORATION | UEI Z9TUHQN8QK35 | BUFFALO, NY, USA | Latest award CONT_AWD_FA813924P0003_9700_-NONE-_-NONE- (2026-07-07) parent: NORTHROP GRUMMAN CORPORATION (UEI NKVZLJL93QT6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "U6V4EWXNS1D8",
+        "cage": null,
+        "recipientId": "99b7ee6b-29ca-7741-022d-68dfdcac76b2-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/99b7ee6b-29ca-7741-022d-68dfdcac76b2-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/99b7ee6b-29ca-7741-022d-68dfdcac76b2-C/",
+        "responseSha256": "8f9cbab97bcd1f49806a920e94e17de38b3a1c8ce912820ba6590e394b56eaf5",
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentName": "TITAN II INC.",
+        "parentUei": "PZQHGH183LA1",
+        "otherReportedParents": [
+          "NORTHROP GRUMMAN CORPORATION / NKVZLJL93QT6"
+        ],
+        "location": "AZUSA, CA, USA",
+        "contractAmount": 30083872.81,
+        "earliestTransaction": {
+          "date": "2007-10-02",
+          "award": "CONT_AWD_FA255004C3008_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-06-08",
+          "award": "CONT_AWD_FA880317C0001_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_FA880317C0001_9700_-NONE-_-NONE-",
+          "parentName": "NORTHROP GRUMMAN CORPORATION",
+          "parentUei": "NKVZLJL93QT6",
+          "recipientUei": "U6V4EWXNS1D8",
+          "responseSha256": "ae858090ce489b81ab4280dbba5dfaa9eae971a075449998ff94f90ac7e896e7"
+        },
+        "warnings": [
+          "profile parent UEI PZQHGH183LA1 (TITAN II INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:U6V4EWXNS1D8",
+        "kind": "uei",
+        "value": "U6V4EWXNS1D8",
+        "entityId": "legal:northrop-grumman-systems-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-02",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/99b7ee6b-29ca-7741-022d-68dfdcac76b2-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/99b7ee6b-29ca-7741-022d-68dfdcac76b2-C/",
+        "supportingPassage": "NORTHROP GRUMMAN SYSTEMS CORPORATION | UEI U6V4EWXNS1D8 | AZUSA, CA, USA | Latest award CONT_AWD_FA880317C0001_9700_-NONE-_-NONE- (2026-06-08) parent: NORTHROP GRUMMAN CORPORATION (UEI NKVZLJL93QT6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "UG5JJDZF27Z3",
+        "cage": null,
+        "recipientId": "b8c50d24-c4c4-e4d8-e427-7b995601fd88-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/b8c50d24-c4c4-e4d8-e427-7b995601fd88-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/b8c50d24-c4c4-e4d8-e427-7b995601fd88-C/",
+        "responseSha256": "49d54921bb6b21d1e5dcb78be5e574f5b7632587566e148e94ae66220c96ab98",
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentName": "NORTHROP GRUMMAN CORPORATION",
+        "parentUei": "NKVZLJL93QT6",
+        "otherReportedParents": [
+          "NORTHROP GRUMMAN SYSTEMS CORPORATION / UG5JJDZF27Z3"
+        ],
+        "location": "SAN JOSE, CA, USA",
+        "contractAmount": 24233680.2,
+        "earliestTransaction": {
+          "date": "2021-03-04",
+          "award": "CONT_AWD_FA852820F0009_9700_FA852817D0013_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-07-10",
+          "award": "CONT_AWD_FA852825FB002_9700_FA852822D0013_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_FA852825FB002_9700_FA852822D0013_9700",
+          "parentName": "NORTHROP GRUMMAN CORPORATION",
+          "parentUei": "NKVZLJL93QT6",
+          "recipientUei": "UG5JJDZF27Z3",
+          "responseSha256": "432b444e25186ea5af3b9a1d3efbbdeabd3f1934206552b5264c8fc3fd978789"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:UG5JJDZF27Z3",
+        "kind": "uei",
+        "value": "UG5JJDZF27Z3",
+        "entityId": "legal:northrop-grumman-systems-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2021-03-04",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/b8c50d24-c4c4-e4d8-e427-7b995601fd88-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/b8c50d24-c4c4-e4d8-e427-7b995601fd88-C/",
+        "supportingPassage": "NORTHROP GRUMMAN SYSTEMS CORPORATION | UEI UG5JJDZF27Z3 | SAN JOSE, CA, USA | Latest award CONT_AWD_FA852825FB002_9700_FA852822D0013_9700 (2026-07-10) parent: NORTHROP GRUMMAN CORPORATION (UEI NKVZLJL93QT6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "X1MRDHSQMJ58",
+        "cage": null,
+        "recipientId": "d495753f-6864-1e9c-62ba-ae0907ad640d-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/d495753f-6864-1e9c-62ba-ae0907ad640d-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/d495753f-6864-1e9c-62ba-ae0907ad640d-C/",
+        "responseSha256": "6df0d42af1aa10117697debce2886f3e892bd137f86ff4f72d36868d17abb1cc",
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentName": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentUei": "EU5DMENAGD85",
+        "otherReportedParents": [
+          "TITAN II INC. / PZQHGH183LA1",
+          "HUNTINGTON INGALLS INDUSTRIES, INC / F9SDJAZFTLG6",
+          "NORTHROP GRUMMAN CORPORATION / NKVZLJL93QT6",
+          "NORTHROP GRUMMAN SYSTEMS CORPORATION / X1MRDHSQMJ58"
+        ],
+        "location": "CHANTILLY, VA, USA",
+        "contractAmount": 22242425.91,
+        "earliestTransaction": {
+          "date": "2007-10-04",
+          "award": "CONT_AWD_FA860104F0043_9700_GS23F9797H_4730"
+        },
+        "latestTransaction": {
+          "date": "2026-07-23",
+          "award": "CONT_AWD_GST0510BM0005_4735_GS23F9797H_4730"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_GST0510BM0005_4735_GS23F9797H_4730",
+          "parentName": "NORTHROP GRUMMAN CORPORATION",
+          "parentUei": "NKVZLJL93QT6",
+          "recipientUei": "X1MRDHSQMJ58",
+          "responseSha256": "28a59ebf75ad1744dbe797ee52a72204ccefde2f477f4fcf0594216205ef7bb3"
+        },
+        "warnings": [
+          "profile parent UEI EU5DMENAGD85 (NORTHROP GRUMMAN SYSTEMS CORPORATION) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:X1MRDHSQMJ58",
+        "kind": "uei",
+        "value": "X1MRDHSQMJ58",
+        "entityId": "legal:northrop-grumman-systems-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-04",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/d495753f-6864-1e9c-62ba-ae0907ad640d-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/d495753f-6864-1e9c-62ba-ae0907ad640d-C/",
+        "supportingPassage": "NORTHROP GRUMMAN SYSTEMS CORPORATION | UEI X1MRDHSQMJ58 | CHANTILLY, VA, USA | Latest award CONT_AWD_GST0510BM0005_4735_GS23F9797H_4730 (2026-07-23) parent: NORTHROP GRUMMAN CORPORATION (UEI NKVZLJL93QT6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "HUDHMPV9B6M9",
+        "cage": null,
+        "recipientId": "adb84f97-3d00-e3c0-4ef5-14e076ea4654-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/adb84f97-3d00-e3c0-4ef5-14e076ea4654-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/adb84f97-3d00-e3c0-4ef5-14e076ea4654-C/",
+        "responseSha256": "dbec41ef8b99ebaf0739b483eed12c655322d86a07ad69a27034921fac78d363",
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentName": "TITAN II INC.",
+        "parentUei": "PZQHGH183LA1",
+        "otherReportedParents": [
+          "NORTHROP GRUMMAN CORPORATION / NKVZLJL93QT6",
+          "NORTHROP GRUMMAN SYSTEMS CORPORATION / HUDHMPV9B6M9"
+        ],
+        "location": "SYKESVILLE, MD, USA",
+        "contractAmount": 21704215.89,
+        "earliestTransaction": {
+          "date": "2007-10-11",
+          "award": "CONT_AWD_N0010408VCA27_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-07-14",
+          "award": "CONT_AWD_N0010424PDC67_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N0010424PDC67_9700_-NONE-_-NONE-",
+          "parentName": "NORTHROP GRUMMAN CORPORATION",
+          "parentUei": "NKVZLJL93QT6",
+          "recipientUei": "HUDHMPV9B6M9",
+          "responseSha256": "19cf463cf12b7fabf7b1d879f14268052a5bbe4a771894cfbf71868d69116837"
+        },
+        "warnings": [
+          "profile parent UEI PZQHGH183LA1 (TITAN II INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:HUDHMPV9B6M9",
+        "kind": "uei",
+        "value": "HUDHMPV9B6M9",
+        "entityId": "legal:northrop-grumman-systems-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-11",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/adb84f97-3d00-e3c0-4ef5-14e076ea4654-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/adb84f97-3d00-e3c0-4ef5-14e076ea4654-C/",
+        "supportingPassage": "NORTHROP GRUMMAN SYSTEMS CORPORATION | UEI HUDHMPV9B6M9 | SYKESVILLE, MD, USA | Latest award CONT_AWD_N0010424PDC67_9700_-NONE-_-NONE- (2026-07-14) parent: NORTHROP GRUMMAN CORPORATION (UEI NKVZLJL93QT6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "GHKDJMJNPL13",
+        "cage": null,
+        "recipientId": "9a8c1f7f-1186-b65d-d152-87d4ef22c916-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/9a8c1f7f-1186-b65d-d152-87d4ef22c916-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/9a8c1f7f-1186-b65d-d152-87d4ef22c916-C/",
+        "responseSha256": "6adc188f1b51593bb0a22c814148299a21e9f4aa69f32ae6a49dbf0f3ae74fdd",
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentName": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentUei": "GHKDJMJNPL13",
+        "otherReportedParents": [
+          "NORTHROP GRUMMAN CORPORATION / NKVZLJL93QT6"
+        ],
+        "location": "MC LEAN, VA, USA",
+        "contractAmount": 20280003.56,
+        "earliestTransaction": {
+          "date": "2013-06-04",
+          "award": "CONT_AWD_HDTRA111F0028_9700_GS00Q09BGD0056_4735"
+        },
+        "latestTransaction": {
+          "date": "2026-07-07",
+          "award": "CONT_AWD_FA865018C1020_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_FA865018C1020_9700_-NONE-_-NONE-",
+          "parentName": "NORTHROP GRUMMAN CORPORATION",
+          "parentUei": "NKVZLJL93QT6",
+          "recipientUei": "GHKDJMJNPL13",
+          "responseSha256": "27c6f7113412f392e51bd300c1344aad6fd6f0020903b415c0bee262a6517234"
+        },
+        "warnings": [
+          "profile parent UEI GHKDJMJNPL13 (NORTHROP GRUMMAN SYSTEMS CORPORATION) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:GHKDJMJNPL13",
+        "kind": "uei",
+        "value": "GHKDJMJNPL13",
+        "entityId": "legal:northrop-grumman-systems-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2013-06-04",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/9a8c1f7f-1186-b65d-d152-87d4ef22c916-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/9a8c1f7f-1186-b65d-d152-87d4ef22c916-C/",
+        "supportingPassage": "NORTHROP GRUMMAN SYSTEMS CORPORATION | UEI GHKDJMJNPL13 | MC LEAN, VA, USA | Latest award CONT_AWD_FA865018C1020_9700_-NONE-_-NONE- (2026-07-07) parent: NORTHROP GRUMMAN CORPORATION (UEI NKVZLJL93QT6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "T9XKQSKMW4J1",
+        "cage": null,
+        "recipientId": "2035a629-ce00-2f40-97a9-433ae84eb2f9-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/2035a629-ce00-2f40-97a9-433ae84eb2f9-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/2035a629-ce00-2f40-97a9-433ae84eb2f9-C/",
+        "responseSha256": "96cf6a5b91d681775eee202eecfbc24c6303ef2598a2b7fb772aa887fbd236d3",
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentName": "TITAN II INC.",
+        "parentUei": "PZQHGH183LA1",
+        "otherReportedParents": [
+          "HUNTINGTON INGALLS INDUSTRIES, INC / F9SDJAZFTLG6",
+          "NORTHROP GRUMMAN CORPORATION / NKVZLJL93QT6"
+        ],
+        "location": "EL SEGUNDO, CA, USA",
+        "contractAmount": 17506197.1,
+        "earliestTransaction": {
+          "date": "2007-10-01",
+          "award": "CONT_AWD_5009_9700_N0038306D033D_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-08-04",
+          "award": "CONT_AWD_80GRC026C0013_8000_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_80GRC026C0013_8000_-NONE-_-NONE-",
+          "parentName": "NORTHROP GRUMMAN CORPORATION",
+          "parentUei": "NKVZLJL93QT6",
+          "recipientUei": "T9XKQSKMW4J1",
+          "responseSha256": "bb39bc4a8251dafae02467cf75b56a93280ba41bc2f50a0ce4faafa7991e8020"
+        },
+        "warnings": [
+          "profile parent UEI PZQHGH183LA1 (TITAN II INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:T9XKQSKMW4J1",
+        "kind": "uei",
+        "value": "T9XKQSKMW4J1",
+        "entityId": "legal:northrop-grumman-systems-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-01",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/2035a629-ce00-2f40-97a9-433ae84eb2f9-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/2035a629-ce00-2f40-97a9-433ae84eb2f9-C/",
+        "supportingPassage": "NORTHROP GRUMMAN SYSTEMS CORPORATION | UEI T9XKQSKMW4J1 | EL SEGUNDO, CA, USA | Latest award CONT_AWD_80GRC026C0013_8000_-NONE-_-NONE- (2026-08-04) parent: NORTHROP GRUMMAN CORPORATION (UEI NKVZLJL93QT6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "NP4KMYJL82B5",
+        "cage": null,
+        "recipientId": "129cd3c9-6c89-55f9-ff5d-56355dc07fb3-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/129cd3c9-6c89-55f9-ff5d-56355dc07fb3-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/129cd3c9-6c89-55f9-ff5d-56355dc07fb3-C/",
+        "responseSha256": "dea2578ff9c0fa02305791d150384bd8ba53b83b608008a178d12cba60db4a3a",
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentName": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentUei": "EU5DMENAGD85",
+        "otherReportedParents": [
+          "TITAN II INC. / PZQHGH183LA1",
+          "HUNTINGTON INGALLS INDUSTRIES, INC / F9SDJAZFTLG6",
+          "NORTHROP GRUMMAN CORPORATION / NKVZLJL93QT6"
+        ],
+        "location": "AURORA, CO, USA",
+        "contractAmount": 14077914.4,
+        "earliestTransaction": {
+          "date": "2007-10-02",
+          "award": "CONT_AWD_HR001106C0057_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-06-11",
+          "award": "CONT_AWD_N6523624C8012_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N6523624C8012_9700_-NONE-_-NONE-",
+          "parentName": "NORTHROP GRUMMAN CORPORATION",
+          "parentUei": "NKVZLJL93QT6",
+          "recipientUei": "NP4KMYJL82B5",
+          "responseSha256": "51b9079e6647a4c1eff063f7e0d5bb6ec895fe1be3acba62a5f336c6c7ad08bc"
+        },
+        "warnings": [
+          "profile parent UEI EU5DMENAGD85 (NORTHROP GRUMMAN SYSTEMS CORPORATION) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:NP4KMYJL82B5",
+        "kind": "uei",
+        "value": "NP4KMYJL82B5",
+        "entityId": "legal:northrop-grumman-systems-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-02",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/129cd3c9-6c89-55f9-ff5d-56355dc07fb3-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/129cd3c9-6c89-55f9-ff5d-56355dc07fb3-C/",
+        "supportingPassage": "NORTHROP GRUMMAN SYSTEMS CORPORATION | UEI NP4KMYJL82B5 | AURORA, CO, USA | Latest award CONT_AWD_N6523624C8012_9700_-NONE-_-NONE- (2026-06-11) parent: NORTHROP GRUMMAN CORPORATION (UEI NKVZLJL93QT6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "DE6HN4VGM3R1",
+        "cage": null,
+        "recipientId": "8045a473-49bf-de71-ebb8-2351822daebe-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/8045a473-49bf-de71-ebb8-2351822daebe-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/8045a473-49bf-de71-ebb8-2351822daebe-C/",
+        "responseSha256": "0d4d5335726f88f9499d8a46455fbeb836b13df8cca84cfa92b0b5cf33cde33f",
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentName": "TITAN II INC.",
+        "parentUei": "PZQHGH183LA1",
+        "otherReportedParents": [
+          "NORTHROP GRUMMAN SYSTEMS CORPORATION / DE6HN4VGM3R1",
+          "NORTHROP GRUMMAN CORPORATION / NKVZLJL93QT6"
+        ],
+        "location": "BALTIMORE, MD, USA",
+        "contractAmount": 13685122.97,
+        "earliestTransaction": {
+          "date": "2007-10-03",
+          "award": "CONT_AWD_W25G1V08P0061_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-07-09",
+          "award": "CONT_AWD_M6785426F0013_9700_M6785426G0003_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_M6785426F0013_9700_M6785426G0003_9700",
+          "parentName": "NORTHROP GRUMMAN CORPORATION",
+          "parentUei": "NKVZLJL93QT6",
+          "recipientUei": "DE6HN4VGM3R1",
+          "responseSha256": "8c6631d94ab6ec77f5deef1514252fbae261c91e338a26b9ed2296cb6b0afdd9"
+        },
+        "warnings": [
+          "profile parent UEI PZQHGH183LA1 (TITAN II INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:DE6HN4VGM3R1",
+        "kind": "uei",
+        "value": "DE6HN4VGM3R1",
+        "entityId": "legal:northrop-grumman-systems-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-03",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/8045a473-49bf-de71-ebb8-2351822daebe-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/8045a473-49bf-de71-ebb8-2351822daebe-C/",
+        "supportingPassage": "NORTHROP GRUMMAN SYSTEMS CORPORATION | UEI DE6HN4VGM3R1 | BALTIMORE, MD, USA | Latest award CONT_AWD_M6785426F0013_9700_M6785426G0003_9700 (2026-07-09) parent: NORTHROP GRUMMAN CORPORATION (UEI NKVZLJL93QT6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "VRFSS3NN1CQ3",
+        "cage": null,
+        "recipientId": "e0028e70-8433-11a0-9980-f881c6962189-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/e0028e70-8433-11a0-9980-f881c6962189-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/e0028e70-8433-11a0-9980-f881c6962189-C/",
+        "responseSha256": "444ca12a13d787471890d2eb6fcd7aa127cf07ee41fc1bc974d4e2481d4df544",
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentName": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentUei": "VRFSS3NN1CQ3",
+        "otherReportedParents": [
+          "NORTHROP GRUMMAN CORPORATION / NKVZLJL93QT6"
+        ],
+        "location": "MAGNA, UT, USA",
+        "contractAmount": 13673823.82,
+        "earliestTransaction": {
+          "date": "2021-07-14",
+          "award": "CONT_AWD_N0003021F2001_9700_N0003021D2043_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-07-15",
+          "award": "CONT_AWD_HQ085925F0010_9700_HQ085922D0002_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_HQ085925F0010_9700_HQ085922D0002_9700",
+          "parentName": "NORTHROP GRUMMAN CORPORATION",
+          "parentUei": "NKVZLJL93QT6",
+          "recipientUei": "VRFSS3NN1CQ3",
+          "responseSha256": "56a7d1c26d247a7c17098d252a571492a84f88321e951601cc17010aa4c7fb00"
+        },
+        "warnings": [
+          "profile parent UEI VRFSS3NN1CQ3 (NORTHROP GRUMMAN SYSTEMS CORPORATION) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:VRFSS3NN1CQ3",
+        "kind": "uei",
+        "value": "VRFSS3NN1CQ3",
+        "entityId": "legal:northrop-grumman-systems-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2021-07-14",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/e0028e70-8433-11a0-9980-f881c6962189-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/e0028e70-8433-11a0-9980-f881c6962189-C/",
+        "supportingPassage": "NORTHROP GRUMMAN SYSTEMS CORPORATION | UEI VRFSS3NN1CQ3 | MAGNA, UT, USA | Latest award CONT_AWD_HQ085925F0010_9700_HQ085922D0002_9700 (2026-07-15) parent: NORTHROP GRUMMAN CORPORATION (UEI NKVZLJL93QT6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "FGUQXGJZ1U13",
+        "cage": null,
+        "recipientId": "de04fd72-1719-9213-bfd8-151fe057baf4-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/de04fd72-1719-9213-bfd8-151fe057baf4-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/de04fd72-1719-9213-bfd8-151fe057baf4-C/",
+        "responseSha256": "ac6039375157d1fa935d782c32556753bd0cdeae360679aa023425f3b5dd243b",
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentName": "NORTHROP GRUMMAN CORPORATION",
+        "parentUei": "NKVZLJL93QT6",
+        "otherReportedParents": [
+          "NORTHROP GRUMMAN SYSTEMS CORPORATION / FGUQXGJZ1U13"
+        ],
+        "location": "IRVING, TX, USA",
+        "contractAmount": 9785735.87,
+        "earliestTransaction": {
+          "date": "2021-05-28",
+          "award": "CONT_AWD_FA869121F1038_9700_FA869121D1016_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-06-25",
+          "award": "CONT_AWD_FA861721C6237_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_FA861721C6237_9700_-NONE-_-NONE-",
+          "parentName": "NORTHROP GRUMMAN CORPORATION",
+          "parentUei": "NKVZLJL93QT6",
+          "recipientUei": "FGUQXGJZ1U13",
+          "responseSha256": "eb50c5d55be7e04bee21e3493920ed01e460408508aff92c2faca728676a564d"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:FGUQXGJZ1U13",
+        "kind": "uei",
+        "value": "FGUQXGJZ1U13",
+        "entityId": "legal:northrop-grumman-systems-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2021-05-28",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/de04fd72-1719-9213-bfd8-151fe057baf4-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/de04fd72-1719-9213-bfd8-151fe057baf4-C/",
+        "supportingPassage": "NORTHROP GRUMMAN SYSTEMS CORPORATION | UEI FGUQXGJZ1U13 | IRVING, TX, USA | Latest award CONT_AWD_FA861721C6237_9700_-NONE-_-NONE- (2026-06-25) parent: NORTHROP GRUMMAN CORPORATION (UEI NKVZLJL93QT6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "JJHBEYM2DJ66",
+        "cage": null,
+        "recipientId": "479de67f-d8f6-735b-cfe2-36b4a5fb6dc0-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/479de67f-d8f6-735b-cfe2-36b4a5fb6dc0-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/479de67f-d8f6-735b-cfe2-36b4a5fb6dc0-C/",
+        "responseSha256": "5dbc364e0410db369382d8f445721d3f8481658faf7fb20e1e35d235094955a3",
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentName": "NORTHROP GRUMMAN CORPORATION",
+        "parentUei": "NKVZLJL93QT6",
+        "otherReportedParents": [],
+        "location": "BOULDER, CO, USA",
+        "contractAmount": 8606271.92,
+        "earliestTransaction": {
+          "date": "2011-07-11",
+          "award": "CONT_AWD_FA881411C0007_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-07-01",
+          "award": "CONT_AWD_N6600124F0495_9700_N6600122D0057_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N6600124F0495_9700_N6600122D0057_9700",
+          "parentName": "NORTHROP GRUMMAN CORPORATION",
+          "parentUei": "NKVZLJL93QT6",
+          "recipientUei": "JJHBEYM2DJ66",
+          "responseSha256": "94fa25e3457c56f005523c4db7d18a94db8d566dfc5bc6291a6c6702b4039057"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:JJHBEYM2DJ66",
+        "kind": "uei",
+        "value": "JJHBEYM2DJ66",
+        "entityId": "legal:northrop-grumman-systems-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2011-07-11",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/479de67f-d8f6-735b-cfe2-36b4a5fb6dc0-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/479de67f-d8f6-735b-cfe2-36b4a5fb6dc0-C/",
+        "supportingPassage": "NORTHROP GRUMMAN SYSTEMS CORPORATION | UEI JJHBEYM2DJ66 | BOULDER, CO, USA | Latest award CONT_AWD_N6600124F0495_9700_N6600122D0057_9700 (2026-07-01) parent: NORTHROP GRUMMAN CORPORATION (UEI NKVZLJL93QT6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "KV8YDNS7VMT9",
+        "cage": null,
+        "recipientId": "c9a99560-348c-83f7-695c-4c99d1a3f138-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/c9a99560-348c-83f7-695c-4c99d1a3f138-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/c9a99560-348c-83f7-695c-4c99d1a3f138-C/",
+        "responseSha256": "5ac1cead04f0a1bf0f51d619b836ec02f2fc7abcdf68918cd837b3fc333f2cd4",
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentName": "TITAN II INC.",
+        "parentUei": "PZQHGH183LA1",
+        "otherReportedParents": [
+          "NORTHROP GRUMMAN CORPORATION / NKVZLJL93QT6"
+        ],
+        "location": "ELKRIDGE, MD, USA",
+        "contractAmount": 8474753.22,
+        "earliestTransaction": {
+          "date": "2007-10-03",
+          "award": "CONT_AWD_0004_9700_FA872604D0004_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-09-23",
+          "award": "CONT_AWD_6973GH26F01449_6920_6973GH26D00051_6920"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_6973GH26F01449_6920_6973GH26D00051_6920",
+          "parentName": "NORTHROP GRUMMAN CORPORATION",
+          "parentUei": "NKVZLJL93QT6",
+          "recipientUei": "KV8YDNS7VMT9",
+          "responseSha256": "7385ca4502a76059849ee284d95a7109ca96e8dd76d7ee647f70ee0f814e2d15"
+        },
+        "warnings": [
+          "profile parent UEI PZQHGH183LA1 (TITAN II INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:KV8YDNS7VMT9",
+        "kind": "uei",
+        "value": "KV8YDNS7VMT9",
+        "entityId": "legal:northrop-grumman-systems-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-03",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/c9a99560-348c-83f7-695c-4c99d1a3f138-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/c9a99560-348c-83f7-695c-4c99d1a3f138-C/",
+        "supportingPassage": "NORTHROP GRUMMAN SYSTEMS CORPORATION | UEI KV8YDNS7VMT9 | ELKRIDGE, MD, USA | Latest award CONT_AWD_6973GH26F01449_6920_6973GH26D00051_6920 (2026-09-23) parent: NORTHROP GRUMMAN CORPORATION (UEI NKVZLJL93QT6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "FVW9ABFZGMX3",
+        "cage": null,
+        "recipientId": "3f6f3e81-838f-d035-c23d-c5ef06fc7ebb-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/3f6f3e81-838f-d035-c23d-c5ef06fc7ebb-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/3f6f3e81-838f-d035-c23d-c5ef06fc7ebb-C/",
+        "responseSha256": "a82ceedecc2346186c70d8821bc679b61968344840ce62a4e27c7b995ff86e37",
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentName": "NORTHROP GRUMMAN CORPORATION",
+        "parentUei": "NKVZLJL93QT6",
+        "otherReportedParents": [
+          "NORTHROP GRUMMAN SYSTEMS CORPORATION / FVW9ABFZGMX3"
+        ],
+        "location": "CLEARFIELD, UT, USA",
+        "contractAmount": 3121812.29,
+        "earliestTransaction": {
+          "date": "2016-03-30",
+          "award": "CONT_AWD_FA823216C0010_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-07-14",
+          "award": "CONT_AWD_SPE4A621F439G_9700_SPE4A117G0005_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_SPE4A621F439G_9700_SPE4A117G0005_9700",
+          "parentName": "NORTHROP GRUMMAN CORPORATION",
+          "parentUei": "NKVZLJL93QT6",
+          "recipientUei": "FVW9ABFZGMX3",
+          "responseSha256": "993fbfdfb03a86c997ea6faf61770bf80c1ef425407c31959c269c90fda7400b"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:FVW9ABFZGMX3",
+        "kind": "uei",
+        "value": "FVW9ABFZGMX3",
+        "entityId": "legal:northrop-grumman-systems-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2016-03-30",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/3f6f3e81-838f-d035-c23d-c5ef06fc7ebb-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/3f6f3e81-838f-d035-c23d-c5ef06fc7ebb-C/",
+        "supportingPassage": "NORTHROP GRUMMAN SYSTEMS CORPORATION | UEI FVW9ABFZGMX3 | CLEARFIELD, UT, USA | Latest award CONT_AWD_SPE4A621F439G_9700_SPE4A117G0005_9700 (2026-07-14) parent: NORTHROP GRUMMAN CORPORATION (UEI NKVZLJL93QT6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "MZJBM2CV63M1",
+        "cage": null,
+        "recipientId": "dc9fd80b-31b6-81ac-8cdc-95bb8aa22cae-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/dc9fd80b-31b6-81ac-8cdc-95bb8aa22cae-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/dc9fd80b-31b6-81ac-8cdc-95bb8aa22cae-C/",
+        "responseSha256": "d30c075af10d3abc8b211a5cb9544ca4491a4cc19a1e2ed7f10691b30049f7d7",
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentName": "TITAN II INC.",
+        "parentUei": "PZQHGH183LA1",
+        "otherReportedParents": [
+          "NORTHROP GRUMMAN CORPORATION / NKVZLJL93QT6"
+        ],
+        "location": "APOPKA, FL, USA",
+        "contractAmount": 2896713.33,
+        "earliestTransaction": {
+          "date": "2007-10-22",
+          "award": "CONT_AWD_SPM7M508M0295_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-07-08",
+          "award": "CONT_AWD_M6785425F1020_9700_M6785422D1011_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_M6785425F1020_9700_M6785422D1011_9700",
+          "parentName": "NORTHROP GRUMMAN CORPORATION",
+          "parentUei": "NKVZLJL93QT6",
+          "recipientUei": "MZJBM2CV63M1",
+          "responseSha256": "0b8c0adc0ff8d1c65520df5eb027df20420f7ad2ae06800e118a78374e74bf3d"
+        },
+        "warnings": [
+          "profile parent UEI PZQHGH183LA1 (TITAN II INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:MZJBM2CV63M1",
+        "kind": "uei",
+        "value": "MZJBM2CV63M1",
+        "entityId": "legal:northrop-grumman-systems-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-22",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/dc9fd80b-31b6-81ac-8cdc-95bb8aa22cae-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/dc9fd80b-31b6-81ac-8cdc-95bb8aa22cae-C/",
+        "supportingPassage": "NORTHROP GRUMMAN SYSTEMS CORPORATION | UEI MZJBM2CV63M1 | APOPKA, FL, USA | Latest award CONT_AWD_M6785425F1020_9700_M6785422D1011_9700 (2026-07-08) parent: NORTHROP GRUMMAN CORPORATION (UEI NKVZLJL93QT6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "QR9HZJAHYH97",
+        "cage": null,
+        "recipientId": "aa5e7887-3546-980e-dbbb-86c91bc41e88-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/aa5e7887-3546-980e-dbbb-86c91bc41e88-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/aa5e7887-3546-980e-dbbb-86c91bc41e88-C/",
+        "responseSha256": "4c109e755e8f5c7a9782edfc9b05196a7bce5b0be1c76776036e1411bbe39391",
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentName": "NORTHROP GRUMMAN CORPORATION",
+        "parentUei": "NKVZLJL93QT6",
+        "otherReportedParents": [
+          "NORTHROP GRUMMAN SYSTEMS CORPORATION / QR9HZJAHYH97"
+        ],
+        "location": "JACKSONVILLE, FL, USA",
+        "contractAmount": 1648815.86,
+        "earliestTransaction": {
+          "date": "2016-11-01",
+          "award": "CONT_AWD_0006_9700_SPE4A117G0004_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-07-08",
+          "award": "CONT_AWD_SPE4A525F0137_9700_SPE4AX24DP001_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_SPE4A525F0137_9700_SPE4AX24DP001_9700",
+          "parentName": "NORTHROP GRUMMAN CORPORATION",
+          "parentUei": "NKVZLJL93QT6",
+          "recipientUei": "QR9HZJAHYH97",
+          "responseSha256": "5b79f91ad82cd15da5f2294e6f303cb547201a2bae9240dc6b975dd6d808c8d2"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:QR9HZJAHYH97",
+        "kind": "uei",
+        "value": "QR9HZJAHYH97",
+        "entityId": "legal:northrop-grumman-systems-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2016-11-01",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/aa5e7887-3546-980e-dbbb-86c91bc41e88-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/aa5e7887-3546-980e-dbbb-86c91bc41e88-C/",
+        "supportingPassage": "NORTHROP GRUMMAN SYSTEMS CORPORATION | UEI QR9HZJAHYH97 | JACKSONVILLE, FL, USA | Latest award CONT_AWD_SPE4A525F0137_9700_SPE4AX24DP001_9700 (2026-07-08) parent: NORTHROP GRUMMAN CORPORATION (UEI NKVZLJL93QT6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "EHBBTWLFSMW1",
+        "cage": null,
+        "recipientId": "e68195c5-489b-6025-5dd1-0d0b9c66a757-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/e68195c5-489b-6025-5dd1-0d0b9c66a757-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/e68195c5-489b-6025-5dd1-0d0b9c66a757-C/",
+        "responseSha256": "2b3be5ecfcc5f65bc7adeae10510299ed9c429c329b5b59cc7099e481ce2d870",
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentName": "NORTHROP GRUMMAN CORPORATION",
+        "parentUei": "NKVZLJL93QT6",
+        "otherReportedParents": [
+          "NORTHROP GRUMMAN SYSTEMS CORPORATION / EHBBTWLFSMW1"
+        ],
+        "location": "LINTHICUM HEIGHTS, MD, USA",
+        "contractAmount": 970132.96,
+        "earliestTransaction": {
+          "date": "2007-10-26",
+          "award": "CONT_AWD_HC104707C0020_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-06-29",
+          "award": "CONT_AWD_M6785421F2002_9700_M6785417D2602_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_M6785421F2002_9700_M6785417D2602_9700",
+          "parentName": "NORTHROP GRUMMAN CORPORATION",
+          "parentUei": "NKVZLJL93QT6",
+          "recipientUei": "EHBBTWLFSMW1",
+          "responseSha256": "db440dab3ce145317ff1e401f3d31987564bb9686356b1a79e0452ce028405a3"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:EHBBTWLFSMW1",
+        "kind": "uei",
+        "value": "EHBBTWLFSMW1",
+        "entityId": "legal:northrop-grumman-systems-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-26",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/e68195c5-489b-6025-5dd1-0d0b9c66a757-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/e68195c5-489b-6025-5dd1-0d0b9c66a757-C/",
+        "supportingPassage": "NORTHROP GRUMMAN SYSTEMS CORPORATION | UEI EHBBTWLFSMW1 | LINTHICUM HEIGHTS, MD, USA | Latest award CONT_AWD_M6785421F2002_9700_M6785417D2602_9700 (2026-06-29) parent: NORTHROP GRUMMAN CORPORATION (UEI NKVZLJL93QT6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "CXE2M1F5NHG5",
+        "cage": null,
+        "recipientId": "d1c63755-acef-4158-47c7-a5b385acaf2b-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/d1c63755-acef-4158-47c7-a5b385acaf2b-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/d1c63755-acef-4158-47c7-a5b385acaf2b-C/",
+        "responseSha256": "e076758a8fc03fd5dfe07bfb07f5beb2a14e90aa14dc30713ebb8c25af8a01ca",
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentName": "TITAN II INC.",
+        "parentUei": "PZQHGH183LA1",
+        "otherReportedParents": [
+          "NORTHROP GRUMMAN CORPORATION / NKVZLJL93QT6"
+        ],
+        "location": "ANNAPOLIS JUNCTION, MD, USA",
+        "contractAmount": 939206.7,
+        "earliestTransaction": {
+          "date": "2009-01-07",
+          "award": "CONT_AWD_HR001109C0035_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-06-01",
+          "award": "CONT_AWD_FA830721F0002_9700_FA830716D0012_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_FA830721F0002_9700_FA830716D0012_9700",
+          "parentName": "NORTHROP GRUMMAN CORPORATION",
+          "parentUei": "NKVZLJL93QT6",
+          "recipientUei": "CXE2M1F5NHG5",
+          "responseSha256": "d93e705a766dc8e05d2b174aeb41bcf7ecc73ef08379960106a3393380bbcf90"
+        },
+        "warnings": [
+          "profile parent UEI PZQHGH183LA1 (TITAN II INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:CXE2M1F5NHG5",
+        "kind": "uei",
+        "value": "CXE2M1F5NHG5",
+        "entityId": "legal:northrop-grumman-systems-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2009-01-07",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/d1c63755-acef-4158-47c7-a5b385acaf2b-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/d1c63755-acef-4158-47c7-a5b385acaf2b-C/",
+        "supportingPassage": "NORTHROP GRUMMAN SYSTEMS CORPORATION | UEI CXE2M1F5NHG5 | ANNAPOLIS JUNCTION, MD, USA | Latest award CONT_AWD_FA830721F0002_9700_FA830716D0012_9700 (2026-06-01) parent: NORTHROP GRUMMAN CORPORATION (UEI NKVZLJL93QT6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "REBFXSNFXAL4",
+        "cage": null,
+        "recipientId": "fe9d3a84-40fb-1978-fc5a-00cfa7a04f3f-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/fe9d3a84-40fb-1978-fc5a-00cfa7a04f3f-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/fe9d3a84-40fb-1978-fc5a-00cfa7a04f3f-C/",
+        "responseSha256": "963cd61ad4eb1855605c5037baa19581f2a3dabc54764bed10d09c5f6f483efc",
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentName": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentUei": "EU5DMENAGD85",
+        "otherReportedParents": [
+          "NORTHROP GRUMMAN CORPORATION / NKVZLJL93QT6"
+        ],
+        "location": "ELKTON, MD, USA",
+        "contractAmount": 400064,
+        "earliestTransaction": {
+          "date": "2021-03-04",
+          "award": "CONT_AWD_80MSFC21C0010_8000_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-07-14",
+          "award": "CONT_AWD_80MSFC21C0010_8000_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_80MSFC21C0010_8000_-NONE-_-NONE-",
+          "parentName": "NORTHROP GRUMMAN CORPORATION",
+          "parentUei": "NKVZLJL93QT6",
+          "recipientUei": "REBFXSNFXAL4",
+          "responseSha256": "48f19f7a0df07b85b414ecc4f5a2e4ca5a036058d4a32d190093ac637517ea62"
+        },
+        "warnings": [
+          "profile parent UEI EU5DMENAGD85 (NORTHROP GRUMMAN SYSTEMS CORPORATION) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:REBFXSNFXAL4",
+        "kind": "uei",
+        "value": "REBFXSNFXAL4",
+        "entityId": "legal:northrop-grumman-systems-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2021-03-04",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/fe9d3a84-40fb-1978-fc5a-00cfa7a04f3f-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/fe9d3a84-40fb-1978-fc5a-00cfa7a04f3f-C/",
+        "supportingPassage": "NORTHROP GRUMMAN SYSTEMS CORPORATION | UEI REBFXSNFXAL4 | ELKTON, MD, USA | Latest award CONT_AWD_80MSFC21C0010_8000_-NONE-_-NONE- (2026-07-14) parent: NORTHROP GRUMMAN CORPORATION (UEI NKVZLJL93QT6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "WNFAAJU8F1X1",
+        "cage": null,
+        "recipientId": "430adedd-77f0-8e45-92fd-94ff073ca686-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/430adedd-77f0-8e45-92fd-94ff073ca686-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/430adedd-77f0-8e45-92fd-94ff073ca686-C/",
+        "responseSha256": "2fb1f1e5fda2754b89e210154ddcd410a1ffc5d3e399c3b6495450f544db1764",
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentName": "NORTHROP GRUMMAN CORPORATION",
+        "parentUei": "NKVZLJL93QT6",
+        "otherReportedParents": [],
+        "location": "SIERRA VISTA, AZ, USA",
+        "contractAmount": 292908.15,
+        "earliestTransaction": {
+          "date": "2016-10-28",
+          "award": "CONT_AWD_W58RGZ17C0019_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-06-30",
+          "award": "CONT_AWD_SPE4A525F0937_9700_SPE4A122G0003_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_SPE4A525F0937_9700_SPE4A122G0003_9700",
+          "parentName": "NORTHROP GRUMMAN CORPORATION",
+          "parentUei": "NKVZLJL93QT6",
+          "recipientUei": "WNFAAJU8F1X1",
+          "responseSha256": "a9aaa9ac0a80c5b502d466464f05e1d1bf5a9694bcce40026e6c81e30044925e"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:WNFAAJU8F1X1",
+        "kind": "uei",
+        "value": "WNFAAJU8F1X1",
+        "entityId": "legal:northrop-grumman-systems-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2016-10-28",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/430adedd-77f0-8e45-92fd-94ff073ca686-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/430adedd-77f0-8e45-92fd-94ff073ca686-C/",
+        "supportingPassage": "NORTHROP GRUMMAN SYSTEMS CORPORATION | UEI WNFAAJU8F1X1 | SIERRA VISTA, AZ, USA | Latest award CONT_AWD_SPE4A525F0937_9700_SPE4A122G0003_9700 (2026-06-30) parent: NORTHROP GRUMMAN CORPORATION (UEI NKVZLJL93QT6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "ZGQ3ANLXB2N4",
+        "cage": null,
+        "recipientId": "b0029fa2-7f78-2b45-44d5-89a2a084579f-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/b0029fa2-7f78-2b45-44d5-89a2a084579f-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/b0029fa2-7f78-2b45-44d5-89a2a084579f-C/",
+        "responseSha256": "4fba5591b913cbed2f39cb7797174f82cc3f70d7a31e68cb02af161e01fab5db",
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentName": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentUei": "ZGQ3ANLXB2N4",
+        "otherReportedParents": [
+          "NORTHROP GRUMMAN CORPORATION / NKVZLJL93QT6"
+        ],
+        "location": "SAINT ROSE, LA, USA",
+        "contractAmount": 222460.02,
+        "earliestTransaction": {
+          "date": "2012-01-30",
+          "award": "CONT_AWD_DOCEE133M12UE0023_1330_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-09-30",
+          "award": "CONT_AWD_6923G226P000189_6938_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_6923G226P000189_6938_-NONE-_-NONE-",
+          "parentName": "NORTHROP GRUMMAN CORPORATION",
+          "parentUei": "NKVZLJL93QT6",
+          "recipientUei": "ZGQ3ANLXB2N4",
+          "responseSha256": "91603bd16f5d4252904e46080261a321932e060ec298eff66ffbee580df2fc13"
+        },
+        "warnings": [
+          "profile parent UEI ZGQ3ANLXB2N4 (NORTHROP GRUMMAN SYSTEMS CORPORATION) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:ZGQ3ANLXB2N4",
+        "kind": "uei",
+        "value": "ZGQ3ANLXB2N4",
+        "entityId": "legal:northrop-grumman-systems-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2012-01-30",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/b0029fa2-7f78-2b45-44d5-89a2a084579f-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/b0029fa2-7f78-2b45-44d5-89a2a084579f-C/",
+        "supportingPassage": "NORTHROP GRUMMAN SYSTEMS CORPORATION | UEI ZGQ3ANLXB2N4 | SAINT ROSE, LA, USA | Latest award CONT_AWD_6923G226P000189_6938_-NONE-_-NONE- (2026-09-30) parent: NORTHROP GRUMMAN CORPORATION (UEI NKVZLJL93QT6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "DPL6DDL2WD47",
+        "cage": null,
+        "recipientId": "b967a3b1-f6d9-8cab-25fe-0f885837408c-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/b967a3b1-f6d9-8cab-25fe-0f885837408c-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/b967a3b1-f6d9-8cab-25fe-0f885837408c-C/",
+        "responseSha256": "9f1503a735b35298f403d93c88c852927f7d5d25250c325de008ee0c95401893",
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentName": "NORTHROP GRUMMAN CORPORATION",
+        "parentUei": "NKVZLJL93QT6",
+        "otherReportedParents": [
+          "NORTHROP GRUMMAN SYSTEMS CORPORATION / DPL6DDL2WD47"
+        ],
+        "location": "HOPKINTON, MA, USA",
+        "contractAmount": 0,
+        "earliestTransaction": {
+          "date": "2021-03-23",
+          "award": "CONT_AWD_SPE4A721F4415_9700_SPE4A721D0133_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-05-15",
+          "award": "CONT_AWD_SPE4A726P5358_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_SPE4A726P5358_9700_-NONE-_-NONE-",
+          "parentName": "NORTHROP GRUMMAN CORPORATION",
+          "parentUei": "NKVZLJL93QT6",
+          "recipientUei": "DPL6DDL2WD47",
+          "responseSha256": "20408376a4c90081035087cf3cc09bfcf3802c5471fea3a149d97ec4218af320"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:DPL6DDL2WD47",
+        "kind": "uei",
+        "value": "DPL6DDL2WD47",
+        "entityId": "legal:northrop-grumman-systems-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2021-03-23",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/b967a3b1-f6d9-8cab-25fe-0f885837408c-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/b967a3b1-f6d9-8cab-25fe-0f885837408c-C/",
+        "supportingPassage": "NORTHROP GRUMMAN SYSTEMS CORPORATION | UEI DPL6DDL2WD47 | HOPKINTON, MA, USA | Latest award CONT_AWD_SPE4A726P5358_9700_-NONE-_-NONE- (2026-05-15) parent: NORTHROP GRUMMAN CORPORATION (UEI NKVZLJL93QT6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "CVVQTAJH4M68",
+        "cage": null,
+        "recipientId": "bc53274d-f9cd-3aef-bee7-94f145ff8c5a-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/bc53274d-f9cd-3aef-bee7-94f145ff8c5a-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/bc53274d-f9cd-3aef-bee7-94f145ff8c5a-C/",
+        "responseSha256": "a49bdf375a54e77f972ce0a6ca70f92de6e549d436ef388778cbf7f522e0db8c",
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentName": "TITAN II INC.",
+        "parentUei": "PZQHGH183LA1",
+        "otherReportedParents": [
+          "HUNTINGTON INGALLS INDUSTRIES, INC / F9SDJAZFTLG6",
+          "NORTHROP GRUMMAN CORPORATION / NKVZLJL93QT6"
+        ],
+        "location": "SAINT AUGUSTINE, FL, USA",
+        "contractAmount": 0,
+        "earliestTransaction": {
+          "date": "2007-10-01",
+          "award": "CONT_AWD_GS04B4580707356_4740_GS04B45807_4740"
+        },
+        "latestTransaction": {
+          "date": "2025-11-20",
+          "award": "CONT_AWD_N0042123F0989_9700_N0042123D0022_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N0042123F0989_9700_N0042123D0022_9700",
+          "parentName": "NORTHROP GRUMMAN CORPORATION",
+          "parentUei": "NKVZLJL93QT6",
+          "recipientUei": "CVVQTAJH4M68",
+          "responseSha256": "cea36bebe5c4e135f75d198d10e9bda992a970048c18f17b0730c4b71f140757"
+        },
+        "warnings": [
+          "profile parent UEI PZQHGH183LA1 (TITAN II INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:CVVQTAJH4M68",
+        "kind": "uei",
+        "value": "CVVQTAJH4M68",
+        "entityId": "legal:northrop-grumman-systems-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-01",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/bc53274d-f9cd-3aef-bee7-94f145ff8c5a-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/bc53274d-f9cd-3aef-bee7-94f145ff8c5a-C/",
+        "supportingPassage": "NORTHROP GRUMMAN SYSTEMS CORPORATION | UEI CVVQTAJH4M68 | SAINT AUGUSTINE, FL, USA | Latest award CONT_AWD_N0042123F0989_9700_N0042123D0022_9700 (2025-11-20) parent: NORTHROP GRUMMAN CORPORATION (UEI NKVZLJL93QT6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "DCA4UMKB63Q9",
+        "cage": null,
+        "recipientId": "f42e7f4c-ff3d-b4a6-996f-5896002a6712-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/f42e7f4c-ff3d-b4a6-996f-5896002a6712-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/f42e7f4c-ff3d-b4a6-996f-5896002a6712-C/",
+        "responseSha256": "df9eed84b5f274567a72ef325f76f96d70a8776adb30ef085c19b47b32dab93a",
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentName": "NORTHROP GRUMMAN CORPORATION",
+        "parentUei": "NKVZLJL93QT6",
+        "otherReportedParents": [
+          "NORTHROP GRUMMAN SYSTEMS CORPORATION / DCA4UMKB63Q9"
+        ],
+        "location": "DAYTON, OH, USA",
+        "contractAmount": 0,
+        "earliestTransaction": {
+          "date": "2021-09-28",
+          "award": "CONT_AWD_SPRTA121C0039_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-09-17",
+          "award": "CONT_AWD_80GRC025CA001_8000_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_80GRC025CA001_8000_-NONE-_-NONE-",
+          "parentName": "NORTHROP GRUMMAN CORPORATION",
+          "parentUei": "NKVZLJL93QT6",
+          "recipientUei": "DCA4UMKB63Q9",
+          "responseSha256": "8dcf2b8bfa46aafc285b8be11231e6aae44d27ba23343995dacb2d4c697bb84d"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:DCA4UMKB63Q9",
+        "kind": "uei",
+        "value": "DCA4UMKB63Q9",
+        "entityId": "legal:northrop-grumman-systems-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2021-09-28",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/f42e7f4c-ff3d-b4a6-996f-5896002a6712-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/f42e7f4c-ff3d-b4a6-996f-5896002a6712-C/",
+        "supportingPassage": "NORTHROP GRUMMAN SYSTEMS CORPORATION | UEI DCA4UMKB63Q9 | DAYTON, OH, USA | Latest award CONT_AWD_80GRC025CA001_8000_-NONE-_-NONE- (2026-09-17) parent: NORTHROP GRUMMAN CORPORATION (UEI NKVZLJL93QT6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "FXJVRWCS64T7",
+        "cage": null,
+        "recipientId": "14c5f8f6-fcd8-d171-e642-d5c8d5bb2f67-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/14c5f8f6-fcd8-d171-e642-d5c8d5bb2f67-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/14c5f8f6-fcd8-d171-e642-d5c8d5bb2f67-C/",
+        "responseSha256": "0d0de5a18150839b7e65fc1212bba3df5980052b3175cab9ccfc40f20c8fef82",
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentName": "TITAN II INC.",
+        "parentUei": "PZQHGH183LA1",
+        "otherReportedParents": [
+          "NORTHROP GRUMMAN CORPORATION / NKVZLJL93QT6"
+        ],
+        "location": "HERNDON, VA, USA",
+        "contractAmount": 0,
+        "earliestTransaction": {
+          "date": "2007-10-01",
+          "award": "CONT_AWD_0002_9700_FA251706D9005_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-05-21",
+          "award": "CONT_AWD_0096_9700_DAAB0703DB008_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_0096_9700_DAAB0703DB008_9700",
+          "parentName": "NORTHROP GRUMMAN CORPORATION",
+          "parentUei": "NKVZLJL93QT6",
+          "recipientUei": "FXJVRWCS64T7",
+          "responseSha256": "f1fe8e11c66f84beb483bf341cb5b742d761d3f82cb48ee49fc328198474a362"
+        },
+        "warnings": [
+          "profile parent UEI PZQHGH183LA1 (TITAN II INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:FXJVRWCS64T7",
+        "kind": "uei",
+        "value": "FXJVRWCS64T7",
+        "entityId": "legal:northrop-grumman-systems-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-01",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/14c5f8f6-fcd8-d171-e642-d5c8d5bb2f67-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/14c5f8f6-fcd8-d171-e642-d5c8d5bb2f67-C/",
+        "supportingPassage": "NORTHROP GRUMMAN SYSTEMS CORPORATION | UEI FXJVRWCS64T7 | HERNDON, VA, USA | Latest award CONT_AWD_0096_9700_DAAB0703DB008_9700 (2026-05-21) parent: NORTHROP GRUMMAN CORPORATION (UEI NKVZLJL93QT6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "E5NBQZGYM1D1",
+        "cage": null,
+        "recipientId": "bd41f257-d5a3-4d1a-031c-eb76448bd23e-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/bd41f257-d5a3-4d1a-031c-eb76448bd23e-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/bd41f257-d5a3-4d1a-031c-eb76448bd23e-C/",
+        "responseSha256": "52ecc7d7007d7e36b62ebed1b53a1cb587afbbccd0d194d090765d0ee6986de5",
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentName": "TITAN II INC.",
+        "parentUei": "PZQHGH183LA1",
+        "otherReportedParents": [
+          "HUNTINGTON INGALLS INDUSTRIES, INC / F9SDJAZFTLG6",
+          "NORTHROP GRUMMAN CORPORATION / NKVZLJL93QT6"
+        ],
+        "location": "MCCLELLAN, CA, USA",
+        "contractAmount": 0,
+        "earliestTransaction": {
+          "date": "2007-10-10",
+          "award": "CONT_AWD_SPM4A608M0717_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2025-12-18",
+          "award": "CONT_AWD_W56KGY24F0059_9700_W56JSR21D0011_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_W56KGY24F0059_9700_W56JSR21D0011_9700",
+          "parentName": "NORTHROP GRUMMAN CORPORATION",
+          "parentUei": "NKVZLJL93QT6",
+          "recipientUei": "E5NBQZGYM1D1",
+          "responseSha256": "745b1952e11a99d8f1eb58cd4c87da1ed31844d810106b25254c907bded19ac7"
+        },
+        "warnings": [
+          "profile parent UEI PZQHGH183LA1 (TITAN II INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:E5NBQZGYM1D1",
+        "kind": "uei",
+        "value": "E5NBQZGYM1D1",
+        "entityId": "legal:northrop-grumman-systems-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-10",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/bd41f257-d5a3-4d1a-031c-eb76448bd23e-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/bd41f257-d5a3-4d1a-031c-eb76448bd23e-C/",
+        "supportingPassage": "NORTHROP GRUMMAN SYSTEMS CORPORATION | UEI E5NBQZGYM1D1 | MCCLELLAN, CA, USA | Latest award CONT_AWD_W56KGY24F0059_9700_W56JSR21D0011_9700 (2025-12-18) parent: NORTHROP GRUMMAN CORPORATION (UEI NKVZLJL93QT6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "ZXNGPY1BLG94",
+        "cage": null,
+        "recipientId": "03101b23-0561-1108-9afd-cf94e68bc6ef-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/03101b23-0561-1108-9afd-cf94e68bc6ef-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/03101b23-0561-1108-9afd-cf94e68bc6ef-C/",
+        "responseSha256": "b6fe3874ed95622a56e2a2f73ac4ed30ffe6112a23735c52ad15ebc1bc91b226",
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentName": "TITAN II INC.",
+        "parentUei": "PZQHGH183LA1",
+        "otherReportedParents": [
+          "HUNTINGTON INGALLS INDUSTRIES, INC / F9SDJAZFTLG6",
+          "NORTHROP GRUMMAN SYSTEMS CORPORATION / ZXNGPY1BLG94",
+          "NORTHROP GRUMMAN CORPORATION / NKVZLJL93QT6"
+        ],
+        "location": "ORLANDO, FL, USA",
+        "contractAmount": -3055.18,
+        "earliestTransaction": {
+          "date": "2010-03-31",
+          "award": "CONT_AWD_N6339410C1201_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-04-09",
+          "award": "CONT_AWD_N0038319PD001_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N0038319PD001_9700_-NONE-_-NONE-",
+          "parentName": "NORTHROP GRUMMAN CORPORATION",
+          "parentUei": "NKVZLJL93QT6",
+          "recipientUei": "ZXNGPY1BLG94",
+          "responseSha256": "37f7bf281ea6086b0b858d310ab530140fa15c372b03984d7fb6dee03c613cdb"
+        },
+        "warnings": [
+          "profile parent UEI PZQHGH183LA1 (TITAN II INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:ZXNGPY1BLG94",
+        "kind": "uei",
+        "value": "ZXNGPY1BLG94",
+        "entityId": "legal:northrop-grumman-systems-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2010-03-31",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/03101b23-0561-1108-9afd-cf94e68bc6ef-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/03101b23-0561-1108-9afd-cf94e68bc6ef-C/",
+        "supportingPassage": "NORTHROP GRUMMAN SYSTEMS CORPORATION | UEI ZXNGPY1BLG94 | ORLANDO, FL, USA | Latest award CONT_AWD_N0038319PD001_9700_-NONE-_-NONE- (2026-04-09) parent: NORTHROP GRUMMAN CORPORATION (UEI NKVZLJL93QT6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "K515JRH1JFP3",
+        "cage": null,
+        "recipientId": "fb7287b4-3198-c620-b58f-30f758e2484d-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/fb7287b4-3198-c620-b58f-30f758e2484d-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/fb7287b4-3198-c620-b58f-30f758e2484d-C/",
+        "responseSha256": "ca07d4f6d7b3742862e6daa2f00644d75dcf7b355fa3363117dedd0d53598a69",
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentName": "TITAN II INC.",
+        "parentUei": "PZQHGH183LA1",
+        "otherReportedParents": [
+          "NORTHROP GRUMMAN CORPORATION / NKVZLJL93QT6"
+        ],
+        "location": "MC LEAN, VA, USA",
+        "contractAmount": -71792.91,
+        "earliestTransaction": {
+          "date": "2007-10-01",
+          "award": "CONT_AWD_GST0405BF0142_4735_GS23F0058K_4730"
+        },
+        "latestTransaction": {
+          "date": "2026-07-01",
+          "award": "CONT_AWD_HHSD2002004034090052_7523_HHSD200200403409I_7523"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_HHSD2002004034090052_7523_HHSD200200403409I_7523",
+          "parentName": "NORTHROP GRUMMAN CORPORATION",
+          "parentUei": "NKVZLJL93QT6",
+          "recipientUei": "K515JRH1JFP3",
+          "responseSha256": "982e1704fe3d95804d9cad363a9eb5bf35d5d7b28bd84cdaa1381d093db5092f"
+        },
+        "warnings": [
+          "profile parent UEI PZQHGH183LA1 (TITAN II INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:K515JRH1JFP3",
+        "kind": "uei",
+        "value": "K515JRH1JFP3",
+        "entityId": "legal:northrop-grumman-systems-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-01",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/fb7287b4-3198-c620-b58f-30f758e2484d-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/fb7287b4-3198-c620-b58f-30f758e2484d-C/",
+        "supportingPassage": "NORTHROP GRUMMAN SYSTEMS CORPORATION | UEI K515JRH1JFP3 | MC LEAN, VA, USA | Latest award CONT_AWD_HHSD2002004034090052_7523_HHSD200200403409I_7523 (2026-07-01) parent: NORTHROP GRUMMAN CORPORATION (UEI NKVZLJL93QT6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "EGUVA16HDJ99",
+        "cage": null,
+        "recipientId": "245f5fe6-752f-79df-e3f6-3354c1ebda45-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/245f5fe6-752f-79df-e3f6-3354c1ebda45-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/245f5fe6-752f-79df-e3f6-3354c1ebda45-C/",
+        "responseSha256": "372d4173f7b47896e21bf44b4e2dac4dcef44290b5f16616a761b18b22499144",
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentName": "TITAN II INC.",
+        "parentUei": "PZQHGH183LA1",
+        "otherReportedParents": [
+          "NORTHROP GRUMMAN CORPORATION / NKVZLJL93QT6",
+          "NORTHROP GRUMMAN SYSTEMS CORPORATION / EGUVA16HDJ99"
+        ],
+        "location": "SAN DIEGO, CA, USA",
+        "contractAmount": -200000,
+        "earliestTransaction": {
+          "date": "2007-11-26",
+          "award": "CONT_AWD_N0016408C6606_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-04-09",
+          "award": "CONT_AWD_N0038320PM214_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N0038320PM214_9700_-NONE-_-NONE-",
+          "parentName": "NORTHROP GRUMMAN CORPORATION",
+          "parentUei": "NKVZLJL93QT6",
+          "recipientUei": "EGUVA16HDJ99",
+          "responseSha256": "a5ebc0710b2e953443ce57f6cd8194861c40f88974766a354a7a0e467535e1cf"
+        },
+        "warnings": [
+          "profile parent UEI PZQHGH183LA1 (TITAN II INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:EGUVA16HDJ99",
+        "kind": "uei",
+        "value": "EGUVA16HDJ99",
+        "entityId": "legal:northrop-grumman-systems-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-11-26",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/245f5fe6-752f-79df-e3f6-3354c1ebda45-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/245f5fe6-752f-79df-e3f6-3354c1ebda45-C/",
+        "supportingPassage": "NORTHROP GRUMMAN SYSTEMS CORPORATION | UEI EGUVA16HDJ99 | SAN DIEGO, CA, USA | Latest award CONT_AWD_N0038320PM214_9700_-NONE-_-NONE- (2026-04-09) parent: NORTHROP GRUMMAN CORPORATION (UEI NKVZLJL93QT6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "YGFEZY19YQR9",
+        "cage": null,
+        "recipientId": "0f9b4dd9-bd66-c246-31da-ff9f21e11ff3-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/0f9b4dd9-bd66-c246-31da-ff9f21e11ff3-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/0f9b4dd9-bd66-c246-31da-ff9f21e11ff3-C/",
+        "responseSha256": "cbedfeb07785d50e2d6f198164e5cf44cf58247fb9fb76f8224fa7fa958a6822",
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "parentName": "NORTHROP GRUMMAN CORPORATION",
+        "parentUei": "NKVZLJL93QT6",
+        "otherReportedParents": [],
+        "location": "RADFORD, VA, USA",
+        "contractAmount": -3967240.76,
+        "earliestTransaction": {
+          "date": "2021-01-22",
+          "award": "CONT_AWD_W52P1J21F0121_9700_W52P1J16D0058_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-06-16",
+          "award": "CONT_AWD_W519TC24F0508_9700_W52P1J22D0006_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_W519TC24F0508_9700_W52P1J22D0006_9700",
+          "parentName": "NORTHROP GRUMMAN CORPORATION",
+          "parentUei": "NKVZLJL93QT6",
+          "recipientUei": "YGFEZY19YQR9",
+          "responseSha256": "e2feac42243a9c509590a9cde92f2ad7c0471deca7d0fe3cd14f369a73b6db5c"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:YGFEZY19YQR9",
+        "kind": "uei",
+        "value": "YGFEZY19YQR9",
+        "entityId": "legal:northrop-grumman-systems-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2021-01-22",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/0f9b4dd9-bd66-c246-31da-ff9f21e11ff3-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/0f9b4dd9-bd66-c246-31da-ff9f21e11ff3-C/",
+        "supportingPassage": "NORTHROP GRUMMAN SYSTEMS CORPORATION | UEI YGFEZY19YQR9 | RADFORD, VA, USA | Latest award CONT_AWD_W519TC24F0508_9700_W52P1J22D0006_9700 (2026-06-16) parent: NORTHROP GRUMMAN CORPORATION (UEI NKVZLJL93QT6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    }
+  ],
+  "excluded": [],
+  "limitations": [
+    "USAspending reflects SAM data as reported; it is not SAM.gov itself",
+    "Recipient search is keyword-based and capped at 500 records",
+    "Profile parent fields can be stale; corroboration uses the parent on the latest award record",
+    "Name and parent agreement do not prove the SEC-listed legal entity; review state of incorporation separately where available"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "generatedAt": "2026-10-15T18:38:41.596Z",
+  "query": {
+    "name": "Electric Boat Corporation",
+    "parentUei": "VF58HFRNGEL8,FAZSFFE6CST9",
+    "entityId": "legal:electric-boat-corporation",
+    "formerNames": []
+  },
+  "searched": 2,
+  "candidates": [
+    {
+      "evidence": {
+        "uei": "E7BEKJ4V9528",
+        "cage": null,
+        "recipientId": "d5ab5f51-db3a-a26f-96a1-1b24c3e2802c-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/d5ab5f51-db3a-a26f-96a1-1b24c3e2802c-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/d5ab5f51-db3a-a26f-96a1-1b24c3e2802c-C/",
+        "responseSha256": "189c7e9f70375cee9965f58f6b5a2ef8b01de7492e5dd457d95974c8c062a142",
+        "name": "ELECTRIC BOAT CORPORATION",
+        "parentName": "GENERAL DYNAMICS CORP",
+        "parentUei": "VF58HFRNGEL8",
+        "otherReportedParents": [
+          "GENERAL DYNAMICS CORP / FAZSFFE6CST9",
+          "ELECTRIC BOAT CORPORATION / E7BEKJ4V9528"
+        ],
+        "location": "GROTON, CT, USA",
+        "contractAmount": 11188005259.06,
+        "earliestTransaction": {
+          "date": "2007-10-01",
+          "award": "CONT_AWD_N0002403C2101_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-07-15",
+          "award": "CONT_AWD_SPE7M026P3809_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_SPE7M026P3809_9700_-NONE-_-NONE-",
+          "parentName": "GENERAL DYNAMICS CORP",
+          "parentUei": "VF58HFRNGEL8",
+          "recipientUei": "E7BEKJ4V9528",
+          "responseSha256": "03670c1bca46e8d17296862afc9926cefb44b81be3ca9938938c38c9424317cb"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:E7BEKJ4V9528",
+        "kind": "uei",
+        "value": "E7BEKJ4V9528",
+        "entityId": "legal:electric-boat-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-01",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/d5ab5f51-db3a-a26f-96a1-1b24c3e2802c-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/d5ab5f51-db3a-a26f-96a1-1b24c3e2802c-C/",
+        "supportingPassage": "ELECTRIC BOAT CORPORATION | UEI E7BEKJ4V9528 | GROTON, CT, USA | Latest award CONT_AWD_SPE7M026P3809_9700_-NONE-_-NONE- (2026-07-15) parent: GENERAL DYNAMICS CORP (UEI VF58HFRNGEL8)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    }
+  ],
+  "excluded": [],
+  "limitations": [
+    "USAspending reflects SAM data as reported; it is not SAM.gov itself",
+    "Recipient search is keyword-based and capped at 500 records",
+    "Profile parent fields can be stale; corroboration uses the parent on the latest award record",
+    "Name and parent agreement do not prove the SEC-listed legal entity; review state of incorporation separately where available"
+  ]
+}

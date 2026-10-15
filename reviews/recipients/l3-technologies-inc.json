@@ -1,0 +1,924 @@
+{
+  "generatedAt": "2026-10-15T18:37:12.206Z",
+  "query": {
+    "name": "L3 Technologies, Inc.",
+    "parentUei": "SJULQDJ8NZU7",
+    "entityId": "legal:l3-technologies-inc",
+    "formerNames": []
+  },
+  "searched": 23,
+  "candidates": [
+    {
+      "evidence": {
+        "uei": "FRJQGQHDX4J3",
+        "cage": null,
+        "recipientId": "b09dcd04-a8c9-ee78-bf74-30e428504408-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/b09dcd04-a8c9-ee78-bf74-30e428504408-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/b09dcd04-a8c9-ee78-bf74-30e428504408-C/",
+        "responseSha256": "0aab8a66e8cb43cebce3ccf77c8205bf569168f819a3dda76c0bb91988ee7018",
+        "name": "L3 TECHNOLOGIES, INC.",
+        "parentName": "L-3 COMMUNICATIONS HOLDINGS, INC.",
+        "parentUei": "DTZJAQF8NZA1",
+        "otherReportedParents": [
+          "L3HARRIS TECHNOLOGIES, INC. / PNE9R5EJMWK8",
+          "L3 TECHNOLOGIES, INC. / XXP4PLFFFGK9",
+          "L3 TECHNOLOGIES, INC. / FRJQGQHDX4J3",
+          "L3HARRIS TECHNOLOGIES, INC / SJULQDJ8NZU7"
+        ],
+        "location": "SALT LAKE CITY, UT, USA",
+        "contractAmount": 456998900.6,
+        "earliestTransaction": {
+          "date": "2007-10-01",
+          "award": "CONT_AWD_0001_9700_FA852808D0011_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-10-05",
+          "award": "CONT_AWD_47QFLA24F0117_4732_47QFLA20D0014_4732"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_47QFLA24F0117_4732_47QFLA20D0014_4732",
+          "parentName": "L3HARRIS TECHNOLOGIES, INC",
+          "parentUei": "SJULQDJ8NZU7",
+          "recipientUei": "FRJQGQHDX4J3",
+          "responseSha256": "ceda9c271c04f25b2df34b8b4e9c1b97e519acdfeec0e1ce988fc28f87eae07a"
+        },
+        "warnings": [
+          "profile parent UEI DTZJAQF8NZA1 (L-3 COMMUNICATIONS HOLDINGS, INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:FRJQGQHDX4J3",
+        "kind": "uei",
+        "value": "FRJQGQHDX4J3",
+        "entityId": "legal:l3-technologies-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-01",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/b09dcd04-a8c9-ee78-bf74-30e428504408-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/b09dcd04-a8c9-ee78-bf74-30e428504408-C/",
+        "supportingPassage": "L3 TECHNOLOGIES, INC. | UEI FRJQGQHDX4J3 | SALT LAKE CITY, UT, USA | Latest award CONT_AWD_47QFLA24F0117_4732_47QFLA20D0014_4732 (2026-10-05) parent: L3HARRIS TECHNOLOGIES, INC (UEI SJULQDJ8NZU7)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "VJGEGN9GZM11",
+        "cage": null,
+        "recipientId": "a7fcc56d-a9b9-2518-3763-f96f3085abf1-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/a7fcc56d-a9b9-2518-3763-f96f3085abf1-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/a7fcc56d-a9b9-2518-3763-f96f3085abf1-C/",
+        "responseSha256": "11f214bd14c9f8ebbd2b1e0aadb01a457d2827f4400e8298fb4f801519ccb08a",
+        "name": "L3 TECHNOLOGIES, INC.",
+        "parentName": "L-3 COMMUNICATIONS HOLDINGS, INC.",
+        "parentUei": "DTZJAQF8NZA1",
+        "otherReportedParents": [
+          "L3HARRIS TECHNOLOGIES, INC. / PNE9R5EJMWK8",
+          "L3 TECHNOLOGIES, INC. / XXP4PLFFFGK9",
+          "L3 TECHNOLOGIES, INC. / VJGEGN9GZM11",
+          "L3HARRIS TECHNOLOGIES, INC / SJULQDJ8NZU7"
+        ],
+        "location": "CAMDEN, NJ, USA",
+        "contractAmount": 230997716.74,
+        "earliestTransaction": {
+          "date": "2007-10-19",
+          "award": "CONT_AWD_FA880706C0003_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-07-15",
+          "award": "CONT_AWD_N0002422C5218_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N0002422C5218_9700_-NONE-_-NONE-",
+          "parentName": "L3HARRIS TECHNOLOGIES, INC",
+          "parentUei": "SJULQDJ8NZU7",
+          "recipientUei": "VJGEGN9GZM11",
+          "responseSha256": "429e8fc6fc34dee71edbcaa00c0b922bfe714959b5c66761e39678dfea80d8f8"
+        },
+        "warnings": [
+          "profile parent UEI DTZJAQF8NZA1 (L-3 COMMUNICATIONS HOLDINGS, INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:VJGEGN9GZM11",
+        "kind": "uei",
+        "value": "VJGEGN9GZM11",
+        "entityId": "legal:l3-technologies-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-19",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/a7fcc56d-a9b9-2518-3763-f96f3085abf1-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/a7fcc56d-a9b9-2518-3763-f96f3085abf1-C/",
+        "supportingPassage": "L3 TECHNOLOGIES, INC. | UEI VJGEGN9GZM11 | CAMDEN, NJ, USA | Latest award CONT_AWD_N0002422C5218_9700_-NONE-_-NONE- (2026-07-15) parent: L3HARRIS TECHNOLOGIES, INC (UEI SJULQDJ8NZU7)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "JXBPKGYKBXK6",
+        "cage": null,
+        "recipientId": "757f5f3f-542b-122c-f71b-77c4962d5b40-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/757f5f3f-542b-122c-f71b-77c4962d5b40-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/757f5f3f-542b-122c-f71b-77c4962d5b40-C/",
+        "responseSha256": "7d3efa73aa5ec17b0084743feb6aaaabd032d26e7a040603167551c50d3e40a0",
+        "name": "L3 TECHNOLOGIES, INC.",
+        "parentName": "L-3 COMMUNICATIONS HOLDINGS, INC.",
+        "parentUei": "DTZJAQF8NZA1",
+        "otherReportedParents": [
+          "L3HARRIS TECHNOLOGIES, INC. / PNE9R5EJMWK8",
+          "L3 TECHNOLOGIES, INC. / XXP4PLFFFGK9",
+          "L3HARRIS TECHNOLOGIES, INC / SJULQDJ8NZU7"
+        ],
+        "location": "SAN DIEGO, CA, USA",
+        "contractAmount": 59920934.97,
+        "earliestTransaction": {
+          "date": "2007-10-03",
+          "award": "CONT_AWD_FA480108F0001_9700_GS03F5087C_4730"
+        },
+        "latestTransaction": {
+          "date": "2026-07-14",
+          "award": "CONT_AWD_FA830725FB014_9700_FA830719D0001_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_FA830725FB014_9700_FA830719D0001_9700",
+          "parentName": "L3HARRIS TECHNOLOGIES, INC",
+          "parentUei": "SJULQDJ8NZU7",
+          "recipientUei": "JXBPKGYKBXK6",
+          "responseSha256": "17eb3b39bfb2f59b181aa2db4f0a525940ed00a483cacc5aadfa476802df6603"
+        },
+        "warnings": [
+          "profile parent UEI DTZJAQF8NZA1 (L-3 COMMUNICATIONS HOLDINGS, INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:JXBPKGYKBXK6",
+        "kind": "uei",
+        "value": "JXBPKGYKBXK6",
+        "entityId": "legal:l3-technologies-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-03",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/757f5f3f-542b-122c-f71b-77c4962d5b40-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/757f5f3f-542b-122c-f71b-77c4962d5b40-C/",
+        "supportingPassage": "L3 TECHNOLOGIES, INC. | UEI JXBPKGYKBXK6 | SAN DIEGO, CA, USA | Latest award CONT_AWD_FA830725FB014_9700_FA830719D0001_9700 (2026-07-14) parent: L3HARRIS TECHNOLOGIES, INC (UEI SJULQDJ8NZU7)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "F5VFZH3XVKB7",
+        "cage": null,
+        "recipientId": "606f4467-422c-94b5-1049-c6d0641babdb-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/606f4467-422c-94b5-1049-c6d0641babdb-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/606f4467-422c-94b5-1049-c6d0641babdb-C/",
+        "responseSha256": "81b8a842c114bc3ccaffca24173f171eaf4724d1eb099f6abc6795f364012b44",
+        "name": "L3 TECHNOLOGIES, INC.",
+        "parentName": "L3HARRIS TECHNOLOGIES, INC.",
+        "parentUei": "PNE9R5EJMWK8",
+        "otherReportedParents": [
+          "L3HARRIS TECHNOLOGIES, INC / SJULQDJ8NZU7"
+        ],
+        "location": "GOLETA, CA, USA",
+        "contractAmount": 52984729,
+        "earliestTransaction": {
+          "date": "2021-07-08",
+          "award": "CONT_AWD_N6134021C0023_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-04-14",
+          "award": "CONT_AWD_N6660425FJ501_9700_N6660425DJ500_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N6660425FJ501_9700_N6660425DJ500_9700",
+          "parentName": "L3HARRIS TECHNOLOGIES, INC",
+          "parentUei": "SJULQDJ8NZU7",
+          "recipientUei": "F5VFZH3XVKB7",
+          "responseSha256": "9e6d016b297e9e444677062b710003b19e401a21d14d0845ca45c44c1eb484d5"
+        },
+        "warnings": [
+          "profile parent UEI PNE9R5EJMWK8 (L3HARRIS TECHNOLOGIES, INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:F5VFZH3XVKB7",
+        "kind": "uei",
+        "value": "F5VFZH3XVKB7",
+        "entityId": "legal:l3-technologies-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2021-07-08",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/606f4467-422c-94b5-1049-c6d0641babdb-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/606f4467-422c-94b5-1049-c6d0641babdb-C/",
+        "supportingPassage": "L3 TECHNOLOGIES, INC. | UEI F5VFZH3XVKB7 | GOLETA, CA, USA | Latest award CONT_AWD_N6660425FJ501_9700_N6660425DJ500_9700 (2026-04-14) parent: L3HARRIS TECHNOLOGIES, INC (UEI SJULQDJ8NZU7)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "LG6WVXVEEJN3",
+        "cage": null,
+        "recipientId": "99445697-56a1-e0c2-2dae-1cf1845f27a1-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/99445697-56a1-e0c2-2dae-1cf1845f27a1-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/99445697-56a1-e0c2-2dae-1cf1845f27a1-C/",
+        "responseSha256": "2e8265bee1d949f5f654e9b9012f1a254c65493327afbfb5c53fed457f42cea2",
+        "name": "L3 TECHNOLOGIES, INC.",
+        "parentName": "L-3 COMMUNICATIONS HOLDINGS, INC.",
+        "parentUei": "DTZJAQF8NZA1",
+        "otherReportedParents": [
+          "L3HARRIS TECHNOLOGIES, INC. / PNE9R5EJMWK8",
+          "L3 TECHNOLOGIES, INC. / XXP4PLFFFGK9",
+          "L3HARRIS TECHNOLOGIES, INC / SJULQDJ8NZU7"
+        ],
+        "location": "LONDONDERRY, NH, USA",
+        "contractAmount": 40915609.63,
+        "earliestTransaction": {
+          "date": "2007-10-02",
+          "award": "CONT_AWD_FA670307P0056_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-09-24",
+          "award": "CONT_AWD_70CMSD26P00000145_7012_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_70CMSD26P00000145_7012_-NONE-_-NONE-",
+          "parentName": "L3HARRIS TECHNOLOGIES, INC",
+          "parentUei": "SJULQDJ8NZU7",
+          "recipientUei": "LG6WVXVEEJN3",
+          "responseSha256": "af822c93d700e6db75c1509f67f7180da45ea02fb6c48a28f05913ba93a7a047"
+        },
+        "warnings": [
+          "profile parent UEI DTZJAQF8NZA1 (L-3 COMMUNICATIONS HOLDINGS, INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:LG6WVXVEEJN3",
+        "kind": "uei",
+        "value": "LG6WVXVEEJN3",
+        "entityId": "legal:l3-technologies-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-02",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/99445697-56a1-e0c2-2dae-1cf1845f27a1-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/99445697-56a1-e0c2-2dae-1cf1845f27a1-C/",
+        "supportingPassage": "L3 TECHNOLOGIES, INC. | UEI LG6WVXVEEJN3 | LONDONDERRY, NH, USA | Latest award CONT_AWD_70CMSD26P00000145_7012_-NONE-_-NONE- (2026-09-24) parent: L3HARRIS TECHNOLOGIES, INC (UEI SJULQDJ8NZU7)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "J73QK4BTYJJ6",
+        "cage": null,
+        "recipientId": "7fc7123f-10e9-c1c5-9fd0-c8e385309f6a-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/7fc7123f-10e9-c1c5-9fd0-c8e385309f6a-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/7fc7123f-10e9-c1c5-9fd0-c8e385309f6a-C/",
+        "responseSha256": "4c8275ed25fd3a433dc0c2a269a197c90b33481e3a4e588f72f6e3a7d885a8c4",
+        "name": "L3 TECHNOLOGIES, INC.",
+        "parentName": "L-3 COMMUNICATIONS HOLDINGS, INC.",
+        "parentUei": "DTZJAQF8NZA1",
+        "otherReportedParents": [
+          "L3HARRIS TECHNOLOGIES, INC. / PNE9R5EJMWK8",
+          "L3 TECHNOLOGIES, INC. / J73QK4BTYJJ6",
+          "L3 TECHNOLOGIES, INC. / XXP4PLFFFGK9",
+          "L3HARRIS TECHNOLOGIES, INC / SJULQDJ8NZU7"
+        ],
+        "location": "TEMPE, AZ, USA",
+        "contractAmount": 23546720,
+        "earliestTransaction": {
+          "date": "2009-09-22",
+          "award": "CONT_AWD_0009_9700_DAAB0702DN406_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-06-30",
+          "award": "CONT_AWD_W91CRB26C5059_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_W91CRB26C5059_9700_-NONE-_-NONE-",
+          "parentName": "L3HARRIS TECHNOLOGIES, INC",
+          "parentUei": "SJULQDJ8NZU7",
+          "recipientUei": "J73QK4BTYJJ6",
+          "responseSha256": "b9ebf88495976ed3f0045daaa57103d29e3db839abdfb89da9cf8000e12ddb80"
+        },
+        "warnings": [
+          "profile parent UEI DTZJAQF8NZA1 (L-3 COMMUNICATIONS HOLDINGS, INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:J73QK4BTYJJ6",
+        "kind": "uei",
+        "value": "J73QK4BTYJJ6",
+        "entityId": "legal:l3-technologies-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2009-09-22",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/7fc7123f-10e9-c1c5-9fd0-c8e385309f6a-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/7fc7123f-10e9-c1c5-9fd0-c8e385309f6a-C/",
+        "supportingPassage": "L3 TECHNOLOGIES, INC. | UEI J73QK4BTYJJ6 | TEMPE, AZ, USA | Latest award CONT_AWD_W91CRB26C5059_9700_-NONE-_-NONE- (2026-06-30) parent: L3HARRIS TECHNOLOGIES, INC (UEI SJULQDJ8NZU7)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "UMA3J1BW1Z99",
+        "cage": null,
+        "recipientId": "3c3ac3b6-ace8-24db-f1dd-07a18ca6e569-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/3c3ac3b6-ace8-24db-f1dd-07a18ca6e569-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/3c3ac3b6-ace8-24db-f1dd-07a18ca6e569-C/",
+        "responseSha256": "e48b61bde1a4a2cf02dda614a9fe2f32a0f40557dd9b00f9927bdffa78c1e25b",
+        "name": "L3 TECHNOLOGIES, INC.",
+        "parentName": "L-3 COMMUNICATIONS HOLDINGS, INC.",
+        "parentUei": "DTZJAQF8NZA1",
+        "otherReportedParents": [
+          "L3HARRIS TECHNOLOGIES, INC. / PNE9R5EJMWK8",
+          "L3 TECHNOLOGIES, INC. / XXP4PLFFFGK9",
+          "L3HARRIS TECHNOLOGIES, INC / SJULQDJ8NZU7"
+        ],
+        "location": "ROCKWALL, TX, USA",
+        "contractAmount": 16245391.59,
+        "earliestTransaction": {
+          "date": "2007-10-17",
+          "award": "CONT_AWD_0008_9700_FA862007G3023_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-07-01",
+          "award": "CONT_AWD_FA862025FB104_9700_FA862025GB001_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_FA862025FB104_9700_FA862025GB001_9700",
+          "parentName": "L3HARRIS TECHNOLOGIES, INC",
+          "parentUei": "SJULQDJ8NZU7",
+          "recipientUei": "UMA3J1BW1Z99",
+          "responseSha256": "6fa5d01b636ad231076714063b55999fb3e8b4c8eb47ec968eea8d8f426a625e"
+        },
+        "warnings": [
+          "profile parent UEI DTZJAQF8NZA1 (L-3 COMMUNICATIONS HOLDINGS, INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:UMA3J1BW1Z99",
+        "kind": "uei",
+        "value": "UMA3J1BW1Z99",
+        "entityId": "legal:l3-technologies-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-17",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/3c3ac3b6-ace8-24db-f1dd-07a18ca6e569-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/3c3ac3b6-ace8-24db-f1dd-07a18ca6e569-C/",
+        "supportingPassage": "L3 TECHNOLOGIES, INC. | UEI UMA3J1BW1Z99 | ROCKWALL, TX, USA | Latest award CONT_AWD_FA862025FB104_9700_FA862025GB001_9700 (2026-07-01) parent: L3HARRIS TECHNOLOGIES, INC (UEI SJULQDJ8NZU7)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "PTMFLMD2CUB4",
+        "cage": null,
+        "recipientId": "b31bc0e5-bc06-10dd-905c-73921122bcb1-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/b31bc0e5-bc06-10dd-905c-73921122bcb1-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/b31bc0e5-bc06-10dd-905c-73921122bcb1-C/",
+        "responseSha256": "a8392b5eb8b4e908ef6d6cd60a60d16d395d207bb6c51a059954c84cb69a32f3",
+        "name": "L3 TECHNOLOGIES, INC.",
+        "parentName": "L-3 COMMUNICATIONS HOLDINGS, INC.",
+        "parentUei": "DTZJAQF8NZA1",
+        "otherReportedParents": [
+          "L3HARRIS TECHNOLOGIES, INC. / PNE9R5EJMWK8",
+          "L3 TECHNOLOGIES, INC. / XXP4PLFFFGK9",
+          "L3HARRIS TECHNOLOGIES, INC / SJULQDJ8NZU7"
+        ],
+        "location": "CAMDEN, NJ, USA",
+        "contractAmount": 14672179.78,
+        "earliestTransaction": {
+          "date": "2007-10-02",
+          "award": "CONT_AWD_FA487707P0132_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-10-13",
+          "award": "CONT_AWD_70Z04426FCMPL0004_7008_70Z04423DCMPL0001_7008"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_70Z04426FCMPL0004_7008_70Z04423DCMPL0001_7008",
+          "parentName": "L3HARRIS TECHNOLOGIES, INC",
+          "parentUei": "SJULQDJ8NZU7",
+          "recipientUei": "PTMFLMD2CUB4",
+          "responseSha256": "229bfd1652ecb455963b0f53a0336296d485e7afd57c1018b548c760ecf7a89c"
+        },
+        "warnings": [
+          "profile parent UEI DTZJAQF8NZA1 (L-3 COMMUNICATIONS HOLDINGS, INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:PTMFLMD2CUB4",
+        "kind": "uei",
+        "value": "PTMFLMD2CUB4",
+        "entityId": "legal:l3-technologies-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-02",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/b31bc0e5-bc06-10dd-905c-73921122bcb1-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/b31bc0e5-bc06-10dd-905c-73921122bcb1-C/",
+        "supportingPassage": "L3 TECHNOLOGIES, INC. | UEI PTMFLMD2CUB4 | CAMDEN, NJ, USA | Latest award CONT_AWD_70Z04426FCMPL0004_7008_70Z04423DCMPL0001_7008 (2026-10-13) parent: L3HARRIS TECHNOLOGIES, INC (UEI SJULQDJ8NZU7)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "N9G2TBRX8PQ3",
+        "cage": null,
+        "recipientId": "080af528-76ff-3c59-c0c5-b4dac532b65e-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/080af528-76ff-3c59-c0c5-b4dac532b65e-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/080af528-76ff-3c59-c0c5-b4dac532b65e-C/",
+        "responseSha256": "69a651647b6b993e075d683575998dcfaf9db85d4f533717d3425c8233b0a76b",
+        "name": "L3 TECHNOLOGIES, INC.",
+        "parentName": "L3HARRIS TECHNOLOGIES, INC",
+        "parentUei": "SJULQDJ8NZU7",
+        "otherReportedParents": [
+          "L3 TECHNOLOGIES, INC. / N9G2TBRX8PQ3"
+        ],
+        "location": "HERNDON, VA, USA",
+        "contractAmount": 6582272,
+        "earliestTransaction": {
+          "date": "2021-10-06",
+          "award": "CONT_AWD_N0002415C4037_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-05-04",
+          "award": "CONT_AWD_N0002425C5212_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N0002425C5212_9700_-NONE-_-NONE-",
+          "parentName": "L3HARRIS TECHNOLOGIES, INC",
+          "parentUei": "SJULQDJ8NZU7",
+          "recipientUei": "N9G2TBRX8PQ3",
+          "responseSha256": "cbb2ef2930f011d57cb76648136ad7de187cbb843d4b7a63e0ca3a725cf9bcc9"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:N9G2TBRX8PQ3",
+        "kind": "uei",
+        "value": "N9G2TBRX8PQ3",
+        "entityId": "legal:l3-technologies-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2021-10-06",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/080af528-76ff-3c59-c0c5-b4dac532b65e-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/080af528-76ff-3c59-c0c5-b4dac532b65e-C/",
+        "supportingPassage": "L3 TECHNOLOGIES, INC. | UEI N9G2TBRX8PQ3 | HERNDON, VA, USA | Latest award CONT_AWD_N0002425C5212_9700_-NONE-_-NONE- (2026-05-04) parent: L3HARRIS TECHNOLOGIES, INC (UEI SJULQDJ8NZU7)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "DBTCEL4MTRE7",
+        "cage": null,
+        "recipientId": "71b10294-2733-4df4-5d39-42fb5dcb408c-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/71b10294-2733-4df4-5d39-42fb5dcb408c-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/71b10294-2733-4df4-5d39-42fb5dcb408c-C/",
+        "responseSha256": "be1f3130100b3f0f724090a61b6a868a2232e97f041a4039120dfcc526091c6d",
+        "name": "L3 TECHNOLOGIES, INC.",
+        "parentName": "ITT CORPORATION",
+        "parentUei": "KAZDWX2KMMT6",
+        "otherReportedParents": [
+          "L3 TECHNOLOGIES, INC. / DBTCEL4MTRE7",
+          "EXELIS INC. / GUR5U9ACDXB3",
+          "L3HARRIS TECHNOLOGIES, INC / SJULQDJ8NZU7"
+        ],
+        "location": "SOUTH SALT LAKE, UT, USA",
+        "contractAmount": 792265.21,
+        "earliestTransaction": {
+          "date": "2007-10-11",
+          "award": "CONT_AWD_N0010406CLA35_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-06-02",
+          "award": "CONT_AWD_N0016426FG058_9700_N0016425DGP80_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N0016426FG058_9700_N0016425DGP80_9700",
+          "parentName": "L3HARRIS TECHNOLOGIES, INC",
+          "parentUei": "SJULQDJ8NZU7",
+          "recipientUei": "DBTCEL4MTRE7",
+          "responseSha256": "0731c01657a4828a0c926b625b12d91190e7f09f7206615801c217961720af10"
+        },
+        "warnings": [
+          "profile parent UEI KAZDWX2KMMT6 (ITT CORPORATION) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:DBTCEL4MTRE7",
+        "kind": "uei",
+        "value": "DBTCEL4MTRE7",
+        "entityId": "legal:l3-technologies-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-11",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/71b10294-2733-4df4-5d39-42fb5dcb408c-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/71b10294-2733-4df4-5d39-42fb5dcb408c-C/",
+        "supportingPassage": "L3 TECHNOLOGIES, INC. | UEI DBTCEL4MTRE7 | SOUTH SALT LAKE, UT, USA | Latest award CONT_AWD_N0016426FG058_9700_N0016425DGP80_9700 (2026-06-02) parent: L3HARRIS TECHNOLOGIES, INC (UEI SJULQDJ8NZU7)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "KMHHY4MN8H45",
+        "cage": null,
+        "recipientId": "6f573f79-ea92-b332-b348-ff6840bfb1f2-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/6f573f79-ea92-b332-b348-ff6840bfb1f2-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/6f573f79-ea92-b332-b348-ff6840bfb1f2-C/",
+        "responseSha256": "054a0742470c98f5aea8aa4807f6cad971f3631585a0148cb7c6e01f0be20ed9",
+        "name": "L3 TECHNOLOGIES, INC.",
+        "parentName": "L-3 COMMUNICATIONS HOLDINGS, INC.",
+        "parentUei": "DTZJAQF8NZA1",
+        "otherReportedParents": [
+          "L3HARRIS TECHNOLOGIES, INC. / PNE9R5EJMWK8",
+          "L3 TECHNOLOGIES, INC. / XXP4PLFFFGK9",
+          "L3HARRIS TECHNOLOGIES, INC / SJULQDJ8NZU7"
+        ],
+        "location": "WILMINGTON, MA, USA",
+        "contractAmount": 333351,
+        "earliestTransaction": {
+          "date": "2012-09-25",
+          "award": "CONT_AWD_N0017312C6020_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-06-10",
+          "award": "CONT_AWD_FA865018C7859_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_FA865018C7859_9700_-NONE-_-NONE-",
+          "parentName": "L3HARRIS TECHNOLOGIES, INC",
+          "parentUei": "SJULQDJ8NZU7",
+          "recipientUei": "KMHHY4MN8H45",
+          "responseSha256": "71624cebd492b0ea2f76f7d93fe3bb69ee558ed130b7cd4ab9eecb236d89f27d"
+        },
+        "warnings": [
+          "profile parent UEI DTZJAQF8NZA1 (L-3 COMMUNICATIONS HOLDINGS, INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:KMHHY4MN8H45",
+        "kind": "uei",
+        "value": "KMHHY4MN8H45",
+        "entityId": "legal:l3-technologies-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2012-09-25",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/6f573f79-ea92-b332-b348-ff6840bfb1f2-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/6f573f79-ea92-b332-b348-ff6840bfb1f2-C/",
+        "supportingPassage": "L3 TECHNOLOGIES, INC. | UEI KMHHY4MN8H45 | WILMINGTON, MA, USA | Latest award CONT_AWD_FA865018C7859_9700_-NONE-_-NONE- (2026-06-10) parent: L3HARRIS TECHNOLOGIES, INC (UEI SJULQDJ8NZU7)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "EBYPBY55M2J3",
+        "cage": null,
+        "recipientId": "6ff44752-d276-0fb2-fac5-033c4e2dda13-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/6ff44752-d276-0fb2-fac5-033c4e2dda13-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/6ff44752-d276-0fb2-fac5-033c4e2dda13-C/",
+        "responseSha256": "dd9e066fd0364bf0e3f69cf4234dca64abe3253375d47f763164a8efa4476f98",
+        "name": "L3 TECHNOLOGIES, INC.",
+        "parentName": "L-3 COMMUNICATIONS HOLDINGS, INC.",
+        "parentUei": "DTZJAQF8NZA1",
+        "otherReportedParents": [
+          "L3 TECHNOLOGIES, INC. / XXP4PLFFFGK9",
+          "L3HARRIS TECHNOLOGIES, INC / SJULQDJ8NZU7"
+        ],
+        "location": "HERNDON, VA, USA",
+        "contractAmount": 311827,
+        "earliestTransaction": {
+          "date": "2007-12-27",
+          "award": "CONT_AWD_SPM7M108M0561_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-07-15",
+          "award": "CONT_AWD_N0040626F0064_9700_N3220526D1006_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N0040626F0064_9700_N3220526D1006_9700",
+          "parentName": "L3HARRIS TECHNOLOGIES, INC",
+          "parentUei": "SJULQDJ8NZU7",
+          "recipientUei": "EBYPBY55M2J3",
+          "responseSha256": "bf82ab2256b64456d1fc79aa8d87132ae3917c76910a344cf47086abd35f8da2"
+        },
+        "warnings": [
+          "profile parent UEI DTZJAQF8NZA1 (L-3 COMMUNICATIONS HOLDINGS, INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:EBYPBY55M2J3",
+        "kind": "uei",
+        "value": "EBYPBY55M2J3",
+        "entityId": "legal:l3-technologies-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-12-27",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/6ff44752-d276-0fb2-fac5-033c4e2dda13-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/6ff44752-d276-0fb2-fac5-033c4e2dda13-C/",
+        "supportingPassage": "L3 TECHNOLOGIES, INC. | UEI EBYPBY55M2J3 | HERNDON, VA, USA | Latest award CONT_AWD_N0040626F0064_9700_N3220526D1006_9700 (2026-07-15) parent: L3HARRIS TECHNOLOGIES, INC (UEI SJULQDJ8NZU7)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "WPP2ABN6UCF5",
+        "cage": null,
+        "recipientId": "d7743076-4d56-3b7d-a169-c5918389c0a1-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/d7743076-4d56-3b7d-a169-c5918389c0a1-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/d7743076-4d56-3b7d-a169-c5918389c0a1-C/",
+        "responseSha256": "72e094166473a81b11cac0a9ad5986f9bd9b9be2de801d700244990a9722baa4",
+        "name": "L3 TECHNOLOGIES, INC.",
+        "parentName": "L-3 COMMUNICATIONS HOLDINGS, INC.",
+        "parentUei": "DTZJAQF8NZA1",
+        "otherReportedParents": [
+          "L3HARRIS TECHNOLOGIES, INC. / PNE9R5EJMWK8",
+          "L3 TECHNOLOGIES, INC. / XXP4PLFFFGK9",
+          "L3HARRIS TECHNOLOGIES, INC / SJULQDJ8NZU7"
+        ],
+        "location": "NORFOLK, VA, USA",
+        "contractAmount": 87835.61,
+        "earliestTransaction": {
+          "date": "2007-10-02",
+          "award": "CONT_AWD_5414_9700_N0010403GA004_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-06-24",
+          "award": "CONT_AWD_N6449825F4171_9700_N6449822D4005_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N6449825F4171_9700_N6449822D4005_9700",
+          "parentName": "L3HARRIS TECHNOLOGIES, INC",
+          "parentUei": "SJULQDJ8NZU7",
+          "recipientUei": "WPP2ABN6UCF5",
+          "responseSha256": "d837909f179d04a2842e72e9a333c8cc5441517fe9a5512338602dcd6211a29d"
+        },
+        "warnings": [
+          "profile parent UEI DTZJAQF8NZA1 (L-3 COMMUNICATIONS HOLDINGS, INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:WPP2ABN6UCF5",
+        "kind": "uei",
+        "value": "WPP2ABN6UCF5",
+        "entityId": "legal:l3-technologies-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-02",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/d7743076-4d56-3b7d-a169-c5918389c0a1-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/d7743076-4d56-3b7d-a169-c5918389c0a1-C/",
+        "supportingPassage": "L3 TECHNOLOGIES, INC. | UEI WPP2ABN6UCF5 | NORFOLK, VA, USA | Latest award CONT_AWD_N6449825F4171_9700_N6449822D4005_9700 (2026-06-24) parent: L3HARRIS TECHNOLOGIES, INC (UEI SJULQDJ8NZU7)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "C511UUL5JH95",
+        "cage": null,
+        "recipientId": "a06114f2-bbc5-0a2a-2722-bb005f42f7c9-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/a06114f2-bbc5-0a2a-2722-bb005f42f7c9-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/a06114f2-bbc5-0a2a-2722-bb005f42f7c9-C/",
+        "responseSha256": "266b8dc3a2261c9edf7b691d5bd38325d28f17b318cb3559590d98f49ce0254f",
+        "name": "L3 TECHNOLOGIES, INC.",
+        "parentName": "L-3 COMMUNICATIONS HOLDINGS, INC.",
+        "parentUei": "DTZJAQF8NZA1",
+        "otherReportedParents": [
+          "L3 TECHNOLOGIES, INC. / XXP4PLFFFGK9",
+          "L3HARRIS TECHNOLOGIES, INC / SJULQDJ8NZU7"
+        ],
+        "location": "ORLANDO, FL, USA",
+        "contractAmount": 86289,
+        "earliestTransaction": {
+          "date": "2009-06-17",
+          "award": "CONT_AWD_N0002407C6223_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-04-02",
+          "award": "CONT_AWD_N0016425FJ598_9700_N0016425DJQ31_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N0016425FJ598_9700_N0016425DJQ31_9700",
+          "parentName": "L3HARRIS TECHNOLOGIES, INC",
+          "parentUei": "SJULQDJ8NZU7",
+          "recipientUei": "C511UUL5JH95",
+          "responseSha256": "91cfa586baf430efa7136f3f4ce75a53a26bf2ee05a934c7ae436fd1e872d022"
+        },
+        "warnings": [
+          "profile parent UEI DTZJAQF8NZA1 (L-3 COMMUNICATIONS HOLDINGS, INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:C511UUL5JH95",
+        "kind": "uei",
+        "value": "C511UUL5JH95",
+        "entityId": "legal:l3-technologies-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2009-06-17",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/a06114f2-bbc5-0a2a-2722-bb005f42f7c9-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/a06114f2-bbc5-0a2a-2722-bb005f42f7c9-C/",
+        "supportingPassage": "L3 TECHNOLOGIES, INC. | UEI C511UUL5JH95 | ORLANDO, FL, USA | Latest award CONT_AWD_N0016425FJ598_9700_N0016425DJQ31_9700 (2026-04-02) parent: L3HARRIS TECHNOLOGIES, INC (UEI SJULQDJ8NZU7)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "FMNXG2RGM9Q5",
+        "cage": null,
+        "recipientId": "a98368b5-31ad-a1ef-5696-2b9a392abab6-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/a98368b5-31ad-a1ef-5696-2b9a392abab6-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/a98368b5-31ad-a1ef-5696-2b9a392abab6-C/",
+        "responseSha256": "bfda942fc55e9218566787149aea83037809d7cc1c07164e273d050189163fc0",
+        "name": "L3 TECHNOLOGIES, INC.",
+        "parentName": "L-3 COMMUNICATIONS HOLDINGS, INC.",
+        "parentUei": "DTZJAQF8NZA1",
+        "otherReportedParents": [
+          "L3HARRIS TECHNOLOGIES, INC. / PNE9R5EJMWK8",
+          "L3 TECHNOLOGIES, INC. / FMNXG2RGM9Q5",
+          "L3 TECHNOLOGIES, INC. / XXP4PLFFFGK9",
+          "L3HARRIS TECHNOLOGIES, INC / SJULQDJ8NZU7"
+        ],
+        "location": "BRISTOL, PA, USA",
+        "contractAmount": 3316,
+        "earliestTransaction": {
+          "date": "2007-10-04",
+          "award": "CONT_AWD_N0042107P0139_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-07-15",
+          "award": "CONT_AWD_FA930224F0140_9700_FA930220D0012_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_FA930224F0140_9700_FA930220D0012_9700",
+          "parentName": "L3HARRIS TECHNOLOGIES, INC",
+          "parentUei": "SJULQDJ8NZU7",
+          "recipientUei": "FMNXG2RGM9Q5",
+          "responseSha256": "6271b55c8b234b04a9ca0fdad4c7106bbe7fe2934f2a554b69bab0ec534c6db0"
+        },
+        "warnings": [
+          "profile parent UEI DTZJAQF8NZA1 (L-3 COMMUNICATIONS HOLDINGS, INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:FMNXG2RGM9Q5",
+        "kind": "uei",
+        "value": "FMNXG2RGM9Q5",
+        "entityId": "legal:l3-technologies-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-04",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/a98368b5-31ad-a1ef-5696-2b9a392abab6-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/a98368b5-31ad-a1ef-5696-2b9a392abab6-C/",
+        "supportingPassage": "L3 TECHNOLOGIES, INC. | UEI FMNXG2RGM9Q5 | BRISTOL, PA, USA | Latest award CONT_AWD_FA930224F0140_9700_FA930220D0012_9700 (2026-07-15) parent: L3HARRIS TECHNOLOGIES, INC (UEI SJULQDJ8NZU7)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "Y8F3N3YJDF17",
+        "cage": null,
+        "recipientId": "3436afa0-6971-dce7-6986-d613b6c1bbd7-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/3436afa0-6971-dce7-6986-d613b6c1bbd7-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/3436afa0-6971-dce7-6986-d613b6c1bbd7-C/",
+        "responseSha256": "f6b9b9921e8eca71352ba7c822251be1d54cd98187d5708668d63b3b894d9855",
+        "name": "L3 TECHNOLOGIES, INC.",
+        "parentName": "L-3 COMMUNICATIONS HOLDINGS, INC.",
+        "parentUei": "DTZJAQF8NZA1",
+        "otherReportedParents": [
+          "L3HARRIS TECHNOLOGIES, INC. / PNE9R5EJMWK8",
+          "L3 TECHNOLOGIES, INC. / XXP4PLFFFGK9",
+          "L3HARRIS TECHNOLOGIES, INC / SJULQDJ8NZU7"
+        ],
+        "location": "ROCHESTER, NY, USA",
+        "contractAmount": -2,
+        "earliestTransaction": {
+          "date": "2007-10-10",
+          "award": "CONT_AWD_H9223906F0361_9700_GS35F0718M_4730"
+        },
+        "latestTransaction": {
+          "date": "2026-05-22",
+          "award": "CONT_AWD_70FA3019F00000698_7022_GS35F0718M_4730"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_70FA3019F00000698_7022_GS35F0718M_4730",
+          "parentName": "L3HARRIS TECHNOLOGIES, INC",
+          "parentUei": "SJULQDJ8NZU7",
+          "recipientUei": "Y8F3N3YJDF17",
+          "responseSha256": "c498e52757d7b3ee998439260264d939e2384489aa5c1a1eb0a7494a8d07fc66"
+        },
+        "warnings": [
+          "profile parent UEI DTZJAQF8NZA1 (L-3 COMMUNICATIONS HOLDINGS, INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:Y8F3N3YJDF17",
+        "kind": "uei",
+        "value": "Y8F3N3YJDF17",
+        "entityId": "legal:l3-technologies-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-10",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/3436afa0-6971-dce7-6986-d613b6c1bbd7-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/3436afa0-6971-dce7-6986-d613b6c1bbd7-C/",
+        "supportingPassage": "L3 TECHNOLOGIES, INC. | UEI Y8F3N3YJDF17 | ROCHESTER, NY, USA | Latest award CONT_AWD_70FA3019F00000698_7022_GS35F0718M_4730 (2026-05-22) parent: L3HARRIS TECHNOLOGIES, INC (UEI SJULQDJ8NZU7)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "CKVATCP8BKQ3",
+        "cage": null,
+        "recipientId": "17e0b554-3ebe-f39a-3bb5-9d445bb0dea9-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/17e0b554-3ebe-f39a-3bb5-9d445bb0dea9-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/17e0b554-3ebe-f39a-3bb5-9d445bb0dea9-C/",
+        "responseSha256": "0139d17ffe2ceb8dcb1aa9fcefa01cc01fa660ffb4dd02bf5b4e592a714c795e",
+        "name": "L3 TECHNOLOGIES, INC.",
+        "parentName": "L-3 COMMUNICATIONS HOLDINGS, INC.",
+        "parentUei": "DTZJAQF8NZA1",
+        "otherReportedParents": [
+          "L3 TECHNOLOGIES, INC. / XXP4PLFFFGK9",
+          "L3 TECHNOLOGIES, INC. / CKVATCP8BKQ3",
+          "L3HARRIS TECHNOLOGIES, INC / SJULQDJ8NZU7"
+        ],
+        "location": "VALENCIA, CA, USA",
+        "contractAmount": -111409.47,
+        "earliestTransaction": {
+          "date": "2007-10-29",
+          "award": "CONT_AWD_N0038308PF012_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-01-20",
+          "award": "CONT_AWD_N0038322P008M_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N0038322P008M_9700_-NONE-_-NONE-",
+          "parentName": "L3HARRIS TECHNOLOGIES, INC",
+          "parentUei": "SJULQDJ8NZU7",
+          "recipientUei": "CKVATCP8BKQ3",
+          "responseSha256": "a39c8a41e57b113b3aab7781051a61b34ea6a460648e9faa7ed11b754c1ac21d"
+        },
+        "warnings": [
+          "profile parent UEI DTZJAQF8NZA1 (L-3 COMMUNICATIONS HOLDINGS, INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:CKVATCP8BKQ3",
+        "kind": "uei",
+        "value": "CKVATCP8BKQ3",
+        "entityId": "legal:l3-technologies-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-29",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/17e0b554-3ebe-f39a-3bb5-9d445bb0dea9-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/17e0b554-3ebe-f39a-3bb5-9d445bb0dea9-C/",
+        "supportingPassage": "L3 TECHNOLOGIES, INC. | UEI CKVATCP8BKQ3 | VALENCIA, CA, USA | Latest award CONT_AWD_N0038322P008M_9700_-NONE-_-NONE- (2026-01-20) parent: L3HARRIS TECHNOLOGIES, INC (UEI SJULQDJ8NZU7)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "uei": "HA3UFSU8FN75",
+      "cage": null,
+      "recipientId": "d0f77f0a-af7b-5085-54ee-17fc15056ca2-C",
+      "profileUrl": "https://www.usaspending.gov/recipient/d0f77f0a-af7b-5085-54ee-17fc15056ca2-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/d0f77f0a-af7b-5085-54ee-17fc15056ca2-C/",
+      "responseSha256": "8afab46ce79cef3aa1292b8f5b70029a72f473028c6a07bc3b5e6f349629d703",
+      "name": "L3 TECHNOLOGIES, INC.",
+      "parentName": "L-3 COMMUNICATIONS HOLDINGS, INC.",
+      "parentUei": "DTZJAQF8NZA1",
+      "otherReportedParents": [
+        "DANAHER CORPORATION / MBFSJ8M4RQB6",
+        "REGAL REXNORD CORPORATION / G3SBJN2AB4L3",
+        "L3HARRIS TECHNOLOGIES, INC. / PNE9R5EJMWK8",
+        "L3 TECHNOLOGIES, INC. / XXP4PLFFFGK9",
+        "L3HARRIS TECHNOLOGIES, INC / SJULQDJ8NZU7"
+      ],
+      "location": "NORTHAMPTON, MA, USA",
+      "contractAmount": 73383365.99,
+      "earliestTransaction": {
+        "date": "2007-10-05",
+        "award": "CONT_AWD_0008_9700_SPM90004D7015_9700"
+      },
+      "latestTransaction": {
+        "date": "2026-07-15",
+        "award": "CONT_AWD_N0002425F5318_9700_N0002424G5317_9700"
+      },
+      "latestAwardParent": {
+        "id": "CONT_AWD_N0002425F5318_9700_N0002424G5317_9700",
+        "parentName": "REGAL REXNORD CORPORATION",
+        "parentUei": "G3SBJN2AB4L3",
+        "recipientUei": "HA3UFSU8FN75",
+        "responseSha256": "235f2c9382d32367909a9426a7428071854e990020b0ccfc6043f291c93ead4d"
+      },
+      "warnings": [
+        "profile parent UEI DTZJAQF8NZA1 (L-3 COMMUNICATIONS HOLDINGS, INC.) differs from expected; not relied on"
+      ],
+      "reasons": [
+        "latest award parent UEI G3SBJN2AB4L3 (REGAL REXNORD CORPORATION) differs from expected"
+      ]
+    }
+  ],
+  "limitations": [
+    "USAspending reflects SAM data as reported; it is not SAM.gov itself",
+    "Recipient search is keyword-based and capped at 500 records",
+    "Profile parent fields can be stale; corroboration uses the parent on the latest award record",
+    "Name and parent agreement do not prove the SEC-listed legal entity; review state of incorporation separately where available"
+  ]
+}

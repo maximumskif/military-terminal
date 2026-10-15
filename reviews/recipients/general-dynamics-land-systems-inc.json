@@ -1,0 +1,107 @@
+{
+  "generatedAt": "2026-10-15T18:38:49.154Z",
+  "query": {
+    "name": "General Dynamics Land Systems Inc.",
+    "parentUei": "VF58HFRNGEL8,FAZSFFE6CST9",
+    "entityId": "legal:general-dynamics-land-systems-inc",
+    "formerNames": []
+  },
+  "searched": 3,
+  "candidates": [
+    {
+      "evidence": {
+        "uei": "YLSNMADQP715",
+        "cage": null,
+        "recipientId": "ececdd96-48fa-6543-b593-d37a691dcc02-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/ececdd96-48fa-6543-b593-d37a691dcc02-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/ececdd96-48fa-6543-b593-d37a691dcc02-C/",
+        "responseSha256": "2d2148fa1e008290496b8677654dc2db23a63b356364ffb1ef6bab0d4a9edd9f",
+        "name": "GENERAL DYNAMICS LAND SYSTEMS INC.",
+        "parentName": "GENERAL DYNAMICS LAND SYSTEMS INC.",
+        "parentUei": "YLSNMADQP715",
+        "otherReportedParents": [
+          "GENERAL DYNAMICS CORP / VF58HFRNGEL8"
+        ],
+        "location": "STERLING HEIGHTS, MI, USA",
+        "contractAmount": 1220408,
+        "earliestTransaction": {
+          "date": "2007-12-20",
+          "award": "CONT_AWD_W56HZV08C0181_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-04-10",
+          "award": "CONT_AWD_W912CH26C0043_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_W912CH26C0043_9700_-NONE-_-NONE-",
+          "parentName": "GENERAL DYNAMICS CORP",
+          "parentUei": "VF58HFRNGEL8",
+          "recipientUei": "YLSNMADQP715",
+          "responseSha256": "a026b77ecd161368d7a49c445c774ee11be6ad28ed3deeb5543675d05bc47b68"
+        },
+        "warnings": [
+          "profile parent UEI YLSNMADQP715 (GENERAL DYNAMICS LAND SYSTEMS INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:YLSNMADQP715",
+        "kind": "uei",
+        "value": "YLSNMADQP715",
+        "entityId": "legal:general-dynamics-land-systems-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-12-20",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/ececdd96-48fa-6543-b593-d37a691dcc02-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/ececdd96-48fa-6543-b593-d37a691dcc02-C/",
+        "supportingPassage": "GENERAL DYNAMICS LAND SYSTEMS INC. | UEI YLSNMADQP715 | STERLING HEIGHTS, MI, USA | Latest award CONT_AWD_W912CH26C0043_9700_-NONE-_-NONE- (2026-04-10) parent: GENERAL DYNAMICS CORP (UEI VF58HFRNGEL8)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "uei": "HAWKSQF848W7",
+      "cage": null,
+      "recipientId": "99938bc0-e262-06ff-9f94-386fd3da88dc-C",
+      "profileUrl": "https://www.usaspending.gov/recipient/99938bc0-e262-06ff-9f94-386fd3da88dc-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/99938bc0-e262-06ff-9f94-386fd3da88dc-C/",
+      "responseSha256": "55be07a57400768da756d5aacb5fa6e92388d6dd310eb5878155626a10a21145",
+      "name": "GENERAL DYNAMICS LAND SYSTEMS INC.",
+      "parentName": "GENERAL DYNAMICS LAND SYSTEMS INC.",
+      "parentUei": "HAWKSQF848W7",
+      "otherReportedParents": [
+        "GENERAL DYNAMICS CORP / VF58HFRNGEL8",
+        "GENERAL DYNAMICS CORP / FAZSFFE6CST9"
+      ],
+      "location": "STERLING HEIGHTS, MI, USA",
+      "contractAmount": 1836196373.82,
+      "earliestTransaction": {
+        "date": "2007-10-01",
+        "award": "CONT_AWD_YM03_9700_W52H0907G0001_9700"
+      },
+      "latestTransaction": {
+        "date": "2026-07-15",
+        "award": "CONT_AWD_W912CH25F0351_9700_W56HZV21D0085_9700"
+      },
+      "latestAwardParent": {
+        "id": "CONT_AWD_W912CH25F0351_9700_W56HZV21D0085_9700",
+        "parentName": "GENERAL DYNAMICS LAND SYSTEMS INC.",
+        "parentUei": "HAWKSQF848W7",
+        "recipientUei": "HAWKSQF848W7",
+        "responseSha256": "8477ac6382ca66f492762de703f30db3c9c3bc91202b887fa21e6299738da2b5"
+      },
+      "warnings": [
+        "profile parent UEI HAWKSQF848W7 (GENERAL DYNAMICS LAND SYSTEMS INC.) differs from expected; not relied on"
+      ],
+      "reasons": [
+        "latest award parent UEI HAWKSQF848W7 (GENERAL DYNAMICS LAND SYSTEMS INC.) differs from expected"
+      ]
+    }
+  ],
+  "limitations": [
+    "USAspending reflects SAM data as reported; it is not SAM.gov itself",
+    "Recipient search is keyword-based and capped at 500 records",
+    "Profile parent fields can be stale; corroboration uses the parent on the latest award record",
+    "Name and parent agreement do not prove the SEC-listed legal entity; review state of incorporation separately where available"
+  ]
+}

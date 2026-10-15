@@ -1,0 +1,1494 @@
+{
+  "generatedAt": "2026-10-15T18:36:43.587Z",
+  "query": {
+    "name": "The Boeing Company",
+    "parentUei": "NU2UC8MX6NK1",
+    "entityId": "sec:0000012927",
+    "formerNames": [
+      "BOEING COMPANY, THE",
+      "BOEING COMPANY"
+    ]
+  },
+  "searched": 32,
+  "candidates": [
+    {
+      "evidence": {
+        "uei": "WZWRLY4G3PL8",
+        "cage": null,
+        "recipientId": "22d282c6-4508-7d30-97f1-7401ea73b12a-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/22d282c6-4508-7d30-97f1-7401ea73b12a-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/22d282c6-4508-7d30-97f1-7401ea73b12a-C/",
+        "responseSha256": "d25f42beb4ce4c572a0e25b0c71cc153a04f1a660f1adf1502943bbe172157af",
+        "name": "THE BOEING COMPANY",
+        "parentName": "THE BOEING COMPANY",
+        "parentUei": "NU2UC8MX6NK1",
+        "otherReportedParents": [],
+        "location": "TUKWILA, WA, USA",
+        "contractAmount": 9182786940.43,
+        "earliestTransaction": {
+          "date": "2007-10-01",
+          "award": "CONT_AWD_Y84H_9700_FA810305G0002_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-09-29",
+          "award": "CONT_AWD_47QSWC24F0071_4732_47QSWC23D0002_4732"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_47QSWC24F0071_4732_47QSWC23D0002_4732",
+          "parentName": "THE BOEING COMPANY",
+          "parentUei": "NU2UC8MX6NK1",
+          "recipientUei": "WZWRLY4G3PL8",
+          "responseSha256": "434de42e00726b52c3a8c5219d3842acbe13d94766ef530d18a2a3ffe047b4f1"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:WZWRLY4G3PL8",
+        "kind": "uei",
+        "value": "WZWRLY4G3PL8",
+        "entityId": "sec:0000012927",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-01",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/22d282c6-4508-7d30-97f1-7401ea73b12a-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/22d282c6-4508-7d30-97f1-7401ea73b12a-C/",
+        "supportingPassage": "THE BOEING COMPANY | UEI WZWRLY4G3PL8 | TUKWILA, WA, USA | Latest award CONT_AWD_47QSWC24F0071_4732_47QSWC23D0002_4732 (2026-09-29) parent: THE BOEING COMPANY (UEI NU2UC8MX6NK1)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "JJM4FRDZJDX1",
+        "cage": null,
+        "recipientId": "9ab85632-42cc-5fa4-2a9c-d734034ddd33-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/9ab85632-42cc-5fa4-2a9c-d734034ddd33-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/9ab85632-42cc-5fa4-2a9c-d734034ddd33-C/",
+        "responseSha256": "caf0a188a8c593ef91379ffb4a2228e5c2685cb4d16b49d33b16a2ab1a6e7458",
+        "name": "THE BOEING COMPANY",
+        "parentName": "THE BOEING COMPANY",
+        "parentUei": "ZE95AC36GJ76",
+        "otherReportedParents": [
+          "THE BOEING COMPANY / NU2UC8MX6NK1"
+        ],
+        "location": "SAINT LOUIS, MO, USA",
+        "contractAmount": 6336491008.3,
+        "earliestTransaction": {
+          "date": "2007-10-01",
+          "award": "CONT_AWD_5906_9700_SPM70001D9406_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-09-10",
+          "award": "CONT_AWD_80ARC020F0100_8000_80ARC019D0007_8000"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_80ARC020F0100_8000_80ARC019D0007_8000",
+          "parentName": "THE BOEING COMPANY",
+          "parentUei": "NU2UC8MX6NK1",
+          "recipientUei": "JJM4FRDZJDX1",
+          "responseSha256": "e074ff09af19f2e367854382af95fb2efddab6e0229e08bba34961dc4cc0a886"
+        },
+        "warnings": [
+          "profile parent UEI ZE95AC36GJ76 (THE BOEING COMPANY) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:JJM4FRDZJDX1",
+        "kind": "uei",
+        "value": "JJM4FRDZJDX1",
+        "entityId": "sec:0000012927",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-01",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/9ab85632-42cc-5fa4-2a9c-d734034ddd33-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/9ab85632-42cc-5fa4-2a9c-d734034ddd33-C/",
+        "supportingPassage": "THE BOEING COMPANY | UEI JJM4FRDZJDX1 | SAINT LOUIS, MO, USA | Latest award CONT_AWD_80ARC020F0100_8000_80ARC019D0007_8000 (2026-09-10) parent: THE BOEING COMPANY (UEI NU2UC8MX6NK1)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "LAJJQWA1PF31",
+        "cage": null,
+        "recipientId": "27b04395-cee8-a47d-2a5c-3e2b78dc7b0a-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/27b04395-cee8-a47d-2a5c-3e2b78dc7b0a-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/27b04395-cee8-a47d-2a5c-3e2b78dc7b0a-C/",
+        "responseSha256": "6809df2c7d2468543d2024067687f5ba3e320f15fd2fbf149b0a64e346090cc4",
+        "name": "THE BOEING COMPANY",
+        "parentName": "THE BOEING COMPANY",
+        "parentUei": "ZE95AC36GJ76",
+        "otherReportedParents": [
+          "THE BOEING COMPANY / NU2UC8MX6NK1",
+          "THE BOEING COMPANY / LAJJQWA1PF31"
+        ],
+        "location": "MESA, AZ, USA",
+        "contractAmount": 2452857955.37,
+        "earliestTransaction": {
+          "date": "2007-10-03",
+          "award": "CONT_AWD_0359_9700_W58RGZ04G0011_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-08-06",
+          "award": "CONT_AWD_80ARC020F0054_8000_NNA15AB12B_8000"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_80ARC020F0054_8000_NNA15AB12B_8000",
+          "parentName": "THE BOEING COMPANY",
+          "parentUei": "NU2UC8MX6NK1",
+          "recipientUei": "LAJJQWA1PF31",
+          "responseSha256": "5dbb52d5a697e7896227f5c606e4e3db168090ba3770161291c97d50c1e0e4ec"
+        },
+        "warnings": [
+          "profile parent UEI ZE95AC36GJ76 (THE BOEING COMPANY) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:LAJJQWA1PF31",
+        "kind": "uei",
+        "value": "LAJJQWA1PF31",
+        "entityId": "sec:0000012927",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-03",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/27b04395-cee8-a47d-2a5c-3e2b78dc7b0a-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/27b04395-cee8-a47d-2a5c-3e2b78dc7b0a-C/",
+        "supportingPassage": "THE BOEING COMPANY | UEI LAJJQWA1PF31 | MESA, AZ, USA | Latest award CONT_AWD_80ARC020F0054_8000_NNA15AB12B_8000 (2026-08-06) parent: THE BOEING COMPANY (UEI NU2UC8MX6NK1)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "E466BXU4KJH8",
+        "cage": null,
+        "recipientId": "f9736fab-29cf-0248-a01b-aea3ad360ecc-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/f9736fab-29cf-0248-a01b-aea3ad360ecc-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/f9736fab-29cf-0248-a01b-aea3ad360ecc-C/",
+        "responseSha256": "803555a17f36fc5f7a3ed39848fca09f1927a3b0af300ef89f902de9110b8e2c",
+        "name": "THE BOEING COMPANY",
+        "parentName": "THE BOEING COMPANY",
+        "parentUei": "ZE95AC36GJ76",
+        "otherReportedParents": [
+          "THE BOEING COMPANY / NU2UC8MX6NK1"
+        ],
+        "location": "RIDLEY PARK, PA, USA",
+        "contractAmount": 2311155254.11,
+        "earliestTransaction": {
+          "date": "2007-10-01",
+          "award": "CONT_AWD_0023_9700_W58RGZ04G0023_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-07-15",
+          "award": "CONT_AWD_SPE4A526F5808_9700_SPE4A125G0011_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_SPE4A526F5808_9700_SPE4A125G0011_9700",
+          "parentName": "THE BOEING COMPANY",
+          "parentUei": "NU2UC8MX6NK1",
+          "recipientUei": "E466BXU4KJH8",
+          "responseSha256": "c8c1d834deb503b990bef25c15c174d3cdbe433d4671162fe058ce4859bc59ec"
+        },
+        "warnings": [
+          "profile parent UEI ZE95AC36GJ76 (THE BOEING COMPANY) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:E466BXU4KJH8",
+        "kind": "uei",
+        "value": "E466BXU4KJH8",
+        "entityId": "sec:0000012927",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-01",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/f9736fab-29cf-0248-a01b-aea3ad360ecc-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/f9736fab-29cf-0248-a01b-aea3ad360ecc-C/",
+        "supportingPassage": "THE BOEING COMPANY | UEI E466BXU4KJH8 | RIDLEY PARK, PA, USA | Latest award CONT_AWD_SPE4A526F5808_9700_SPE4A125G0011_9700 (2026-07-15) parent: THE BOEING COMPANY (UEI NU2UC8MX6NK1)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "UEGFHX6R6KJ1",
+        "cage": null,
+        "recipientId": "5fa231ae-15e3-afd3-8c5c-bb9911ba57f8-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/5fa231ae-15e3-afd3-8c5c-bb9911ba57f8-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/5fa231ae-15e3-afd3-8c5c-bb9911ba57f8-C/",
+        "responseSha256": "b1e26f5cd826158765a4d9d1587889030c08dfa154f815ded7f952d970330d8e",
+        "name": "THE BOEING COMPANY",
+        "parentName": "THE BOEING COMPANY",
+        "parentUei": "ZE95AC36GJ76",
+        "otherReportedParents": [
+          "THE BOEING COMPANY / NU2UC8MX6NK1"
+        ],
+        "location": "LONG BEACH, CA, USA",
+        "contractAmount": 1868932036.64,
+        "earliestTransaction": {
+          "date": "2007-10-01",
+          "award": "CONT_AWD_FA861404C2004_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-07-14",
+          "award": "CONT_AWD_FA852626FB003_9700_FA852621D0001_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_FA852626FB003_9700_FA852621D0001_9700",
+          "parentName": "THE BOEING COMPANY",
+          "parentUei": "NU2UC8MX6NK1",
+          "recipientUei": "UEGFHX6R6KJ1",
+          "responseSha256": "b457fefbc39f54ea236fa2ddf96aac1daa9e16ec0de1fe71160b27dab4eb25b1"
+        },
+        "warnings": [
+          "profile parent UEI ZE95AC36GJ76 (THE BOEING COMPANY) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:UEGFHX6R6KJ1",
+        "kind": "uei",
+        "value": "UEGFHX6R6KJ1",
+        "entityId": "sec:0000012927",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-01",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/5fa231ae-15e3-afd3-8c5c-bb9911ba57f8-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/5fa231ae-15e3-afd3-8c5c-bb9911ba57f8-C/",
+        "supportingPassage": "THE BOEING COMPANY | UEI UEGFHX6R6KJ1 | LONG BEACH, CA, USA | Latest award CONT_AWD_FA852626FB003_9700_FA852621D0001_9700 (2026-07-14) parent: THE BOEING COMPANY (UEI NU2UC8MX6NK1)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "MF2LE5RK6L84",
+        "cage": null,
+        "recipientId": "241d908a-e5e9-f275-b625-6b1f76859002-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/241d908a-e5e9-f275-b625-6b1f76859002-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/241d908a-e5e9-f275-b625-6b1f76859002-C/",
+        "responseSha256": "5ee3dcf3f2df4e57793e845f8e7fff9ef5a256a78abe8a4296ace4ad05905890",
+        "name": "THE BOEING COMPANY",
+        "parentName": "THE BOEING COMPANY",
+        "parentUei": "ZE95AC36GJ76",
+        "otherReportedParents": [
+          "THE BOEING COMPANY / NU2UC8MX6NK1"
+        ],
+        "location": "HAZELWOOD, MO, USA",
+        "contractAmount": 1414169210.37,
+        "earliestTransaction": {
+          "date": "2007-10-30",
+          "award": "CONT_AWD_0005_9700_N6133905D0003_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-07-15",
+          "award": "CONT_AWD_SPE4A526F5438_9700_SPE4A125G0009_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_SPE4A526F5438_9700_SPE4A125G0009_9700",
+          "parentName": "THE BOEING COMPANY",
+          "parentUei": "NU2UC8MX6NK1",
+          "recipientUei": "MF2LE5RK6L84",
+          "responseSha256": "9ab13a06081f58632daf681a0127bbfd3f2512ecdf9cafc8e5de84890e090d2f"
+        },
+        "warnings": [
+          "profile parent UEI ZE95AC36GJ76 (THE BOEING COMPANY) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:MF2LE5RK6L84",
+        "kind": "uei",
+        "value": "MF2LE5RK6L84",
+        "entityId": "sec:0000012927",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-30",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/241d908a-e5e9-f275-b625-6b1f76859002-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/241d908a-e5e9-f275-b625-6b1f76859002-C/",
+        "supportingPassage": "THE BOEING COMPANY | UEI MF2LE5RK6L84 | HAZELWOOD, MO, USA | Latest award CONT_AWD_SPE4A526F5438_9700_SPE4A125G0009_9700 (2026-07-15) parent: THE BOEING COMPANY (UEI NU2UC8MX6NK1)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "SML4NN2CT556",
+        "cage": null,
+        "recipientId": "3632dc26-45b8-9d0e-1128-63e866708c8f-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/3632dc26-45b8-9d0e-1128-63e866708c8f-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/3632dc26-45b8-9d0e-1128-63e866708c8f-C/",
+        "responseSha256": "129cf1d2f0079cd5d9d8a8dbd90bc42be6e9cf0b22360db247fae85cab4aedc9",
+        "name": "THE BOEING COMPANY",
+        "parentName": "THE BOEING COMPANY",
+        "parentUei": "ZE95AC36GJ76",
+        "otherReportedParents": [
+          "THE BOEING COMPANY / NU2UC8MX6NK1"
+        ],
+        "location": "HUNTSVILLE, AL, USA",
+        "contractAmount": 1266105187.04,
+        "earliestTransaction": {
+          "date": "2007-10-05",
+          "award": "CONT_AWD_W31P4Q06C0338_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-10-09",
+          "award": "CONT_AWD_80MSFC20C0052_8000_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_80MSFC20C0052_8000_-NONE-_-NONE-",
+          "parentName": "THE BOEING COMPANY",
+          "parentUei": "NU2UC8MX6NK1",
+          "recipientUei": "SML4NN2CT556",
+          "responseSha256": "e836b53128e1563e656b405e427f510c00e3f95331838cdf73d7c0f85db2542e"
+        },
+        "warnings": [
+          "profile parent UEI ZE95AC36GJ76 (THE BOEING COMPANY) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:SML4NN2CT556",
+        "kind": "uei",
+        "value": "SML4NN2CT556",
+        "entityId": "sec:0000012927",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-05",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/3632dc26-45b8-9d0e-1128-63e866708c8f-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/3632dc26-45b8-9d0e-1128-63e866708c8f-C/",
+        "supportingPassage": "THE BOEING COMPANY | UEI SML4NN2CT556 | HUNTSVILLE, AL, USA | Latest award CONT_AWD_80MSFC20C0052_8000_-NONE-_-NONE- (2026-10-09) parent: THE BOEING COMPANY (UEI NU2UC8MX6NK1)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "M25AW7P5S7K7",
+        "cage": null,
+        "recipientId": "e2d7a16e-029f-ce0e-97dc-8b32fa6dc1d1-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/e2d7a16e-029f-ce0e-97dc-8b32fa6dc1d1-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/e2d7a16e-029f-ce0e-97dc-8b32fa6dc1d1-C/",
+        "responseSha256": "4e6a73a37333e91d08b80190aa5ba63aba2f0c17f3a418496912b006d271ec60",
+        "name": "THE BOEING COMPANY",
+        "parentName": "THE BOEING COMPANY",
+        "parentUei": "ZE95AC36GJ76",
+        "otherReportedParents": [
+          "THE BOEING COMPANY / NU2UC8MX6NK1"
+        ],
+        "location": "OKLAHOMA CITY, OK, USA",
+        "contractAmount": 1019656574.35,
+        "earliestTransaction": {
+          "date": "2013-09-11",
+          "award": "CONT_AWD_0001_9700_FA853913D0006_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-07-15",
+          "award": "CONT_AWD_FA810616C0001_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_FA810616C0001_9700_-NONE-_-NONE-",
+          "parentName": "THE BOEING COMPANY",
+          "parentUei": "NU2UC8MX6NK1",
+          "recipientUei": "M25AW7P5S7K7",
+          "responseSha256": "f536ea3ff5bee346bf259795d21d3db8304f9d3a1624f143809e7b96f5153191"
+        },
+        "warnings": [
+          "profile parent UEI ZE95AC36GJ76 (THE BOEING COMPANY) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:M25AW7P5S7K7",
+        "kind": "uei",
+        "value": "M25AW7P5S7K7",
+        "entityId": "sec:0000012927",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2013-09-11",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/e2d7a16e-029f-ce0e-97dc-8b32fa6dc1d1-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/e2d7a16e-029f-ce0e-97dc-8b32fa6dc1d1-C/",
+        "supportingPassage": "THE BOEING COMPANY | UEI M25AW7P5S7K7 | OKLAHOMA CITY, OK, USA | Latest award CONT_AWD_FA810616C0001_9700_-NONE-_-NONE- (2026-07-15) parent: THE BOEING COMPANY (UEI NU2UC8MX6NK1)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "M6BRZ1FHEZQ1",
+        "cage": null,
+        "recipientId": "df8638e3-b642-fae8-6730-21c1ec716038-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/df8638e3-b642-fae8-6730-21c1ec716038-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/df8638e3-b642-fae8-6730-21c1ec716038-C/",
+        "responseSha256": "96641873bc52991054a6abb34da17db078b51ddb25fa85e25624108a87ca41f5",
+        "name": "THE BOEING COMPANY",
+        "parentName": "THE BOEING COMPANY",
+        "parentUei": "NU2UC8MX6NK1",
+        "otherReportedParents": [
+          "THE BOEING COMPANY / M6BRZ1FHEZQ1"
+        ],
+        "location": "EL SEGUNDO, CA, USA",
+        "contractAmount": 754473462.04,
+        "earliestTransaction": {
+          "date": "2013-01-29",
+          "award": "CONT_AWD_FA880810C0001_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-07-02",
+          "award": "CONT_AWD_FA880725CB006_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_FA880725CB006_9700_-NONE-_-NONE-",
+          "parentName": "THE BOEING COMPANY",
+          "parentUei": "NU2UC8MX6NK1",
+          "recipientUei": "M6BRZ1FHEZQ1",
+          "responseSha256": "82ce19ea71a46435161d6bdca8e6976f11699efa85f8cfae8804728c18ee345b"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:M6BRZ1FHEZQ1",
+        "kind": "uei",
+        "value": "M6BRZ1FHEZQ1",
+        "entityId": "sec:0000012927",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2013-01-29",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/df8638e3-b642-fae8-6730-21c1ec716038-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/df8638e3-b642-fae8-6730-21c1ec716038-C/",
+        "supportingPassage": "THE BOEING COMPANY | UEI M6BRZ1FHEZQ1 | EL SEGUNDO, CA, USA | Latest award CONT_AWD_FA880725CB006_9700_-NONE-_-NONE- (2026-07-02) parent: THE BOEING COMPANY (UEI NU2UC8MX6NK1)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "HLWWEH2CCXW5",
+        "cage": null,
+        "recipientId": "690fafd3-ecd8-1228-92a0-07aa28dd1ee2-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/690fafd3-ecd8-1228-92a0-07aa28dd1ee2-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/690fafd3-ecd8-1228-92a0-07aa28dd1ee2-C/",
+        "responseSha256": "07b3c42f57a7a71ca7382c6900bd7ee637301a9d170c46f78c9e0bfe264773e1",
+        "name": "THE BOEING COMPANY",
+        "parentName": "THE BOEING COMPANY",
+        "parentUei": "ZE95AC36GJ76",
+        "otherReportedParents": [
+          "THE BOEING COMPANY / NU2UC8MX6NK1"
+        ],
+        "location": "HOUSTON, TX, USA",
+        "contractAmount": 368862825.32,
+        "earliestTransaction": {
+          "date": "2012-12-06",
+          "award": "CONT_AWD_NNK13MA07C_8000_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-10-02",
+          "award": "CONT_AWD_NAS1510000_8000_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_NAS1510000_8000_-NONE-_-NONE-",
+          "parentName": "THE BOEING COMPANY",
+          "parentUei": "NU2UC8MX6NK1",
+          "recipientUei": "HLWWEH2CCXW5",
+          "responseSha256": "0cce65464d4374326896a8c684490aa552034d928167aa8ee7cc030575440907"
+        },
+        "warnings": [
+          "profile parent UEI ZE95AC36GJ76 (THE BOEING COMPANY) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:HLWWEH2CCXW5",
+        "kind": "uei",
+        "value": "HLWWEH2CCXW5",
+        "entityId": "sec:0000012927",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2012-12-06",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/690fafd3-ecd8-1228-92a0-07aa28dd1ee2-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/690fafd3-ecd8-1228-92a0-07aa28dd1ee2-C/",
+        "supportingPassage": "THE BOEING COMPANY | UEI HLWWEH2CCXW5 | HOUSTON, TX, USA | Latest award CONT_AWD_NAS1510000_8000_-NONE-_-NONE- (2026-10-02) parent: THE BOEING COMPANY (UEI NU2UC8MX6NK1)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "NJVNVWQJMPA4",
+        "cage": null,
+        "recipientId": "34db6aa4-6de2-9e0f-6ccb-8ba1fc9e4ba9-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/34db6aa4-6de2-9e0f-6ccb-8ba1fc9e4ba9-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/34db6aa4-6de2-9e0f-6ccb-8ba1fc9e4ba9-C/",
+        "responseSha256": "f952ca8bb888b2a19cba60f1187f4e22b0f4b4ee0380729427b4e86ccb4609aa",
+        "name": "THE BOEING COMPANY",
+        "parentName": "THE BOEING COMPANY",
+        "parentUei": "NJVNVWQJMPA4",
+        "otherReportedParents": [
+          "THE BOEING COMPANY / ZE95AC36GJ76",
+          "THE BOEING COMPANY / NU2UC8MX6NK1"
+        ],
+        "location": "MESA, AZ, USA",
+        "contractAmount": 276258177.69,
+        "earliestTransaction": {
+          "date": "2007-10-01",
+          "award": "CONT_AWD_W91ZRS08M0003_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-07-15",
+          "award": "CONT_AWD_SPE4A526F7880_9700_SPE4A125G0012_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_SPE4A526F7880_9700_SPE4A125G0012_9700",
+          "parentName": "THE BOEING COMPANY",
+          "parentUei": "NU2UC8MX6NK1",
+          "recipientUei": "NJVNVWQJMPA4",
+          "responseSha256": "c01ca3ccbfd9b09f88dfccd48ada7160118bfe5e22bdb31cc8b5caad29f5bc4c"
+        },
+        "warnings": [
+          "profile parent UEI NJVNVWQJMPA4 (THE BOEING COMPANY) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:NJVNVWQJMPA4",
+        "kind": "uei",
+        "value": "NJVNVWQJMPA4",
+        "entityId": "sec:0000012927",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-01",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/34db6aa4-6de2-9e0f-6ccb-8ba1fc9e4ba9-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/34db6aa4-6de2-9e0f-6ccb-8ba1fc9e4ba9-C/",
+        "supportingPassage": "THE BOEING COMPANY | UEI NJVNVWQJMPA4 | MESA, AZ, USA | Latest award CONT_AWD_SPE4A526F7880_9700_SPE4A125G0012_9700 (2026-07-15) parent: THE BOEING COMPANY (UEI NU2UC8MX6NK1)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "VH1ZJJ9CW9B4",
+        "cage": null,
+        "recipientId": "ed5c0d8b-948f-46dd-1d54-5046ef45ef2d-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/ed5c0d8b-948f-46dd-1d54-5046ef45ef2d-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/ed5c0d8b-948f-46dd-1d54-5046ef45ef2d-C/",
+        "responseSha256": "f149c4a7f52fbffcce0868f6a7a2b5f9fbaa46ebdd214cbc2afd83aed031e067",
+        "name": "THE BOEING COMPANY",
+        "parentName": "THE BOEING COMPANY",
+        "parentUei": "ZE95AC36GJ76",
+        "otherReportedParents": [
+          "THE BOEING COMPANY / NU2UC8MX6NK1"
+        ],
+        "location": "HOUSTON, TX, USA",
+        "contractAmount": 220865224,
+        "earliestTransaction": {
+          "date": "2007-12-19",
+          "award": "CONT_AWD_F0470198C0002_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-09-28",
+          "award": "CONT_AWD_NNK16MA04T_8000_NNK14MA75C_8000"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_NNK16MA04T_8000_NNK14MA75C_8000",
+          "parentName": "THE BOEING COMPANY",
+          "parentUei": "NU2UC8MX6NK1",
+          "recipientUei": "VH1ZJJ9CW9B4",
+          "responseSha256": "1c8fc0bd2f66bdbf6693d59f0c06c98cd50d4eb56510a1dd1bffe193d42effa9"
+        },
+        "warnings": [
+          "profile parent UEI ZE95AC36GJ76 (THE BOEING COMPANY) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:VH1ZJJ9CW9B4",
+        "kind": "uei",
+        "value": "VH1ZJJ9CW9B4",
+        "entityId": "sec:0000012927",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-12-19",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/ed5c0d8b-948f-46dd-1d54-5046ef45ef2d-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/ed5c0d8b-948f-46dd-1d54-5046ef45ef2d-C/",
+        "supportingPassage": "THE BOEING COMPANY | UEI VH1ZJJ9CW9B4 | HOUSTON, TX, USA | Latest award CONT_AWD_NNK16MA04T_8000_NNK14MA75C_8000 (2026-09-28) parent: THE BOEING COMPANY (UEI NU2UC8MX6NK1)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "XM8ZJ6ML9CW7",
+        "cage": null,
+        "recipientId": "15a7d2ee-b7aa-fe37-36ec-ff299338b908-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/15a7d2ee-b7aa-fe37-36ec-ff299338b908-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/15a7d2ee-b7aa-fe37-36ec-ff299338b908-C/",
+        "responseSha256": "6179389b3cbce2492bd83df4094ae33da17f42008c8e7c5805e646a8bfc38637",
+        "name": "THE BOEING COMPANY",
+        "parentName": "THE BOEING COMPANY",
+        "parentUei": "ZE95AC36GJ76",
+        "otherReportedParents": [
+          "THE BOEING COMPANY / NU2UC8MX6NK1"
+        ],
+        "location": "OKLAHOMA CITY, OK, USA",
+        "contractAmount": 184133552.83,
+        "earliestTransaction": {
+          "date": "2007-10-01",
+          "award": "CONT_AWD_0005_9700_FA810606D0001_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-07-09",
+          "award": "CONT_AWD_FA810721F5005_9700_FA810719D0001_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_FA810721F5005_9700_FA810719D0001_9700",
+          "parentName": "THE BOEING COMPANY",
+          "parentUei": "NU2UC8MX6NK1",
+          "recipientUei": "XM8ZJ6ML9CW7",
+          "responseSha256": "2e9094be3624c45c348f1b18c0df46574aab1884da467b9679ec0816d0f58bb9"
+        },
+        "warnings": [
+          "profile parent UEI ZE95AC36GJ76 (THE BOEING COMPANY) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:XM8ZJ6ML9CW7",
+        "kind": "uei",
+        "value": "XM8ZJ6ML9CW7",
+        "entityId": "sec:0000012927",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-01",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/15a7d2ee-b7aa-fe37-36ec-ff299338b908-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/15a7d2ee-b7aa-fe37-36ec-ff299338b908-C/",
+        "supportingPassage": "THE BOEING COMPANY | UEI XM8ZJ6ML9CW7 | OKLAHOMA CITY, OK, USA | Latest award CONT_AWD_FA810721F5005_9700_FA810719D0001_9700 (2026-07-09) parent: THE BOEING COMPANY (UEI NU2UC8MX6NK1)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "PHJHM5MZKMN5",
+        "cage": null,
+        "recipientId": "41da8303-3af5-fe35-995a-1befcc8f5cb6-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/41da8303-3af5-fe35-995a-1befcc8f5cb6-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/41da8303-3af5-fe35-995a-1befcc8f5cb6-C/",
+        "responseSha256": "a94b7779f4199b1a4e6807d175bcbcd56445af253b17d9009b09abb6c0f079b4",
+        "name": "THE BOEING COMPANY",
+        "parentName": "THE BOEING COMPANY",
+        "parentUei": "ZE95AC36GJ76",
+        "otherReportedParents": [
+          "THE BOEING COMPANY / NU2UC8MX6NK1"
+        ],
+        "location": "HEATH, OH, USA",
+        "contractAmount": 96903139.51,
+        "earliestTransaction": {
+          "date": "2007-10-16",
+          "award": "CONT_AWD_0029_9700_F4261099D0006_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-07-02",
+          "award": "CONT_AWD_FA812826CB001_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_FA812826CB001_9700_-NONE-_-NONE-",
+          "parentName": "THE BOEING COMPANY",
+          "parentUei": "NU2UC8MX6NK1",
+          "recipientUei": "PHJHM5MZKMN5",
+          "responseSha256": "37005f42c9f6e69c1d757ddc580f5b1f22bc4200449ec7885d78b39aada1faf9"
+        },
+        "warnings": [
+          "profile parent UEI ZE95AC36GJ76 (THE BOEING COMPANY) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:PHJHM5MZKMN5",
+        "kind": "uei",
+        "value": "PHJHM5MZKMN5",
+        "entityId": "sec:0000012927",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-16",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/41da8303-3af5-fe35-995a-1befcc8f5cb6-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/41da8303-3af5-fe35-995a-1befcc8f5cb6-C/",
+        "supportingPassage": "THE BOEING COMPANY | UEI PHJHM5MZKMN5 | HEATH, OH, USA | Latest award CONT_AWD_FA812826CB001_9700_-NONE-_-NONE- (2026-07-02) parent: THE BOEING COMPANY (UEI NU2UC8MX6NK1)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "H1C4ZVECADM6",
+        "cage": null,
+        "recipientId": "83d28e4e-178a-9f16-9a62-306da1ad99c1-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/83d28e4e-178a-9f16-9a62-306da1ad99c1-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/83d28e4e-178a-9f16-9a62-306da1ad99c1-C/",
+        "responseSha256": "ec46a246661224ec15493fe9261fd936278cf1db052a734d34e9321541a042f5",
+        "name": "THE BOEING COMPANY",
+        "parentName": "THE BOEING COMPANY",
+        "parentUei": "ZE95AC36GJ76",
+        "otherReportedParents": [
+          "THE BOEING COMPANY / NU2UC8MX6NK1",
+          "THE BOEING COMPANY / H1C4ZVECADM6"
+        ],
+        "location": "LAYTON, UT, USA",
+        "contractAmount": 88663484.02,
+        "earliestTransaction": {
+          "date": "2008-03-12",
+          "award": "CONT_AWD_FA881808C0022_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-07-13",
+          "award": "CONT_AWD_FA820623C0133_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_FA820623C0133_9700_-NONE-_-NONE-",
+          "parentName": "THE BOEING COMPANY",
+          "parentUei": "NU2UC8MX6NK1",
+          "recipientUei": "H1C4ZVECADM6",
+          "responseSha256": "2b4c80ddf9514db5d0ca75b251bdcfdb235145c18141574728d770f4b8f0e425"
+        },
+        "warnings": [
+          "profile parent UEI ZE95AC36GJ76 (THE BOEING COMPANY) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:H1C4ZVECADM6",
+        "kind": "uei",
+        "value": "H1C4ZVECADM6",
+        "entityId": "sec:0000012927",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2008-03-12",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/83d28e4e-178a-9f16-9a62-306da1ad99c1-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/83d28e4e-178a-9f16-9a62-306da1ad99c1-C/",
+        "supportingPassage": "THE BOEING COMPANY | UEI H1C4ZVECADM6 | LAYTON, UT, USA | Latest award CONT_AWD_FA820623C0133_9700_-NONE-_-NONE- (2026-07-13) parent: THE BOEING COMPANY (UEI NU2UC8MX6NK1)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "M8JLMEHJADQ5",
+        "cage": null,
+        "recipientId": "2bf5d203-604f-4c6c-7c7b-4ad81a350613-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/2bf5d203-604f-4c6c-7c7b-4ad81a350613-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/2bf5d203-604f-4c6c-7c7b-4ad81a350613-C/",
+        "responseSha256": "6b7e9f2295ae2eb4beff199afdd253ed0a472e7774dab57fce4bce4987765a20",
+        "name": "THE BOEING COMPANY",
+        "parentName": "THE BOEING COMPANY",
+        "parentUei": "ZE95AC36GJ76",
+        "otherReportedParents": [
+          "THE BOEING COMPANY / NU2UC8MX6NK1"
+        ],
+        "location": "HUNTINGTON BEACH, CA, USA",
+        "contractAmount": 74124454.76,
+        "earliestTransaction": {
+          "date": "2007-10-04",
+          "award": "CONT_AWD_KSC00199712BNAS532933_8000_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-07-14",
+          "award": "CONT_AWD_FA872622F0132_9700_FA872618D0006_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_FA872622F0132_9700_FA872618D0006_9700",
+          "parentName": "THE BOEING COMPANY",
+          "parentUei": "NU2UC8MX6NK1",
+          "recipientUei": "M8JLMEHJADQ5",
+          "responseSha256": "0f174d1ad5571f09f7ce258797ce42842b4832c1b46e5c11ab02eb9ada8a61b8"
+        },
+        "warnings": [
+          "profile parent UEI ZE95AC36GJ76 (THE BOEING COMPANY) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:M8JLMEHJADQ5",
+        "kind": "uei",
+        "value": "M8JLMEHJADQ5",
+        "entityId": "sec:0000012927",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-04",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/2bf5d203-604f-4c6c-7c7b-4ad81a350613-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/2bf5d203-604f-4c6c-7c7b-4ad81a350613-C/",
+        "supportingPassage": "THE BOEING COMPANY | UEI M8JLMEHJADQ5 | HUNTINGTON BEACH, CA, USA | Latest award CONT_AWD_FA872622F0132_9700_FA872618D0006_9700 (2026-07-14) parent: THE BOEING COMPANY (UEI NU2UC8MX6NK1)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "LYL4E7AZMKN7",
+        "cage": null,
+        "recipientId": "bbd3c889-5d92-e1e1-75a2-4dffa07791db-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/bbd3c889-5d92-e1e1-75a2-4dffa07791db-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/bbd3c889-5d92-e1e1-75a2-4dffa07791db-C/",
+        "responseSha256": "74621256e72dada7ffd906e1a42349d5e100d2ec3b1182974ab30dce9c09bd2c",
+        "name": "THE BOEING COMPANY",
+        "parentName": "THE BOEING COMPANY",
+        "parentUei": "ZE95AC36GJ76",
+        "otherReportedParents": [
+          "THE BOEING COMPANY / NU2UC8MX6NK1"
+        ],
+        "location": "JACKSONVILLE, FL, USA",
+        "contractAmount": 39618456.73,
+        "earliestTransaction": {
+          "date": "2007-11-01",
+          "award": "CONT_AWD_Z5DL_9700_N0014006D0029_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-07-15",
+          "award": "CONT_AWD_S1110A25F0017_9700_N0001924D0105_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_S1110A25F0017_9700_N0001924D0105_9700",
+          "parentName": "THE BOEING COMPANY",
+          "parentUei": "NU2UC8MX6NK1",
+          "recipientUei": "LYL4E7AZMKN7",
+          "responseSha256": "cca3317e14e02611d6057cd41c2270a0ccc2e6fbf1b10e0576585a446ec7bdcd"
+        },
+        "warnings": [
+          "profile parent UEI ZE95AC36GJ76 (THE BOEING COMPANY) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:LYL4E7AZMKN7",
+        "kind": "uei",
+        "value": "LYL4E7AZMKN7",
+        "entityId": "sec:0000012927",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-11-01",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/bbd3c889-5d92-e1e1-75a2-4dffa07791db-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/bbd3c889-5d92-e1e1-75a2-4dffa07791db-C/",
+        "supportingPassage": "THE BOEING COMPANY | UEI LYL4E7AZMKN7 | JACKSONVILLE, FL, USA | Latest award CONT_AWD_S1110A25F0017_9700_N0001924D0105_9700 (2026-07-15) parent: THE BOEING COMPANY (UEI NU2UC8MX6NK1)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "YBMJKB9DJB21",
+        "cage": null,
+        "recipientId": "740c70fd-cbbb-2a22-db7a-d11b1259a6e7-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/740c70fd-cbbb-2a22-db7a-d11b1259a6e7-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/740c70fd-cbbb-2a22-db7a-d11b1259a6e7-C/",
+        "responseSha256": "2a29d58e875566b79ce854469ac10cdd3a39e27863e44152a17b3b50522e0ce9",
+        "name": "THE BOEING COMPANY",
+        "parentName": "THE BOEING COMPANY",
+        "parentUei": "ZE95AC36GJ76",
+        "otherReportedParents": [
+          "THE BOEING COMPANY / NU2UC8MX6NK1"
+        ],
+        "location": "COLORADO SPRINGS, CO, USA",
+        "contractAmount": 34681190.98,
+        "earliestTransaction": {
+          "date": "2010-01-04",
+          "award": "CONT_AWD_FA882310M0001_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-07-15",
+          "award": "CONT_AWD_FA882325FB019_9700_FA882322D0001_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_FA882325FB019_9700_FA882322D0001_9700",
+          "parentName": "THE BOEING COMPANY",
+          "parentUei": "NU2UC8MX6NK1",
+          "recipientUei": "YBMJKB9DJB21",
+          "responseSha256": "ecc927477180bf569c4265397966b97889e79e885a3a8d9b4818e644903f6265"
+        },
+        "warnings": [
+          "profile parent UEI ZE95AC36GJ76 (THE BOEING COMPANY) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:YBMJKB9DJB21",
+        "kind": "uei",
+        "value": "YBMJKB9DJB21",
+        "entityId": "sec:0000012927",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2010-01-04",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/740c70fd-cbbb-2a22-db7a-d11b1259a6e7-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/740c70fd-cbbb-2a22-db7a-d11b1259a6e7-C/",
+        "supportingPassage": "THE BOEING COMPANY | UEI YBMJKB9DJB21 | COLORADO SPRINGS, CO, USA | Latest award CONT_AWD_FA882325FB019_9700_FA882322D0001_9700 (2026-07-15) parent: THE BOEING COMPANY (UEI NU2UC8MX6NK1)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "QK7VQKC76AA3",
+        "cage": null,
+        "recipientId": "1ffabdf0-188c-367a-68bf-85f9ac1e1efa-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/1ffabdf0-188c-367a-68bf-85f9ac1e1efa-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/1ffabdf0-188c-367a-68bf-85f9ac1e1efa-C/",
+        "responseSha256": "73c74b2dc2e36b553d96017052d18b4dbfb2eb05171631a7a149cc1a61b34b60",
+        "name": "THE BOEING COMPANY",
+        "parentName": "THE BOEING COMPANY",
+        "parentUei": "NU2UC8MX6NK1",
+        "otherReportedParents": [],
+        "location": "ALBUQUERQUE, NM, USA",
+        "contractAmount": 29903664.7,
+        "earliestTransaction": {
+          "date": "2011-07-27",
+          "award": "CONT_AWD_FA920011C0220_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-07-07",
+          "award": "CONT_AWD_FA945124CX038_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_FA945124CX038_9700_-NONE-_-NONE-",
+          "parentName": "THE BOEING COMPANY",
+          "parentUei": "NU2UC8MX6NK1",
+          "recipientUei": "QK7VQKC76AA3",
+          "responseSha256": "dcf9b88bd1f845c11e27c61d83ff2da553edaabcf5e556462b28ad1f12c39508"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:QK7VQKC76AA3",
+        "kind": "uei",
+        "value": "QK7VQKC76AA3",
+        "entityId": "sec:0000012927",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2011-07-27",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/1ffabdf0-188c-367a-68bf-85f9ac1e1efa-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/1ffabdf0-188c-367a-68bf-85f9ac1e1efa-C/",
+        "supportingPassage": "THE BOEING COMPANY | UEI QK7VQKC76AA3 | ALBUQUERQUE, NM, USA | Latest award CONT_AWD_FA945124CX038_9700_-NONE-_-NONE- (2026-07-07) parent: THE BOEING COMPANY (UEI NU2UC8MX6NK1)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "TXT3HAAZREF1",
+        "cage": null,
+        "recipientId": "de5734f2-c51e-1278-035b-d879dc6e84aa-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/de5734f2-c51e-1278-035b-d879dc6e84aa-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/de5734f2-c51e-1278-035b-d879dc6e84aa-C/",
+        "responseSha256": "36704f20cb72cdc416ee005aeb0ccf5b2a22884ef1df5a48f20eade4f846544f",
+        "name": "THE BOEING COMPANY",
+        "parentName": "THE BOEING COMPANY",
+        "parentUei": "ZE95AC36GJ76",
+        "otherReportedParents": [
+          "THE BOEING COMPANY / NU2UC8MX6NK1"
+        ],
+        "location": "SAINT LOUIS, MO, USA",
+        "contractAmount": 21355120.88,
+        "earliestTransaction": {
+          "date": "2007-10-01",
+          "award": "CONT_AWD_7030_9700_N0038307G005H_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-09-30",
+          "award": "CONT_AWD_80KSC025F0015_8000_80KSC025A0011_8000"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_80KSC025F0015_8000_80KSC025A0011_8000",
+          "parentName": "THE BOEING COMPANY",
+          "parentUei": "NU2UC8MX6NK1",
+          "recipientUei": "TXT3HAAZREF1",
+          "responseSha256": "bc8be2203275c7a5f1ae7954699b442eee131cbbe82058cc2575f59cd7b80eba"
+        },
+        "warnings": [
+          "profile parent UEI ZE95AC36GJ76 (THE BOEING COMPANY) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:TXT3HAAZREF1",
+        "kind": "uei",
+        "value": "TXT3HAAZREF1",
+        "entityId": "sec:0000012927",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-01",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/de5734f2-c51e-1278-035b-d879dc6e84aa-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/de5734f2-c51e-1278-035b-d879dc6e84aa-C/",
+        "supportingPassage": "THE BOEING COMPANY | UEI TXT3HAAZREF1 | SAINT LOUIS, MO, USA | Latest award CONT_AWD_80KSC025F0015_8000_80KSC025A0011_8000 (2026-09-30) parent: THE BOEING COMPANY (UEI NU2UC8MX6NK1)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "D27FSZD2L2U9",
+        "cage": null,
+        "recipientId": "440c5531-5760-e915-88d4-e4c4e69010d1-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/440c5531-5760-e915-88d4-e4c4e69010d1-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/440c5531-5760-e915-88d4-e4c4e69010d1-C/",
+        "responseSha256": "1885621d263ed9e1ec5a2bb90783c8fbd99f3df0c054ed817c69e0077a39e0d4",
+        "name": "THE BOEING COMPANY",
+        "parentName": "THE BOEING COMPANY",
+        "parentUei": "ZE95AC36GJ76",
+        "otherReportedParents": [
+          "THE BOEING COMPANY / NU2UC8MX6NK1"
+        ],
+        "location": "SAINT LOUIS, MO, USA",
+        "contractAmount": 14456128.88,
+        "earliestTransaction": {
+          "date": "2007-10-04",
+          "award": "CONT_AWD_W15P7T07CP205_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-09-25",
+          "award": "CONT_AWD_1332KP26P0041_1330_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_1332KP26P0041_1330_-NONE-_-NONE-",
+          "parentName": "THE BOEING COMPANY",
+          "parentUei": "NU2UC8MX6NK1",
+          "recipientUei": "D27FSZD2L2U9",
+          "responseSha256": "c1309568575d45a37940d5e4cefacd1370efa500e61bbc4acc079ee087c0b1bd"
+        },
+        "warnings": [
+          "profile parent UEI ZE95AC36GJ76 (THE BOEING COMPANY) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:D27FSZD2L2U9",
+        "kind": "uei",
+        "value": "D27FSZD2L2U9",
+        "entityId": "sec:0000012927",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-04",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/440c5531-5760-e915-88d4-e4c4e69010d1-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/440c5531-5760-e915-88d4-e4c4e69010d1-C/",
+        "supportingPassage": "THE BOEING COMPANY | UEI D27FSZD2L2U9 | SAINT LOUIS, MO, USA | Latest award CONT_AWD_1332KP26P0041_1330_-NONE-_-NONE- (2026-09-25) parent: THE BOEING COMPANY (UEI NU2UC8MX6NK1)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "FBRTAX7SGND3",
+        "cage": null,
+        "recipientId": "152b75b1-aa6a-28fd-bf54-769bd2d95116-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/152b75b1-aa6a-28fd-bf54-769bd2d95116-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/152b75b1-aa6a-28fd-bf54-769bd2d95116-C/",
+        "responseSha256": "0b6b735f0221d1b482a8c475f821ad1d4410a5f12efe7716c3b97b6ffabb26ea",
+        "name": "THE BOEING COMPANY",
+        "parentName": "THE BOEING COMPANY",
+        "parentUei": "ZE95AC36GJ76",
+        "otherReportedParents": [
+          "THE BOEING COMPANY / NU2UC8MX6NK1",
+          "THE BOEING COMPANY / FBRTAX7SGND3"
+        ],
+        "location": "TUKWILA, WA, USA",
+        "contractAmount": 915351.97,
+        "earliestTransaction": {
+          "date": "2007-10-05",
+          "award": "CONT_AWD_YM03_9700_SPM4A507G0001_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-10-08",
+          "award": "CONT_AWD_15M10426PA3700011_1544_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_15M10426PA3700011_1544_-NONE-_-NONE-",
+          "parentName": "THE BOEING COMPANY",
+          "parentUei": "NU2UC8MX6NK1",
+          "recipientUei": "FBRTAX7SGND3",
+          "responseSha256": "c48b8b0adec38cc2bdc90e9579d72d03e0a1f1f99a1b1f7ed31df3ae58d4834e"
+        },
+        "warnings": [
+          "profile parent UEI ZE95AC36GJ76 (THE BOEING COMPANY) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:FBRTAX7SGND3",
+        "kind": "uei",
+        "value": "FBRTAX7SGND3",
+        "entityId": "sec:0000012927",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-05",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/152b75b1-aa6a-28fd-bf54-769bd2d95116-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/152b75b1-aa6a-28fd-bf54-769bd2d95116-C/",
+        "supportingPassage": "THE BOEING COMPANY | UEI FBRTAX7SGND3 | TUKWILA, WA, USA | Latest award CONT_AWD_15M10426PA3700011_1544_-NONE-_-NONE- (2026-10-08) parent: THE BOEING COMPANY (UEI NU2UC8MX6NK1)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "CTKLDK3V4M97",
+        "cage": null,
+        "recipientId": "dcb62aa6-8bb8-ef7a-2d1b-293be673fbe9-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/dcb62aa6-8bb8-ef7a-2d1b-293be673fbe9-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/dcb62aa6-8bb8-ef7a-2d1b-293be673fbe9-C/",
+        "responseSha256": "193923eabc87d673d19296d6e94bb7ad3d1ff246f128b5764ea10451ef767c45",
+        "name": "THE BOEING COMPANY",
+        "parentName": "THE BOEING COMPANY",
+        "parentUei": "ZE95AC36GJ76",
+        "otherReportedParents": [
+          "THE BOEING COMPANY / NU2UC8MX6NK1"
+        ],
+        "location": "SAINT LOUIS, MO, USA",
+        "contractAmount": 260000,
+        "earliestTransaction": {
+          "date": "2008-06-27",
+          "award": "CONT_AWD_SPM4A708MC805_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-06-02",
+          "award": "CONT_AWD_FA867810C0100_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_FA867810C0100_9700_-NONE-_-NONE-",
+          "parentName": "THE BOEING COMPANY",
+          "parentUei": "NU2UC8MX6NK1",
+          "recipientUei": "CTKLDK3V4M97",
+          "responseSha256": "a1053cd527f6e637e2e7ac59bb93dd9f6d8a9a90aff5ef3b3cf8887f339cafb0"
+        },
+        "warnings": [
+          "profile parent UEI ZE95AC36GJ76 (THE BOEING COMPANY) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:CTKLDK3V4M97",
+        "kind": "uei",
+        "value": "CTKLDK3V4M97",
+        "entityId": "sec:0000012927",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2008-06-27",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/dcb62aa6-8bb8-ef7a-2d1b-293be673fbe9-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/dcb62aa6-8bb8-ef7a-2d1b-293be673fbe9-C/",
+        "supportingPassage": "THE BOEING COMPANY | UEI CTKLDK3V4M97 | SAINT LOUIS, MO, USA | Latest award CONT_AWD_FA867810C0100_9700_-NONE-_-NONE- (2026-06-02) parent: THE BOEING COMPANY (UEI NU2UC8MX6NK1)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "WDW1NAE5MCL5",
+        "cage": null,
+        "recipientId": "85970fc1-13b3-e481-2076-41f735bfebf6-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/85970fc1-13b3-e481-2076-41f735bfebf6-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/85970fc1-13b3-e481-2076-41f735bfebf6-C/",
+        "responseSha256": "1c5bbce5f834aeabbf3d2ff11550ccb93179894ce612d17d151e2975d0b44a8a",
+        "name": "THE BOEING COMPANY",
+        "parentName": "THE BOEING COMPANY",
+        "parentUei": "NU2UC8MX6NK1",
+        "otherReportedParents": [],
+        "location": "WEST HILLS, CA, USA",
+        "contractAmount": 160567.76,
+        "earliestTransaction": {
+          "date": "2008-08-01",
+          "award": "CONT_AWD_NNM08AA17C_8000_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-08-20",
+          "award": "CONT_AWD_80MSFC20C0039_8000_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_80MSFC20C0039_8000_-NONE-_-NONE-",
+          "parentName": "THE BOEING COMPANY",
+          "parentUei": "NU2UC8MX6NK1",
+          "recipientUei": "WDW1NAE5MCL5",
+          "responseSha256": "c610c089f2fee9c2483859b2140f48c20571095c248fc3d817a5fbddd7fd3891"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:WDW1NAE5MCL5",
+        "kind": "uei",
+        "value": "WDW1NAE5MCL5",
+        "entityId": "sec:0000012927",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2008-08-01",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/85970fc1-13b3-e481-2076-41f735bfebf6-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/85970fc1-13b3-e481-2076-41f735bfebf6-C/",
+        "supportingPassage": "THE BOEING COMPANY | UEI WDW1NAE5MCL5 | WEST HILLS, CA, USA | Latest award CONT_AWD_80MSFC20C0039_8000_-NONE-_-NONE- (2026-08-20) parent: THE BOEING COMPANY (UEI NU2UC8MX6NK1)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "H4DYTE2MHQ11",
+        "cage": null,
+        "recipientId": "b87f303e-1d83-4c43-8a33-a0cb0fe92fcb-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/b87f303e-1d83-4c43-8a33-a0cb0fe92fcb-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/b87f303e-1d83-4c43-8a33-a0cb0fe92fcb-C/",
+        "responseSha256": "e1215f415d9d7ebe6a6c469f5facd54b0685b1d307293a4224a65c2c63b7a921",
+        "name": "THE BOEING COMPANY",
+        "parentName": "THE BOEING COMPANY",
+        "parentUei": "NU2UC8MX6NK1",
+        "otherReportedParents": [],
+        "location": "TUKWILA, WA, USA",
+        "contractAmount": 15845.49,
+        "earliestTransaction": {
+          "date": "2007-10-30",
+          "award": "CONT_AWD_FA865007C4528_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-01-06",
+          "award": "CONT_AWD_W912HQ15C0012_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_W912HQ15C0012_9700_-NONE-_-NONE-",
+          "parentName": "THE BOEING COMPANY",
+          "parentUei": "NU2UC8MX6NK1",
+          "recipientUei": "H4DYTE2MHQ11",
+          "responseSha256": "3af35a398ecfcff089056de965a89b408c57f2799dac9a56c411c73eee9e4f27"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:H4DYTE2MHQ11",
+        "kind": "uei",
+        "value": "H4DYTE2MHQ11",
+        "entityId": "sec:0000012927",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-30",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/b87f303e-1d83-4c43-8a33-a0cb0fe92fcb-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/b87f303e-1d83-4c43-8a33-a0cb0fe92fcb-C/",
+        "supportingPassage": "THE BOEING COMPANY | UEI H4DYTE2MHQ11 | TUKWILA, WA, USA | Latest award CONT_AWD_W912HQ15C0012_9700_-NONE-_-NONE- (2026-01-06) parent: THE BOEING COMPANY (UEI NU2UC8MX6NK1)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "G5NSKYNG4VH6",
+        "cage": null,
+        "recipientId": "87f90ee6-338f-bde1-1da2-39488d486fa2-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/87f90ee6-338f-bde1-1da2-39488d486fa2-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/87f90ee6-338f-bde1-1da2-39488d486fa2-C/",
+        "responseSha256": "cc991d5cb263e5ae79f3997da25e97a1c61848dc6565b7902602059db9c78f7d",
+        "name": "THE BOEING COMPANY",
+        "parentName": "THE BOEING COMPANY",
+        "parentUei": "ZE95AC36GJ76",
+        "otherReportedParents": [
+          "THE BOEING COMPANY / NU2UC8MX6NK1"
+        ],
+        "location": "RIDLEY PARK, PA, USA",
+        "contractAmount": 0,
+        "earliestTransaction": {
+          "date": "2008-01-31",
+          "award": "CONT_AWD_0001_9700_W58RGZ08D0049_9700"
+        },
+        "latestTransaction": {
+          "date": "2025-04-04",
+          "award": "CONT_AWD_0005_9700_W58RGZ12D0196_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_0005_9700_W58RGZ12D0196_9700",
+          "parentName": "THE BOEING COMPANY",
+          "parentUei": "NU2UC8MX6NK1",
+          "recipientUei": "G5NSKYNG4VH6",
+          "responseSha256": "492b7dfa1a16d162e248cddc3a6ae9869e8fa1b48d9812729192cff8972df587"
+        },
+        "warnings": [
+          "profile parent UEI ZE95AC36GJ76 (THE BOEING COMPANY) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:G5NSKYNG4VH6",
+        "kind": "uei",
+        "value": "G5NSKYNG4VH6",
+        "entityId": "sec:0000012927",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2008-01-31",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/87f90ee6-338f-bde1-1da2-39488d486fa2-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/87f90ee6-338f-bde1-1da2-39488d486fa2-C/",
+        "supportingPassage": "THE BOEING COMPANY | UEI G5NSKYNG4VH6 | RIDLEY PARK, PA, USA | Latest award CONT_AWD_0005_9700_W58RGZ12D0196_9700 (2025-04-04) parent: THE BOEING COMPANY (UEI NU2UC8MX6NK1)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "NRDMMS91Q8E8",
+        "cage": null,
+        "recipientId": "47a26004-f59d-efd9-13c5-0814295a640b-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/47a26004-f59d-efd9-13c5-0814295a640b-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/47a26004-f59d-efd9-13c5-0814295a640b-C/",
+        "responseSha256": "31864bf66807dac7851de6dc115542579add50a252a053237a3ad022c40b8efe",
+        "name": "THE BOEING COMPANY",
+        "parentName": "THE BOEING COMPANY",
+        "parentUei": "ZE95AC36GJ76",
+        "otherReportedParents": [
+          "THE BOEING COMPANY / NU2UC8MX6NK1"
+        ],
+        "location": "ANNAPOLIS JUNCTION, MD, USA",
+        "contractAmount": 0,
+        "earliestTransaction": {
+          "date": "2013-01-29",
+          "award": "CONT_AWD_HDTRA113C0016_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2025-05-29",
+          "award": "CONT_AWD_89303021FET400020_8900_GS10F0157Y_4732"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_89303021FET400020_8900_GS10F0157Y_4732",
+          "parentName": "THE BOEING COMPANY",
+          "parentUei": "NU2UC8MX6NK1",
+          "recipientUei": "NRDMMS91Q8E8",
+          "responseSha256": "4eec6560fac4e91cc8a7d197086337516969f3dd388da1a3b9109f71403b7861"
+        },
+        "warnings": [
+          "profile parent UEI ZE95AC36GJ76 (THE BOEING COMPANY) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:NRDMMS91Q8E8",
+        "kind": "uei",
+        "value": "NRDMMS91Q8E8",
+        "entityId": "sec:0000012927",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2013-01-29",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/47a26004-f59d-efd9-13c5-0814295a640b-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/47a26004-f59d-efd9-13c5-0814295a640b-C/",
+        "supportingPassage": "THE BOEING COMPANY | UEI NRDMMS91Q8E8 | ANNAPOLIS JUNCTION, MD, USA | Latest award CONT_AWD_89303021FET400020_8900_GS10F0157Y_4732 (2025-05-29) parent: THE BOEING COMPANY (UEI NU2UC8MX6NK1)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "U5BBKY1S5GF6",
+        "cage": null,
+        "recipientId": "ae8b5b71-a47a-a30d-fb0a-a8666d9e77b3-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/ae8b5b71-a47a-a30d-fb0a-a8666d9e77b3-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/ae8b5b71-a47a-a30d-fb0a-a8666d9e77b3-C/",
+        "responseSha256": "bca703075d4a121fcf5dcca9b6c7f37b594476a7cc2fb5d80e2b92454aab8678",
+        "name": "THE BOEING COMPANY",
+        "parentName": "THE BOEING COMPANY",
+        "parentUei": "NU2UC8MX6NK1",
+        "otherReportedParents": [],
+        "location": "HUNTINGTON BEACH, CA, USA",
+        "contractAmount": 0,
+        "earliestTransaction": {
+          "date": "2007-10-02",
+          "award": "CONT_AWD_NNA07BC30C_8000_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2024-08-30",
+          "award": "CONT_AWD_FA865017C2700_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_FA865017C2700_9700_-NONE-_-NONE-",
+          "parentName": "THE BOEING COMPANY",
+          "parentUei": "NU2UC8MX6NK1",
+          "recipientUei": "U5BBKY1S5GF6",
+          "responseSha256": "a4f8efe75a740a9549cf32e3ea10349e96a26a0713bc15876373e79a00b05a9a"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:U5BBKY1S5GF6",
+        "kind": "uei",
+        "value": "U5BBKY1S5GF6",
+        "entityId": "sec:0000012927",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-02",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/ae8b5b71-a47a-a30d-fb0a-a8666d9e77b3-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/ae8b5b71-a47a-a30d-fb0a-a8666d9e77b3-C/",
+        "supportingPassage": "THE BOEING COMPANY | UEI U5BBKY1S5GF6 | HUNTINGTON BEACH, CA, USA | Latest award CONT_AWD_FA865017C2700_9700_-NONE-_-NONE- (2024-08-30) parent: THE BOEING COMPANY (UEI NU2UC8MX6NK1)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "R6APMGPCKTN4",
+        "cage": null,
+        "recipientId": "6b779483-9110-387b-2309-67ea679e5828-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/6b779483-9110-387b-2309-67ea679e5828-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/6b779483-9110-387b-2309-67ea679e5828-C/",
+        "responseSha256": "ab0be75907b1503117f3d6ddc0ab653ed89a9d3a671a6345ef1a3bc4edbd9b58",
+        "name": "THE BOEING COMPANY",
+        "parentName": "THE BOEING COMPANY",
+        "parentUei": "NU2UC8MX6NK1",
+        "otherReportedParents": [
+          "THE BOEING COMPANY / R6APMGPCKTN4"
+        ],
+        "location": "ANNAPOLIS JUNCTION, MD, USA",
+        "contractAmount": -2952.58,
+        "earliestTransaction": {
+          "date": "2007-10-04",
+          "award": "CONT_AWD_NNK08EA02D_8000_GS23F0183K_4730"
+        },
+        "latestTransaction": {
+          "date": "2025-12-11",
+          "award": "CONT_AWD_HC104714F0042_9700_GS35F0777J_4730"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_HC104714F0042_9700_GS35F0777J_4730",
+          "parentName": "THE BOEING COMPANY",
+          "parentUei": "NU2UC8MX6NK1",
+          "recipientUei": "R6APMGPCKTN4",
+          "responseSha256": "c6c0014917159f0b3cb3f2c83908d4aa5930ab8d4392dd55b889ee8a31289858"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:R6APMGPCKTN4",
+        "kind": "uei",
+        "value": "R6APMGPCKTN4",
+        "entityId": "sec:0000012927",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-04",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/6b779483-9110-387b-2309-67ea679e5828-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/6b779483-9110-387b-2309-67ea679e5828-C/",
+        "supportingPassage": "THE BOEING COMPANY | UEI R6APMGPCKTN4 | ANNAPOLIS JUNCTION, MD, USA | Latest award CONT_AWD_HC104714F0042_9700_GS35F0777J_4730 (2025-12-11) parent: THE BOEING COMPANY (UEI NU2UC8MX6NK1)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "JXHRK8FKNJN4",
+        "cage": null,
+        "recipientId": "c38ad765-465b-0f4f-f9cd-164dfd8c4817-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/c38ad765-465b-0f4f-f9cd-164dfd8c4817-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/c38ad765-465b-0f4f-f9cd-164dfd8c4817-C/",
+        "responseSha256": "ca0de60654cc817ad39a5e52012970089859bdb3739f9053e42c4cc53edbe146",
+        "name": "THE BOEING COMPANY",
+        "parentName": "THE BOEING COMPANY",
+        "parentUei": "ZE95AC36GJ76",
+        "otherReportedParents": [
+          "THE BOEING COMPANY / NU2UC8MX6NK1"
+        ],
+        "location": "ALBUQUERQUE, NM, USA",
+        "contractAmount": -375932.08,
+        "earliestTransaction": {
+          "date": "2007-10-17",
+          "award": "CONT_AWD_0001_9700_FA945104D0402_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-07-10",
+          "award": "CONT_AWD_N0017324C2007_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N0017324C2007_9700_-NONE-_-NONE-",
+          "parentName": "THE BOEING COMPANY",
+          "parentUei": "NU2UC8MX6NK1",
+          "recipientUei": "JXHRK8FKNJN4",
+          "responseSha256": "1d1ff6ab7e5a8a06c2ac344a4206250d5132f01c394e8107c2b458eab4d5d13f"
+        },
+        "warnings": [
+          "profile parent UEI ZE95AC36GJ76 (THE BOEING COMPANY) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:JXHRK8FKNJN4",
+        "kind": "uei",
+        "value": "JXHRK8FKNJN4",
+        "entityId": "sec:0000012927",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-17",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/c38ad765-465b-0f4f-f9cd-164dfd8c4817-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/c38ad765-465b-0f4f-f9cd-164dfd8c4817-C/",
+        "supportingPassage": "THE BOEING COMPANY | UEI JXHRK8FKNJN4 | ALBUQUERQUE, NM, USA | Latest award CONT_AWD_N0017324C2007_9700_-NONE-_-NONE- (2026-07-10) parent: THE BOEING COMPANY (UEI NU2UC8MX6NK1)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "uei": "NU2UC8MX6NK1",
+      "cage": null,
+      "recipientId": "419ccd27-d6f4-d363-aeaf-b9e2c3ae6f5d-C",
+      "profileUrl": "https://www.usaspending.gov/recipient/419ccd27-d6f4-d363-aeaf-b9e2c3ae6f5d-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/419ccd27-d6f4-d363-aeaf-b9e2c3ae6f5d-C/",
+      "responseSha256": "3a936bb299256f87c99ee5fd7e6a225994ec6ef627cd9ea49cc7756bce0ef684",
+      "name": "THE BOEING COMPANY",
+      "parentName": "THE BOEING COMPANY",
+      "parentUei": "NU2UC8MX6NK1",
+      "otherReportedParents": [],
+      "location": "ARLINGTON, VA, USA",
+      "contractAmount": 194529,
+      "earliestTransaction": null,
+      "latestTransaction": null,
+      "latestAwardParent": null,
+      "warnings": [],
+      "reasons": [
+        "no contract transactions found under this UEI"
+      ]
+    }
+  ],
+  "limitations": [
+    "USAspending reflects SAM data as reported; it is not SAM.gov itself",
+    "Recipient search is keyword-based and capped at 500 records",
+    "Profile parent fields can be stale; corroboration uses the parent on the latest award record",
+    "Name and parent agreement do not prove the SEC-listed legal entity; review state of incorporation separately where available"
+  ]
+}

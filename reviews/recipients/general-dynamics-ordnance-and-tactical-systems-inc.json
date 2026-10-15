@@ -1,0 +1,187 @@
+{
+  "generatedAt": "2026-10-15T18:38:58.484Z",
+  "query": {
+    "name": "General Dynamics Ordnance and Tactical Systems, Inc.",
+    "parentUei": "VF58HFRNGEL8,FAZSFFE6CST9",
+    "entityId": "legal:general-dynamics-ordnance-and-tactical-systems-inc",
+    "formerNames": []
+  },
+  "searched": 6,
+  "candidates": [
+    {
+      "evidence": {
+        "uei": "FNEJKBCACXL1",
+        "cage": null,
+        "recipientId": "fefa9485-36e4-9820-72ad-356e6028032e-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/fefa9485-36e4-9820-72ad-356e6028032e-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/fefa9485-36e4-9820-72ad-356e6028032e-C/",
+        "responseSha256": "08b29d0e0a55c477688f9148b34c079cbc68c23e7a0714d0dbb4a3183f80221b",
+        "name": "GENERAL DYNAMICS ORDNANCE AND TACTICAL SYSTEMS, INC.",
+        "parentName": "GENERAL DYNAMICS ORDNANCE AND TACTICAL SYSTEMS, INC.",
+        "parentUei": "FNEJKBCACXL1",
+        "otherReportedParents": [
+          "GENERAL DYNAMICS CORP / VF58HFRNGEL8",
+          "GENERAL DYNAMICS CORP / FAZSFFE6CST9"
+        ],
+        "location": "SAINT PETERSBURG, FL, USA",
+        "contractAmount": 112222049.62,
+        "earliestTransaction": {
+          "date": "2007-10-02",
+          "award": "CONT_AWD_0005_9700_DAAE3002D1015_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-06-30",
+          "award": "CONT_AWD_W52P1J22C0023_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_W52P1J22C0023_9700_-NONE-_-NONE-",
+          "parentName": "GENERAL DYNAMICS CORP",
+          "parentUei": "FAZSFFE6CST9",
+          "recipientUei": "FNEJKBCACXL1",
+          "responseSha256": "29d9531ff97a43deedc9eb88b8ff3a55f4b0964e2da2afc9cb79d780f689ae5e"
+        },
+        "warnings": [
+          "profile parent UEI FNEJKBCACXL1 (GENERAL DYNAMICS ORDNANCE AND TACTICAL SYSTEMS, INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:FNEJKBCACXL1",
+        "kind": "uei",
+        "value": "FNEJKBCACXL1",
+        "entityId": "legal:general-dynamics-ordnance-and-tactical-systems-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-02",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/fefa9485-36e4-9820-72ad-356e6028032e-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/fefa9485-36e4-9820-72ad-356e6028032e-C/",
+        "supportingPassage": "GENERAL DYNAMICS ORDNANCE AND TACTICAL SYSTEMS, INC. | UEI FNEJKBCACXL1 | SAINT PETERSBURG, FL, USA | Latest award CONT_AWD_W52P1J22C0023_9700_-NONE-_-NONE- (2026-06-30) parent: GENERAL DYNAMICS CORP (UEI FAZSFFE6CST9)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "MK5XMJTA71Q6",
+        "cage": null,
+        "recipientId": "c0548bed-5ea0-6713-9903-37def4c952c9-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/c0548bed-5ea0-6713-9903-37def4c952c9-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/c0548bed-5ea0-6713-9903-37def4c952c9-C/",
+        "responseSha256": "7ca58b4dbdae24be1de6877f413545be7ee3e9e86fac015f307b944a9018ebb5",
+        "name": "GENERAL DYNAMICS ORDNANCE AND TACTICAL SYSTEMS, INC.",
+        "parentName": "GENERAL DYNAMICS CORP",
+        "parentUei": "VF58HFRNGEL8",
+        "otherReportedParents": [
+          "GENERAL DYNAMICS CORP / FAZSFFE6CST9"
+        ],
+        "location": "RED LION, PA, USA",
+        "contractAmount": 0,
+        "earliestTransaction": {
+          "date": "2007-10-23",
+          "award": "CONT_AWD_W52P1J07E0004_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-05-05",
+          "award": "CONT_AWD_W52P1J07E0004_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_W52P1J07E0004_9700_-NONE-_-NONE-",
+          "parentName": "GENERAL DYNAMICS CORP",
+          "parentUei": "VF58HFRNGEL8",
+          "recipientUei": "MK5XMJTA71Q6",
+          "responseSha256": "db6d328da8888ff61e29fcaf424cb9d998a52cc74b592a17209eb21cf1e83fdf"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:MK5XMJTA71Q6",
+        "kind": "uei",
+        "value": "MK5XMJTA71Q6",
+        "entityId": "legal:general-dynamics-ordnance-and-tactical-systems-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-23",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/c0548bed-5ea0-6713-9903-37def4c952c9-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/c0548bed-5ea0-6713-9903-37def4c952c9-C/",
+        "supportingPassage": "GENERAL DYNAMICS ORDNANCE AND TACTICAL SYSTEMS, INC. | UEI MK5XMJTA71Q6 | RED LION, PA, USA | Latest award CONT_AWD_W52P1J07E0004_9700_-NONE-_-NONE- (2026-05-05) parent: GENERAL DYNAMICS CORP (UEI VF58HFRNGEL8)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "uei": "H2TPPTLN7D18",
+      "cage": null,
+      "recipientId": "b45c5a3a-7f6c-1c0d-a252-8685c94ba2f4-C",
+      "profileUrl": "https://www.usaspending.gov/recipient/b45c5a3a-7f6c-1c0d-a252-8685c94ba2f4-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/b45c5a3a-7f6c-1c0d-a252-8685c94ba2f4-C/",
+      "responseSha256": "2241a58dd5d8826edbed3964b6aee873e469b348b5ff7729bcb072536d720494",
+      "name": "GENERAL DYNAMICS ORDNANCE AND TACTICAL SYSTEMS, INC.",
+      "parentName": "GENERAL DYNAMICS CORP",
+      "parentUei": "VF58HFRNGEL8",
+      "otherReportedParents": [
+        "GENERAL DYNAMICS ORDNANCE AND TACTICAL SYSTEMS, INC. / H2TPPTLN7D18"
+      ],
+      "location": "GARLAND, TX, USA",
+      "contractAmount": 65482588,
+      "earliestTransaction": {
+        "date": "2008-03-20",
+        "award": "CONT_AWD_W911PT08C0007_9700_-NONE-_-NONE-"
+      },
+      "latestTransaction": {
+        "date": "2026-07-10",
+        "award": "CONT_AWD_W52P1J22F0208_9700_W52P1J19D0015_9700"
+      },
+      "latestAwardParent": {
+        "id": "CONT_AWD_W52P1J22F0208_9700_W52P1J19D0015_9700",
+        "parentName": "GENERAL DYNAMICS ORDNANCE AND TACTICAL SYSTEMS, INC.",
+        "parentUei": "H2TPPTLN7D18",
+        "recipientUei": "H2TPPTLN7D18",
+        "responseSha256": "94c21ef862202c643cddca64a02fb7bce7676751bddc55e962d8a13ad53c4212"
+      },
+      "warnings": [],
+      "reasons": [
+        "latest award parent UEI H2TPPTLN7D18 (GENERAL DYNAMICS ORDNANCE AND TACTICAL SYSTEMS, INC.) differs from expected"
+      ]
+    },
+    {
+      "uei": "CK3WNAJG4CG1",
+      "cage": null,
+      "recipientId": "92f13205-0807-ddae-e327-0cf120449011-C",
+      "profileUrl": "https://www.usaspending.gov/recipient/92f13205-0807-ddae-e327-0cf120449011-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/92f13205-0807-ddae-e327-0cf120449011-C/",
+      "responseSha256": "437e71e732e8c29c58c4da7352bc8f203e120c9d7d28ff3db6d14a38d4bb9ce8",
+      "name": "GENERAL DYNAMICS ORDNANCE AND TACTICAL SYSTEMS, INC.",
+      "parentName": "GENERAL DYNAMICS ORDNANCE AND TACTICAL SYSTEMS, INC.",
+      "parentUei": "CK3WNAJG4CG1",
+      "otherReportedParents": [],
+      "location": "SAINT PETERSBURG, FL, USA",
+      "contractAmount": -33678.5,
+      "earliestTransaction": {
+        "date": "2020-07-20",
+        "award": "CONT_AWD_H9240319F0021_9700_H9222213D0013_9700"
+      },
+      "latestTransaction": {
+        "date": "2026-02-18",
+        "award": "CONT_AWD_0041_9700_H9222213D0013_9700"
+      },
+      "latestAwardParent": {
+        "id": "CONT_AWD_0041_9700_H9222213D0013_9700",
+        "parentName": "GENERAL DYNAMICS ORDNANCE AND TACTICAL SYSTEMS, INC.",
+        "parentUei": "CK3WNAJG4CG1",
+        "recipientUei": "CK3WNAJG4CG1",
+        "responseSha256": "598a7117db95ae3dcaa2c2329337991ecc4f1f668639993c63db88307f6f29fc"
+      },
+      "warnings": [
+        "profile parent UEI CK3WNAJG4CG1 (GENERAL DYNAMICS ORDNANCE AND TACTICAL SYSTEMS, INC.) differs from expected; not relied on"
+      ],
+      "reasons": [
+        "latest award parent UEI CK3WNAJG4CG1 (GENERAL DYNAMICS ORDNANCE AND TACTICAL SYSTEMS, INC.) differs from expected"
+      ]
+    }
+  ],
+  "limitations": [
+    "USAspending reflects SAM data as reported; it is not SAM.gov itself",
+    "Recipient search is keyword-based and capped at 500 records",
+    "Profile parent fields can be stale; corroboration uses the parent on the latest award record",
+    "Name and parent agreement do not prove the SEC-listed legal entity; review state of incorporation separately where available"
+  ]
+}

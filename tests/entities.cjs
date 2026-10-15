@@ -19,3 +19,11 @@ assert.equal(r('UTJWTSLMFNG4','2015-11-05').status,'unresolved');assert.equal(r(
 for(const uei of ['MAENKG4UJLK8','MJENSFHZJP11','UT9HCKX9F6Q4'])assert.equal(r(uei,'2025-01-01').status,'unresolved');
 const lmt=ledger.entities.find(e=>e.id==='sec:0000936468');assert.equal(lmt.revenueEvidence.length,6);assert.ok(ledger.identifierBindings.filter(b=>b.entityId==='sec:0000936468').length>=40);
 console.log('PASS Lockheed Martin division bindings resolve for live dates; Sikorsky resolves only from its 2015-11-06 acquisition through reviewed evidence; conflicting records abstain');}
+// Northrop Grumman, General Dynamics, Boeing and L3Harris.
+{const r=(uei,date)=>resolveRecipient({uei},date);
+assert.equal(r('PK8PM2GNVMP8','2025-06-01').publicParent,'Northrop Grumman Corporation');assert.equal(r('PK8PM2GNVMP8','2019-12-30').status,'unresolved');assert.equal(r('E7BEKJ4V9528','2024-01-01').publicParent,'General Dynamics Corporation');
+assert.equal(r('WZWRLY4G3PL8','2026-09-01').status,'identifier_verified_public_registrant');assert.equal(r('QM4EZDV15JL8','2026-09-01').publicParent,'L3Harris Technologies, Inc.');
+assert.equal(r('FRJQGQHDX4J3','2019-06-28').status,'unresolved');assert.equal(r('FRJQGQHDX4J3','2026-01-02').publicParent,'L3Harris Technologies, Inc.');assert.equal(r('FRJQGQHDX4J3','2026-01-03').status,'unresolved');
+for(const uei of ['D8CMPLV4GKR5','HA3UFSU8FN75','NYM8TAUFLXP3'])assert.equal(r(uei,'2024-01-01').status,'unresolved');
+const lhx=ledger.entities.find(e=>e.id==='sec:0000202058');assert.ok(lhx.revenueEvidence.some(x=>x.fiscalYearEnd==='2026-01-02'));
+console.log('PASS Northrop/GD subsidiaries resolve from reviewed 2019 listings; Boeing and L3Harris registrants resolve for live dates; L3 merger window and conflicting parents abstain');}

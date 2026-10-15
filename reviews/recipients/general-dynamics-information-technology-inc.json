@@ -1,0 +1,354 @@
+{
+  "generatedAt": "2026-10-15T18:38:47.753Z",
+  "query": {
+    "name": "General Dynamics Information Technology, Inc.",
+    "parentUei": "VF58HFRNGEL8,FAZSFFE6CST9",
+    "entityId": "legal:general-dynamics-information-technology-inc",
+    "formerNames": []
+  },
+  "searched": 8,
+  "candidates": [
+    {
+      "evidence": {
+        "uei": "SMNWM6HN79X5",
+        "cage": null,
+        "recipientId": "455555be-773d-eab1-1e6b-7b94400b757e-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/455555be-773d-eab1-1e6b-7b94400b757e-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/455555be-773d-eab1-1e6b-7b94400b757e-C/",
+        "responseSha256": "c668e77e84925b98adb8b946d59a6aabe37450c40535d2a8c8ce896d3c0ddbd1",
+        "name": "GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC.",
+        "parentName": "GENERAL DYNAMICS CORP",
+        "parentUei": "VF58HFRNGEL8",
+        "otherReportedParents": [
+          "GENERAL DYNAMICS CORP / FAZSFFE6CST9",
+          "GENERAL DYNAMICS CORPORATION / S2L2MCGC1XM3"
+        ],
+        "location": "FALLS CHURCH, VA, USA",
+        "contractAmount": 4887392529.37,
+        "earliestTransaction": {
+          "date": "2007-10-01",
+          "award": "CONT_AWD_1247_9700_N0014098DM323_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-10-13",
+          "award": "CONT_AWD_693KA726F00021_6920_693KA718D00001_6920"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_693KA726F00021_6920_693KA718D00001_6920",
+          "parentName": "GENERAL DYNAMICS CORP",
+          "parentUei": "VF58HFRNGEL8",
+          "recipientUei": "SMNWM6HN79X5",
+          "responseSha256": "3638bb0f63ae5c2a6ca5c4ff3d48f55ef99518edff7761db9627a90cdf778e29"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:SMNWM6HN79X5",
+        "kind": "uei",
+        "value": "SMNWM6HN79X5",
+        "entityId": "legal:general-dynamics-information-technology-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-01",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/455555be-773d-eab1-1e6b-7b94400b757e-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/455555be-773d-eab1-1e6b-7b94400b757e-C/",
+        "supportingPassage": "GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC. | UEI SMNWM6HN79X5 | FALLS CHURCH, VA, USA | Latest award CONT_AWD_693KA726F00021_6920_693KA718D00001_6920 (2026-10-13) parent: GENERAL DYNAMICS CORP (UEI VF58HFRNGEL8)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "EUBEPS8E6F88",
+        "cage": null,
+        "recipientId": "29eb6ac0-e702-40a9-552b-b98bf0c5bd7f-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/29eb6ac0-e702-40a9-552b-b98bf0c5bd7f-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/29eb6ac0-e702-40a9-552b-b98bf0c5bd7f-C/",
+        "responseSha256": "4e0b72a2685e81a34b61ae712ee9eb4ac3eaaae2733d558cbc5a3cacf97faf2c",
+        "name": "GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC.",
+        "parentName": "GENERAL DYNAMICS CORP",
+        "parentUei": "VF58HFRNGEL8",
+        "otherReportedParents": [
+          "GENERAL DYNAMICS CORP / FAZSFFE6CST9"
+        ],
+        "location": "DAYTON, OH, USA",
+        "contractAmount": 0,
+        "earliestTransaction": {
+          "date": "2008-05-19",
+          "award": "CONT_AWD_N6339408P0320_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2025-09-17",
+          "award": "CONT_AWD_HSSCCG14J00052_7003_HSSCCG09D00004_7003"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_HSSCCG14J00052_7003_HSSCCG09D00004_7003",
+          "parentName": "GENERAL DYNAMICS CORP",
+          "parentUei": "FAZSFFE6CST9",
+          "recipientUei": "EUBEPS8E6F88",
+          "responseSha256": "c9e626972b2facd3828134cc829651a7350e6387786ab4c9ae7a9450a7104dca"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:EUBEPS8E6F88",
+        "kind": "uei",
+        "value": "EUBEPS8E6F88",
+        "entityId": "legal:general-dynamics-information-technology-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2008-05-19",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/29eb6ac0-e702-40a9-552b-b98bf0c5bd7f-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/29eb6ac0-e702-40a9-552b-b98bf0c5bd7f-C/",
+        "supportingPassage": "GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC. | UEI EUBEPS8E6F88 | DAYTON, OH, USA | Latest award CONT_AWD_HSSCCG14J00052_7003_HSSCCG09D00004_7003 (2025-09-17) parent: GENERAL DYNAMICS CORP (UEI FAZSFFE6CST9)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "E1Y7PS9K4L85",
+        "cage": null,
+        "recipientId": "8331bcf2-039d-6e60-51ec-f9df98c68887-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/8331bcf2-039d-6e60-51ec-f9df98c68887-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/8331bcf2-039d-6e60-51ec-f9df98c68887-C/",
+        "responseSha256": "7ca6442c941f6a810e1eb6058b46642ba5af33261cc372620ba881861b264c17",
+        "name": "GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC.",
+        "parentName": "GENERAL DYNAMICS CORP",
+        "parentUei": "VF58HFRNGEL8",
+        "otherReportedParents": [],
+        "location": "CHESAPEAKE, VA, USA",
+        "contractAmount": 0,
+        "earliestTransaction": {
+          "date": "2007-10-04",
+          "award": "CONT_AWD_0006_9700_N0018904D0040_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-07-10",
+          "award": "CONT_AWD_0059_9700_N0018904D0040_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_0059_9700_N0018904D0040_9700",
+          "parentName": "GENERAL DYNAMICS CORP",
+          "parentUei": "VF58HFRNGEL8",
+          "recipientUei": "E1Y7PS9K4L85",
+          "responseSha256": "6d8a8574a9c704c47611e4042902e1fb86e173a3e3c8e9c46de171c760761a72"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:E1Y7PS9K4L85",
+        "kind": "uei",
+        "value": "E1Y7PS9K4L85",
+        "entityId": "legal:general-dynamics-information-technology-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-04",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/8331bcf2-039d-6e60-51ec-f9df98c68887-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/8331bcf2-039d-6e60-51ec-f9df98c68887-C/",
+        "supportingPassage": "GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC. | UEI E1Y7PS9K4L85 | CHESAPEAKE, VA, USA | Latest award CONT_AWD_0059_9700_N0018904D0040_9700 (2026-07-10) parent: GENERAL DYNAMICS CORP (UEI VF58HFRNGEL8)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "L2RLDSEQJ5M1",
+        "cage": null,
+        "recipientId": "d0cb7189-adbf-1503-5b8b-56f2ab73e23e-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/d0cb7189-adbf-1503-5b8b-56f2ab73e23e-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/d0cb7189-adbf-1503-5b8b-56f2ab73e23e-C/",
+        "responseSha256": "bea4bdcaadf657d59d88f98d018763ca64f7d3690cd2db955477cacffb609ff7",
+        "name": "GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC.",
+        "parentName": "CSRA LLC",
+        "parentUei": "GCGFC4BXG713",
+        "otherReportedParents": [
+          "GENERAL DYNAMICS CORP / VF58HFRNGEL8",
+          "CSRA LLC / VSFCW25ZAE49",
+          "COMPUTER SCIENCES CORPORATION / NDMJJ1ULGNA9"
+        ],
+        "location": "CHANTILLY, VA, USA",
+        "contractAmount": 0,
+        "earliestTransaction": {
+          "date": "2007-10-02",
+          "award": "CONT_AWD_TIRNO06D000250002_2050_TIRNO06D00025_2050"
+        },
+        "latestTransaction": {
+          "date": "2025-12-02",
+          "award": "CONT_AWD_AIDIRME010600015_7200_AIDIRME000600015_7200"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_AIDIRME010600015_7200_AIDIRME000600015_7200",
+          "parentName": "GENERAL DYNAMICS CORP",
+          "parentUei": "VF58HFRNGEL8",
+          "recipientUei": "L2RLDSEQJ5M1",
+          "responseSha256": "7afae57abb73638fa8c364e5e1d9c8720a2855fc89788f444038116e8b305df9"
+        },
+        "warnings": [
+          "profile parent UEI GCGFC4BXG713 (CSRA LLC) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:L2RLDSEQJ5M1",
+        "kind": "uei",
+        "value": "L2RLDSEQJ5M1",
+        "entityId": "legal:general-dynamics-information-technology-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-02",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/d0cb7189-adbf-1503-5b8b-56f2ab73e23e-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/d0cb7189-adbf-1503-5b8b-56f2ab73e23e-C/",
+        "supportingPassage": "GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC. | UEI L2RLDSEQJ5M1 | CHANTILLY, VA, USA | Latest award CONT_AWD_AIDIRME010600015_7200_AIDIRME000600015_7200 (2025-12-02) parent: GENERAL DYNAMICS CORP (UEI VF58HFRNGEL8)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "V3DSKJT5QTP5",
+        "cage": null,
+        "recipientId": "e4991e69-9b77-ae6a-eb30-e727ccd2ba1e-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/e4991e69-9b77-ae6a-eb30-e727ccd2ba1e-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/e4991e69-9b77-ae6a-eb30-e727ccd2ba1e-C/",
+        "responseSha256": "5d68f971685a6fd6ac40d305319f76bb2552365753e9d428d289b22997e04df5",
+        "name": "GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC.",
+        "parentName": "CSRA LLC",
+        "parentUei": "GCGFC4BXG713",
+        "otherReportedParents": [
+          "GENERAL DYNAMICS CORP / VF58HFRNGEL8",
+          "CSRA LLC / VSFCW25ZAE49",
+          "COMPUTER SCIENCES CORPORATION / NDMJJ1ULGNA9"
+        ],
+        "location": "ALEXANDRIA, VA, USA",
+        "contractAmount": -280520.44,
+        "earliestTransaction": {
+          "date": "2007-10-19",
+          "award": "CONT_AWD_W91WAW08C0004_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-07-13",
+          "award": "CONT_AWD_N0018918FZ380_9700_N0018917DZ023_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N0018918FZ380_9700_N0018917DZ023_9700",
+          "parentName": "GENERAL DYNAMICS CORP",
+          "parentUei": "VF58HFRNGEL8",
+          "recipientUei": "V3DSKJT5QTP5",
+          "responseSha256": "8637a017a28ca6a6957044ceea1cb6b3cb8b2d36003dffbdc1f241d00486edbe"
+        },
+        "warnings": [
+          "profile parent UEI GCGFC4BXG713 (CSRA LLC) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:V3DSKJT5QTP5",
+        "kind": "uei",
+        "value": "V3DSKJT5QTP5",
+        "entityId": "legal:general-dynamics-information-technology-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-19",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/e4991e69-9b77-ae6a-eb30-e727ccd2ba1e-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/e4991e69-9b77-ae6a-eb30-e727ccd2ba1e-C/",
+        "supportingPassage": "GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC. | UEI V3DSKJT5QTP5 | ALEXANDRIA, VA, USA | Latest award CONT_AWD_N0018918FZ380_9700_N0018917DZ023_9700 (2026-07-13) parent: GENERAL DYNAMICS CORP (UEI VF58HFRNGEL8)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "CRBHYXTBZUL1",
+        "cage": null,
+        "recipientId": "54c86970-ddc6-1901-93d3-af9a1e2f4cca-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/54c86970-ddc6-1901-93d3-af9a1e2f4cca-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/54c86970-ddc6-1901-93d3-af9a1e2f4cca-C/",
+        "responseSha256": "dae19a719b72f7b3f160245251716bb21d495ce3d91575608b9da89636c42f6f",
+        "name": "GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC.",
+        "parentName": "CSRA LLC",
+        "parentUei": "GCGFC4BXG713",
+        "otherReportedParents": [
+          "GENERAL DYNAMICS CORP / VF58HFRNGEL8",
+          "CSRA LLC / VSFCW25ZAE49",
+          "COMPUTER SCIENCES CORPORATION / NDMJJ1ULGNA9"
+        ],
+        "location": "CHANTILLY, VA, USA",
+        "contractAmount": -2213999.28,
+        "earliestTransaction": {
+          "date": "2007-10-01",
+          "award": "CONT_AWD_HSFLGL08J00036_7015_HSHQDC06D00021_7001"
+        },
+        "latestTransaction": {
+          "date": "2026-04-22",
+          "award": "CONT_AWD_HSSCCG11J00307_7003_HSHQDC06D00021_7001"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_HSSCCG11J00307_7003_HSHQDC06D00021_7001",
+          "parentName": "GENERAL DYNAMICS CORP",
+          "parentUei": "VF58HFRNGEL8",
+          "recipientUei": "CRBHYXTBZUL1",
+          "responseSha256": "9773b2380c48bcf6262e8d2833d04f8642a349a0c15d3b5912bb2b04e251d220"
+        },
+        "warnings": [
+          "profile parent UEI GCGFC4BXG713 (CSRA LLC) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:CRBHYXTBZUL1",
+        "kind": "uei",
+        "value": "CRBHYXTBZUL1",
+        "entityId": "legal:general-dynamics-information-technology-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-01",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/54c86970-ddc6-1901-93d3-af9a1e2f4cca-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/54c86970-ddc6-1901-93d3-af9a1e2f4cca-C/",
+        "supportingPassage": "GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC. | UEI CRBHYXTBZUL1 | CHANTILLY, VA, USA | Latest award CONT_AWD_HSSCCG11J00307_7003_HSHQDC06D00021_7001 (2026-04-22) parent: GENERAL DYNAMICS CORP (UEI VF58HFRNGEL8)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "uei": "NYM8TAUFLXP3",
+      "cage": null,
+      "recipientId": "aa0ccf6e-1401-c3b6-4777-04eb4433f191-C",
+      "profileUrl": "https://www.usaspending.gov/recipient/aa0ccf6e-1401-c3b6-4777-04eb4433f191-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/aa0ccf6e-1401-c3b6-4777-04eb4433f191-C/",
+      "responseSha256": "587d1411dd3016a0726efe2382dc923a33c51947bcfd08446e7b28655eba0f99",
+      "name": "GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC.",
+      "parentName": "GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC.",
+      "parentUei": "NYM8TAUFLXP3",
+      "otherReportedParents": [
+        "STERLING PARENT INC. / TMM7H4CCMWN7",
+        "CSRA LLC / GCGFC4BXG713",
+        "GENERAL DYNAMICS CORP / VF58HFRNGEL8",
+        "QBASE-MCNEIL INTEGRATED SOLUTIONS RLLP / CRMGWEPEE1H3",
+        "SRA INTERNATIONAL, INC. / LCR4H6BWVN74"
+      ],
+      "location": "CHANTILLY, VA, USA",
+      "contractAmount": -896410.65,
+      "earliestTransaction": {
+        "date": "2007-10-01",
+        "award": "CONT_AWD_AG7604D070124_12C2_GS23F9806H_4730"
+      },
+      "latestTransaction": {
+        "date": "2026-09-17",
+        "award": "CONT_AWD_HHSD2002010372220016_7523_HHSD200201037222I_7523"
+      },
+      "latestAwardParent": {
+        "id": "CONT_AWD_HHSD2002010372220016_7523_HHSD200201037222I_7523",
+        "parentName": "GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC.",
+        "parentUei": "NYM8TAUFLXP3",
+        "recipientUei": "NYM8TAUFLXP3",
+        "responseSha256": "3ecb6bcb4a7aec3799a144dafb0a4da24c259f4adf7407fd775ee9a852db1180"
+      },
+      "warnings": [
+        "profile parent UEI NYM8TAUFLXP3 (GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC.) differs from expected; not relied on"
+      ],
+      "reasons": [
+        "latest award parent UEI NYM8TAUFLXP3 (GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC.) differs from expected"
+      ]
+    }
+  ],
+  "limitations": [
+    "USAspending reflects SAM data as reported; it is not SAM.gov itself",
+    "Recipient search is keyword-based and capped at 500 records",
+    "Profile parent fields can be stale; corroboration uses the parent on the latest award record",
+    "Name and parent agreement do not prove the SEC-listed legal entity; review state of incorporation separately where available"
+  ]
+}

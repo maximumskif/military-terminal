@@ -1,0 +1,66 @@
+{
+  "generatedAt": "2026-10-15T18:38:59.499Z",
+  "query": {
+    "name": "National Steel and Shipbuilding Company",
+    "parentUei": "VF58HFRNGEL8,FAZSFFE6CST9",
+    "entityId": "legal:national-steel-and-shipbuilding-company",
+    "formerNames": []
+  },
+  "searched": 2,
+  "candidates": [
+    {
+      "evidence": {
+        "uei": "Q85KVUK3JBF5",
+        "cage": null,
+        "recipientId": "d3b182df-5daa-6f63-c00e-d99b7ba7875e-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/d3b182df-5daa-6f63-c00e-d99b7ba7875e-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/d3b182df-5daa-6f63-c00e-d99b7ba7875e-C/",
+        "responseSha256": "4af3bd5a5dd61e894a61d11e881ec7a7150cf351da81d07974a984139c7f2696",
+        "name": "NATIONAL STEEL AND SHIPBUILDING COMPANY",
+        "parentName": "GENERAL DYNAMICS CORP",
+        "parentUei": "VF58HFRNGEL8",
+        "otherReportedParents": [
+          "NATIONAL STEEL AND SHIPBUILDING COMPANY / Q85KVUK3JBF5"
+        ],
+        "location": "SAN DIEGO, CA, USA",
+        "contractAmount": 2789990571.82,
+        "earliestTransaction": {
+          "date": "2007-10-01",
+          "award": "CONT_AWD_N0002406C4402_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-07-15",
+          "award": "CONT_AWD_N0002425C4422_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N0002425C4422_9700_-NONE-_-NONE-",
+          "parentName": "GENERAL DYNAMICS CORP",
+          "parentUei": "VF58HFRNGEL8",
+          "recipientUei": "Q85KVUK3JBF5",
+          "responseSha256": "9be0a5c66d4c3b21917f05b6b98b7e2f091aae5b42cb2f051b5e4034e0b3a8af"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:Q85KVUK3JBF5",
+        "kind": "uei",
+        "value": "Q85KVUK3JBF5",
+        "entityId": "legal:national-steel-and-shipbuilding-company",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-01",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/d3b182df-5daa-6f63-c00e-d99b7ba7875e-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/d3b182df-5daa-6f63-c00e-d99b7ba7875e-C/",
+        "supportingPassage": "NATIONAL STEEL AND SHIPBUILDING COMPANY | UEI Q85KVUK3JBF5 | SAN DIEGO, CA, USA | Latest award CONT_AWD_N0002425C4422_9700_-NONE-_-NONE- (2026-07-15) parent: GENERAL DYNAMICS CORP (UEI VF58HFRNGEL8)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    }
+  ],
+  "excluded": [],
+  "limitations": [
+    "USAspending reflects SAM data as reported; it is not SAM.gov itself",
+    "Recipient search is keyword-based and capped at 500 records",
+    "Profile parent fields can be stale; corroboration uses the parent on the latest award record",
+    "Name and parent agreement do not prove the SEC-listed legal entity; review state of incorporation separately where available"
+  ]
+}

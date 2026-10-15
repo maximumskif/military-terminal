@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-10-15T18:38:44.493Z",
+  "query": {
+    "name": "Bath Iron Works Corporation",
+    "parentUei": "VF58HFRNGEL8,FAZSFFE6CST9",
+    "entityId": "legal:bath-iron-works-corporation",
+    "formerNames": []
+  },
+  "searched": 1,
+  "candidates": [
+    {
+      "evidence": {
+        "uei": "FREEMCLKFXE3",
+        "cage": null,
+        "recipientId": "7e9ba6ab-3f37-4abd-4708-bdeecb64ea02-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/7e9ba6ab-3f37-4abd-4708-bdeecb64ea02-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/7e9ba6ab-3f37-4abd-4708-bdeecb64ea02-C/",
+        "responseSha256": "62ceac0fe6df42481fe1b88edb5239fd0af6e4c5b1de70a325df8cafe017592f",
+        "name": "BATH IRON WORKS CORPORATION",
+        "parentName": "BATH IRON WORKS CORPORATION",
+        "parentUei": "FREEMCLKFXE3",
+        "otherReportedParents": [
+          "GENERAL DYNAMICS CORP / VF58HFRNGEL8",
+          "GENERAL DYNAMICS CORP / FAZSFFE6CST9"
+        ],
+        "location": "BATH, ME, USA",
+        "contractAmount": 2164812205.23,
+        "earliestTransaction": {
+          "date": "2007-10-03",
+          "award": "CONT_AWD_N0002406C2303_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-07-15",
+          "award": "CONT_AWD_N0002424C2331_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N0002424C2331_9700_-NONE-_-NONE-",
+          "parentName": "GENERAL DYNAMICS CORP",
+          "parentUei": "FAZSFFE6CST9",
+          "recipientUei": "FREEMCLKFXE3",
+          "responseSha256": "0c08f7aa645e7b02c42b47ab2a0a9908511b4ad7174de87d71def3ddc747bf67"
+        },
+        "warnings": [
+          "profile parent UEI FREEMCLKFXE3 (BATH IRON WORKS CORPORATION) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:FREEMCLKFXE3",
+        "kind": "uei",
+        "value": "FREEMCLKFXE3",
+        "entityId": "legal:bath-iron-works-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-03",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/7e9ba6ab-3f37-4abd-4708-bdeecb64ea02-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/7e9ba6ab-3f37-4abd-4708-bdeecb64ea02-C/",
+        "supportingPassage": "BATH IRON WORKS CORPORATION | UEI FREEMCLKFXE3 | BATH, ME, USA | Latest award CONT_AWD_N0002424C2331_9700_-NONE-_-NONE- (2026-07-15) parent: GENERAL DYNAMICS CORP (UEI FAZSFFE6CST9)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    }
+  ],
+  "excluded": [],
+  "limitations": [
+    "USAspending reflects SAM data as reported; it is not SAM.gov itself",
+    "Recipient search is keyword-based and capped at 500 records",
+    "Profile parent fields can be stale; corroboration uses the parent on the latest award record",
+    "Name and parent agreement do not prove the SEC-listed legal entity; review state of incorporation separately where available"
+  ]
+}
