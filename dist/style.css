@@ -6,3 +6,4 @@ nav{flex-wrap:wrap}#fundingSummary>.panel{padding:18px;margin-bottom:20px}#fundi
 @media(max-width:800px){#fundingSummary .metrics{grid-template-columns:1fr}#fundingSummary .metrics article{border-right:0;border-bottom:1px solid var(--line)}}
 
 .event-details{margin-top:16px;border:1px solid var(--line);padding:14px}.event-details summary{cursor:pointer;color:var(--bright);font-size:13px}.event-details dl{font-size:13px;overflow-wrap:anywhere}.event-details dt{margin-top:12px}.event-details dd{margin-left:0}.event-details p{font-size:13px}
+.change-material{border-left:3px solid #ffe185;padding-left:10px;color:#ffe185}.change-minor,.change-informational{color:var(--muted)}

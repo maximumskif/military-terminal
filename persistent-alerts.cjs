@@ -4,9 +4,12 @@ const {classify}=require('./event-classifier.cjs');
 const {observation,changes}=require('./alert-changes.cjs');
 const {awardRule,awardRows,evaluateAwards}=require('./award-alerts.cjs');
 const {changeRule,evaluateSavedChanges}=require('./saved-change-alerts.cjs');
+const {assessSourceChanges}=require('./material-change.cjs');
+const {assessFinancialMateriality,materialityLabel}=require('./financial-materiality.cjs');
+const {loadLedger}=require('./entity-resolution.cjs');
 const CUES=['contract','supplier','growth','ipo','negative'];
 function createAlerts(dataDir,watchlist,options={}){
- const file=path.join(dataDir,'alerts.json');let store={version:1,rules:[],events:[]};
+ const file=path.join(dataDir,'alerts.json'),ledger=()=>options.ledger||loadLedger();let store={version:1,rules:[],events:[]};
  if(fs.existsSync(file)){store=JSON.parse(fs.readFileSync(file));if(!Array.isArray(store.rules)||!Array.isArray(store.events))throw new Error('Invalid alert store; preserved for recovery');}
  function save(){atomicJson(file,store);}
  function reload(){if(fs.existsSync(file)){const value=JSON.parse(fs.readFileSync(file));if(!Array.isArray(value.rules)||!Array.isArray(value.events))throw new Error('Invalid alert store; preserved for recovery');store=value;}}
@@ -25,7 +28,8 @@ function createAlerts(dataDir,watchlist,options={}){
   if(prior&&!delta.length)continue;
   const id=crypto.createHash('sha256').update(rule.id+'|'+row.id+'|'+row.titleHash).digest('hex');if(seen.has(id))continue;
   const kind=prior?'evidence_update':Date.parse(row.firstSeen)>=Date.parse(rule.createdAt)?'new_source_evidence':'existing_evidence_match';
-  store.events.push({id,ruleId:rule.id,evidenceId:row.id,title:row.title,url:row.url,sourceName:row.sourceName,sourceClass:row.sourceClass,cue:rule.cue,company:rule.company,createdAt:new Date().toISOString(),firstSeen:row.firstSeen,readAt:null,verification:'unverified_research_lead',contentHash:row.titleHash,kind,changes:delta,previousContentHash:prior?.titleHash||null,ruleExplanation:prior?'Previously matched this saved company/cue rule; source evidence changed.':'Matched saved company/cue rule. May include evidence collected before the rule was created.',financialMateriality:'not_assessed',eventSnapshot:row.event||classify(row)});seen.add(id);
+  const snapshotEvent=row.event||classify(row),materiality=assessFinancialMateriality(snapshotEvent,ledger());
+  store.events.push({id,ruleId:rule.id,evidenceId:row.id,title:row.title,url:row.url,sourceName:row.sourceName,sourceClass:row.sourceClass,cue:rule.cue,company:rule.company,createdAt:new Date().toISOString(),firstSeen:row.firstSeen,readAt:null,verification:'unverified_research_lead',contentHash:row.titleHash,kind,changes:delta,changeAssessment:prior?assessSourceChanges(delta,{deadline:row.responseDeadline}):null,previousContentHash:prior?.titleHash||null,ruleExplanation:prior?'Previously matched this saved company/cue rule; source evidence changed.':'Matched saved company/cue rule. May include evidence collected before the rule was created.',financialMateriality:materialityLabel(materiality),materialityAssessment:materiality,eventSnapshot:snapshotEvent});seen.add(id);
  }save();
  }
  function removeRule(id){const before=store.rules.length;store.rules=store.rules.filter(r=>r.id!==id);if(before===store.rules.length)throw new Error('Rule not found');save();}

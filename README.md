@@ -1,4 +1,4 @@
-# Contract Sentinel 0.17 — setup and operating guide
+# Contract Sentinel 0.18 — setup and operating guide
 
 Product promise: Follow government-contract developments affecting companies you research, understand what changed, and verify the evidence quickly.
 
@@ -36,7 +36,7 @@ RETRIEVE / REVIEW DOCUMENT preserves approved HTML sources and version hashes, e
 
 EVENT TIMELINE displays stable provisional source-event IDs, stages and correction history. A source event is distinct from a real-world event verified across publishers. Similar headlines, awards and modifications are never automatically merged. Document passages can contain multiple event candidates; ambiguity is retained. Public-parent identity, ticker assignment, allocation and economics remain unresolved unless supported. Headline currency mentions are extracted amounts, not obligations or revenue. Written amount phrases can support classification while their numeric value stays unknown.
 
-Classifications are cached by evidence hash and classifier version. Existing alert snapshots are retained; reclassification does not rewrite what an old alert said. Server alerts deduplicate by rule, source evidence and content hash. The Alerts view presents the persistent inbox alongside browser-local loaded-award matches. Both rule types and their history/read states now use the same private server alert store. Their matching scopes remain different. Cross-publisher deduplication remains pending.
+Classifications are cached by evidence hash and classifier version. Existing alert snapshots are retained; reclassification does not rewrite what an old alert said. Server alerts deduplicate by rule, source evidence and content hash. The Alerts view presents the persistent inbox alongside browser-local loaded-award matches. Both rule types and their history/read states now use the same private server alert store. Their matching scopes remain different. Identical headlines on different hosts are collapsed automatically (see Material-change ratings and syndicated repeats); reworded repeats require manual review.
 
 ## Funding
 
@@ -61,9 +61,9 @@ The initial list contains 22 research names, not a verified public-contractor un
 
 ## Change alerts
 
-Saved headline/notice rules persist source observations between scans and restarts. Alerts distinguish existing-evidence matches, newly observed source evidence and evidence updates. Updates retain previous/current values and the detection-time event snapshot. Fields include normalized headlines, provisional event types, announced amounts, recipients/UEIs, award/solicitation IDs, agencies, response deadlines and active-notice status. Changes to previously matched evidence remain visible even if the current headline no longer matches its cue, such as a cancellation. These are source changes requiring review, not assessed financial materiality.
+Saved headline/notice rules persist source observations between scans and restarts. Alerts distinguish existing-evidence matches, newly observed source evidence and evidence updates. Updates retain previous/current values and the detection-time event snapshot. Fields include normalized headlines, provisional event types, announced amounts, recipients/UEIs, award/solicitation IDs, agencies, response deadlines and active-notice status. Changes to previously matched evidence remain visible even if the current headline no longer matches its cue, such as a cancellation. These are source changes requiring review; each update carries an automated material/minor/informational rating (see below).
 
-Repeated content, whitespace-only changes and classifier upgrades alone do not create new alerts. Old alerts remain frozen. Legacy alerts lacking comparison baselines establish their first baseline without retroactive change claims; historical before/after values cannot be reconstructed. Syndicated stories from different publishers remain separate. Explicit saved funding/document watches are available below; scope/options extraction and shared hosted accounts remain pending.
+Repeated content, whitespace-only changes and classifier upgrades alone do not create new alerts. Old alerts remain frozen. Legacy alerts lacking comparison baselines establish their first baseline without retroactive change claims; historical before/after values cannot be reconstructed. Identical syndicated headlines from different hosts are auto-collapsed; reworded stories remain separate unless reviewed. Explicit saved funding/document watches are available below; scope/options extraction and shared hosted accounts remain pending.
 
 ## Unified award-page alerts
 
@@ -75,7 +75,7 @@ Award-page rules run only after successful loaded USAspending pages; they are no
 
 FOLLOW SAVED FUNDING CHANGES and FOLLOW SAVED DOCUMENT CHANGES add explicit record-specific rules to the unified inbox. The dashboard checks saved stores each minute while running, including with a standalone collector worker. The active collector now schedules followed funding histories every six hours and approved HTML documents every 24 hours. Manual retrieval remains available. First snapshots establish baselines; unchanged refreshes and document extraction/classification upgrades are suppressed.
 
-Funding alerts compare signed source transaction amounts, dates, modification numbers, descriptions, added/removed records and collection completeness. Collection changes may reflect reporting corrections or coverage, not new funding. Document alerts retain added/removed passages and version hashes. Up to 20 changed fields are displayed per alert with total change count; original saved source versions retain the underlying evidence. Financial materiality, revenue, public-parent ownership and changes across publishers remain unassessed.
+Funding alerts compare signed source transaction amounts, dates, modification numbers, descriptions, added/removed records and collection completeness. Collection changes may reflect reporting corrections or coverage, not new funding. Document alerts retain added/removed passages and version hashes. Up to 20 changed fields are displayed per alert with total change count; original saved source versions retain the underlying evidence. Each funding/document alert carries a change rating and, for funding, the net obligation delta. Revenue, public-parent ownership and company-level materiality remain unassessed for these records.
 
 ## Scheduled saved-record refreshes
 
@@ -99,7 +99,11 @@ Publication dates, URLs, source content hashes and matcher version now bind revi
 
 The inbox offers KEEP THIS ALERT / HIDE REVIEWED RELATED MATCH only for a current related-announcement decision and two initial-match alerts from the same rule. Both detection-time event snapshots must agree on classifier version, provisional event type, reported contract identifier, extracted amount/currency, obligations and allocation; source hashes must still match the review. Legacy alerts without content hashes/snapshots, evidence updates, funding/document changes and loaded-award matches are ineligible.
 
-Hiding is a manual visibility preference, not deletion or event merging. Hidden history remains available through Include manually hidden related repeats, with a restore action. Visible-unread and total-unread counts are distinct, and read states do not change. Revoked/stale reviews or changed evidence automatically invalidate the hide preference. A hidden alert cannot become the kept alert in another hide chain. Visibility decisions and action history persist privately in alert-visibility.json. Automatic duplicate suppression and verified-event merge/split remain pending.
+Hiding is a manual visibility preference, not deletion or event merging. Hidden history remains available through Include manually hidden related repeats, with a restore action. Visible-unread and total-unread counts are distinct, and read states do not change. Revoked/stale reviews or changed evidence automatically invalidate the hide preference. A hidden alert cannot become the kept alert in another hide chain. Visibility decisions and action history persist privately in alert-visibility.json. Verified-event merge/split remains pending.
+
+## Material-change ratings and syndicated repeats
+
+See MATERIAL-CHANGE.md. New evidence-update, funding-change and document-change alerts carry a `changeAssessment` (material / minor / informational, direction, scope and per-field reasons). Use Material changes only in the Alerts view to filter. New headline alerts carry a `materialityAssessment`: an upper-bound ratio of the stated amount to reviewed parent annual revenue, produced only when a reviewed recipient binding, parent relationship and dated revenue evidence all exist. With zero operational bindings today, every operational alert is NOT ASSESSABLE and lists what is missing. Exact cross-host headline repeats from the same rule with matching frozen snapshots are collapsed under the earliest alert; KEEP THIS ALERT VISIBLE or a distinct review decision undoes it. Older alerts are not rewritten.
 
 ## Quality benchmark
 

@@ -9,7 +9,7 @@ Current specification: DEVELOPMENT-INSTRUCTIONS.md. Older plans and milestone re
 - [x] 0.4: Six health states, successful/attempted/scheduled checks, failure counts, quotas and coverage information. Successful 304s clear stale errors.
 - [x] 0.5: Alert rules/read states can be changed from an ingestion-readonly dashboard. Local shared-store locks protect alerts, funding commits and document-index commits. Device-local watchlists remain separate.
 - [x] 0.6: Server-side evidence pagination/filtering/sorting, explicit private data directory, classification caching and atomic JSON writes. Hosted transactional storage is deferred until before multiple users.
-- [x] 0.7: README is the single current setup guide; runtime/package/UI use 0.17. Older plans are labelled historical.
+- [x] 0.7: README is the single current setup guide; runtime/package/UI use 0.18. Older plans are labelled historical.
 
 Phase 0 local acceptance: regression suites pass. Production load, network failure campaigns, power-loss durability and hosted multiuser acceptance have not been established. Local locks are not distributed locks.
 
@@ -28,10 +28,13 @@ Phase 0 local acceptance: regression suites pass. Production load, network failu
 - [x] Browser award-rule migration and unified persistent rules/history/read states. Loaded-page matching remains separate from background headline collection; browser-submitted award snapshots are explicitly unverified.
 - [x] Explicit saved funding/document change watches, first baselines, signed transaction corrections, passage diffs, unchanged/upgrade suppression and persistent unified history. Saved-store checks are local; explicit watched records now receive bounded scheduled retrieval.
 - [x] Bounded scheduled funding/approved-HTML refreshes in the ingestion owner, persistent attempts/budget, failure backoff, interrupted-job recovery and visible status.
-- [ ] Cross-publisher deduplication, assessed financial materiality and reviewed scope/options extraction.
+- [x] Automated material/minor/informational change ratings with direction and action/contract scope on evidence, funding and document alerts; net obligation deltas. See MATERIAL-CHANGE.md.
+- [x] Automatic reversible collapse of exact cross-host headline repeats (same rule, matching frozen snapshots); distinct reviews and keep-visible overrides undo it.
+- [x] Financial-materiality upper bound against reviewed parent revenue, abstaining with listed missing inputs. Operationally inert until reviewed bindings and revenue evidence exist.
+- [ ] Broad paraphrase/syndication linking beyond exact headlines, measured duplicate accuracy, operational revenue evidence and reviewed scope/options extraction.
 - [ ] Manually reviewed benchmark with measured precision, recall and entity accuracy. 95% confirmed precision is a proposed target, not an achieved result.
 
-Next implementation priority: unified alerts and material-change detection, while continuing verified government-recipient identifier bindings and dated ownership review. PDF/document attachment support remains pending.
+Next implementation priority: operational recipient bindings plus reviewed parent revenue evidence (activates materiality), measured duplicate/change-rating accuracy, while continuing verified government-recipient identifier bindings and dated ownership review. PDF/document attachment support remains pending.
 
 ## Later phases — pending
 Research differentiation, incremental SEC/agency/social integrations, authentication/user isolation, invited beta, production database and backups, billing/provider-rights review, and point-in-time market evaluation remain future work. No paid integration or hosted deployment has been activated.
