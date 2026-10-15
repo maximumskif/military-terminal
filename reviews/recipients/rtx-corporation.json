@@ -1,0 +1,165 @@
+{
+  "generatedAt": "2026-10-15T18:07:39.488Z",
+  "query": {
+    "name": "RTX Corporation",
+    "parentUei": "PPLZG8J3N9D4",
+    "entityId": "sec:0000101829",
+    "formerNames": [
+      "UNITED TECHNOLOGIES CORPORATION",
+      "UNITED TECHNOLOGIES CORP",
+      "RAYTHEON TECHNOLOGIES CORPORATION",
+      "RAYTHEON TECHNOLOGIES CORP"
+    ]
+  },
+  "searched": 5,
+  "candidates": [
+    {
+      "evidence": {
+        "uei": "QN1BCFY7JDJ5",
+        "cage": null,
+        "recipientId": "62e141b3-4887-5b39-6b75-eace9326395c-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/62e141b3-4887-5b39-6b75-eace9326395c-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/62e141b3-4887-5b39-6b75-eace9326395c-C/",
+        "responseSha256": "8b3aa427442410aaf2613fefc8869a2e76f771eb45c35559b2bd345f24946c8c",
+        "name": "RTX CORPORATION",
+        "parentName": "RTX CORP",
+        "parentUei": "PPLZG8J3N9D4",
+        "otherReportedParents": [
+          "RTX CORPORATION / QN1BCFY7JDJ5",
+          "ROCKWELL COLLINS AUSTRALIA PTY LIMITED / EGAVSJTA2D81"
+        ],
+        "location": "EAST HARTFORD, CT, USA",
+        "contractAmount": 8477189481,
+        "earliestTransaction": {
+          "date": "2007-10-01",
+          "award": "CONT_AWD_SD10_9700_F3365798D0018_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-09-17",
+          "award": "CONT_AWD_70Z03826PN0000189_7008_-NONE-_-NONE-"
+        }
+      },
+      "binding": {
+        "id": "binding:uei:QN1BCFY7JDJ5",
+        "kind": "uei",
+        "value": "QN1BCFY7JDJ5",
+        "entityId": "sec:0000101829",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-01",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/62e141b3-4887-5b39-6b75-eace9326395c-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/62e141b3-4887-5b39-6b75-eace9326395c-C/",
+        "supportingPassage": "RTX CORPORATION | UEI QN1BCFY7JDJ5 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | EAST HARTFORD, CT, USA",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "KQG9ZKVSELH6",
+        "cage": null,
+        "recipientId": "77a80c83-e141-7478-a480-6f311e180a6e-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/77a80c83-e141-7478-a480-6f311e180a6e-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/77a80c83-e141-7478-a480-6f311e180a6e-C/",
+        "responseSha256": "83ce71fa36ea8977c1f5fa994eff97f1a0e9421286f1a89b697edfe357e36ba0",
+        "name": "RTX CORPORATION",
+        "parentName": "RTX CORP",
+        "parentUei": "PPLZG8J3N9D4",
+        "otherReportedParents": [
+          "RTX CORPORATION / KQG9ZKVSELH6"
+        ],
+        "location": "EAST HARTFORD, CT, USA",
+        "contractAmount": 2545549.1,
+        "earliestTransaction": {
+          "date": "2007-12-05",
+          "award": "CONT_AWD_FA865007C7721_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-07-02",
+          "award": "CONT_AWD_W912HQ26PA008_9700_-NONE-_-NONE-"
+        }
+      },
+      "binding": {
+        "id": "binding:uei:KQG9ZKVSELH6",
+        "kind": "uei",
+        "value": "KQG9ZKVSELH6",
+        "entityId": "sec:0000101829",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-12-05",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/77a80c83-e141-7478-a480-6f311e180a6e-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/77a80c83-e141-7478-a480-6f311e180a6e-C/",
+        "supportingPassage": "RTX CORPORATION | UEI KQG9ZKVSELH6 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | EAST HARTFORD, CT, USA",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "uei": "KQG9ZKVSELH6",
+      "cage": null,
+      "recipientId": "77a80c83-e141-7478-a480-6f311e180a6e-P",
+      "profileUrl": "https://www.usaspending.gov/recipient/77a80c83-e141-7478-a480-6f311e180a6e-P/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/77a80c83-e141-7478-a480-6f311e180a6e-P/",
+      "responseSha256": "4140fed9fa56929011eca1242c6dc74426b77d5df52c7b23e4e0f7c3cab068c7",
+      "name": "RTX CORPORATION",
+      "parentName": "RTX CORPORATION",
+      "parentUei": "KQG9ZKVSELH6",
+      "otherReportedParents": [],
+      "location": "EAST HARTFORD, CT, USA",
+      "contractAmount": 2651722.6,
+      "earliestTransaction": null,
+      "latestTransaction": null,
+      "reasons": [
+        "not a child-level recipient record",
+        "reported parent UEI KQG9ZKVSELH6 (RTX CORPORATION) differs from expected"
+      ]
+    },
+    {
+      "uei": "NHXNJALUN738",
+      "cage": null,
+      "recipientId": "356f480d-46c4-f663-49d1-1ac340a8575c-P",
+      "profileUrl": "https://www.usaspending.gov/recipient/356f480d-46c4-f663-49d1-1ac340a8575c-P/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/356f480d-46c4-f663-49d1-1ac340a8575c-P/",
+      "responseSha256": "59261b1ea70ab5ac268397cbe755bd4c349b653ce3a2e0e40b6815be329ba517",
+      "name": "RTX CORPORATION",
+      "parentName": "RTX CORPORATION",
+      "parentUei": "NHXNJALUN738",
+      "otherReportedParents": [],
+      "location": "JUPITER, FL, USA",
+      "contractAmount": 0,
+      "earliestTransaction": null,
+      "latestTransaction": null,
+      "reasons": [
+        "not a child-level recipient record",
+        "reported parent UEI NHXNJALUN738 (RTX CORPORATION) differs from expected"
+      ]
+    },
+    {
+      "uei": "NHXNJALUN738",
+      "cage": null,
+      "recipientId": "356f480d-46c4-f663-49d1-1ac340a8575c-C",
+      "profileUrl": "https://www.usaspending.gov/recipient/356f480d-46c4-f663-49d1-1ac340a8575c-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/356f480d-46c4-f663-49d1-1ac340a8575c-C/",
+      "responseSha256": "7256f7bea631ee82ce2183c94e8dd535d6f1e11e4fdcc44ca7fabbbdecad76b2",
+      "name": "RTX CORPORATION",
+      "parentName": "RTX CORPORATION",
+      "parentUei": "NHXNJALUN738",
+      "otherReportedParents": [
+        "RTX CORP / PPLZG8J3N9D4"
+      ],
+      "location": "JUPITER, FL, USA",
+      "contractAmount": -2500,
+      "earliestTransaction": null,
+      "latestTransaction": null,
+      "reasons": [
+        "reported parent UEI NHXNJALUN738 (RTX CORPORATION) differs from expected"
+      ]
+    }
+  ],
+  "limitations": [
+    "USAspending reflects SAM data as reported; it is not SAM.gov itself",
+    "Recipient search is keyword-based and capped at 500 records",
+    "Parent history in USAspending is undated; only the current parent field is checked",
+    "Name and parent agreement do not prove the SEC-listed legal entity; review state of incorporation separately where available"
+  ]
+}

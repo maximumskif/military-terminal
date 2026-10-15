@@ -83,7 +83,20 @@
           "xbrlCrossCheck": "Matches us-gaap annual fact in SEC companyconcept data",
           "reviewedAt": "2026-10-15"
         }
-      ]
+      ],
+      "formerNames": [
+        {
+          "name": "UNITED TECHNOLOGIES CORP /DE/",
+          "from": "1994-01-24",
+          "to": "2020-04-06"
+        },
+        {
+          "name": "RAYTHEON TECHNOLOGIES CORP",
+          "from": "2020-04-07",
+          "to": "2023-06-29"
+        }
+      ],
+      "formerNamesSource": "https://data.sec.gov/submissions/CIK0000101829.json (formerNames), reviewed 2026-10-15"
     },
     {
       "id": "legal:raytheon-company",
@@ -91,6 +104,30 @@
       "cik": null,
       "uei": null,
       "cage": null
+    },
+    {
+      "id": "legal:rockwell-collins-inc",
+      "legalName": "Rockwell Collins, Inc.",
+      "cik": null,
+      "uei": null,
+      "cage": null,
+      "stateOfIncorporation": "Delaware"
+    },
+    {
+      "id": "legal:goodrich-corporation",
+      "legalName": "Goodrich Corporation",
+      "cik": null,
+      "uei": null,
+      "cage": null,
+      "stateOfIncorporation": "New York"
+    },
+    {
+      "id": "legal:hamilton-sundstrand-corporation",
+      "legalName": "Hamilton Sundstrand Corporation",
+      "cik": null,
+      "uei": null,
+      "cage": null,
+      "stateOfIncorporation": "Delaware"
     }
   ],
   "relationships": [
@@ -125,6 +162,98 @@
         "No recipient UEI/CAGE binding has been verified",
         "Unknown percentage in this relationship snapshot; earlier filing separately states wholly owned",
         "Historical name and listing changes are not fully modeled"
+      ]
+    },
+    {
+      "id": "relationship:rockwell-collins-rtx",
+      "childId": "legal:rockwell-collins-inc",
+      "parentId": "sec:0000101829",
+      "type": "subsidiary",
+      "reviewStatus": "reviewed_primary_filing",
+      "effectiveFrom": "2018-11-26",
+      "effectiveUntil": null,
+      "evidenceAsOf": "2025-12-31",
+      "ownershipPercentage": null,
+      "observedAt": "2026-10-15",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/101829/000010182919000007/a2018-12x31form10xk.htm",
+          "section": "Notes to financial statements, Business acquisitions (2018 Form 10-K)",
+          "supportingPassage": "On November 26, 2018, the Company completed the acquisition of Rockwell Collins pursuant to the merger agreement dated September 4, 2017. As a result of the acquisition, Rockwell Collins became a wholly owned subsidiary of the Company",
+          "scope": "Acquisition date and wholly owned status; the filer was then named United Technologies Corporation (same CIK)"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000006/exhibit212025-12x3110xk.htm",
+          "section": "Exhibit 21, December 31, 2025 listing",
+          "supportingPassage": "Rockwell Collins, Inc. | Delaware",
+          "scope": "Exhibit 21 is a subsidiary and affiliate listing; establishes continued listing at 2025-12-31, not ownership percentage or a government recipient identifier"
+        }
+      ],
+      "limitations": [
+        "Latest reviewed relationship evidence is dated 2025-12-31",
+        "Continuity between the acquisition filing and the 2025 listing is assumed from annual listings, not restated ownership",
+        "Collins Aerospace is a segment/brand name, not this legal entity"
+      ]
+    },
+    {
+      "id": "relationship:goodrich-rtx",
+      "childId": "legal:goodrich-corporation",
+      "parentId": "sec:0000101829",
+      "type": "subsidiary",
+      "reviewStatus": "reviewed_primary_filing",
+      "effectiveFrom": "2012-07-26",
+      "effectiveUntil": null,
+      "evidenceAsOf": "2025-12-31",
+      "ownershipPercentage": null,
+      "observedAt": "2026-10-15",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/101829/000119312513042195/d477572d10k.htm",
+          "section": "Business acquisitions (2012 Form 10-K)",
+          "supportingPassage": "on July 26, 2012, we completed our acquisition of Goodrich ... As a result of the acquisition, Goodrich became a wholly-owned subsidiary of UTC",
+          "scope": "Acquisition date and wholly owned status; filer then named United Technologies Corporation (same CIK)"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000006/exhibit212025-12x3110xk.htm",
+          "section": "Exhibit 21, December 31, 2025 listing",
+          "supportingPassage": "Goodrich Corporation | New York",
+          "scope": "Exhibit 21 is a subsidiary and affiliate listing; establishes continued listing at 2025-12-31, not ownership percentage or a government recipient identifier"
+        }
+      ],
+      "limitations": [
+        "Latest reviewed relationship evidence is dated 2025-12-31",
+        "Continuity between the acquisition filing and the 2025 listing is assumed from annual listings, not restated ownership",
+        "Goodrich businesses were partly divested (e.g. Hoist & Winch in 2024); divestitures of businesses do not change the legal-entity relationship"
+      ]
+    },
+    {
+      "id": "relationship:hamilton-sundstrand-rtx",
+      "childId": "legal:hamilton-sundstrand-corporation",
+      "parentId": "sec:0000101829",
+      "type": "subsidiary",
+      "reviewStatus": "reviewed_primary_filing",
+      "effectiveFrom": "1999-06-10",
+      "effectiveUntil": null,
+      "evidenceAsOf": "2025-12-31",
+      "ownershipPercentage": null,
+      "observedAt": "2026-10-15",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/101829/000010182900000002/0000101829-00-000002.txt",
+          "section": "Business (1999 Form 10-K)",
+          "supportingPassage": "On June 10, 1999, the Corporation completed the acquisition of Sundstrand Corporation. Sundstrand Corporation was merged with a wholly-owned subsidiary of the Corporation, which was renamed Hamilton Sundstrand Corporation.",
+          "scope": "Formation date of the renamed wholly owned subsidiary; filer then named United Technologies Corporation (same CIK)"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000006/exhibit212025-12x3110xk.htm",
+          "section": "Exhibit 21, December 31, 2025 listing",
+          "supportingPassage": "Hamilton Sundstrand Corporation | Delaware",
+          "scope": "Exhibit 21 is a subsidiary and affiliate listing; establishes continued listing at 2025-12-31, not ownership percentage or a government recipient identifier"
+        }
+      ],
+      "limitations": [
+        "Latest reviewed relationship evidence is dated 2025-12-31",
+        "Continuity between the acquisition filing and the 2025 listing is assumed from annual listings, not restated ownership"
       ]
     }
   ],
@@ -784,6 +913,214 @@
       "reviewedBy": "Claude (automated-assisted review, 2026-10-15)",
       "reviewedAt": "2026-10-15",
       "reviewFile": "reviews/recipients/raytheon-company.json"
+    },
+    {
+      "id": "binding:uei:SWBKVD2EKUH7",
+      "kind": "uei",
+      "value": "SWBKVD2EKUH7",
+      "entityId": "legal:rockwell-collins-inc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2018-05-07",
+      "evidenceAsOf": "2026-10-15",
+      "sourceUrl": "https://www.usaspending.gov/recipient/a4c28996-484c-cf28-76b4-8e46e982c93e-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/a4c28996-484c-cf28-76b4-8e46e982c93e-C/",
+      "supportingPassage": "ROCKWELL COLLINS, INC. | UEI SWBKVD2EKUH7 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | CEDAR RAPIDS, IA, USA",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-15)",
+      "reviewedAt": "2026-10-15",
+      "reviewFile": "reviews/recipients/rockwell-collins-inc.json"
+    },
+    {
+      "id": "binding:uei:NWJXD3EE75U7",
+      "kind": "uei",
+      "value": "NWJXD3EE75U7",
+      "entityId": "legal:goodrich-corporation",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-02",
+      "evidenceAsOf": "2026-10-15",
+      "sourceUrl": "https://www.usaspending.gov/recipient/681621e2-199c-1489-ce07-823b2d82bf16-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/681621e2-199c-1489-ce07-823b2d82bf16-C/",
+      "supportingPassage": "GOODRICH CORPORATION | UEI NWJXD3EE75U7 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | TROY, OH, USA",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-15)",
+      "reviewedAt": "2026-10-15",
+      "reviewFile": "reviews/recipients/goodrich-corporation.json"
+    },
+    {
+      "id": "binding:uei:GNNJDFWNNEJ5",
+      "kind": "uei",
+      "value": "GNNJDFWNNEJ5",
+      "entityId": "legal:goodrich-corporation",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-02",
+      "evidenceAsOf": "2026-10-15",
+      "sourceUrl": "https://www.usaspending.gov/recipient/5b3db994-356c-dd09-c567-c688e10ac628-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/5b3db994-356c-dd09-c567-c688e10ac628-C/",
+      "supportingPassage": "GOODRICH CORPORATION | UEI GNNJDFWNNEJ5 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | ROME, NY, USA",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-15)",
+      "reviewedAt": "2026-10-15",
+      "reviewFile": "reviews/recipients/goodrich-corporation.json"
+    },
+    {
+      "id": "binding:uei:CBMZJ3Z5SC89",
+      "kind": "uei",
+      "value": "CBMZJ3Z5SC89",
+      "entityId": "legal:goodrich-corporation",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-11-08",
+      "evidenceAsOf": "2026-10-15",
+      "sourceUrl": "https://www.usaspending.gov/recipient/bd77c9b2-baab-1931-519a-293c31348ef2-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/bd77c9b2-baab-1931-519a-293c31348ef2-C/",
+      "supportingPassage": "GOODRICH CORPORATION | UEI CBMZJ3Z5SC89 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | JACKSONVILLE, FL, USA",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-15)",
+      "reviewedAt": "2026-10-15",
+      "reviewFile": "reviews/recipients/goodrich-corporation.json"
+    },
+    {
+      "id": "binding:uei:HE1BAJGEBJ19",
+      "kind": "uei",
+      "value": "HE1BAJGEBJ19",
+      "entityId": "legal:goodrich-corporation",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-15",
+      "evidenceAsOf": "2026-10-15",
+      "sourceUrl": "https://www.usaspending.gov/recipient/bb9eb557-931e-66db-aaaa-5c2cec7a4e04-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/bb9eb557-931e-66db-aaaa-5c2cec7a4e04-C/",
+      "supportingPassage": "GOODRICH CORPORATION | UEI HE1BAJGEBJ19 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | UNION, WV, USA",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-15)",
+      "reviewedAt": "2026-10-15",
+      "reviewFile": "reviews/recipients/goodrich-corporation.json"
+    },
+    {
+      "id": "binding:uei:KC94HFV3ZS79",
+      "kind": "uei",
+      "value": "KC94HFV3ZS79",
+      "entityId": "legal:goodrich-corporation",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2017-09-29",
+      "evidenceAsOf": "2026-10-15",
+      "sourceUrl": "https://www.usaspending.gov/recipient/7e4b6f02-ef9c-41d3-e092-27003515340f-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/7e4b6f02-ef9c-41d3-e092-27003515340f-C/",
+      "supportingPassage": "GOODRICH CORPORATION | UEI KC94HFV3ZS79 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | MIAMI GARDENS, FL, USA",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-15)",
+      "reviewedAt": "2026-10-15",
+      "reviewFile": "reviews/recipients/goodrich-corporation.json"
+    },
+    {
+      "id": "binding:uei:Y7SVCCT598Z5",
+      "kind": "uei",
+      "value": "Y7SVCCT598Z5",
+      "entityId": "legal:goodrich-corporation",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-09",
+      "evidenceAsOf": "2026-10-15",
+      "sourceUrl": "https://www.usaspending.gov/recipient/06fe4c4b-f38d-ca1f-94db-0e1890a6f185-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/06fe4c4b-f38d-ca1f-94db-0e1890a6f185-C/",
+      "supportingPassage": "GOODRICH CORPORATION | UEI Y7SVCCT598Z5 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | MONROE, NC, USA",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-15)",
+      "reviewedAt": "2026-10-15",
+      "reviewFile": "reviews/recipients/goodrich-corporation.json"
+    },
+    {
+      "id": "binding:uei:QPHKSN6NVFB8",
+      "kind": "uei",
+      "value": "QPHKSN6NVFB8",
+      "entityId": "legal:goodrich-corporation",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-18",
+      "evidenceAsOf": "2026-10-15",
+      "sourceUrl": "https://www.usaspending.gov/recipient/4a9469b1-9916-19bd-4496-2669e6a9ecd1-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/4a9469b1-9916-19bd-4496-2669e6a9ecd1-C/",
+      "supportingPassage": "GOODRICH CORPORATION | UEI QPHKSN6NVFB8 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | HALTOM CITY, TX, USA",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-15)",
+      "reviewedAt": "2026-10-15",
+      "reviewFile": "reviews/recipients/goodrich-corporation.json"
+    },
+    {
+      "id": "binding:uei:JC42EBJ5NFJ1",
+      "kind": "uei",
+      "value": "JC42EBJ5NFJ1",
+      "entityId": "legal:hamilton-sundstrand-corporation",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-01",
+      "evidenceAsOf": "2026-10-15",
+      "sourceUrl": "https://www.usaspending.gov/recipient/464a5b15-000e-8668-246a-c4067a6f0452-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/464a5b15-000e-8668-246a-c4067a6f0452-C/",
+      "supportingPassage": "HAMILTON SUNDSTRAND CORPORATION | UEI JC42EBJ5NFJ1 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | WINDSOR LOCKS, CT, USA",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-15)",
+      "reviewedAt": "2026-10-15",
+      "reviewFile": "reviews/recipients/hamilton-sundstrand-corporation.json"
+    },
+    {
+      "id": "binding:uei:MKRCHD2CBAY1",
+      "kind": "uei",
+      "value": "MKRCHD2CBAY1",
+      "entityId": "legal:hamilton-sundstrand-corporation",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-03",
+      "evidenceAsOf": "2026-10-15",
+      "sourceUrl": "https://www.usaspending.gov/recipient/439af5e1-2eb4-9db9-92f7-0f6d28b842ff-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/439af5e1-2eb4-9db9-92f7-0f6d28b842ff-C/",
+      "supportingPassage": "HAMILTON SUNDSTRAND CORPORATION | UEI MKRCHD2CBAY1 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | SAN DIMAS, CA, USA",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-15)",
+      "reviewedAt": "2026-10-15",
+      "reviewFile": "reviews/recipients/hamilton-sundstrand-corporation.json"
+    },
+    {
+      "id": "binding:uei:HKNBD5TLMDL1",
+      "kind": "uei",
+      "value": "HKNBD5TLMDL1",
+      "entityId": "legal:hamilton-sundstrand-corporation",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-02",
+      "evidenceAsOf": "2026-10-15",
+      "sourceUrl": "https://www.usaspending.gov/recipient/9515e961-01a2-6a4e-6add-0bcd8ee65553-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/9515e961-01a2-6a4e-6add-0bcd8ee65553-C/",
+      "supportingPassage": "HAMILTON SUNDSTRAND CORPORATION | UEI HKNBD5TLMDL1 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | ROCKFORD, IL, USA",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-15)",
+      "reviewedAt": "2026-10-15",
+      "reviewFile": "reviews/recipients/hamilton-sundstrand-corporation.json"
+    },
+    {
+      "id": "binding:uei:QN1BCFY7JDJ5",
+      "kind": "uei",
+      "value": "QN1BCFY7JDJ5",
+      "entityId": "sec:0000101829",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-01",
+      "evidenceAsOf": "2026-10-15",
+      "sourceUrl": "https://www.usaspending.gov/recipient/62e141b3-4887-5b39-6b75-eace9326395c-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/62e141b3-4887-5b39-6b75-eace9326395c-C/",
+      "supportingPassage": "RTX CORPORATION | UEI QN1BCFY7JDJ5 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | EAST HARTFORD, CT, USA",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-15)",
+      "reviewedAt": "2026-10-15",
+      "reviewFile": "reviews/recipients/rtx-corporation.json"
+    },
+    {
+      "id": "binding:uei:KQG9ZKVSELH6",
+      "kind": "uei",
+      "value": "KQG9ZKVSELH6",
+      "entityId": "sec:0000101829",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-12-05",
+      "evidenceAsOf": "2026-10-15",
+      "sourceUrl": "https://www.usaspending.gov/recipient/77a80c83-e141-7478-a480-6f311e180a6e-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/77a80c83-e141-7478-a480-6f311e180a6e-C/",
+      "supportingPassage": "RTX CORPORATION | UEI KQG9ZKVSELH6 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | EAST HARTFORD, CT, USA",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-15)",
+      "reviewedAt": "2026-10-15",
+      "reviewFile": "reviews/recipients/rtx-corporation.json"
     }
   ]
 }

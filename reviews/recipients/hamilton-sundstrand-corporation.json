@@ -1,0 +1,159 @@
+{
+  "generatedAt": "2026-10-15T18:07:36.929Z",
+  "query": {
+    "name": "Hamilton Sundstrand Corporation",
+    "parentUei": "PPLZG8J3N9D4",
+    "entityId": "legal:hamilton-sundstrand-corporation",
+    "formerNames": []
+  },
+  "searched": 4,
+  "candidates": [
+    {
+      "evidence": {
+        "uei": "JC42EBJ5NFJ1",
+        "cage": null,
+        "recipientId": "464a5b15-000e-8668-246a-c4067a6f0452-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/464a5b15-000e-8668-246a-c4067a6f0452-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/464a5b15-000e-8668-246a-c4067a6f0452-C/",
+        "responseSha256": "18666614e2eaeb9e2f2748fbf25ad7a6eeb4d1be39a4712eaf82011864dabbff",
+        "name": "HAMILTON SUNDSTRAND CORPORATION",
+        "parentName": "RTX CORP",
+        "parentUei": "PPLZG8J3N9D4",
+        "otherReportedParents": [
+          "ROCKWELL COLLINS AUSTRALIA PTY LIMITED / EGAVSJTA2D81"
+        ],
+        "location": "WINDSOR LOCKS, CT, USA",
+        "contractAmount": 189245980.68,
+        "earliestTransaction": {
+          "date": "2007-10-01",
+          "award": "CONT_AWD_3370_9700_SPM70004D9432_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-09-25",
+          "award": "CONT_AWD_80JSC021CA005_8000_-NONE-_-NONE-"
+        }
+      },
+      "binding": {
+        "id": "binding:uei:JC42EBJ5NFJ1",
+        "kind": "uei",
+        "value": "JC42EBJ5NFJ1",
+        "entityId": "legal:hamilton-sundstrand-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-01",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/464a5b15-000e-8668-246a-c4067a6f0452-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/464a5b15-000e-8668-246a-c4067a6f0452-C/",
+        "supportingPassage": "HAMILTON SUNDSTRAND CORPORATION | UEI JC42EBJ5NFJ1 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | WINDSOR LOCKS, CT, USA",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "MKRCHD2CBAY1",
+        "cage": null,
+        "recipientId": "439af5e1-2eb4-9db9-92f7-0f6d28b842ff-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/439af5e1-2eb4-9db9-92f7-0f6d28b842ff-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/439af5e1-2eb4-9db9-92f7-0f6d28b842ff-C/",
+        "responseSha256": "936b6f0379ef46eaac5c3adbd50d98835e4f2792595fb53937982c1acb995066",
+        "name": "HAMILTON SUNDSTRAND CORPORATION",
+        "parentName": "RTX CORP",
+        "parentUei": "PPLZG8J3N9D4",
+        "otherReportedParents": [
+          "ROCKWELL COLLINS AUSTRALIA PTY LIMITED / EGAVSJTA2D81"
+        ],
+        "location": "SAN DIMAS, CA, USA",
+        "contractAmount": 5301967.92,
+        "earliestTransaction": {
+          "date": "2007-10-03",
+          "award": "CONT_AWD_W56HZV08VB001_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-07-09",
+          "award": "CONT_AWD_N6449825FX175_9700_N6449821D4014_9700"
+        }
+      },
+      "binding": {
+        "id": "binding:uei:MKRCHD2CBAY1",
+        "kind": "uei",
+        "value": "MKRCHD2CBAY1",
+        "entityId": "legal:hamilton-sundstrand-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-03",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/439af5e1-2eb4-9db9-92f7-0f6d28b842ff-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/439af5e1-2eb4-9db9-92f7-0f6d28b842ff-C/",
+        "supportingPassage": "HAMILTON SUNDSTRAND CORPORATION | UEI MKRCHD2CBAY1 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | SAN DIMAS, CA, USA",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "HKNBD5TLMDL1",
+        "cage": null,
+        "recipientId": "9515e961-01a2-6a4e-6add-0bcd8ee65553-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/9515e961-01a2-6a4e-6add-0bcd8ee65553-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/9515e961-01a2-6a4e-6add-0bcd8ee65553-C/",
+        "responseSha256": "2af838eab1b7f610026ea7f2e96b0101f1c4d3cde7ce96d43aec0c1f31325d17",
+        "name": "HAMILTON SUNDSTRAND CORPORATION",
+        "parentName": "RTX CORP",
+        "parentUei": "PPLZG8J3N9D4",
+        "otherReportedParents": [
+          "HAMILTON SUNDSTRAND CORPORATION / HKNBD5TLMDL1"
+        ],
+        "location": "ROCKFORD, IL, USA",
+        "contractAmount": 2593749.94,
+        "earliestTransaction": {
+          "date": "2007-10-02",
+          "award": "CONT_AWD_0002_9700_N0038307D002J_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-07-09",
+          "award": "CONT_AWD_FA811726F0107_9700_FA811722D0003_9700"
+        }
+      },
+      "binding": {
+        "id": "binding:uei:HKNBD5TLMDL1",
+        "kind": "uei",
+        "value": "HKNBD5TLMDL1",
+        "entityId": "legal:hamilton-sundstrand-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-02",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/9515e961-01a2-6a4e-6add-0bcd8ee65553-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/9515e961-01a2-6a4e-6add-0bcd8ee65553-C/",
+        "supportingPassage": "HAMILTON SUNDSTRAND CORPORATION | UEI HKNBD5TLMDL1 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | ROCKFORD, IL, USA",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "uei": "NFZTKCLHXAB7",
+      "cage": null,
+      "recipientId": "46ec5ae0-5564-cdbc-3c7d-19e0dc999b71-C",
+      "profileUrl": "https://www.usaspending.gov/recipient/46ec5ae0-5564-cdbc-3c7d-19e0dc999b71-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/46ec5ae0-5564-cdbc-3c7d-19e0dc999b71-C/",
+      "responseSha256": "9a82328819ee26df92821dfd01fb56ce0dc38a1f5114141322e3e558742adbc9",
+      "name": "HAMILTON SUNDSTRAND CORPORATION",
+      "parentName": "HAMILTON SUNDSTRAND CORPORATION",
+      "parentUei": "NFZTKCLHXAB7",
+      "otherReportedParents": [
+        "RTX CORP / PPLZG8J3N9D4",
+        "ROCKWELL COLLINS AUSTRALIA PTY LIMITED / EGAVSJTA2D81"
+      ],
+      "location": "PHOENIX, AZ, USA",
+      "contractAmount": 2308009.36,
+      "earliestTransaction": null,
+      "latestTransaction": null,
+      "reasons": [
+        "reported parent UEI NFZTKCLHXAB7 (HAMILTON SUNDSTRAND CORPORATION) differs from expected"
+      ]
+    }
+  ],
+  "limitations": [
+    "USAspending reflects SAM data as reported; it is not SAM.gov itself",
+    "Recipient search is keyword-based and capped at 500 records",
+    "Parent history in USAspending is undated; only the current parent field is checked",
+    "Name and parent agreement do not prove the SEC-listed legal entity; review state of incorporation separately where available"
+  ]
+}

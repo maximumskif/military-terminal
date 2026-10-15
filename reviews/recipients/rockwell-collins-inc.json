@@ -1,0 +1,149 @@
+{
+  "generatedAt": "2026-10-15T18:07:27.542Z",
+  "query": {
+    "name": "Rockwell Collins, Inc.",
+    "parentUei": "PPLZG8J3N9D4",
+    "entityId": "legal:rockwell-collins-inc",
+    "formerNames": []
+  },
+  "searched": 5,
+  "candidates": [
+    {
+      "evidence": {
+        "uei": "SWBKVD2EKUH7",
+        "cage": null,
+        "recipientId": "a4c28996-484c-cf28-76b4-8e46e982c93e-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/a4c28996-484c-cf28-76b4-8e46e982c93e-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/a4c28996-484c-cf28-76b4-8e46e982c93e-C/",
+        "responseSha256": "e99b1c37b607b2cd1fc3c174825b101ec7016db5d980aa43a041306831fd2ac8",
+        "name": "ROCKWELL COLLINS, INC.",
+        "parentName": "RTX CORP",
+        "parentUei": "PPLZG8J3N9D4",
+        "otherReportedParents": [
+          "ROCKWELL COLLINS, INC. / SWBKVD2EKUH7",
+          "ROCKWELL COLLINS AUSTRALIA PTY LIMITED / EGAVSJTA2D81"
+        ],
+        "location": "CEDAR RAPIDS, IA, USA",
+        "contractAmount": 123845536.14,
+        "earliestTransaction": {
+          "date": "2018-05-07",
+          "award": "CONT_AWD_70Z03818PN0000240_7008_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-09-14",
+          "award": "CONT_AWD_70Z03826FB0000015_7008_70Z03824DB0000006_7008"
+        }
+      },
+      "binding": {
+        "id": "binding:uei:SWBKVD2EKUH7",
+        "kind": "uei",
+        "value": "SWBKVD2EKUH7",
+        "entityId": "legal:rockwell-collins-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2018-05-07",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/a4c28996-484c-cf28-76b4-8e46e982c93e-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/a4c28996-484c-cf28-76b4-8e46e982c93e-C/",
+        "supportingPassage": "ROCKWELL COLLINS, INC. | UEI SWBKVD2EKUH7 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | CEDAR RAPIDS, IA, USA",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "uei": "J4Q3HP6NHK47",
+      "cage": null,
+      "recipientId": "fbaf2f7a-d2a8-a4b8-2388-3abc483658a7-C",
+      "profileUrl": "https://www.usaspending.gov/recipient/fbaf2f7a-d2a8-a4b8-2388-3abc483658a7-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/fbaf2f7a-d2a8-a4b8-2388-3abc483658a7-C/",
+      "responseSha256": "c889fcb9cf0abb73e17ba5c3e24ca37134998560c8673ba9aa795610e7f60747",
+      "name": "ROCKWELL COLLINS, INC.",
+      "parentName": "ROCKWELL COLLINS, INC.",
+      "parentUei": "QJ58YL55YKF3",
+      "otherReportedParents": [
+        "RTX CORP / PPLZG8J3N9D4",
+        "ROCKWELL COLLINS AUSTRALIA PTY LIMITED / EGAVSJTA2D81"
+      ],
+      "location": "CEDAR RAPIDS, IA, USA",
+      "contractAmount": 433244624.93,
+      "earliestTransaction": null,
+      "latestTransaction": null,
+      "reasons": [
+        "reported parent UEI QJ58YL55YKF3 (ROCKWELL COLLINS, INC.) differs from expected"
+      ]
+    },
+    {
+      "uei": "CVEDWARBRCG5",
+      "cage": null,
+      "recipientId": "448bc035-07db-ebea-add6-ecaa0e820482-C",
+      "profileUrl": "https://www.usaspending.gov/recipient/448bc035-07db-ebea-add6-ecaa0e820482-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/448bc035-07db-ebea-add6-ecaa0e820482-C/",
+      "responseSha256": "88bae28c4a32890dbe25134ae0b3465b1795fa269215b3caf6aaacdc3fca2513",
+      "name": "ROCKWELL COLLINS, INC.",
+      "parentName": "ROCKWELL COLLINS, INC.",
+      "parentUei": "QJ58YL55YKF3",
+      "otherReportedParents": [
+        "RTX CORP / PPLZG8J3N9D4",
+        "ROCKWELL COLLINS, INC. / CVEDWARBRCG5",
+        "ROCKWELL COLLINS AUSTRALIA PTY LIMITED / EGAVSJTA2D81"
+      ],
+      "location": "CEDAR RAPIDS, IA, USA",
+      "contractAmount": 885874.08,
+      "earliestTransaction": null,
+      "latestTransaction": null,
+      "reasons": [
+        "reported parent UEI QJ58YL55YKF3 (ROCKWELL COLLINS, INC.) differs from expected"
+      ]
+    },
+    {
+      "uei": "QJ58YL55YKF3",
+      "cage": null,
+      "recipientId": "0041c4b2-6cbb-bf73-2416-b2097bbe16df-C",
+      "profileUrl": "https://www.usaspending.gov/recipient/0041c4b2-6cbb-bf73-2416-b2097bbe16df-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/0041c4b2-6cbb-bf73-2416-b2097bbe16df-C/",
+      "responseSha256": "a2bc139f9cb46b921aa647beabed72fab2e11290ef7728a90db1b8aad8e9efae",
+      "name": "ROCKWELL COLLINS, INC.",
+      "parentName": "ROCKWELL COLLINS, INC.",
+      "parentUei": "QJ58YL55YKF3",
+      "otherReportedParents": [
+        "RTX CORP / PPLZG8J3N9D4",
+        "ROCKWELL COLLINS AUSTRALIA PTY LIMITED / EGAVSJTA2D81"
+      ],
+      "location": "CEDAR RAPIDS, IA, USA",
+      "contractAmount": 11797.8,
+      "earliestTransaction": null,
+      "latestTransaction": null,
+      "reasons": [
+        "reported parent UEI QJ58YL55YKF3 (ROCKWELL COLLINS, INC.) differs from expected"
+      ]
+    },
+    {
+      "uei": "TL4YK3B3XEX5",
+      "cage": null,
+      "recipientId": "0a979546-64d2-8ed5-53df-abeae20d6749-C",
+      "profileUrl": "https://www.usaspending.gov/recipient/0a979546-64d2-8ed5-53df-abeae20d6749-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/0a979546-64d2-8ed5-53df-abeae20d6749-C/",
+      "responseSha256": "02a4a04c7c861b8ec9534420e93a133020f52b3c7fd1aea155ef2fcb5c0d3204",
+      "name": "ROCKWELL COLLINS, INC.",
+      "parentName": "ROCKWELL COLLINS, INC.",
+      "parentUei": "QJ58YL55YKF3",
+      "otherReportedParents": [
+        "RTX CORP / PPLZG8J3N9D4",
+        "ROCKWELL COLLINS AUSTRALIA PTY LIMITED / EGAVSJTA2D81"
+      ],
+      "location": "CEDAR RAPIDS, IA, USA",
+      "contractAmount": 0,
+      "earliestTransaction": null,
+      "latestTransaction": null,
+      "reasons": [
+        "reported parent UEI QJ58YL55YKF3 (ROCKWELL COLLINS, INC.) differs from expected"
+      ]
+    }
+  ],
+  "limitations": [
+    "USAspending reflects SAM data as reported; it is not SAM.gov itself",
+    "Recipient search is keyword-based and capped at 500 records",
+    "Parent history in USAspending is undated; only the current parent field is checked",
+    "Name and parent agreement do not prove the SEC-listed legal entity; review state of incorporation separately where available"
+  ]
+}

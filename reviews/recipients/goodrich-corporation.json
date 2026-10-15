@@ -1,0 +1,313 @@
+{
+  "generatedAt": "2026-10-15T18:07:33.131Z",
+  "query": {
+    "name": "Goodrich Corporation",
+    "parentUei": "PPLZG8J3N9D4",
+    "entityId": "legal:goodrich-corporation",
+    "formerNames": []
+  },
+  "searched": 8,
+  "candidates": [
+    {
+      "evidence": {
+        "uei": "NWJXD3EE75U7",
+        "cage": null,
+        "recipientId": "681621e2-199c-1489-ce07-823b2d82bf16-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/681621e2-199c-1489-ce07-823b2d82bf16-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/681621e2-199c-1489-ce07-823b2d82bf16-C/",
+        "responseSha256": "dc1121fe64f6bbf7254d355f94b4697d608bc6ccaf6dd9e115d9003e53a2cc75",
+        "name": "GOODRICH CORPORATION",
+        "parentName": "RTX CORP",
+        "parentUei": "PPLZG8J3N9D4",
+        "otherReportedParents": [
+          "ROCKWELL COLLINS AUSTRALIA PTY LIMITED / EGAVSJTA2D81"
+        ],
+        "location": "TROY, OH, USA",
+        "contractAmount": 94784435.44,
+        "earliestTransaction": {
+          "date": "2007-10-02",
+          "award": "CONT_AWD_WU79_9700_F4263002D0011_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-07-14",
+          "award": "CONT_AWD_SPE4A622F168K_9700_SPE4AX18D9416_9700"
+        }
+      },
+      "binding": {
+        "id": "binding:uei:NWJXD3EE75U7",
+        "kind": "uei",
+        "value": "NWJXD3EE75U7",
+        "entityId": "legal:goodrich-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-02",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/681621e2-199c-1489-ce07-823b2d82bf16-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/681621e2-199c-1489-ce07-823b2d82bf16-C/",
+        "supportingPassage": "GOODRICH CORPORATION | UEI NWJXD3EE75U7 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | TROY, OH, USA",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "GNNJDFWNNEJ5",
+        "cage": null,
+        "recipientId": "5b3db994-356c-dd09-c567-c688e10ac628-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/5b3db994-356c-dd09-c567-c688e10ac628-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/5b3db994-356c-dd09-c567-c688e10ac628-C/",
+        "responseSha256": "8d1e2f75480214f6a8a45aa0901255ea8c4872e3eb2ebeadb806d224293b253a",
+        "name": "GOODRICH CORPORATION",
+        "parentName": "RTX CORP",
+        "parentUei": "PPLZG8J3N9D4",
+        "otherReportedParents": [
+          "ROCKWELL COLLINS AUSTRALIA PTY LIMITED / EGAVSJTA2D81"
+        ],
+        "location": "ROME, NY, USA",
+        "contractAmount": 14494187.39,
+        "earliestTransaction": {
+          "date": "2007-10-02",
+          "award": "CONT_AWD_0002_9700_W58RGZ06D0178_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-07-08",
+          "award": "CONT_AWD_FA822724P0037_9700_-NONE-_-NONE-"
+        }
+      },
+      "binding": {
+        "id": "binding:uei:GNNJDFWNNEJ5",
+        "kind": "uei",
+        "value": "GNNJDFWNNEJ5",
+        "entityId": "legal:goodrich-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-02",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/5b3db994-356c-dd09-c567-c688e10ac628-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/5b3db994-356c-dd09-c567-c688e10ac628-C/",
+        "supportingPassage": "GOODRICH CORPORATION | UEI GNNJDFWNNEJ5 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | ROME, NY, USA",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "CBMZJ3Z5SC89",
+        "cage": null,
+        "recipientId": "bd77c9b2-baab-1931-519a-293c31348ef2-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/bd77c9b2-baab-1931-519a-293c31348ef2-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/bd77c9b2-baab-1931-519a-293c31348ef2-C/",
+        "responseSha256": "bba1e7072cea07c9eb9ace765573e63ac1770e98f6045bdc735dca53d8a8cec7",
+        "name": "GOODRICH CORPORATION",
+        "parentName": "RTX CORP",
+        "parentUei": "PPLZG8J3N9D4",
+        "otherReportedParents": [
+          "ROCKWELL COLLINS AUSTRALIA PTY LIMITED / EGAVSJTA2D81"
+        ],
+        "location": "JACKSONVILLE, FL, USA",
+        "contractAmount": 13545917.33,
+        "earliestTransaction": {
+          "date": "2007-11-08",
+          "award": "CONT_AWD_N0016708P0021_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-06-30",
+          "award": "CONT_AWD_N0016725F1118_9700_N0016723D0010_9700"
+        }
+      },
+      "binding": {
+        "id": "binding:uei:CBMZJ3Z5SC89",
+        "kind": "uei",
+        "value": "CBMZJ3Z5SC89",
+        "entityId": "legal:goodrich-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-11-08",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/bd77c9b2-baab-1931-519a-293c31348ef2-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/bd77c9b2-baab-1931-519a-293c31348ef2-C/",
+        "supportingPassage": "GOODRICH CORPORATION | UEI CBMZJ3Z5SC89 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | JACKSONVILLE, FL, USA",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "HE1BAJGEBJ19",
+        "cage": null,
+        "recipientId": "bb9eb557-931e-66db-aaaa-5c2cec7a4e04-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/bb9eb557-931e-66db-aaaa-5c2cec7a4e04-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/bb9eb557-931e-66db-aaaa-5c2cec7a4e04-C/",
+        "responseSha256": "571d59c20ebcfe2c4f235f8a53708740fee959bcc56dd1c39efc053b4148cff5",
+        "name": "GOODRICH CORPORATION",
+        "parentName": "RTX CORP",
+        "parentUei": "PPLZG8J3N9D4",
+        "otherReportedParents": [],
+        "location": "UNION, WV, USA",
+        "contractAmount": 246708,
+        "earliestTransaction": {
+          "date": "2007-10-15",
+          "award": "CONT_AWD_SPM4A708M0840_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-03-05",
+          "award": "CONT_AWD_N0038326PNA15_9700_-NONE-_-NONE-"
+        }
+      },
+      "binding": {
+        "id": "binding:uei:HE1BAJGEBJ19",
+        "kind": "uei",
+        "value": "HE1BAJGEBJ19",
+        "entityId": "legal:goodrich-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-15",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/bb9eb557-931e-66db-aaaa-5c2cec7a4e04-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/bb9eb557-931e-66db-aaaa-5c2cec7a4e04-C/",
+        "supportingPassage": "GOODRICH CORPORATION | UEI HE1BAJGEBJ19 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | UNION, WV, USA",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "KC94HFV3ZS79",
+        "cage": null,
+        "recipientId": "7e4b6f02-ef9c-41d3-e092-27003515340f-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/7e4b6f02-ef9c-41d3-e092-27003515340f-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/7e4b6f02-ef9c-41d3-e092-27003515340f-C/",
+        "responseSha256": "223ce77d1cf01cc2405d8c86852a06948d5669916953f5065ca7641ea7af5784",
+        "name": "GOODRICH CORPORATION",
+        "parentName": "RTX CORP",
+        "parentUei": "PPLZG8J3N9D4",
+        "otherReportedParents": [
+          "ROCKWELL COLLINS AUSTRALIA PTY LIMITED / EGAVSJTA2D81"
+        ],
+        "location": "MIAMI GARDENS, FL, USA",
+        "contractAmount": 229831.56,
+        "earliestTransaction": {
+          "date": "2017-09-29",
+          "award": "CONT_AWD_80AFRC17C0025_8000_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-07-13",
+          "award": "CONT_AWD_N0038326PN077_9700_-NONE-_-NONE-"
+        }
+      },
+      "binding": {
+        "id": "binding:uei:KC94HFV3ZS79",
+        "kind": "uei",
+        "value": "KC94HFV3ZS79",
+        "entityId": "legal:goodrich-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2017-09-29",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/7e4b6f02-ef9c-41d3-e092-27003515340f-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/7e4b6f02-ef9c-41d3-e092-27003515340f-C/",
+        "supportingPassage": "GOODRICH CORPORATION | UEI KC94HFV3ZS79 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | MIAMI GARDENS, FL, USA",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "Y7SVCCT598Z5",
+        "cage": null,
+        "recipientId": "06fe4c4b-f38d-ca1f-94db-0e1890a6f185-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/06fe4c4b-f38d-ca1f-94db-0e1890a6f185-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/06fe4c4b-f38d-ca1f-94db-0e1890a6f185-C/",
+        "responseSha256": "a73c95d6bf8db5e25632f827407f81a4ecb8fd9d81db173a13f9c5463e7f2956",
+        "name": "GOODRICH CORPORATION",
+        "parentName": "RTX CORP",
+        "parentUei": "PPLZG8J3N9D4",
+        "otherReportedParents": [
+          "ROCKWELL COLLINS AUSTRALIA PTY LIMITED / EGAVSJTA2D81"
+        ],
+        "location": "MONROE, NC, USA",
+        "contractAmount": 72168.56,
+        "earliestTransaction": {
+          "date": "2007-10-09",
+          "award": "CONT_AWD_N0016407P1930_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-03-27",
+          "award": "CONT_AWD_N0038320FPR01_9700_N0038318GPR01_9700"
+        }
+      },
+      "binding": {
+        "id": "binding:uei:Y7SVCCT598Z5",
+        "kind": "uei",
+        "value": "Y7SVCCT598Z5",
+        "entityId": "legal:goodrich-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-09",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/06fe4c4b-f38d-ca1f-94db-0e1890a6f185-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/06fe4c4b-f38d-ca1f-94db-0e1890a6f185-C/",
+        "supportingPassage": "GOODRICH CORPORATION | UEI Y7SVCCT598Z5 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | MONROE, NC, USA",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "QPHKSN6NVFB8",
+        "cage": null,
+        "recipientId": "4a9469b1-9916-19bd-4496-2669e6a9ecd1-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/4a9469b1-9916-19bd-4496-2669e6a9ecd1-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/4a9469b1-9916-19bd-4496-2669e6a9ecd1-C/",
+        "responseSha256": "75003189684126b7c53dae90b7a3cb88b8aa50d6ed83953a71cae9af710a1d9a",
+        "name": "GOODRICH CORPORATION",
+        "parentName": "RTX CORP",
+        "parentUei": "PPLZG8J3N9D4",
+        "otherReportedParents": [
+          "ROCKWELL COLLINS AUSTRALIA PTY LIMITED / EGAVSJTA2D81"
+        ],
+        "location": "HALTOM CITY, TX, USA",
+        "contractAmount": 0,
+        "earliestTransaction": {
+          "date": "2007-10-18",
+          "award": "CONT_AWD_W58RGZ08C0014_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-07-01",
+          "award": "CONT_AWD_SPRHA118C0007_9700_-NONE-_-NONE-"
+        }
+      },
+      "binding": {
+        "id": "binding:uei:QPHKSN6NVFB8",
+        "kind": "uei",
+        "value": "QPHKSN6NVFB8",
+        "entityId": "legal:goodrich-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-18",
+        "evidenceAsOf": "2026-10-15",
+        "sourceUrl": "https://www.usaspending.gov/recipient/4a9469b1-9916-19bd-4496-2669e6a9ecd1-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/4a9469b1-9916-19bd-4496-2669e6a9ecd1-C/",
+        "supportingPassage": "GOODRICH CORPORATION | UEI QPHKSN6NVFB8 | Parent: RTX CORP (UEI PPLZG8J3N9D4) | HALTOM CITY, TX, USA",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "uei": "JZNWHLVKADJ9",
+      "cage": null,
+      "recipientId": "5bfb9ab2-f7c6-35fa-f7ee-bae0b11cd2b5-C",
+      "profileUrl": "https://www.usaspending.gov/recipient/5bfb9ab2-f7c6-35fa-f7ee-bae0b11cd2b5-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/5bfb9ab2-f7c6-35fa-f7ee-bae0b11cd2b5-C/",
+      "responseSha256": "a000c1ffefd686fddce3806193b43a621957e0c75de072c3dba900a11218ad88",
+      "name": "GOODRICH CORPORATION",
+      "parentName": "GOODRICH CORPORATION",
+      "parentUei": "JZNWHLVKADJ9",
+      "otherReportedParents": [
+        "RTX CORP / PPLZG8J3N9D4",
+        "ROCKWELL COLLINS AUSTRALIA PTY LIMITED / EGAVSJTA2D81"
+      ],
+      "location": "WESTFORD, MA, USA",
+      "contractAmount": 130123399.95,
+      "earliestTransaction": null,
+      "latestTransaction": null,
+      "reasons": [
+        "reported parent UEI JZNWHLVKADJ9 (GOODRICH CORPORATION) differs from expected"
+      ]
+    }
+  ],
+  "limitations": [
+    "USAspending reflects SAM data as reported; it is not SAM.gov itself",
+    "Recipient search is keyword-based and capped at 500 records",
+    "Parent history in USAspending is undated; only the current parent field is checked",
+    "Name and parent agreement do not prove the SEC-listed legal entity; review state of incorporation separately where available"
+  ]
+}
