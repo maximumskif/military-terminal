@@ -40,3 +40,9 @@ assert.equal(r('JCBMLGPE6Z71','2024-06-01').publicParent,'Booz Allen Hamilton Ho
 assert.equal(r('WMXDDH6HJNA5','2023-06-01').publicParent,'Huntington Ingalls Industries, Inc.');assert.equal(r('C3NLZNSMU254','2021-12-30').status,'unresolved');
 assert.equal(r('JCZYYYQ7JGF5','2023-07-27').status,'unresolved');assert.equal(r('JCZYYYQ7JGF5','2024-06-01').publicParent,'L3Harris Technologies, Inc.');
 console.log('PASS Booz Allen, HII and indirect Aerojet Rocketdyne bindings respect reviewed relationship windows');}
+// Textron: Bell and Textron Aviation from the fiscal 2019 listing; Maryland Textron Systems only from fiscal 2020; self-parented records excluded.
+{const r=(uei,date)=>resolveRecipient({uei},date);
+assert.equal(r('N5QUZAYGPKM3','2024-06-01').publicParent,'Textron Inc.');assert.equal(r('N5QUZAYGPKM3','2024-06-01').ticker,null);assert.equal(r('N5QUZAYGPKM3','2020-01-03').status,'unresolved');assert.equal(r('N5QUZAYGPKM3','2026-01-04').status,'unresolved');
+assert.equal(r('SNJ8YY61GB95','2020-06-01').status,'unresolved');assert.equal(r('SNJ8YY61GB95','2021-06-01').publicParent,'Textron Inc.');assert.equal(r('RSCJXUGJNGE3','2022-06-01').publicParent,'Textron Inc.');
+for(const uei of ['WEE9WFHMACH9','KUZ4MEX7N6Y3'])assert.equal(r(uei,'2024-06-01').status,'unresolved');
+console.log('PASS Textron subsidiary bindings respect reviewed Exhibit 21 windows; Textron Systems starts at its Maryland listing; self-parented records abstain');}

@@ -1,0 +1,153 @@
+{
+  "generatedAt": "2026-10-29T21:20:14.887Z",
+  "query": {
+    "name": "Textron Systems Corp",
+    "parentUei": "HKUMGJBEMKN3",
+    "entityId": "legal:textron-systems-corporation",
+    "formerNames": [
+      "TEXTRON SYSTEMS CORPORATION"
+    ],
+    "notBefore": null
+  },
+  "searched": 4,
+  "candidates": [
+    {
+      "evidence": {
+        "uei": "SNJ8YY61GB95",
+        "cage": null,
+        "recipientId": "fcd5772b-feb1-830f-fce9-45126a639593-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/fcd5772b-feb1-830f-fce9-45126a639593-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/fcd5772b-feb1-830f-fce9-45126a639593-C/",
+        "responseSha256": "f45d95e0f620210171b5efbd01cb9e96a7851c634151fc344d5e53b1d0159fe9",
+        "name": "TEXTRON SYSTEMS CORPORATION",
+        "parentName": "TEXTRON INC",
+        "parentUei": "HKUMGJBEMKN3",
+        "otherReportedParents": [],
+        "location": "HUNT VALLEY, MD, USA",
+        "contractAmount": 75633484.04,
+        "earliestTransaction": {
+          "date": "2007-10-10",
+          "award": "CONT_AWD_0008_9700_W31P4Q05G0004_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-09-21",
+          "award": "CONT_AWD_70Z03826PJ0000027_7008_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_70Z03826PJ0000027_7008_-NONE-_-NONE-",
+          "parentName": "TEXTRON INC",
+          "parentUei": "HKUMGJBEMKN3",
+          "recipientUei": "SNJ8YY61GB95",
+          "responseSha256": "3f1b116aa57f1ef98b2b75fb403e04fe21a1a7f0bcbe1402723644b249443aeb"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:SNJ8YY61GB95",
+        "kind": "uei",
+        "value": "SNJ8YY61GB95",
+        "entityId": "legal:textron-systems-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-10",
+        "evidenceAsOf": "2026-10-29",
+        "sourceUrl": "https://www.usaspending.gov/recipient/fcd5772b-feb1-830f-fce9-45126a639593-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/fcd5772b-feb1-830f-fce9-45126a639593-C/",
+        "supportingPassage": "TEXTRON SYSTEMS CORPORATION | UEI SNJ8YY61GB95 | HUNT VALLEY, MD, USA | Latest award CONT_AWD_70Z03826PJ0000027_7008_-NONE-_-NONE- (2026-09-21) parent: TEXTRON INC (UEI HKUMGJBEMKN3)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "R9MCJ6BRC8M7",
+        "cage": null,
+        "recipientId": "67adede5-a4b1-1d20-3e7b-06c52e9a32cb-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/67adede5-a4b1-1d20-3e7b-06c52e9a32cb-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/67adede5-a4b1-1d20-3e7b-06c52e9a32cb-C/",
+        "responseSha256": "9de0cb443fba82d783ff2d5ab9f85e08cb48f13329c0b61ad36d396f294af47e",
+        "name": "TEXTRON SYSTEMS CORPORATION",
+        "parentName": "AIRBORNE TACTICAL ADVANTAGE CO LLC",
+        "parentUei": "ZLWHRRZD8TM8",
+        "otherReportedParents": [
+          "TEXTRON SYSTEMS CORPORATION / TA82JN9LYJ44",
+          "TEXTRON INC / HKUMGJBEMKN3"
+        ],
+        "location": "WILMINGTON, MA, USA",
+        "contractAmount": 670500,
+        "earliestTransaction": {
+          "date": "2007-10-01",
+          "award": "CONT_AWD_W15QKN06C0161_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-07-21",
+          "award": "CONT_AWD_FA820414C0011_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_FA820414C0011_9700_-NONE-_-NONE-",
+          "parentName": "TEXTRON INC",
+          "parentUei": "HKUMGJBEMKN3",
+          "recipientUei": "R9MCJ6BRC8M7",
+          "responseSha256": "fd1de0a80a129761a41e5b12523032f76417879946f7440126f369ec9c286904"
+        },
+        "warnings": [
+          "profile parent UEI ZLWHRRZD8TM8 (AIRBORNE TACTICAL ADVANTAGE CO LLC) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:R9MCJ6BRC8M7",
+        "kind": "uei",
+        "value": "R9MCJ6BRC8M7",
+        "entityId": "legal:textron-systems-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-01",
+        "evidenceAsOf": "2026-10-29",
+        "sourceUrl": "https://www.usaspending.gov/recipient/67adede5-a4b1-1d20-3e7b-06c52e9a32cb-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/67adede5-a4b1-1d20-3e7b-06c52e9a32cb-C/",
+        "supportingPassage": "TEXTRON SYSTEMS CORPORATION | UEI R9MCJ6BRC8M7 | WILMINGTON, MA, USA | Latest award CONT_AWD_FA820414C0011_9700_-NONE-_-NONE- (2026-07-21) parent: TEXTRON INC (UEI HKUMGJBEMKN3)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "uei": "WEE9WFHMACH9",
+      "cage": null,
+      "recipientId": "4cda9ea4-034c-8fc4-fdd1-da02479ace65-C",
+      "profileUrl": "https://www.usaspending.gov/recipient/4cda9ea4-034c-8fc4-fdd1-da02479ace65-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/4cda9ea4-034c-8fc4-fdd1-da02479ace65-C/",
+      "responseSha256": "bd5db9889c92b79f5496f5942672a260b8ca897a117edd1964ad0863d277ce38",
+      "name": "TEXTRON SYSTEMS CORP",
+      "parentName": "TEXTRON INC",
+      "parentUei": "HKUMGJBEMKN3",
+      "otherReportedParents": [
+        "TEXTRON SYSTEMS CORP / WEE9WFHMACH9"
+      ],
+      "location": "NEW ORLEANS, LA, USA",
+      "contractAmount": 136379695,
+      "earliestTransaction": {
+        "date": "2007-10-04",
+        "award": "CONT_AWD_N0002403C2200_9700_-NONE-_-NONE-"
+      },
+      "latestTransaction": {
+        "date": "2026-07-16",
+        "award": "CONT_AWD_W912CH25C0088_9700_-NONE-_-NONE-"
+      },
+      "latestAwardParent": {
+        "id": "CONT_AWD_W912CH25C0088_9700_-NONE-_-NONE-",
+        "parentName": "TEXTRON SYSTEMS CORP",
+        "parentUei": "WEE9WFHMACH9",
+        "recipientUei": "WEE9WFHMACH9",
+        "responseSha256": "16952722c7b331b03a75ebe1153972534e41e6471a59a97e3a9e32e560ba5141"
+      },
+      "warnings": [],
+      "reasons": [
+        "latest award parent UEI WEE9WFHMACH9 (TEXTRON SYSTEMS CORP) differs from expected"
+      ]
+    }
+  ],
+  "limitations": [
+    "USAspending reflects SAM data as reported; it is not SAM.gov itself",
+    "Recipient search is keyword-based and capped at 500 records",
+    "Profile parent fields can be stale; corroboration uses the parent on the latest award record",
+    "Name and parent agreement do not prove the SEC-listed legal entity; review state of incorporation separately where available"
+  ]
+}

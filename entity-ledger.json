@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "reviewedAt": "2026-10-15",
+  "reviewedAt": "2026-10-29",
   "entities": [
     {
       "id": "sec:0000101829",
@@ -1161,6 +1161,123 @@
       "uei": null,
       "cage": null,
       "stateOfIncorporation": "Delaware"
+    },
+    {
+      "id": "sec:0000217346",
+      "legalName": "Textron Inc.",
+      "cik": "0000217346",
+      "uei": null,
+      "cage": null,
+      "publicListing": {
+        "ticker": "TXT",
+        "exchange": "NYSE",
+        "evidenceAsOf": "2026-01-03",
+        "sourceUrl": "https://www.sec.gov/Archives/edgar/data/217346/000021734626000006/txt-20260103.htm",
+        "sourceSection": "Cover page, registered securities table",
+        "supportingPassage": "Common Stock — par value $0.125 TXT New York Stock Exchange"
+      },
+      "formerNames": [],
+      "formerNamesSource": "https://data.sec.gov/submissions/CIK0000217346.json (formerNames empty), reviewed 2026-10-29",
+      "revenueEvidence": [
+        {
+          "fiscalYearEnd": "2026-01-03",
+          "value": 14799000000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/217346/000021734626000006/txt-20260103.htm",
+          "sourceSection": "Consolidated Statements of Operations (in millions)",
+          "supportingPassage": "2025 2024 2023 Revenues ... Total revenues 14,799 13,702 13,683",
+          "xbrlCrossCheck": "Matches us-gaap:Revenues annual fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-29"
+        },
+        {
+          "fiscalYearEnd": "2024-12-28",
+          "value": 13702000000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/217346/000021734626000006/txt-20260103.htm",
+          "sourceSection": "Consolidated Statements of Operations (in millions)",
+          "supportingPassage": "2025 2024 2023 Revenues ... Total revenues 14,799 13,702 13,683",
+          "xbrlCrossCheck": "Matches us-gaap:Revenues annual fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-29"
+        },
+        {
+          "fiscalYearEnd": "2023-12-30",
+          "value": 13683000000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/217346/000021734626000006/txt-20260103.htm",
+          "sourceSection": "Consolidated Statements of Operations (in millions)",
+          "supportingPassage": "2025 2024 2023 Revenues ... Total revenues 14,799 13,702 13,683",
+          "xbrlCrossCheck": "Matches us-gaap:Revenues annual fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-29"
+        },
+        {
+          "fiscalYearEnd": "2022-12-31",
+          "value": 12869000000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/217346/000021734623000006/txt-20221231.htm",
+          "sourceSection": "Consolidated Statements of Operations (in millions)",
+          "supportingPassage": "2022 2021 2020 Revenues ... Total revenues 12,869 12,382 11,651",
+          "xbrlCrossCheck": "Matches us-gaap:Revenues annual fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-29"
+        },
+        {
+          "fiscalYearEnd": "2022-01-01",
+          "value": 12382000000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/217346/000021734623000006/txt-20221231.htm",
+          "sourceSection": "Consolidated Statements of Operations (in millions)",
+          "supportingPassage": "2022 2021 2020 Revenues ... Total revenues 12,869 12,382 11,651",
+          "xbrlCrossCheck": "Matches us-gaap:Revenues annual fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-29"
+        },
+        {
+          "fiscalYearEnd": "2021-01-02",
+          "value": 11651000000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/217346/000021734623000006/txt-20221231.htm",
+          "sourceSection": "Consolidated Statements of Operations (in millions)",
+          "supportingPassage": "2022 2021 2020 Revenues ... Total revenues 12,869 12,382 11,651",
+          "xbrlCrossCheck": "Matches us-gaap:Revenues annual fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "id": "legal:bell-textron-inc",
+      "legalName": "Bell Textron Inc.",
+      "cik": null,
+      "uei": null,
+      "cage": null,
+      "stateOfIncorporation": "Delaware"
+    },
+    {
+      "id": "legal:textron-systems-corporation",
+      "legalName": "Textron Systems Corporation",
+      "cik": null,
+      "uei": null,
+      "cage": null,
+      "stateOfIncorporation": "Maryland"
+    },
+    {
+      "id": "legal:textron-aviation-inc",
+      "legalName": "Textron Aviation Inc.",
+      "cik": null,
+      "uei": null,
+      "cage": null,
+      "stateOfIncorporation": "Kansas"
+    },
+    {
+      "id": "legal:textron-aviation-defense-llc",
+      "legalName": "Textron Aviation Defense LLC",
+      "cik": null,
+      "uei": null,
+      "cage": null,
+      "stateOfIncorporation": "Delaware"
     }
   ],
   "relationships": [
@@ -1818,6 +1935,135 @@
       "limitations": [
         "Indirect subsidiary: ownership through Aerojet Rocketdyne Holdings, Inc. is inferred from the merger 8-K and the registrant subsidiary listing, not stated for this entity",
         "Latest reviewed relationship evidence is dated 2026-01-02"
+      ]
+    },
+    {
+      "id": "relationship:bell-textron-inc-0000217346",
+      "childId": "legal:bell-textron-inc",
+      "parentId": "sec:0000217346",
+      "type": "subsidiary",
+      "reviewStatus": "reviewed_primary_filing",
+      "effectiveFrom": "2020-01-04",
+      "effectiveUntil": null,
+      "evidenceAsOf": "2026-01-03",
+      "ownershipPercentage": 100,
+      "observedAt": "2026-10-29",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/217346/000110465920024773/ex-21.htm",
+          "section": "Exhibit 21, Certain Subsidiaries of Textron Inc. (fiscal 2019 (2020-01-04))",
+          "supportingPassage": "Bell Textron Inc. | Delaware",
+          "scope": "Wholly owned at fiscal fisc year-end. Exhibit 21 header: \"Unless indicated otherwise, all entities listed are wholly-owned\"; no other percentage is indicated for this entity"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/217346/000021734626000006/q4202510k-exx21.htm",
+          "section": "Exhibit 21, Certain Subsidiaries of Textron Inc. (fiscal 2025, 2026-01-03)",
+          "supportingPassage": "Bell Textron Inc. | Delaware",
+          "scope": "Wholly owned at 2026-01-03; no government recipient identifier. Exhibit 21 header: \"Unless indicated otherwise, all entities listed are wholly-owned\"; no other percentage is indicated for this entity"
+        }
+      ],
+      "limitations": [
+        "Latest reviewed relationship evidence is dated 2026-01-03",
+        "Continuity between reviewed annual subsidiary listings is assumed, not restated",
+        "Effective-from is the earliest reviewed listing, not the formation or acquisition date",
+        "Exhibit 21 lists certain subsidiaries only; omitted entities are not evidence of non-ownership"
+      ]
+    },
+    {
+      "id": "relationship:textron-systems-corporation-0000217346",
+      "childId": "legal:textron-systems-corporation",
+      "parentId": "sec:0000217346",
+      "type": "subsidiary",
+      "reviewStatus": "reviewed_primary_filing",
+      "effectiveFrom": "2021-01-02",
+      "effectiveUntil": null,
+      "evidenceAsOf": "2026-01-03",
+      "ownershipPercentage": 100,
+      "observedAt": "2026-10-29",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/217346/000021734621000019/q4202010k-exx21.htm",
+          "section": "Exhibit 21, Certain Subsidiaries of Textron Inc. (fiscal 2020 (2021-01-02))",
+          "supportingPassage": "Textron Systems Corporation | Maryland",
+          "scope": "Wholly owned at fiscal fisc year-end. Exhibit 21 header: \"Unless indicated otherwise, all entities listed are wholly-owned\"; no other percentage is indicated for this entity"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/217346/000021734626000006/q4202510k-exx21.htm",
+          "section": "Exhibit 21, Certain Subsidiaries of Textron Inc. (fiscal 2025, 2026-01-03)",
+          "supportingPassage": "Textron Systems Corporation | Maryland",
+          "scope": "Wholly owned at 2026-01-03; no government recipient identifier. Exhibit 21 header: \"Unless indicated otherwise, all entities listed are wholly-owned\"; no other percentage is indicated for this entity"
+        }
+      ],
+      "limitations": [
+        "Latest reviewed relationship evidence is dated 2026-01-03",
+        "Continuity between reviewed annual subsidiary listings is assumed, not restated",
+        "Effective-from is the earliest reviewed listing, not the formation or acquisition date",
+        "Exhibit 21 lists certain subsidiaries only; omitted entities are not evidence of non-ownership",
+        "The fiscal 2019 Exhibit 21 lists a Delaware Textron Systems Corporation and a Maryland AAI Corporation; from fiscal 2020 only a Maryland Textron Systems Corporation is listed. The apparent AAI rename/merger is not stated in a reviewed filing, so earlier dates are not modeled."
+      ]
+    },
+    {
+      "id": "relationship:textron-aviation-inc-0000217346",
+      "childId": "legal:textron-aviation-inc",
+      "parentId": "sec:0000217346",
+      "type": "subsidiary",
+      "reviewStatus": "reviewed_primary_filing",
+      "effectiveFrom": "2020-01-04",
+      "effectiveUntil": null,
+      "evidenceAsOf": "2026-01-03",
+      "ownershipPercentage": 100,
+      "observedAt": "2026-10-29",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/217346/000110465920024773/ex-21.htm",
+          "section": "Exhibit 21, Certain Subsidiaries of Textron Inc. (fiscal 2019 (2020-01-04))",
+          "supportingPassage": "Textron Aviation Inc. | Kansas",
+          "scope": "Wholly owned at fiscal fisc year-end. Exhibit 21 header: \"Unless indicated otherwise, all entities listed are wholly-owned\"; no other percentage is indicated for this entity"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/217346/000021734626000006/q4202510k-exx21.htm",
+          "section": "Exhibit 21, Certain Subsidiaries of Textron Inc. (fiscal 2025, 2026-01-03)",
+          "supportingPassage": "Textron Aviation Inc. | Kansas",
+          "scope": "Wholly owned at 2026-01-03; no government recipient identifier. Exhibit 21 header: \"Unless indicated otherwise, all entities listed are wholly-owned\"; no other percentage is indicated for this entity"
+        }
+      ],
+      "limitations": [
+        "Latest reviewed relationship evidence is dated 2026-01-03",
+        "Continuity between reviewed annual subsidiary listings is assumed, not restated",
+        "Effective-from is the earliest reviewed listing, not the formation or acquisition date",
+        "Exhibit 21 lists certain subsidiaries only; omitted entities are not evidence of non-ownership"
+      ]
+    },
+    {
+      "id": "relationship:textron-aviation-defense-llc-0000217346",
+      "childId": "legal:textron-aviation-defense-llc",
+      "parentId": "sec:0000217346",
+      "type": "subsidiary",
+      "reviewStatus": "reviewed_primary_filing",
+      "effectiveFrom": "2020-01-04",
+      "effectiveUntil": null,
+      "evidenceAsOf": "2026-01-03",
+      "ownershipPercentage": 100,
+      "observedAt": "2026-10-29",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/217346/000110465920024773/ex-21.htm",
+          "section": "Exhibit 21, Certain Subsidiaries of Textron Inc. (fiscal 2019 (2020-01-04))",
+          "supportingPassage": "Textron Aviation Defense LLC | Delaware",
+          "scope": "Wholly owned at fiscal fisc year-end. Exhibit 21 header: \"Unless indicated otherwise, all entities listed are wholly-owned\"; no other percentage is indicated for this entity"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/217346/000021734626000006/q4202510k-exx21.htm",
+          "section": "Exhibit 21, Certain Subsidiaries of Textron Inc. (fiscal 2025, 2026-01-03)",
+          "supportingPassage": "Textron Aviation Defense LLC | Delaware",
+          "scope": "Wholly owned at 2026-01-03; no government recipient identifier. Exhibit 21 header: \"Unless indicated otherwise, all entities listed are wholly-owned\"; no other percentage is indicated for this entity"
+        }
+      ],
+      "limitations": [
+        "Latest reviewed relationship evidence is dated 2026-01-03",
+        "Continuity between reviewed annual subsidiary listings is assumed, not restated",
+        "Effective-from is the earliest reviewed listing, not the formation or acquisition date",
+        "Exhibit 21 lists certain subsidiaries only; omitted entities are not evidence of non-ownership"
       ]
     }
   ],
@@ -6237,6 +6483,86 @@
       "reviewedBy": "Claude (automated-assisted review, 2026-10-15)",
       "reviewedAt": "2026-10-15",
       "reviewFile": "reviews/recipients/aerojet-rocketdyne-of-de-inc.json"
+    },
+    {
+      "id": "binding:uei:N5QUZAYGPKM3",
+      "kind": "uei",
+      "value": "N5QUZAYGPKM3",
+      "entityId": "legal:bell-textron-inc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-01",
+      "evidenceAsOf": "2026-10-29",
+      "sourceUrl": "https://www.usaspending.gov/recipient/9f062daf-f500-7d41-53d7-5248be76b69f-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/9f062daf-f500-7d41-53d7-5248be76b69f-C/",
+      "supportingPassage": "BELL TEXTRON INC | UEI N5QUZAYGPKM3 | FORT WORTH, TX, USA | Latest award CONT_AWD_15F06726F0001262_1549_15F06724A0000004_1549 (2026-10-23) parent: TEXTRON INC (UEI HKUMGJBEMKN3)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-29)",
+      "reviewedAt": "2026-10-29",
+      "reviewFile": "reviews/recipients/bell-textron-inc.json"
+    },
+    {
+      "id": "binding:uei:SNJ8YY61GB95",
+      "kind": "uei",
+      "value": "SNJ8YY61GB95",
+      "entityId": "legal:textron-systems-corporation",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-10",
+      "evidenceAsOf": "2026-10-29",
+      "sourceUrl": "https://www.usaspending.gov/recipient/fcd5772b-feb1-830f-fce9-45126a639593-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/fcd5772b-feb1-830f-fce9-45126a639593-C/",
+      "supportingPassage": "TEXTRON SYSTEMS CORPORATION | UEI SNJ8YY61GB95 | HUNT VALLEY, MD, USA | Latest award CONT_AWD_70Z03826PJ0000027_7008_-NONE-_-NONE- (2026-09-21) parent: TEXTRON INC (UEI HKUMGJBEMKN3)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-29)",
+      "reviewedAt": "2026-10-29",
+      "reviewFile": "reviews/recipients/textron-systems-corporation.json"
+    },
+    {
+      "id": "binding:uei:R9MCJ6BRC8M7",
+      "kind": "uei",
+      "value": "R9MCJ6BRC8M7",
+      "entityId": "legal:textron-systems-corporation",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-01",
+      "evidenceAsOf": "2026-10-29",
+      "sourceUrl": "https://www.usaspending.gov/recipient/67adede5-a4b1-1d20-3e7b-06c52e9a32cb-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/67adede5-a4b1-1d20-3e7b-06c52e9a32cb-C/",
+      "supportingPassage": "TEXTRON SYSTEMS CORPORATION | UEI R9MCJ6BRC8M7 | WILMINGTON, MA, USA | Latest award CONT_AWD_FA820414C0011_9700_-NONE-_-NONE- (2026-07-21) parent: TEXTRON INC (UEI HKUMGJBEMKN3)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-29)",
+      "reviewedAt": "2026-10-29",
+      "reviewFile": "reviews/recipients/textron-systems-corporation.json"
+    },
+    {
+      "id": "binding:uei:LH8RF2CKLWK5",
+      "kind": "uei",
+      "value": "LH8RF2CKLWK5",
+      "entityId": "legal:textron-aviation-inc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2017-01-17",
+      "evidenceAsOf": "2026-10-29",
+      "sourceUrl": "https://www.usaspending.gov/recipient/e91d8566-9d98-0b52-e41f-3afaebeaa161-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/e91d8566-9d98-0b52-e41f-3afaebeaa161-C/",
+      "supportingPassage": "TEXTRON AVIATION INC | UEI LH8RF2CKLWK5 | WICHITA, KS, USA | Latest award CONT_AWD_15F06726F0000747_1549_15F06726A0000279_1549 (2026-09-22) parent: TEXTRON INC (UEI HKUMGJBEMKN3)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-29)",
+      "reviewedAt": "2026-10-29",
+      "reviewFile": "reviews/recipients/textron-aviation-inc.json"
+    },
+    {
+      "id": "binding:uei:RSCJXUGJNGE3",
+      "kind": "uei",
+      "value": "RSCJXUGJNGE3",
+      "entityId": "legal:textron-aviation-defense-llc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2011-10-27",
+      "evidenceAsOf": "2026-10-29",
+      "sourceUrl": "https://www.usaspending.gov/recipient/d6740fa2-bd78-bc2f-e76f-2fb34872ba55-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/d6740fa2-bd78-bc2f-e76f-2fb34872ba55-C/",
+      "supportingPassage": "TEXTRON AVIATION DEFENSE LLC | UEI RSCJXUGJNGE3 | WICHITA, KS, USA | Latest award CONT_AWD_FA869124CB005_9700_-NONE-_-NONE- (2026-07-21) parent: TEXTRON INC (UEI HKUMGJBEMKN3)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-29)",
+      "reviewedAt": "2026-10-29",
+      "reviewFile": "reviews/recipients/textron-aviation-defense-llc.json"
     }
   ],
   "retiredBindings": [

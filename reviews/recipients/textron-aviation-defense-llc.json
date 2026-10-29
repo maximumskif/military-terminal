@@ -1,0 +1,71 @@
+{
+  "generatedAt": "2026-10-29T21:19:38.819Z",
+  "query": {
+    "name": "Textron Aviation Defense LLC",
+    "parentUei": "HKUMGJBEMKN3",
+    "entityId": "legal:textron-aviation-defense-llc",
+    "formerNames": [],
+    "notBefore": null
+  },
+  "searched": 1,
+  "candidates": [
+    {
+      "evidence": {
+        "uei": "RSCJXUGJNGE3",
+        "cage": null,
+        "recipientId": "d6740fa2-bd78-bc2f-e76f-2fb34872ba55-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/d6740fa2-bd78-bc2f-e76f-2fb34872ba55-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/d6740fa2-bd78-bc2f-e76f-2fb34872ba55-C/",
+        "responseSha256": "01a6051466619178680ab614e897369c6ab5edad2fd11fdadf4473bb5090bfd5",
+        "name": "TEXTRON AVIATION DEFENSE LLC",
+        "parentName": "HAWKER BEECHCRAFT GLOBAL CUSTOMER SUPPORT CORPORATION",
+        "parentUei": "R4K4YMJWX4D5",
+        "otherReportedParents": [
+          "TEXTRON INC / HKUMGJBEMKN3",
+          "RAYTHEON COMPANY / KLW3ZYL15493",
+          "HAWKER BEECHCRAFT, INC. / QYYSTNELRS24"
+        ],
+        "location": "WICHITA, KS, USA",
+        "contractAmount": 44694769.17,
+        "earliestTransaction": {
+          "date": "2011-10-27",
+          "award": "CONT_AWD_0015_9700_FA861707D6151_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-07-21",
+          "award": "CONT_AWD_FA869124CB005_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_FA869124CB005_9700_-NONE-_-NONE-",
+          "parentName": "TEXTRON INC",
+          "parentUei": "HKUMGJBEMKN3",
+          "recipientUei": "RSCJXUGJNGE3",
+          "responseSha256": "70844779d584eaaddf2e87914b6aa840895f1a2a96acfd31f872f9bf47f68c86"
+        },
+        "warnings": [
+          "profile parent UEI R4K4YMJWX4D5 (HAWKER BEECHCRAFT GLOBAL CUSTOMER SUPPORT CORPORATION) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:RSCJXUGJNGE3",
+        "kind": "uei",
+        "value": "RSCJXUGJNGE3",
+        "entityId": "legal:textron-aviation-defense-llc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2011-10-27",
+        "evidenceAsOf": "2026-10-29",
+        "sourceUrl": "https://www.usaspending.gov/recipient/d6740fa2-bd78-bc2f-e76f-2fb34872ba55-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/d6740fa2-bd78-bc2f-e76f-2fb34872ba55-C/",
+        "supportingPassage": "TEXTRON AVIATION DEFENSE LLC | UEI RSCJXUGJNGE3 | WICHITA, KS, USA | Latest award CONT_AWD_FA869124CB005_9700_-NONE-_-NONE- (2026-07-21) parent: TEXTRON INC (UEI HKUMGJBEMKN3)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    }
+  ],
+  "excluded": [],
+  "limitations": [
+    "USAspending reflects SAM data as reported; it is not SAM.gov itself",
+    "Recipient search is keyword-based and capped at 500 records",
+    "Profile parent fields can be stale; corroboration uses the parent on the latest award record",
+    "Name and parent agreement do not prove the SEC-listed legal entity; review state of incorporation separately where available"
+  ]
+}
