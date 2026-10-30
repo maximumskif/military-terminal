@@ -69,3 +69,7 @@ console.log('PASS BWXT 100%-owned subsidiary bindings respect reviewed Exhibit 2
 assert.equal(r('MWAKL633WET8','2024-06-01').publicParent,'Curtiss-Wright Corporation');assert.equal(r('MWAKL633WET8','2019-12-30').status,'unresolved');assert.equal(r('N257NEGSDQJ9','2021-06-01').publicParent,'Curtiss-Wright Corporation');assert.equal(r('N257NEGSDQJ9','2026-01-01').status,'unresolved');
 for(const uei of ['JKZNKGGWYZ87','HLQLWMV97J37','TMFLTAKP1KH2','PF8PJNVEPTJ1'])assert.equal(r(uei,'2024-06-01').status,'unresolved');
 console.log('PASS Curtiss-Wright wholly owned subsidiary bindings respect reviewed Exhibit 21 windows; intermediate- and self-parented records abstain');}
+// V2X: V2X Systems LLC only at its fiscal 2025 listing (Vectrus Systems Corporation rename not stated); self-parented V2X Aerospace abstains.
+{const r=(uei,date)=>resolveRecipient({uei},date);
+assert.equal(r('RRFJZGASZJ41','2025-12-31').publicParent,'V2X, Inc.');assert.equal(r('RRFJZGASZJ41','2024-06-01').status,'unresolved');assert.equal(r('NVC1EFKKYB93','2025-12-31').status,'unresolved');
+console.log('PASS V2X Systems binding starts at its fiscal 2025 listing; self-parented V2X Aerospace abstains');}

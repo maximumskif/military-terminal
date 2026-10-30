@@ -1766,6 +1766,110 @@
       "uei": null,
       "cage": null,
       "stateOfIncorporation": "Delaware"
+    },
+    {
+      "id": "sec:0001601548",
+      "legalName": "V2X, Inc.",
+      "cik": "0001601548",
+      "uei": null,
+      "cage": null,
+      "publicListing": {
+        "ticker": "VVX",
+        "exchange": "NYSE",
+        "evidenceAsOf": "2025-12-31",
+        "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1601548/000160154826000015/vec-20251231.htm",
+        "sourceSection": "Cover page, registered securities table",
+        "supportingPassage": "Common Stock, Par Value $.01 Per Share VVX New York Stock Exchange"
+      },
+      "formerNames": [
+        {
+          "name": "Vectrus, Inc.",
+          "from": "2014-04-04",
+          "to": "2022-06-15"
+        },
+        {
+          "name": "Exelis MSCO Inc.",
+          "from": "2014-03-10",
+          "to": "2014-03-10"
+        }
+      ],
+      "formerNamesSource": "https://data.sec.gov/submissions/CIK0001601548.json (formerNames), reviewed 2026-10-30",
+      "revenueEvidence": [
+        {
+          "fiscalYearEnd": "2025-12-31",
+          "value": 4480038000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1601548/000160154826000015/vec-20251231.htm",
+          "sourceSection": "Consolidated Statements of Income (Loss) (in thousands)",
+          "supportingPassage": "Year Ended December 31, (In thousands, except per share data) 2025 2024 2023 Revenue $ 4,480,038 $ 4,322,155 $ 3,963,126",
+          "xbrlCrossCheck": "Matches us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax annual fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-30"
+        },
+        {
+          "fiscalYearEnd": "2024-12-31",
+          "value": 4322155000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1601548/000160154826000015/vec-20251231.htm",
+          "sourceSection": "Consolidated Statements of Income (Loss) (in thousands)",
+          "supportingPassage": "Year Ended December 31, (In thousands, except per share data) 2025 2024 2023 Revenue $ 4,480,038 $ 4,322,155 $ 3,963,126",
+          "xbrlCrossCheck": "Matches us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax annual fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-30"
+        },
+        {
+          "fiscalYearEnd": "2023-12-31",
+          "value": 3963126000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1601548/000160154826000015/vec-20251231.htm",
+          "sourceSection": "Consolidated Statements of Income (Loss) (in thousands)",
+          "supportingPassage": "Year Ended December 31, (In thousands, except per share data) 2025 2024 2023 Revenue $ 4,480,038 $ 4,322,155 $ 3,963,126",
+          "xbrlCrossCheck": "Matches us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax annual fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-30"
+        },
+        {
+          "fiscalYearEnd": "2022-12-31",
+          "value": 2890860000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1601548/000160154823000012/vec-20221231.htm",
+          "sourceSection": "Consolidated Statements of Income (Loss) (in thousands)",
+          "supportingPassage": "Year Ended December 31, (In thousands, except per share data) 2022 2021 2020 Revenue $ 2,890,860 $ 1,783,665 $ 1,395,529",
+          "xbrlCrossCheck": "Matches us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax annual fact in SEC companyconcept data. FY2022 includes Vertex Aerospace only from the July 2022 merger",
+          "reviewedAt": "2026-10-30"
+        },
+        {
+          "fiscalYearEnd": "2021-12-31",
+          "value": 1783665000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1601548/000160154823000012/vec-20221231.htm",
+          "sourceSection": "Consolidated Statements of Income (Loss) (in thousands)",
+          "supportingPassage": "Year Ended December 31, (In thousands, except per share data) 2022 2021 2020 Revenue $ 2,890,860 $ 1,783,665 $ 1,395,529",
+          "xbrlCrossCheck": "Matches us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax annual fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-30"
+        },
+        {
+          "fiscalYearEnd": "2020-12-31",
+          "value": 1395529000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1601548/000160154823000012/vec-20221231.htm",
+          "sourceSection": "Consolidated Statements of Income (Loss) (in thousands)",
+          "supportingPassage": "Year Ended December 31, (In thousands, except per share data) 2022 2021 2020 Revenue $ 2,890,860 $ 1,783,665 $ 1,395,529",
+          "xbrlCrossCheck": "Matches us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax annual fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-30"
+        }
+      ]
+    },
+    {
+      "id": "legal:v2x-systems-llc",
+      "legalName": "V2X Systems LLC",
+      "cik": null,
+      "uei": null,
+      "cage": null,
+      "stateOfIncorporation": "Delaware"
     }
   ],
   "relationships": [
@@ -3077,6 +3181,31 @@
         "Effective-from is the earliest reviewed listing, not the formation or acquisition date",
         "Exhibit 21 lists significant subsidiaries only; omitted entities are not evidence of non-ownership",
         "Exhibit 21 spells the name without a hyphen or comma; the bound USAspending record reads CURTISS-WRIGHT CONTROLS, INC."
+      ]
+    },
+    {
+      "id": "relationship:v2x-systems-llc-0001601548",
+      "childId": "legal:v2x-systems-llc",
+      "parentId": "sec:0001601548",
+      "type": "subsidiary",
+      "reviewStatus": "reviewed_primary_filing",
+      "effectiveFrom": "2025-12-31",
+      "effectiveUntil": null,
+      "evidenceAsOf": "2025-12-31",
+      "ownershipPercentage": null,
+      "observedAt": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1601548/000160154826000015/exhibit21-subsidiaries1231.htm",
+          "section": "Exhibit 21, Subsidiaries (fiscal 2025, 2025-12-31)",
+          "supportingPassage": "V2X Systems LLC | Delaware",
+          "scope": "Subsidiary listing at 2025-12-31; no ownership percentage; no government recipient identifier"
+        }
+      ],
+      "limitations": [
+        "Latest reviewed relationship evidence is dated 2025-12-31",
+        "Exhibit 21 lists subsidiaries without ownership percentages; no filing passage states wholly owned status for this entity",
+        "Fiscal 2020–2024 Exhibit 21 lists a Delaware “Vectrus Systems Corporation”; fiscal 2025 lists only “V2X Systems LLC”. The fiscal 2025 Form 10-K and the May 2026 credit agreement amendment state other subsidiary renames (e.g. V2X LLC f/k/a Vertex Aerospace Services LLC) but not this one, so earlier dates are not modeled."
       ]
     }
   ],
@@ -7896,6 +8025,38 @@
       "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
       "reviewedAt": "2026-10-30",
       "reviewFile": "reviews/recipients/curtiss-wright-controls-inc.json"
+    },
+    {
+      "id": "binding:uei:RRFJZGASZJ41",
+      "kind": "uei",
+      "value": "RRFJZGASZJ41",
+      "entityId": "legal:v2x-systems-llc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-03",
+      "evidenceAsOf": "2026-10-30",
+      "sourceUrl": "https://www.usaspending.gov/recipient/385c148c-559c-6218-53ff-80836c64dc4c-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/385c148c-559c-6218-53ff-80836c64dc4c-C/",
+      "supportingPassage": "V2X SYSTEMS LLC | UEI RRFJZGASZJ41 | COLORADO SPRINGS, CO, USA | Latest award CONT_AWD_15JPSS26C00000450_1501_-NONE-_-NONE- (2026-10-26) parent: V2X, INC. (UEI CG8SV4246V29)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-30",
+      "reviewFile": "reviews/recipients/v2x-systems-llc.json"
+    },
+    {
+      "id": "binding:uei:EK2CM5J7DWM8",
+      "kind": "uei",
+      "value": "EK2CM5J7DWM8",
+      "entityId": "legal:v2x-systems-llc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-11",
+      "evidenceAsOf": "2026-10-30",
+      "sourceUrl": "https://www.usaspending.gov/recipient/082381d2-346d-1910-6482-310099493f81-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/082381d2-346d-1910-6482-310099493f81-C/",
+      "supportingPassage": "V2X SYSTEMS LLC | UEI EK2CM5J7DWM8 | MC LEAN, VA, USA | Latest award CONT_AWD_DTFACT15D00005CALL0002_6920_DTFACT15D00005_6920 (2026-08-22) parent: V2X, INC. (UEI CG8SV4246V29)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-30",
+      "reviewFile": "reviews/recipients/v2x-systems-llc.json"
     }
   ],
   "retiredBindings": [

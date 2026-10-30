@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-10-30T16:48:35.987Z",
+  "query": {
+    "name": "V2X Aerospace LLC",
+    "parentUei": "CG8SV4246V29",
+    "entityId": "legal:v2x-aerospace-llc",
+    "formerNames": [],
+    "notBefore": null
+  },
+  "searched": 2,
+  "candidates": [],
+  "excluded": [
+    {
+      "uei": "NVC1EFKKYB93",
+      "cage": null,
+      "recipientId": "fb63ba18-02ee-d557-7366-681926c60e0d-C",
+      "profileUrl": "https://www.usaspending.gov/recipient/fb63ba18-02ee-d557-7366-681926c60e0d-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/fb63ba18-02ee-d557-7366-681926c60e0d-C/",
+      "responseSha256": "a60d12029f49b2c0a3a9773f2c792dbc813a0144b39bbe0ff3a4f1bf2e92748e",
+      "name": "V2X AEROSPACE LLC",
+      "parentName": "VERTEX AEROSPACE SERVICES CORP.",
+      "parentUei": "CDHKCNGNKXH5",
+      "otherReportedParents": [
+        "L-3 COMMUNICATIONS HOLDINGS, INC. / DTZJAQF8NZA1",
+        "L3 TECHNOLOGIES, INC. / XXP4PLFFFGK9",
+        "V2X AEROSPACE LLC / NVC1EFKKYB93"
+      ],
+      "location": "MADISON, MS, USA",
+      "contractAmount": 1666188323.99,
+      "earliestTransaction": {
+        "date": "2007-10-01",
+        "award": "CONT_AWD_WA01_9700_N0001903D0010_9700"
+      },
+      "latestTransaction": {
+        "date": "2026-10-19",
+        "award": "CONT_AWD_47QFCA24F0033_4732_47QFCA22D0344_4732"
+      },
+      "latestAwardParent": {
+        "id": "CONT_AWD_47QFCA24F0033_4732_47QFCA22D0344_4732",
+        "parentName": "V2X AEROSPACE LLC",
+        "parentUei": "NVC1EFKKYB93",
+        "recipientUei": "NVC1EFKKYB93",
+        "responseSha256": "cbcfb1c434eb372a410051023a25cecb41681c73a0179a25d56f76efd0a81582"
+      },
+      "warnings": [
+        "profile parent UEI CDHKCNGNKXH5 (VERTEX AEROSPACE SERVICES CORP.) differs from expected; not relied on"
+      ],
+      "reasons": [
+        "latest award parent UEI NVC1EFKKYB93 (V2X AEROSPACE LLC) differs from expected"
+      ]
+    }
+  ],
+  "limitations": [
+    "USAspending reflects SAM data as reported; it is not SAM.gov itself",
+    "Recipient search is keyword-based and capped at 500 records",
+    "Profile parent fields can be stale; corroboration uses the parent on the latest award record",
+    "Name and parent agreement do not prove the SEC-listed legal entity; review state of incorporation separately where available"
+  ]
+}
