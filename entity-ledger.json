@@ -1411,6 +1411,145 @@
       "uei": null,
       "cage": null,
       "stateOfIncorporation": "Delaware"
+    },
+    {
+      "id": "sec:0000275880",
+      "legalName": "Parsons Corporation",
+      "cik": "0000275880",
+      "uei": null,
+      "cage": null,
+      "publicListing": {
+        "ticker": "PSN",
+        "exchange": "NYSE",
+        "evidenceAsOf": "2025-12-31",
+        "sourceUrl": "https://www.sec.gov/Archives/edgar/data/275880/000119312526045495/psn-20251231.htm",
+        "sourceSection": "Cover page, registered securities table",
+        "supportingPassage": "Common Stock, $1 par value PSN New York Stock Exchange"
+      },
+      "formerNames": [
+        {
+          "name": "PARSON CORP",
+          "from": "2019-02-11",
+          "to": "2019-02-11"
+        }
+      ],
+      "formerNamesSource": "https://data.sec.gov/submissions/CIK0000275880.json (formerNames), reviewed 2026-10-30",
+      "revenueEvidence": [
+        {
+          "fiscalYearEnd": "2025-12-31",
+          "value": 6364245000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/275880/000119312526045495/psn-20251231.htm",
+          "sourceSection": "Consolidated Statements of Income (in thousands)",
+          "supportingPassage": "Years Ended December 31, 2025, December 31, 2024 and December 31, 2023 ... 2025 2024 2023 Revenue $ 6,364,245 $ 6,750,576 $ 5,442,749",
+          "xbrlCrossCheck": "Matches us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax annual fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-30"
+        },
+        {
+          "fiscalYearEnd": "2024-12-31",
+          "value": 6750576000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/275880/000119312526045495/psn-20251231.htm",
+          "sourceSection": "Consolidated Statements of Income (in thousands)",
+          "supportingPassage": "Years Ended December 31, 2025, December 31, 2024 and December 31, 2023 ... 2025 2024 2023 Revenue $ 6,364,245 $ 6,750,576 $ 5,442,749",
+          "xbrlCrossCheck": "Matches us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax annual fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-30"
+        },
+        {
+          "fiscalYearEnd": "2023-12-31",
+          "value": 5442749000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/275880/000119312526045495/psn-20251231.htm",
+          "sourceSection": "Consolidated Statements of Income (in thousands)",
+          "supportingPassage": "Years Ended December 31, 2025, December 31, 2024 and December 31, 2023 ... 2025 2024 2023 Revenue $ 6,364,245 $ 6,750,576 $ 5,442,749",
+          "xbrlCrossCheck": "Matches us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax annual fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-30"
+        },
+        {
+          "fiscalYearEnd": "2022-12-31",
+          "value": 4195272000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/275880/000156459023002040/psn-10k_20221231.htm",
+          "sourceSection": "Consolidated Statements of Income (in thousands)",
+          "supportingPassage": "Years Ended December 31, 2022, December 31, 2021 and December 31, 2020 ... 2022 2021 2020 Revenue $ 4,195,272 $ 3,660,771 $ 3,918,946",
+          "xbrlCrossCheck": "Matches us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax annual fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-30"
+        },
+        {
+          "fiscalYearEnd": "2021-12-31",
+          "value": 3660771000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/275880/000156459023002040/psn-10k_20221231.htm",
+          "sourceSection": "Consolidated Statements of Income (in thousands)",
+          "supportingPassage": "Years Ended December 31, 2022, December 31, 2021 and December 31, 2020 ... 2022 2021 2020 Revenue $ 4,195,272 $ 3,660,771 $ 3,918,946",
+          "xbrlCrossCheck": "Matches us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax annual fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-30"
+        },
+        {
+          "fiscalYearEnd": "2020-12-31",
+          "value": 3918946000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/275880/000156459023002040/psn-10k_20221231.htm",
+          "sourceSection": "Consolidated Statements of Income (in thousands)",
+          "supportingPassage": "Years Ended December 31, 2022, December 31, 2021 and December 31, 2020 ... 2022 2021 2020 Revenue $ 4,195,272 $ 3,660,771 $ 3,918,946",
+          "xbrlCrossCheck": "Matches us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax annual fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-30"
+        }
+      ]
+    },
+    {
+      "id": "legal:parsons-government-services-inc",
+      "legalName": "Parsons Government Services Inc.",
+      "cik": null,
+      "uei": null,
+      "cage": null,
+      "stateOfIncorporation": "Nevada"
+    },
+    {
+      "id": "legal:parsons-government-services-international-inc",
+      "legalName": "Parsons Government Services International Inc.",
+      "cik": null,
+      "uei": null,
+      "cage": null,
+      "stateOfIncorporation": "Delaware"
+    },
+    {
+      "id": "legal:williams-electric-co-inc",
+      "legalName": "Williams Electric Co., Inc.",
+      "cik": null,
+      "uei": null,
+      "cage": null,
+      "stateOfIncorporation": "Florida"
+    },
+    {
+      "id": "legal:parsons-technical-services-inc",
+      "legalName": "Parsons Technical Services Inc.",
+      "cik": null,
+      "uei": null,
+      "cage": null,
+      "stateOfIncorporation": "Delaware"
+    },
+    {
+      "id": "legal:space-ground-system-solutions-inc",
+      "legalName": "Space Ground System Solutions, Inc.",
+      "cik": null,
+      "uei": null,
+      "cage": null,
+      "stateOfIncorporation": "Florida"
+    },
+    {
+      "id": "legal:xator-llc",
+      "legalName": "Xator LLC",
+      "cik": null,
+      "uei": null,
+      "cage": null,
+      "stateOfIncorporation": "Florida"
     }
   ],
   "relationships": [
@@ -2373,6 +2512,193 @@
         "Effective-from is the earliest reviewed listing, not the formation or acquisition date; continuity between annual listings is assumed",
         "Exhibit 21.1 lists subsidiaries of the registrant without ownership percentages; Note 1 (fiscal 2019) describes “wholly-owned subsidiaries and joint ventures that are majority owned or otherwise controlled” without naming this entity",
         "The fiscal 2025 Exhibit 21.1 contains a truncated entry “CACI Azure Summit” with no entity type or state; the full name first appears in the fiscal 2026 listing, so fiscal 2025 is not modeled."
+      ]
+    },
+    {
+      "id": "relationship:parsons-government-services-inc-0000275880",
+      "childId": "legal:parsons-government-services-inc",
+      "parentId": "sec:0000275880",
+      "type": "subsidiary",
+      "reviewStatus": "reviewed_primary_filing",
+      "effectiveFrom": "2019-12-31",
+      "effectiveUntil": null,
+      "evidenceAsOf": "2025-12-31",
+      "ownershipPercentage": null,
+      "observedAt": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/275880/000156459020009791/psn-ex211_896.htm",
+          "section": "Exhibit 21.1, List of Subsidiaries of the Registrant (fiscal 2019, 2019-12-31)",
+          "supportingPassage": "Parsons Government Services Inc. | Nevada",
+          "scope": "Subsidiary listing at fiscal 2019 year-end; no ownership percentage"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/275880/000119312526045495/psn-ex21_1.htm",
+          "section": "Exhibit 21.1, List of Subsidiaries of the Registrant (fiscal 2025, 2025-12-31)",
+          "supportingPassage": "Parsons Government Services Inc. | Nevada",
+          "scope": "Subsidiary listing at 2025-12-31; no ownership percentage; no government recipient identifier"
+        }
+      ],
+      "limitations": [
+        "Latest reviewed relationship evidence is dated 2025-12-31",
+        "Effective-from is the earliest reviewed listing, not the formation or acquisition date; continuity between annual listings is assumed",
+        "Exhibit 21.1 lists subsidiaries of the registrant without ownership percentages; no filing passage states wholly owned status for this entity"
+      ]
+    },
+    {
+      "id": "relationship:parsons-government-services-international-inc-0000275880",
+      "childId": "legal:parsons-government-services-international-inc",
+      "parentId": "sec:0000275880",
+      "type": "subsidiary",
+      "reviewStatus": "reviewed_primary_filing",
+      "effectiveFrom": "2019-12-31",
+      "effectiveUntil": null,
+      "evidenceAsOf": "2025-12-31",
+      "ownershipPercentage": null,
+      "observedAt": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/275880/000156459020009791/psn-ex211_896.htm",
+          "section": "Exhibit 21.1, List of Subsidiaries of the Registrant (fiscal 2019, 2019-12-31)",
+          "supportingPassage": "Parsons Government Services International Inc. | Delaware",
+          "scope": "Subsidiary listing at fiscal 2019 year-end; no ownership percentage"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/275880/000119312526045495/psn-ex21_1.htm",
+          "section": "Exhibit 21.1, List of Subsidiaries of the Registrant (fiscal 2025, 2025-12-31)",
+          "supportingPassage": "Parsons Government Services International Inc. | Delaware",
+          "scope": "Subsidiary listing at 2025-12-31; no ownership percentage; no government recipient identifier"
+        }
+      ],
+      "limitations": [
+        "Latest reviewed relationship evidence is dated 2025-12-31",
+        "Effective-from is the earliest reviewed listing, not the formation or acquisition date; continuity between annual listings is assumed",
+        "Exhibit 21.1 lists subsidiaries of the registrant without ownership percentages; no filing passage states wholly owned status for this entity"
+      ]
+    },
+    {
+      "id": "relationship:williams-electric-co-inc-0000275880",
+      "childId": "legal:williams-electric-co-inc",
+      "parentId": "sec:0000275880",
+      "type": "subsidiary",
+      "reviewStatus": "reviewed_primary_filing",
+      "effectiveFrom": "2019-12-31",
+      "effectiveUntil": null,
+      "evidenceAsOf": "2025-12-31",
+      "ownershipPercentage": null,
+      "observedAt": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/275880/000156459020009791/psn-ex211_896.htm",
+          "section": "Exhibit 21.1, List of Subsidiaries of the Registrant (fiscal 2019, 2019-12-31)",
+          "supportingPassage": "Williams Electric Co., Inc. | Florida",
+          "scope": "Subsidiary listing at fiscal 2019 year-end; no ownership percentage"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/275880/000119312526045495/psn-ex21_1.htm",
+          "section": "Exhibit 21.1, List of Subsidiaries of the Registrant (fiscal 2025, 2025-12-31)",
+          "supportingPassage": "Williams Electric Co., Inc. | Florida",
+          "scope": "Subsidiary listing at 2025-12-31; no ownership percentage; no government recipient identifier"
+        }
+      ],
+      "limitations": [
+        "Latest reviewed relationship evidence is dated 2025-12-31",
+        "Effective-from is the earliest reviewed listing, not the formation or acquisition date; continuity between annual listings is assumed",
+        "Exhibit 21.1 lists subsidiaries of the registrant without ownership percentages; no filing passage states wholly owned status for this entity"
+      ]
+    },
+    {
+      "id": "relationship:parsons-technical-services-inc-0000275880",
+      "childId": "legal:parsons-technical-services-inc",
+      "parentId": "sec:0000275880",
+      "type": "subsidiary",
+      "reviewStatus": "reviewed_primary_filing",
+      "effectiveFrom": "2019-12-31",
+      "effectiveUntil": null,
+      "evidenceAsOf": "2025-12-31",
+      "ownershipPercentage": null,
+      "observedAt": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/275880/000156459020009791/psn-ex211_896.htm",
+          "section": "Exhibit 21.1, List of Subsidiaries of the Registrant (fiscal 2019, 2019-12-31)",
+          "supportingPassage": "Parsons Technical Services Inc. | Delaware",
+          "scope": "Subsidiary listing at fiscal 2019 year-end; no ownership percentage"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/275880/000119312526045495/psn-ex21_1.htm",
+          "section": "Exhibit 21.1, List of Subsidiaries of the Registrant (fiscal 2025, 2025-12-31)",
+          "supportingPassage": "Parsons Technical Services Inc. | Delaware",
+          "scope": "Subsidiary listing at 2025-12-31; no ownership percentage; no government recipient identifier"
+        }
+      ],
+      "limitations": [
+        "Latest reviewed relationship evidence is dated 2025-12-31",
+        "Effective-from is the earliest reviewed listing, not the formation or acquisition date; continuity between annual listings is assumed",
+        "Exhibit 21.1 lists subsidiaries of the registrant without ownership percentages; no filing passage states wholly owned status for this entity"
+      ]
+    },
+    {
+      "id": "relationship:space-ground-system-solutions-inc-0000275880",
+      "childId": "legal:space-ground-system-solutions-inc",
+      "parentId": "sec:0000275880",
+      "type": "subsidiary",
+      "reviewStatus": "reviewed_primary_filing",
+      "effectiveFrom": "2020-12-31",
+      "effectiveUntil": null,
+      "evidenceAsOf": "2025-12-31",
+      "ownershipPercentage": null,
+      "observedAt": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/275880/000156459021007800/psn-ex211_13.htm",
+          "section": "Exhibit 21.1, List of Subsidiaries of the Registrant (fiscal 2020, 2020-12-31)",
+          "supportingPassage": "Space Ground System Solutions, Inc. | Florida",
+          "scope": "Subsidiary listing at fiscal 2020 year-end; no ownership percentage"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/275880/000119312526045495/psn-ex21_1.htm",
+          "section": "Exhibit 21.1, List of Subsidiaries of the Registrant (fiscal 2025, 2025-12-31)",
+          "supportingPassage": "Space Ground System Solutions, Inc. | Florida",
+          "scope": "Subsidiary listing at 2025-12-31; no ownership percentage; no government recipient identifier"
+        }
+      ],
+      "limitations": [
+        "Latest reviewed relationship evidence is dated 2025-12-31",
+        "Effective-from is the earliest reviewed listing, not the formation or acquisition date; continuity between annual listings is assumed",
+        "Exhibit 21.1 lists subsidiaries of the registrant without ownership percentages; no filing passage states wholly owned status for this entity"
+      ]
+    },
+    {
+      "id": "relationship:xator-llc-0000275880",
+      "childId": "legal:xator-llc",
+      "parentId": "sec:0000275880",
+      "type": "subsidiary",
+      "reviewStatus": "reviewed_primary_filing",
+      "effectiveFrom": "2022-12-31",
+      "effectiveUntil": null,
+      "evidenceAsOf": "2025-12-31",
+      "ownershipPercentage": null,
+      "observedAt": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/275880/000156459023002040/psn-ex211_112.htm",
+          "section": "Exhibit 21.1, List of Subsidiaries of the Registrant (fiscal 2022, 2022-12-31)",
+          "supportingPassage": "Xator LLC | Florida",
+          "scope": "Subsidiary listing at fiscal 2022 year-end; no ownership percentage"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/275880/000119312526045495/psn-ex21_1.htm",
+          "section": "Exhibit 21.1, List of Subsidiaries of the Registrant (fiscal 2025, 2025-12-31)",
+          "supportingPassage": "Xator LLC | Florida",
+          "scope": "Subsidiary listing at 2025-12-31; no ownership percentage; no government recipient identifier"
+        }
+      ],
+      "limitations": [
+        "Latest reviewed relationship evidence is dated 2025-12-31",
+        "Effective-from is the earliest reviewed listing, not the formation or acquisition date; continuity between annual listings is assumed",
+        "Exhibit 21.1 lists subsidiaries of the registrant without ownership percentages; no filing passage states wholly owned status for this entity",
+        "The fiscal 2022 Form 10-K describes “Xator Corporation, which we acquired on May 31, 2022” as “a wholly owned subsidiary”; that passage does not name Xator LLC, so neither the acquisition date nor wholly owned status is applied to this entity"
       ]
     }
   ],
@@ -6968,6 +7294,150 @@
       "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
       "reviewedAt": "2026-10-30",
       "reviewFile": "reviews/recipients/caci-azure-summit-technology-llc.json"
+    },
+    {
+      "id": "binding:uei:NMBCAG1JBKL7",
+      "kind": "uei",
+      "value": "NMBCAG1JBKL7",
+      "entityId": "legal:parsons-government-services-inc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-03",
+      "evidenceAsOf": "2026-10-30",
+      "sourceUrl": "https://www.usaspending.gov/recipient/cb0d434a-9ad7-93b5-09dc-6067d8c45d71-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/cb0d434a-9ad7-93b5-09dc-6067d8c45d71-C/",
+      "supportingPassage": "PARSONS GOVERNMENT SERVICES INC. | UEI NMBCAG1JBKL7 | CENTREVILLE, VA, USA | Latest award CONT_AWD_1305M426F0044_1330_47QRAA19D000A_4732 (2026-10-22) parent: PARSONS CORPORATION (UEI FFCMDLMXRK49)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-30",
+      "reviewFile": "reviews/recipients/parsons-government-services-inc.json"
+    },
+    {
+      "id": "binding:uei:KZ9MPMDLR5R4",
+      "kind": "uei",
+      "value": "KZ9MPMDLR5R4",
+      "entityId": "legal:parsons-government-services-inc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2009-08-01",
+      "evidenceAsOf": "2026-10-30",
+      "sourceUrl": "https://www.usaspending.gov/recipient/c2b1a21a-bd22-fdfd-b720-2c1c7c8b0106-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/c2b1a21a-bd22-fdfd-b720-2c1c7c8b0106-C/",
+      "supportingPassage": "PARSONS GOVERNMENT SERVICES INC | UEI KZ9MPMDLR5R4 | LEXINGTON, KY, USA | Latest award CONT_AWD_W9123623C4007_9700_-NONE-_-NONE- (2026-07-17) parent: PARSONS CORPORATION (UEI FFCMDLMXRK49)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-30",
+      "reviewFile": "reviews/recipients/parsons-government-services-inc.json"
+    },
+    {
+      "id": "binding:uei:LKG5L6KPH4X5",
+      "kind": "uei",
+      "value": "LKG5L6KPH4X5",
+      "entityId": "legal:parsons-government-services-inc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-23",
+      "evidenceAsOf": "2026-10-30",
+      "sourceUrl": "https://www.usaspending.gov/recipient/30fbf29e-ab82-7c2c-a444-7065b07c23ed-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/30fbf29e-ab82-7c2c-a444-7065b07c23ed-C/",
+      "supportingPassage": "PARSONS GOVERNMENT SERVICES INC | UEI LKG5L6KPH4X5 | WASHINGTON, DC, USA | Latest award CONT_AWD_N6247023F4004_9700_N6247023D0006_9700 (2022-11-01) parent: PARSONS CORPORATION (UEI FFCMDLMXRK49)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-30",
+      "reviewFile": "reviews/recipients/parsons-government-services-inc.json"
+    },
+    {
+      "id": "binding:uei:QHCNKN8YJWK5",
+      "kind": "uei",
+      "value": "QHCNKN8YJWK5",
+      "entityId": "legal:parsons-government-services-inc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-16",
+      "evidenceAsOf": "2026-10-30",
+      "sourceUrl": "https://www.usaspending.gov/recipient/2468d36b-b899-c9c3-5f90-93943b609b7e-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/2468d36b-b899-c9c3-5f90-93943b609b7e-C/",
+      "supportingPassage": "PARSONS GOVERNMENT SERVICES INC. | UEI QHCNKN8YJWK5 | SAN ANTONIO, TX, USA | Latest award CONT_AWD_W912GB19F0202_9700_W912GB19D0035_9700 (2026-05-18) parent: PARSONS CORPORATION (UEI FFCMDLMXRK49)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-30",
+      "reviewFile": "reviews/recipients/parsons-government-services-inc.json"
+    },
+    {
+      "id": "binding:uei:E8E4EKJKKJW7",
+      "kind": "uei",
+      "value": "E8E4EKJKKJW7",
+      "entityId": "legal:parsons-government-services-international-inc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-29",
+      "evidenceAsOf": "2026-10-30",
+      "sourceUrl": "https://www.usaspending.gov/recipient/0a72a4cb-ede6-b093-e100-27356a34440d-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/0a72a4cb-ede6-b093-e100-27356a34440d-C/",
+      "supportingPassage": "PARSONS GOVERNMENT SERVICES INTERNATIONAL INC. | UEI E8E4EKJKKJW7 | PASADENA, CA, USA | Latest award CONT_AWD_89233124FNA400648_8900_89233124DNA000055_8900 (2026-09-29) parent: PARSONS CORPORATION (UEI FFCMDLMXRK49)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-30",
+      "reviewFile": "reviews/recipients/parsons-government-services-international-inc.json"
+    },
+    {
+      "id": "binding:uei:MDCEZKWF2M73",
+      "kind": "uei",
+      "value": "MDCEZKWF2M73",
+      "entityId": "legal:williams-electric-co-inc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-12",
+      "evidenceAsOf": "2026-10-30",
+      "sourceUrl": "https://www.usaspending.gov/recipient/e4cda9c2-788c-36ee-4375-317f3156c723-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/e4cda9c2-788c-36ee-4375-317f3156c723-C/",
+      "supportingPassage": "WILLIAMS ELECTRIC CO INC | UEI MDCEZKWF2M73 | FORT WALTON BEACH, FL, USA | Latest award CONT_AWD_15M10625FA47NSA01_1544_15M10624AA47NS01A_1544 (2026-09-29) parent: PARSONS CORPORATION (UEI FFCMDLMXRK49)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-30",
+      "reviewFile": "reviews/recipients/williams-electric-co-inc.json"
+    },
+    {
+      "id": "binding:uei:HJ8PBEJHM4P3",
+      "kind": "uei",
+      "value": "HJ8PBEJHM4P3",
+      "entityId": "legal:parsons-technical-services-inc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2021-11-16",
+      "evidenceAsOf": "2026-10-30",
+      "sourceUrl": "https://www.usaspending.gov/recipient/4c57be5f-1a5c-3154-1798-28c996cf6683-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/4c57be5f-1a5c-3154-1798-28c996cf6683-C/",
+      "supportingPassage": "PARSONS TECHNICAL SERVICES INC | UEI HJ8PBEJHM4P3 | PASADENA, CA, USA | Latest award CONT_AWD_FA881020C0002_9700_-NONE-_-NONE- (2026-04-18) parent: PARSONS CORPORATION (UEI FFCMDLMXRK49)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-30",
+      "reviewFile": "reviews/recipients/parsons-technical-services-inc.json"
+    },
+    {
+      "id": "binding:uei:H3RFVAELHB73",
+      "kind": "uei",
+      "value": "H3RFVAELHB73",
+      "entityId": "legal:space-ground-system-solutions-inc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2008-06-12",
+      "evidenceAsOf": "2026-10-30",
+      "sourceUrl": "https://www.usaspending.gov/recipient/0cf79b93-1918-a110-6bb3-505feaa1a5ee-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/0cf79b93-1918-a110-6bb3-505feaa1a5ee-C/",
+      "supportingPassage": "SPACE GROUND SYSTEM SOLUTIONS, INC. | UEI H3RFVAELHB73 | MELBOURNE, FL, USA | Latest award CONT_AWD_N0017320C2021_9700_-NONE-_-NONE- (2026-07-09) parent: PARSONS CORPORATION (UEI FFCMDLMXRK49)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-30",
+      "reviewFile": "reviews/recipients/space-ground-system-solutions-inc.json"
+    },
+    {
+      "id": "binding:uei:ZJFDNMA46LT9",
+      "kind": "uei",
+      "value": "ZJFDNMA46LT9",
+      "entityId": "legal:xator-llc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-01",
+      "evidenceAsOf": "2026-10-30",
+      "sourceUrl": "https://www.usaspending.gov/recipient/e3be6629-1714-1015-6fc5-92ae6e24ccb1-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/e3be6629-1714-1015-6fc5-92ae6e24ccb1-C/",
+      "supportingPassage": "XATOR LLC | UEI ZJFDNMA46LT9 | CENTREVILLE, VA, USA | Latest award CONT_AWD_19AQMM20C0016_1900_-NONE-_-NONE- (2026-09-29) parent: PARSONS CORPORATION (UEI FFCMDLMXRK49)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-30",
+      "reviewFile": "reviews/recipients/xator-llc.json"
     }
   ],
   "retiredBindings": [

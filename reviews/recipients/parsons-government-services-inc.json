@@ -1,0 +1,277 @@
+{
+  "generatedAt": "2026-10-30T16:30:09.337Z",
+  "query": {
+    "name": "Parsons Government Services Inc.",
+    "parentUei": "FFCMDLMXRK49",
+    "entityId": "legal:parsons-government-services-inc",
+    "formerNames": [],
+    "notBefore": null
+  },
+  "searched": 9,
+  "candidates": [
+    {
+      "evidence": {
+        "uei": "NMBCAG1JBKL7",
+        "cage": null,
+        "recipientId": "cb0d434a-9ad7-93b5-09dc-6067d8c45d71-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/cb0d434a-9ad7-93b5-09dc-6067d8c45d71-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/cb0d434a-9ad7-93b5-09dc-6067d8c45d71-C/",
+        "responseSha256": "65ebfeb0ac9db334175ce549cd690cab7a1380ed47161c257c4f9dfd5843023d",
+        "name": "PARSONS GOVERNMENT SERVICES INC.",
+        "parentName": "PARSONS GOVERNMENT SERVICES INC.",
+        "parentUei": "NMBCAG1JBKL7",
+        "otherReportedParents": [
+          "PARSONS CORPORATION / FFCMDLMXRK49"
+        ],
+        "location": "CENTREVILLE, VA, USA",
+        "contractAmount": 903244124.81,
+        "earliestTransaction": {
+          "date": "2007-10-03",
+          "award": "CONT_AWD_0011_9700_FA890304D8675_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-10-22",
+          "award": "CONT_AWD_1305M426F0044_1330_47QRAA19D000A_4732"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_1305M426F0044_1330_47QRAA19D000A_4732",
+          "parentName": "PARSONS CORPORATION",
+          "parentUei": "FFCMDLMXRK49",
+          "recipientUei": "NMBCAG1JBKL7",
+          "responseSha256": "baa435596d9c288ecb229041d5670a61a456a3a1ec8e69f0dd0b9e8580d07b5b"
+        },
+        "warnings": [
+          "profile parent UEI NMBCAG1JBKL7 (PARSONS GOVERNMENT SERVICES INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:NMBCAG1JBKL7",
+        "kind": "uei",
+        "value": "NMBCAG1JBKL7",
+        "entityId": "legal:parsons-government-services-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-03",
+        "evidenceAsOf": "2026-10-30",
+        "sourceUrl": "https://www.usaspending.gov/recipient/cb0d434a-9ad7-93b5-09dc-6067d8c45d71-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/cb0d434a-9ad7-93b5-09dc-6067d8c45d71-C/",
+        "supportingPassage": "PARSONS GOVERNMENT SERVICES INC. | UEI NMBCAG1JBKL7 | CENTREVILLE, VA, USA | Latest award CONT_AWD_1305M426F0044_1330_47QRAA19D000A_4732 (2026-10-22) parent: PARSONS CORPORATION (UEI FFCMDLMXRK49)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "KZ9MPMDLR5R4",
+        "cage": null,
+        "recipientId": "c2b1a21a-bd22-fdfd-b720-2c1c7c8b0106-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/c2b1a21a-bd22-fdfd-b720-2c1c7c8b0106-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/c2b1a21a-bd22-fdfd-b720-2c1c7c8b0106-C/",
+        "responseSha256": "d74915af5a50c2546ff53901128e433c886a6c490b1967e0437ebb010f33cef4",
+        "name": "PARSONS GOVERNMENT SERVICES INC",
+        "parentName": "PARSONS CORPORATION",
+        "parentUei": "FFCMDLMXRK49",
+        "otherReportedParents": [],
+        "location": "LEXINGTON, KY, USA",
+        "contractAmount": 288862,
+        "earliestTransaction": {
+          "date": "2009-08-01",
+          "award": "CONT_AWD_0001_9700_N6945009D0089_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-07-17",
+          "award": "CONT_AWD_W9123623C4007_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_W9123623C4007_9700_-NONE-_-NONE-",
+          "parentName": "PARSONS CORPORATION",
+          "parentUei": "FFCMDLMXRK49",
+          "recipientUei": "KZ9MPMDLR5R4",
+          "responseSha256": "c71ae527d5290281600e0ba33c057accebefb7d337a58fabe12e9d5a303550f5"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:KZ9MPMDLR5R4",
+        "kind": "uei",
+        "value": "KZ9MPMDLR5R4",
+        "entityId": "legal:parsons-government-services-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2009-08-01",
+        "evidenceAsOf": "2026-10-30",
+        "sourceUrl": "https://www.usaspending.gov/recipient/c2b1a21a-bd22-fdfd-b720-2c1c7c8b0106-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/c2b1a21a-bd22-fdfd-b720-2c1c7c8b0106-C/",
+        "supportingPassage": "PARSONS GOVERNMENT SERVICES INC | UEI KZ9MPMDLR5R4 | LEXINGTON, KY, USA | Latest award CONT_AWD_W9123623C4007_9700_-NONE-_-NONE- (2026-07-17) parent: PARSONS CORPORATION (UEI FFCMDLMXRK49)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "LKG5L6KPH4X5",
+        "cage": null,
+        "recipientId": "30fbf29e-ab82-7c2c-a444-7065b07c23ed-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/30fbf29e-ab82-7c2c-a444-7065b07c23ed-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/30fbf29e-ab82-7c2c-a444-7065b07c23ed-C/",
+        "responseSha256": "981d188826f712231098deb87f07b80bba2c56bb307dfb67b7ae1c9b97a2fae3",
+        "name": "PARSONS GOVERNMENT SERVICES INC",
+        "parentName": "PARSONS CORPORATION",
+        "parentUei": "FFCMDLMXRK49",
+        "otherReportedParents": [],
+        "location": "WASHINGTON, DC, USA",
+        "contractAmount": 0,
+        "earliestTransaction": {
+          "date": "2007-10-23",
+          "award": "CONT_AWD_0006_9700_W9123606D0064_9700"
+        },
+        "latestTransaction": {
+          "date": "2022-11-01",
+          "award": "CONT_AWD_N6247023F4004_9700_N6247023D0006_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N6247023F4004_9700_N6247023D0006_9700",
+          "parentName": "PARSONS CORPORATION",
+          "parentUei": "FFCMDLMXRK49",
+          "recipientUei": "LKG5L6KPH4X5",
+          "responseSha256": "de8f4fa072778ffd7128581c5928bac503a4a2e15beaaf26ad110d55d75eef08"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:LKG5L6KPH4X5",
+        "kind": "uei",
+        "value": "LKG5L6KPH4X5",
+        "entityId": "legal:parsons-government-services-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-23",
+        "evidenceAsOf": "2026-10-30",
+        "sourceUrl": "https://www.usaspending.gov/recipient/30fbf29e-ab82-7c2c-a444-7065b07c23ed-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/30fbf29e-ab82-7c2c-a444-7065b07c23ed-C/",
+        "supportingPassage": "PARSONS GOVERNMENT SERVICES INC | UEI LKG5L6KPH4X5 | WASHINGTON, DC, USA | Latest award CONT_AWD_N6247023F4004_9700_N6247023D0006_9700 (2022-11-01) parent: PARSONS CORPORATION (UEI FFCMDLMXRK49)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "QHCNKN8YJWK5",
+        "cage": null,
+        "recipientId": "2468d36b-b899-c9c3-5f90-93943b609b7e-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/2468d36b-b899-c9c3-5f90-93943b609b7e-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/2468d36b-b899-c9c3-5f90-93943b609b7e-C/",
+        "responseSha256": "8f2000b4d9e42e583f03b8d9bd4435d452f5ab63fad80e59886bf70df06faff1",
+        "name": "PARSONS GOVERNMENT SERVICES INC.",
+        "parentName": "PARSONS CORPORATION",
+        "parentUei": "FFCMDLMXRK49",
+        "otherReportedParents": [],
+        "location": "SAN ANTONIO, TX, USA",
+        "contractAmount": -2500,
+        "earliestTransaction": {
+          "date": "2007-10-16",
+          "award": "CONT_AWD_0002_9700_W9126G07D0028_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-05-18",
+          "award": "CONT_AWD_W912GB19F0202_9700_W912GB19D0035_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_W912GB19F0202_9700_W912GB19D0035_9700",
+          "parentName": "PARSONS CORPORATION",
+          "parentUei": "FFCMDLMXRK49",
+          "recipientUei": "QHCNKN8YJWK5",
+          "responseSha256": "68dca277fee5cb8d468e24cb8b1c2118300d5cf5e4c80efd652bb698826cdcb6"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:QHCNKN8YJWK5",
+        "kind": "uei",
+        "value": "QHCNKN8YJWK5",
+        "entityId": "legal:parsons-government-services-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-16",
+        "evidenceAsOf": "2026-10-30",
+        "sourceUrl": "https://www.usaspending.gov/recipient/2468d36b-b899-c9c3-5f90-93943b609b7e-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/2468d36b-b899-c9c3-5f90-93943b609b7e-C/",
+        "supportingPassage": "PARSONS GOVERNMENT SERVICES INC. | UEI QHCNKN8YJWK5 | SAN ANTONIO, TX, USA | Latest award CONT_AWD_W912GB19F0202_9700_W912GB19D0035_9700 (2026-05-18) parent: PARSONS CORPORATION (UEI FFCMDLMXRK49)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "uei": "DT2NPK1X9HD5",
+      "cage": null,
+      "recipientId": "2f4b8043-1280-ba87-0a61-69fb4aa717c5-C",
+      "profileUrl": "https://www.usaspending.gov/recipient/2f4b8043-1280-ba87-0a61-69fb4aa717c5-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/2f4b8043-1280-ba87-0a61-69fb4aa717c5-C/",
+      "responseSha256": "963dd23dc9a709585430a3887676c541f262e7cdaa98e7dba286a4acd808c3cf",
+      "name": "PARSONS GOVERNMENT SERVICES INC.",
+      "parentName": "PARSONS CORPORATION",
+      "parentUei": "FFCMDLMXRK49",
+      "otherReportedParents": [
+        "PARSONS GOVERNMENT SERVICES INC. / DT2NPK1X9HD5"
+      ],
+      "location": "ABERDEEN PROVING GROUND, MD, USA",
+      "contractAmount": 210111,
+      "earliestTransaction": {
+        "date": "2020-02-12",
+        "award": "CONT_AWD_W9127820F0080_9700_W9127820D0016_9700"
+      },
+      "latestTransaction": {
+        "date": "2026-09-09",
+        "award": "CONT_AWD_33330226FF0010130_3300_33330224DF0010396_3300"
+      },
+      "latestAwardParent": {
+        "id": "CONT_AWD_33330226FF0010130_3300_33330224DF0010396_3300",
+        "parentName": "PARSONS GOVERNMENT SERVICES INC.",
+        "parentUei": "DT2NPK1X9HD5",
+        "recipientUei": "DT2NPK1X9HD5",
+        "responseSha256": "6297179cadfdda36be07430a203738007c1feee6a8067c65766d738952dcb5d6"
+      },
+      "warnings": [],
+      "reasons": [
+        "latest award parent UEI DT2NPK1X9HD5 (PARSONS GOVERNMENT SERVICES INC.) differs from expected"
+      ]
+    },
+    {
+      "uei": "QJD7W4CUEN63",
+      "cage": null,
+      "recipientId": "f95baf44-eebc-e0a1-9b9d-ded91f83273a-C",
+      "profileUrl": "https://www.usaspending.gov/recipient/f95baf44-eebc-e0a1-9b9d-ded91f83273a-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/f95baf44-eebc-e0a1-9b9d-ded91f83273a-C/",
+      "responseSha256": "3b9f5100276aa7f6b0f09c3508e5d93b1790daef6f3615d700e5c17e52ad4420",
+      "name": "PARSONS GOVERNMENT SERVICES INC",
+      "parentName": "PARSONS GOVERNMENT SERVICES INC",
+      "parentUei": "QJD7W4CUEN63",
+      "otherReportedParents": [
+        "PARSONS CORPORATION / FFCMDLMXRK49"
+      ],
+      "location": "HUNTSVILLE, AL, USA",
+      "contractAmount": 0,
+      "earliestTransaction": {
+        "date": "2020-09-23",
+        "award": "CONT_AWD_FA853420C0001_9700_-NONE-_-NONE-"
+      },
+      "latestTransaction": {
+        "date": "2026-04-13",
+        "award": "CONT_AWD_FA853420C0001_9700_-NONE-_-NONE-"
+      },
+      "latestAwardParent": {
+        "id": "CONT_AWD_FA853420C0001_9700_-NONE-_-NONE-",
+        "parentName": "PARSONS GOVERNMENT SERVICES INC",
+        "parentUei": "QJD7W4CUEN63",
+        "recipientUei": "QJD7W4CUEN63",
+        "responseSha256": "98c6e93261e936333e0a1699bd782ed2469d3bf0f839d748d4ed74507d479c15"
+      },
+      "warnings": [
+        "profile parent UEI QJD7W4CUEN63 (PARSONS GOVERNMENT SERVICES INC) differs from expected; not relied on"
+      ],
+      "reasons": [
+        "latest award parent UEI QJD7W4CUEN63 (PARSONS GOVERNMENT SERVICES INC) differs from expected"
+      ]
+    }
+  ],
+  "limitations": [
+    "USAspending reflects SAM data as reported; it is not SAM.gov itself",
+    "Recipient search is keyword-based and capped at 500 records",
+    "Profile parent fields can be stale; corroboration uses the parent on the latest award record",
+    "Name and parent agreement do not prove the SEC-listed legal entity; review state of incorporation separately where available"
+  ]
+}

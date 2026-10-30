@@ -52,3 +52,9 @@ assert.equal(r('N3PBJAVNKF61','2024-06-01').publicParent,'CACI International Inc
 assert.equal(r('GS59ABNVD6N7','2021-06-01').publicParent,'CACI International Inc');assert.equal(r('W479FKUUKM96','2024-06-01').status,'unresolved');assert.equal(r('P1LMDHFJSYH7','2026-06-30').publicParent,'CACI International Inc');
 for(const uei of ['EELEC8QCC3N8','E5E6SMMJYPL3','EPPXR2P9KYU6','QSRTXLFKV857'])assert.equal(r(uei,'2024-06-01').status,'unresolved');
 console.log('PASS CACI subsidiary bindings respect reviewed Exhibit 21.1 windows; renamed and truncated listings start at fiscal 2026; self-parented records abstain');}
+// Parsons: subsidiaries from their first Exhibit 21.1 listing through fiscal 2025; Xator LLC from fiscal 2022 (acquisition passage names Xator Corporation); registrant and self-parented records abstain.
+{const r=(uei,date)=>resolveRecipient({uei},date);
+assert.equal(r('NMBCAG1JBKL7','2023-06-01').publicParent,'Parsons Corporation');assert.equal(r('NMBCAG1JBKL7','2019-12-30').status,'unresolved');assert.equal(r('NMBCAG1JBKL7','2026-01-01').status,'unresolved');
+assert.equal(r('ZJFDNMA46LT9','2022-06-01').status,'unresolved');assert.equal(r('ZJFDNMA46LT9','2023-06-01').publicParent,'Parsons Corporation');assert.equal(r('H3RFVAELHB73','2020-06-01').status,'unresolved');
+for(const uei of ['FFCMDLMXRK49','DT2NPK1X9HD5','QJD7W4CUEN63'])assert.equal(r(uei,'2024-06-01').status,'unresolved');
+console.log('PASS Parsons subsidiary bindings respect reviewed Exhibit 21.1 windows; Xator LLC starts at its listing; registrant and self-parented records abstain');}
