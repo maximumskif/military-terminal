@@ -1,0 +1,67 @@
+{
+  "generatedAt": "2026-10-30T16:20:45.468Z",
+  "query": {
+    "name": "CACI, INC. - FEDERAL",
+    "parentUei": "QSRTXLFKV857",
+    "entityId": "legal:caci-inc-federal",
+    "formerNames": [],
+    "notBefore": null
+  },
+  "searched": 1,
+  "candidates": [
+    {
+      "evidence": {
+        "uei": "N3PBJAVNKF61",
+        "cage": null,
+        "recipientId": "28eee911-76af-7147-f760-4ec5f90bec2d-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/28eee911-76af-7147-f760-4ec5f90bec2d-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/28eee911-76af-7147-f760-4ec5f90bec2d-C/",
+        "responseSha256": "9f8b2d450165a21f6558b6e29f2910f27def95d064e37aa0aa8860b29fa4f773",
+        "name": "CACI, INC. - FEDERAL",
+        "parentName": "CACI INTERNATIONAL INC",
+        "parentUei": "QSRTXLFKV857",
+        "otherReportedParents": [
+          "SYSTEMWARE, INC. / ZWJ2TPLX7MS2"
+        ],
+        "location": "CHANTILLY, VA, USA",
+        "contractAmount": 3335351070.58,
+        "earliestTransaction": {
+          "date": "2007-10-01",
+          "award": "CONT_AWD_0093_9700_HC101305D2000_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-10-28",
+          "award": "CONT_AWD_47QFRA24F0005_4732_47QTCK18D0009_4732"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_47QFRA24F0005_4732_47QTCK18D0009_4732",
+          "parentName": "CACI INTERNATIONAL INC",
+          "parentUei": "QSRTXLFKV857",
+          "recipientUei": "N3PBJAVNKF61",
+          "responseSha256": "8e8dd3f2dc365f3e2b6a055801b388afb13c9444720cd1348bbf227273828204"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:N3PBJAVNKF61",
+        "kind": "uei",
+        "value": "N3PBJAVNKF61",
+        "entityId": "legal:caci-inc-federal",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-01",
+        "evidenceAsOf": "2026-10-30",
+        "sourceUrl": "https://www.usaspending.gov/recipient/28eee911-76af-7147-f760-4ec5f90bec2d-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/28eee911-76af-7147-f760-4ec5f90bec2d-C/",
+        "supportingPassage": "CACI, INC. - FEDERAL | UEI N3PBJAVNKF61 | CHANTILLY, VA, USA | Latest award CONT_AWD_47QFRA24F0005_4732_47QTCK18D0009_4732 (2026-10-28) parent: CACI INTERNATIONAL INC (UEI QSRTXLFKV857)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    }
+  ],
+  "excluded": [],
+  "limitations": [
+    "USAspending reflects SAM data as reported; it is not SAM.gov itself",
+    "Recipient search is keyword-based and capped at 500 records",
+    "Profile parent fields can be stale; corroboration uses the parent on the latest award record",
+    "Name and parent agreement do not prove the SEC-listed legal entity; review state of incorporation separately where available"
+  ]
+}

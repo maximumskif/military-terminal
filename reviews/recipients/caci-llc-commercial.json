@@ -1,0 +1,91 @@
+{
+  "generatedAt": "2026-10-30T16:22:17.586Z",
+  "query": {
+    "name": "CACI, LLC - COMMERCIAL",
+    "parentUei": "QSRTXLFKV857",
+    "entityId": "legal:caci-llc-commercial",
+    "formerNames": [],
+    "notBefore": null
+  },
+  "searched": 4,
+  "candidates": [],
+  "excluded": [
+    {
+      "uei": "E5E6SMMJYPL3",
+      "cage": null,
+      "recipientId": "59447845-5a9e-07d9-7305-2a3306a795cf-C",
+      "profileUrl": "https://www.usaspending.gov/recipient/59447845-5a9e-07d9-7305-2a3306a795cf-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/59447845-5a9e-07d9-7305-2a3306a795cf-C/",
+      "responseSha256": "79d95c9316e2f8114d58af2ee23868311241587ce3a53e2a5eedd8e9eeebb2c0",
+      "name": "CACI, LLC - COMMERCIAL",
+      "parentName": "CACI INTERNATIONAL INC",
+      "parentUei": "QSRTXLFKV857",
+      "otherReportedParents": [
+        "SYSTEMWARE, INC. / ZWJ2TPLX7MS2",
+        "CACI, LLC - COMMERCIAL / E5E6SMMJYPL3"
+      ],
+      "location": "RESTON, VA, USA",
+      "contractAmount": 74040536.98,
+      "earliestTransaction": {
+        "date": "2007-10-01",
+        "award": "CONT_AWD_DJJ04372007_1501_02C0437_1501"
+      },
+      "latestTransaction": {
+        "date": "2026-10-26",
+        "award": "CONT_AWD_15JPSS20F00000853_1501_15JPSS20D00000368_1501"
+      },
+      "latestAwardParent": {
+        "id": "CONT_AWD_15JPSS20F00000853_1501_15JPSS20D00000368_1501",
+        "parentName": "CACI, LLC - COMMERCIAL",
+        "parentUei": "E5E6SMMJYPL3",
+        "recipientUei": "E5E6SMMJYPL3",
+        "responseSha256": "f5753262aca46b0711954c8f89e7e106bacfe20609e32728ac4783533d26f172"
+      },
+      "warnings": [],
+      "reasons": [
+        "latest award parent UEI E5E6SMMJYPL3 (CACI, LLC - COMMERCIAL) differs from expected"
+      ]
+    },
+    {
+      "uei": "ZKJREJ8CK539",
+      "cage": null,
+      "recipientId": "f0e0d237-0077-e2e6-1c7f-c7ab46dd29cb-C",
+      "profileUrl": "https://www.usaspending.gov/recipient/f0e0d237-0077-e2e6-1c7f-c7ab46dd29cb-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/f0e0d237-0077-e2e6-1c7f-c7ab46dd29cb-C/",
+      "responseSha256": "ff5250b5089be738dd3abc8f84f10b75bbb73c7e17dbbe54e6288df4d6dc05bd",
+      "name": "CACI, LLC - COMMERCIAL",
+      "parentName": "CACI INTERNATIONAL INC",
+      "parentUei": "QSRTXLFKV857",
+      "otherReportedParents": [
+        "CACI, LLC - COMMERCIAL / ZKJREJ8CK539"
+      ],
+      "location": "CHANTILLY, VA, USA",
+      "contractAmount": 2994381.37,
+      "earliestTransaction": {
+        "date": "2007-12-07",
+        "award": "CONT_AWD_HSSCHQ04F00722_7001_GS25F0131M_4730"
+      },
+      "latestTransaction": {
+        "date": "2026-10-23",
+        "award": "CONT_AWD_15JENR26P00000056_1501_-NONE-_-NONE-"
+      },
+      "latestAwardParent": {
+        "id": "CONT_AWD_15JENR26P00000056_1501_-NONE-_-NONE-",
+        "parentName": "CACI, LLC - COMMERCIAL",
+        "parentUei": "ZKJREJ8CK539",
+        "recipientUei": "ZKJREJ8CK539",
+        "responseSha256": "0596e3e19795a31552688f5dafa21aa2c684e213210763c1403a2b22e3b85d09"
+      },
+      "warnings": [],
+      "reasons": [
+        "latest award parent UEI ZKJREJ8CK539 (CACI, LLC - COMMERCIAL) differs from expected"
+      ]
+    }
+  ],
+  "limitations": [
+    "USAspending reflects SAM data as reported; it is not SAM.gov itself",
+    "Recipient search is keyword-based and capped at 500 records",
+    "Profile parent fields can be stale; corroboration uses the parent on the latest award record",
+    "Name and parent agreement do not prove the SEC-listed legal entity; review state of incorporation separately where available"
+  ]
+}

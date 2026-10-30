@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "reviewedAt": "2026-10-29",
+  "reviewedAt": "2026-10-30",
   "entities": [
     {
       "id": "sec:0000101829",
@@ -1278,6 +1278,139 @@
       "uei": null,
       "cage": null,
       "stateOfIncorporation": "Delaware"
+    },
+    {
+      "id": "sec:0000016058",
+      "legalName": "CACI International Inc",
+      "cik": "0000016058",
+      "uei": null,
+      "cage": null,
+      "publicListing": {
+        "ticker": "CACI",
+        "exchange": "NYSE",
+        "evidenceAsOf": "2026-06-30",
+        "sourceUrl": "https://www.sec.gov/Archives/edgar/data/16058/000162828026054195/caci-20260630.htm",
+        "sourceSection": "Cover page, registered securities table",
+        "supportingPassage": "Common Stock CACI New York Stock Exchange"
+      },
+      "formerNames": [],
+      "formerNamesSource": "https://data.sec.gov/submissions/CIK0000016058.json (formerNames lists only the current name, CACI INTERNATIONAL INC /DE/, through 2026-10-22), reviewed 2026-10-30",
+      "revenueEvidence": [
+        {
+          "fiscalYearEnd": "2026-06-30",
+          "value": 9567779000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/16058/000162828026054195/caci-20260630.htm",
+          "sourceSection": "Consolidated Statements of Operations (in thousands)",
+          "supportingPassage": "Year ended June 30, 2026 2025 2024 Revenues $ 9,567,779 $ 8,627,824 $ 7,659,832",
+          "xbrlCrossCheck": "Matches us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax annual fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-30"
+        },
+        {
+          "fiscalYearEnd": "2025-06-30",
+          "value": 8627824000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/16058/000162828026054195/caci-20260630.htm",
+          "sourceSection": "Consolidated Statements of Operations (in thousands)",
+          "supportingPassage": "Year ended June 30, 2026 2025 2024 Revenues $ 9,567,779 $ 8,627,824 $ 7,659,832",
+          "xbrlCrossCheck": "Matches us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax annual fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-30"
+        },
+        {
+          "fiscalYearEnd": "2024-06-30",
+          "value": 7659832000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/16058/000162828026054195/caci-20260630.htm",
+          "sourceSection": "Consolidated Statements of Operations (in thousands)",
+          "supportingPassage": "Year ended June 30, 2026 2025 2024 Revenues $ 9,567,779 $ 8,627,824 $ 7,659,832",
+          "xbrlCrossCheck": "Matches us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax annual fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-30"
+        },
+        {
+          "fiscalYearEnd": "2023-06-30",
+          "value": 6702546000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/16058/000001605823000086/caci-20230630.htm",
+          "sourceSection": "Consolidated Statements of Operations (in thousands)",
+          "supportingPassage": "Year Ended June 30, 2023 2022 2021 Revenues $ 6,702,546 $ 6,202,917 $ 6,044,135",
+          "xbrlCrossCheck": "Matches us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax annual fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-30"
+        },
+        {
+          "fiscalYearEnd": "2022-06-30",
+          "value": 6202917000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/16058/000001605823000086/caci-20230630.htm",
+          "sourceSection": "Consolidated Statements of Operations (in thousands)",
+          "supportingPassage": "Year Ended June 30, 2023 2022 2021 Revenues $ 6,702,546 $ 6,202,917 $ 6,044,135",
+          "xbrlCrossCheck": "Matches us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax annual fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-30"
+        },
+        {
+          "fiscalYearEnd": "2021-06-30",
+          "value": 6044135000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/16058/000001605823000086/caci-20230630.htm",
+          "sourceSection": "Consolidated Statements of Operations (in thousands)",
+          "supportingPassage": "Year Ended June 30, 2023 2022 2021 Revenues $ 6,702,546 $ 6,202,917 $ 6,044,135",
+          "xbrlCrossCheck": "Matches us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax annual fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-30"
+        }
+      ]
+    },
+    {
+      "id": "legal:caci-inc-federal",
+      "legalName": "CACI, INC. – FEDERAL",
+      "cik": null,
+      "uei": null,
+      "cage": null,
+      "stateOfIncorporation": "Delaware"
+    },
+    {
+      "id": "legal:caci-nss-llc",
+      "legalName": "CACI NSS, LLC",
+      "cik": null,
+      "uei": null,
+      "cage": null,
+      "stateOfIncorporation": "Delaware"
+    },
+    {
+      "id": "legal:caci-technologies-llc",
+      "legalName": "CACI Technologies, LLC",
+      "cik": null,
+      "uei": null,
+      "cage": null,
+      "stateOfIncorporation": "Virginia"
+    },
+    {
+      "id": "legal:caci-enterprise-solutions-llc",
+      "legalName": "CACI Enterprise Solutions, LLC",
+      "cik": null,
+      "uei": null,
+      "cage": null,
+      "stateOfIncorporation": "Delaware"
+    },
+    {
+      "id": "legal:caci-lgs-innovations-llc",
+      "legalName": "CACI LGS Innovations LLC",
+      "cik": null,
+      "uei": null,
+      "cage": null,
+      "stateOfIncorporation": "Delaware"
+    },
+    {
+      "id": "legal:caci-azure-summit-technology-llc",
+      "legalName": "CACI Azure Summit Technology, LLC",
+      "cik": null,
+      "uei": null,
+      "cage": null,
+      "stateOfIncorporation": "Delaware"
     }
   ],
   "relationships": [
@@ -2064,6 +2197,182 @@
         "Continuity between reviewed annual subsidiary listings is assumed, not restated",
         "Effective-from is the earliest reviewed listing, not the formation or acquisition date",
         "Exhibit 21 lists certain subsidiaries only; omitted entities are not evidence of non-ownership"
+      ]
+    },
+    {
+      "id": "relationship:caci-inc-federal-0000016058",
+      "childId": "legal:caci-inc-federal",
+      "parentId": "sec:0000016058",
+      "type": "subsidiary",
+      "reviewStatus": "reviewed_primary_filing",
+      "effectiveFrom": "2019-06-30",
+      "effectiveUntil": null,
+      "evidenceAsOf": "2026-06-30",
+      "ownershipPercentage": null,
+      "observedAt": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/16058/000156459019032721/caci-ex211_9.htm",
+          "section": "Exhibit 21.1, Subsidiaries of the Registrant (fiscal 2019, 2019-06-30)",
+          "supportingPassage": "CACI, INC. – FEDERAL, a Delaware corporation",
+          "scope": "Subsidiary listing at fiscal 2019 year-end; no ownership percentage"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/16058/000162828026054195/caci20260630ex211.htm",
+          "section": "Exhibit 21.1, Subsidiaries of the Registrant (fiscal 2026, 2026-06-30)",
+          "supportingPassage": "CACI, INC. – FEDERAL, a Delaware corporation",
+          "scope": "Subsidiary listing at 2026-06-30; no ownership percentage; no government recipient identifier"
+        }
+      ],
+      "limitations": [
+        "Latest reviewed relationship evidence is dated 2026-06-30",
+        "Effective-from is the earliest reviewed listing, not the formation or acquisition date; continuity between annual listings is assumed",
+        "Exhibit 21.1 lists subsidiaries of the registrant without ownership percentages; Note 1 (fiscal 2019) describes “wholly-owned subsidiaries and joint ventures that are majority owned or otherwise controlled” without naming this entity"
+      ]
+    },
+    {
+      "id": "relationship:caci-nss-llc-0000016058",
+      "childId": "legal:caci-nss-llc",
+      "parentId": "sec:0000016058",
+      "type": "subsidiary",
+      "reviewStatus": "reviewed_primary_filing",
+      "effectiveFrom": "2019-06-30",
+      "effectiveUntil": null,
+      "evidenceAsOf": "2026-06-30",
+      "ownershipPercentage": null,
+      "observedAt": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/16058/000156459019032721/caci-ex211_9.htm",
+          "section": "Exhibit 21.1, Subsidiaries of the Registrant (fiscal 2019, 2019-06-30)",
+          "supportingPassage": "CACI NSS, LLC, a Delaware limited liability company",
+          "scope": "Subsidiary listing at fiscal 2019 year-end; no ownership percentage"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/16058/000162828026054195/caci20260630ex211.htm",
+          "section": "Exhibit 21.1, Subsidiaries of the Registrant (fiscal 2026, 2026-06-30)",
+          "supportingPassage": "CACI NSS, LLC, a Delaware limited liability company",
+          "scope": "Subsidiary listing at 2026-06-30; no ownership percentage; no government recipient identifier"
+        }
+      ],
+      "limitations": [
+        "Latest reviewed relationship evidence is dated 2026-06-30",
+        "Effective-from is the earliest reviewed listing, not the formation or acquisition date; continuity between annual listings is assumed",
+        "Exhibit 21.1 lists subsidiaries of the registrant without ownership percentages; Note 1 (fiscal 2019) describes “wholly-owned subsidiaries and joint ventures that are majority owned or otherwise controlled” without naming this entity"
+      ]
+    },
+    {
+      "id": "relationship:caci-technologies-llc-0000016058",
+      "childId": "legal:caci-technologies-llc",
+      "parentId": "sec:0000016058",
+      "type": "subsidiary",
+      "reviewStatus": "reviewed_primary_filing",
+      "effectiveFrom": "2019-06-30",
+      "effectiveUntil": null,
+      "evidenceAsOf": "2026-06-30",
+      "ownershipPercentage": null,
+      "observedAt": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/16058/000156459019032721/caci-ex211_9.htm",
+          "section": "Exhibit 21.1, Subsidiaries of the Registrant (fiscal 2019, 2019-06-30)",
+          "supportingPassage": "CACI Technologies, LLC, a Virginia limited liability company",
+          "scope": "Subsidiary listing at fiscal 2019 year-end; no ownership percentage"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/16058/000162828026054195/caci20260630ex211.htm",
+          "section": "Exhibit 21.1, Subsidiaries of the Registrant (fiscal 2026, 2026-06-30)",
+          "supportingPassage": "CACI Technologies, LLC, a Virginia limited liability company",
+          "scope": "Subsidiary listing at 2026-06-30; no ownership percentage; no government recipient identifier"
+        }
+      ],
+      "limitations": [
+        "Latest reviewed relationship evidence is dated 2026-06-30",
+        "Effective-from is the earliest reviewed listing, not the formation or acquisition date; continuity between annual listings is assumed",
+        "Exhibit 21.1 lists subsidiaries of the registrant without ownership percentages; Note 1 (fiscal 2019) describes “wholly-owned subsidiaries and joint ventures that are majority owned or otherwise controlled” without naming this entity"
+      ]
+    },
+    {
+      "id": "relationship:caci-enterprise-solutions-llc-0000016058",
+      "childId": "legal:caci-enterprise-solutions-llc",
+      "parentId": "sec:0000016058",
+      "type": "subsidiary",
+      "reviewStatus": "reviewed_primary_filing",
+      "effectiveFrom": "2019-06-30",
+      "effectiveUntil": null,
+      "evidenceAsOf": "2026-06-30",
+      "ownershipPercentage": null,
+      "observedAt": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/16058/000156459019032721/caci-ex211_9.htm",
+          "section": "Exhibit 21.1, Subsidiaries of the Registrant (fiscal 2019, 2019-06-30)",
+          "supportingPassage": "CACI Enterprise Solutions, LLC, a Delaware limited liability company",
+          "scope": "Subsidiary listing at fiscal 2019 year-end; no ownership percentage"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/16058/000162828026054195/caci20260630ex211.htm",
+          "section": "Exhibit 21.1, Subsidiaries of the Registrant (fiscal 2026, 2026-06-30)",
+          "supportingPassage": "CACI Enterprise Solutions, LLC, a Delaware limited liability company",
+          "scope": "Subsidiary listing at 2026-06-30; no ownership percentage; no government recipient identifier"
+        }
+      ],
+      "limitations": [
+        "Latest reviewed relationship evidence is dated 2026-06-30",
+        "Effective-from is the earliest reviewed listing, not the formation or acquisition date; continuity between annual listings is assumed",
+        "Exhibit 21.1 lists subsidiaries of the registrant without ownership percentages; Note 1 (fiscal 2019) describes “wholly-owned subsidiaries and joint ventures that are majority owned or otherwise controlled” without naming this entity"
+      ]
+    },
+    {
+      "id": "relationship:caci-lgs-innovations-llc-0000016058",
+      "childId": "legal:caci-lgs-innovations-llc",
+      "parentId": "sec:0000016058",
+      "type": "subsidiary",
+      "reviewStatus": "reviewed_primary_filing",
+      "effectiveFrom": "2026-06-30",
+      "effectiveUntil": null,
+      "evidenceAsOf": "2026-06-30",
+      "ownershipPercentage": null,
+      "observedAt": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/16058/000162828026054195/caci20260630ex211.htm",
+          "section": "Exhibit 21.1, Subsidiaries of the Registrant (fiscal 2026, 2026-06-30)",
+          "supportingPassage": "CACI LGS Innovations LLC, a Delaware limited liability company",
+          "scope": "Subsidiary listing at 2026-06-30; no ownership percentage; no government recipient identifier"
+        }
+      ],
+      "limitations": [
+        "Latest reviewed relationship evidence is dated 2026-06-30",
+        "Effective-from is the earliest reviewed listing, not the formation or acquisition date; continuity between annual listings is assumed",
+        "Exhibit 21.1 lists subsidiaries of the registrant without ownership percentages; Note 1 (fiscal 2019) describes “wholly-owned subsidiaries and joint ventures that are majority owned or otherwise controlled” without naming this entity",
+        "Fiscal 2020–2025 Exhibit 21.1 lists a Delaware “LGS Innovations LLC”; fiscal 2026 lists only “CACI LGS Innovations LLC”. The apparent rename is not stated in a reviewed filing, so earlier dates are not modeled."
+      ]
+    },
+    {
+      "id": "relationship:caci-azure-summit-technology-llc-0000016058",
+      "childId": "legal:caci-azure-summit-technology-llc",
+      "parentId": "sec:0000016058",
+      "type": "subsidiary",
+      "reviewStatus": "reviewed_primary_filing",
+      "effectiveFrom": "2026-06-30",
+      "effectiveUntil": null,
+      "evidenceAsOf": "2026-06-30",
+      "ownershipPercentage": null,
+      "observedAt": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/16058/000162828026054195/caci20260630ex211.htm",
+          "section": "Exhibit 21.1, Subsidiaries of the Registrant (fiscal 2026, 2026-06-30)",
+          "supportingPassage": "CACI Azure Summit Technology, LLC, a Delaware limited liability company",
+          "scope": "Subsidiary listing at 2026-06-30; no ownership percentage; no government recipient identifier"
+        }
+      ],
+      "limitations": [
+        "Latest reviewed relationship evidence is dated 2026-06-30",
+        "Effective-from is the earliest reviewed listing, not the formation or acquisition date; continuity between annual listings is assumed",
+        "Exhibit 21.1 lists subsidiaries of the registrant without ownership percentages; Note 1 (fiscal 2019) describes “wholly-owned subsidiaries and joint ventures that are majority owned or otherwise controlled” without naming this entity",
+        "The fiscal 2025 Exhibit 21.1 contains a truncated entry “CACI Azure Summit” with no entity type or state; the full name first appears in the fiscal 2026 listing, so fiscal 2025 is not modeled."
       ]
     }
   ],
@@ -6563,6 +6872,102 @@
       "reviewedBy": "Claude (automated-assisted review, 2026-10-29)",
       "reviewedAt": "2026-10-29",
       "reviewFile": "reviews/recipients/textron-aviation-defense-llc.json"
+    },
+    {
+      "id": "binding:uei:N3PBJAVNKF61",
+      "kind": "uei",
+      "value": "N3PBJAVNKF61",
+      "entityId": "legal:caci-inc-federal",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-01",
+      "evidenceAsOf": "2026-10-30",
+      "sourceUrl": "https://www.usaspending.gov/recipient/28eee911-76af-7147-f760-4ec5f90bec2d-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/28eee911-76af-7147-f760-4ec5f90bec2d-C/",
+      "supportingPassage": "CACI, INC. - FEDERAL | UEI N3PBJAVNKF61 | CHANTILLY, VA, USA | Latest award CONT_AWD_47QFRA24F0005_4732_47QTCK18D0009_4732 (2026-10-28) parent: CACI INTERNATIONAL INC (UEI QSRTXLFKV857)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-30",
+      "reviewFile": "reviews/recipients/caci-inc-federal.json"
+    },
+    {
+      "id": "binding:uei:GS59ABNVD6N7",
+      "kind": "uei",
+      "value": "GS59ABNVD6N7",
+      "entityId": "legal:caci-nss-llc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-26",
+      "evidenceAsOf": "2026-10-30",
+      "sourceUrl": "https://www.usaspending.gov/recipient/b5d927cd-b446-286a-877d-dbdc6e0d20d5-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/b5d927cd-b446-286a-877d-dbdc6e0d20d5-C/",
+      "supportingPassage": "CACI NSS, LLC | UEI GS59ABNVD6N7 | RESTON, VA, USA | Latest award CONT_AWD_47QFCA18F0058_4732_GS00Q14OADU121_4732 (2026-09-30) parent: CACI INTERNATIONAL INC (UEI QSRTXLFKV857)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-30",
+      "reviewFile": "reviews/recipients/caci-nss-llc.json"
+    },
+    {
+      "id": "binding:uei:NGEEG7KP11V4",
+      "kind": "uei",
+      "value": "NGEEG7KP11V4",
+      "entityId": "legal:caci-technologies-llc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-01",
+      "evidenceAsOf": "2026-10-30",
+      "sourceUrl": "https://www.usaspending.gov/recipient/4763c991-6108-3b12-d5e3-f29d6935270b-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/4763c991-6108-3b12-d5e3-f29d6935270b-C/",
+      "supportingPassage": "CACI TECHNOLOGIES, LLC | UEI NGEEG7KP11V4 | CHANTILLY, VA, USA | Latest award CONT_AWD_W909MY24F0002_9700_W15P7T19D0157_9700 (2026-07-21) parent: CACI INTERNATIONAL INC (UEI QSRTXLFKV857)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-30",
+      "reviewFile": "reviews/recipients/caci-technologies-llc.json"
+    },
+    {
+      "id": "binding:uei:DCGLMVAM4VG5",
+      "kind": "uei",
+      "value": "DCGLMVAM4VG5",
+      "entityId": "legal:caci-enterprise-solutions-llc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-01",
+      "evidenceAsOf": "2026-10-30",
+      "sourceUrl": "https://www.usaspending.gov/recipient/8c8ffc5d-4682-2ef6-19f9-cfaf060d441f-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/8c8ffc5d-4682-2ef6-19f9-cfaf060d441f-C/",
+      "supportingPassage": "CACI ENTERPRISE SOLUTIONS, LLC | UEI DCGLMVAM4VG5 | CHANTILLY, VA, USA | Latest award CONT_AWD_SP470923F0038_9700_SP470917D0009_9700 (2026-07-10) parent: CACI INTERNATIONAL INC (UEI QSRTXLFKV857)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-30",
+      "reviewFile": "reviews/recipients/caci-enterprise-solutions-llc.json"
+    },
+    {
+      "id": "binding:uei:W479FKUUKM96",
+      "kind": "uei",
+      "value": "W479FKUUKM96",
+      "entityId": "legal:caci-lgs-innovations-llc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2022-03-10",
+      "evidenceAsOf": "2026-10-30",
+      "sourceUrl": "https://www.usaspending.gov/recipient/1200e253-b0d4-5cd8-154b-2b4f3282c5bd-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/1200e253-b0d4-5cd8-154b-2b4f3282c5bd-C/",
+      "supportingPassage": "CACI LGS INNOVATIONS LLC | UEI W479FKUUKM96 | FLORHAM PARK, NJ, USA | Latest award CONT_AWD_FA875019C1515_9700_-NONE-_-NONE- (2026-07-07) parent: CACI INTERNATIONAL INC (UEI QSRTXLFKV857)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-30",
+      "reviewFile": "reviews/recipients/caci-lgs-innovations-llc.json"
+    },
+    {
+      "id": "binding:uei:P1LMDHFJSYH7",
+      "kind": "uei",
+      "value": "P1LMDHFJSYH7",
+      "entityId": "legal:caci-azure-summit-technology-llc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2008-02-13",
+      "evidenceAsOf": "2026-10-30",
+      "sourceUrl": "https://www.usaspending.gov/recipient/0cc6a876-5ebd-096b-6518-f0a90ea13fa6-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/0cc6a876-5ebd-096b-6518-f0a90ea13fa6-C/",
+      "supportingPassage": "CACI AZURE SUMMIT TECHNOLOGY, LLC | UEI P1LMDHFJSYH7 | FAIRFAX, VA, USA | Latest award CONT_AWD_N0016422FJ037_9700_N0016422DJW52_9700 (2026-07-16) parent: CACI INTERNATIONAL INC (UEI QSRTXLFKV857)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-30",
+      "reviewFile": "reviews/recipients/caci-azure-summit-technology-llc.json"
     }
   ],
   "retiredBindings": [

@@ -46,3 +46,9 @@ assert.equal(r('N5QUZAYGPKM3','2024-06-01').publicParent,'Textron Inc.');assert.
 assert.equal(r('SNJ8YY61GB95','2020-06-01').status,'unresolved');assert.equal(r('SNJ8YY61GB95','2021-06-01').publicParent,'Textron Inc.');assert.equal(r('RSCJXUGJNGE3','2022-06-01').publicParent,'Textron Inc.');
 for(const uei of ['WEE9WFHMACH9','KUZ4MEX7N6Y3'])assert.equal(r(uei,'2024-06-01').status,'unresolved');
 console.log('PASS Textron subsidiary bindings respect reviewed Exhibit 21 windows; Textron Systems starts at its Maryland listing; self-parented records abstain');}
+// CACI: core subsidiaries from the fiscal 2019 listing through fiscal 2026; LGS and Azure Summit only at their fiscal 2026 listing; self-parented records excluded.
+{const r=(uei,date)=>resolveRecipient({uei},date);
+assert.equal(r('N3PBJAVNKF61','2024-06-01').publicParent,'CACI International Inc');assert.equal(r('N3PBJAVNKF61','2019-06-29').status,'unresolved');assert.equal(r('N3PBJAVNKF61','2026-07-01').status,'unresolved');
+assert.equal(r('GS59ABNVD6N7','2021-06-01').publicParent,'CACI International Inc');assert.equal(r('W479FKUUKM96','2024-06-01').status,'unresolved');assert.equal(r('P1LMDHFJSYH7','2026-06-30').publicParent,'CACI International Inc');
+for(const uei of ['EELEC8QCC3N8','E5E6SMMJYPL3','EPPXR2P9KYU6','QSRTXLFKV857'])assert.equal(r(uei,'2024-06-01').status,'unresolved');
+console.log('PASS CACI subsidiary bindings respect reviewed Exhibit 21.1 windows; renamed and truncated listings start at fiscal 2026; self-parented records abstain');}
