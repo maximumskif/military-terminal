@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-10-30T17:00:51.499Z",
+  "query": {
+    "name": "Amentum Spaceport LLC",
+    "parentUei": "TU4KCXMM9AP6",
+    "entityId": "legal:amentum-spaceport-llc",
+    "formerNames": [],
+    "notBefore": null
+  },
+  "searched": 1,
+  "candidates": [],
+  "excluded": [
+    {
+      "uei": "KA18WLGL1NQ5",
+      "cage": null,
+      "recipientId": "a01c5eb0-9d0f-4631-24a6-75917712d54d-C",
+      "profileUrl": "https://www.usaspending.gov/recipient/a01c5eb0-9d0f-4631-24a6-75917712d54d-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/a01c5eb0-9d0f-4631-24a6-75917712d54d-C/",
+      "responseSha256": "67e20b8ee660dfc15613f7f869dcd8676a56e52d2a1e5a0c4d23065ec128458a",
+      "name": "AMENTUM SPACEPORT LLC",
+      "parentName": "AMENTUM SPACEPORT LLC",
+      "parentUei": "KA18WLGL1NQ5",
+      "otherReportedParents": [
+        "AMENTUM GOVERNMENT SERVICES HOLDINGS LLC / CFXXH5YFMZK7",
+        "AMENTUM HOLDINGS INC. / TU4KCXMM9AP6",
+        "AMENTUM JOINT VENTURE LP / Q3BYWA4EY5G3"
+      ],
+      "location": "CHANTILLY, VA, USA",
+      "contractAmount": 85328175.75,
+      "earliestTransaction": {
+        "date": "2018-08-06",
+        "award": "CONT_AWD_80KSC018C0017_8000_-NONE-_-NONE-"
+      },
+      "latestTransaction": {
+        "date": "2026-10-02",
+        "award": "CONT_AWD_80KSC018C0017_8000_-NONE-_-NONE-"
+      },
+      "latestAwardParent": {
+        "id": "CONT_AWD_80KSC018C0017_8000_-NONE-_-NONE-",
+        "parentName": "AMENTUM JOINT VENTURE LP",
+        "parentUei": "Q3BYWA4EY5G3",
+        "recipientUei": "KA18WLGL1NQ5",
+        "responseSha256": "8a9cd8036f6970d92566d17aabf898b933adbc26112f3e4e5d6baa1691b24a01"
+      },
+      "warnings": [
+        "profile parent UEI KA18WLGL1NQ5 (AMENTUM SPACEPORT LLC) differs from expected; not relied on"
+      ],
+      "reasons": [
+        "latest award parent UEI Q3BYWA4EY5G3 (AMENTUM JOINT VENTURE LP) differs from expected"
+      ]
+    }
+  ],
+  "limitations": [
+    "USAspending reflects SAM data as reported; it is not SAM.gov itself",
+    "Recipient search is keyword-based and capped at 500 records",
+    "Profile parent fields can be stale; corroboration uses the parent on the latest award record",
+    "Name and parent agreement do not prove the SEC-listed legal entity; review state of incorporation separately where available"
+  ]
+}

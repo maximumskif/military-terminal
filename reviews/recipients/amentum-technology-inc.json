@@ -1,0 +1,422 @@
+{
+  "generatedAt": "2026-10-30T17:02:54.928Z",
+  "query": {
+    "name": "Amentum Technology, Inc.",
+    "parentUei": "TU4KCXMM9AP6",
+    "entityId": "legal:amentum-technology-inc",
+    "formerNames": [],
+    "notBefore": null
+  },
+  "searched": 8,
+  "candidates": [
+    {
+      "evidence": {
+        "uei": "DTRJLHVLK8F4",
+        "cage": null,
+        "recipientId": "64d116c0-8e36-0200-3878-827560dca24a-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/64d116c0-8e36-0200-3878-827560dca24a-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/64d116c0-8e36-0200-3878-827560dca24a-C/",
+        "responseSha256": "8aee4dce3a34af96cfbe95e12fe7d529645503b1097b063cff2c0bee480a95de",
+        "name": "AMENTUM TECHNOLOGY, INC.",
+        "parentName": "JACOBS ENGINEERING GROUP INC",
+        "parentUei": "MKCAUUG2K7H6",
+        "otherReportedParents": [
+          "AMENTUM HOLDINGS INC. / TU4KCXMM9AP6",
+          "AMENTUM TECHNOLOGY, INC. / DTRJLHVLK8F4"
+        ],
+        "location": "TULLAHOMA, TN, USA",
+        "contractAmount": 914011991.08,
+        "earliestTransaction": {
+          "date": "2017-08-09",
+          "award": "CONT_AWD_HQ079617F8001_9700_HQ079617D0001_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-07-21",
+          "award": "CONT_AWD_HQ085723F8600_9700_HQ079617D0001_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_HQ085723F8600_9700_HQ079617D0001_9700",
+          "parentName": "AMENTUM HOLDINGS INC.",
+          "parentUei": "TU4KCXMM9AP6",
+          "recipientUei": "DTRJLHVLK8F4",
+          "responseSha256": "f63b15f5b14a4354314d13c0533d0b77d4861603718e0a55f515f7ffd37aa5c0"
+        },
+        "warnings": [
+          "profile parent UEI MKCAUUG2K7H6 (JACOBS ENGINEERING GROUP INC) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:DTRJLHVLK8F4",
+        "kind": "uei",
+        "value": "DTRJLHVLK8F4",
+        "entityId": "legal:amentum-technology-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2017-08-09",
+        "evidenceAsOf": "2026-10-30",
+        "sourceUrl": "https://www.usaspending.gov/recipient/64d116c0-8e36-0200-3878-827560dca24a-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/64d116c0-8e36-0200-3878-827560dca24a-C/",
+        "supportingPassage": "AMENTUM TECHNOLOGY, INC. | UEI DTRJLHVLK8F4 | TULLAHOMA, TN, USA | Latest award CONT_AWD_HQ085723F8600_9700_HQ079617D0001_9700 (2026-07-21) parent: AMENTUM HOLDINGS INC. (UEI TU4KCXMM9AP6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "H2RGSKWXKHQ5",
+        "cage": null,
+        "recipientId": "435aa33d-8ca5-7631-ec18-85dbb07c6fa1-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/435aa33d-8ca5-7631-ec18-85dbb07c6fa1-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/435aa33d-8ca5-7631-ec18-85dbb07c6fa1-C/",
+        "responseSha256": "174e38138ec5b19c58d68df0800c26e04a47af965e88e9e2725c3cd750a09f8c",
+        "name": "AMENTUM TECHNOLOGY, INC.",
+        "parentName": "JACOBS ENGINEERING GROUP INC",
+        "parentUei": "MKCAUUG2K7H6",
+        "otherReportedParents": [
+          "JACOBS SOLUTIONS, INC / MS4JKPLLQ4X9",
+          "AMENTUM HOLDINGS INC. / TU4KCXMM9AP6"
+        ],
+        "location": "TULLAHOMA, TN, USA",
+        "contractAmount": 697291112.36,
+        "earliestTransaction": {
+          "date": "2007-10-01",
+          "award": "CONT_AWD_FA920007C0006_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-10-21",
+          "award": "CONT_AWD_NNL17AA43T_8000_NNL13AA14C_8000"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_NNL17AA43T_8000_NNL13AA14C_8000",
+          "parentName": "AMENTUM HOLDINGS INC.",
+          "parentUei": "TU4KCXMM9AP6",
+          "recipientUei": "H2RGSKWXKHQ5",
+          "responseSha256": "903da7b654b9b8e1a285c96f2d36fd5e43c3b2c52f007934e719d955d2aa9dfb"
+        },
+        "warnings": [
+          "profile parent UEI MKCAUUG2K7H6 (JACOBS ENGINEERING GROUP INC) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:H2RGSKWXKHQ5",
+        "kind": "uei",
+        "value": "H2RGSKWXKHQ5",
+        "entityId": "legal:amentum-technology-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-01",
+        "evidenceAsOf": "2026-10-30",
+        "sourceUrl": "https://www.usaspending.gov/recipient/435aa33d-8ca5-7631-ec18-85dbb07c6fa1-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/435aa33d-8ca5-7631-ec18-85dbb07c6fa1-C/",
+        "supportingPassage": "AMENTUM TECHNOLOGY, INC. | UEI H2RGSKWXKHQ5 | TULLAHOMA, TN, USA | Latest award CONT_AWD_NNL17AA43T_8000_NNL13AA14C_8000 (2026-10-21) parent: AMENTUM HOLDINGS INC. (UEI TU4KCXMM9AP6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "K8QPQLGTRM33",
+        "cage": null,
+        "recipientId": "40ed4eec-af42-15cf-f36d-7a56194f7f4b-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/40ed4eec-af42-15cf-f36d-7a56194f7f4b-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/40ed4eec-af42-15cf-f36d-7a56194f7f4b-C/",
+        "responseSha256": "6d8fc3430481540fa027034f3518f590a8fac58bc187506e3a75ea7aba1d9259",
+        "name": "AMENTUM TECHNOLOGY, INC.",
+        "parentName": "JACOBS ENGINEERING GROUP INC",
+        "parentUei": "MKCAUUG2K7H6",
+        "otherReportedParents": [
+          "AMENTUM HOLDINGS INC. / TU4KCXMM9AP6",
+          "AMENTUM TECHNOLOGY, INC. / K8QPQLGTRM33"
+        ],
+        "location": "TULLAHOMA, TN, USA",
+        "contractAmount": 136701629.39,
+        "earliestTransaction": {
+          "date": "2016-01-06",
+          "award": "CONT_AWD_NNA16BD26C_8000_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-10-23",
+          "award": "CONT_AWD_80ARC026FA012_8000_80ARC022DA011_8000"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_80ARC026FA012_8000_80ARC022DA011_8000",
+          "parentName": "AMENTUM HOLDINGS INC.",
+          "parentUei": "TU4KCXMM9AP6",
+          "recipientUei": "K8QPQLGTRM33",
+          "responseSha256": "2ec87986bc2a771846546c0ad15db62d6601cf2bc3dcf22c009e34d3f6c373da"
+        },
+        "warnings": [
+          "profile parent UEI MKCAUUG2K7H6 (JACOBS ENGINEERING GROUP INC) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:K8QPQLGTRM33",
+        "kind": "uei",
+        "value": "K8QPQLGTRM33",
+        "entityId": "legal:amentum-technology-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2016-01-06",
+        "evidenceAsOf": "2026-10-30",
+        "sourceUrl": "https://www.usaspending.gov/recipient/40ed4eec-af42-15cf-f36d-7a56194f7f4b-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/40ed4eec-af42-15cf-f36d-7a56194f7f4b-C/",
+        "supportingPassage": "AMENTUM TECHNOLOGY, INC. | UEI K8QPQLGTRM33 | TULLAHOMA, TN, USA | Latest award CONT_AWD_80ARC026FA012_8000_80ARC022DA011_8000 (2026-10-23) parent: AMENTUM HOLDINGS INC. (UEI TU4KCXMM9AP6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "K3NWHLVFMKB5",
+        "cage": null,
+        "recipientId": "f42d4e43-c1bb-1266-3e9a-a1bfa380c7e3-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/f42d4e43-c1bb-1266-3e9a-a1bfa380c7e3-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/f42d4e43-c1bb-1266-3e9a-a1bfa380c7e3-C/",
+        "responseSha256": "451918ea8776fa3e38fe0da9901d3ba3ed477f9688e147c590ea008c5ee63714",
+        "name": "AMENTUM TECHNOLOGY, INC.",
+        "parentName": "JACOBS ENGINEERING GROUP INC",
+        "parentUei": "MKCAUUG2K7H6",
+        "otherReportedParents": [
+          "JACOBS SOLUTIONS, INC / MS4JKPLLQ4X9",
+          "AMENTUM HOLDINGS INC. / TU4KCXMM9AP6"
+        ],
+        "location": "TAMPA, FL, USA",
+        "contractAmount": 73990507.85,
+        "earliestTransaction": {
+          "date": "2007-10-01",
+          "award": "CONT_AWD_0345_9700_USZA2202D0014_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-07-27",
+          "award": "CONT_AWD_47QFSA20F0078_4732_H9222216D0040_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_47QFSA20F0078_4732_H9222216D0040_9700",
+          "parentName": "AMENTUM HOLDINGS INC.",
+          "parentUei": "TU4KCXMM9AP6",
+          "recipientUei": "K3NWHLVFMKB5",
+          "responseSha256": "b195da94165f923a6e390cfc2b696ad56df8474677dc923c1280643baff02f91"
+        },
+        "warnings": [
+          "profile parent UEI MKCAUUG2K7H6 (JACOBS ENGINEERING GROUP INC) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:K3NWHLVFMKB5",
+        "kind": "uei",
+        "value": "K3NWHLVFMKB5",
+        "entityId": "legal:amentum-technology-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-01",
+        "evidenceAsOf": "2026-10-30",
+        "sourceUrl": "https://www.usaspending.gov/recipient/f42d4e43-c1bb-1266-3e9a-a1bfa380c7e3-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/f42d4e43-c1bb-1266-3e9a-a1bfa380c7e3-C/",
+        "supportingPassage": "AMENTUM TECHNOLOGY, INC. | UEI K3NWHLVFMKB5 | TAMPA, FL, USA | Latest award CONT_AWD_47QFSA20F0078_4732_H9222216D0040_9700 (2026-07-27) parent: AMENTUM HOLDINGS INC. (UEI TU4KCXMM9AP6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "GL7BQUY8ZJ79",
+        "cage": null,
+        "recipientId": "32d5fb19-41e4-9715-1059-52248272216a-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/32d5fb19-41e4-9715-1059-52248272216a-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/32d5fb19-41e4-9715-1059-52248272216a-C/",
+        "responseSha256": "ac025c10ba8154422ac8f77bfe5d66b1ca5975ae40b91a9cbc68bb3b3f1b7792",
+        "name": "AMENTUM TECHNOLOGY, INC",
+        "parentName": "JACOBS ENGINEERING GROUP INC",
+        "parentUei": "MKCAUUG2K7H6",
+        "otherReportedParents": [
+          "AMENTUM HOLDINGS INC. / TU4KCXMM9AP6",
+          "VERIZON COMMUNICATIONS INC / KLVFB6J1M377",
+          "AMENTUM TECHNOLOGY, INC / GL7BQUY8ZJ79"
+        ],
+        "location": "COLUMBIA, MD, USA",
+        "contractAmount": 47391190.87,
+        "earliestTransaction": {
+          "date": "2011-05-20",
+          "award": "CONT_AWD_W911W411P0078_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-09-22",
+          "award": "CONT_AWD_15F06725F0001856_1549_15F06724A0000332_1549"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_15F06725F0001856_1549_15F06724A0000332_1549",
+          "parentName": "AMENTUM HOLDINGS INC.",
+          "parentUei": "TU4KCXMM9AP6",
+          "recipientUei": "GL7BQUY8ZJ79",
+          "responseSha256": "67ccc4e46356d5c3cb50eed264af72abe881c4b61e34ef5dbd9283472a80c50f"
+        },
+        "warnings": [
+          "profile parent UEI MKCAUUG2K7H6 (JACOBS ENGINEERING GROUP INC) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:GL7BQUY8ZJ79",
+        "kind": "uei",
+        "value": "GL7BQUY8ZJ79",
+        "entityId": "legal:amentum-technology-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2011-05-20",
+        "evidenceAsOf": "2026-10-30",
+        "sourceUrl": "https://www.usaspending.gov/recipient/32d5fb19-41e4-9715-1059-52248272216a-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/32d5fb19-41e4-9715-1059-52248272216a-C/",
+        "supportingPassage": "AMENTUM TECHNOLOGY, INC | UEI GL7BQUY8ZJ79 | COLUMBIA, MD, USA | Latest award CONT_AWD_15F06725F0001856_1549_15F06724A0000332_1549 (2026-09-22) parent: AMENTUM HOLDINGS INC. (UEI TU4KCXMM9AP6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "S7NNWN1J6JP9",
+        "cage": null,
+        "recipientId": "57282986-3068-2477-0374-d43d24fbee41-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/57282986-3068-2477-0374-d43d24fbee41-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/57282986-3068-2477-0374-d43d24fbee41-C/",
+        "responseSha256": "b80219e5ac92314cb9e0883bfd99ccecb27f63c2c394d4921f9a6498b4829ca0",
+        "name": "AMENTUM TECHNOLOGY, INC.",
+        "parentName": "JACOBS ENGINEERING GROUP INC",
+        "parentUei": "MKCAUUG2K7H6",
+        "otherReportedParents": [
+          "JACOBS SOLUTIONS, INC / MS4JKPLLQ4X9",
+          "AMENTUM HOLDINGS INC. / TU4KCXMM9AP6"
+        ],
+        "location": "TULLAHOMA, TN, USA",
+        "contractAmount": 36904343.39,
+        "earliestTransaction": {
+          "date": "2007-10-01",
+          "award": "CONT_AWD_0158_9700_W56HZV04A0005_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-07-23",
+          "award": "CONT_AWD_N6893625C0034_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N6893625C0034_9700_-NONE-_-NONE-",
+          "parentName": "AMENTUM HOLDINGS INC.",
+          "parentUei": "TU4KCXMM9AP6",
+          "recipientUei": "S7NNWN1J6JP9",
+          "responseSha256": "d2711e3b5ddc024d56a24227bd4940499883e154be49bf0d015a098a68ef2941"
+        },
+        "warnings": [
+          "profile parent UEI MKCAUUG2K7H6 (JACOBS ENGINEERING GROUP INC) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:S7NNWN1J6JP9",
+        "kind": "uei",
+        "value": "S7NNWN1J6JP9",
+        "entityId": "legal:amentum-technology-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-01",
+        "evidenceAsOf": "2026-10-30",
+        "sourceUrl": "https://www.usaspending.gov/recipient/57282986-3068-2477-0374-d43d24fbee41-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/57282986-3068-2477-0374-d43d24fbee41-C/",
+        "supportingPassage": "AMENTUM TECHNOLOGY, INC. | UEI S7NNWN1J6JP9 | TULLAHOMA, TN, USA | Latest award CONT_AWD_N6893625C0034_9700_-NONE-_-NONE- (2026-07-23) parent: AMENTUM HOLDINGS INC. (UEI TU4KCXMM9AP6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "RTPNQ73TAVT3",
+        "cage": null,
+        "recipientId": "f3afa8e6-6434-d351-93fc-0fd29e4b5541-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/f3afa8e6-6434-d351-93fc-0fd29e4b5541-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/f3afa8e6-6434-d351-93fc-0fd29e4b5541-C/",
+        "responseSha256": "9357eb4e02cca6a19dfa256f84967cea8cef3830b01171cc09c186444fcd549b",
+        "name": "AMENTUM TECHNOLOGY, INC.",
+        "parentName": "JACOBS ENGINEERING GROUP INC",
+        "parentUei": "MKCAUUG2K7H6",
+        "otherReportedParents": [
+          "AMENTUM TECHNOLOGY, INC. / RTPNQ73TAVT3",
+          "AMENTUM HOLDINGS INC. / TU4KCXMM9AP6"
+        ],
+        "location": "CHANTILLY, VA, USA",
+        "contractAmount": 130313.91,
+        "earliestTransaction": {
+          "date": "2012-08-30",
+          "award": "CONT_AWD_0001_9700_SP470312A0002_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-05-08",
+          "award": "CONT_AWD_91003120C0006_9100_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_91003120C0006_9100_-NONE-_-NONE-",
+          "parentName": "AMENTUM HOLDINGS INC.",
+          "parentUei": "TU4KCXMM9AP6",
+          "recipientUei": "RTPNQ73TAVT3",
+          "responseSha256": "707affb7225775ea2c1ab7c6e03787c9a576c251e6e3949df9a54a19d9dbf578"
+        },
+        "warnings": [
+          "profile parent UEI MKCAUUG2K7H6 (JACOBS ENGINEERING GROUP INC) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:RTPNQ73TAVT3",
+        "kind": "uei",
+        "value": "RTPNQ73TAVT3",
+        "entityId": "legal:amentum-technology-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2012-08-30",
+        "evidenceAsOf": "2026-10-30",
+        "sourceUrl": "https://www.usaspending.gov/recipient/f3afa8e6-6434-d351-93fc-0fd29e4b5541-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/f3afa8e6-6434-d351-93fc-0fd29e4b5541-C/",
+        "supportingPassage": "AMENTUM TECHNOLOGY, INC. | UEI RTPNQ73TAVT3 | CHANTILLY, VA, USA | Latest award CONT_AWD_91003120C0006_9100_-NONE-_-NONE- (2026-05-08) parent: AMENTUM HOLDINGS INC. (UEI TU4KCXMM9AP6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "QCYBSZKSAFV6",
+        "cage": null,
+        "recipientId": "a36134d1-e14c-83ec-d257-1841260ebd82-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/a36134d1-e14c-83ec-d257-1841260ebd82-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/a36134d1-e14c-83ec-d257-1841260ebd82-C/",
+        "responseSha256": "ab9ed463717cbed9bd6209a029f0b30372d33648659fc07602395d6725cd2dba",
+        "name": "AMENTUM TECHNOLOGY, INC.",
+        "parentName": "JACOBS ENGINEERING GROUP INC",
+        "parentUei": "MKCAUUG2K7H6",
+        "otherReportedParents": [
+          "JACOBS SOLUTIONS, INC / MS4JKPLLQ4X9",
+          "JACOBS TECHNOLOGY INC. / SEK2TLGM9RJ8",
+          "AMENTUM HOLDINGS INC. / TU4KCXMM9AP6"
+        ],
+        "location": "SEVERN, MD, USA",
+        "contractAmount": -7336.07,
+        "earliestTransaction": {
+          "date": "2020-09-03",
+          "award": "CONT_AWD_FA875020C1537_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-05-13",
+          "award": "CONT_AWD_N0017319C2002_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N0017319C2002_9700_-NONE-_-NONE-",
+          "parentName": "AMENTUM HOLDINGS INC.",
+          "parentUei": "TU4KCXMM9AP6",
+          "recipientUei": "QCYBSZKSAFV6",
+          "responseSha256": "250a14fb829afaec1aaec4cca41c4e5d4aecb710e3633f20b3935d48817fa222"
+        },
+        "warnings": [
+          "profile parent UEI MKCAUUG2K7H6 (JACOBS ENGINEERING GROUP INC) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:QCYBSZKSAFV6",
+        "kind": "uei",
+        "value": "QCYBSZKSAFV6",
+        "entityId": "legal:amentum-technology-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2020-09-03",
+        "evidenceAsOf": "2026-10-30",
+        "sourceUrl": "https://www.usaspending.gov/recipient/a36134d1-e14c-83ec-d257-1841260ebd82-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/a36134d1-e14c-83ec-d257-1841260ebd82-C/",
+        "supportingPassage": "AMENTUM TECHNOLOGY, INC. | UEI QCYBSZKSAFV6 | SEVERN, MD, USA | Latest award CONT_AWD_N0017319C2002_9700_-NONE-_-NONE- (2026-05-13) parent: AMENTUM HOLDINGS INC. (UEI TU4KCXMM9AP6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    }
+  ],
+  "excluded": [],
+  "limitations": [
+    "USAspending reflects SAM data as reported; it is not SAM.gov itself",
+    "Recipient search is keyword-based and capped at 500 records",
+    "Profile parent fields can be stale; corroboration uses the parent on the latest award record",
+    "Name and parent agreement do not prove the SEC-listed legal entity; review state of incorporation separately where available"
+  ]
+}

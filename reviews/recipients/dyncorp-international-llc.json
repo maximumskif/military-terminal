@@ -1,0 +1,127 @@
+{
+  "generatedAt": "2026-10-30T17:03:24.427Z",
+  "query": {
+    "name": "DynCorp International LLC",
+    "parentUei": "TU4KCXMM9AP6",
+    "entityId": "legal:dyncorp-international-llc",
+    "formerNames": [],
+    "notBefore": null
+  },
+  "searched": 2,
+  "candidates": [
+    {
+      "evidence": {
+        "uei": "ML6KL68PHMK3",
+        "cage": null,
+        "recipientId": "45d836a2-4bbe-5707-782d-26be5f02fd93-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/45d836a2-4bbe-5707-782d-26be5f02fd93-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/45d836a2-4bbe-5707-782d-26be5f02fd93-C/",
+        "responseSha256": "93a8b8b0bde28721219e7ccb20bcc0409461b7c035653eb0cc03fcac774e5737",
+        "name": "DYNCORP INTERNATIONAL LLC",
+        "parentName": "RED RIVER TECHNOLOGY LLC",
+        "parentUei": "Q2RRYDHKZ8Z7",
+        "otherReportedParents": [
+          "AMENTUM GOVERNMENT SERVICES HOLDINGS LLC / JSRNXGERS624",
+          "THE VERITAS CAPITAL FUND II L P / NDPJDAZ98Z13",
+          "AMENTUM HOLDINGS INC. / TU4KCXMM9AP6",
+          "AMENTUM JOINT VENTURE LP / Q3BYWA4EY5G3",
+          "AMENTUM SERVICES, INC. / QEMLRQA7PLG4",
+          "CERBERUS CAPITAL MANAGEMENT, L.P. / JFBJBSRKYCS3"
+        ],
+        "location": "FORT WORTH, TX, USA",
+        "contractAmount": 34972092.92,
+        "earliestTransaction": {
+          "date": "2007-10-03",
+          "award": "CONT_AWD_DAAH2300C0226_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-07-16",
+          "award": "CONT_AWD_FA805119FA011_9700_FA805115D0008_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_FA805119FA011_9700_FA805115D0008_9700",
+          "parentName": "AMENTUM HOLDINGS INC.",
+          "parentUei": "TU4KCXMM9AP6",
+          "recipientUei": "ML6KL68PHMK3",
+          "responseSha256": "50503a67fe191a4a34967f6dbacb02d91d8976ea4e4048474f6b034024535f43"
+        },
+        "warnings": [
+          "profile parent UEI Q2RRYDHKZ8Z7 (RED RIVER TECHNOLOGY LLC) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:ML6KL68PHMK3",
+        "kind": "uei",
+        "value": "ML6KL68PHMK3",
+        "entityId": "legal:dyncorp-international-llc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-03",
+        "evidenceAsOf": "2026-10-30",
+        "sourceUrl": "https://www.usaspending.gov/recipient/45d836a2-4bbe-5707-782d-26be5f02fd93-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/45d836a2-4bbe-5707-782d-26be5f02fd93-C/",
+        "supportingPassage": "DYNCORP INTERNATIONAL LLC | UEI ML6KL68PHMK3 | FORT WORTH, TX, USA | Latest award CONT_AWD_FA805119FA011_9700_FA805115D0008_9700 (2026-07-16) parent: AMENTUM HOLDINGS INC. (UEI TU4KCXMM9AP6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "H3XHYWSJL8E3",
+        "cage": null,
+        "recipientId": "d1c622f5-34b2-426f-d0e1-c2ee6b71a231-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/d1c622f5-34b2-426f-d0e1-c2ee6b71a231-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/d1c622f5-34b2-426f-d0e1-c2ee6b71a231-C/",
+        "responseSha256": "4367b7d8f101cb0c4ec9ad18a6598f849d0f35482589d8dff24dd983080c2340",
+        "name": "DYNCORP INTERNATIONAL LLC",
+        "parentName": "AMENTUM GOVERNMENT SERVICES HOLDINGS LLC",
+        "parentUei": "JSRNXGERS624",
+        "otherReportedParents": [
+          "THE VERITAS CAPITAL FUND II L P / NDPJDAZ98Z13",
+          "AMENTUM HOLDINGS INC. / TU4KCXMM9AP6",
+          "AMENTUM JOINT VENTURE LP / Q3BYWA4EY5G3",
+          "AMENTUM SERVICES, INC. / QEMLRQA7PLG4",
+          "CERBERUS CAPITAL MANAGEMENT, L.P. / JFBJBSRKYCS3"
+        ],
+        "location": "CHANTILLY, VA, USA",
+        "contractAmount": -500794.85,
+        "earliestTransaction": {
+          "date": "2010-01-11",
+          "award": "CONT_AWD_W912SR10P0033_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-06-30",
+          "award": "CONT_AWD_0003_9700_W56HZV15DER06_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_0003_9700_W56HZV15DER06_9700",
+          "parentName": "AMENTUM HOLDINGS INC.",
+          "parentUei": "TU4KCXMM9AP6",
+          "recipientUei": "H3XHYWSJL8E3",
+          "responseSha256": "6ee402214325e54e7cfc2b8d723120a79690475939b52a517ae2ba77a46d2145"
+        },
+        "warnings": [
+          "profile parent UEI JSRNXGERS624 (AMENTUM GOVERNMENT SERVICES HOLDINGS LLC) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:H3XHYWSJL8E3",
+        "kind": "uei",
+        "value": "H3XHYWSJL8E3",
+        "entityId": "legal:dyncorp-international-llc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2010-01-11",
+        "evidenceAsOf": "2026-10-30",
+        "sourceUrl": "https://www.usaspending.gov/recipient/d1c622f5-34b2-426f-d0e1-c2ee6b71a231-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/d1c622f5-34b2-426f-d0e1-c2ee6b71a231-C/",
+        "supportingPassage": "DYNCORP INTERNATIONAL LLC | UEI H3XHYWSJL8E3 | CHANTILLY, VA, USA | Latest award CONT_AWD_0003_9700_W56HZV15DER06_9700 (2026-06-30) parent: AMENTUM HOLDINGS INC. (UEI TU4KCXMM9AP6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    }
+  ],
+  "excluded": [],
+  "limitations": [
+    "USAspending reflects SAM data as reported; it is not SAM.gov itself",
+    "Recipient search is keyword-based and capped at 500 records",
+    "Profile parent fields can be stale; corroboration uses the parent on the latest award record",
+    "Name and parent agreement do not prove the SEC-listed legal entity; review state of incorporation separately where available"
+  ]
+}

@@ -1870,6 +1870,131 @@
       "uei": null,
       "cage": null,
       "stateOfIncorporation": "Delaware"
+    },
+    {
+      "id": "sec:0002011286",
+      "legalName": "Amentum Holdings, Inc.",
+      "cik": "0002011286",
+      "uei": null,
+      "cage": null,
+      "publicListing": {
+        "ticker": "AMTM",
+        "exchange": "NYSE",
+        "evidenceAsOf": "2025-10-03",
+        "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2011286/000162828025053993/amtm-20251003.htm",
+        "sourceSection": "Cover page, registered securities table",
+        "supportingPassage": "Common Stock, par value $0.01 per share AMTM New York Stock Exchange"
+      },
+      "formerNames": [
+        {
+          "name": "Amazon Holdco Inc.",
+          "from": "2024-03-07",
+          "to": "2024-09-18"
+        }
+      ],
+      "formerNamesSource": "https://data.sec.gov/submissions/CIK0002011286.json (formerNames), reviewed 2026-10-30",
+      "revenueEvidence": [
+        {
+          "fiscalYearEnd": "2025-10-03",
+          "value": 14393000000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2011286/000162828025053993/amtm-20251003.htm",
+          "sourceSection": "Consolidated Statements of Operations (in millions)",
+          "supportingPassage": "For the years ended October 3, 2025 September 27, 2024 September 29, 2023 Revenues $ 14,393 $ 8,388 $ 7,865 (in millions)",
+          "xbrlCrossCheck": "Matches us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax annual fact in SEC companyconcept data. 53-week fiscal year; first full year of the combined company",
+          "reviewedAt": "2026-10-30"
+        },
+        {
+          "fiscalYearEnd": "2024-09-27",
+          "value": 8388000000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2011286/000162828025053993/amtm-20251003.htm",
+          "sourceSection": "Consolidated Statements of Operations (in millions)",
+          "supportingPassage": "For the years ended October 3, 2025 September 27, 2024 September 29, 2023 Revenues $ 14,393 $ 8,388 $ 7,865 (in millions)",
+          "xbrlCrossCheck": "Matches us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax annual fact in SEC companyconcept data. Predecessor (Amentum Parent Holdings LLC) results before the 2024-09-27 merger with Jacobs Critical Mission Solutions; not comparable to the combined company",
+          "reviewedAt": "2026-10-30"
+        },
+        {
+          "fiscalYearEnd": "2023-09-29",
+          "value": 7865000000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2011286/000162828025053993/amtm-20251003.htm",
+          "sourceSection": "Consolidated Statements of Operations (in millions)",
+          "supportingPassage": "For the years ended October 3, 2025 September 27, 2024 September 29, 2023 Revenues $ 14,393 $ 8,388 $ 7,865 (in millions)",
+          "xbrlCrossCheck": "Matches us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax annual fact in SEC companyconcept data. Predecessor (Amentum Parent Holdings LLC) results before the 2024-09-27 merger with Jacobs Critical Mission Solutions; not comparable to the combined company",
+          "reviewedAt": "2026-10-30"
+        },
+        {
+          "fiscalYearEnd": "2022-09-30",
+          "value": 7676000000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2011286/000201128624000072/amtm-20240927.htm",
+          "sourceSection": "Consolidated Statements of Operations (in millions)",
+          "supportingPassage": "For the years ended September 27, 2024 September 29, 2023 September 30, 2022 Revenues $ 8,388 $ 7,865 $ 7,676 (in millions)",
+          "xbrlCrossCheck": "Matches us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax annual fact in SEC companyconcept data. Predecessor (Amentum Parent Holdings LLC) results before the 2024-09-27 merger with Jacobs Critical Mission Solutions; not comparable to the combined company",
+          "reviewedAt": "2026-10-30"
+        }
+      ]
+    },
+    {
+      "id": "legal:amentum-services-inc",
+      "legalName": "Amentum Services, Inc.",
+      "cik": null,
+      "uei": null,
+      "cage": null,
+      "stateOfIncorporation": "Delaware"
+    },
+    {
+      "id": "legal:amentum-technology-inc",
+      "legalName": "Amentum Technology, Inc.",
+      "cik": null,
+      "uei": null,
+      "cage": null,
+      "stateOfIncorporation": "Tennessee"
+    },
+    {
+      "id": "legal:amentum-environment-energy-inc",
+      "legalName": "Amentum Environment & Energy, Inc.",
+      "cik": null,
+      "uei": null,
+      "cage": null,
+      "stateOfIncorporation": "Ohio"
+    },
+    {
+      "id": "legal:pae-government-services-inc",
+      "legalName": "PAE Government Services, Inc.",
+      "cik": null,
+      "uei": null,
+      "cage": null,
+      "stateOfIncorporation": "California"
+    },
+    {
+      "id": "legal:pae-applied-technologies-llc",
+      "legalName": "PAE Applied Technologies LLC",
+      "cik": null,
+      "uei": null,
+      "cage": null,
+      "stateOfIncorporation": "Delaware"
+    },
+    {
+      "id": "legal:dyncorp-international-llc",
+      "legalName": "DynCorp International LLC",
+      "cik": null,
+      "uei": null,
+      "cage": null,
+      "stateOfIncorporation": "Delaware"
+    },
+    {
+      "id": "legal:urs-federal-services-international-inc",
+      "legalName": "URS Federal Services International, Inc.",
+      "cik": null,
+      "uei": null,
+      "cage": null,
+      "stateOfIncorporation": "Delaware"
     }
   ],
   "relationships": [
@@ -3206,6 +3331,181 @@
         "Latest reviewed relationship evidence is dated 2025-12-31",
         "Exhibit 21 lists subsidiaries without ownership percentages; no filing passage states wholly owned status for this entity",
         "Fiscal 2020–2024 Exhibit 21 lists a Delaware “Vectrus Systems Corporation”; fiscal 2025 lists only “V2X Systems LLC”. The fiscal 2025 Form 10-K and the May 2026 credit agreement amendment state other subsidiary renames (e.g. V2X LLC f/k/a Vertex Aerospace Services LLC) but not this one, so earlier dates are not modeled."
+      ]
+    },
+    {
+      "id": "relationship:amentum-services-inc-0002011286",
+      "childId": "legal:amentum-services-inc",
+      "parentId": "sec:0002011286",
+      "type": "subsidiary",
+      "reviewStatus": "reviewed_primary_filing",
+      "effectiveFrom": "2025-10-03",
+      "effectiveUntil": null,
+      "evidenceAsOf": "2025-10-03",
+      "ownershipPercentage": null,
+      "observedAt": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2011286/000162828025053993/amtm100325ex211.htm",
+          "section": "Exhibit 21.1, Subsidiaries of the Registrant (fiscal 2025, 2025-10-03)",
+          "supportingPassage": "Amentum Services, Inc. | Delaware",
+          "scope": "Subsidiary listing at 2025-10-03; no ownership percentage; no government recipient identifier"
+        }
+      ],
+      "limitations": [
+        "Latest reviewed relationship evidence is dated 2025-10-03",
+        "Exhibit 21.1 lists subsidiaries without ownership percentages; no filing passage states wholly owned status for this entity",
+        "The fiscal 2024 Exhibit 21.1 is titled “Expected Subsidiaries of Combined Co Immediately Following the Merger”, a forward-looking list, so the relationship starts at the fiscal 2025 listing rather than the 2024-09-27 merger"
+      ]
+    },
+    {
+      "id": "relationship:amentum-technology-inc-0002011286",
+      "childId": "legal:amentum-technology-inc",
+      "parentId": "sec:0002011286",
+      "type": "subsidiary",
+      "reviewStatus": "reviewed_primary_filing",
+      "effectiveFrom": "2025-10-03",
+      "effectiveUntil": null,
+      "evidenceAsOf": "2025-10-03",
+      "ownershipPercentage": null,
+      "observedAt": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2011286/000162828025053993/amtm100325ex211.htm",
+          "section": "Exhibit 21.1, Subsidiaries of the Registrant (fiscal 2025, 2025-10-03)",
+          "supportingPassage": "Amentum Technology, Inc. | Tennessee",
+          "scope": "Subsidiary listing at 2025-10-03; no ownership percentage; no government recipient identifier"
+        }
+      ],
+      "limitations": [
+        "Latest reviewed relationship evidence is dated 2025-10-03",
+        "Exhibit 21.1 lists subsidiaries without ownership percentages; no filing passage states wholly owned status for this entity",
+        "The fiscal 2024 Exhibit 21.1 is titled “Expected Subsidiaries of Combined Co Immediately Following the Merger”, a forward-looking list, so the relationship starts at the fiscal 2025 listing rather than the 2024-09-27 merger"
+      ]
+    },
+    {
+      "id": "relationship:amentum-environment-energy-inc-0002011286",
+      "childId": "legal:amentum-environment-energy-inc",
+      "parentId": "sec:0002011286",
+      "type": "subsidiary",
+      "reviewStatus": "reviewed_primary_filing",
+      "effectiveFrom": "2025-10-03",
+      "effectiveUntil": null,
+      "evidenceAsOf": "2025-10-03",
+      "ownershipPercentage": null,
+      "observedAt": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2011286/000162828025053993/amtm100325ex211.htm",
+          "section": "Exhibit 21.1, Subsidiaries of the Registrant (fiscal 2025, 2025-10-03)",
+          "supportingPassage": "Amentum Environment & Energy, Inc. | Ohio",
+          "scope": "Subsidiary listing at 2025-10-03; no ownership percentage; no government recipient identifier"
+        }
+      ],
+      "limitations": [
+        "Latest reviewed relationship evidence is dated 2025-10-03",
+        "Exhibit 21.1 lists subsidiaries without ownership percentages; no filing passage states wholly owned status for this entity",
+        "The fiscal 2024 Exhibit 21.1 is titled “Expected Subsidiaries of Combined Co Immediately Following the Merger”, a forward-looking list, so the relationship starts at the fiscal 2025 listing rather than the 2024-09-27 merger"
+      ]
+    },
+    {
+      "id": "relationship:pae-government-services-inc-0002011286",
+      "childId": "legal:pae-government-services-inc",
+      "parentId": "sec:0002011286",
+      "type": "subsidiary",
+      "reviewStatus": "reviewed_primary_filing",
+      "effectiveFrom": "2025-10-03",
+      "effectiveUntil": null,
+      "evidenceAsOf": "2025-10-03",
+      "ownershipPercentage": null,
+      "observedAt": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2011286/000162828025053993/amtm100325ex211.htm",
+          "section": "Exhibit 21.1, Subsidiaries of the Registrant (fiscal 2025, 2025-10-03)",
+          "supportingPassage": "PAE Government Services, Inc. | California",
+          "scope": "Subsidiary listing at 2025-10-03; no ownership percentage; no government recipient identifier"
+        }
+      ],
+      "limitations": [
+        "Latest reviewed relationship evidence is dated 2025-10-03",
+        "Exhibit 21.1 lists subsidiaries without ownership percentages; no filing passage states wholly owned status for this entity",
+        "The fiscal 2024 Exhibit 21.1 is titled “Expected Subsidiaries of Combined Co Immediately Following the Merger”, a forward-looking list, so the relationship starts at the fiscal 2025 listing rather than the 2024-09-27 merger"
+      ]
+    },
+    {
+      "id": "relationship:pae-applied-technologies-llc-0002011286",
+      "childId": "legal:pae-applied-technologies-llc",
+      "parentId": "sec:0002011286",
+      "type": "subsidiary",
+      "reviewStatus": "reviewed_primary_filing",
+      "effectiveFrom": "2025-10-03",
+      "effectiveUntil": null,
+      "evidenceAsOf": "2025-10-03",
+      "ownershipPercentage": null,
+      "observedAt": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2011286/000162828025053993/amtm100325ex211.htm",
+          "section": "Exhibit 21.1, Subsidiaries of the Registrant (fiscal 2025, 2025-10-03)",
+          "supportingPassage": "PAE Applied Technologies LLC | Delaware",
+          "scope": "Subsidiary listing at 2025-10-03; no ownership percentage; no government recipient identifier"
+        }
+      ],
+      "limitations": [
+        "Latest reviewed relationship evidence is dated 2025-10-03",
+        "Exhibit 21.1 lists subsidiaries without ownership percentages; no filing passage states wholly owned status for this entity",
+        "The fiscal 2024 Exhibit 21.1 is titled “Expected Subsidiaries of Combined Co Immediately Following the Merger”, a forward-looking list, so the relationship starts at the fiscal 2025 listing rather than the 2024-09-27 merger"
+      ]
+    },
+    {
+      "id": "relationship:dyncorp-international-llc-0002011286",
+      "childId": "legal:dyncorp-international-llc",
+      "parentId": "sec:0002011286",
+      "type": "subsidiary",
+      "reviewStatus": "reviewed_primary_filing",
+      "effectiveFrom": "2025-10-03",
+      "effectiveUntil": null,
+      "evidenceAsOf": "2025-10-03",
+      "ownershipPercentage": null,
+      "observedAt": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2011286/000162828025053993/amtm100325ex211.htm",
+          "section": "Exhibit 21.1, Subsidiaries of the Registrant (fiscal 2025, 2025-10-03)",
+          "supportingPassage": "DynCorp International LLC | Delaware",
+          "scope": "Subsidiary listing at 2025-10-03; no ownership percentage; no government recipient identifier"
+        }
+      ],
+      "limitations": [
+        "Latest reviewed relationship evidence is dated 2025-10-03",
+        "Exhibit 21.1 lists subsidiaries without ownership percentages; no filing passage states wholly owned status for this entity",
+        "The fiscal 2024 Exhibit 21.1 is titled “Expected Subsidiaries of Combined Co Immediately Following the Merger”, a forward-looking list, so the relationship starts at the fiscal 2025 listing rather than the 2024-09-27 merger"
+      ]
+    },
+    {
+      "id": "relationship:urs-federal-services-international-inc-0002011286",
+      "childId": "legal:urs-federal-services-international-inc",
+      "parentId": "sec:0002011286",
+      "type": "subsidiary",
+      "reviewStatus": "reviewed_primary_filing",
+      "effectiveFrom": "2025-10-03",
+      "effectiveUntil": null,
+      "evidenceAsOf": "2025-10-03",
+      "ownershipPercentage": null,
+      "observedAt": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2011286/000162828025053993/amtm100325ex211.htm",
+          "section": "Exhibit 21.1, Subsidiaries of the Registrant (fiscal 2025, 2025-10-03)",
+          "supportingPassage": "URS Federal Services International, Inc. | Delaware",
+          "scope": "Subsidiary listing at 2025-10-03; no ownership percentage; no government recipient identifier"
+        }
+      ],
+      "limitations": [
+        "Latest reviewed relationship evidence is dated 2025-10-03",
+        "Exhibit 21.1 lists subsidiaries without ownership percentages; no filing passage states wholly owned status for this entity",
+        "The fiscal 2024 Exhibit 21.1 is titled “Expected Subsidiaries of Combined Co Immediately Following the Merger”, a forward-looking list, so the relationship starts at the fiscal 2025 listing rather than the 2024-09-27 merger"
       ]
     }
   ],
@@ -8057,6 +8357,262 @@
       "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
       "reviewedAt": "2026-10-30",
       "reviewFile": "reviews/recipients/v2x-systems-llc.json"
+    },
+    {
+      "id": "binding:uei:QEMLRQA7PLG4",
+      "kind": "uei",
+      "value": "QEMLRQA7PLG4",
+      "entityId": "legal:amentum-services-inc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2010-07-29",
+      "evidenceAsOf": "2026-10-30",
+      "sourceUrl": "https://www.usaspending.gov/recipient/fe5366b4-84c8-12ff-126f-f123de29819c-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/fe5366b4-84c8-12ff-126f-f123de29819c-C/",
+      "supportingPassage": "AMENTUM SERVICES, INC. | UEI QEMLRQA7PLG4 | CHANTILLY, VA, USA | Latest award CONT_AWD_80KSC024F0033_8000_80KSC020D0008_8000 (2026-10-28) parent: AMENTUM HOLDINGS INC. (UEI TU4KCXMM9AP6)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-30",
+      "reviewFile": "reviews/recipients/amentum-services-inc.json"
+    },
+    {
+      "id": "binding:uei:KAS5HG38F9B1",
+      "kind": "uei",
+      "value": "KAS5HG38F9B1",
+      "entityId": "legal:amentum-services-inc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-02",
+      "evidenceAsOf": "2026-10-30",
+      "sourceUrl": "https://www.usaspending.gov/recipient/db8e8df3-c46a-7f96-b351-4d9b28273539-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/db8e8df3-c46a-7f96-b351-4d9b28273539-C/",
+      "supportingPassage": "AMENTUM SERVICES, INC | UEI KAS5HG38F9B1 | HUNTSVILLE, AL, USA | Latest award CONT_AWD_19CM8026P0659_1900_-NONE-_-NONE- (2026-10-20) parent: AMENTUM HOLDINGS INC. (UEI TU4KCXMM9AP6)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-30",
+      "reviewFile": "reviews/recipients/amentum-services-inc.json"
+    },
+    {
+      "id": "binding:uei:DTRJLHVLK8F4",
+      "kind": "uei",
+      "value": "DTRJLHVLK8F4",
+      "entityId": "legal:amentum-technology-inc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2017-08-09",
+      "evidenceAsOf": "2026-10-30",
+      "sourceUrl": "https://www.usaspending.gov/recipient/64d116c0-8e36-0200-3878-827560dca24a-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/64d116c0-8e36-0200-3878-827560dca24a-C/",
+      "supportingPassage": "AMENTUM TECHNOLOGY, INC. | UEI DTRJLHVLK8F4 | TULLAHOMA, TN, USA | Latest award CONT_AWD_HQ085723F8600_9700_HQ079617D0001_9700 (2026-07-21) parent: AMENTUM HOLDINGS INC. (UEI TU4KCXMM9AP6)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-30",
+      "reviewFile": "reviews/recipients/amentum-technology-inc.json"
+    },
+    {
+      "id": "binding:uei:H2RGSKWXKHQ5",
+      "kind": "uei",
+      "value": "H2RGSKWXKHQ5",
+      "entityId": "legal:amentum-technology-inc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-01",
+      "evidenceAsOf": "2026-10-30",
+      "sourceUrl": "https://www.usaspending.gov/recipient/435aa33d-8ca5-7631-ec18-85dbb07c6fa1-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/435aa33d-8ca5-7631-ec18-85dbb07c6fa1-C/",
+      "supportingPassage": "AMENTUM TECHNOLOGY, INC. | UEI H2RGSKWXKHQ5 | TULLAHOMA, TN, USA | Latest award CONT_AWD_NNL17AA43T_8000_NNL13AA14C_8000 (2026-10-21) parent: AMENTUM HOLDINGS INC. (UEI TU4KCXMM9AP6)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-30",
+      "reviewFile": "reviews/recipients/amentum-technology-inc.json"
+    },
+    {
+      "id": "binding:uei:K8QPQLGTRM33",
+      "kind": "uei",
+      "value": "K8QPQLGTRM33",
+      "entityId": "legal:amentum-technology-inc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2016-01-06",
+      "evidenceAsOf": "2026-10-30",
+      "sourceUrl": "https://www.usaspending.gov/recipient/40ed4eec-af42-15cf-f36d-7a56194f7f4b-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/40ed4eec-af42-15cf-f36d-7a56194f7f4b-C/",
+      "supportingPassage": "AMENTUM TECHNOLOGY, INC. | UEI K8QPQLGTRM33 | TULLAHOMA, TN, USA | Latest award CONT_AWD_80ARC026FA012_8000_80ARC022DA011_8000 (2026-10-23) parent: AMENTUM HOLDINGS INC. (UEI TU4KCXMM9AP6)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-30",
+      "reviewFile": "reviews/recipients/amentum-technology-inc.json"
+    },
+    {
+      "id": "binding:uei:K3NWHLVFMKB5",
+      "kind": "uei",
+      "value": "K3NWHLVFMKB5",
+      "entityId": "legal:amentum-technology-inc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-01",
+      "evidenceAsOf": "2026-10-30",
+      "sourceUrl": "https://www.usaspending.gov/recipient/f42d4e43-c1bb-1266-3e9a-a1bfa380c7e3-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/f42d4e43-c1bb-1266-3e9a-a1bfa380c7e3-C/",
+      "supportingPassage": "AMENTUM TECHNOLOGY, INC. | UEI K3NWHLVFMKB5 | TAMPA, FL, USA | Latest award CONT_AWD_47QFSA20F0078_4732_H9222216D0040_9700 (2026-07-27) parent: AMENTUM HOLDINGS INC. (UEI TU4KCXMM9AP6)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-30",
+      "reviewFile": "reviews/recipients/amentum-technology-inc.json"
+    },
+    {
+      "id": "binding:uei:GL7BQUY8ZJ79",
+      "kind": "uei",
+      "value": "GL7BQUY8ZJ79",
+      "entityId": "legal:amentum-technology-inc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2011-05-20",
+      "evidenceAsOf": "2026-10-30",
+      "sourceUrl": "https://www.usaspending.gov/recipient/32d5fb19-41e4-9715-1059-52248272216a-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/32d5fb19-41e4-9715-1059-52248272216a-C/",
+      "supportingPassage": "AMENTUM TECHNOLOGY, INC | UEI GL7BQUY8ZJ79 | COLUMBIA, MD, USA | Latest award CONT_AWD_15F06725F0001856_1549_15F06724A0000332_1549 (2026-09-22) parent: AMENTUM HOLDINGS INC. (UEI TU4KCXMM9AP6)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-30",
+      "reviewFile": "reviews/recipients/amentum-technology-inc.json"
+    },
+    {
+      "id": "binding:uei:S7NNWN1J6JP9",
+      "kind": "uei",
+      "value": "S7NNWN1J6JP9",
+      "entityId": "legal:amentum-technology-inc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-01",
+      "evidenceAsOf": "2026-10-30",
+      "sourceUrl": "https://www.usaspending.gov/recipient/57282986-3068-2477-0374-d43d24fbee41-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/57282986-3068-2477-0374-d43d24fbee41-C/",
+      "supportingPassage": "AMENTUM TECHNOLOGY, INC. | UEI S7NNWN1J6JP9 | TULLAHOMA, TN, USA | Latest award CONT_AWD_N6893625C0034_9700_-NONE-_-NONE- (2026-07-23) parent: AMENTUM HOLDINGS INC. (UEI TU4KCXMM9AP6)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-30",
+      "reviewFile": "reviews/recipients/amentum-technology-inc.json"
+    },
+    {
+      "id": "binding:uei:RTPNQ73TAVT3",
+      "kind": "uei",
+      "value": "RTPNQ73TAVT3",
+      "entityId": "legal:amentum-technology-inc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2012-08-30",
+      "evidenceAsOf": "2026-10-30",
+      "sourceUrl": "https://www.usaspending.gov/recipient/f3afa8e6-6434-d351-93fc-0fd29e4b5541-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/f3afa8e6-6434-d351-93fc-0fd29e4b5541-C/",
+      "supportingPassage": "AMENTUM TECHNOLOGY, INC. | UEI RTPNQ73TAVT3 | CHANTILLY, VA, USA | Latest award CONT_AWD_91003120C0006_9100_-NONE-_-NONE- (2026-05-08) parent: AMENTUM HOLDINGS INC. (UEI TU4KCXMM9AP6)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-30",
+      "reviewFile": "reviews/recipients/amentum-technology-inc.json"
+    },
+    {
+      "id": "binding:uei:QCYBSZKSAFV6",
+      "kind": "uei",
+      "value": "QCYBSZKSAFV6",
+      "entityId": "legal:amentum-technology-inc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2020-09-03",
+      "evidenceAsOf": "2026-10-30",
+      "sourceUrl": "https://www.usaspending.gov/recipient/a36134d1-e14c-83ec-d257-1841260ebd82-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/a36134d1-e14c-83ec-d257-1841260ebd82-C/",
+      "supportingPassage": "AMENTUM TECHNOLOGY, INC. | UEI QCYBSZKSAFV6 | SEVERN, MD, USA | Latest award CONT_AWD_N0017319C2002_9700_-NONE-_-NONE- (2026-05-13) parent: AMENTUM HOLDINGS INC. (UEI TU4KCXMM9AP6)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-30",
+      "reviewFile": "reviews/recipients/amentum-technology-inc.json"
+    },
+    {
+      "id": "binding:uei:EPJXJJAXYF38",
+      "kind": "uei",
+      "value": "EPJXJJAXYF38",
+      "entityId": "legal:amentum-environment-energy-inc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-10",
+      "evidenceAsOf": "2026-10-30",
+      "sourceUrl": "https://www.usaspending.gov/recipient/e1bcf98e-61e8-803b-6649-0df1c461a3fe-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/e1bcf98e-61e8-803b-6649-0df1c461a3fe-C/",
+      "supportingPassage": "AMENTUM ENVIRONMENT & ENERGY, INC. | UEI EPJXJJAXYF38 | AIKEN, SC, USA | Latest award CONT_AWD_692M1525F00003_6920_692M1521D00005_6920 (2026-10-19) parent: AMENTUM HOLDINGS INC. (UEI TU4KCXMM9AP6)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-30",
+      "reviewFile": "reviews/recipients/amentum-environment-energy-inc.json"
+    },
+    {
+      "id": "binding:uei:JENBF1KKWZ93",
+      "kind": "uei",
+      "value": "JENBF1KKWZ93",
+      "entityId": "legal:pae-government-services-inc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-01",
+      "evidenceAsOf": "2026-10-30",
+      "sourceUrl": "https://www.usaspending.gov/recipient/fd602973-d119-7ced-a3e7-11ecee5a9318-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/fd602973-d119-7ced-a3e7-11ecee5a9318-C/",
+      "supportingPassage": "PAE GOVERNMENT SERVICES, INC. | UEI JENBF1KKWZ93 | CHANTILLY, VA, USA | Latest award CONT_AWD_15JPSS26F00001094_1501_15JPSS20D00000035_1501 (2026-10-28) parent: AMENTUM HOLDINGS INC. (UEI TU4KCXMM9AP6)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-30",
+      "reviewFile": "reviews/recipients/pae-government-services-inc.json"
+    },
+    {
+      "id": "binding:uei:K55GHE7FCEF5",
+      "kind": "uei",
+      "value": "K55GHE7FCEF5",
+      "entityId": "legal:pae-applied-technologies-llc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-03",
+      "evidenceAsOf": "2026-10-30",
+      "sourceUrl": "https://www.usaspending.gov/recipient/ebfaba2f-88df-188b-0c40-848e63926c8b-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/ebfaba2f-88df-188b-0c40-848e63926c8b-C/",
+      "supportingPassage": "PAE APPLIED TECHNOLOGIES LLC | UEI K55GHE7FCEF5 | CHANTILLY, VA, USA | Latest award CONT_AWD_FA489024F0102_9700_FA489023D0007_9700 (2026-06-29) parent: AMENTUM HOLDINGS INC. (UEI TU4KCXMM9AP6)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-30",
+      "reviewFile": "reviews/recipients/pae-applied-technologies-llc.json"
+    },
+    {
+      "id": "binding:uei:ML6KL68PHMK3",
+      "kind": "uei",
+      "value": "ML6KL68PHMK3",
+      "entityId": "legal:dyncorp-international-llc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-03",
+      "evidenceAsOf": "2026-10-30",
+      "sourceUrl": "https://www.usaspending.gov/recipient/45d836a2-4bbe-5707-782d-26be5f02fd93-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/45d836a2-4bbe-5707-782d-26be5f02fd93-C/",
+      "supportingPassage": "DYNCORP INTERNATIONAL LLC | UEI ML6KL68PHMK3 | FORT WORTH, TX, USA | Latest award CONT_AWD_FA805119FA011_9700_FA805115D0008_9700 (2026-07-16) parent: AMENTUM HOLDINGS INC. (UEI TU4KCXMM9AP6)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-30",
+      "reviewFile": "reviews/recipients/dyncorp-international-llc.json"
+    },
+    {
+      "id": "binding:uei:H3XHYWSJL8E3",
+      "kind": "uei",
+      "value": "H3XHYWSJL8E3",
+      "entityId": "legal:dyncorp-international-llc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2010-01-11",
+      "evidenceAsOf": "2026-10-30",
+      "sourceUrl": "https://www.usaspending.gov/recipient/d1c622f5-34b2-426f-d0e1-c2ee6b71a231-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/d1c622f5-34b2-426f-d0e1-c2ee6b71a231-C/",
+      "supportingPassage": "DYNCORP INTERNATIONAL LLC | UEI H3XHYWSJL8E3 | CHANTILLY, VA, USA | Latest award CONT_AWD_0003_9700_W56HZV15DER06_9700 (2026-06-30) parent: AMENTUM HOLDINGS INC. (UEI TU4KCXMM9AP6)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-30",
+      "reviewFile": "reviews/recipients/dyncorp-international-llc.json"
+    },
+    {
+      "id": "binding:uei:QKXCUBQF9NT9",
+      "kind": "uei",
+      "value": "QKXCUBQF9NT9",
+      "entityId": "legal:urs-federal-services-international-inc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2010-10-25",
+      "evidenceAsOf": "2026-10-30",
+      "sourceUrl": "https://www.usaspending.gov/recipient/2153bf25-d89e-f8f2-1e8e-8e95bb762d06-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/2153bf25-d89e-f8f2-1e8e-8e95bb762d06-C/",
+      "supportingPassage": "URS FEDERAL SERVICES INTERNATIONAL, INC | UEI QKXCUBQF9NT9 | CHANTILLY, VA, USA | Latest award CONT_AWD_HDTRA125FE022_9700_HDTRA118D0005_9700 (2026-06-09) parent: AMENTUM HOLDINGS INC. (UEI TU4KCXMM9AP6)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-30",
+      "reviewFile": "reviews/recipients/urs-federal-services-international-inc.json"
     }
   ],
   "retiredBindings": [

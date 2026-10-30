@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-10-30T17:03:05.612Z",
+  "query": {
+    "name": "PAE Government Services, Inc.",
+    "parentUei": "TU4KCXMM9AP6",
+    "entityId": "legal:pae-government-services-inc",
+    "formerNames": [],
+    "notBefore": null
+  },
+  "searched": 1,
+  "candidates": [
+    {
+      "evidence": {
+        "uei": "JENBF1KKWZ93",
+        "cage": null,
+        "recipientId": "fd602973-d119-7ced-a3e7-11ecee5a9318-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/fd602973-d119-7ced-a3e7-11ecee5a9318-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/fd602973-d119-7ced-a3e7-11ecee5a9318-C/",
+        "responseSha256": "ba8097b3b96666d430d7a8ae35d6d4ab062f15242a37e7aafe022fc770d2c700",
+        "name": "PAE GOVERNMENT SERVICES, INC.",
+        "parentName": "PAE HOLDING CORPORATION",
+        "parentUei": "M3YFGUKU84Y3",
+        "otherReportedParents": [
+          "AMENTUM GOVERNMENT SERVICES HOLDINGS LLC / CFXXH5YFMZK7",
+          "AMENTUM HOLDINGS INC. / TU4KCXMM9AP6",
+          "AMENTUM JOINT VENTURE LP / Q3BYWA4EY5G3",
+          "AMENTUM SERVICES, INC. / QEMLRQA7PLG4",
+          "LOCKHEED MARTIN CORP / ZFN2JJXBLZT3",
+          "GOLDBERG LINDSAY & CO. LLC / FWWCBPSHKJE3"
+        ],
+        "location": "CHANTILLY, VA, USA",
+        "contractAmount": 210115416.73,
+        "earliestTransaction": {
+          "date": "2007-10-01",
+          "award": "CONT_AWD_F6152102C5401_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-10-28",
+          "award": "CONT_AWD_15JPSS26F00001094_1501_15JPSS20D00000035_1501"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_15JPSS26F00001094_1501_15JPSS20D00000035_1501",
+          "parentName": "AMENTUM HOLDINGS INC.",
+          "parentUei": "TU4KCXMM9AP6",
+          "recipientUei": "JENBF1KKWZ93",
+          "responseSha256": "85db3c1fead5ce43053ffed9980502c89afbb880b5d4a3730baae7c45494864c"
+        },
+        "warnings": [
+          "profile parent UEI M3YFGUKU84Y3 (PAE HOLDING CORPORATION) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:JENBF1KKWZ93",
+        "kind": "uei",
+        "value": "JENBF1KKWZ93",
+        "entityId": "legal:pae-government-services-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-01",
+        "evidenceAsOf": "2026-10-30",
+        "sourceUrl": "https://www.usaspending.gov/recipient/fd602973-d119-7ced-a3e7-11ecee5a9318-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/fd602973-d119-7ced-a3e7-11ecee5a9318-C/",
+        "supportingPassage": "PAE GOVERNMENT SERVICES, INC. | UEI JENBF1KKWZ93 | CHANTILLY, VA, USA | Latest award CONT_AWD_15JPSS26F00001094_1501_15JPSS20D00000035_1501 (2026-10-28) parent: AMENTUM HOLDINGS INC. (UEI TU4KCXMM9AP6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    }
+  ],
+  "excluded": [],
+  "limitations": [
+    "USAspending reflects SAM data as reported; it is not SAM.gov itself",
+    "Recipient search is keyword-based and capped at 500 records",
+    "Profile parent fields can be stale; corroboration uses the parent on the latest award record",
+    "Name and parent agreement do not prove the SEC-listed legal entity; review state of incorporation separately where available"
+  ]
+}

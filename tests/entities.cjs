@@ -73,3 +73,8 @@ console.log('PASS Curtiss-Wright wholly owned subsidiary bindings respect review
 {const r=(uei,date)=>resolveRecipient({uei},date);
 assert.equal(r('RRFJZGASZJ41','2025-12-31').publicParent,'V2X, Inc.');assert.equal(r('RRFJZGASZJ41','2024-06-01').status,'unresolved');assert.equal(r('NVC1EFKKYB93','2025-12-31').status,'unresolved');
 console.log('PASS V2X Systems binding starts at its fiscal 2025 listing; self-parented V2X Aerospace abstains');}
+// Amentum: subsidiaries only at the fiscal 2025 listing (fiscal 2024 list was forward-looking); intermediate-parented records abstain.
+{const r=(uei,date)=>resolveRecipient({uei},date);
+assert.equal(r('QEMLRQA7PLG4','2025-10-03').publicParent,'Amentum Holdings, Inc.');assert.equal(r('QEMLRQA7PLG4','2025-06-01').status,'unresolved');assert.equal(r('DTRJLHVLK8F4','2025-10-03').publicParent,'Amentum Holdings, Inc.');
+for(const uei of ['HE89E2BE5G54','KA18WLGL1NQ5'])assert.equal(r(uei,'2025-10-03').status,'unresolved');
+console.log('PASS Amentum bindings start at the fiscal 2025 listing; intermediate-parented records abstain');}
