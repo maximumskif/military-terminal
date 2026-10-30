@@ -1402,7 +1402,13 @@
       "cik": null,
       "uei": null,
       "cage": null,
-      "stateOfIncorporation": "Delaware"
+      "stateOfIncorporation": "Delaware",
+      "formerNames": [
+        {
+          "name": "LGS Innovations LLC",
+          "source": "CACI Exhibit 21.1 fiscal 2020–2025"
+        }
+      ]
     },
     {
       "id": "legal:caci-azure-summit-technology-llc",
@@ -1869,7 +1875,13 @@
       "cik": null,
       "uei": null,
       "cage": null,
-      "stateOfIncorporation": "Delaware"
+      "stateOfIncorporation": "Delaware",
+      "formerNames": [
+        {
+          "name": "Vectrus Systems Corporation",
+          "source": "V2X Exhibit 21 fiscal 2020–2024"
+        }
+      ]
     },
     {
       "id": "sec:0002011286",
@@ -2205,6 +2217,22 @@
     {
       "id": "legal:mercury-mission-systems-llc",
       "legalName": "Mercury Mission Systems, LLC",
+      "cik": null,
+      "uei": null,
+      "cage": null,
+      "stateOfIncorporation": "Delaware"
+    },
+    {
+      "id": "legal:curtiss-wright-flow-control-corporation",
+      "legalName": "Curtiss-Wright Flow Control Corporation",
+      "cik": null,
+      "uei": null,
+      "cage": null,
+      "stateOfIncorporation": "New York"
+    },
+    {
+      "id": "legal:curtiss-wright-flow-control-service-llc",
+      "legalName": "Curtiss-Wright Flow Control Service, LLC",
       "cik": null,
       "uei": null,
       "cage": null,
@@ -3127,12 +3155,24 @@
       "parentId": "sec:0000016058",
       "type": "subsidiary",
       "reviewStatus": "reviewed_primary_filing",
-      "effectiveFrom": "2026-06-30",
+      "effectiveFrom": "2020-06-30",
       "effectiveUntil": null,
       "evidenceAsOf": "2026-06-30",
       "ownershipPercentage": null,
       "observedAt": "2026-10-30",
       "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/16058/000156459020040205/caci-ex211_10.htm",
+          "section": "Exhibit 21.1, Subsidiaries of the Registrant (fiscal 2020, 2020-06-30)",
+          "supportingPassage": "LGS Innovations LLC, a Delaware limited liability company",
+          "scope": "Subsidiary listing under the former name at 2020-06-30; no ownership percentage"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/16058/000162828025038739/caci20250630ex211.htm",
+          "section": "Exhibit 21.1, Subsidiaries of the Registrant (fiscal 2025, 2025-06-30)",
+          "supportingPassage": "LGS Innovations LLC, a Delaware limited liability company",
+          "scope": "Last listing under the former name, 2025-06-30; no ownership percentage"
+        },
         {
           "url": "https://www.sec.gov/Archives/edgar/data/16058/000162828026054195/caci20260630ex211.htm",
           "section": "Exhibit 21.1, Subsidiaries of the Registrant (fiscal 2026, 2026-06-30)",
@@ -3144,7 +3184,17 @@
         "Latest reviewed relationship evidence is dated 2026-06-30",
         "Effective-from is the earliest reviewed listing, not the formation or acquisition date; continuity between annual listings is assumed",
         "Exhibit 21.1 lists subsidiaries of the registrant without ownership percentages; Note 1 (fiscal 2019) describes “wholly-owned subsidiaries and joint ventures that are majority owned or otherwise controlled” without naming this entity",
-        "Fiscal 2020–2025 Exhibit 21.1 lists a Delaware “LGS Innovations LLC”; fiscal 2026 lists only “CACI LGS Innovations LLC”. The apparent rename is not stated in a reviewed filing, so earlier dates are not modeled."
+        "Continuity across the rename follows the brand-rename rule (RECIPIENT-BINDINGS.md): consecutive annual lists, same jurisdiction, the old name absent from the later list, and the new name equal to the old one with the parent’s own brand added or substituted. The rename itself is not stated in a reviewed filing.",
+        "Effective-from is the earliest reviewed listing under the former name (fiscal 2020), not the 2019 acquisition date"
+      ],
+      "renamedFrom": [
+        {
+          "name": "LGS Innovations LLC",
+          "jurisdiction": "Delaware",
+          "listedFrom": "2020-06-30",
+          "lastListed": "2025-06-30",
+          "newNameFirstListed": "2026-06-30"
+        }
       ]
     },
     {
@@ -3528,12 +3578,24 @@
       "parentId": "sec:0001601548",
       "type": "subsidiary",
       "reviewStatus": "reviewed_primary_filing",
-      "effectiveFrom": "2025-12-31",
+      "effectiveFrom": "2020-12-31",
       "effectiveUntil": null,
       "evidenceAsOf": "2025-12-31",
       "ownershipPercentage": null,
       "observedAt": "2026-10-30",
       "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1601548/000160154821000014/exhibit21-1march2021.htm",
+          "section": "Exhibit 21, Subsidiaries (fiscal 2020, 2020-12-31)",
+          "supportingPassage": "Vectrus Systems Corporation | Delaware",
+          "scope": "Subsidiary listing under the former name at 2020-12-31; no ownership percentage"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1601548/000160154825000009/exhibit21-subsidiaries1231.htm",
+          "section": "Exhibit 21, Subsidiaries (fiscal 2024, 2024-12-31)",
+          "supportingPassage": "Vectrus Systems Corporation | Delaware",
+          "scope": "Last listing under the former name, 2024-12-31; no ownership percentage"
+        },
         {
           "url": "https://www.sec.gov/Archives/edgar/data/1601548/000160154826000015/exhibit21-subsidiaries1231.htm",
           "section": "Exhibit 21, Subsidiaries (fiscal 2025, 2025-12-31)",
@@ -3544,7 +3606,18 @@
       "limitations": [
         "Latest reviewed relationship evidence is dated 2025-12-31",
         "Exhibit 21 lists subsidiaries without ownership percentages; no filing passage states wholly owned status for this entity",
-        "Fiscal 2020–2024 Exhibit 21 lists a Delaware “Vectrus Systems Corporation”; fiscal 2025 lists only “V2X Systems LLC”. The fiscal 2025 Form 10-K and the May 2026 credit agreement amendment state other subsidiary renames (e.g. V2X LLC f/k/a Vertex Aerospace Services LLC) but not this one, so earlier dates are not modeled."
+        "Continuity across the rename follows the brand-rename rule (RECIPIENT-BINDINGS.md): consecutive annual lists, same jurisdiction, the old name absent from the later list, and the new name equal to the old one with the parent’s own brand added or substituted. The rename itself is not stated in a reviewed filing.",
+        "The former name is a corporation and the later name a limited liability company; the conversion is assumed to be the same legal entity",
+        "Effective-from is the earliest reviewed listing under the former name (fiscal 2020)"
+      ],
+      "renamedFrom": [
+        {
+          "name": "Vectrus Systems Corporation",
+          "jurisdiction": "Delaware",
+          "listedFrom": "2020-12-31",
+          "lastListed": "2024-12-31",
+          "newNameFirstListed": "2025-12-31"
+        }
       ]
     },
     {
@@ -3845,6 +3918,70 @@
         "Latest reviewed relationship evidence is dated 2026-07-03",
         "Effective-from is the earliest reviewed listing, not the formation or acquisition date; continuity between annual listings is assumed",
         "Exhibit 21.1 lists subsidiaries without ownership percentages; no filing passage states wholly owned status for this entity"
+      ]
+    },
+    {
+      "id": "relationship:curtiss-wright-flow-control-corporation-0000026324",
+      "childId": "legal:curtiss-wright-flow-control-corporation",
+      "parentId": "sec:0000026324",
+      "type": "subsidiary",
+      "reviewStatus": "reviewed_primary_filing",
+      "effectiveFrom": "2019-12-31",
+      "effectiveUntil": null,
+      "evidenceAsOf": "2025-12-31",
+      "ownershipPercentage": 100,
+      "observedAt": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/26324/000002632420000004/exhibit2120191231.htm",
+          "section": "Exhibit 21, Subsidiaries of the Registrant (as of 2019-12-31)",
+          "supportingPassage": "Curtiss-Wright Flow Control Corporation | New York",
+          "scope": "Wholly owned, directly or indirectly, at 2019-12-31. Exhibit 21 header: \"subsidiaries of the Registrant, all of which are wholly owned by the Corporation, directly or indirectly\""
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/26324/000162828026007587/exhibit21_20251231.htm",
+          "section": "Exhibit 21, Subsidiaries of the Registrant (as of 2025-12-31)",
+          "supportingPassage": "Curtiss-Wright Flow Control Corporation | New York",
+          "scope": "Wholly owned, directly or indirectly, at 2025-12-31; no government recipient identifier. Exhibit 21 header: \"subsidiaries of the Registrant, all of which are wholly owned by the Corporation, directly or indirectly\""
+        }
+      ],
+      "limitations": [
+        "Latest reviewed relationship evidence is dated 2025-12-31",
+        "Continuity between reviewed annual subsidiary listings is assumed, not restated",
+        "Effective-from is the earliest reviewed listing, not the formation or acquisition date",
+        "Exhibit 21 lists significant subsidiaries only; omitted entities are not evidence of non-ownership"
+      ]
+    },
+    {
+      "id": "relationship:curtiss-wright-flow-control-service-llc-0000026324",
+      "childId": "legal:curtiss-wright-flow-control-service-llc",
+      "parentId": "sec:0000026324",
+      "type": "subsidiary",
+      "reviewStatus": "reviewed_primary_filing",
+      "effectiveFrom": "2022-12-31",
+      "effectiveUntil": null,
+      "evidenceAsOf": "2025-12-31",
+      "ownershipPercentage": 100,
+      "observedAt": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/26324/000002632423000005/exhibit21_20221231.htm",
+          "section": "Exhibit 21, Subsidiaries of the Registrant (as of 2022-12-31)",
+          "supportingPassage": "Curtiss-Wright Flow Control Service, LLC | Delaware",
+          "scope": "Wholly owned, directly or indirectly, at 2022-12-31. Exhibit 21 header: \"subsidiaries of the Registrant, all of which are wholly owned by the Corporation, directly or indirectly\""
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/26324/000162828026007587/exhibit21_20251231.htm",
+          "section": "Exhibit 21, Subsidiaries of the Registrant (as of 2025-12-31)",
+          "supportingPassage": "Curtiss-Wright Flow Control Service, LLC | Delaware",
+          "scope": "Wholly owned, directly or indirectly, at 2025-12-31; no government recipient identifier. Exhibit 21 header: \"subsidiaries of the Registrant, all of which are wholly owned by the Corporation, directly or indirectly\""
+        }
+      ],
+      "limitations": [
+        "Latest reviewed relationship evidence is dated 2025-12-31",
+        "Continuity between reviewed annual subsidiary listings is assumed, not restated",
+        "Effective-from is the earliest reviewed listing, not the formation or acquisition date",
+        "Exhibit 21 lists significant subsidiaries only; omitted entities are not evidence of non-ownership"
       ]
     }
   ],
@@ -9080,6 +9217,166 @@
       "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
       "reviewedAt": "2026-10-30",
       "reviewFile": "reviews/recipients/mercury-systems-inc.json"
+    },
+    {
+      "id": "binding:uei:L693MQDFLKD1",
+      "kind": "uei",
+      "value": "L693MQDFLKD1",
+      "entityId": "legal:kbr-wyle-services-llc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2009-08-19",
+      "evidenceAsOf": "2026-10-30",
+      "sourceUrl": "https://www.usaspending.gov/recipient/a0a87c1c-b46f-7c1f-9eb0-a389f77904a8-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/a0a87c1c-b46f-7c1f-9eb0-a389f77904a8-C/",
+      "supportingPassage": "KBR WYLE SERVICES, LLC | UEI L693MQDFLKD1 | LEXINGTON PARK, MD, USA | Latest award CONT_AWD_6913G627F60003N_6901_6913G626A900002_6901 (2026-10-27) parent: KBR WYLE SERVICES, LLC (UEI TGPKTMN8YL31), a reviewed intermediate (legal:kbr-wyle-services-llc) of KBR, Inc.",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-30",
+      "reviewFile": "reviews/recipients/kbr-wyle-services-llc.json"
+    },
+    {
+      "id": "binding:uei:NHMQSLZ6DFB9",
+      "kind": "uei",
+      "value": "NHMQSLZ6DFB9",
+      "entityId": "legal:kbr-wyle-services-llc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-15",
+      "evidenceAsOf": "2026-10-30",
+      "sourceUrl": "https://www.usaspending.gov/recipient/712778d1-dff4-835c-f482-b3eabdf4a366-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/712778d1-dff4-835c-f482-b3eabdf4a366-C/",
+      "supportingPassage": "KBR WYLE SERVICES, LLC | UEI NHMQSLZ6DFB9 | DAYTON, OH, USA | Latest award CONT_AWD_SPE7M826C0002_9700_-NONE-_-NONE- (2026-07-13) parent: KBR WYLE SERVICES, LLC (UEI TGPKTMN8YL31), a reviewed intermediate (legal:kbr-wyle-services-llc) of KBR, Inc.",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-30",
+      "reviewFile": "reviews/recipients/kbr-wyle-services-llc.json"
+    },
+    {
+      "id": "binding:uei:PMRAPK4NLQC1",
+      "kind": "uei",
+      "value": "PMRAPK4NLQC1",
+      "entityId": "legal:kbr-wyle-services-llc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-02",
+      "evidenceAsOf": "2026-10-30",
+      "sourceUrl": "https://www.usaspending.gov/recipient/43f70a15-26d2-9af5-bdf0-39c0df43c037-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/43f70a15-26d2-9af5-bdf0-39c0df43c037-C/",
+      "supportingPassage": "KBR WYLE SERVICES, LLC | UEI PMRAPK4NLQC1 | HUNTSVILLE, AL, USA | Latest award CONT_AWD_0041_9700_W31P4Q05A0024_9700 (2026-07-15) parent: KBR WYLE SERVICES, LLC (UEI TGPKTMN8YL31), a reviewed intermediate (legal:kbr-wyle-services-llc) of KBR, Inc.",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-30",
+      "reviewFile": "reviews/recipients/kbr-wyle-services-llc.json"
+    },
+    {
+      "id": "binding:uei:KNV8E5VRLHT9",
+      "kind": "uei",
+      "value": "KNV8E5VRLHT9",
+      "entityId": "legal:kbr-wyle-services-llc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-01",
+      "evidenceAsOf": "2026-10-30",
+      "sourceUrl": "https://www.usaspending.gov/recipient/c1555398-ca16-7024-230c-c902d4f1a351-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/c1555398-ca16-7024-230c-c902d4f1a351-C/",
+      "supportingPassage": "KBR WYLE SERVICES, LLC | UEI KNV8E5VRLHT9 | HUNTSVILLE, AL, USA | Latest award CONT_AWD_N0042120F0855_9700_N0042119D0071_9700 (2026-07-23) parent: KBR, INC. (UEI VJ3XVZC76HT9)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-30",
+      "reviewFile": "reviews/recipients/kbr-wyle-services-llc.json"
+    },
+    {
+      "id": "binding:uei:EELEC8QCC3N8",
+      "kind": "uei",
+      "value": "EELEC8QCC3N8",
+      "entityId": "legal:caci-nss-llc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2016-07-21",
+      "evidenceAsOf": "2026-10-30",
+      "sourceUrl": "https://www.usaspending.gov/recipient/49aa319d-7bfb-ef1b-d43e-e82eed09d3bf-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/49aa319d-7bfb-ef1b-d43e-e82eed09d3bf-C/",
+      "supportingPassage": "CACI NSS, LLC | UEI EELEC8QCC3N8 | CHANTILLY, VA, USA | Latest award CONT_AWD_1232SA25F0538_12H2_GS35F349CA_4732 (2026-10-27) parent: CACI NSS, LLC (UEI Y9CDLHK3A125), a reviewed intermediate (legal:caci-nss-llc) of CACI International Inc",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-30",
+      "reviewFile": "reviews/recipients/caci-nss-llc.json"
+    },
+    {
+      "id": "binding:uei:HLEJZK5FZR54",
+      "kind": "uei",
+      "value": "HLEJZK5FZR54",
+      "entityId": "legal:caci-enterprise-solutions-llc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2010-09-22",
+      "evidenceAsOf": "2026-10-30",
+      "sourceUrl": "https://www.usaspending.gov/recipient/c2072376-37c6-8a15-381b-4da433d3363d-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/c2072376-37c6-8a15-381b-4da433d3363d-C/",
+      "supportingPassage": "CACI ENTERPRISE SOLUTIONS, LLC | UEI HLEJZK5FZR54 | CHANTILLY, VA, USA | Latest award CONT_AWD_75D30121F12679_7523_HHSN316201200009W_7529 (2026-06-24) parent: CACI ENTERPRISE SOLUTIONS  LLC (UEI RK7STDN61775), a reviewed intermediate (legal:caci-enterprise-solutions-llc) of CACI International Inc",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-30",
+      "reviewFile": "reviews/recipients/caci-enterprise-solutions-llc.json"
+    },
+    {
+      "id": "binding:uei:HE89E2BE5G54",
+      "kind": "uei",
+      "value": "HE89E2BE5G54",
+      "entityId": "legal:amentum-services-inc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2017-09-12",
+      "evidenceAsOf": "2026-10-30",
+      "sourceUrl": "https://www.usaspending.gov/recipient/161d5b7d-3000-b617-b5b1-1d9d6facbe25-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/161d5b7d-3000-b617-b5b1-1d9d6facbe25-C/",
+      "supportingPassage": "AMENTUM SERVICES, INC. | UEI HE89E2BE5G54 | GERMANTOWN, MD, USA | Latest award CONT_AWD_W9124G17C0005_9700_-NONE-_-NONE- (2026-05-14) parent: AMENTUM SERVICES, INC. (UEI QEMLRQA7PLG4), a reviewed intermediate (legal:amentum-services-inc) of Amentum Holdings, Inc.",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-30",
+      "reviewFile": "reviews/recipients/amentum-services-inc.json"
+    },
+    {
+      "id": "binding:uei:SE7GBR9AR4Y1",
+      "kind": "uei",
+      "value": "SE7GBR9AR4Y1",
+      "entityId": "legal:caci-lgs-innovations-llc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-09",
+      "evidenceAsOf": "2026-10-30",
+      "sourceUrl": "https://www.usaspending.gov/recipient/12fdd7d1-ae1a-88fa-e984-edda1aa55aba-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/12fdd7d1-ae1a-88fa-e984-edda1aa55aba-C/",
+      "supportingPassage": "CACI LGS INNOVATIONS, LLC | UEI SE7GBR9AR4Y1 | BROOMFIELD, CO, USA | Latest award CONT_AWD_N6600120F1001_9700_N6600119D3401_9700 (2025-10-22) parent: CACI INTERNATIONAL INC (UEI QSRTXLFKV857)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-30",
+      "reviewFile": "reviews/recipients/caci-lgs-innovations-llc.json"
+    },
+    {
+      "id": "binding:uei:JKZNKGGWYZ87",
+      "kind": "uei",
+      "value": "JKZNKGGWYZ87",
+      "entityId": "legal:curtiss-wright-electro-mechanical-corporation",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-05",
+      "evidenceAsOf": "2026-10-30",
+      "sourceUrl": "https://www.usaspending.gov/recipient/0c6d4e2b-df88-8735-04e7-624371f9f41b-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/0c6d4e2b-df88-8735-04e7-624371f9f41b-C/",
+      "supportingPassage": "CURTISS-WRIGHT ELECTRO-MECHANICAL CORPORATION | UEI JKZNKGGWYZ87 | CHESWICK, PA, USA | Latest award CONT_AWD_N0010424CZA11_9700_-NONE-_-NONE- (2026-07-02) parent: CURTISS-WRIGHT FLOW CONTROL SERVICE, LLC (UEI J9V9SJL4CW97), a reviewed intermediate (legal:curtiss-wright-flow-control-service-llc) of Curtiss-Wright Corporation",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-30",
+      "reviewFile": "reviews/recipients/curtiss-wright-electro-mechanical-corporation.json"
+    },
+    {
+      "id": "binding:uei:NYGUEDY27AM8",
+      "kind": "uei",
+      "value": "NYGUEDY27AM8",
+      "entityId": "legal:curtiss-wright-flow-control-corporation",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-01",
+      "evidenceAsOf": "2026-10-30",
+      "sourceUrl": "https://www.usaspending.gov/recipient/19457c77-e5cc-1c91-cbd7-ebb5ee6965ee-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/19457c77-e5cc-1c91-cbd7-ebb5ee6965ee-C/",
+      "supportingPassage": "CURTISS-WRIGHT FLOW CONTROL CORPORATION | UEI NYGUEDY27AM8 | FARMINGDALE, NY, USA | Latest award CONT_AWD_SPE7L126P6098_9700_-NONE-_-NONE- (2026-07-09) parent: CURTISS-WRIGHT FLOW CONTROL SERVICE, LLC (UEI J9V9SJL4CW97), a reviewed intermediate (legal:curtiss-wright-flow-control-service-llc) of Curtiss-Wright Corporation",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-30",
+      "reviewFile": "reviews/recipients/curtiss-wright-flow-control-corporation.json"
     }
   ],
   "retiredBindings": [

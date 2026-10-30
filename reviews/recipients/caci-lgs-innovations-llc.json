@@ -1,13 +1,15 @@
 {
-  "generatedAt": "2026-10-30T16:21:57.141Z",
+  "generatedAt": "2026-10-30T17:50:07.665Z",
   "query": {
     "name": "CACI LGS Innovations LLC",
     "parentUei": "QSRTXLFKV857",
     "entityId": "legal:caci-lgs-innovations-llc",
-    "formerNames": [],
+    "formerNames": [
+      "LGS Innovations LLC"
+    ],
     "notBefore": null
   },
-  "searched": 1,
+  "searched": 3,
   "candidates": [
     {
       "evidence": {
@@ -56,9 +58,102 @@
         "supportingPassage": "CACI LGS INNOVATIONS LLC | UEI W479FKUUKM96 | FLORHAM PARK, NJ, USA | Latest award CONT_AWD_FA875019C1515_9700_-NONE-_-NONE- (2026-07-07) parent: CACI INTERNATIONAL INC (UEI QSRTXLFKV857)",
         "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
       }
+    },
+    {
+      "evidence": {
+        "uei": "SE7GBR9AR4Y1",
+        "cage": null,
+        "recipientId": "12fdd7d1-ae1a-88fa-e984-edda1aa55aba-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/12fdd7d1-ae1a-88fa-e984-edda1aa55aba-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/12fdd7d1-ae1a-88fa-e984-edda1aa55aba-C/",
+        "responseSha256": "9a2ad3811dacc689f59a1287bb862a9374e52099868a6c6e9d6e346ba9e4e69f",
+        "name": "CACI LGS INNOVATIONS, LLC",
+        "parentName": "CACI LGS INNOVATIONS, LLC",
+        "parentUei": "SE7GBR9AR4Y1",
+        "otherReportedParents": [
+          "ALCATEL LUCENT / EXC5UAQRXKE8",
+          "CACI INTERNATIONAL INC / QSRTXLFKV857",
+          "NAVISITE LLC / MVNPVGABRC86",
+          "LGS INNOVATIONS LLC / UK5FSMFVWEH3"
+        ],
+        "location": "BROOMFIELD, CO, USA",
+        "contractAmount": 0,
+        "earliestTransaction": {
+          "date": "2007-10-09",
+          "award": "CONT_AWD_M0031807P0270_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2025-10-22",
+          "award": "CONT_AWD_N6600120F1001_9700_N6600119D3401_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N6600120F1001_9700_N6600119D3401_9700",
+          "parentName": "CACI INTERNATIONAL INC",
+          "parentUei": "QSRTXLFKV857",
+          "recipientUei": "SE7GBR9AR4Y1",
+          "responseSha256": "36793acdce995ad141592302bfeb297a9c0f6c93fadc5f001b43e559da24aa57"
+        },
+        "warnings": [
+          "profile parent UEI SE7GBR9AR4Y1 (CACI LGS INNOVATIONS, LLC) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:SE7GBR9AR4Y1",
+        "kind": "uei",
+        "value": "SE7GBR9AR4Y1",
+        "entityId": "legal:caci-lgs-innovations-llc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-09",
+        "evidenceAsOf": "2026-10-30",
+        "sourceUrl": "https://www.usaspending.gov/recipient/12fdd7d1-ae1a-88fa-e984-edda1aa55aba-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/12fdd7d1-ae1a-88fa-e984-edda1aa55aba-C/",
+        "supportingPassage": "CACI LGS INNOVATIONS, LLC | UEI SE7GBR9AR4Y1 | BROOMFIELD, CO, USA | Latest award CONT_AWD_N6600120F1001_9700_N6600119D3401_9700 (2025-10-22) parent: CACI INTERNATIONAL INC (UEI QSRTXLFKV857)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
     }
   ],
-  "excluded": [],
+  "excluded": [
+    {
+      "uei": "F6WKD8243R59",
+      "cage": null,
+      "recipientId": "89b677d2-31f6-42e4-54a7-3af95fd05443-C",
+      "profileUrl": "https://www.usaspending.gov/recipient/89b677d2-31f6-42e4-54a7-3af95fd05443-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/89b677d2-31f6-42e4-54a7-3af95fd05443-C/",
+      "responseSha256": "292b79821140058665927aa721111cba30ff26df2a2301752e31177f2186a696",
+      "name": "LGS INNOVATIONS LLC",
+      "parentName": "ALCATEL LUCENT",
+      "parentUei": "EXC5UAQRXKE8",
+      "otherReportedParents": [
+        "CACI INTERNATIONAL INC / QSRTXLFKV857",
+        "NAVISITE LLC / MVNPVGABRC86",
+        "SYSTEMWARE, INC. / ZWJ2TPLX7MS2",
+        "LGS INNOVATIONS LLC / UK5FSMFVWEH3"
+      ],
+      "location": "FLORHAM PARK, NJ, USA",
+      "contractAmount": 2067000,
+      "earliestTransaction": {
+        "date": "2007-10-03",
+        "award": "CONT_AWD_GS09T07DN5012_4735_-NONE-_-NONE-"
+      },
+      "latestTransaction": {
+        "date": "2026-01-22",
+        "award": "CONT_AWD_FA875019C1515_9700_-NONE-_-NONE-"
+      },
+      "latestAwardParent": {
+        "id": "CONT_AWD_FA875019C1515_9700_-NONE-_-NONE-",
+        "parentName": "CACI INTERNATIONAL INC",
+        "parentUei": "QSRTXLFKV857",
+        "recipientUei": "W479FKUUKM96",
+        "responseSha256": "0b76ad34a39db2385ce72130e68c2bef742f40d86d1536b84210a770d4ef65b2"
+      },
+      "warnings": [
+        "profile parent UEI EXC5UAQRXKE8 (ALCATEL LUCENT) differs from expected; not relied on"
+      ],
+      "reasons": [
+        "latest award recipient UEI differs"
+      ]
+    }
+  ],
   "limitations": [
     "USAspending reflects SAM data as reported; it is not SAM.gov itself",
     "Recipient search is keyword-based and capped at 500 records",

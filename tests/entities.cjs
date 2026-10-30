@@ -31,7 +31,7 @@ console.log('PASS Northrop/GD subsidiaries resolve from reviewed 2019 listings; 
 {const r=(uei,date)=>resolveRecipient({uei},date);
 assert.equal(r('MDSWM6MB1BH7','2023-06-01').publicParent,'Leidos Holdings, Inc.');assert.equal(r('MDSWM6MB1BH7','2020-12-31').status,'unresolved');
 assert.equal(r('MMLKPW9JLX64','2026-09-01').status,'identifier_verified_public_registrant');assert.equal(r('MMLKPW9JLX64','2013-09-26').status,'unresolved');assert.equal(r('W86MRS1GLQW5','2026-09-01').status,'unresolved');
-assert.equal(r('HYBLSJAMM2F4','2024-06-01').publicParent,'KBR, Inc.');assert.equal(r('HYBLSJAMM2F4','2023-12-28').status,'unresolved');assert.equal(r('L693MQDFLKD1','2024-06-01').status,'unresolved');
+assert.equal(r('HYBLSJAMM2F4','2024-06-01').publicParent,'KBR, Inc.');assert.equal(r('HYBLSJAMM2F4','2023-12-28').status,'unresolved');assert.equal(r('L693MQDFLKD1','2024-06-01').publicParent,'KBR, Inc.');
 assert.ok(ledger.entities.find(e=>e.id==='sec:0001443646').revenueEvidence.some(x=>x.fiscalYearEnd==='2026-03-31'));
 console.log('PASS Leidos 100%-owned operating company window; SAIC registrant floored at the 2013-09-27 spin-off; KBR subsidiaries from reviewed listings; unverifiable records abstain');}
 // Booz Allen, Huntington Ingalls and Aerojet Rocketdyne (indirect L3Harris subsidiary from 2023-07-28).
@@ -49,9 +49,9 @@ console.log('PASS Textron subsidiary bindings respect reviewed Exhibit 21 window
 // CACI: core subsidiaries from the fiscal 2019 listing through fiscal 2026; LGS and Azure Summit only at their fiscal 2026 listing; self-parented records excluded.
 {const r=(uei,date)=>resolveRecipient({uei},date);
 assert.equal(r('N3PBJAVNKF61','2024-06-01').publicParent,'CACI International Inc');assert.equal(r('N3PBJAVNKF61','2019-06-29').status,'unresolved');assert.equal(r('N3PBJAVNKF61','2026-07-01').status,'unresolved');
-assert.equal(r('GS59ABNVD6N7','2021-06-01').publicParent,'CACI International Inc');assert.equal(r('W479FKUUKM96','2024-06-01').status,'unresolved');assert.equal(r('P1LMDHFJSYH7','2026-06-30').publicParent,'CACI International Inc');
-for(const uei of ['EELEC8QCC3N8','E5E6SMMJYPL3','EPPXR2P9KYU6','QSRTXLFKV857'])assert.equal(r(uei,'2024-06-01').status,'unresolved');
-console.log('PASS CACI subsidiary bindings respect reviewed Exhibit 21.1 windows; renamed and truncated listings start at fiscal 2026; self-parented records abstain');}
+assert.equal(r('GS59ABNVD6N7','2021-06-01').publicParent,'CACI International Inc');assert.equal(r('W479FKUUKM96','2024-06-01').publicParent,'CACI International Inc');assert.equal(r('SE7GBR9AR4Y1','2020-06-29').status,'unresolved');assert.equal(r('P1LMDHFJSYH7','2026-06-30').publicParent,'CACI International Inc');
+assert.equal(r('EELEC8QCC3N8','2024-06-01').publicParent,'CACI International Inc');for(const uei of ['L2TTR2QRV8H9','E5E6SMMJYPL3','EPPXR2P9KYU6','QSRTXLFKV857'])assert.equal(r(uei,'2024-06-01').status,'unresolved');
+console.log('PASS CACI subsidiary bindings respect reviewed Exhibit 21.1 windows; LGS continues from its fiscal 2020 listing, truncated Azure Summit starts at fiscal 2026; intermediate NSS record resolves; self-parented records abstain');}
 // Parsons: subsidiaries from their first Exhibit 21.1 listing through fiscal 2025; Xator LLC from fiscal 2022 (acquisition passage names Xator Corporation); registrant and self-parented records abstain.
 {const r=(uei,date)=>resolveRecipient({uei},date);
 assert.equal(r('NMBCAG1JBKL7','2023-06-01').publicParent,'Parsons Corporation');assert.equal(r('NMBCAG1JBKL7','2019-12-30').status,'unresolved');assert.equal(r('NMBCAG1JBKL7','2026-01-01').status,'unresolved');
@@ -64,20 +64,20 @@ assert.equal(r('SMJQJGD5JEJ3','2023-06-01').publicParent,'BWX Technologies, Inc.
 assert.equal(r('PZDQCRZW7GJ3','2022-06-01').status,'unresolved');assert.equal(r('PZDQCRZW7GJ3','2023-06-01').publicParent,'BWX Technologies, Inc.');assert.equal(r('WJYVCPD5HKK7','2026-01-01').status,'unresolved');
 for(const uei of ['UMBKD2WKD8N5','CMT4S6G76QB5'])assert.equal(r(uei,'2024-06-01').status,'unresolved');
 console.log('PASS BWXT 100%-owned subsidiary bindings respect reviewed Exhibit 21.1 windows; self-parented and registrant records abstain');}
-// Curtiss-Wright: wholly owned subsidiaries from the fiscal 2019 listing; intermediate-parented and self-parented records abstain.
+// Curtiss-Wright: wholly owned subsidiaries from the fiscal 2019 listing; Flow Control Service-parented records resolve; self-parented records abstain.
 {const r=(uei,date)=>resolveRecipient({uei},date);
 assert.equal(r('MWAKL633WET8','2024-06-01').publicParent,'Curtiss-Wright Corporation');assert.equal(r('MWAKL633WET8','2019-12-30').status,'unresolved');assert.equal(r('N257NEGSDQJ9','2021-06-01').publicParent,'Curtiss-Wright Corporation');assert.equal(r('N257NEGSDQJ9','2026-01-01').status,'unresolved');
-for(const uei of ['JKZNKGGWYZ87','HLQLWMV97J37','TMFLTAKP1KH2','PF8PJNVEPTJ1'])assert.equal(r(uei,'2024-06-01').status,'unresolved');
-console.log('PASS Curtiss-Wright wholly owned subsidiary bindings respect reviewed Exhibit 21 windows; intermediate- and self-parented records abstain');}
+assert.equal(r('JKZNKGGWYZ87','2024-06-01').publicParent,'Curtiss-Wright Corporation');assert.equal(r('NYGUEDY27AM8','2024-06-01').publicParent,'Curtiss-Wright Corporation');for(const uei of ['HLQLWMV97J37','TMFLTAKP1KH2','PF8PJNVEPTJ1','NGCRKJERS5T1'])assert.equal(r(uei,'2024-06-01').status,'unresolved');
+console.log('PASS Curtiss-Wright wholly owned subsidiary bindings respect reviewed Exhibit 21 windows; intermediate-parented records resolve; self-parented records abstain');}
 // V2X: V2X Systems LLC only at its fiscal 2025 listing (Vectrus Systems Corporation rename not stated); self-parented V2X Aerospace abstains.
 {const r=(uei,date)=>resolveRecipient({uei},date);
-assert.equal(r('RRFJZGASZJ41','2025-12-31').publicParent,'V2X, Inc.');assert.equal(r('RRFJZGASZJ41','2024-06-01').status,'unresolved');assert.equal(r('NVC1EFKKYB93','2025-12-31').status,'unresolved');
-console.log('PASS V2X Systems binding starts at its fiscal 2025 listing; self-parented V2X Aerospace abstains');}
-// Amentum: subsidiaries only at the fiscal 2025 listing (fiscal 2024 list was forward-looking); intermediate-parented records abstain.
+assert.equal(r('RRFJZGASZJ41','2025-12-31').publicParent,'V2X, Inc.');assert.equal(r('RRFJZGASZJ41','2021-06-01').publicParent,'V2X, Inc.');assert.equal(r('RRFJZGASZJ41','2020-12-30').status,'unresolved');assert.equal(r('NVC1EFKKYB93','2025-12-31').status,'unresolved');
+console.log('PASS V2X Systems binding extends to its fiscal 2020 Vectrus Systems listing under the brand-rename rule; self-parented V2X Aerospace abstains');}
+// Amentum: subsidiaries only at the fiscal 2025 listing (fiscal 2024 list was forward-looking); JV-parented records abstain.
 {const r=(uei,date)=>resolveRecipient({uei},date);
 assert.equal(r('QEMLRQA7PLG4','2025-10-03').publicParent,'Amentum Holdings, Inc.');assert.equal(r('QEMLRQA7PLG4','2025-06-01').status,'unresolved');assert.equal(r('DTRJLHVLK8F4','2025-10-03').publicParent,'Amentum Holdings, Inc.');
-for(const uei of ['HE89E2BE5G54','KA18WLGL1NQ5'])assert.equal(r(uei,'2025-10-03').status,'unresolved');
-console.log('PASS Amentum bindings start at the fiscal 2025 listing; intermediate-parented records abstain');}
+assert.equal(r('HE89E2BE5G54','2025-10-03').publicParent,'Amentum Holdings, Inc.');assert.equal(r('KA18WLGL1NQ5','2025-10-03').status,'unresolved');
+console.log('PASS Amentum bindings start at the fiscal 2025 listing; Germantown resolves via a bound intermediate; JV-parented Spaceport abstains');}
 // Kratos: unmarked subsidiaries from their listing; Florida Turbine only after its 80.1% marking ends; self-parented records abstain.
 {const r=(uei,date)=>resolveRecipient({uei},date);
 assert.equal(r('XF6AHNQFTXU5','2022-06-01').publicParent,'Kratos Defense & Security Solutions, Inc.');assert.equal(r('EJ5QQHF7B1P6','2021-06-01').status,'unresolved');assert.equal(r('EJ5QQHF7B1P6','2023-06-01').publicParent,'Kratos Defense & Security Solutions, Inc.');
@@ -88,3 +88,7 @@ console.log('PASS Kratos bindings respect Exhibit 21.1 windows; Florida Turbine 
 assert.equal(r('J51ULX3CNCZ4','2024-06-01').publicParent,'Mercury Systems, Inc.');assert.equal(r('GELNG3K35FA5','2023-06-01').publicParent,'Mercury Systems, Inc.');assert.equal(r('GELNG3K35FA5','2020-07-02').status,'unresolved');
 for(const uei of ['JKV8PJZFAGW7','DG3AB4E8R4D8'])assert.equal(r(uei,'2024-06-01').status,'unresolved');
 console.log('PASS Mercury registrant and Mercury Mission Systems bindings; self-parented and unlisted records abstain');}
+// Rule changes (2026-10-30): intermediate-parent corroboration and brand-rename continuity; Textron/AAI does not qualify for the rename rule.
+{const r=(uei,date)=>resolveRecipient({uei},date);
+assert.equal(r('SNJ8YY61GB95','2020-06-01').status,'unresolved');assert.equal(r('JKZNKGGWYZ87','2019-12-30').status,'unresolved');assert.equal(r('NVC1EFKKYB93','2024-06-01').status,'unresolved');
+console.log('PASS intermediate-parent bindings keep the child relationship window; non-brand renames and self-parented records still abstain');}

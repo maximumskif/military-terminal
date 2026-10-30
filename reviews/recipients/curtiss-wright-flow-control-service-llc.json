@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T16:46:28.900Z",
+  "generatedAt": "2026-10-30T17:49:33.256Z",
   "query": {
     "name": "Curtiss-Wright Flow Control Service, LLC",
     "parentUei": "PF8PJNVEPTJ1",
@@ -48,13 +48,14 @@
         "parentName": "CURTISS-WRIGHT FLOW CONTROL SERVICE, LLC",
         "parentUei": "NGCRKJERS5T1",
         "recipientUei": "NGCRKJERS5T1",
-        "responseSha256": "c14f4207d92b810e679db5f40ea83304861c2a7a024140c0d860258f9abda659"
+        "responseSha256": "c14f4207d92b810e679db5f40ea83304861c2a7a024140c0d860258f9abda659",
+        "intermediate": null
       },
       "warnings": [
         "profile parent UEI CDSQM5NNMKA9 (SAFRAN POWER USA LLC) differs from expected; not relied on"
       ],
       "reasons": [
-        "latest award parent UEI NGCRKJERS5T1 (CURTISS-WRIGHT FLOW CONTROL SERVICE, LLC) differs from expected"
+        "latest award parent UEI NGCRKJERS5T1 (CURTISS-WRIGHT FLOW CONTROL SERVICE, LLC) differs from expected (self-parented)"
       ]
     },
     {
@@ -86,11 +87,12 @@
         "parentName": "CURTISS-WRIGHT FLOW CONTROL SERVICE, LLC",
         "parentUei": "J51WBL7M3E39",
         "recipientUei": "J51WBL7M3E39",
-        "responseSha256": "e6db2e78195b4960d198eb7e425daacf66df16e4df6d2215b55201914ea1b7cb"
+        "responseSha256": "e6db2e78195b4960d198eb7e425daacf66df16e4df6d2215b55201914ea1b7cb",
+        "intermediate": null
       },
       "warnings": [],
       "reasons": [
-        "latest award parent UEI J51WBL7M3E39 (CURTISS-WRIGHT FLOW CONTROL SERVICE, LLC) differs from expected"
+        "latest award parent UEI J51WBL7M3E39 (CURTISS-WRIGHT FLOW CONTROL SERVICE, LLC) differs from expected (self-parented)"
       ]
     }
   ],

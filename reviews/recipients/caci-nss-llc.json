@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T16:20:57.318Z",
+  "generatedAt": "2026-10-30T17:48:15.157Z",
   "query": {
     "name": "CACI NSS, LLC",
     "parentUei": "QSRTXLFKV857",
@@ -9,6 +9,63 @@
   },
   "searched": 5,
   "candidates": [
+    {
+      "evidence": {
+        "uei": "EELEC8QCC3N8",
+        "cage": null,
+        "recipientId": "49aa319d-7bfb-ef1b-d43e-e82eed09d3bf-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/49aa319d-7bfb-ef1b-d43e-e82eed09d3bf-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/49aa319d-7bfb-ef1b-d43e-e82eed09d3bf-C/",
+        "responseSha256": "e83dd9706cc95d765f7e2b6a9d1bd6a20c767f6980fcb3024b9497cf992e9202",
+        "name": "CACI NSS, LLC",
+        "parentName": "CACI NSS, LLC",
+        "parentUei": "Y9CDLHK3A125",
+        "otherReportedParents": [
+          "CACI INTERNATIONAL INC / QSRTXLFKV857",
+          "SYSTEMWARE, INC. / ZWJ2TPLX7MS2"
+        ],
+        "location": "CHANTILLY, VA, USA",
+        "contractAmount": 472145551.42,
+        "earliestTransaction": {
+          "date": "2016-07-21",
+          "award": "CONT_AWD_N6523616FN404_9700_GS35F349CA_4732"
+        },
+        "latestTransaction": {
+          "date": "2026-10-27",
+          "award": "CONT_AWD_1232SA25F0538_12H2_GS35F349CA_4732"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_1232SA25F0538_12H2_GS35F349CA_4732",
+          "parentName": "CACI NSS, LLC",
+          "parentUei": "Y9CDLHK3A125",
+          "recipientUei": "EELEC8QCC3N8",
+          "responseSha256": "3fa6516b380a906e886b7003f8686357794c8a702aaa6b3e5696cc09c5a64e47",
+          "intermediate": {
+            "uei": "Y9CDLHK3A125",
+            "name": "CACI NSS, LLC",
+            "entityId": "legal:caci-nss-llc",
+            "basis": "SAM parent name equals the legal name of a reviewed subsidiary of the same public parent",
+            "listedAsChildOfExpectedParent": true
+          }
+        },
+        "warnings": [
+          "profile parent UEI Y9CDLHK3A125 (CACI NSS, LLC) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:EELEC8QCC3N8",
+        "kind": "uei",
+        "value": "EELEC8QCC3N8",
+        "entityId": "legal:caci-nss-llc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2016-07-21",
+        "evidenceAsOf": "2026-10-30",
+        "sourceUrl": "https://www.usaspending.gov/recipient/49aa319d-7bfb-ef1b-d43e-e82eed09d3bf-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/49aa319d-7bfb-ef1b-d43e-e82eed09d3bf-C/",
+        "supportingPassage": "CACI NSS, LLC | UEI EELEC8QCC3N8 | CHANTILLY, VA, USA | Latest award CONT_AWD_1232SA25F0538_12H2_GS35F349CA_4732 (2026-10-27) parent: CACI NSS, LLC (UEI Y9CDLHK3A125), a reviewed intermediate (legal:caci-nss-llc) of CACI International Inc",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
     {
       "evidence": {
         "uei": "GS59ABNVD6N7",
@@ -68,44 +125,6 @@
       ]
     },
     {
-      "uei": "EELEC8QCC3N8",
-      "cage": null,
-      "recipientId": "49aa319d-7bfb-ef1b-d43e-e82eed09d3bf-C",
-      "profileUrl": "https://www.usaspending.gov/recipient/49aa319d-7bfb-ef1b-d43e-e82eed09d3bf-C/latest",
-      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/49aa319d-7bfb-ef1b-d43e-e82eed09d3bf-C/",
-      "responseSha256": "e83dd9706cc95d765f7e2b6a9d1bd6a20c767f6980fcb3024b9497cf992e9202",
-      "name": "CACI NSS, LLC",
-      "parentName": "CACI NSS, LLC",
-      "parentUei": "Y9CDLHK3A125",
-      "otherReportedParents": [
-        "CACI INTERNATIONAL INC / QSRTXLFKV857",
-        "SYSTEMWARE, INC. / ZWJ2TPLX7MS2"
-      ],
-      "location": "CHANTILLY, VA, USA",
-      "contractAmount": 472145551.42,
-      "earliestTransaction": {
-        "date": "2016-07-21",
-        "award": "CONT_AWD_N6523616FN404_9700_GS35F349CA_4732"
-      },
-      "latestTransaction": {
-        "date": "2026-10-27",
-        "award": "CONT_AWD_1232SA25F0538_12H2_GS35F349CA_4732"
-      },
-      "latestAwardParent": {
-        "id": "CONT_AWD_1232SA25F0538_12H2_GS35F349CA_4732",
-        "parentName": "CACI NSS, LLC",
-        "parentUei": "Y9CDLHK3A125",
-        "recipientUei": "EELEC8QCC3N8",
-        "responseSha256": "3fa6516b380a906e886b7003f8686357794c8a702aaa6b3e5696cc09c5a64e47"
-      },
-      "warnings": [
-        "profile parent UEI Y9CDLHK3A125 (CACI NSS, LLC) differs from expected; not relied on"
-      ],
-      "reasons": [
-        "latest award parent UEI Y9CDLHK3A125 (CACI NSS, LLC) differs from expected"
-      ]
-    },
-    {
       "uei": "L2TTR2QRV8H9",
       "cage": null,
       "recipientId": "11281875-9208-157a-84ef-e2769a3f806d-C",
@@ -134,11 +153,12 @@
         "parentName": "CACI NSS, LLC",
         "parentUei": "L2TTR2QRV8H9",
         "recipientUei": "L2TTR2QRV8H9",
-        "responseSha256": "508daf7217c1b79195a2e3c459ca5651d6c24e16d2100d64a8f021f574657380"
+        "responseSha256": "508daf7217c1b79195a2e3c459ca5651d6c24e16d2100d64a8f021f574657380",
+        "intermediate": null
       },
       "warnings": [],
       "reasons": [
-        "latest award parent UEI L2TTR2QRV8H9 (CACI NSS, LLC) differs from expected"
+        "latest award parent UEI L2TTR2QRV8H9 (CACI NSS, LLC) differs from expected (self-parented)"
       ]
     }
   ],

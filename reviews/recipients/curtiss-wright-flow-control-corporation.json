@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T16:46:28.496Z",
+  "generatedAt": "2026-10-30T17:49:32.860Z",
   "query": {
     "name": "Curtiss-Wright Flow Control Corporation",
     "parentUei": "PF8PJNVEPTJ1",
@@ -8,44 +8,63 @@
     "notBefore": null
   },
   "searched": 1,
-  "candidates": [],
-  "excluded": [
+  "candidates": [
     {
-      "uei": "NYGUEDY27AM8",
-      "cage": null,
-      "recipientId": "19457c77-e5cc-1c91-cbd7-ebb5ee6965ee-C",
-      "profileUrl": "https://www.usaspending.gov/recipient/19457c77-e5cc-1c91-cbd7-ebb5ee6965ee-C/latest",
-      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/19457c77-e5cc-1c91-cbd7-ebb5ee6965ee-C/",
-      "responseSha256": "8e6bda7bc9161cdd2f91d7f160cac3a3a12289664831db778615de76b272e050",
-      "name": "CURTISS-WRIGHT FLOW CONTROL CORPORATION",
-      "parentName": "CURTISS-WRIGHT CORPORATION",
-      "parentUei": "PF8PJNVEPTJ1",
-      "otherReportedParents": [
-        "CURTISS-WRIGHT FLOW CONTROL SERVICE, LLC / J9V9SJL4CW97"
-      ],
-      "location": "FARMINGDALE, NY, USA",
-      "contractAmount": 157359.65,
-      "earliestTransaction": {
-        "date": "2007-10-01",
-        "award": "CONT_AWD_N0038306CP023_9700_-NONE-_-NONE-"
+      "evidence": {
+        "uei": "NYGUEDY27AM8",
+        "cage": null,
+        "recipientId": "19457c77-e5cc-1c91-cbd7-ebb5ee6965ee-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/19457c77-e5cc-1c91-cbd7-ebb5ee6965ee-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/19457c77-e5cc-1c91-cbd7-ebb5ee6965ee-C/",
+        "responseSha256": "8e6bda7bc9161cdd2f91d7f160cac3a3a12289664831db778615de76b272e050",
+        "name": "CURTISS-WRIGHT FLOW CONTROL CORPORATION",
+        "parentName": "CURTISS-WRIGHT CORPORATION",
+        "parentUei": "PF8PJNVEPTJ1",
+        "otherReportedParents": [
+          "CURTISS-WRIGHT FLOW CONTROL SERVICE, LLC / J9V9SJL4CW97"
+        ],
+        "location": "FARMINGDALE, NY, USA",
+        "contractAmount": 157359.65,
+        "earliestTransaction": {
+          "date": "2007-10-01",
+          "award": "CONT_AWD_N0038306CP023_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-07-09",
+          "award": "CONT_AWD_SPE7L126P6098_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_SPE7L126P6098_9700_-NONE-_-NONE-",
+          "parentName": "CURTISS-WRIGHT FLOW CONTROL SERVICE, LLC",
+          "parentUei": "J9V9SJL4CW97",
+          "recipientUei": "NYGUEDY27AM8",
+          "responseSha256": "51dcb8cc38365a58a989957fe32470a33dcd3d87c7cddfa3c0f9b05b8c6d2f81",
+          "intermediate": {
+            "uei": "J9V9SJL4CW97",
+            "name": "CURTISS-WRIGHT FLOW CONTROL SERVICE, LLC",
+            "entityId": "legal:curtiss-wright-flow-control-service-llc",
+            "basis": "SAM parent name equals the legal name of a reviewed subsidiary of the same public parent",
+            "listedAsChildOfExpectedParent": false
+          }
+        },
+        "warnings": []
       },
-      "latestTransaction": {
-        "date": "2026-07-09",
-        "award": "CONT_AWD_SPE7L126P6098_9700_-NONE-_-NONE-"
-      },
-      "latestAwardParent": {
-        "id": "CONT_AWD_SPE7L126P6098_9700_-NONE-_-NONE-",
-        "parentName": "CURTISS-WRIGHT FLOW CONTROL SERVICE, LLC",
-        "parentUei": "J9V9SJL4CW97",
-        "recipientUei": "NYGUEDY27AM8",
-        "responseSha256": "51dcb8cc38365a58a989957fe32470a33dcd3d87c7cddfa3c0f9b05b8c6d2f81"
-      },
-      "warnings": [],
-      "reasons": [
-        "latest award parent UEI J9V9SJL4CW97 (CURTISS-WRIGHT FLOW CONTROL SERVICE, LLC) differs from expected"
-      ]
+      "binding": {
+        "id": "binding:uei:NYGUEDY27AM8",
+        "kind": "uei",
+        "value": "NYGUEDY27AM8",
+        "entityId": "legal:curtiss-wright-flow-control-corporation",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-01",
+        "evidenceAsOf": "2026-10-30",
+        "sourceUrl": "https://www.usaspending.gov/recipient/19457c77-e5cc-1c91-cbd7-ebb5ee6965ee-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/19457c77-e5cc-1c91-cbd7-ebb5ee6965ee-C/",
+        "supportingPassage": "CURTISS-WRIGHT FLOW CONTROL CORPORATION | UEI NYGUEDY27AM8 | FARMINGDALE, NY, USA | Latest award CONT_AWD_SPE7L126P6098_9700_-NONE-_-NONE- (2026-07-09) parent: CURTISS-WRIGHT FLOW CONTROL SERVICE, LLC (UEI J9V9SJL4CW97), a reviewed intermediate (legal:curtiss-wright-flow-control-service-llc) of Curtiss-Wright Corporation",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
     }
   ],
+  "excluded": [],
   "limitations": [
     "USAspending reflects SAM data as reported; it is not SAM.gov itself",
     "Recipient search is keyword-based and capped at 500 records",
