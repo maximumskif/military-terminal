@@ -1665,6 +1665,107 @@
       "uei": null,
       "cage": null,
       "stateOfIncorporation": "Delaware"
+    },
+    {
+      "id": "sec:0000026324",
+      "legalName": "Curtiss-Wright Corporation",
+      "cik": "0000026324",
+      "uei": null,
+      "cage": null,
+      "publicListing": {
+        "ticker": "CW",
+        "exchange": "NYSE",
+        "evidenceAsOf": "2025-12-31",
+        "sourceUrl": "https://www.sec.gov/Archives/edgar/data/26324/000162828026007587/cw-20251231.htm",
+        "sourceSection": "Cover page, registered securities table",
+        "supportingPassage": "Common Stock CW New York Stock Exchange"
+      },
+      "formerNames": [],
+      "formerNamesSource": "https://data.sec.gov/submissions/CIK0000026324.json (formerNames empty), reviewed 2026-10-30",
+      "revenueEvidence": [
+        {
+          "fiscalYearEnd": "2025-12-31",
+          "value": 3498372000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/26324/000162828026007587/cw-20251231.htm",
+          "sourceSection": "Consolidated Statements of Earnings, Total net sales (in thousands)",
+          "supportingPassage": "For the years ended December 31, (In thousands) 2025 2024 2023 ... Total net sales 3,498,372 3,121,189 2,845,373",
+          "xbrlCrossCheck": "Matches us-gaap annual revenue fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-30"
+        },
+        {
+          "fiscalYearEnd": "2024-12-31",
+          "value": 3121189000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/26324/000162828026007587/cw-20251231.htm",
+          "sourceSection": "Consolidated Statements of Earnings, Total net sales (in thousands)",
+          "supportingPassage": "For the years ended December 31, (In thousands) 2025 2024 2023 ... Total net sales 3,498,372 3,121,189 2,845,373",
+          "xbrlCrossCheck": "Matches us-gaap annual revenue fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-30"
+        },
+        {
+          "fiscalYearEnd": "2023-12-31",
+          "value": 2845373000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/26324/000162828026007587/cw-20251231.htm",
+          "sourceSection": "Consolidated Statements of Earnings, Total net sales (in thousands)",
+          "supportingPassage": "For the years ended December 31, (In thousands) 2025 2024 2023 ... Total net sales 3,498,372 3,121,189 2,845,373",
+          "xbrlCrossCheck": "Matches us-gaap annual revenue fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-30"
+        },
+        {
+          "fiscalYearEnd": "2022-12-31",
+          "value": 2557025000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/26324/000002632424000004/cw-20231231.htm",
+          "sourceSection": "Consolidated Statements of Earnings, Total net sales (in thousands)",
+          "supportingPassage": "For the years ended December 31, (In thousands) 2023 2022 2021 ... Total net sales 2,845,373 2,557,025 2,500,761",
+          "xbrlCrossCheck": "Matches us-gaap annual revenue fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-30"
+        },
+        {
+          "fiscalYearEnd": "2021-12-31",
+          "value": 2500761000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/26324/000002632424000004/cw-20231231.htm",
+          "sourceSection": "Consolidated Statements of Earnings, Total net sales (in thousands)",
+          "supportingPassage": "For the years ended December 31, (In thousands) 2023 2022 2021 ... Total net sales 2,845,373 2,557,025 2,500,761",
+          "xbrlCrossCheck": "Matches us-gaap annual revenue fact in SEC companyconcept data. As reported in the fiscal 2023 Form 10-K; the fiscal 2022 Form 10-K reported 2,505,931 for 2021",
+          "reviewedAt": "2026-10-30"
+        },
+        {
+          "fiscalYearEnd": "2020-12-31",
+          "value": 2391336000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/26324/000002632423000005/cw-20221231.htm",
+          "sourceSection": "Consolidated Statements of Earnings, Total net sales (in thousands)",
+          "supportingPassage": "For the years ended December 31, (In thousands) 2022 2021 2020 ... Total net sales 2,557,025 2,505,931 2,391,336",
+          "xbrlCrossCheck": "Matches us-gaap annual revenue fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-30"
+        }
+      ]
+    },
+    {
+      "id": "legal:curtiss-wright-electro-mechanical-corporation",
+      "legalName": "Curtiss-Wright Electro-Mechanical Corporation",
+      "cik": null,
+      "uei": null,
+      "cage": null,
+      "stateOfIncorporation": "Delaware"
+    },
+    {
+      "id": "legal:curtiss-wright-controls-inc",
+      "legalName": "Curtiss Wright Controls Inc.",
+      "cik": null,
+      "uei": null,
+      "cage": null,
+      "stateOfIncorporation": "Delaware"
     }
   ],
   "relationships": [
@@ -2910,6 +3011,72 @@
         "Continuity between reviewed annual subsidiary listings is assumed, not restated",
         "Effective-from is the earliest reviewed listing, not the formation or acquisition date",
         "Exhibit 21.1 lists significant subsidiaries only; omitted entities are not evidence of non-ownership"
+      ]
+    },
+    {
+      "id": "relationship:curtiss-wright-electro-mechanical-corporation-0000026324",
+      "childId": "legal:curtiss-wright-electro-mechanical-corporation",
+      "parentId": "sec:0000026324",
+      "type": "subsidiary",
+      "reviewStatus": "reviewed_primary_filing",
+      "effectiveFrom": "2019-12-31",
+      "effectiveUntil": null,
+      "evidenceAsOf": "2025-12-31",
+      "ownershipPercentage": 100,
+      "observedAt": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/26324/000002632420000004/exhibit2120191231.htm",
+          "section": "Exhibit 21, Subsidiaries of the Registrant (as of 2019-12-31)",
+          "supportingPassage": "Curtiss-Wright Electro-Mechanical Corporation | Delaware",
+          "scope": "Wholly owned, directly or indirectly, at 2019-12-31. Exhibit 21 header: \"subsidiaries of the Registrant, all of which are wholly owned by the Corporation, directly or indirectly\""
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/26324/000162828026007587/exhibit21_20251231.htm",
+          "section": "Exhibit 21, Subsidiaries of the Registrant (as of 2025-12-31)",
+          "supportingPassage": "Curtiss-Wright Electro-Mechanical Corporation | Delaware",
+          "scope": "Wholly owned, directly or indirectly, at 2025-12-31; no government recipient identifier. Exhibit 21 header: \"subsidiaries of the Registrant, all of which are wholly owned by the Corporation, directly or indirectly\""
+        }
+      ],
+      "limitations": [
+        "Latest reviewed relationship evidence is dated 2025-12-31",
+        "Continuity between reviewed annual subsidiary listings is assumed, not restated",
+        "Effective-from is the earliest reviewed listing, not the formation or acquisition date",
+        "Exhibit 21 lists significant subsidiaries only; omitted entities are not evidence of non-ownership",
+        "The fiscal 2024 Exhibit 21 omits this entity although the fiscal 2019–2023 and 2025 lists include it; the exhibit states omitted subsidiaries are not significant, so the omission is not treated as a change in ownership"
+      ]
+    },
+    {
+      "id": "relationship:curtiss-wright-controls-inc-0000026324",
+      "childId": "legal:curtiss-wright-controls-inc",
+      "parentId": "sec:0000026324",
+      "type": "subsidiary",
+      "reviewStatus": "reviewed_primary_filing",
+      "effectiveFrom": "2019-12-31",
+      "effectiveUntil": null,
+      "evidenceAsOf": "2025-12-31",
+      "ownershipPercentage": 100,
+      "observedAt": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/26324/000002632420000004/exhibit2120191231.htm",
+          "section": "Exhibit 21, Subsidiaries of the Registrant (as of 2019-12-31)",
+          "supportingPassage": "Curtiss Wright Controls Inc. | Delaware",
+          "scope": "Wholly owned, directly or indirectly, at 2019-12-31. Exhibit 21 header: \"subsidiaries of the Registrant, all of which are wholly owned by the Corporation, directly or indirectly\""
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/26324/000162828026007587/exhibit21_20251231.htm",
+          "section": "Exhibit 21, Subsidiaries of the Registrant (as of 2025-12-31)",
+          "supportingPassage": "Curtiss Wright Controls Inc. | Delaware",
+          "scope": "Wholly owned, directly or indirectly, at 2025-12-31; no government recipient identifier. Exhibit 21 header: \"subsidiaries of the Registrant, all of which are wholly owned by the Corporation, directly or indirectly\""
+        }
+      ],
+      "limitations": [
+        "Latest reviewed relationship evidence is dated 2025-12-31",
+        "Continuity between reviewed annual subsidiary listings is assumed, not restated",
+        "Effective-from is the earliest reviewed listing, not the formation or acquisition date",
+        "Exhibit 21 lists significant subsidiaries only; omitted entities are not evidence of non-ownership",
+        "Exhibit 21 spells the name without a hyphen or comma; the bound USAspending record reads CURTISS-WRIGHT CONTROLS, INC."
       ]
     }
   ],
@@ -7697,6 +7864,38 @@
       "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
       "reviewedAt": "2026-10-30",
       "reviewFile": "reviews/recipients/bwxt-technical-services-group-inc.json"
+    },
+    {
+      "id": "binding:uei:MWAKL633WET8",
+      "kind": "uei",
+      "value": "MWAKL633WET8",
+      "entityId": "legal:curtiss-wright-electro-mechanical-corporation",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2018-06-29",
+      "evidenceAsOf": "2026-10-30",
+      "sourceUrl": "https://www.usaspending.gov/recipient/09ac3835-0668-5e46-c724-7d4c5bf0acd5-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/09ac3835-0668-5e46-c724-7d4c5bf0acd5-C/",
+      "supportingPassage": "CURTISS-WRIGHT ELECTRO-MECHANICAL CORPORATION | UEI MWAKL633WET8 | WELLSVILLE, NY, USA | Latest award CONT_AWD_N0010422FNA00_9700_N0010419GNA01_9700 (2026-05-11) parent: CURTISS-WRIGHT CORPORATION (UEI PF8PJNVEPTJ1)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-30",
+      "reviewFile": "reviews/recipients/curtiss-wright-electro-mechanical-corporation.json"
+    },
+    {
+      "id": "binding:uei:N257NEGSDQJ9",
+      "kind": "uei",
+      "value": "N257NEGSDQJ9",
+      "entityId": "legal:curtiss-wright-controls-inc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-02",
+      "evidenceAsOf": "2026-10-30",
+      "sourceUrl": "https://www.usaspending.gov/recipient/1da64593-20ed-e4ea-f29d-34b84267c38f-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/1da64593-20ed-e4ea-f29d-34b84267c38f-C/",
+      "supportingPassage": "CURTISS-WRIGHT CONTROLS, INC. | UEI N257NEGSDQJ9 | SHELBY, NC, USA | Latest award CONT_AWD_N0038319CN030_9700_-NONE-_-NONE- (2026-02-02) parent: CURTISS-WRIGHT CORPORATION (UEI PF8PJNVEPTJ1)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-30",
+      "reviewFile": "reviews/recipients/curtiss-wright-controls-inc.json"
     }
   ],
   "retiredBindings": [

@@ -64,3 +64,8 @@ assert.equal(r('SMJQJGD5JEJ3','2023-06-01').publicParent,'BWX Technologies, Inc.
 assert.equal(r('PZDQCRZW7GJ3','2022-06-01').status,'unresolved');assert.equal(r('PZDQCRZW7GJ3','2023-06-01').publicParent,'BWX Technologies, Inc.');assert.equal(r('WJYVCPD5HKK7','2026-01-01').status,'unresolved');
 for(const uei of ['UMBKD2WKD8N5','CMT4S6G76QB5'])assert.equal(r(uei,'2024-06-01').status,'unresolved');
 console.log('PASS BWXT 100%-owned subsidiary bindings respect reviewed Exhibit 21.1 windows; self-parented and registrant records abstain');}
+// Curtiss-Wright: wholly owned subsidiaries from the fiscal 2019 listing; intermediate-parented and self-parented records abstain.
+{const r=(uei,date)=>resolveRecipient({uei},date);
+assert.equal(r('MWAKL633WET8','2024-06-01').publicParent,'Curtiss-Wright Corporation');assert.equal(r('MWAKL633WET8','2019-12-30').status,'unresolved');assert.equal(r('N257NEGSDQJ9','2021-06-01').publicParent,'Curtiss-Wright Corporation');assert.equal(r('N257NEGSDQJ9','2026-01-01').status,'unresolved');
+for(const uei of ['JKZNKGGWYZ87','HLQLWMV97J37','TMFLTAKP1KH2','PF8PJNVEPTJ1'])assert.equal(r(uei,'2024-06-01').status,'unresolved');
+console.log('PASS Curtiss-Wright wholly owned subsidiary bindings respect reviewed Exhibit 21 windows; intermediate- and self-parented records abstain');}
