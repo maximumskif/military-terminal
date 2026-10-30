@@ -1,0 +1,68 @@
+{
+  "generatedAt": "2026-10-30T16:38:39.268Z",
+  "query": {
+    "name": "BWXT Nuclear Operations Group, Inc.",
+    "parentUei": "CMT4S6G76QB5",
+    "entityId": "legal:bwxt-nuclear-operations-group-inc",
+    "formerNames": [],
+    "notBefore": null
+  },
+  "searched": 1,
+  "candidates": [
+    {
+      "evidence": {
+        "uei": "WJYVCPD5HKK7",
+        "cage": null,
+        "recipientId": "c3e520a8-a8a7-3965-ab3a-f7f19aaee398-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/c3e520a8-a8a7-3965-ab3a-f7f19aaee398-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/c3e520a8-a8a7-3965-ab3a-f7f19aaee398-C/",
+        "responseSha256": "2bf9cdc4e94e09bd9b38ffab188994ed02cbf5223cff1b41a4df5da81473de03",
+        "name": "BWXT NUCLEAR OPERATIONS GROUP, INC.",
+        "parentName": "BWX TECHNOLOGIES, INC.",
+        "parentUei": "CMT4S6G76QB5",
+        "otherReportedParents": [
+          "BABCOCK & WILCOX COMPANY  THE / LT3WQQAWCK75",
+          "BWXT NUCLEAR OPERATIONS GROUP  INC. / D2SRGWV6T1D5"
+        ],
+        "location": "LYNCHBURG, VA, USA",
+        "contractAmount": 20062210.83,
+        "earliestTransaction": {
+          "date": "2009-01-16",
+          "award": "CONT_AWD_DEAC1107PN38361_8900_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-09-16",
+          "award": "CONT_AWD_89233123FNA400535_8900_89233120DNA000025_8900"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_89233123FNA400535_8900_89233120DNA000025_8900",
+          "parentName": "BWX TECHNOLOGIES, INC.",
+          "parentUei": "CMT4S6G76QB5",
+          "recipientUei": "WJYVCPD5HKK7",
+          "responseSha256": "0793097067bf88ed8805a0f9f9c442d6d11de5a866e7fa25384cc9882d008461"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:WJYVCPD5HKK7",
+        "kind": "uei",
+        "value": "WJYVCPD5HKK7",
+        "entityId": "legal:bwxt-nuclear-operations-group-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2009-01-16",
+        "evidenceAsOf": "2026-10-30",
+        "sourceUrl": "https://www.usaspending.gov/recipient/c3e520a8-a8a7-3965-ab3a-f7f19aaee398-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/c3e520a8-a8a7-3965-ab3a-f7f19aaee398-C/",
+        "supportingPassage": "BWXT NUCLEAR OPERATIONS GROUP, INC. | UEI WJYVCPD5HKK7 | LYNCHBURG, VA, USA | Latest award CONT_AWD_89233123FNA400535_8900_89233120DNA000025_8900 (2026-09-16) parent: BWX TECHNOLOGIES, INC. (UEI CMT4S6G76QB5)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    }
+  ],
+  "excluded": [],
+  "limitations": [
+    "USAspending reflects SAM data as reported; it is not SAM.gov itself",
+    "Recipient search is keyword-based and capped at 500 records",
+    "Profile parent fields can be stale; corroboration uses the parent on the latest award record",
+    "Name and parent agreement do not prove the SEC-listed legal entity; review state of incorporation separately where available"
+  ]
+}

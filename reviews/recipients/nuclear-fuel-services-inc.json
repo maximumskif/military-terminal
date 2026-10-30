@@ -1,0 +1,67 @@
+{
+  "generatedAt": "2026-10-30T16:38:34.123Z",
+  "query": {
+    "name": "Nuclear Fuel Services, Inc.",
+    "parentUei": "CMT4S6G76QB5",
+    "entityId": "legal:nuclear-fuel-services-inc",
+    "formerNames": [],
+    "notBefore": null
+  },
+  "searched": 1,
+  "candidates": [
+    {
+      "evidence": {
+        "uei": "SMJQJGD5JEJ3",
+        "cage": null,
+        "recipientId": "de88a6e4-7c96-b2ea-02dd-92ad7a390ab3-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/de88a6e4-7c96-b2ea-02dd-92ad7a390ab3-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/de88a6e4-7c96-b2ea-02dd-92ad7a390ab3-C/",
+        "responseSha256": "10dfefd6f01b8d73f440227c9c51b35a42b4eb6bbc4e7478b25ef7dbbf9043ea",
+        "name": "NUCLEAR FUEL SERVICES INC",
+        "parentName": "BWX TECHNOLOGIES, INC.",
+        "parentUei": "CMT4S6G76QB5",
+        "otherReportedParents": [
+          "BABCOCK & WILCOX COMPANY  THE / LT3WQQAWCK75"
+        ],
+        "location": "ERWIN, TN, USA",
+        "contractAmount": 126302465.2,
+        "earliestTransaction": {
+          "date": "2007-10-29",
+          "award": "CONT_AWD_DEAC1204SN39427_8900_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-08-11",
+          "award": "CONT_AWD_89233123CNA000308_8900_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_89233123CNA000308_8900_-NONE-_-NONE-",
+          "parentName": "BWX TECHNOLOGIES, INC.",
+          "parentUei": "CMT4S6G76QB5",
+          "recipientUei": "SMJQJGD5JEJ3",
+          "responseSha256": "aafa40a2a9bbb33fa279e39811dc219cb70099d152d5a29bcb8e609dd0aa5a71"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:SMJQJGD5JEJ3",
+        "kind": "uei",
+        "value": "SMJQJGD5JEJ3",
+        "entityId": "legal:nuclear-fuel-services-inc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-29",
+        "evidenceAsOf": "2026-10-30",
+        "sourceUrl": "https://www.usaspending.gov/recipient/de88a6e4-7c96-b2ea-02dd-92ad7a390ab3-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/de88a6e4-7c96-b2ea-02dd-92ad7a390ab3-C/",
+        "supportingPassage": "NUCLEAR FUEL SERVICES INC | UEI SMJQJGD5JEJ3 | ERWIN, TN, USA | Latest award CONT_AWD_89233123CNA000308_8900_-NONE-_-NONE- (2026-08-11) parent: BWX TECHNOLOGIES, INC. (UEI CMT4S6G76QB5)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    }
+  ],
+  "excluded": [],
+  "limitations": [
+    "USAspending reflects SAM data as reported; it is not SAM.gov itself",
+    "Recipient search is keyword-based and capped at 500 records",
+    "Profile parent fields can be stale; corroboration uses the parent on the latest award record",
+    "Name and parent agreement do not prove the SEC-listed legal entity; review state of incorporation separately where available"
+  ]
+}

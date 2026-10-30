@@ -1,0 +1,19 @@
+{
+  "generatedAt": "2026-10-30T16:38:48.530Z",
+  "query": {
+    "name": "BWXT mPower, Inc.",
+    "parentUei": "CMT4S6G76QB5",
+    "entityId": "legal:bwxt-mpower-inc",
+    "formerNames": [],
+    "notBefore": null
+  },
+  "searched": 0,
+  "candidates": [],
+  "excluded": [],
+  "limitations": [
+    "USAspending reflects SAM data as reported; it is not SAM.gov itself",
+    "Recipient search is keyword-based and capped at 500 records",
+    "Profile parent fields can be stale; corroboration uses the parent on the latest award record",
+    "Name and parent agreement do not prove the SEC-listed legal entity; review state of incorporation separately where available"
+  ]
+}

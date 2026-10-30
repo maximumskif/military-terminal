@@ -58,3 +58,9 @@ assert.equal(r('NMBCAG1JBKL7','2023-06-01').publicParent,'Parsons Corporation');
 assert.equal(r('ZJFDNMA46LT9','2022-06-01').status,'unresolved');assert.equal(r('ZJFDNMA46LT9','2023-06-01').publicParent,'Parsons Corporation');assert.equal(r('H3RFVAELHB73','2020-06-01').status,'unresolved');
 for(const uei of ['FFCMDLMXRK49','DT2NPK1X9HD5','QJD7W4CUEN63'])assert.equal(r(uei,'2024-06-01').status,'unresolved');
 console.log('PASS Parsons subsidiary bindings respect reviewed Exhibit 21.1 windows; Xator LLC starts at its listing; registrant and self-parented records abstain');}
+// BWXT: 100%-owned significant subsidiaries from their Exhibit 21.1 listings; self-parented records abstain.
+{const r=(uei,date)=>resolveRecipient({uei},date);
+assert.equal(r('SMJQJGD5JEJ3','2023-06-01').publicParent,'BWX Technologies, Inc.');assert.equal(r('SMJQJGD5JEJ3','2019-12-30').status,'unresolved');assert.equal(r('WJYVCPD5HKK7','2020-06-01').publicParent,'BWX Technologies, Inc.');
+assert.equal(r('PZDQCRZW7GJ3','2022-06-01').status,'unresolved');assert.equal(r('PZDQCRZW7GJ3','2023-06-01').publicParent,'BWX Technologies, Inc.');assert.equal(r('WJYVCPD5HKK7','2026-01-01').status,'unresolved');
+for(const uei of ['UMBKD2WKD8N5','CMT4S6G76QB5'])assert.equal(r(uei,'2024-06-01').status,'unresolved');
+console.log('PASS BWXT 100%-owned subsidiary bindings respect reviewed Exhibit 21.1 windows; self-parented and registrant records abstain');}
