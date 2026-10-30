@@ -78,3 +78,8 @@ console.log('PASS V2X Systems binding starts at its fiscal 2025 listing; self-pa
 assert.equal(r('QEMLRQA7PLG4','2025-10-03').publicParent,'Amentum Holdings, Inc.');assert.equal(r('QEMLRQA7PLG4','2025-06-01').status,'unresolved');assert.equal(r('DTRJLHVLK8F4','2025-10-03').publicParent,'Amentum Holdings, Inc.');
 for(const uei of ['HE89E2BE5G54','KA18WLGL1NQ5'])assert.equal(r(uei,'2025-10-03').status,'unresolved');
 console.log('PASS Amentum bindings start at the fiscal 2025 listing; intermediate-parented records abstain');}
+// Kratos: unmarked subsidiaries from their listing; Florida Turbine only after its 80.1% marking ends; self-parented records abstain.
+{const r=(uei,date)=>resolveRecipient({uei},date);
+assert.equal(r('XF6AHNQFTXU5','2022-06-01').publicParent,'Kratos Defense & Security Solutions, Inc.');assert.equal(r('EJ5QQHF7B1P6','2021-06-01').status,'unresolved');assert.equal(r('EJ5QQHF7B1P6','2023-06-01').publicParent,'Kratos Defense & Security Solutions, Inc.');
+assert.equal(r('PL89EHJU9KE4','2024-06-01').status,'unresolved');for(const uei of ['GURMFDFLENX4','FLLRPTP8S7N4','CQQAZNLAJHG1'])assert.equal(r(uei,'2024-06-01').status,'unresolved');
+console.log('PASS Kratos bindings respect Exhibit 21.1 windows; Florida Turbine starts after its 80.1% marking; self-parented records abstain');}

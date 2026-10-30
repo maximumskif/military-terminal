@@ -1995,6 +1995,121 @@
       "uei": null,
       "cage": null,
       "stateOfIncorporation": "Delaware"
+    },
+    {
+      "id": "sec:0001069258",
+      "legalName": "Kratos Defense & Security Solutions, Inc.",
+      "cik": "0001069258",
+      "uei": null,
+      "cage": null,
+      "publicListing": {
+        "ticker": "KTOS",
+        "exchange": "Nasdaq",
+        "evidenceAsOf": "2025-12-28",
+        "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1069258/000106925826000013/ktos-20251228.htm",
+        "sourceSection": "Cover page, registered securities table",
+        "supportingPassage": "Common Stock, $0.001 par value KTOS NASDAQ Global Select Market"
+      },
+      "formerNames": [
+        {
+          "name": "WIRELESS FACILITIES INC",
+          "from": "1999-08-30",
+          "to": "2007-09-14"
+        }
+      ],
+      "formerNamesSource": "https://data.sec.gov/submissions/CIK0001069258.json (formerNames), reviewed 2026-10-30",
+      "revenueEvidence": [
+        {
+          "fiscalYearEnd": "2025-12-28",
+          "value": 1346800000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1069258/000106925826000013/ktos-20251228.htm",
+          "sourceSection": "Consolidated Statements of Operations (in millions)",
+          "supportingPassage": "Years ended December 28, 2025, December 29, 2024, and December 31, 2023 (in millions) 2025 2024 2023 ... Total revenues 1,346.8 1,136.3 1,037.1",
+          "xbrlCrossCheck": "Matches us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax annual fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-30"
+        },
+        {
+          "fiscalYearEnd": "2024-12-29",
+          "value": 1136300000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1069258/000106925826000013/ktos-20251228.htm",
+          "sourceSection": "Consolidated Statements of Operations (in millions)",
+          "supportingPassage": "Years ended December 28, 2025, December 29, 2024, and December 31, 2023 (in millions) 2025 2024 2023 ... Total revenues 1,346.8 1,136.3 1,037.1",
+          "xbrlCrossCheck": "Matches us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax annual fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-30"
+        },
+        {
+          "fiscalYearEnd": "2023-12-31",
+          "value": 1037100000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1069258/000106925826000013/ktos-20251228.htm",
+          "sourceSection": "Consolidated Statements of Operations (in millions)",
+          "supportingPassage": "Years ended December 28, 2025, December 29, 2024, and December 31, 2023 (in millions) 2025 2024 2023 ... Total revenues 1,346.8 1,136.3 1,037.1",
+          "xbrlCrossCheck": "Matches us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax annual fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-30"
+        },
+        {
+          "fiscalYearEnd": "2022-12-25",
+          "value": 898300000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1069258/000106925823000008/ktos-20221225.htm",
+          "sourceSection": "Consolidated Statements of Operations (in millions)",
+          "supportingPassage": "Years ended December 25, 2022, December 26, 2021, and December 27, 2020 (in millions) 2022 2021 2020 ... Total revenues 898.3 811.5 747.7",
+          "xbrlCrossCheck": "Matches us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax annual fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-30"
+        },
+        {
+          "fiscalYearEnd": "2021-12-26",
+          "value": 811500000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1069258/000106925823000008/ktos-20221225.htm",
+          "sourceSection": "Consolidated Statements of Operations (in millions)",
+          "supportingPassage": "Years ended December 25, 2022, December 26, 2021, and December 27, 2020 (in millions) 2022 2021 2020 ... Total revenues 898.3 811.5 747.7",
+          "xbrlCrossCheck": "Matches us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax annual fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-30"
+        },
+        {
+          "fiscalYearEnd": "2020-12-27",
+          "value": 747700000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1069258/000106925823000008/ktos-20221225.htm",
+          "sourceSection": "Consolidated Statements of Operations (in millions)",
+          "supportingPassage": "Years ended December 25, 2022, December 26, 2021, and December 27, 2020 (in millions) 2022 2021 2020 ... Total revenues 898.3 811.5 747.7",
+          "xbrlCrossCheck": "Matches us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax annual fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-30"
+        }
+      ]
+    },
+    {
+      "id": "legal:kratos-defense-rocket-support-services-inc",
+      "legalName": "Kratos Defense & Rocket Support Services, Inc.",
+      "cik": null,
+      "uei": null,
+      "cage": null,
+      "stateOfIncorporation": "Delaware"
+    },
+    {
+      "id": "legal:florida-turbine-technologies-inc",
+      "legalName": "Florida Turbine Technologies, Inc.",
+      "cik": null,
+      "uei": null,
+      "cage": null,
+      "stateOfIncorporation": "Florida"
+    },
+    {
+      "id": "legal:kratos-microwave-inc",
+      "legalName": "Kratos Microwave, Inc.",
+      "cik": null,
+      "uei": null,
+      "cage": null,
+      "stateOfIncorporation": "California"
     }
   ],
   "relationships": [
@@ -3506,6 +3621,100 @@
         "Latest reviewed relationship evidence is dated 2025-10-03",
         "Exhibit 21.1 lists subsidiaries without ownership percentages; no filing passage states wholly owned status for this entity",
         "The fiscal 2024 Exhibit 21.1 is titled “Expected Subsidiaries of Combined Co Immediately Following the Merger”, a forward-looking list, so the relationship starts at the fiscal 2025 listing rather than the 2024-09-27 merger"
+      ]
+    },
+    {
+      "id": "relationship:kratos-defense-rocket-support-services-inc-0001069258",
+      "childId": "legal:kratos-defense-rocket-support-services-inc",
+      "parentId": "sec:0001069258",
+      "type": "subsidiary",
+      "reviewStatus": "reviewed_primary_filing",
+      "effectiveFrom": "2020-12-27",
+      "effectiveUntil": null,
+      "evidenceAsOf": "2025-12-28",
+      "ownershipPercentage": null,
+      "observedAt": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1069258/000106925821000009/ktos20201227ex-211.htm",
+          "section": "Exhibit 21.1, List of Subsidiaries (fiscal 2020, 2020-12-27)",
+          "supportingPassage": "Kratos Defense & Rocket Support Services, Inc. | Delaware",
+          "scope": "Subsidiary listing at 2020-12-27; no ownership percentage marked"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1069258/000106925826000013/ktos20251228ex-211.htm",
+          "section": "Exhibit 21.1, List of Subsidiaries (fiscal 2025, 2025-12-28)",
+          "supportingPassage": "Kratos Defense & Rocket Support Services, Inc. | Delaware",
+          "scope": "Subsidiary listing at 2025-12-28; no ownership percentage marked; no government recipient identifier"
+        }
+      ],
+      "limitations": [
+        "Latest reviewed relationship evidence is dated 2025-12-28",
+        "Effective-from is the earliest reviewed listing, not the formation or acquisition date; continuity between annual listings is assumed",
+        "Exhibit 21.1 marks only partially owned subsidiaries with a percentage; this entity is unmarked, and no filing passage states wholly owned status"
+      ]
+    },
+    {
+      "id": "relationship:florida-turbine-technologies-inc-0001069258",
+      "childId": "legal:florida-turbine-technologies-inc",
+      "parentId": "sec:0001069258",
+      "type": "subsidiary",
+      "reviewStatus": "reviewed_primary_filing",
+      "effectiveFrom": "2022-12-25",
+      "effectiveUntil": null,
+      "evidenceAsOf": "2025-12-28",
+      "ownershipPercentage": null,
+      "observedAt": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1069258/000106925823000008/ktos20221225ex-211.htm",
+          "section": "Exhibit 21.1, List of Subsidiaries (fiscal 2022, 2022-12-25)",
+          "supportingPassage": "Florida Turbine Technologies, Inc. | Florida",
+          "scope": "Subsidiary listing at 2022-12-25; no ownership percentage marked"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1069258/000106925826000013/ktos20251228ex-211.htm",
+          "section": "Exhibit 21.1, List of Subsidiaries (fiscal 2025, 2025-12-28)",
+          "supportingPassage": "Florida Turbine Technologies, Inc. | Florida",
+          "scope": "Subsidiary listing at 2025-12-28; no ownership percentage marked; no government recipient identifier"
+        }
+      ],
+      "limitations": [
+        "Latest reviewed relationship evidence is dated 2025-12-28",
+        "Effective-from is the earliest reviewed listing, not the formation or acquisition date; continuity between annual listings is assumed",
+        "Exhibit 21.1 marks only partially owned subsidiaries with a percentage; this entity is unmarked, and no filing passage states wholly owned status",
+        "The fiscal 2020 and 2021 Exhibit 21.1 mark this entity “80.1% owned by Kratos Defense & Security Solutions”; from fiscal 2022 no percentage is marked, which does not itself state full ownership, so the relationship starts at the fiscal 2022 listing"
+      ]
+    },
+    {
+      "id": "relationship:kratos-microwave-inc-0001069258",
+      "childId": "legal:kratos-microwave-inc",
+      "parentId": "sec:0001069258",
+      "type": "subsidiary",
+      "reviewStatus": "reviewed_primary_filing",
+      "effectiveFrom": "2024-12-29",
+      "effectiveUntil": null,
+      "evidenceAsOf": "2025-12-28",
+      "ownershipPercentage": null,
+      "observedAt": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1069258/000106925825000008/ktos20241229ex-211.htm",
+          "section": "Exhibit 21.1, List of Subsidiaries (fiscal 2024, 2024-12-29)",
+          "supportingPassage": "Kratos Microwave, Inc. | California",
+          "scope": "Subsidiary listing at 2024-12-29; no ownership percentage marked"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1069258/000106925826000013/ktos20251228ex-211.htm",
+          "section": "Exhibit 21.1, List of Subsidiaries (fiscal 2025, 2025-12-28)",
+          "supportingPassage": "Kratos Microwave, Inc. | California",
+          "scope": "Subsidiary listing at 2025-12-28; no ownership percentage marked; no government recipient identifier"
+        }
+      ],
+      "limitations": [
+        "Latest reviewed relationship evidence is dated 2025-12-28",
+        "Effective-from is the earliest reviewed listing, not the formation or acquisition date; continuity between annual listings is assumed",
+        "Exhibit 21.1 marks only partially owned subsidiaries with a percentage; this entity is unmarked, and no filing passage states wholly owned status"
       ]
     }
   ],
@@ -8613,6 +8822,54 @@
       "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
       "reviewedAt": "2026-10-30",
       "reviewFile": "reviews/recipients/urs-federal-services-international-inc.json"
+    },
+    {
+      "id": "binding:uei:XF6AHNQFTXU5",
+      "kind": "uei",
+      "value": "XF6AHNQFTXU5",
+      "entityId": "legal:kratos-defense-rocket-support-services-inc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-04",
+      "evidenceAsOf": "2026-10-30",
+      "sourceUrl": "https://www.usaspending.gov/recipient/febbc684-038a-6219-923f-0d229406dc83-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/febbc684-038a-6219-923f-0d229406dc83-C/",
+      "supportingPassage": "KRATOS DEFENSE & ROCKET SUPPORT SERVICES, INC. | UEI XF6AHNQFTXU5 | SAN DIEGO, CA, USA | Latest award CONT_AWD_HQ085926FF219_9700_HQ085926DE111_9700 (2026-07-20) parent: KRATOS DEFENSE & SECURITY SOLUTIONS, INC. (UEI V1Q4EJF67641)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-30",
+      "reviewFile": "reviews/recipients/kratos-defense-rocket-support-services-inc.json"
+    },
+    {
+      "id": "binding:uei:EJ5QQHF7B1P6",
+      "kind": "uei",
+      "value": "EJ5QQHF7B1P6",
+      "entityId": "legal:florida-turbine-technologies-inc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-11-06",
+      "evidenceAsOf": "2026-10-30",
+      "sourceUrl": "https://www.usaspending.gov/recipient/cf2c5c2e-ab11-9d36-b277-34b8dbf11e19-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/cf2c5c2e-ab11-9d36-b277-34b8dbf11e19-C/",
+      "supportingPassage": "FLORIDA TURBINE TECHNOLOGIES, INC. | UEI EJ5QQHF7B1P6 | JUPITER, FL, USA | Latest award CONT_AWD_FA865021F2006_9700_FA865019D2056_9700 (2026-07-15) parent: KRATOS DEFENSE & SECURITY SOLUTIONS, INC. (UEI V1Q4EJF67641)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-30",
+      "reviewFile": "reviews/recipients/florida-turbine-technologies-inc.json"
+    },
+    {
+      "id": "binding:uei:PL89EHJU9KE4",
+      "kind": "uei",
+      "value": "PL89EHJU9KE4",
+      "entityId": "legal:kratos-microwave-inc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-11-19",
+      "evidenceAsOf": "2026-10-30",
+      "sourceUrl": "https://www.usaspending.gov/recipient/3cd0af20-1d24-b293-985c-bc1c06d4684a-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/3cd0af20-1d24-b293-985c-bc1c06d4684a-C/",
+      "supportingPassage": "KRATOS MICROWAVE, INC. | UEI PL89EHJU9KE4 | SAN JOSE, CA, USA | Latest award CONT_AWD_SPRMM126PMC26_9700_-NONE-_-NONE- (2026-06-10) parent: KRATOS DEFENSE & SECURITY SOLUTIONS, INC. (UEI V1Q4EJF67641)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-30",
+      "reviewFile": "reviews/recipients/kratos-microwave-inc.json"
     }
   ],
   "retiredBindings": [
