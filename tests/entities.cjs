@@ -83,3 +83,8 @@ console.log('PASS Amentum bindings start at the fiscal 2025 listing; intermediat
 assert.equal(r('XF6AHNQFTXU5','2022-06-01').publicParent,'Kratos Defense & Security Solutions, Inc.');assert.equal(r('EJ5QQHF7B1P6','2021-06-01').status,'unresolved');assert.equal(r('EJ5QQHF7B1P6','2023-06-01').publicParent,'Kratos Defense & Security Solutions, Inc.');
 assert.equal(r('PL89EHJU9KE4','2024-06-01').status,'unresolved');for(const uei of ['GURMFDFLENX4','FLLRPTP8S7N4','CQQAZNLAJHG1'])assert.equal(r(uei,'2024-06-01').status,'unresolved');
 console.log('PASS Kratos bindings respect Exhibit 21.1 windows; Florida Turbine starts after its 80.1% marking; self-parented records abstain');}
+// Mercury: registrant-level UEIs resolve to the registrant; Mercury Mission Systems from the fiscal 2020 listing; self-parented record abstains.
+{const r=(uei,date)=>resolveRecipient({uei},date);
+assert.equal(r('J51ULX3CNCZ4','2024-06-01').publicParent,'Mercury Systems, Inc.');assert.equal(r('GELNG3K35FA5','2023-06-01').publicParent,'Mercury Systems, Inc.');assert.equal(r('GELNG3K35FA5','2020-07-02').status,'unresolved');
+for(const uei of ['JKV8PJZFAGW7','DG3AB4E8R4D8'])assert.equal(r(uei,'2024-06-01').status,'unresolved');
+console.log('PASS Mercury registrant and Mercury Mission Systems bindings; self-parented and unlisted records abstain');}

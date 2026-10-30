@@ -2110,6 +2110,105 @@
       "uei": null,
       "cage": null,
       "stateOfIncorporation": "California"
+    },
+    {
+      "id": "sec:0001049521",
+      "legalName": "Mercury Systems, Inc.",
+      "cik": "0001049521",
+      "uei": null,
+      "cage": null,
+      "publicListing": {
+        "ticker": "MRCY",
+        "exchange": "Nasdaq",
+        "evidenceAsOf": "2026-07-03",
+        "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1049521/000104952126000045/mrcy-20260703.htm",
+        "sourceSection": "Cover page, registered securities table",
+        "supportingPassage": "Common Stock, Par Value $0.01 Per Share MRCY Nasdaq Global Select Market"
+      },
+      "formerNames": [
+        {
+          "name": "MERCURY COMPUTER SYSTEMS INC",
+          "from": "1997-11-26",
+          "to": "2012-11-13"
+        }
+      ],
+      "formerNamesSource": "https://data.sec.gov/submissions/CIK0001049521.json (formerNames), reviewed 2026-10-30",
+      "revenueEvidence": [
+        {
+          "fiscalYearEnd": "2026-07-03",
+          "value": 983622000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1049521/000104952126000045/mrcy-20260703.htm",
+          "sourceSection": "Consolidated Statements of Operations and Comprehensive (Loss) Income (in thousands)",
+          "supportingPassage": "For the Fiscal Years Ended July 3, 2026 June 27, 2025 June 28, 2024 Net revenues $ 983,622 $ 912,020 $ 835,275 (in thousands)",
+          "xbrlCrossCheck": "Matches us-gaap:Revenues annual fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-30"
+        },
+        {
+          "fiscalYearEnd": "2025-06-27",
+          "value": 912020000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1049521/000104952126000045/mrcy-20260703.htm",
+          "sourceSection": "Consolidated Statements of Operations and Comprehensive (Loss) Income (in thousands)",
+          "supportingPassage": "For the Fiscal Years Ended July 3, 2026 June 27, 2025 June 28, 2024 Net revenues $ 983,622 $ 912,020 $ 835,275 (in thousands)",
+          "xbrlCrossCheck": "Matches us-gaap:Revenues annual fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-30"
+        },
+        {
+          "fiscalYearEnd": "2024-06-28",
+          "value": 835275000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1049521/000104952126000045/mrcy-20260703.htm",
+          "sourceSection": "Consolidated Statements of Operations and Comprehensive (Loss) Income (in thousands)",
+          "supportingPassage": "For the Fiscal Years Ended July 3, 2026 June 27, 2025 June 28, 2024 Net revenues $ 983,622 $ 912,020 $ 835,275 (in thousands)",
+          "xbrlCrossCheck": "Matches us-gaap:Revenues annual fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-30"
+        },
+        {
+          "fiscalYearEnd": "2023-06-30",
+          "value": 973882000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1049521/000104952123000031/mrcy-20230630.htm",
+          "sourceSection": "Consolidated Statements of Operations and Comprehensive (Loss) Income (in thousands)",
+          "supportingPassage": "For the Fiscal Years Ended June 30, 2023 July 1, 2022 July 2, 2021 Net revenues $ 973,882 $ 988,197 $ 923,996 (in thousands)",
+          "xbrlCrossCheck": "Matches us-gaap:Revenues annual fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-30"
+        },
+        {
+          "fiscalYearEnd": "2022-07-01",
+          "value": 988197000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1049521/000104952123000031/mrcy-20230630.htm",
+          "sourceSection": "Consolidated Statements of Operations and Comprehensive (Loss) Income (in thousands)",
+          "supportingPassage": "For the Fiscal Years Ended June 30, 2023 July 1, 2022 July 2, 2021 Net revenues $ 973,882 $ 988,197 $ 923,996 (in thousands)",
+          "xbrlCrossCheck": "Matches us-gaap:Revenues annual fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-30"
+        },
+        {
+          "fiscalYearEnd": "2021-07-02",
+          "value": 923996000,
+          "currency": "USD",
+          "reviewStatus": "reviewed_primary_filing",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1049521/000104952123000031/mrcy-20230630.htm",
+          "sourceSection": "Consolidated Statements of Operations and Comprehensive (Loss) Income (in thousands)",
+          "supportingPassage": "For the Fiscal Years Ended June 30, 2023 July 1, 2022 July 2, 2021 Net revenues $ 973,882 $ 988,197 $ 923,996 (in thousands)",
+          "xbrlCrossCheck": "Matches us-gaap:Revenues annual fact in SEC companyconcept data",
+          "reviewedAt": "2026-10-30"
+        }
+      ]
+    },
+    {
+      "id": "legal:mercury-mission-systems-llc",
+      "legalName": "Mercury Mission Systems, LLC",
+      "cik": null,
+      "uei": null,
+      "cage": null,
+      "stateOfIncorporation": "Delaware"
     }
   ],
   "relationships": [
@@ -3715,6 +3814,37 @@
         "Latest reviewed relationship evidence is dated 2025-12-28",
         "Effective-from is the earliest reviewed listing, not the formation or acquisition date; continuity between annual listings is assumed",
         "Exhibit 21.1 marks only partially owned subsidiaries with a percentage; this entity is unmarked, and no filing passage states wholly owned status"
+      ]
+    },
+    {
+      "id": "relationship:mercury-mission-systems-llc-0001049521",
+      "childId": "legal:mercury-mission-systems-llc",
+      "parentId": "sec:0001049521",
+      "type": "subsidiary",
+      "reviewStatus": "reviewed_primary_filing",
+      "effectiveFrom": "2020-07-03",
+      "effectiveUntil": null,
+      "evidenceAsOf": "2026-07-03",
+      "ownershipPercentage": null,
+      "observedAt": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1049521/000104952120000034/mrcy732020-exhibit211.htm",
+          "section": "Exhibit 21.1, Subsidiaries of the Registrant (fiscal 2020, 2020-07-03)",
+          "supportingPassage": "Mercury Mission Systems, LLC | Delaware",
+          "scope": "Subsidiary listing at 2020-07-03; no ownership percentage"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1049521/000104952126000045/exhibit211-subsidiarieso.htm",
+          "section": "Exhibit 21.1, Subsidiaries of the Registrant (fiscal 2026, 2026-07-03)",
+          "supportingPassage": "Mercury Mission Systems, LLC | Delaware",
+          "scope": "Subsidiary listing at 2026-07-03; no ownership percentage; no government recipient identifier"
+        }
+      ],
+      "limitations": [
+        "Latest reviewed relationship evidence is dated 2026-07-03",
+        "Effective-from is the earliest reviewed listing, not the formation or acquisition date; continuity between annual listings is assumed",
+        "Exhibit 21.1 lists subsidiaries without ownership percentages; no filing passage states wholly owned status for this entity"
       ]
     }
   ],
@@ -8870,6 +9000,86 @@
       "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
       "reviewedAt": "2026-10-30",
       "reviewFile": "reviews/recipients/kratos-microwave-inc.json"
+    },
+    {
+      "id": "binding:uei:GELNG3K35FA5",
+      "kind": "uei",
+      "value": "GELNG3K35FA5",
+      "entityId": "legal:mercury-mission-systems-llc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2020-07-08",
+      "evidenceAsOf": "2026-10-30",
+      "sourceUrl": "https://www.usaspending.gov/recipient/cbeb9690-1ae1-a3f0-c85f-397dccde3d96-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/cbeb9690-1ae1-a3f0-c85f-397dccde3d96-C/",
+      "supportingPassage": "MERCURY MISSION SYSTEMS LLC | UEI GELNG3K35FA5 | TORRANCE, CA, USA | Latest award CONT_AWD_SPE4A726P7192_9700_-NONE-_-NONE- (2026-07-23) parent: MERCURY SYSTEMS INC (UEI J51ULX3CNCZ4)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-30",
+      "reviewFile": "reviews/recipients/mercury-mission-systems-llc.json"
+    },
+    {
+      "id": "binding:uei:J51ULX3CNCZ4",
+      "kind": "uei",
+      "value": "J51ULX3CNCZ4",
+      "entityId": "sec:0001049521",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-02",
+      "evidenceAsOf": "2026-10-30",
+      "sourceUrl": "https://www.usaspending.gov/recipient/af09eaba-71de-97b6-660d-1adac9349c4d-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/af09eaba-71de-97b6-660d-1adac9349c4d-C/",
+      "supportingPassage": "MERCURY SYSTEMS INC | UEI J51ULX3CNCZ4 | ANDOVER, MA, USA | Latest award CONT_AWD_80NSSC27P0092_8000_-NONE-_-NONE- (2026-10-22) parent: MERCURY SYSTEMS INC (UEI J51ULX3CNCZ4)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-30",
+      "reviewFile": "reviews/recipients/mercury-systems-inc.json"
+    },
+    {
+      "id": "binding:uei:JJRQMU3NZBV5",
+      "kind": "uei",
+      "value": "JJRQMU3NZBV5",
+      "entityId": "sec:0001049521",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2014-02-20",
+      "evidenceAsOf": "2026-10-30",
+      "sourceUrl": "https://www.usaspending.gov/recipient/ecd15c15-620c-7afa-5daf-a02856c655af-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/ecd15c15-620c-7afa-5daf-a02856c655af-C/",
+      "supportingPassage": "MERCURY SYSTEMS, INC. | UEI JJRQMU3NZBV5 | HUDSON, NH, USA | Latest award CONT_AWD_SPE7M519P8095_9700_-NONE-_-NONE- (2026-07-22) parent: MERCURY SYSTEMS INC (UEI J51ULX3CNCZ4)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-30",
+      "reviewFile": "reviews/recipients/mercury-systems-inc.json"
+    },
+    {
+      "id": "binding:uei:FKEYGBAYJLH3",
+      "kind": "uei",
+      "value": "FKEYGBAYJLH3",
+      "entityId": "sec:0001049521",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2021-12-30",
+      "evidenceAsOf": "2026-10-30",
+      "sourceUrl": "https://www.usaspending.gov/recipient/ffa1d324-3842-bcb6-4986-820eba16282c-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/ffa1d324-3842-bcb6-4986-820eba16282c-C/",
+      "supportingPassage": "MERCURY SYSTEMS, INC. | UEI FKEYGBAYJLH3 | CHANTILLY, VA, USA | Latest award CONT_AWD_N0010423PDB74_9700_-NONE-_-NONE- (2026-07-09) parent: MERCURY SYSTEMS INC (UEI J51ULX3CNCZ4)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-30",
+      "reviewFile": "reviews/recipients/mercury-systems-inc.json"
+    },
+    {
+      "id": "binding:uei:DKR9KB3ZY6F6",
+      "kind": "uei",
+      "value": "DKR9KB3ZY6F6",
+      "entityId": "sec:0001049521",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2015-07-29",
+      "evidenceAsOf": "2026-10-30",
+      "sourceUrl": "https://www.usaspending.gov/recipient/304a0b97-4113-64e4-b404-9c301904cb3c-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/304a0b97-4113-64e4-b404-9c301904cb3c-C/",
+      "supportingPassage": "MERCURY SYSTEMS INC | UEI DKR9KB3ZY6F6 | HUNTSVILLE, AL, USA | Latest award CONT_AWD_N0010425PSB84_9700_-NONE-_-NONE- (2025-11-03) parent: MERCURY SYSTEMS INC (UEI J51ULX3CNCZ4)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-30",
+      "reviewFile": "reviews/recipients/mercury-systems-inc.json"
     }
   ],
   "retiredBindings": [

@@ -1,0 +1,204 @@
+{
+  "generatedAt": "2026-10-30T17:09:00.241Z",
+  "query": {
+    "name": "Mercury Systems, Inc.",
+    "parentUei": "J51ULX3CNCZ4",
+    "entityId": "sec:0001049521",
+    "formerNames": [],
+    "notBefore": null
+  },
+  "searched": 5,
+  "candidates": [
+    {
+      "evidence": {
+        "uei": "J51ULX3CNCZ4",
+        "cage": null,
+        "recipientId": "af09eaba-71de-97b6-660d-1adac9349c4d-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/af09eaba-71de-97b6-660d-1adac9349c4d-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/af09eaba-71de-97b6-660d-1adac9349c4d-C/",
+        "responseSha256": "4fe62b7ca43935d8f1ef689a3663d07c435a6a249e27202faf2e232f8771367f",
+        "name": "MERCURY SYSTEMS INC",
+        "parentName": "MERCURY SYSTEMS INC",
+        "parentUei": "J51ULX3CNCZ4",
+        "otherReportedParents": [],
+        "location": "ANDOVER, MA, USA",
+        "contractAmount": 18690341.46,
+        "earliestTransaction": {
+          "date": "2007-10-02",
+          "award": "CONT_AWD_N0010407FCA74_9700_GS35F5123H_4730"
+        },
+        "latestTransaction": {
+          "date": "2026-10-22",
+          "award": "CONT_AWD_80NSSC27P0092_8000_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_80NSSC27P0092_8000_-NONE-_-NONE-",
+          "parentName": "MERCURY SYSTEMS INC",
+          "parentUei": "J51ULX3CNCZ4",
+          "recipientUei": "J51ULX3CNCZ4",
+          "responseSha256": "4ac4edaaf5d2438f6cab38c9273b91582e6b5a8a604dbca45ad5a109b7b75fce"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:J51ULX3CNCZ4",
+        "kind": "uei",
+        "value": "J51ULX3CNCZ4",
+        "entityId": "sec:0001049521",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2007-10-02",
+        "evidenceAsOf": "2026-10-30",
+        "sourceUrl": "https://www.usaspending.gov/recipient/af09eaba-71de-97b6-660d-1adac9349c4d-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/af09eaba-71de-97b6-660d-1adac9349c4d-C/",
+        "supportingPassage": "MERCURY SYSTEMS INC | UEI J51ULX3CNCZ4 | ANDOVER, MA, USA | Latest award CONT_AWD_80NSSC27P0092_8000_-NONE-_-NONE- (2026-10-22) parent: MERCURY SYSTEMS INC (UEI J51ULX3CNCZ4)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "JJRQMU3NZBV5",
+        "cage": null,
+        "recipientId": "ecd15c15-620c-7afa-5daf-a02856c655af-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/ecd15c15-620c-7afa-5daf-a02856c655af-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/ecd15c15-620c-7afa-5daf-a02856c655af-C/",
+        "responseSha256": "7b34bfd324ae2b5a5591f453518c373b72fdb5f5dd4efd4f86f31c940b73ce9b",
+        "name": "MERCURY SYSTEMS, INC.",
+        "parentName": "MERCURY SYSTEMS INC",
+        "parentUei": "J51ULX3CNCZ4",
+        "otherReportedParents": [],
+        "location": "HUDSON, NH, USA",
+        "contractAmount": 744717,
+        "earliestTransaction": {
+          "date": "2014-02-20",
+          "award": "CONT_AWD_SPE7M014M2253_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-07-22",
+          "award": "CONT_AWD_SPE7M519P8095_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_SPE7M519P8095_9700_-NONE-_-NONE-",
+          "parentName": "MERCURY SYSTEMS INC",
+          "parentUei": "J51ULX3CNCZ4",
+          "recipientUei": "JJRQMU3NZBV5",
+          "responseSha256": "d7a9f0790efa643b123e4e662b1ba9f35a4427c1881beb8c3456a35c68e65805"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:JJRQMU3NZBV5",
+        "kind": "uei",
+        "value": "JJRQMU3NZBV5",
+        "entityId": "sec:0001049521",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2014-02-20",
+        "evidenceAsOf": "2026-10-30",
+        "sourceUrl": "https://www.usaspending.gov/recipient/ecd15c15-620c-7afa-5daf-a02856c655af-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/ecd15c15-620c-7afa-5daf-a02856c655af-C/",
+        "supportingPassage": "MERCURY SYSTEMS, INC. | UEI JJRQMU3NZBV5 | HUDSON, NH, USA | Latest award CONT_AWD_SPE7M519P8095_9700_-NONE-_-NONE- (2026-07-22) parent: MERCURY SYSTEMS INC (UEI J51ULX3CNCZ4)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "FKEYGBAYJLH3",
+        "cage": null,
+        "recipientId": "ffa1d324-3842-bcb6-4986-820eba16282c-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/ffa1d324-3842-bcb6-4986-820eba16282c-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/ffa1d324-3842-bcb6-4986-820eba16282c-C/",
+        "responseSha256": "e9280aa1548387d1f7bc2cadf31311c40b4a94bceaebe1662443d99db4355ea8",
+        "name": "MERCURY SYSTEMS, INC.",
+        "parentName": "MERCURY SYSTEMS, INC.",
+        "parentUei": "FKEYGBAYJLH3",
+        "otherReportedParents": [
+          "MERCURY SYSTEMS INC / J51ULX3CNCZ4"
+        ],
+        "location": "CHANTILLY, VA, USA",
+        "contractAmount": -392071.35,
+        "earliestTransaction": {
+          "date": "2021-12-30",
+          "award": "CONT_AWD_N0010422PNA37_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2026-07-09",
+          "award": "CONT_AWD_N0010423PDB74_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N0010423PDB74_9700_-NONE-_-NONE-",
+          "parentName": "MERCURY SYSTEMS INC",
+          "parentUei": "J51ULX3CNCZ4",
+          "recipientUei": "FKEYGBAYJLH3",
+          "responseSha256": "8f010762af68e092a02e9244a4490b07f2e96e39c272ba36bab8bfd20071d160"
+        },
+        "warnings": [
+          "profile parent UEI FKEYGBAYJLH3 (MERCURY SYSTEMS, INC.) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:FKEYGBAYJLH3",
+        "kind": "uei",
+        "value": "FKEYGBAYJLH3",
+        "entityId": "sec:0001049521",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2021-12-30",
+        "evidenceAsOf": "2026-10-30",
+        "sourceUrl": "https://www.usaspending.gov/recipient/ffa1d324-3842-bcb6-4986-820eba16282c-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/ffa1d324-3842-bcb6-4986-820eba16282c-C/",
+        "supportingPassage": "MERCURY SYSTEMS, INC. | UEI FKEYGBAYJLH3 | CHANTILLY, VA, USA | Latest award CONT_AWD_N0010423PDB74_9700_-NONE-_-NONE- (2026-07-09) parent: MERCURY SYSTEMS INC (UEI J51ULX3CNCZ4)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "DKR9KB3ZY6F6",
+        "cage": null,
+        "recipientId": "304a0b97-4113-64e4-b404-9c301904cb3c-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/304a0b97-4113-64e4-b404-9c301904cb3c-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/304a0b97-4113-64e4-b404-9c301904cb3c-C/",
+        "responseSha256": "c3ed545b09a8f0383ae477085c98b4bfaed7ada87fe4becea8af61d51c9aafe8",
+        "name": "MERCURY SYSTEMS INC",
+        "parentName": "MERCURY SYSTEMS INC",
+        "parentUei": "J51ULX3CNCZ4",
+        "otherReportedParents": [],
+        "location": "HUNTSVILLE, AL, USA",
+        "contractAmount": -508172.4,
+        "earliestTransaction": {
+          "date": "2015-07-29",
+          "award": "CONT_AWD_N0016415P0352_9700_-NONE-_-NONE-"
+        },
+        "latestTransaction": {
+          "date": "2025-11-03",
+          "award": "CONT_AWD_N0010425PSB84_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_N0010425PSB84_9700_-NONE-_-NONE-",
+          "parentName": "MERCURY SYSTEMS INC",
+          "parentUei": "J51ULX3CNCZ4",
+          "recipientUei": "DKR9KB3ZY6F6",
+          "responseSha256": "69806cfe5e1c76dee78d458fe6549e0dc0ef0f49ba9376c7c006ec56728724bf"
+        },
+        "warnings": []
+      },
+      "binding": {
+        "id": "binding:uei:DKR9KB3ZY6F6",
+        "kind": "uei",
+        "value": "DKR9KB3ZY6F6",
+        "entityId": "sec:0001049521",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2015-07-29",
+        "evidenceAsOf": "2026-10-30",
+        "sourceUrl": "https://www.usaspending.gov/recipient/304a0b97-4113-64e4-b404-9c301904cb3c-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/304a0b97-4113-64e4-b404-9c301904cb3c-C/",
+        "supportingPassage": "MERCURY SYSTEMS INC | UEI DKR9KB3ZY6F6 | HUNTSVILLE, AL, USA | Latest award CONT_AWD_N0010425PSB84_9700_-NONE-_-NONE- (2025-11-03) parent: MERCURY SYSTEMS INC (UEI J51ULX3CNCZ4)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    }
+  ],
+  "excluded": [],
+  "limitations": [
+    "USAspending reflects SAM data as reported; it is not SAM.gov itself",
+    "Recipient search is keyword-based and capped at 500 records",
+    "Profile parent fields can be stale; corroboration uses the parent on the latest award record",
+    "Name and parent agreement do not prove the SEC-listed legal entity; review state of incorporation separately where available"
+  ]
+}
