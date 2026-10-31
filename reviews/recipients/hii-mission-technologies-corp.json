@@ -1,0 +1,220 @@
+{
+  "generatedAt": "2026-10-31T01:50:16.137Z",
+  "query": {
+    "name": "HII Mission Technologies Corp.",
+    "parentUei": "F9SDJAZFTLG6",
+    "entityId": "legal:hii-mission-technologies-corp",
+    "formerNames": [],
+    "notBefore": "2022-12-31"
+  },
+  "searched": 5,
+  "candidates": [
+    {
+      "evidence": {
+        "uei": "G5H7HWC4L2R5",
+        "cage": null,
+        "recipientId": "af71a671-8628-cf92-9d09-39fda820ddac-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/af71a671-8628-cf92-9d09-39fda820ddac-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/af71a671-8628-cf92-9d09-39fda820ddac-C/",
+        "responseSha256": "ae2c419139ed293ca9d2f96cae2e18da3b985f0582a03f1308392cdcf5f19904",
+        "name": "HII MISSION TECHNOLOGIES CORP",
+        "parentName": "CONTINENTAL MARITIME OF SAN DIEGO  LLC",
+        "parentUei": "MV7LRD46KGF7",
+        "otherReportedParents": [
+          "HUNTINGTON INGALLS INDUSTRIES, INC / F9SDJAZFTLG6",
+          "ALION SCIENCE AND TECHNOLOGY CORPORATION / HEJREFFVP618"
+        ],
+        "location": "MC LEAN, VA, USA",
+        "contractAmount": 1238659460.07,
+        "earliestTransaction": {
+          "date": "2007-10-17",
+          "award": "CONT_AWD_0177_9700_N0016700D0047_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-10-28",
+          "award": "CONT_AWD_47QFWA25F0010_4732_47QFCA22D0401_4732"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_47QFWA25F0010_4732_47QFCA22D0401_4732",
+          "parentName": "HUNTINGTON INGALLS INDUSTRIES, INC",
+          "parentUei": "F9SDJAZFTLG6",
+          "recipientUei": "G5H7HWC4L2R5",
+          "responseSha256": "75adc2df3b9a4d0ccbad8798579d94d9ec061a0f9e5beac6742006b440616007"
+        },
+        "warnings": [
+          "profile parent UEI MV7LRD46KGF7 (CONTINENTAL MARITIME OF SAN DIEGO  LLC) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:G5H7HWC4L2R5",
+        "kind": "uei",
+        "value": "G5H7HWC4L2R5",
+        "entityId": "legal:hii-mission-technologies-corp",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2022-12-31",
+        "evidenceAsOf": "2026-10-31",
+        "sourceUrl": "https://www.usaspending.gov/recipient/af71a671-8628-cf92-9d09-39fda820ddac-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/af71a671-8628-cf92-9d09-39fda820ddac-C/",
+        "supportingPassage": "HII MISSION TECHNOLOGIES CORP | UEI G5H7HWC4L2R5 | MC LEAN, VA, USA | Latest award CONT_AWD_47QFWA25F0010_4732_47QFCA22D0401_4732 (2026-10-28) parent: HUNTINGTON INGALLS INDUSTRIES, INC (UEI F9SDJAZFTLG6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "GS7HBMNZEMK3",
+        "cage": null,
+        "recipientId": "09209b6d-af2a-79f6-ec11-b314812e454b-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/09209b6d-af2a-79f6-ec11-b314812e454b-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/09209b6d-af2a-79f6-ec11-b314812e454b-C/",
+        "responseSha256": "300962545baa426ff392e213a980b0cce22db4ced74b92b29b3e9b76a2fa98fe",
+        "name": "HII MISSION TECHNOLOGIES CORP",
+        "parentName": "CONTINENTAL MARITIME OF SAN DIEGO  LLC",
+        "parentUei": "MV7LRD46KGF7",
+        "otherReportedParents": [
+          "HUNTINGTON INGALLS INDUSTRIES, INC / F9SDJAZFTLG6",
+          "ALION SCIENCE AND TECHNOLOGY CORPORATION / HEJREFFVP618"
+        ],
+        "location": "WILLOWBROOK, IL, USA",
+        "contractAmount": 304451624.42,
+        "earliestTransaction": {
+          "date": "2007-10-02",
+          "award": "CONT_AWD_0108_9700_SP070099D0301_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-07-23",
+          "award": "CONT_AWD_FA807521F0070_9700_FA807518D0002_9700"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_FA807521F0070_9700_FA807518D0002_9700",
+          "parentName": "HUNTINGTON INGALLS INDUSTRIES, INC",
+          "parentUei": "F9SDJAZFTLG6",
+          "recipientUei": "GS7HBMNZEMK3",
+          "responseSha256": "c262d709915fb981eedd8fad4b46ee7d338af8e24e3df1b6c129b6d49048a8d8"
+        },
+        "warnings": [
+          "profile parent UEI MV7LRD46KGF7 (CONTINENTAL MARITIME OF SAN DIEGO  LLC) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:GS7HBMNZEMK3",
+        "kind": "uei",
+        "value": "GS7HBMNZEMK3",
+        "entityId": "legal:hii-mission-technologies-corp",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2022-12-31",
+        "evidenceAsOf": "2026-10-31",
+        "sourceUrl": "https://www.usaspending.gov/recipient/09209b6d-af2a-79f6-ec11-b314812e454b-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/09209b6d-af2a-79f6-ec11-b314812e454b-C/",
+        "supportingPassage": "HII MISSION TECHNOLOGIES CORP | UEI GS7HBMNZEMK3 | WILLOWBROOK, IL, USA | Latest award CONT_AWD_FA807521F0070_9700_FA807518D0002_9700 (2026-07-23) parent: HUNTINGTON INGALLS INDUSTRIES, INC (UEI F9SDJAZFTLG6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "HHT6NC9UT8Z5",
+        "cage": null,
+        "recipientId": "c542e79f-6952-bb17-1b88-4c553f80c95b-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/c542e79f-6952-bb17-1b88-4c553f80c95b-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/c542e79f-6952-bb17-1b88-4c553f80c95b-C/",
+        "responseSha256": "752fa15575b90f54c5d9ec991f12f871574ccf0b3aeadddb856ecdd33a73487b",
+        "name": "HII MISSION TECHNOLOGIES CORP",
+        "parentName": "NEW MOUNTAIN FINANCE SBIC, LP",
+        "parentUei": "X669GQAG53Y8",
+        "otherReportedParents": [
+          "HUNTINGTON INGALLS INDUSTRIES, INC / F9SDJAZFTLG6",
+          "HII MISSION TECHNOLOGIES CORP / HHT6NC9UT8Z5"
+        ],
+        "location": "HUNTSVILLE, AL, USA",
+        "contractAmount": 6456142.2,
+        "earliestTransaction": {
+          "date": "2007-10-01",
+          "award": "CONT_AWD_0001_9700_FA481406A0010_9700"
+        },
+        "latestTransaction": {
+          "date": "2026-10-02",
+          "award": "CONT_AWD_GSQ0017AJ0008_4732_GS00Q14OADS412_4732"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_GSQ0017AJ0008_4732_GS00Q14OADS412_4732",
+          "parentName": "HUNTINGTON INGALLS INDUSTRIES, INC",
+          "parentUei": "F9SDJAZFTLG6",
+          "recipientUei": "HHT6NC9UT8Z5",
+          "responseSha256": "850b1079ffa2a4e8a58a0ec135f1625bd6b5f05b4770886cd8c454be157e7413"
+        },
+        "warnings": [
+          "profile parent UEI X669GQAG53Y8 (NEW MOUNTAIN FINANCE SBIC, LP) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:HHT6NC9UT8Z5",
+        "kind": "uei",
+        "value": "HHT6NC9UT8Z5",
+        "entityId": "legal:hii-mission-technologies-corp",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2022-12-31",
+        "evidenceAsOf": "2026-10-31",
+        "sourceUrl": "https://www.usaspending.gov/recipient/c542e79f-6952-bb17-1b88-4c553f80c95b-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/c542e79f-6952-bb17-1b88-4c553f80c95b-C/",
+        "supportingPassage": "HII MISSION TECHNOLOGIES CORP | UEI HHT6NC9UT8Z5 | HUNTSVILLE, AL, USA | Latest award CONT_AWD_GSQ0017AJ0008_4732_GS00Q14OADS412_4732 (2026-10-02) parent: HUNTINGTON INGALLS INDUSTRIES, INC (UEI F9SDJAZFTLG6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    },
+    {
+      "evidence": {
+        "uei": "Z6USGD96KM25",
+        "cage": null,
+        "recipientId": "65220fc0-6990-b7ff-58bf-bff60ddc79ec-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/65220fc0-6990-b7ff-58bf-bff60ddc79ec-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/65220fc0-6990-b7ff-58bf-bff60ddc79ec-C/",
+        "responseSha256": "a6d6ffa0ec36c0c68b1d47144f8a926a31c8df93bc97cc8014d4562a50db226e",
+        "name": "HII MISSION TECHNOLOGIES CORP",
+        "parentName": "CONTINENTAL MARITIME OF SAN DIEGO  LLC",
+        "parentUei": "MV7LRD46KGF7",
+        "otherReportedParents": [
+          "HII MISSION TECHNOLOGIES CORP / Z6USGD96KM25",
+          "HUNTINGTON INGALLS INDUSTRIES, INC / F9SDJAZFTLG6"
+        ],
+        "location": "FAIRBORN, OH, USA",
+        "contractAmount": -709324.2,
+        "earliestTransaction": {
+          "date": "2007-10-01",
+          "award": "CONT_AWD_FA703706F0005_9700_GS35F0137J_4730"
+        },
+        "latestTransaction": {
+          "date": "2026-09-29",
+          "award": "CONT_AWD_80MSFC19F0118_8000_GS00F063CA_4732"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_80MSFC19F0118_8000_GS00F063CA_4732",
+          "parentName": "HUNTINGTON INGALLS INDUSTRIES, INC",
+          "parentUei": "F9SDJAZFTLG6",
+          "recipientUei": "Z6USGD96KM25",
+          "responseSha256": "b592b6a01903486dc7328d268b98e3d7bed583148b1d87cede602ed2cf40a2bc"
+        },
+        "warnings": [
+          "profile parent UEI MV7LRD46KGF7 (CONTINENTAL MARITIME OF SAN DIEGO  LLC) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:Z6USGD96KM25",
+        "kind": "uei",
+        "value": "Z6USGD96KM25",
+        "entityId": "legal:hii-mission-technologies-corp",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2022-12-31",
+        "evidenceAsOf": "2026-10-31",
+        "sourceUrl": "https://www.usaspending.gov/recipient/65220fc0-6990-b7ff-58bf-bff60ddc79ec-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/65220fc0-6990-b7ff-58bf-bff60ddc79ec-C/",
+        "supportingPassage": "HII MISSION TECHNOLOGIES CORP | UEI Z6USGD96KM25 | FAIRBORN, OH, USA | Latest award CONT_AWD_80MSFC19F0118_8000_GS00F063CA_4732 (2026-09-29) parent: HUNTINGTON INGALLS INDUSTRIES, INC (UEI F9SDJAZFTLG6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    }
+  ],
+  "excluded": [],
+  "limitations": [
+    "USAspending reflects SAM data as reported; it is not SAM.gov itself",
+    "Recipient search is keyword-based and capped at 500 records",
+    "Profile parent fields can be stale; corroboration uses the parent on the latest award record",
+    "Name and parent agreement do not prove the SEC-listed legal entity; review state of incorporation separately where available"
+  ]
+}

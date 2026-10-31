@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "reviewedAt": "2026-10-30",
+  "reviewedAt": "2026-10-31",
   "entities": [
     {
       "id": "sec:0000101829",
@@ -2237,6 +2237,38 @@
       "uei": null,
       "cage": null,
       "stateOfIncorporation": "Delaware"
+    },
+    {
+      "id": "legal:hii-mission-technologies-corp",
+      "legalName": "HII Mission Technologies Corp.",
+      "cik": null,
+      "uei": null,
+      "cage": null,
+      "stateOfIncorporation": "Delaware"
+    },
+    {
+      "id": "legal:hii-technical-solutions-corporation",
+      "legalName": "HII Technical Solutions Corporation",
+      "cik": null,
+      "uei": null,
+      "cage": null,
+      "stateOfIncorporation": "Delaware"
+    },
+    {
+      "id": "legal:hii-fleet-support-group-llc",
+      "legalName": "HII Fleet Support Group LLC",
+      "cik": null,
+      "uei": null,
+      "cage": null,
+      "stateOfIncorporation": "Delaware"
+    },
+    {
+      "id": "legal:enlighten-llc",
+      "legalName": "Enlighten, LLC",
+      "cik": null,
+      "uei": null,
+      "cage": null,
+      "stateOfIncorporation": "Maryland"
     }
   ],
   "relationships": [
@@ -2811,12 +2843,18 @@
       "parentId": "sec:0001501585",
       "type": "subsidiary",
       "reviewStatus": "reviewed_primary_filing",
-      "effectiveFrom": "2021-12-31",
+      "effectiveFrom": "2018-12-31",
       "effectiveUntil": null,
       "evidenceAsOf": "2025-12-31",
       "ownershipPercentage": 100,
       "observedAt": "2026-10-15",
       "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1501585/000150158519000005/hii-ex211201810xk.htm",
+          "section": "Exhibit 21.1, Subsidiaries (FY2018)",
+          "supportingPassage": "Huntington Ingalls Incorporated | Virginia | 100%",
+          "scope": "Ownership percentage at 2018-12-31"
+        },
         {
           "url": "https://www.sec.gov/Archives/edgar/data/1501585/000150158522000007/hii-ex211202110xk.htm",
           "section": "Exhibit 21.1, Subsidiaries (FY2021)",
@@ -3982,6 +4020,125 @@
         "Continuity between reviewed annual subsidiary listings is assumed, not restated",
         "Effective-from is the earliest reviewed listing, not the formation or acquisition date",
         "Exhibit 21 lists significant subsidiaries only; omitted entities are not evidence of non-ownership"
+      ]
+    },
+    {
+      "id": "relationship:hii-mission-technologies-corp-0001501585",
+      "childId": "legal:hii-mission-technologies-corp",
+      "parentId": "sec:0001501585",
+      "type": "subsidiary",
+      "reviewStatus": "reviewed_primary_filing",
+      "effectiveFrom": "2022-12-31",
+      "effectiveUntil": null,
+      "evidenceAsOf": "2025-12-31",
+      "ownershipPercentage": 100,
+      "observedAt": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1501585/000150158523000010/hii-ex211202210xk.htm",
+          "section": "Exhibit 21.1, Subsidiaries (FY2022)",
+          "supportingPassage": "HII Mission Technologies Corp. | Delaware | 100%",
+          "scope": "Subsidiary listing at 2022-12-31; ownership percentage"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1501585/000150158526000006/hii-ex211202510xk.htm",
+          "section": "Exhibit 21.1, Subsidiaries (FY2025)",
+          "supportingPassage": "HII Mission Technologies Corp. | Delaware",
+          "scope": "Subsidiary listing at 2025-12-31; no percentage; no government recipient identifier"
+        }
+      ],
+      "limitations": [
+        "Latest reviewed relationship evidence is dated 2025-12-31",
+        "Effective-from is the earliest reviewed listing, not the formation or acquisition date; continuity between annual listings is assumed",
+        "Ownership percentage is stated as 100% in the fiscal 2018–2023 Exhibit 21.1; the fiscal 2024 and 2025 lists carry no percentage column, and continuity of full ownership is assumed"
+      ]
+    },
+    {
+      "id": "relationship:hii-technical-solutions-corporation-0001501585",
+      "childId": "legal:hii-technical-solutions-corporation",
+      "parentId": "sec:0001501585",
+      "type": "subsidiary",
+      "reviewStatus": "reviewed_primary_filing",
+      "effectiveFrom": "2018-12-31",
+      "effectiveUntil": null,
+      "evidenceAsOf": "2025-12-31",
+      "ownershipPercentage": 100,
+      "observedAt": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1501585/000150158519000005/hii-ex211201810xk.htm",
+          "section": "Exhibit 21.1, Subsidiaries (FY2018)",
+          "supportingPassage": "HII Technical Solutions Corporation | Delaware | 100%",
+          "scope": "Subsidiary listing at 2018-12-31; ownership percentage"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1501585/000150158526000006/hii-ex211202510xk.htm",
+          "section": "Exhibit 21.1, Subsidiaries (FY2025)",
+          "supportingPassage": "HII Technical Solutions Corporation | Delaware",
+          "scope": "Subsidiary listing at 2025-12-31; no percentage; no government recipient identifier"
+        }
+      ],
+      "limitations": [
+        "Latest reviewed relationship evidence is dated 2025-12-31",
+        "Effective-from is the earliest reviewed listing, not the formation or acquisition date; continuity between annual listings is assumed",
+        "Ownership percentage is stated as 100% in the fiscal 2018–2023 Exhibit 21.1; the fiscal 2024 and 2025 lists carry no percentage column, and continuity of full ownership is assumed"
+      ]
+    },
+    {
+      "id": "relationship:hii-fleet-support-group-llc-0001501585",
+      "childId": "legal:hii-fleet-support-group-llc",
+      "parentId": "sec:0001501585",
+      "type": "subsidiary",
+      "reviewStatus": "reviewed_primary_filing",
+      "effectiveFrom": "2018-12-31",
+      "effectiveUntil": null,
+      "evidenceAsOf": "2023-12-31",
+      "ownershipPercentage": 100,
+      "observedAt": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1501585/000150158519000005/hii-ex211201810xk.htm",
+          "section": "Exhibit 21.1, Subsidiaries (FY2018)",
+          "supportingPassage": "HII Fleet Support Group LLC | Delaware | 100%",
+          "scope": "Subsidiary listing at 2018-12-31; ownership percentage"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1501585/000150158524000007/hii-ex211202310xk.htm",
+          "section": "Exhibit 21.1, Subsidiaries (FY2023)",
+          "supportingPassage": "HII Fleet Support Group LLC | Delaware | 100%",
+          "scope": "Subsidiary listing at 2023-12-31; ownership percentage; no government recipient identifier"
+        }
+      ],
+      "limitations": [
+        "Latest reviewed relationship evidence is dated 2023-12-31",
+        "Effective-from is the earliest reviewed listing, not the formation or acquisition date; continuity between annual listings is assumed",
+        "Last listed in the fiscal 2023 Exhibit 21.1 and absent from the fiscal 2024 and 2025 lists; coverage ends at the last listing, and absence is not treated as evidence of disposal or merger"
+      ]
+    },
+    {
+      "id": "relationship:enlighten-llc-0001501585",
+      "childId": "legal:enlighten-llc",
+      "parentId": "sec:0001501585",
+      "type": "subsidiary",
+      "reviewStatus": "reviewed_primary_filing",
+      "effectiveFrom": "2025-12-31",
+      "effectiveUntil": null,
+      "evidenceAsOf": "2025-12-31",
+      "ownershipPercentage": null,
+      "observedAt": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1501585/000150158526000006/hii-ex211202510xk.htm",
+          "section": "Exhibit 21.1, Subsidiaries (FY2025)",
+          "supportingPassage": "Enlighten, LLC | Maryland",
+          "scope": "Subsidiary listing at 2025-12-31; no percentage"
+        }
+      ],
+      "limitations": [
+        "Latest reviewed relationship evidence is dated 2025-12-31",
+        "Effective-from is the earliest reviewed listing, not the formation or acquisition date; continuity between annual listings is assumed",
+        "Exhibit 21.1 for fiscal 2025 carries no ownership percentage; no filing passage states wholly owned status for this entity",
+        "Listed as “Enlighten IT Consulting LLC” (Maryland, 100%) in the fiscal 2021–2024 Exhibit 21.1; the change to “Enlighten, LLC” is not a brand rename under the corroboration rules, so the relationship starts at the fiscal 2025 listing"
       ]
     }
   ],
@@ -9377,6 +9534,118 @@
       "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
       "reviewedAt": "2026-10-30",
       "reviewFile": "reviews/recipients/curtiss-wright-flow-control-corporation.json"
+    },
+    {
+      "id": "binding:uei:G5H7HWC4L2R5",
+      "kind": "uei",
+      "value": "G5H7HWC4L2R5",
+      "entityId": "legal:hii-mission-technologies-corp",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2022-12-31",
+      "evidenceAsOf": "2026-10-31",
+      "sourceUrl": "https://www.usaspending.gov/recipient/af71a671-8628-cf92-9d09-39fda820ddac-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/af71a671-8628-cf92-9d09-39fda820ddac-C/",
+      "supportingPassage": "HII MISSION TECHNOLOGIES CORP | UEI G5H7HWC4L2R5 | MC LEAN, VA, USA | Latest award CONT_AWD_47QFWA25F0010_4732_47QFCA22D0401_4732 (2026-10-28) parent: HUNTINGTON INGALLS INDUSTRIES, INC (UEI F9SDJAZFTLG6)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-31",
+      "reviewFile": "reviews/recipients/hii-mission-technologies-corp.json"
+    },
+    {
+      "id": "binding:uei:GS7HBMNZEMK3",
+      "kind": "uei",
+      "value": "GS7HBMNZEMK3",
+      "entityId": "legal:hii-mission-technologies-corp",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2022-12-31",
+      "evidenceAsOf": "2026-10-31",
+      "sourceUrl": "https://www.usaspending.gov/recipient/09209b6d-af2a-79f6-ec11-b314812e454b-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/09209b6d-af2a-79f6-ec11-b314812e454b-C/",
+      "supportingPassage": "HII MISSION TECHNOLOGIES CORP | UEI GS7HBMNZEMK3 | WILLOWBROOK, IL, USA | Latest award CONT_AWD_FA807521F0070_9700_FA807518D0002_9700 (2026-07-23) parent: HUNTINGTON INGALLS INDUSTRIES, INC (UEI F9SDJAZFTLG6)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-31",
+      "reviewFile": "reviews/recipients/hii-mission-technologies-corp.json"
+    },
+    {
+      "id": "binding:uei:HHT6NC9UT8Z5",
+      "kind": "uei",
+      "value": "HHT6NC9UT8Z5",
+      "entityId": "legal:hii-mission-technologies-corp",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2022-12-31",
+      "evidenceAsOf": "2026-10-31",
+      "sourceUrl": "https://www.usaspending.gov/recipient/c542e79f-6952-bb17-1b88-4c553f80c95b-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/c542e79f-6952-bb17-1b88-4c553f80c95b-C/",
+      "supportingPassage": "HII MISSION TECHNOLOGIES CORP | UEI HHT6NC9UT8Z5 | HUNTSVILLE, AL, USA | Latest award CONT_AWD_GSQ0017AJ0008_4732_GS00Q14OADS412_4732 (2026-10-02) parent: HUNTINGTON INGALLS INDUSTRIES, INC (UEI F9SDJAZFTLG6)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-31",
+      "reviewFile": "reviews/recipients/hii-mission-technologies-corp.json"
+    },
+    {
+      "id": "binding:uei:Z6USGD96KM25",
+      "kind": "uei",
+      "value": "Z6USGD96KM25",
+      "entityId": "legal:hii-mission-technologies-corp",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2022-12-31",
+      "evidenceAsOf": "2026-10-31",
+      "sourceUrl": "https://www.usaspending.gov/recipient/65220fc0-6990-b7ff-58bf-bff60ddc79ec-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/65220fc0-6990-b7ff-58bf-bff60ddc79ec-C/",
+      "supportingPassage": "HII MISSION TECHNOLOGIES CORP | UEI Z6USGD96KM25 | FAIRBORN, OH, USA | Latest award CONT_AWD_80MSFC19F0118_8000_GS00F063CA_4732 (2026-09-29) parent: HUNTINGTON INGALLS INDUSTRIES, INC (UEI F9SDJAZFTLG6)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-31",
+      "reviewFile": "reviews/recipients/hii-mission-technologies-corp.json"
+    },
+    {
+      "id": "binding:uei:C17YSNK69P77",
+      "kind": "uei",
+      "value": "C17YSNK69P77",
+      "entityId": "legal:hii-technical-solutions-corporation",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2019-01-02",
+      "evidenceAsOf": "2026-10-31",
+      "sourceUrl": "https://www.usaspending.gov/recipient/7d9818b9-6f95-8eee-9012-1a661c16d516-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/7d9818b9-6f95-8eee-9012-1a661c16d516-C/",
+      "supportingPassage": "HII TECHNICAL SOLUTIONS CORPORATION | UEI C17YSNK69P77 | VIRGINIA BEACH, VA, USA | Latest award CONT_AWD_N0017825F3002_9700_N0017819D7772_9700 (2026-07-12) parent: HUNTINGTON INGALLS INDUSTRIES, INC (UEI F9SDJAZFTLG6)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-31",
+      "reviewFile": "reviews/recipients/hii-technical-solutions-corporation.json"
+    },
+    {
+      "id": "binding:uei:VGCPT3NSM831",
+      "kind": "uei",
+      "value": "VGCPT3NSM831",
+      "entityId": "legal:hii-fleet-support-group-llc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2007-10-01",
+      "evidenceAsOf": "2026-10-31",
+      "sourceUrl": "https://www.usaspending.gov/recipient/670bf984-b000-9ce3-4c3a-032ca41b44b9-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/670bf984-b000-9ce3-4c3a-032ca41b44b9-C/",
+      "supportingPassage": "HII FLEET SUPPORT GROUP LLC | UEI VGCPT3NSM831 | VIRGINIA BEACH, VA, USA | Latest award CONT_AWD_N5523625F9982_9700_N0002421D4114_9700 (2026-07-23) parent: HUNTINGTON INGALLS INDUSTRIES, INC (UEI F9SDJAZFTLG6)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-31",
+      "reviewFile": "reviews/recipients/hii-fleet-support-group-llc.json"
+    },
+    {
+      "id": "binding:uei:R1V7DQ3VKQP5",
+      "kind": "uei",
+      "value": "R1V7DQ3VKQP5",
+      "entityId": "legal:enlighten-llc",
+      "reviewStatus": "reviewed_official_record",
+      "effectiveFrom": "2025-12-31",
+      "evidenceAsOf": "2026-10-31",
+      "sourceUrl": "https://www.usaspending.gov/recipient/ef60f1f1-d857-05bd-637d-aee1f1197946-C/latest",
+      "apiUrl": "https://api.usaspending.gov/api/v2/recipient/ef60f1f1-d857-05bd-637d-aee1f1197946-C/",
+      "supportingPassage": "ENLIGHTEN, LLC | UEI R1V7DQ3VKQP5 | COLUMBIA, MD, USA | Latest award CONT_AWD_FA830725CB009_9700_-NONE-_-NONE- (2026-07-22) parent: HUNTINGTON INGALLS INDUSTRIES, INC (UEI F9SDJAZFTLG6)",
+      "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date.",
+      "reviewedBy": "Claude (automated-assisted review, 2026-10-30)",
+      "reviewedAt": "2026-10-31",
+      "reviewFile": "reviews/recipients/enlighten-llc.json"
     }
   ],
   "retiredBindings": [

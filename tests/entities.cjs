@@ -37,7 +37,7 @@ console.log('PASS Leidos 100%-owned operating company window; SAIC registrant fl
 // Booz Allen, Huntington Ingalls and Aerojet Rocketdyne (indirect L3Harris subsidiary from 2023-07-28).
 {const r=(uei,date)=>resolveRecipient({uei},date);
 assert.equal(r('JCBMLGPE6Z71','2024-06-01').publicParent,'Booz Allen Hamilton Holding Corporation');assert.equal(r('JCBMLGPE6Z71','2020-03-30').status,'unresolved');
-assert.equal(r('WMXDDH6HJNA5','2023-06-01').publicParent,'Huntington Ingalls Industries, Inc.');assert.equal(r('C3NLZNSMU254','2021-12-30').status,'unresolved');
+assert.equal(r('WMXDDH6HJNA5','2023-06-01').publicParent,'Huntington Ingalls Industries, Inc.');assert.equal(r('C3NLZNSMU254','2018-12-30').status,'unresolved');assert.equal(r('C3NLZNSMU254','2019-06-01').status,'identifier_and_relationship_verified');
 assert.equal(r('JCZYYYQ7JGF5','2023-07-27').status,'unresolved');assert.equal(r('JCZYYYQ7JGF5','2024-06-01').publicParent,'L3Harris Technologies, Inc.');
 console.log('PASS Booz Allen, HII and indirect Aerojet Rocketdyne bindings respect reviewed relationship windows');}
 // Textron: Bell and Textron Aviation from the fiscal 2019 listing; Maryland Textron Systems only from fiscal 2020; self-parented records excluded.
@@ -92,3 +92,8 @@ console.log('PASS Mercury registrant and Mercury Mission Systems bindings; self-
 {const r=(uei,date)=>resolveRecipient({uei},date);
 assert.equal(r('SNJ8YY61GB95','2020-06-01').status,'unresolved');assert.equal(r('JKZNKGGWYZ87','2019-12-30').status,'unresolved');assert.equal(r('NVC1EFKKYB93','2024-06-01').status,'unresolved');
 console.log('PASS intermediate-parent bindings keep the child relationship window; non-brand renames and self-parented records still abstain');}
+// Huntington Ingalls subsidiaries (Exhibit 21.1 fiscal 2018–2025); Fleet Support Group coverage ends at its last listing; Enlighten starts at its new-name listing.
+{const r=(uei,date)=>resolveRecipient({uei},date);
+for(const [uei,before,inside] of [['G5H7HWC4L2R5','2022-12-30','2024-06-01'],['GS7HBMNZEMK3','2022-12-30','2025-06-01'],['C17YSNK69P77','2018-12-30','2020-06-01'],['VGCPT3NSM831','2018-12-30','2023-06-01'],['R1V7DQ3VKQP5','2025-12-30','2025-12-31']]){assert.equal(r(uei,before).status,'unresolved');assert.equal(r(uei,inside).status,'identifier_and_relationship_verified');assert.equal(r(uei,inside).publicParent,'Huntington Ingalls Industries, Inc.');}
+assert.equal(r('VGCPT3NSM831','2024-06-01').status,'unresolved');assert.equal(r('G6XGNM6YH9D4','2024-06-01').status,'unresolved');assert.equal(r('EG1ZHLSHZW14','2024-06-01').status,'unresolved');
+console.log('PASS Huntington Ingalls subsidiary bindings respect Exhibit 21.1 windows; delisted Fleet Support Group stops at its last listing; joint ventures and unlisted entities abstain');}

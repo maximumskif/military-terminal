@@ -1,0 +1,73 @@
+{
+  "generatedAt": "2026-10-31T01:50:50.088Z",
+  "query": {
+    "name": "Enlighten, LLC",
+    "parentUei": "F9SDJAZFTLG6",
+    "entityId": "legal:enlighten-llc",
+    "formerNames": [
+      "Enlighten IT Consulting LLC"
+    ],
+    "notBefore": "2025-12-31"
+  },
+  "searched": 7,
+  "candidates": [
+    {
+      "evidence": {
+        "uei": "R1V7DQ3VKQP5",
+        "cage": null,
+        "recipientId": "ef60f1f1-d857-05bd-637d-aee1f1197946-C",
+        "profileUrl": "https://www.usaspending.gov/recipient/ef60f1f1-d857-05bd-637d-aee1f1197946-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/ef60f1f1-d857-05bd-637d-aee1f1197946-C/",
+        "responseSha256": "4186401205698b627729c5393e84505b97f9dc931c7a31105406fe891ae50117",
+        "name": "ENLIGHTEN, LLC",
+        "parentName": "CONTINENTAL MARITIME OF SAN DIEGO  LLC",
+        "parentUei": "MV7LRD46KGF7",
+        "otherReportedParents": [
+          "HII MISSION TECHNOLOGIES CORP / Z6USGD96KM25",
+          "HUNTINGTON INGALLS INDUSTRIES, INC / F9SDJAZFTLG6",
+          "ENLIGHTEN, LLC / R1V7DQ3VKQP5"
+        ],
+        "location": "COLUMBIA, MD, USA",
+        "contractAmount": 123875135.83,
+        "earliestTransaction": {
+          "date": "2016-05-27",
+          "award": "CONT_AWD_HC102816F0279_9700_GS35F425BA_4732"
+        },
+        "latestTransaction": {
+          "date": "2026-07-22",
+          "award": "CONT_AWD_FA830725CB009_9700_-NONE-_-NONE-"
+        },
+        "latestAwardParent": {
+          "id": "CONT_AWD_FA830725CB009_9700_-NONE-_-NONE-",
+          "parentName": "HUNTINGTON INGALLS INDUSTRIES, INC",
+          "parentUei": "F9SDJAZFTLG6",
+          "recipientUei": "R1V7DQ3VKQP5",
+          "responseSha256": "d7773c4880748486ac2fd41a99c104dcaabf2bb5f7df12927ab98eba85d646ae"
+        },
+        "warnings": [
+          "profile parent UEI MV7LRD46KGF7 (CONTINENTAL MARITIME OF SAN DIEGO  LLC) differs from expected; not relied on"
+        ]
+      },
+      "binding": {
+        "id": "binding:uei:R1V7DQ3VKQP5",
+        "kind": "uei",
+        "value": "R1V7DQ3VKQP5",
+        "entityId": "legal:enlighten-llc",
+        "reviewStatus": "candidate_requires_review",
+        "effectiveFrom": "2025-12-31",
+        "evidenceAsOf": "2026-10-31",
+        "sourceUrl": "https://www.usaspending.gov/recipient/ef60f1f1-d857-05bd-637d-aee1f1197946-C/latest",
+        "apiUrl": "https://api.usaspending.gov/api/v2/recipient/ef60f1f1-d857-05bd-637d-aee1f1197946-C/",
+        "supportingPassage": "ENLIGHTEN, LLC | UEI R1V7DQ3VKQP5 | COLUMBIA, MD, USA | Latest award CONT_AWD_FA830725CB009_9700_-NONE-_-NONE- (2026-07-22) parent: HUNTINGTON INGALLS INDUSTRIES, INC (UEI F9SDJAZFTLG6)",
+        "scope": "USAspending recipient profile (derived from SAM.gov registrations). Effective-from is the earliest contract transaction under this UEI with this legal name or an accepted former name (search floor 2007-10-01), not a registration date."
+      }
+    }
+  ],
+  "excluded": [],
+  "limitations": [
+    "USAspending reflects SAM data as reported; it is not SAM.gov itself",
+    "Recipient search is keyword-based and capped at 500 records",
+    "Profile parent fields can be stale; corroboration uses the parent on the latest award record",
+    "Name and parent agreement do not prove the SEC-listed legal entity; review state of incorporation separately where available"
+  ]
+}
