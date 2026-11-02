@@ -15,5 +15,18 @@ function assessFinancialMateriality(event,ledger){
  const ratio=amount.value/annual.value,band=ratio>=0.05?'large':ratio>=0.01?'notable':'small';
  return {version:VERSION,status:'upper_bound_estimate',band,ratio:Math.round(ratio*1e6)/1e6,amount:{value:amount.value,currency:'USD'},revenue:{value:annual.value,fiscalYearEnd:annual.fiscalYearEnd,sourceUrl:annual.sourceUrl,sourceSection:annual.sourceSection||null,supportingPassage:annual.supportingPassage},parent:resolution.publicParent,relationshipId:resolution.relationshipId,asOf,missing:[],caveats,explanation:`Stated amount equals ${(ratio*100).toFixed(2)}% of ${resolution.publicParent} annual revenue for fiscal year ended ${annual.fiscalYearEnd} (bands: <1% small, 1–5% notable, ≥5% large). Upper bound only; not a revenue forecast.`};
 }
-const materialityLabel=a=>a.status==='upper_bound_estimate'?'upper_bound_'+a.band:'not_assessable';
-module.exports={VERSION,assessFinancialMateriality,materialityLabel};
+// Net obligation change on a followed prime award, measured against the recipient's reviewed public parent.
+// Unlike headline amounts these are recorded obligations, but one award's obligations are not recognized revenue.
+function assessObligationMateriality({netObligationDelta,recipientUei,asOf},ledger){
+ const missing=[];let resolution=null,annual=null;
+ if(typeof netObligationDelta!=='number'||!Number.isFinite(netObligationDelta))missing.push('Net obligation change is not numeric (missing or non-numeric transaction obligations)');else if(netObligationDelta===0)missing.push('Net obligation change is zero');
+ if(day(asOf)===null)missing.push('No valid transaction date for point-in-time resolution');
+ if(typeof recipientUei!=='string'||!recipientUei.trim())missing.push('No recipient UEI recorded for this award; refresh the saved funding record');
+ else if(day(asOf)!==null){resolution=resolveWithLedger({uei:recipientUei},asOf,ledger);if(!['identifier_and_relationship_verified','identifier_verified_public_registrant'].includes(resolution.status))missing.push('Recipient not resolved to a reviewed public parent: '+resolution.reason);else{annual=revenue(ledger.entities.find(e=>e.id===resolution.parentEntityId),asOf);if(!annual)missing.push('No reviewed parent annual revenue within 18 months before the transaction date');else if(annual.currency!=='USD')missing.push('Parent revenue evidence is not in USD');}}
+ const caveats=['Obligations fund work over time; they are not revenue recognized in one period','Recipient UEI is the award-level recipient reported by USAspending; novations are not reviewed','Only transactions changed since the previous saved observation are counted'];
+ if(missing.length)return {version:VERSION,status:'not_assessable',band:null,ratio:null,missing,caveats,parent:resolution?.publicParent||null};
+ const ratio=Math.abs(netObligationDelta)/annual.value,band=ratio>=0.05?'large':ratio>=0.01?'notable':'small',direction=netObligationDelta<0?'deobligation':'obligation';
+ return {version:VERSION,status:'obligation_share',band,ratio:Math.round(ratio*1e6)/1e6,direction,amount:{value:netObligationDelta,currency:'USD'},revenue:{value:annual.value,fiscalYearEnd:annual.fiscalYearEnd,sourceUrl:annual.sourceUrl,sourceSection:annual.sourceSection||null,supportingPassage:annual.supportingPassage},parent:resolution.publicParent,legalRecipient:resolution.legalRecipient,relationshipId:resolution.relationshipId,asOf,missing:[],caveats,explanation:`Net ${direction} of ${Math.abs(netObligationDelta).toLocaleString('en-US')} USD equals ${(ratio*100).toFixed(2)}% of ${resolution.publicParent} annual revenue for fiscal year ended ${annual.fiscalYearEnd} (bands: <1% small, 1–5% notable, ≥5% large).`};
+}
+const materialityLabel=a=>a.status==='upper_bound_estimate'?'upper_bound_'+a.band:a.status==='obligation_share'?(a.direction==='deobligation'?'deobligation_':'obligation_')+a.band:'not_assessable';
+module.exports={VERSION,assessFinancialMateriality,assessObligationMateriality,materialityLabel};
