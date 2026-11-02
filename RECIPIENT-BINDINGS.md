@@ -8,62 +8,62 @@ Each binding records `id`, `kind` (`uei` or `cage`), `value`, `entityId`, `revie
 
 | Legal entity | Public parent | UEIs | Resolves for |
 |---|---|---:|---|
-| Aerojet Rocketdyne of DE, Inc. | L3Harris Technologies, Inc. | 1 | 2023-07-28 – 2026-01-02 (award records → 2026-09-25) |
-| Aerojet Rocketdyne, Inc. | L3Harris Technologies, Inc. | 4 | 2023-07-28 – 2026-01-02 (award records → 2026-09-15) |
+| Aerojet Rocketdyne of DE, Inc. | L3Harris Technologies, Inc. | 1 | 2023-07-28 – 2026-01-02 (award records → 2026-10-29) |
+| Aerojet Rocketdyne, Inc. | L3Harris Technologies, Inc. | 4 | 2023-07-28 – 2026-01-02 (award records → 2026-10-27) |
 | Amentum Environment & Energy, Inc. | Amentum Holdings, Inc. | 1 | 2025-10-03 – 2025-10-03 (award records → 2026-10-19) |
-| Amentum Services, Inc. | Amentum Holdings, Inc. | 3 | 2025-10-03 – 2025-10-03 (award records → 2026-10-28) |
+| Amentum Services, Inc. | Amentum Holdings, Inc. | 3 | 2025-10-03 – 2025-10-03 (award records → 2026-10-29) |
 | Amentum Technology, Inc. | Amentum Holdings, Inc. | 8 | 2025-10-03 – 2025-10-03 (award records → 2026-10-23) |
-| Bath Iron Works Corporation | General Dynamics Corporation | 1 | 2019-12-31 – 2025-12-31 (award records → 2026-07-15) |
+| Bath Iron Works Corporation | General Dynamics Corporation | 1 | 2019-12-31 – 2025-12-31 (award records → 2026-07-23) |
 | Bell Textron Inc. | Textron Inc. | 1 | 2020-01-04 – 2026-01-03 (award records → 2026-10-23) |
-| Booz Allen Hamilton Inc. | Booz Allen Hamilton Holding Corporation | 4 | 2020-03-31 – 2026-03-31 (award records → 2026-10-13) |
+| Booz Allen Hamilton Inc. | Booz Allen Hamilton Holding Corporation | 4 | 2020-03-31 – 2026-03-31 (award records → 2026-10-30) |
 | BWXT Nuclear Operations Group, Inc. | BWX Technologies, Inc. | 1 | 2019-12-31 – 2025-12-31 (award records → 2026-09-16) |
 | BWXT Technical Services Group, Inc. | BWX Technologies, Inc. | 1 | 2022-12-31 – 2025-12-31 (award records → 2026-07-15) |
 | CACI Azure Summit Technology, LLC | CACI International Inc | 1 | 2026-06-30 – 2026-06-30 (award records → 2026-07-16) |
 | CACI Enterprise Solutions, LLC | CACI International Inc | 2 | 2019-06-30 – 2026-06-30 (award records → 2026-07-10) |
 | CACI LGS Innovations LLC | CACI International Inc | 2 | 2020-06-30 – 2026-06-30 (award records → 2026-07-07) |
-| CACI NSS, LLC | CACI International Inc | 2 | 2019-06-30 – 2026-06-30 (award records → 2026-10-27) |
+| CACI NSS, LLC | CACI International Inc | 2 | 2019-06-30 – 2026-06-30 (award records → 2026-10-30) |
 | CACI Technologies, LLC | CACI International Inc | 1 | 2019-06-30 – 2026-06-30 (award records → 2026-07-21) |
-| CACI, INC. – FEDERAL | CACI International Inc | 1 | 2019-06-30 – 2026-06-30 (award records → 2026-10-28) |
+| CACI, INC. – FEDERAL | CACI International Inc | 1 | 2019-06-30 – 2026-06-30 (award records → 2026-10-29) |
 | Curtiss Wright Controls Inc. | Curtiss-Wright Corporation | 1 | 2019-12-31 – 2025-12-31 (award records → 2026-02-02) |
 | Curtiss-Wright Electro-Mechanical Corporation | Curtiss-Wright Corporation | 2 | 2019-12-31 – 2025-12-31 (award records → 2026-07-02) |
 | Curtiss-Wright Flow Control Corporation | Curtiss-Wright Corporation | 1 | 2019-12-31 – 2025-12-31 (award records → 2026-07-09) |
 | DynCorp International LLC | Amentum Holdings, Inc. | 2 | 2025-10-03 – 2025-10-03 (award records → 2026-07-16) |
-| Electric Boat Corporation | General Dynamics Corporation | 1 | 2019-12-31 – 2025-12-31 (award records → 2026-07-15) |
+| Electric Boat Corporation | General Dynamics Corporation | 1 | 2019-12-31 – 2025-12-31 (award records → 2026-07-23) |
 | Enlighten, LLC | Huntington Ingalls Industries, Inc. | 1 | 2025-12-31 – 2025-12-31 (award records → 2026-07-22) |
 | Florida Turbine Technologies, Inc. | Kratos Defense & Security Solutions, Inc. | 1 | 2022-12-25 – 2025-12-28 (award records → 2026-07-15) |
-| General Dynamics Information Technology, Inc. | General Dynamics Corporation | 6 | 2019-12-31 – 2025-12-31 (award records → 2026-10-13) |
+| General Dynamics Information Technology, Inc. | General Dynamics Corporation | 6 | 2019-12-31 – 2025-12-31 (award records → 2026-10-30) |
 | General Dynamics Land Systems Inc. | General Dynamics Corporation | 1 | 2019-12-31 – 2025-12-31 (award records → 2026-04-10) |
-| General Dynamics Mission Systems, Inc. | General Dynamics Corporation | 14 | 2019-12-31 – 2025-12-31 (award records → 2026-10-13) |
-| General Dynamics Ordnance and Tactical Systems, Inc. | General Dynamics Corporation | 2 | 2019-12-31 – 2025-12-31 (award records → 2026-06-30) |
-| Goodrich Corporation | RTX Corporation | 7 | 2012-07-26 – 2025-12-31 (award records → 2026-07-15) |
-| Hamilton Sundstrand Corporation | RTX Corporation | 4 | 1999-06-10 – 2025-12-31 (award records → 2026-09-25) |
+| General Dynamics Mission Systems, Inc. | General Dynamics Corporation | 14 | 2019-12-31 – 2025-12-31 (award records → 2026-10-28) |
+| General Dynamics Ordnance and Tactical Systems, Inc. | General Dynamics Corporation | 2 | 2019-12-31 – 2025-12-31 (award records → 2026-07-22) |
+| Goodrich Corporation | RTX Corporation | 7 | 2012-07-26 – 2025-12-31 (award records → 2026-07-23) |
+| Hamilton Sundstrand Corporation | RTX Corporation | 4 | 1999-06-10 – 2025-12-31 (award records → 2026-10-22) |
 | HII Fleet Support Group LLC | Huntington Ingalls Industries, Inc. | 1 | 2018-12-31 – 2023-12-31 |
-| HII Mission Technologies Corp. | Huntington Ingalls Industries, Inc. | 4 | 2022-12-31 – 2025-12-31 (award records → 2026-10-28) |
+| HII Mission Technologies Corp. | Huntington Ingalls Industries, Inc. | 4 | 2022-12-31 – 2025-12-31 (award records → 2026-10-30) |
 | HII Technical Solutions Corporation | Huntington Ingalls Industries, Inc. | 1 | 2018-12-31 – 2025-12-31 (award records → 2026-07-12) |
-| Huntington Ingalls Incorporated | Huntington Ingalls Industries, Inc. | 2 | 2018-12-31 – 2025-12-31 (award records → 2026-07-15) |
-| KBR Services, LLC | KBR, Inc. | 2 | 2023-12-29 – 2026-01-02 (award records → 2026-10-05) |
-| KBR Wyle Services, LLC | KBR, Inc. | 9 | 2023-12-29 – 2026-01-02 (award records → 2026-10-27) |
+| Huntington Ingalls Incorporated | Huntington Ingalls Industries, Inc. | 2 | 2018-12-31 – 2025-12-31 (award records → 2026-07-23) |
+| KBR Services, LLC | KBR, Inc. | 2 | 2023-12-29 – 2026-01-02 (award records → 2026-10-14) |
+| KBR Wyle Services, LLC | KBR, Inc. | 9 | 2023-12-29 – 2026-01-02 (award records → 2026-10-29) |
 | Kratos Defense & Rocket Support Services, Inc. | Kratos Defense & Security Solutions, Inc. | 1 | 2020-12-27 – 2025-12-28 (award records → 2026-07-20) |
 | Kratos Microwave, Inc. | Kratos Defense & Security Solutions, Inc. | 1 | 2024-12-29 – 2025-12-28 (award records → 2026-06-10) |
-| L3 Technologies, Inc. | L3Harris Technologies, Inc. | 17 | 2019-06-29 – 2026-01-02 (award records → 2026-10-13) |
+| L3 Technologies, Inc. | L3Harris Technologies, Inc. | 17 | 2019-06-29 – 2026-01-02 (award records → 2026-10-27) |
 | L3Harris Technologies, Inc. | — (registrant) | 14 | binding dates through 2026-10-15 |
-| Leidos, Inc. | Leidos Holdings, Inc. | 13 | 2021-01-01 – 2026-01-02 (award records → 2026-10-13) |
+| Leidos, Inc. | Leidos Holdings, Inc. | 13 | 2021-01-01 – 2026-01-02 (award records → 2026-10-27) |
 | Lockheed Martin Corporation | — (registrant) | 41 | binding dates through 2026-10-15 |
 | Mercury Mission Systems, LLC | Mercury Systems, Inc. | 1 | 2020-07-03 – 2026-07-03 (award records → 2026-07-23) |
 | Mercury Systems, Inc. | — (registrant) | 4 | binding dates through 2026-10-30 |
-| National Steel and Shipbuilding Company | General Dynamics Corporation | 1 | 2019-12-31 – 2025-12-31 (award records → 2026-07-15) |
-| Northrop Grumman Systems Corporation | Northrop Grumman Corporation | 53 | 2019-12-31 – 2025-12-31 (award records → 2026-10-13) |
+| National Steel and Shipbuilding Company | General Dynamics Corporation | 1 | 2019-12-31 – 2025-12-31 (award records → 2026-07-23) |
+| Northrop Grumman Systems Corporation | Northrop Grumman Corporation | 53 | 2019-12-31 – 2025-12-31 (award records → 2026-10-28) |
 | Nuclear Fuel Services, Inc. | BWX Technologies, Inc. | 1 | 2019-12-31 – 2025-12-31 (award records → 2026-08-11) |
 | PAE Applied Technologies LLC | Amentum Holdings, Inc. | 1 | 2025-10-03 – 2025-10-03 (award records → 2026-06-29) |
 | PAE Government Services, Inc. | Amentum Holdings, Inc. | 1 | 2025-10-03 – 2025-10-03 (award records → 2026-10-28) |
-| Parsons Government Services Inc. | Parsons Corporation | 4 | 2019-12-31 – 2025-12-31 (award records → 2026-10-22) |
+| Parsons Government Services Inc. | Parsons Corporation | 4 | 2019-12-31 – 2025-12-31 (award records → 2026-10-30) |
 | Parsons Government Services International Inc. | Parsons Corporation | 1 | 2019-12-31 – 2025-12-31 (award records → 2026-09-29) |
 | Parsons Technical Services Inc. | Parsons Corporation | 1 | 2019-12-31 – 2025-12-31 (award records → 2026-04-18) |
-| Raytheon Company | RTX Corporation | 42 | 2020-04-03 – 2025-12-31 (award records → 2026-09-30) |
-| Rockwell Collins, Inc. | RTX Corporation | 5 | 2018-11-26 – 2025-12-31 (award records → 2026-09-30) |
+| Raytheon Company | RTX Corporation | 42 | 2020-04-03 – 2025-12-31 (award records → 2026-10-29) |
+| Rockwell Collins, Inc. | RTX Corporation | 5 | 2018-11-26 – 2025-12-31 (award records → 2026-10-15) |
 | RTX Corporation | — (registrant) | 3 | binding dates through 2026-10-15 |
 | Science Applications International Corporation | — (registrant) | 2 | binding dates through 2026-10-15 |
-| Sikorsky Aircraft Corporation | Lockheed Martin Corporation | 1 | 2015-11-06 – 2025-12-31 (award records → 2026-09-25) |
+| Sikorsky Aircraft Corporation | Lockheed Martin Corporation | 1 | 2015-11-06 – 2025-12-31 (award records → 2026-10-29) |
 | Space Ground System Solutions, Inc. | Parsons Corporation | 1 | 2020-12-31 – 2025-12-31 (award records → 2026-07-09) |
 | Textron Aviation Defense LLC | Textron Inc. | 1 | 2020-01-04 – 2026-01-03 (award records → 2026-07-21) |
 | Textron Aviation Inc. | Textron Inc. | 1 | 2020-01-04 – 2026-01-03 (award records → 2026-09-22) |
@@ -71,7 +71,7 @@ Each binding records `id`, `kind` (`uei` or `cage`), `value`, `entityId`, `revie
 | The Boeing Company | — (registrant) | 30 | binding dates through 2026-10-15 |
 | URS Federal Services International, Inc. | Amentum Holdings, Inc. | 1 | 2025-10-03 – 2025-10-03 (award records → 2026-06-09) |
 | V2X Systems LLC | V2X, Inc. | 2 | 2020-12-31 – 2025-12-31 (award records → 2026-10-26) |
-| Williams Electric Co., Inc. | Parsons Corporation | 1 | 2019-12-31 – 2025-12-31 (award records → 2026-09-29) |
+| Williams Electric Co., Inc. | Parsons Corporation | 1 | 2019-12-31 – 2025-12-31 (award records → 2026-10-29) |
 | Xator LLC | Parsons Corporation | 1 | 2022-12-31 – 2025-12-31 (award records → 2026-09-29) |
 
 Active bindings: 344; retired: 2. Generated by tools/binding-summary.cjs.
@@ -195,6 +195,8 @@ Not bound: Newport News Nuclear BWXT-Los Alamos (51% joint venture), Continental
 **Brand renames.** A relationship continues across a subsidiary rename not stated in a filing when consecutive annual Exhibit 21 lists show the old name last and the new name first, in the same jurisdiction, the old name is absent from the later list, and the new name equals the old one with the parent's own brand added or substituted. The relationship records `renamedFrom` and cites the old-name listings. Applied: CACI LGS Innovations LLC (LGS Innovations LLC, from fiscal 2020) and V2X Systems LLC (Vectrus Systems Corporation, from fiscal 2020; the registrant itself was renamed Vectrus, Inc. → V2X, Inc.). Not applied: Textron Systems Corporation (fiscal 2019 lists both a Delaware Textron Systems Corporation and a Maryland AAI Corporation, so the predecessor is ambiguous and the names differ) and CACI Azure Summit (a truncated entry, not a rename).
 
 **Government-record continuation (approved 2026-11-02).** Annual Exhibit 21 lists are the only SEC evidence of subsidiary status, so relationships otherwise stop at the last 10-K date and nearly all 2026 events abstained. `tools/continue-relationships.cjs "<reviewer>" [--dry-run]` extends a reviewed relationship to the latest contract action on which one of the child's own bound UEIs has an award record naming the public parent's UEI (or a reviewed intermediate subsidiary of the same parent whose own relationship rests on the same filing), using the recorded recipient reviews in `reviews/recipients/`. Guards: the relationship's SEC evidence must be the parent's latest reviewed annual filing (equal to its latest reviewed revenue fiscal year end), so a subsidiary missing from newer lists is never carried forward; the award date must follow that evidence; ownership end dates still apply; and the extension is capped at 456 days (15 months) after the Exhibit 21, after which a new annual filing is required. The SEC `evidenceAsOf` is unchanged; the extension is stored in `relationship.continuation` with the award URL, review-file response hash and passage, and resolutions report `relationshipBasis: government_record_continuation`, which materiality assessments add as a caveat. Award records report the SAM registration parent at the time of the action, not an SEC ownership disclosure, and a divestiture not yet reflected in award data would not be detected. Applied 2026-11-02: 58 of 60 relationships continued (through 2026-02-02 to 2026-10-28). Not continued: HII Fleet Support Group (last listed fiscal 2023) and Curtiss-Wright Flow Control Service (no bound UEI; it remains usable as an intermediate). Re-run the tool after new recipient reviews or new annual filings.
+
+**Monthly refresh.** `npm run refresh:continuation [-- "<reviewer>"]` re-reads the latest contract transaction and award-record parent for every bound subsidiary UEI (`tools/refresh-continuation-evidence.cjs`, written to `reviews/continuation/<UTC timestamp>.json` with response hashes), re-applies continuation and regenerates the table above. A refreshed record naming a parent outside the ledger group is printed as `CONFLICT` and stops continuation before its date until reviewed (possible divestiture or reorganization); a self-parented record neither supports nor contradicts. Failed lookups get a sequential second pass; if more than 10% still fail, nothing is written and the ledger is untouched. Review the CONFLICT lines and the ledger diff before committing. First run 2026-11-02: 250 UEIs, 240 naming the parent, 9 a reviewed intermediate, 1 self-parented (Leidos, Inc. QLNMVC12KWY3), no conflicts; 26 relationships moved forward (latest 2026-10-30).
 
 ## Adding bindings
 

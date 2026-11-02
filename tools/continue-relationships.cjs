@@ -1,7 +1,9 @@
 // Usage: node tools/continue-relationships.cjs "<reviewer>" [--dry-run]
 // Government-record continuation (approved 2026-11-02): extends a reviewed subsidiary relationship past its last
 // Exhibit 21 date to the latest contract action on which the child's own bound UEI award record still names the public
-// parent (or a reviewed intermediate subsidiary of it), from the recorded recipient reviews in reviews/recipients/.
+// parent (or a reviewed intermediate subsidiary of it), from the recorded recipient reviews in reviews/recipients/ and the
+// refreshed award records in reviews/continuation/ (tools/refresh-continuation-evidence.cjs). A refreshed record naming a
+// parent outside the group stops continuation before its date.
 // Guards: the SEC evidence must be the parent's latest reviewed annual filing (equal to its latest reviewed revenue
 // fiscal year end), the award date must be after that evidence, and the extension is capped at 456 days (15 months).
 // The SEC evidenceAsOf is never changed; the extension is stored separately in relationship.continuation.
@@ -11,6 +13,9 @@ const [reviewer,flag]=process.argv.slice(2);if(!reviewer||reviewer.startsWith('-
 const dry=flag==='--dry-run',root=path.join(__dirname,'..'),ledgerFile=path.join(root,'entity-ledger.json'),reviewDir=path.join(root,'reviews','recipients');
 const ledger=JSON.parse(fs.readFileSync(ledgerFile)),today=new Date().toISOString().slice(0,10);
 const evidence=[];for(const f of fs.readdirSync(reviewDir).filter(f=>f.endsWith('.json')).sort()){const d=JSON.parse(fs.readFileSync(path.join(reviewDir,f)));const parents=String(d.query?.parentUei||'').split(',').map(s=>s.trim()).filter(Boolean);for(const c of d.candidates||[])evidence.push({file:'reviews/recipients/'+f,entityId:d.query?.entityId,parents,e:c.evidence});}
+// Refreshed award records from tools/refresh-continuation-evidence.cjs. Conflicts name a parent outside the group.
+const refreshDir=path.join(root,'reviews','continuation'),conflicts=[];
+if(fs.existsSync(refreshDir))for(const f of fs.readdirSync(refreshDir).filter(f=>f.endsWith('.json')).sort()){const d=JSON.parse(fs.readFileSync(path.join(refreshDir,f)));for(const x of d.entries||[]){if(!x.evidence)continue;const item={file:'reviews/continuation/'+f,entityId:x.entityId,parents:x.parents||[],e:x.evidence};if(x.status==='conflict')conflicts.push(item);else if(['names_parent','names_intermediate'].includes(x.status))evidence.push(item);}}
 const reviewed=r=>r.reviewStatus==='reviewed_primary_filing'&&['subsidiary','indirect_subsidiary'].includes(r.type);
 const latestRevenue=id=>(ledger.entities.find(e=>e.id===id)?.revenueEvidence||[]).filter(r=>r.reviewStatus==='reviewed_primary_filing').map(r=>r.fiscalYearEnd).sort().at(-1)||null;
 const report=[];
@@ -24,9 +29,13 @@ for(const rel of ledger.relationships){
   let basis=null;if(x.parents.includes(a.parentUei))basis='award record names the public parent';
   else if(a.intermediate?.entityId){const mid=ledger.relationships.find(r=>r.childId===a.intermediate.entityId&&r.parentId===rel.parentId&&reviewed(r)&&!r.effectiveUntil&&r.evidenceAsOf===rel.evidenceAsOf);if(mid)basis=`award record names reviewed intermediate ${a.intermediate.name} (${mid.id})`;}
   return basis&&t.date>rel.evidenceAsOf?{x,a,t,basis}:null;}).filter(Boolean).sort((p,q)=>q.t.date.localeCompare(p.t.date));
- if(!qualifying.length){skip('no bound-UEI award record after the SEC evidence names the parent');continue;}
- const best=qualifying[0],through=best.t.date<cap?best.t.date:cap;
- rel.continuation={basis:CONTINUATION_BASIS,through,secEvidenceAsOf:rel.evidenceAsOf,cappedAt:cap,capped:through!==best.t.date,reviewedAt:today,reviewer,
+ // A later award record naming a parent outside the group may reflect a divestiture: continuation stops before it.
+ const conflict=conflicts.filter(x=>x.entityId===rel.childId&&ueis.has(x.e.uei)&&x.e.latestTransaction?.date>rel.evidenceAsOf).sort((p,q)=>p.e.latestTransaction.date.localeCompare(q.e.latestTransaction.date))[0]||null;
+ const usable=conflict?qualifying.filter(q=>q.t.date<conflict.e.latestTransaction.date):qualifying;
+ if(conflict)console.log(`CONFLICT   ${rel.id}: ${conflict.e.uei} award ${conflict.e.latestAwardParent.id} (${conflict.e.latestTransaction.date}) names ${conflict.e.latestAwardParent.parentName} (UEI ${conflict.e.latestAwardParent.parentUei}); continuation stops before it — review for divestiture`);
+ if(!usable.length){skip(conflict?'only award records after a conflicting parent record name the parent':'no bound-UEI award record after the SEC evidence names the parent');continue;}
+ const best=usable[0],through=best.t.date<cap?best.t.date:cap;
+ rel.continuation={basis:CONTINUATION_BASIS,through,secEvidenceAsOf:rel.evidenceAsOf,cappedAt:cap,capped:through!==best.t.date,reviewedAt:today,reviewer,...(conflict?{conflict:{uei:conflict.e.uei,date:conflict.e.latestTransaction.date,award:conflict.e.latestAwardParent.id,parentName:conflict.e.latestAwardParent.parentName,parentUei:conflict.e.latestAwardParent.parentUei,reviewFile:conflict.file}}:{}),
   sources:[{url:'https://www.usaspending.gov/award/'+encodeURIComponent(best.a.id),apiUrl:'https://api.usaspending.gov/api/v2/awards/'+encodeURIComponent(best.a.id)+'/',reviewFile:best.x.file,responseSha256:best.a.responseSha256||null,section:'USAspending award record, latest contract action',supportingPassage:`${best.x.e.name} | UEI ${best.a.recipientUei} | award ${best.a.id} latest action ${best.t.date} | reported parent ${best.a.parentName} (UEI ${best.a.parentUei}) | ${best.basis}`}],
   limitations:['Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure','A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected',`Extension is capped at ${CONTINUATION_MAX_DAYS} days after the last Exhibit 21; a new annual filing is then required`]};
  report.push({id:rel.id,status:'continued',through,capped:rel.continuation.capped,basis:best.basis});
