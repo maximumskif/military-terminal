@@ -31,7 +31,8 @@ Phase 0 local acceptance: regression suites pass. Production load, network failu
 - [x] Automated material/minor/informational change ratings with direction and action/contract scope on evidence, funding and document alerts; net obligation deltas. See MATERIAL-CHANGE.md.
 - [x] Automatic reversible collapse of exact cross-host headline repeats (same rule, matching frozen snapshots); distinct reviews and keep-visible overrides undo it.
 - [x] Financial-materiality upper bound against reviewed parent revenue, abstaining with listed missing inputs. Operationally inert until reviewed bindings and revenue evidence exist.
-- [x] Saved USAspending funding-change alerts record the award recipient UEI and rate net obligation changes against reviewed parent revenue (obligation share, see MATERIAL-CHANGE.md); company shows the resolved parent. Most subsidiary relationships end at the FY2025 10-K date, so 2026 transactions abstain until 2026 relationship evidence is reviewed.
+- [x] Saved USAspending funding-change alerts record the award recipient UEI and rate net obligation changes against reviewed parent revenue (obligation share, see MATERIAL-CHANGE.md); company shows the resolved parent. 2026 coverage comes from the government-record continuation rule below.
+- [x] Government-record continuation (approved 2026-11-02): 58 of 60 subsidiary relationships extend past their last Exhibit 21 to the latest bound-UEI award record naming the same parent (capped at 15 months; latest-filing guard; flagged as a materiality caveat). See RECIPIENT-BINDINGS.md.
 - [ ] Broad paraphrase/syndication linking beyond exact headlines, measured duplicate accuracy, operational revenue evidence and reviewed scope/options extraction.
 - [ ] Manually reviewed benchmark with measured precision, recall and entity accuracy. 95% confirmed precision is a proposed target, not an achieved result.
 

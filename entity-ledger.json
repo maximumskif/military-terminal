@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "reviewedAt": "2026-10-31",
+  "reviewedAt": "2026-11-02",
   "entities": [
     {
       "id": "sec:0000101829",
@@ -2303,7 +2303,31 @@
         "No recipient UEI/CAGE binding has been verified",
         "Unknown percentage in this relationship snapshot; earlier filing separately states wholly owned",
         "Historical name and listing changes are not fully modeled"
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-09-30",
+        "secEvidenceAsOf": "2025-12-31",
+        "cappedAt": "2027-04-01",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_80GSFC21CA001_8000_-NONE-_-NONE-",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_80GSFC21CA001_8000_-NONE-_-NONE-/",
+            "reviewFile": "reviews/recipients/raytheon-company.json",
+            "responseSha256": "c656de3eb5fd4e0380342f5ddf44694448712b3ba5a4314f89b0de0135b6a054",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "RAYTHEON COMPANY | UEI S7NEKPHEMP26 | award CONT_AWD_80GSFC21CA001_8000_-NONE-_-NONE- latest action 2026-09-30 | reported parent RTX CORP (UEI PPLZG8J3N9D4) | award record names the public parent"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     },
     {
       "id": "relationship:rockwell-collins-rtx",
@@ -2334,7 +2358,31 @@
         "Latest reviewed relationship evidence is dated 2025-12-31",
         "Continuity between the acquisition filing and the 2025 listing is assumed from annual listings, not restated ownership",
         "Collins Aerospace is a segment/brand name, not this legal entity"
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-09-30",
+        "secEvidenceAsOf": "2025-12-31",
+        "cappedAt": "2027-04-01",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_70B04C26P00000509_7014_-NONE-_-NONE-",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_70B04C26P00000509_7014_-NONE-_-NONE-/",
+            "reviewFile": "reviews/recipients/rockwell-collins-inc.json",
+            "responseSha256": "839de467956387edd14c23c001438314bb8cc896afeb31d0be815ac3a9eb527d",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "ROCKWELL COLLINS, INC. | UEI J4Q3HP6NHK47 | award CONT_AWD_70B04C26P00000509_7014_-NONE-_-NONE- latest action 2026-09-30 | reported parent RTX CORP (UEI PPLZG8J3N9D4) | award record names the public parent"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     },
     {
       "id": "relationship:goodrich-rtx",
@@ -2365,7 +2413,31 @@
         "Latest reviewed relationship evidence is dated 2025-12-31",
         "Continuity between the acquisition filing and the 2025 listing is assumed from annual listings, not restated ownership",
         "Goodrich businesses were partly divested (e.g. Hoist & Winch in 2024); divestitures of businesses do not change the legal-entity relationship"
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-07-15",
+        "secEvidenceAsOf": "2025-12-31",
+        "cappedAt": "2027-04-01",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_FA869126CB002_9700_-NONE-_-NONE-",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA869126CB002_9700_-NONE-_-NONE-/",
+            "reviewFile": "reviews/recipients/goodrich-corporation.json",
+            "responseSha256": "93576a0e6f3dfda74de07fdae6a4c32faa4a25c156ed3aefd3e043aedb1e57d5",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "GOODRICH CORPORATION | UEI JZNWHLVKADJ9 | award CONT_AWD_FA869126CB002_9700_-NONE-_-NONE- latest action 2026-07-15 | reported parent RTX CORP (UEI PPLZG8J3N9D4) | award record names the public parent"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     },
     {
       "id": "relationship:hamilton-sundstrand-rtx",
@@ -2395,7 +2467,31 @@
       "limitations": [
         "Latest reviewed relationship evidence is dated 2025-12-31",
         "Continuity between the acquisition filing and the 2025 listing is assumed from annual listings, not restated ownership"
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-09-25",
+        "secEvidenceAsOf": "2025-12-31",
+        "cappedAt": "2027-04-01",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_80JSC021CA005_8000_-NONE-_-NONE-",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_80JSC021CA005_8000_-NONE-_-NONE-/",
+            "reviewFile": "reviews/recipients/hamilton-sundstrand-corporation.json",
+            "responseSha256": "f5b69ab5040d634c5cc1de1b758d74a6bb017798445e8585d5eabc1037c5d06b",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "HAMILTON SUNDSTRAND CORPORATION | UEI JC42EBJ5NFJ1 | award CONT_AWD_80JSC021CA005_8000_-NONE-_-NONE- latest action 2026-09-25 | reported parent RTX CORP (UEI PPLZG8J3N9D4) | award record names the public parent"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     },
     {
       "id": "relationship:sikorsky-lmt",
@@ -2426,7 +2522,31 @@
         "Latest reviewed relationship evidence is dated 2025-12-31",
         "Before 2015-11-06 Sikorsky was a UTC (now RTX) subsidiary; that earlier relationship is not modeled, so earlier dates do not resolve",
         "USAspending recipient-profile parent for Sikorsky still shows RTX CORP (stale); latest award records show Lockheed Martin"
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-09-25",
+        "secEvidenceAsOf": "2025-12-31",
+        "cappedAt": "2027-04-01",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_70Z02321FAMH00100_7008_70Z02321DAMH00400_7008",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_70Z02321FAMH00100_7008_70Z02321DAMH00400_7008/",
+            "reviewFile": "reviews/recipients/sikorsky-aircraft-corporation.json",
+            "responseSha256": "26addd19b1c10a5bf41930c11dd166acabd978ac52a6785b4689866413a11084",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "SIKORSKY AIRCRAFT CORPORATION | UEI UTJWTSLMFNG4 | award CONT_AWD_70Z02321FAMH00100_7008_70Z02321DAMH00400_7008 latest action 2026-09-25 | reported parent LOCKHEED MARTIN CORP (UEI ZFN2JJXBLZT3) | award record names the public parent"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     },
     {
       "id": "relationship:northrop-grumman-systems-corporation-0001133421",
@@ -2457,7 +2577,31 @@
         "Latest reviewed relationship evidence is dated 2025-12-31",
         "Continuity between reviewed annual subsidiary listings is assumed, not restated",
         "Effective-from is the earliest reviewed listing, not the formation date"
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-10-13",
+        "secEvidenceAsOf": "2025-12-31",
+        "cappedAt": "2027-04-01",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_80GSFC24CA045_8000_-NONE-_-NONE-",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_80GSFC24CA045_8000_-NONE-_-NONE-/",
+            "reviewFile": "reviews/recipients/northrop-grumman-systems-corporation.json",
+            "responseSha256": "a26163cfc08b7393c2cdf33346fc4a7d0cfc1b05f6fdc99b2714543f6d57fe69",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "NORTHROP GRUMMAN SYSTEMS CORPORATION | UEI Q11ZHUFBW741 | award CONT_AWD_80GSFC24CA045_8000_-NONE-_-NONE- latest action 2026-10-13 | reported parent NORTHROP GRUMMAN CORPORATION (UEI NKVZLJL93QT6) | award record names the public parent"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     },
     {
       "id": "relationship:electric-boat-corporation-0000040533",
@@ -2488,7 +2632,31 @@
         "Latest reviewed relationship evidence is dated 2025-12-31",
         "Continuity between reviewed annual subsidiary listings is assumed, not restated",
         "Effective-from is the earliest reviewed listing, not the formation or acquisition date"
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-07-15",
+        "secEvidenceAsOf": "2025-12-31",
+        "cappedAt": "2027-04-01",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_SPE7M026P3809_9700_-NONE-_-NONE-",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE7M026P3809_9700_-NONE-_-NONE-/",
+            "reviewFile": "reviews/recipients/electric-boat-corporation.json",
+            "responseSha256": "03670c1bca46e8d17296862afc9926cefb44b81be3ca9938938c38c9424317cb",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "ELECTRIC BOAT CORPORATION | UEI E7BEKJ4V9528 | award CONT_AWD_SPE7M026P3809_9700_-NONE-_-NONE- latest action 2026-07-15 | reported parent GENERAL DYNAMICS CORP (UEI VF58HFRNGEL8) | award record names the public parent"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     },
     {
       "id": "relationship:bath-iron-works-corporation-0000040533",
@@ -2519,7 +2687,31 @@
         "Latest reviewed relationship evidence is dated 2025-12-31",
         "Continuity between reviewed annual subsidiary listings is assumed, not restated",
         "Effective-from is the earliest reviewed listing, not the formation or acquisition date"
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-07-15",
+        "secEvidenceAsOf": "2025-12-31",
+        "cappedAt": "2027-04-01",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_N0002424C2331_9700_-NONE-_-NONE-",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_N0002424C2331_9700_-NONE-_-NONE-/",
+            "reviewFile": "reviews/recipients/bath-iron-works-corporation.json",
+            "responseSha256": "0c08f7aa645e7b02c42b47ab2a0a9908511b4ad7174de87d71def3ddc747bf67",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "BATH IRON WORKS CORPORATION | UEI FREEMCLKFXE3 | award CONT_AWD_N0002424C2331_9700_-NONE-_-NONE- latest action 2026-07-15 | reported parent GENERAL DYNAMICS CORP (UEI FAZSFFE6CST9) | award record names the public parent"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     },
     {
       "id": "relationship:general-dynamics-information-technology-inc-0000040533",
@@ -2550,7 +2742,31 @@
         "Latest reviewed relationship evidence is dated 2025-12-31",
         "Continuity between reviewed annual subsidiary listings is assumed, not restated",
         "Effective-from is the earliest reviewed listing, not the formation or acquisition date"
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-10-13",
+        "secEvidenceAsOf": "2025-12-31",
+        "cappedAt": "2027-04-01",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_693KA726F00021_6920_693KA718D00001_6920",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_693KA726F00021_6920_693KA718D00001_6920/",
+            "reviewFile": "reviews/recipients/general-dynamics-information-technology-inc.json",
+            "responseSha256": "3638bb0f63ae5c2a6ca5c4ff3d48f55ef99518edff7761db9627a90cdf778e29",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC. | UEI SMNWM6HN79X5 | award CONT_AWD_693KA726F00021_6920_693KA718D00001_6920 latest action 2026-10-13 | reported parent GENERAL DYNAMICS CORP (UEI VF58HFRNGEL8) | award record names the public parent"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     },
     {
       "id": "relationship:general-dynamics-land-systems-inc-0000040533",
@@ -2581,7 +2797,31 @@
         "Latest reviewed relationship evidence is dated 2025-12-31",
         "Continuity between reviewed annual subsidiary listings is assumed, not restated",
         "Effective-from is the earliest reviewed listing, not the formation or acquisition date"
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-04-10",
+        "secEvidenceAsOf": "2025-12-31",
+        "cappedAt": "2027-04-01",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_W912CH26C0043_9700_-NONE-_-NONE-",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CH26C0043_9700_-NONE-_-NONE-/",
+            "reviewFile": "reviews/recipients/general-dynamics-land-systems-inc.json",
+            "responseSha256": "a026b77ecd161368d7a49c445c774ee11be6ad28ed3deeb5543675d05bc47b68",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "GENERAL DYNAMICS LAND SYSTEMS INC. | UEI YLSNMADQP715 | award CONT_AWD_W912CH26C0043_9700_-NONE-_-NONE- latest action 2026-04-10 | reported parent GENERAL DYNAMICS CORP (UEI VF58HFRNGEL8) | award record names the public parent"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     },
     {
       "id": "relationship:general-dynamics-mission-systems-inc-0000040533",
@@ -2612,7 +2852,31 @@
         "Latest reviewed relationship evidence is dated 2025-12-31",
         "Continuity between reviewed annual subsidiary listings is assumed, not restated",
         "Effective-from is the earliest reviewed listing, not the formation or acquisition date"
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-10-13",
+        "secEvidenceAsOf": "2025-12-31",
+        "cappedAt": "2027-04-01",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_70Z04426FCMPL0014_7008_70Z04426DCMPL0001_7008",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_70Z04426FCMPL0014_7008_70Z04426DCMPL0001_7008/",
+            "reviewFile": "reviews/recipients/general-dynamics-mission-systems-inc.json",
+            "responseSha256": "0f714ed373bdb4567c3efb05309fa050cea6c76d8dd6866b1fa6ccb7307fe6b1",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "GENERAL DYNAMICS MISSION SYSTEMS, INC. | UEI MWDRZJ2ZVPV7 | award CONT_AWD_70Z04426FCMPL0014_7008_70Z04426DCMPL0001_7008 latest action 2026-10-13 | reported parent GENERAL DYNAMICS CORP (UEI VF58HFRNGEL8) | award record names the public parent"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     },
     {
       "id": "relationship:general-dynamics-ordnance-and-tactical-systems-inc-0000040533",
@@ -2643,7 +2907,31 @@
         "Latest reviewed relationship evidence is dated 2025-12-31",
         "Continuity between reviewed annual subsidiary listings is assumed, not restated",
         "Effective-from is the earliest reviewed listing, not the formation or acquisition date"
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-06-30",
+        "secEvidenceAsOf": "2025-12-31",
+        "cappedAt": "2027-04-01",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_W52P1J22C0023_9700_-NONE-_-NONE-",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W52P1J22C0023_9700_-NONE-_-NONE-/",
+            "reviewFile": "reviews/recipients/general-dynamics-ordnance-and-tactical-systems-inc.json",
+            "responseSha256": "29d9531ff97a43deedc9eb88b8ff3a55f4b0964e2da2afc9cb79d780f689ae5e",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "GENERAL DYNAMICS ORDNANCE AND TACTICAL SYSTEMS, INC. | UEI FNEJKBCACXL1 | award CONT_AWD_W52P1J22C0023_9700_-NONE-_-NONE- latest action 2026-06-30 | reported parent GENERAL DYNAMICS CORP (UEI FAZSFFE6CST9) | award record names the public parent"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     },
     {
       "id": "relationship:national-steel-and-shipbuilding-company-0000040533",
@@ -2674,7 +2962,31 @@
         "Latest reviewed relationship evidence is dated 2025-12-31",
         "Continuity between reviewed annual subsidiary listings is assumed, not restated",
         "Effective-from is the earliest reviewed listing, not the formation or acquisition date"
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-07-15",
+        "secEvidenceAsOf": "2025-12-31",
+        "cappedAt": "2027-04-01",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_N0002425C4422_9700_-NONE-_-NONE-",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_N0002425C4422_9700_-NONE-_-NONE-/",
+            "reviewFile": "reviews/recipients/national-steel-and-shipbuilding-company.json",
+            "responseSha256": "9be0a5c66d4c3b21917f05b6b98b7e2f091aae5b42cb2f051b5e4034e0b3a8af",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "NATIONAL STEEL AND SHIPBUILDING COMPANY | UEI Q85KVUK3JBF5 | award CONT_AWD_N0002425C4422_9700_-NONE-_-NONE- latest action 2026-07-15 | reported parent GENERAL DYNAMICS CORP (UEI VF58HFRNGEL8) | award record names the public parent"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     },
     {
       "id": "relationship:l3-technologies-inc-0000202058",
@@ -2704,7 +3016,31 @@
       "limitations": [
         "Latest reviewed relationship evidence is dated 2026-01-02",
         "Continuity between reviewed annual subsidiary listings is assumed, not restated"
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-10-13",
+        "secEvidenceAsOf": "2026-01-02",
+        "cappedAt": "2027-04-03",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_70Z04426FCMPL0004_7008_70Z04423DCMPL0001_7008",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_70Z04426FCMPL0004_7008_70Z04423DCMPL0001_7008/",
+            "reviewFile": "reviews/recipients/l3-technologies-inc.json",
+            "responseSha256": "229bfd1652ecb455963b0f53a0336296d485e7afd57c1018b548c760ecf7a89c",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "L3 TECHNOLOGIES, INC. | UEI PTMFLMD2CUB4 | award CONT_AWD_70Z04426FCMPL0004_7008_70Z04423DCMPL0001_7008 latest action 2026-10-13 | reported parent L3HARRIS TECHNOLOGIES, INC (UEI SJULQDJ8NZU7) | award record names the public parent"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     },
     {
       "id": "relationship:leidos-inc-0001336920",
@@ -2741,7 +3077,31 @@
         "Latest reviewed relationship evidence is dated 2026-01-02",
         "Effective-from is the earliest reviewed filing, not the formation or acquisition date; continuity between filings is assumed",
         "Leidos, Inc. was formerly named Science Applications International Corporation (pre-2013-09-27); bindings for the current SAIC registrant are capped at that date"
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-10-13",
+        "secEvidenceAsOf": "2026-01-02",
+        "cappedAt": "2027-04-03",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_75N97025F00001_7529_HHSN316201200044W_7529",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_75N97025F00001_7529_HHSN316201200044W_7529/",
+            "reviewFile": "reviews/recipients/leidos-inc.json",
+            "responseSha256": "8b494248ee3661d0e0abf0ef81c73bf3a7a1412182b70643c81490d5ffb6ae36",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "LEIDOS, INC. | UEI UE9QJD4KK1L6 | award CONT_AWD_75N97025F00001_7529_HHSN316201200044W_7529 latest action 2026-10-13 | reported parent LEIDOS, INC. (UEI MDSWM6MB1BH7) | award record names the public parent"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     },
     {
       "id": "relationship:booz-allen-hamilton-inc-0001443646",
@@ -2771,7 +3131,31 @@
       "limitations": [
         "Latest reviewed relationship evidence is dated 2026-03-31",
         "Effective-from is the earliest reviewed filing, not the formation or acquisition date; continuity between filings is assumed"
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-10-13",
+        "secEvidenceAsOf": "2026-03-31",
+        "cappedAt": "2027-06-30",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_75D30121F10510_7523_75D30119A06642_7523",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_75D30121F10510_7523_75D30119A06642_7523/",
+            "reviewFile": "reviews/recipients/booz-allen-hamilton-inc.json",
+            "responseSha256": "0ee3cc15b8b51c39b049552ec3be05e0730363fa2a27b58bc3d01ffd77d872f8",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "BOOZ ALLEN HAMILTON INC | UEI JCBMLGPE6Z71 | award CONT_AWD_75D30121F10510_7523_75D30119A06642_7523 latest action 2026-10-13 | reported parent BOOZ ALLEN HAMILTON HOLDING CORPORATION (UEI MBPHTU7Y9S65) | award record names the public parent"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     },
     {
       "id": "relationship:kbr-wyle-services-llc-0001357615",
@@ -2803,7 +3187,31 @@
         "Effective-from is the earliest reviewed filing, not the formation or acquisition date; continuity between filings is assumed",
         "Exhibit 21.1 lists subsidiaries of the registrant without ownership percentages; no filing passage states wholly owned status",
         "Earlier names (e.g. Wyle Inc., Kellogg Brown & Root Services) are not mapped"
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-10-27",
+        "secEvidenceAsOf": "2026-01-02",
+        "cappedAt": "2027-04-03",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_80GSFC19C0013_8000_-NONE-_-NONE-",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_80GSFC19C0013_8000_-NONE-_-NONE-/",
+            "reviewFile": "reviews/recipients/kbr-wyle-services-llc.json",
+            "responseSha256": "1d8ebcc8368fd101b6786559ae00b6e59ea33ddaec93da1e2636b3036a79b443",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "KBR WYLE SERVICES, LLC | UEI HYBLSJAMM2F4 | award CONT_AWD_80GSFC19C0013_8000_-NONE-_-NONE- latest action 2026-10-27 | reported parent KBR, INC. (UEI VJ3XVZC76HT9) | award record names the public parent"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     },
     {
       "id": "relationship:kbr-services-llc-0001357615",
@@ -2835,7 +3243,31 @@
         "Effective-from is the earliest reviewed filing, not the formation or acquisition date; continuity between filings is assumed",
         "Exhibit 21.1 lists subsidiaries of the registrant without ownership percentages; no filing passage states wholly owned status",
         "Earlier names (e.g. Wyle Inc., Kellogg Brown & Root Services) are not mapped"
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-10-05",
+        "secEvidenceAsOf": "2026-01-02",
+        "cappedAt": "2027-04-03",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_49100426F0068_4900_49100426D0002_4900",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_49100426F0068_4900_49100426D0002_4900/",
+            "reviewFile": "reviews/recipients/kbr-services-llc.json",
+            "responseSha256": "06f32b3b2a264de6d194e6d7e30b3a4beb7539d7da7cb903b4559c7d3815cf7f",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "KBR SERVICES, LLC | UEI YSQMHRS4HSC5 | award CONT_AWD_49100426F0068_4900_49100426D0002_4900 latest action 2026-10-05 | reported parent KBR, INC. (UEI VJ3XVZC76HT9) | award record names the public parent"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     },
     {
       "id": "relationship:huntington-ingalls-incorporated-0001501585",
@@ -2872,7 +3304,31 @@
         "Latest reviewed relationship evidence is dated 2025-12-31",
         "Effective-from is the earliest reviewed filing, not the formation or acquisition date; continuity between filings is assumed",
         "Operates the Newport News Shipbuilding and Ingalls Shipbuilding divisions"
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-07-15",
+        "secEvidenceAsOf": "2025-12-31",
+        "cappedAt": "2027-04-01",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_N0002416C2116_9700_-NONE-_-NONE-",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_N0002416C2116_9700_-NONE-_-NONE-/",
+            "reviewFile": "reviews/recipients/huntington-ingalls-incorporated.json",
+            "responseSha256": "787de144440c88135f26514dfb90432ef338c74149c320b85f4fdbc7c2914de1",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "HUNTINGTON INGALLS INC | UEI WMXDDH6HJNA5 | award CONT_AWD_N0002416C2116_9700_-NONE-_-NONE- latest action 2026-07-15 | reported parent HUNTINGTON INGALLS INDUSTRIES, INC (UEI F9SDJAZFTLG6) | award record names the public parent"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     },
     {
       "id": "relationship:aerojet-rocketdyne-inc-0000202058",
@@ -2902,7 +3358,31 @@
       "limitations": [
         "Indirect subsidiary: ownership through Aerojet Rocketdyne Holdings, Inc. is inferred from the merger 8-K and the registrant subsidiary listing, not stated for this entity",
         "Latest reviewed relationship evidence is dated 2026-01-02"
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-09-15",
+        "secEvidenceAsOf": "2026-01-02",
+        "cappedAt": "2027-04-03",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_NNC16CA21C_8000_-NONE-_-NONE-",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_NNC16CA21C_8000_-NONE-_-NONE-/",
+            "reviewFile": "reviews/recipients/aerojet-rocketdyne-inc.json",
+            "responseSha256": "34c92c3dd9383c99fcd2286cf9d5f7d52780e99f1ec6c73fa26a4cfd9548cc6a",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "AEROJET ROCKETDYNE, INC. | UEI XSEFW2JFVLW4 | award CONT_AWD_NNC16CA21C_8000_-NONE-_-NONE- latest action 2026-09-15 | reported parent L3HARRIS TECHNOLOGIES, INC (UEI SJULQDJ8NZU7) | award record names the public parent"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     },
     {
       "id": "relationship:aerojet-rocketdyne-of-de-inc-0000202058",
@@ -2932,7 +3412,31 @@
       "limitations": [
         "Indirect subsidiary: ownership through Aerojet Rocketdyne Holdings, Inc. is inferred from the merger 8-K and the registrant subsidiary listing, not stated for this entity",
         "Latest reviewed relationship evidence is dated 2026-01-02"
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-09-25",
+        "secEvidenceAsOf": "2026-01-02",
+        "cappedAt": "2027-04-03",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_NNM16AA02C_8000_-NONE-_-NONE-",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_NNM16AA02C_8000_-NONE-_-NONE-/",
+            "reviewFile": "reviews/recipients/aerojet-rocketdyne-of-de-inc.json",
+            "responseSha256": "d705093486961138826c201470f8b22b60cbc8b3b653e967f7bfd2f25a6a0719",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "AEROJET ROCKETDYNE OF DE, INC | UEI JCZYYYQ7JGF5 | award CONT_AWD_NNM16AA02C_8000_-NONE-_-NONE- latest action 2026-09-25 | reported parent L3HARRIS TECHNOLOGIES, INC (UEI SJULQDJ8NZU7) | award record names the public parent"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     },
     {
       "id": "relationship:bell-textron-inc-0000217346",
@@ -2964,7 +3468,31 @@
         "Continuity between reviewed annual subsidiary listings is assumed, not restated",
         "Effective-from is the earliest reviewed listing, not the formation or acquisition date",
         "Exhibit 21 lists certain subsidiaries only; omitted entities are not evidence of non-ownership"
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-10-23",
+        "secEvidenceAsOf": "2026-01-03",
+        "cappedAt": "2027-04-04",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_15F06726F0001262_1549_15F06724A0000004_1549",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_15F06726F0001262_1549_15F06724A0000004_1549/",
+            "reviewFile": "reviews/recipients/bell-textron-inc.json",
+            "responseSha256": "13fcef88aa9dc5b4e5c1d44ab9bc7fb39ef4234bb01e230c6996d983da3b4eab",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "BELL TEXTRON INC | UEI N5QUZAYGPKM3 | award CONT_AWD_15F06726F0001262_1549_15F06724A0000004_1549 latest action 2026-10-23 | reported parent TEXTRON INC (UEI HKUMGJBEMKN3) | award record names the public parent"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     },
     {
       "id": "relationship:textron-systems-corporation-0000217346",
@@ -2997,7 +3525,31 @@
         "Effective-from is the earliest reviewed listing, not the formation or acquisition date",
         "Exhibit 21 lists certain subsidiaries only; omitted entities are not evidence of non-ownership",
         "The fiscal 2019 Exhibit 21 lists a Delaware Textron Systems Corporation and a Maryland AAI Corporation; from fiscal 2020 only a Maryland Textron Systems Corporation is listed. The apparent AAI rename/merger is not stated in a reviewed filing, so earlier dates are not modeled."
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-09-21",
+        "secEvidenceAsOf": "2026-01-03",
+        "cappedAt": "2027-04-04",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_70Z03826PJ0000027_7008_-NONE-_-NONE-",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_70Z03826PJ0000027_7008_-NONE-_-NONE-/",
+            "reviewFile": "reviews/recipients/textron-systems-corp.json",
+            "responseSha256": "3f1b116aa57f1ef98b2b75fb403e04fe21a1a7f0bcbe1402723644b249443aeb",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "TEXTRON SYSTEMS CORPORATION | UEI SNJ8YY61GB95 | award CONT_AWD_70Z03826PJ0000027_7008_-NONE-_-NONE- latest action 2026-09-21 | reported parent TEXTRON INC (UEI HKUMGJBEMKN3) | award record names the public parent"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     },
     {
       "id": "relationship:textron-aviation-inc-0000217346",
@@ -3029,7 +3581,31 @@
         "Continuity between reviewed annual subsidiary listings is assumed, not restated",
         "Effective-from is the earliest reviewed listing, not the formation or acquisition date",
         "Exhibit 21 lists certain subsidiaries only; omitted entities are not evidence of non-ownership"
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-09-22",
+        "secEvidenceAsOf": "2026-01-03",
+        "cappedAt": "2027-04-04",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_15F06726F0000747_1549_15F06726A0000279_1549",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_15F06726F0000747_1549_15F06726A0000279_1549/",
+            "reviewFile": "reviews/recipients/textron-aviation-inc.json",
+            "responseSha256": "24d9d36883c4fc2db043e61ee579c427d081dd2e7aef366a49f3a1e58e5a5f3b",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "TEXTRON AVIATION INC | UEI LH8RF2CKLWK5 | award CONT_AWD_15F06726F0000747_1549_15F06726A0000279_1549 latest action 2026-09-22 | reported parent TEXTRON INC (UEI HKUMGJBEMKN3) | award record names the public parent"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     },
     {
       "id": "relationship:textron-aviation-defense-llc-0000217346",
@@ -3061,7 +3637,31 @@
         "Continuity between reviewed annual subsidiary listings is assumed, not restated",
         "Effective-from is the earliest reviewed listing, not the formation or acquisition date",
         "Exhibit 21 lists certain subsidiaries only; omitted entities are not evidence of non-ownership"
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-07-21",
+        "secEvidenceAsOf": "2026-01-03",
+        "cappedAt": "2027-04-04",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_FA869124CB005_9700_-NONE-_-NONE-",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA869124CB005_9700_-NONE-_-NONE-/",
+            "reviewFile": "reviews/recipients/textron-aviation-defense-llc.json",
+            "responseSha256": "70844779d584eaaddf2e87914b6aa840895f1a2a96acfd31f872f9bf47f68c86",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "TEXTRON AVIATION DEFENSE LLC | UEI RSCJXUGJNGE3 | award CONT_AWD_FA869124CB005_9700_-NONE-_-NONE- latest action 2026-07-21 | reported parent TEXTRON INC (UEI HKUMGJBEMKN3) | award record names the public parent"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     },
     {
       "id": "relationship:caci-inc-federal-0000016058",
@@ -3092,7 +3692,31 @@
         "Latest reviewed relationship evidence is dated 2026-06-30",
         "Effective-from is the earliest reviewed listing, not the formation or acquisition date; continuity between annual listings is assumed",
         "Exhibit 21.1 lists subsidiaries of the registrant without ownership percentages; Note 1 (fiscal 2019) describes “wholly-owned subsidiaries and joint ventures that are majority owned or otherwise controlled” without naming this entity"
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-10-28",
+        "secEvidenceAsOf": "2026-06-30",
+        "cappedAt": "2027-09-29",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_47QFRA24F0005_4732_47QTCK18D0009_4732",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_47QFRA24F0005_4732_47QTCK18D0009_4732/",
+            "reviewFile": "reviews/recipients/caci-inc-federal.json",
+            "responseSha256": "8e8dd3f2dc365f3e2b6a055801b388afb13c9444720cd1348bbf227273828204",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "CACI, INC. - FEDERAL | UEI N3PBJAVNKF61 | award CONT_AWD_47QFRA24F0005_4732_47QTCK18D0009_4732 latest action 2026-10-28 | reported parent CACI INTERNATIONAL INC (UEI QSRTXLFKV857) | award record names the public parent"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     },
     {
       "id": "relationship:caci-nss-llc-0000016058",
@@ -3123,7 +3747,31 @@
         "Latest reviewed relationship evidence is dated 2026-06-30",
         "Effective-from is the earliest reviewed listing, not the formation or acquisition date; continuity between annual listings is assumed",
         "Exhibit 21.1 lists subsidiaries of the registrant without ownership percentages; Note 1 (fiscal 2019) describes “wholly-owned subsidiaries and joint ventures that are majority owned or otherwise controlled” without naming this entity"
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-10-27",
+        "secEvidenceAsOf": "2026-06-30",
+        "cappedAt": "2027-09-29",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_1232SA25F0538_12H2_GS35F349CA_4732",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_1232SA25F0538_12H2_GS35F349CA_4732/",
+            "reviewFile": "reviews/recipients/caci-nss-llc.json",
+            "responseSha256": "3fa6516b380a906e886b7003f8686357794c8a702aaa6b3e5696cc09c5a64e47",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "CACI NSS, LLC | UEI EELEC8QCC3N8 | award CONT_AWD_1232SA25F0538_12H2_GS35F349CA_4732 latest action 2026-10-27 | reported parent CACI NSS, LLC (UEI Y9CDLHK3A125) | award record names reviewed intermediate CACI NSS, LLC (relationship:caci-nss-llc-0000016058)"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     },
     {
       "id": "relationship:caci-technologies-llc-0000016058",
@@ -3154,7 +3802,31 @@
         "Latest reviewed relationship evidence is dated 2026-06-30",
         "Effective-from is the earliest reviewed listing, not the formation or acquisition date; continuity between annual listings is assumed",
         "Exhibit 21.1 lists subsidiaries of the registrant without ownership percentages; Note 1 (fiscal 2019) describes “wholly-owned subsidiaries and joint ventures that are majority owned or otherwise controlled” without naming this entity"
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-07-21",
+        "secEvidenceAsOf": "2026-06-30",
+        "cappedAt": "2027-09-29",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_W909MY24F0002_9700_W15P7T19D0157_9700",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W909MY24F0002_9700_W15P7T19D0157_9700/",
+            "reviewFile": "reviews/recipients/caci-technologies-llc.json",
+            "responseSha256": "bcb3bd775801be6e397e45af2e747979fedabddd21783ad32bb69a0b66d8921f",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "CACI TECHNOLOGIES, LLC | UEI NGEEG7KP11V4 | award CONT_AWD_W909MY24F0002_9700_W15P7T19D0157_9700 latest action 2026-07-21 | reported parent CACI INTERNATIONAL INC (UEI QSRTXLFKV857) | award record names the public parent"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     },
     {
       "id": "relationship:caci-enterprise-solutions-llc-0000016058",
@@ -3185,7 +3857,31 @@
         "Latest reviewed relationship evidence is dated 2026-06-30",
         "Effective-from is the earliest reviewed listing, not the formation or acquisition date; continuity between annual listings is assumed",
         "Exhibit 21.1 lists subsidiaries of the registrant without ownership percentages; Note 1 (fiscal 2019) describes “wholly-owned subsidiaries and joint ventures that are majority owned or otherwise controlled” without naming this entity"
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-07-10",
+        "secEvidenceAsOf": "2026-06-30",
+        "cappedAt": "2027-09-29",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_SP470923F0038_9700_SP470917D0009_9700",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SP470923F0038_9700_SP470917D0009_9700/",
+            "reviewFile": "reviews/recipients/caci-enterprise-solutions-llc.json",
+            "responseSha256": "6fbfe7bc82f494e56f6429924ca57a7d4001874fccba2c774240eaba27707849",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "CACI ENTERPRISE SOLUTIONS, LLC | UEI DCGLMVAM4VG5 | award CONT_AWD_SP470923F0038_9700_SP470917D0009_9700 latest action 2026-07-10 | reported parent CACI INTERNATIONAL INC (UEI QSRTXLFKV857) | award record names the public parent"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     },
     {
       "id": "relationship:caci-lgs-innovations-llc-0000016058",
@@ -3233,7 +3929,31 @@
           "lastListed": "2025-06-30",
           "newNameFirstListed": "2026-06-30"
         }
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-07-07",
+        "secEvidenceAsOf": "2026-06-30",
+        "cappedAt": "2027-09-29",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_FA875019C1515_9700_-NONE-_-NONE-",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA875019C1515_9700_-NONE-_-NONE-/",
+            "reviewFile": "reviews/recipients/caci-lgs-innovations-llc.json",
+            "responseSha256": "0b76ad34a39db2385ce72130e68c2bef742f40d86d1536b84210a770d4ef65b2",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "CACI LGS INNOVATIONS LLC | UEI W479FKUUKM96 | award CONT_AWD_FA875019C1515_9700_-NONE-_-NONE- latest action 2026-07-07 | reported parent CACI INTERNATIONAL INC (UEI QSRTXLFKV857) | award record names the public parent"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     },
     {
       "id": "relationship:caci-azure-summit-technology-llc-0000016058",
@@ -3259,7 +3979,31 @@
         "Effective-from is the earliest reviewed listing, not the formation or acquisition date; continuity between annual listings is assumed",
         "Exhibit 21.1 lists subsidiaries of the registrant without ownership percentages; Note 1 (fiscal 2019) describes “wholly-owned subsidiaries and joint ventures that are majority owned or otherwise controlled” without naming this entity",
         "The fiscal 2025 Exhibit 21.1 contains a truncated entry “CACI Azure Summit” with no entity type or state; the full name first appears in the fiscal 2026 listing, so fiscal 2025 is not modeled."
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-07-16",
+        "secEvidenceAsOf": "2026-06-30",
+        "cappedAt": "2027-09-29",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_N0016422FJ037_9700_N0016422DJW52_9700",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_N0016422FJ037_9700_N0016422DJW52_9700/",
+            "reviewFile": "reviews/recipients/caci-azure-summit-technology-llc.json",
+            "responseSha256": "d96a90aa6676cf9a4e19bf84ef0aa6628fa192aa16fdd8c31a09ccfd2ef24d4e",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "CACI AZURE SUMMIT TECHNOLOGY, LLC | UEI P1LMDHFJSYH7 | award CONT_AWD_N0016422FJ037_9700_N0016422DJW52_9700 latest action 2026-07-16 | reported parent CACI INTERNATIONAL INC (UEI QSRTXLFKV857) | award record names the public parent"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     },
     {
       "id": "relationship:parsons-government-services-inc-0000275880",
@@ -3290,7 +4034,31 @@
         "Latest reviewed relationship evidence is dated 2025-12-31",
         "Effective-from is the earliest reviewed listing, not the formation or acquisition date; continuity between annual listings is assumed",
         "Exhibit 21.1 lists subsidiaries of the registrant without ownership percentages; no filing passage states wholly owned status for this entity"
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-10-22",
+        "secEvidenceAsOf": "2025-12-31",
+        "cappedAt": "2027-04-01",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_1305M426F0044_1330_47QRAA19D000A_4732",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_1305M426F0044_1330_47QRAA19D000A_4732/",
+            "reviewFile": "reviews/recipients/parsons-government-services-inc.json",
+            "responseSha256": "baa435596d9c288ecb229041d5670a61a456a3a1ec8e69f0dd0b9e8580d07b5b",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "PARSONS GOVERNMENT SERVICES INC. | UEI NMBCAG1JBKL7 | award CONT_AWD_1305M426F0044_1330_47QRAA19D000A_4732 latest action 2026-10-22 | reported parent PARSONS CORPORATION (UEI FFCMDLMXRK49) | award record names the public parent"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     },
     {
       "id": "relationship:parsons-government-services-international-inc-0000275880",
@@ -3321,7 +4089,31 @@
         "Latest reviewed relationship evidence is dated 2025-12-31",
         "Effective-from is the earliest reviewed listing, not the formation or acquisition date; continuity between annual listings is assumed",
         "Exhibit 21.1 lists subsidiaries of the registrant without ownership percentages; no filing passage states wholly owned status for this entity"
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-09-29",
+        "secEvidenceAsOf": "2025-12-31",
+        "cappedAt": "2027-04-01",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_89233124FNA400648_8900_89233124DNA000055_8900",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_89233124FNA400648_8900_89233124DNA000055_8900/",
+            "reviewFile": "reviews/recipients/parsons-government-services-international-inc.json",
+            "responseSha256": "b445c6d77c38e2ea9bc9cd781c090ad9c38490c8270a712c6ff2905897a77155",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "PARSONS GOVERNMENT SERVICES INTERNATIONAL INC. | UEI E8E4EKJKKJW7 | award CONT_AWD_89233124FNA400648_8900_89233124DNA000055_8900 latest action 2026-09-29 | reported parent PARSONS CORPORATION (UEI FFCMDLMXRK49) | award record names the public parent"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     },
     {
       "id": "relationship:williams-electric-co-inc-0000275880",
@@ -3352,7 +4144,31 @@
         "Latest reviewed relationship evidence is dated 2025-12-31",
         "Effective-from is the earliest reviewed listing, not the formation or acquisition date; continuity between annual listings is assumed",
         "Exhibit 21.1 lists subsidiaries of the registrant without ownership percentages; no filing passage states wholly owned status for this entity"
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-09-29",
+        "secEvidenceAsOf": "2025-12-31",
+        "cappedAt": "2027-04-01",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_15M10625FA47NSA01_1544_15M10624AA47NS01A_1544",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_15M10625FA47NSA01_1544_15M10624AA47NS01A_1544/",
+            "reviewFile": "reviews/recipients/williams-electric-co-inc.json",
+            "responseSha256": "25d3442bfbc7fc779d0f767f11c5fba0c84e9933a88ef80a8f974a489051577a",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "WILLIAMS ELECTRIC CO INC | UEI MDCEZKWF2M73 | award CONT_AWD_15M10625FA47NSA01_1544_15M10624AA47NS01A_1544 latest action 2026-09-29 | reported parent PARSONS CORPORATION (UEI FFCMDLMXRK49) | award record names the public parent"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     },
     {
       "id": "relationship:parsons-technical-services-inc-0000275880",
@@ -3383,7 +4199,31 @@
         "Latest reviewed relationship evidence is dated 2025-12-31",
         "Effective-from is the earliest reviewed listing, not the formation or acquisition date; continuity between annual listings is assumed",
         "Exhibit 21.1 lists subsidiaries of the registrant without ownership percentages; no filing passage states wholly owned status for this entity"
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-04-18",
+        "secEvidenceAsOf": "2025-12-31",
+        "cappedAt": "2027-04-01",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_FA881020C0002_9700_-NONE-_-NONE-",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA881020C0002_9700_-NONE-_-NONE-/",
+            "reviewFile": "reviews/recipients/parsons-technical-services-inc.json",
+            "responseSha256": "09db2033781580ceccb71ab0dae8193832b016a9201b9bb5d1bc8a81a225d7e9",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "PARSONS TECHNICAL SERVICES INC | UEI HJ8PBEJHM4P3 | award CONT_AWD_FA881020C0002_9700_-NONE-_-NONE- latest action 2026-04-18 | reported parent PARSONS CORPORATION (UEI FFCMDLMXRK49) | award record names the public parent"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     },
     {
       "id": "relationship:space-ground-system-solutions-inc-0000275880",
@@ -3414,7 +4254,31 @@
         "Latest reviewed relationship evidence is dated 2025-12-31",
         "Effective-from is the earliest reviewed listing, not the formation or acquisition date; continuity between annual listings is assumed",
         "Exhibit 21.1 lists subsidiaries of the registrant without ownership percentages; no filing passage states wholly owned status for this entity"
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-07-09",
+        "secEvidenceAsOf": "2025-12-31",
+        "cappedAt": "2027-04-01",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_N0017320C2021_9700_-NONE-_-NONE-",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_N0017320C2021_9700_-NONE-_-NONE-/",
+            "reviewFile": "reviews/recipients/space-ground-system-solutions-inc.json",
+            "responseSha256": "c5bfbc0dc9fb3703e64b8d11c871bb308c2c7d99736bc02ff3ccb1e33e640a17",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "SPACE GROUND SYSTEM SOLUTIONS, INC. | UEI H3RFVAELHB73 | award CONT_AWD_N0017320C2021_9700_-NONE-_-NONE- latest action 2026-07-09 | reported parent PARSONS CORPORATION (UEI FFCMDLMXRK49) | award record names the public parent"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     },
     {
       "id": "relationship:xator-llc-0000275880",
@@ -3446,7 +4310,31 @@
         "Effective-from is the earliest reviewed listing, not the formation or acquisition date; continuity between annual listings is assumed",
         "Exhibit 21.1 lists subsidiaries of the registrant without ownership percentages; no filing passage states wholly owned status for this entity",
         "The fiscal 2022 Form 10-K describes “Xator Corporation, which we acquired on May 31, 2022” as “a wholly owned subsidiary”; that passage does not name Xator LLC, so neither the acquisition date nor wholly owned status is applied to this entity"
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-09-29",
+        "secEvidenceAsOf": "2025-12-31",
+        "cappedAt": "2027-04-01",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_19AQMM20C0016_1900_-NONE-_-NONE-",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_19AQMM20C0016_1900_-NONE-_-NONE-/",
+            "reviewFile": "reviews/recipients/xator-llc.json",
+            "responseSha256": "cd0d5c64b6cffa078b96d5ea481a461c03b0f0a12c2e2f340fbad5d84d3d7ebf",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "XATOR LLC | UEI ZJFDNMA46LT9 | award CONT_AWD_19AQMM20C0016_1900_-NONE-_-NONE- latest action 2026-09-29 | reported parent PARSONS CORPORATION (UEI FFCMDLMXRK49) | award record names the public parent"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     },
     {
       "id": "relationship:nuclear-fuel-services-inc-0001486957",
@@ -3478,7 +4366,31 @@
         "Continuity between reviewed annual subsidiary listings is assumed, not restated",
         "Effective-from is the earliest reviewed listing, not the formation or acquisition date",
         "Exhibit 21.1 lists significant subsidiaries only; omitted entities are not evidence of non-ownership"
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-08-11",
+        "secEvidenceAsOf": "2025-12-31",
+        "cappedAt": "2027-04-01",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_89233123CNA000308_8900_-NONE-_-NONE-",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_89233123CNA000308_8900_-NONE-_-NONE-/",
+            "reviewFile": "reviews/recipients/nuclear-fuel-services-inc.json",
+            "responseSha256": "aafa40a2a9bbb33fa279e39811dc219cb70099d152d5a29bcb8e609dd0aa5a71",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "NUCLEAR FUEL SERVICES INC | UEI SMJQJGD5JEJ3 | award CONT_AWD_89233123CNA000308_8900_-NONE-_-NONE- latest action 2026-08-11 | reported parent BWX TECHNOLOGIES, INC. (UEI CMT4S6G76QB5) | award record names the public parent"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     },
     {
       "id": "relationship:bwxt-nuclear-operations-group-inc-0001486957",
@@ -3510,7 +4422,31 @@
         "Continuity between reviewed annual subsidiary listings is assumed, not restated",
         "Effective-from is the earliest reviewed listing, not the formation or acquisition date",
         "Exhibit 21.1 lists significant subsidiaries only; omitted entities are not evidence of non-ownership"
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-09-16",
+        "secEvidenceAsOf": "2025-12-31",
+        "cappedAt": "2027-04-01",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_89233123FNA400535_8900_89233120DNA000025_8900",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_89233123FNA400535_8900_89233120DNA000025_8900/",
+            "reviewFile": "reviews/recipients/bwxt-nuclear-operations-group-inc.json",
+            "responseSha256": "0793097067bf88ed8805a0f9f9c442d6d11de5a866e7fa25384cc9882d008461",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "BWXT NUCLEAR OPERATIONS GROUP, INC. | UEI WJYVCPD5HKK7 | award CONT_AWD_89233123FNA400535_8900_89233120DNA000025_8900 latest action 2026-09-16 | reported parent BWX TECHNOLOGIES, INC. (UEI CMT4S6G76QB5) | award record names the public parent"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     },
     {
       "id": "relationship:bwxt-technical-services-group-inc-0001486957",
@@ -3542,7 +4478,31 @@
         "Continuity between reviewed annual subsidiary listings is assumed, not restated",
         "Effective-from is the earliest reviewed listing, not the formation or acquisition date",
         "Exhibit 21.1 lists significant subsidiaries only; omitted entities are not evidence of non-ownership"
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-07-15",
+        "secEvidenceAsOf": "2025-12-31",
+        "cappedAt": "2027-04-01",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_HQ085926FF258_9700_HQ085926DF017_9700",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_HQ085926FF258_9700_HQ085926DF017_9700/",
+            "reviewFile": "reviews/recipients/bwxt-technical-services-group-inc.json",
+            "responseSha256": "c12b4d09aa537a22db93b75f3b69d7dfd054631b86cca3e12db511f079ddd0e1",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "BWXT TECHNICAL SERVICES GROUP INC | UEI PZDQCRZW7GJ3 | award CONT_AWD_HQ085926FF258_9700_HQ085926DF017_9700 latest action 2026-07-15 | reported parent BWX TECHNOLOGIES, INC. (UEI CMT4S6G76QB5) | award record names the public parent"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     },
     {
       "id": "relationship:curtiss-wright-electro-mechanical-corporation-0000026324",
@@ -3575,7 +4535,31 @@
         "Effective-from is the earliest reviewed listing, not the formation or acquisition date",
         "Exhibit 21 lists significant subsidiaries only; omitted entities are not evidence of non-ownership",
         "The fiscal 2024 Exhibit 21 omits this entity although the fiscal 2019–2023 and 2025 lists include it; the exhibit states omitted subsidiaries are not significant, so the omission is not treated as a change in ownership"
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-07-02",
+        "secEvidenceAsOf": "2025-12-31",
+        "cappedAt": "2027-04-01",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_N0010424CZA11_9700_-NONE-_-NONE-",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_N0010424CZA11_9700_-NONE-_-NONE-/",
+            "reviewFile": "reviews/recipients/curtiss-wright-electro-mechanical-corporation.json",
+            "responseSha256": "d4da1f15ba72fcb611bb13c306579096ade998a33b8cabf3b49973b8dc530603",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "CURTISS-WRIGHT ELECTRO-MECHANICAL CORPORATION | UEI JKZNKGGWYZ87 | award CONT_AWD_N0010424CZA11_9700_-NONE-_-NONE- latest action 2026-07-02 | reported parent CURTISS-WRIGHT FLOW CONTROL SERVICE, LLC (UEI J9V9SJL4CW97) | award record names reviewed intermediate CURTISS-WRIGHT FLOW CONTROL SERVICE, LLC (relationship:curtiss-wright-flow-control-service-llc-0000026324)"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     },
     {
       "id": "relationship:curtiss-wright-controls-inc-0000026324",
@@ -3608,7 +4592,31 @@
         "Effective-from is the earliest reviewed listing, not the formation or acquisition date",
         "Exhibit 21 lists significant subsidiaries only; omitted entities are not evidence of non-ownership",
         "Exhibit 21 spells the name without a hyphen or comma; the bound USAspending record reads CURTISS-WRIGHT CONTROLS, INC."
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-02-02",
+        "secEvidenceAsOf": "2025-12-31",
+        "cappedAt": "2027-04-01",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_N0038319CN030_9700_-NONE-_-NONE-",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_N0038319CN030_9700_-NONE-_-NONE-/",
+            "reviewFile": "reviews/recipients/curtiss-wright-controls-inc.json",
+            "responseSha256": "a570337ae8184c21c617e53b197ca657765c9a30c673419c4ac055462859f68f",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "CURTISS-WRIGHT CONTROLS, INC. | UEI N257NEGSDQJ9 | award CONT_AWD_N0038319CN030_9700_-NONE-_-NONE- latest action 2026-02-02 | reported parent CURTISS-WRIGHT CORPORATION (UEI PF8PJNVEPTJ1) | award record names the public parent"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     },
     {
       "id": "relationship:v2x-systems-llc-0001601548",
@@ -3656,7 +4664,31 @@
           "lastListed": "2024-12-31",
           "newNameFirstListed": "2025-12-31"
         }
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-10-26",
+        "secEvidenceAsOf": "2025-12-31",
+        "cappedAt": "2027-04-01",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_15JPSS26C00000450_1501_-NONE-_-NONE-",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_15JPSS26C00000450_1501_-NONE-_-NONE-/",
+            "reviewFile": "reviews/recipients/v2x-systems-llc.json",
+            "responseSha256": "db094e23d6f8864335d00f9c91bbdee53fedfc87adf3df11b70e08359f3b8ece",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "V2X SYSTEMS LLC | UEI RRFJZGASZJ41 | award CONT_AWD_15JPSS26C00000450_1501_-NONE-_-NONE- latest action 2026-10-26 | reported parent V2X, INC. (UEI CG8SV4246V29) | award record names the public parent"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     },
     {
       "id": "relationship:amentum-services-inc-0002011286",
@@ -3681,7 +4713,31 @@
         "Latest reviewed relationship evidence is dated 2025-10-03",
         "Exhibit 21.1 lists subsidiaries without ownership percentages; no filing passage states wholly owned status for this entity",
         "The fiscal 2024 Exhibit 21.1 is titled “Expected Subsidiaries of Combined Co Immediately Following the Merger”, a forward-looking list, so the relationship starts at the fiscal 2025 listing rather than the 2024-09-27 merger"
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-10-28",
+        "secEvidenceAsOf": "2025-10-03",
+        "cappedAt": "2027-01-02",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_80KSC024F0033_8000_80KSC020D0008_8000",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_80KSC024F0033_8000_80KSC020D0008_8000/",
+            "reviewFile": "reviews/recipients/amentum-services-inc.json",
+            "responseSha256": "816b37083d8574a634bb5fdbd092e6e82016e149455da5160718026c7c50e4c7",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "AMENTUM SERVICES, INC. | UEI QEMLRQA7PLG4 | award CONT_AWD_80KSC024F0033_8000_80KSC020D0008_8000 latest action 2026-10-28 | reported parent AMENTUM HOLDINGS INC. (UEI TU4KCXMM9AP6) | award record names the public parent"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     },
     {
       "id": "relationship:amentum-technology-inc-0002011286",
@@ -3706,7 +4762,31 @@
         "Latest reviewed relationship evidence is dated 2025-10-03",
         "Exhibit 21.1 lists subsidiaries without ownership percentages; no filing passage states wholly owned status for this entity",
         "The fiscal 2024 Exhibit 21.1 is titled “Expected Subsidiaries of Combined Co Immediately Following the Merger”, a forward-looking list, so the relationship starts at the fiscal 2025 listing rather than the 2024-09-27 merger"
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-10-23",
+        "secEvidenceAsOf": "2025-10-03",
+        "cappedAt": "2027-01-02",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_80ARC026FA012_8000_80ARC022DA011_8000",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_80ARC026FA012_8000_80ARC022DA011_8000/",
+            "reviewFile": "reviews/recipients/amentum-technology-inc.json",
+            "responseSha256": "2ec87986bc2a771846546c0ad15db62d6601cf2bc3dcf22c009e34d3f6c373da",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "AMENTUM TECHNOLOGY, INC. | UEI K8QPQLGTRM33 | award CONT_AWD_80ARC026FA012_8000_80ARC022DA011_8000 latest action 2026-10-23 | reported parent AMENTUM HOLDINGS INC. (UEI TU4KCXMM9AP6) | award record names the public parent"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     },
     {
       "id": "relationship:amentum-environment-energy-inc-0002011286",
@@ -3731,7 +4811,31 @@
         "Latest reviewed relationship evidence is dated 2025-10-03",
         "Exhibit 21.1 lists subsidiaries without ownership percentages; no filing passage states wholly owned status for this entity",
         "The fiscal 2024 Exhibit 21.1 is titled “Expected Subsidiaries of Combined Co Immediately Following the Merger”, a forward-looking list, so the relationship starts at the fiscal 2025 listing rather than the 2024-09-27 merger"
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-10-19",
+        "secEvidenceAsOf": "2025-10-03",
+        "cappedAt": "2027-01-02",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_692M1525F00003_6920_692M1521D00005_6920",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_692M1525F00003_6920_692M1521D00005_6920/",
+            "reviewFile": "reviews/recipients/amentum-environment-energy-inc.json",
+            "responseSha256": "20a6525672a76708592b6bb9dfef48ea195bba4f89c425ca59503ea5d8b4751b",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "AMENTUM ENVIRONMENT & ENERGY, INC. | UEI EPJXJJAXYF38 | award CONT_AWD_692M1525F00003_6920_692M1521D00005_6920 latest action 2026-10-19 | reported parent AMENTUM HOLDINGS INC. (UEI TU4KCXMM9AP6) | award record names the public parent"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     },
     {
       "id": "relationship:pae-government-services-inc-0002011286",
@@ -3756,7 +4860,31 @@
         "Latest reviewed relationship evidence is dated 2025-10-03",
         "Exhibit 21.1 lists subsidiaries without ownership percentages; no filing passage states wholly owned status for this entity",
         "The fiscal 2024 Exhibit 21.1 is titled “Expected Subsidiaries of Combined Co Immediately Following the Merger”, a forward-looking list, so the relationship starts at the fiscal 2025 listing rather than the 2024-09-27 merger"
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-10-28",
+        "secEvidenceAsOf": "2025-10-03",
+        "cappedAt": "2027-01-02",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_15JPSS26F00001094_1501_15JPSS20D00000035_1501",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_15JPSS26F00001094_1501_15JPSS20D00000035_1501/",
+            "reviewFile": "reviews/recipients/pae-government-services-inc.json",
+            "responseSha256": "85db3c1fead5ce43053ffed9980502c89afbb880b5d4a3730baae7c45494864c",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "PAE GOVERNMENT SERVICES, INC. | UEI JENBF1KKWZ93 | award CONT_AWD_15JPSS26F00001094_1501_15JPSS20D00000035_1501 latest action 2026-10-28 | reported parent AMENTUM HOLDINGS INC. (UEI TU4KCXMM9AP6) | award record names the public parent"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     },
     {
       "id": "relationship:pae-applied-technologies-llc-0002011286",
@@ -3781,7 +4909,31 @@
         "Latest reviewed relationship evidence is dated 2025-10-03",
         "Exhibit 21.1 lists subsidiaries without ownership percentages; no filing passage states wholly owned status for this entity",
         "The fiscal 2024 Exhibit 21.1 is titled “Expected Subsidiaries of Combined Co Immediately Following the Merger”, a forward-looking list, so the relationship starts at the fiscal 2025 listing rather than the 2024-09-27 merger"
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-06-29",
+        "secEvidenceAsOf": "2025-10-03",
+        "cappedAt": "2027-01-02",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_FA489024F0102_9700_FA489023D0007_9700",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA489024F0102_9700_FA489023D0007_9700/",
+            "reviewFile": "reviews/recipients/pae-applied-technologies-llc.json",
+            "responseSha256": "c3053053ccdc853279051c4d7a53518a957144e78c502256ae666137ce7ba540",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "PAE APPLIED TECHNOLOGIES LLC | UEI K55GHE7FCEF5 | award CONT_AWD_FA489024F0102_9700_FA489023D0007_9700 latest action 2026-06-29 | reported parent AMENTUM HOLDINGS INC. (UEI TU4KCXMM9AP6) | award record names the public parent"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     },
     {
       "id": "relationship:dyncorp-international-llc-0002011286",
@@ -3806,7 +4958,31 @@
         "Latest reviewed relationship evidence is dated 2025-10-03",
         "Exhibit 21.1 lists subsidiaries without ownership percentages; no filing passage states wholly owned status for this entity",
         "The fiscal 2024 Exhibit 21.1 is titled “Expected Subsidiaries of Combined Co Immediately Following the Merger”, a forward-looking list, so the relationship starts at the fiscal 2025 listing rather than the 2024-09-27 merger"
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-07-16",
+        "secEvidenceAsOf": "2025-10-03",
+        "cappedAt": "2027-01-02",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_FA805119FA011_9700_FA805115D0008_9700",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA805119FA011_9700_FA805115D0008_9700/",
+            "reviewFile": "reviews/recipients/dyncorp-international-llc.json",
+            "responseSha256": "50503a67fe191a4a34967f6dbacb02d91d8976ea4e4048474f6b034024535f43",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "DYNCORP INTERNATIONAL LLC | UEI ML6KL68PHMK3 | award CONT_AWD_FA805119FA011_9700_FA805115D0008_9700 latest action 2026-07-16 | reported parent AMENTUM HOLDINGS INC. (UEI TU4KCXMM9AP6) | award record names the public parent"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     },
     {
       "id": "relationship:urs-federal-services-international-inc-0002011286",
@@ -3831,7 +5007,31 @@
         "Latest reviewed relationship evidence is dated 2025-10-03",
         "Exhibit 21.1 lists subsidiaries without ownership percentages; no filing passage states wholly owned status for this entity",
         "The fiscal 2024 Exhibit 21.1 is titled “Expected Subsidiaries of Combined Co Immediately Following the Merger”, a forward-looking list, so the relationship starts at the fiscal 2025 listing rather than the 2024-09-27 merger"
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-06-09",
+        "secEvidenceAsOf": "2025-10-03",
+        "cappedAt": "2027-01-02",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_HDTRA125FE022_9700_HDTRA118D0005_9700",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_HDTRA125FE022_9700_HDTRA118D0005_9700/",
+            "reviewFile": "reviews/recipients/urs-federal-services-international-inc.json",
+            "responseSha256": "7864d3a6343dc446dd8d4afff456c05c2bd0ade9720f5a0d63d397c5bbf50079",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "URS FEDERAL SERVICES INTERNATIONAL, INC | UEI QKXCUBQF9NT9 | award CONT_AWD_HDTRA125FE022_9700_HDTRA118D0005_9700 latest action 2026-06-09 | reported parent AMENTUM HOLDINGS INC. (UEI TU4KCXMM9AP6) | award record names the public parent"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     },
     {
       "id": "relationship:kratos-defense-rocket-support-services-inc-0001069258",
@@ -3862,7 +5062,31 @@
         "Latest reviewed relationship evidence is dated 2025-12-28",
         "Effective-from is the earliest reviewed listing, not the formation or acquisition date; continuity between annual listings is assumed",
         "Exhibit 21.1 marks only partially owned subsidiaries with a percentage; this entity is unmarked, and no filing passage states wholly owned status"
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-07-20",
+        "secEvidenceAsOf": "2025-12-28",
+        "cappedAt": "2027-03-29",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_HQ085926FF219_9700_HQ085926DE111_9700",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_HQ085926FF219_9700_HQ085926DE111_9700/",
+            "reviewFile": "reviews/recipients/kratos-defense-rocket-support-services-inc.json",
+            "responseSha256": "4daeae4280b0f19c3b8355f9f68d50dc1f2ebf4e61d8ddf615f55adfb873df79",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "KRATOS DEFENSE & ROCKET SUPPORT SERVICES, INC. | UEI XF6AHNQFTXU5 | award CONT_AWD_HQ085926FF219_9700_HQ085926DE111_9700 latest action 2026-07-20 | reported parent KRATOS DEFENSE & SECURITY SOLUTIONS, INC. (UEI V1Q4EJF67641) | award record names the public parent"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     },
     {
       "id": "relationship:florida-turbine-technologies-inc-0001069258",
@@ -3894,7 +5118,31 @@
         "Effective-from is the earliest reviewed listing, not the formation or acquisition date; continuity between annual listings is assumed",
         "Exhibit 21.1 marks only partially owned subsidiaries with a percentage; this entity is unmarked, and no filing passage states wholly owned status",
         "The fiscal 2020 and 2021 Exhibit 21.1 mark this entity “80.1% owned by Kratos Defense & Security Solutions”; from fiscal 2022 no percentage is marked, which does not itself state full ownership, so the relationship starts at the fiscal 2022 listing"
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-07-15",
+        "secEvidenceAsOf": "2025-12-28",
+        "cappedAt": "2027-03-29",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_FA865021F2006_9700_FA865019D2056_9700",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA865021F2006_9700_FA865019D2056_9700/",
+            "reviewFile": "reviews/recipients/florida-turbine-technologies-inc.json",
+            "responseSha256": "c2e1609afb94173459c466e05dfcaac6bd948516c93bd0c9c4d755fcc6b2babe",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "FLORIDA TURBINE TECHNOLOGIES, INC. | UEI EJ5QQHF7B1P6 | award CONT_AWD_FA865021F2006_9700_FA865019D2056_9700 latest action 2026-07-15 | reported parent KRATOS DEFENSE & SECURITY SOLUTIONS, INC. (UEI V1Q4EJF67641) | award record names the public parent"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     },
     {
       "id": "relationship:kratos-microwave-inc-0001069258",
@@ -3925,7 +5173,31 @@
         "Latest reviewed relationship evidence is dated 2025-12-28",
         "Effective-from is the earliest reviewed listing, not the formation or acquisition date; continuity between annual listings is assumed",
         "Exhibit 21.1 marks only partially owned subsidiaries with a percentage; this entity is unmarked, and no filing passage states wholly owned status"
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-06-10",
+        "secEvidenceAsOf": "2025-12-28",
+        "cappedAt": "2027-03-29",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_SPRMM126PMC26_9700_-NONE-_-NONE-",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPRMM126PMC26_9700_-NONE-_-NONE-/",
+            "reviewFile": "reviews/recipients/kratos-microwave-inc.json",
+            "responseSha256": "f13649e448328b0b6cb116f34200c9f273aee89c03b43b6ad4e6b22e2564f710",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "KRATOS MICROWAVE, INC. | UEI PL89EHJU9KE4 | award CONT_AWD_SPRMM126PMC26_9700_-NONE-_-NONE- latest action 2026-06-10 | reported parent KRATOS DEFENSE & SECURITY SOLUTIONS, INC. (UEI V1Q4EJF67641) | award record names the public parent"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     },
     {
       "id": "relationship:mercury-mission-systems-llc-0001049521",
@@ -3956,7 +5228,31 @@
         "Latest reviewed relationship evidence is dated 2026-07-03",
         "Effective-from is the earliest reviewed listing, not the formation or acquisition date; continuity between annual listings is assumed",
         "Exhibit 21.1 lists subsidiaries without ownership percentages; no filing passage states wholly owned status for this entity"
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-07-23",
+        "secEvidenceAsOf": "2026-07-03",
+        "cappedAt": "2027-10-02",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_SPE4A726P7192_9700_-NONE-_-NONE-",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE4A726P7192_9700_-NONE-_-NONE-/",
+            "reviewFile": "reviews/recipients/mercury-mission-systems-llc.json",
+            "responseSha256": "423e038e7102eeb7e8adf99472bb10f01388a1fd0f2bf7d2524addad24ca5856",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "MERCURY MISSION SYSTEMS LLC | UEI GELNG3K35FA5 | award CONT_AWD_SPE4A726P7192_9700_-NONE-_-NONE- latest action 2026-07-23 | reported parent MERCURY SYSTEMS INC (UEI J51ULX3CNCZ4) | award record names the public parent"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     },
     {
       "id": "relationship:curtiss-wright-flow-control-corporation-0000026324",
@@ -3988,7 +5284,31 @@
         "Continuity between reviewed annual subsidiary listings is assumed, not restated",
         "Effective-from is the earliest reviewed listing, not the formation or acquisition date",
         "Exhibit 21 lists significant subsidiaries only; omitted entities are not evidence of non-ownership"
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-07-09",
+        "secEvidenceAsOf": "2025-12-31",
+        "cappedAt": "2027-04-01",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_SPE7L126P6098_9700_-NONE-_-NONE-",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SPE7L126P6098_9700_-NONE-_-NONE-/",
+            "reviewFile": "reviews/recipients/curtiss-wright-flow-control-corporation.json",
+            "responseSha256": "51dcb8cc38365a58a989957fe32470a33dcd3d87c7cddfa3c0f9b05b8c6d2f81",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "CURTISS-WRIGHT FLOW CONTROL CORPORATION | UEI NYGUEDY27AM8 | award CONT_AWD_SPE7L126P6098_9700_-NONE-_-NONE- latest action 2026-07-09 | reported parent CURTISS-WRIGHT FLOW CONTROL SERVICE, LLC (UEI J9V9SJL4CW97) | award record names reviewed intermediate CURTISS-WRIGHT FLOW CONTROL SERVICE, LLC (relationship:curtiss-wright-flow-control-service-llc-0000026324)"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     },
     {
       "id": "relationship:curtiss-wright-flow-control-service-llc-0000026324",
@@ -4051,7 +5371,31 @@
         "Latest reviewed relationship evidence is dated 2025-12-31",
         "Effective-from is the earliest reviewed listing, not the formation or acquisition date; continuity between annual listings is assumed",
         "Ownership percentage is stated as 100% in the fiscal 2018–2023 Exhibit 21.1; the fiscal 2024 and 2025 lists carry no percentage column, and continuity of full ownership is assumed"
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-10-28",
+        "secEvidenceAsOf": "2025-12-31",
+        "cappedAt": "2027-04-01",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_47QFWA25F0010_4732_47QFCA22D0401_4732",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_47QFWA25F0010_4732_47QFCA22D0401_4732/",
+            "reviewFile": "reviews/recipients/hii-mission-technologies-corp.json",
+            "responseSha256": "75adc2df3b9a4d0ccbad8798579d94d9ec061a0f9e5beac6742006b440616007",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "HII MISSION TECHNOLOGIES CORP | UEI G5H7HWC4L2R5 | award CONT_AWD_47QFWA25F0010_4732_47QFCA22D0401_4732 latest action 2026-10-28 | reported parent HUNTINGTON INGALLS INDUSTRIES, INC (UEI F9SDJAZFTLG6) | award record names the public parent"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     },
     {
       "id": "relationship:hii-technical-solutions-corporation-0001501585",
@@ -4082,7 +5426,31 @@
         "Latest reviewed relationship evidence is dated 2025-12-31",
         "Effective-from is the earliest reviewed listing, not the formation or acquisition date; continuity between annual listings is assumed",
         "Ownership percentage is stated as 100% in the fiscal 2018–2023 Exhibit 21.1; the fiscal 2024 and 2025 lists carry no percentage column, and continuity of full ownership is assumed"
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-07-12",
+        "secEvidenceAsOf": "2025-12-31",
+        "cappedAt": "2027-04-01",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_N0017825F3002_9700_N0017819D7772_9700",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_N0017825F3002_9700_N0017819D7772_9700/",
+            "reviewFile": "reviews/recipients/hii-technical-solutions-corporation.json",
+            "responseSha256": "97f63749ba9732ec3ee71ef0aa441f7ad4290226bd279e7ab7e5e9944981c638",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "HII TECHNICAL SOLUTIONS CORPORATION | UEI C17YSNK69P77 | award CONT_AWD_N0017825F3002_9700_N0017819D7772_9700 latest action 2026-07-12 | reported parent HUNTINGTON INGALLS INDUSTRIES, INC (UEI F9SDJAZFTLG6) | award record names the public parent"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     },
     {
       "id": "relationship:hii-fleet-support-group-llc-0001501585",
@@ -4139,7 +5507,31 @@
         "Effective-from is the earliest reviewed listing, not the formation or acquisition date; continuity between annual listings is assumed",
         "Exhibit 21.1 for fiscal 2025 carries no ownership percentage; no filing passage states wholly owned status for this entity",
         "Listed as “Enlighten IT Consulting LLC” (Maryland, 100%) in the fiscal 2021–2024 Exhibit 21.1; the change to “Enlighten, LLC” is not a brand rename under the corroboration rules, so the relationship starts at the fiscal 2025 listing"
-      ]
+      ],
+      "continuation": {
+        "basis": "government_record_continuation",
+        "through": "2026-07-22",
+        "secEvidenceAsOf": "2025-12-31",
+        "cappedAt": "2027-04-01",
+        "capped": false,
+        "reviewedAt": "2026-11-02",
+        "reviewer": "Claude (automated-assisted), approved rule 2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.usaspending.gov/award/CONT_AWD_FA830725CB009_9700_-NONE-_-NONE-",
+            "apiUrl": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA830725CB009_9700_-NONE-_-NONE-/",
+            "reviewFile": "reviews/recipients/enlighten-llc.json",
+            "responseSha256": "d7773c4880748486ac2fd41a99c104dcaabf2bb5f7df12927ab98eba85d646ae",
+            "section": "USAspending award record, latest contract action",
+            "supportingPassage": "ENLIGHTEN, LLC | UEI R1V7DQ3VKQP5 | award CONT_AWD_FA830725CB009_9700_-NONE-_-NONE- latest action 2026-07-22 | reported parent HUNTINGTON INGALLS INDUSTRIES, INC (UEI F9SDJAZFTLG6) | award record names the public parent"
+          }
+        ],
+        "limitations": [
+          "Government award records report the SAM registration parent at the time of the action; they are not an SEC ownership disclosure",
+          "A divestiture or reorganization after the last Exhibit 21 that the award record does not yet reflect would not be detected",
+          "Extension is capped at 456 days after the last Exhibit 21; a new annual filing is then required"
+        ]
+      }
     }
   ],
   "identifierBindings": [
