@@ -1,3 +1,35 @@
+# Contract Sentinel — phase plan (current, 2026-11-02)
+
+Builds on DEVELOPMENT-INSTRUCTIONS.md (the governing spec) and IMPLEMENTATION-CHECKLIST.md (progress). Phase 0 is complete; Phase 1 lacks the measured benchmark and full identity coverage (20 of the 30–50 parent target). The historical v0.7 plan follows below.
+
+## Phase A — use the identity graph
+- **A1 Contractor revenue pulse.** Monthly federal obligations per public parent across all bound UEIs (point-in-time resolution), trailing 12 months vs prior 12, and as a share of reviewed annual revenue. Per-ticker view. Spec: company-level funding histories.
+- **A2 DoD daily contract announcements** (defense.gov, ~5 pm ET, awards ≥ $7.5M). Names are unverified leads until the contract number resolves to a federal record with a recipient UEI; measure publication-to-ingestion lag.
+- **A3 Materiality-first identity expansion.** Small/mid caps where single awards are material (AeroVironment, Rocket Lab, Redwire, BlackSky, Planet, Palantir, Karman, Intuitive Machines; Leonardo DRS pending decision), toward 30–50 parents.
+
+## Phase B — prove quality (spec 1.8)
+Hand-labelled ~200-event benchmark with measured precision, recall and entity accuracy; measured duplicate/syndication accuracy, then automatic duplicate-alert suppression. Results published in benchmarks/. Gate for the beta.
+
+## Phase C — differentiated research
+Recompete calendar (bound awards approaching potential end date; revenue at risk per parent over 6/12/24 months); GAO bid-protest monitor joined to bound contractors; negative-development feed (deobligations, terminations, stop-work); prototype-to-production tracker (SBIR/OTA → production); program dossiers.
+
+## Phase D — private beta
+Authentication and user isolation, hosted database and backups, email/Telegram alert delivery, 10–20 analyst/investor users whose feedback orders Phase C.
+
+## Phase E — point-in-time evaluation (spec Phase 6)
+Event study on frozen detection timestamps with licensed market data, out of sample and with realistic costs. No claims of an edge before this.
+
+## Expansion candidates
+1. Subaward supplier graph: smaller listed suppliers under prime programs.
+2. Budget-to-contract pipeline: budget justification documents and NDAA/appropriations marks → programs → tickers.
+3. Beyond defense: NASA, DOE, DHS and BARDA (material for small biotechs), reusing the identity system.
+4. Foreign Military Sales: DSCA congressional notifications mapped to primes.
+5. Data product: the UEI→ticker graph and revenue pulse as a B2B dataset/API.
+
+**Order:** A1 → A2 → B → A3 (alongside B) → C (recompete and protests first) → D → E; expansions 1 and 3 after B. Guardrails unchanged: research leads, not trade signals; source permissions verified; no paid services without approval.
+
+---
+
 > Historical plan/milestone. See README.md and IMPLEMENTATION-CHECKLIST.md for current behavior.
 
 # Contract Sentinel — implementation plan
